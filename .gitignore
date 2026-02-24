@@ -1,0 +1,25 @@
+# Binary / APK
+*.apk
+*.bin
+*.zip
+
+# Excel
+*.xlsx
+~$*
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# IDE
+.omc/
+.vscode/
+
+# Extracted raw data
+apk_extracted/
+
+# Temp
+index.html?*

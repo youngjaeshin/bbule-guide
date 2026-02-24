@@ -1,0 +1,8731 @@
+[
+  {
+    "index": 4,
+    "name": "로버트의 지휘 도끼",
+    "description": "로버트는 그의 전용 도끼를 휘둘러 전투를 지휘 합니다.",
+    "icon": 4,
+    "priceFactor": 3.0,
+    "passiveType": 0,
+    "types": [
+      2,
+      19,
+      0
+    ],
+    "effects": [
+      0.2,
+      2.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 2,
+        "type_name": "모든 용병의 데미지 {0}",
+        "value": 0.2,
+        "value_display": "20%",
+        "description": "모든 용병의 데미지 20%"
+      },
+      {
+        "type_code": 19,
+        "type_name": "모든 용병의 최대 레벨 {0}",
+        "value": 2.0,
+        "value_display": "+2",
+        "description": "모든 용병의 최대 레벨 +2"
+      }
+    ],
+    "randomValue": 6
+  },
+  {
+    "index": 33,
+    "name": "로빈의 바람의 문양",
+    "description": "로빈 집안에 대대로 내려오는 바람의 문양을 활성화 합니다. 신속의 힘을 얻게 됩니다.",
+    "icon": 33,
+    "priceFactor": 2.5,
+    "passiveType": 0,
+    "types": [
+      10,
+      431,
+      0
+    ],
+    "effects": [
+      0.1,
+      0.1,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 10,
+        "type_name": "모든 용병의 공격 속도 {0}",
+        "value": 0.1,
+        "value_display": "10%",
+        "description": "모든 용병의 공격 속도 10%"
+      },
+      {
+        "type_code": 431,
+        "type_name": "모든 용병의 추가 클릭 확률 {0}",
+        "value": 0.1,
+        "value_display": "10%",
+        "description": "모든 용병의 추가 클릭 확률 10%"
+      }
+    ],
+    "randomValue": 9
+  },
+  {
+    "index": 41,
+    "name": "쥬쥬의 저주의 문양",
+    "description": "쥬쥬는 자신을 인형에 갇히게 했던 그 저주를 적들에게 사용하기 시작했습니다.",
+    "icon": 41,
+    "priceFactor": 3.0,
+    "passiveType": 0,
+    "types": [
+      54,
+      112,
+      0
+    ],
+    "effects": [
+      0.06,
+      0.02,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 54,
+        "type_name": "적들의 클릭 저항력 감소 {0}",
+        "value": 0.06,
+        "value_display": "6%",
+        "description": "적들의 클릭 저항력 감소 6%"
+      },
+      {
+        "type_code": 112,
+        "type_name": "적들의 회피 확률 감소 {0}",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "적들의 회피 확률 감소 2%"
+      }
+    ],
+    "randomValue": 8
+  },
+  {
+    "index": 42,
+    "name": "인어의 노래",
+    "description": "멜로디는 아름다운 노래를 사용하여 동료들의 사기를 올려 줍니다.",
+    "icon": 42,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      2,
+      1171,
+      0
+    ],
+    "effects": [
+      0.2,
+      0.15,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 2,
+        "type_name": "모든 용병의 데미지 {0}",
+        "value": 0.2,
+        "value_display": "20%",
+        "description": "모든 용병의 데미지 20%"
+      },
+      {
+        "type_code": 1171,
+        "type_name": "즉시 공격 확률 {0}",
+        "value": 0.15,
+        "value_display": "15%",
+        "description": "즉시 공격 확률 15%"
+      }
+    ],
+    "randomValue": 5
+  },
+  {
+    "index": 47,
+    "name": "달팽이 집",
+    "description": "달팽이들은 집이 등 뒤에 붙어 있기 때문에 집세를 아낄수 있어 돈을 금방 모은 다고 합니다.",
+    "icon": 47,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      47,
+      0,
+      0
+    ],
+    "effects": [
+      0.6,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 47,
+        "type_name": "골드 저장량 {0}",
+        "value": 0.6,
+        "value_display": "60%",
+        "description": "골드 저장량 60%"
+      }
+    ],
+    "randomValue": 4
+  },
+  {
+    "index": 59,
+    "name": "질주 본능",
+    "description": "모두에게 잠재되어 있는 질주 본능을 일깨웁니다.",
+    "icon": 847,
+    "priceFactor": 2.5,
+    "passiveType": 0,
+    "types": [
+      10,
+      40,
+      0
+    ],
+    "effects": [
+      0.1,
+      0.015,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 10,
+        "type_name": "모든 용병의 공격 속도 {0}",
+        "value": 0.1,
+        "value_display": "10%",
+        "description": "모든 용병의 공격 속도 10%"
+      },
+      {
+        "type_code": 40,
+        "type_name": "소울 클릭 확률 {0}",
+        "value": 0.015,
+        "value_display": "1.5%",
+        "description": "소울 클릭 확률 1.5%"
+      }
+    ],
+    "randomValue": 9
+  },
+  {
+    "index": 60,
+    "name": "인어의 노래+",
+    "description": "멜로디는 아름다운 노래를 사용하여 동료들의 사기를 올려 줍니다.",
+    "icon": 42,
+    "priceFactor": 3.5,
+    "passiveType": 0,
+    "types": [
+      2,
+      1171,
+      0
+    ],
+    "effects": [
+      0.28,
+      0.25,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 2,
+        "type_name": "모든 용병의 데미지 {0}",
+        "value": 0.28,
+        "value_display": "28.0%",
+        "description": "모든 용병의 데미지 28.0%"
+      },
+      {
+        "type_code": 1171,
+        "type_name": "즉시 공격 확률 {0}",
+        "value": 0.25,
+        "value_display": "25%",
+        "description": "즉시 공격 확률 25%"
+      }
+    ],
+    "randomValue": 6
+  },
+  {
+    "index": 64,
+    "name": "객스의 도끼 내려치기+",
+    "description": "객스표 도끼 내려치기 입니다. 일반 내려치기와 뭐가 다른지는 아무도 모른다고 합니다.",
+    "icon": 15,
+    "priceFactor": 2.5,
+    "passiveType": 0,
+    "types": [
+      7,
+      9,
+      0
+    ],
+    "effects": [
+      12000.0,
+      0.3,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 7,
+        "type_name": "추가 데미지 {0}",
+        "value": 12000.0,
+        "value_display": "+12000",
+        "description": "추가 데미지 +12000"
+      },
+      {
+        "type_code": 9,
+        "type_name": "공격 속도 {0}",
+        "value": 0.3,
+        "value_display": "30%",
+        "description": "공격 속도 30%"
+      }
+    ],
+    "randomValue": 5
+  },
+  {
+    "index": 71,
+    "name": "아라크네의 거미줄+",
+    "description": "끈적이는 거미줄을 이용하여 적들의 발을 묶어 버립니다.",
+    "icon": 43,
+    "priceFactor": 3.0,
+    "passiveType": 0,
+    "types": [
+      21,
+      23,
+      27
+    ],
+    "effects": [
+      0.02,
+      0.004,
+      0.12
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 21,
+        "type_name": "모든 용병의 강타 확률 {0}",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "모든 용병의 강타 확률 2%"
+      },
+      {
+        "type_code": 23,
+        "type_name": "모든 마법 용병의 강타 확률 {0}",
+        "value": 0.004,
+        "value_display": "0.4%",
+        "description": "모든 마법 용병의 강타 확률 0.4%"
+      },
+      {
+        "type_code": 27,
+        "type_name": "모든 용병의 강타 배수 {0}",
+        "value": 0.12,
+        "value_display": "12%",
+        "description": "모든 용병의 강타 배수 12%"
+      }
+    ],
+    "randomValue": 9
+  },
+  {
+    "index": 75,
+    "name": "금화 발견",
+    "description": "전장에서 금화를 발견할 확률을 높힙니다.",
+    "icon": 58,
+    "priceFactor": 1.0,
+    "passiveType": 0,
+    "types": [
+      46,
+      0,
+      0
+    ],
+    "effects": [
+      0.13,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 46,
+        "type_name": "골드 획득량 {0}",
+        "value": 0.13,
+        "value_display": "13%",
+        "description": "골드 획득량 13%"
+      }
+    ],
+    "randomValue": 1
+  },
+  {
+    "index": 76,
+    "name": "금화 발견+",
+    "description": "전장에서 금화를 발견할 확률을 높힙니다.",
+    "icon": 59,
+    "priceFactor": 1.0,
+    "passiveType": 0,
+    "types": [
+      46,
+      0,
+      0
+    ],
+    "effects": [
+      0.18,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 46,
+        "type_name": "골드 획득량 {0}",
+        "value": 0.18,
+        "value_display": "18%",
+        "description": "골드 획득량 18%"
+      }
+    ],
+    "randomValue": 2
+  },
+  {
+    "index": 77,
+    "name": "금화 발견++",
+    "description": "전장에서 금화를 발견할 확률을 높힙니다.",
+    "icon": 60,
+    "priceFactor": 1.5,
+    "passiveType": 0,
+    "types": [
+      46,
+      0,
+      0
+    ],
+    "effects": [
+      0.27,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 46,
+        "type_name": "골드 획득량 {0}",
+        "value": 0.27,
+        "value_display": "27%",
+        "description": "골드 획득량 27%"
+      }
+    ],
+    "randomValue": 3
+  },
+  {
+    "index": 78,
+    "name": "분노",
+    "description": "분노의 힘으로 적들을 보다 빠르게 공격 합니다.",
+    "icon": 61,
+    "priceFactor": 1.0,
+    "passiveType": 0,
+    "types": [
+      9,
+      0,
+      0
+    ],
+    "effects": [
+      0.15,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 9,
+        "type_name": "공격 속도 {0}",
+        "value": 0.15,
+        "value_display": "15%",
+        "description": "공격 속도 15%"
+      }
+    ],
+    "randomValue": 2
+  },
+  {
+    "index": 79,
+    "name": "분노+",
+    "description": "분노의 힘으로 적들을 보다 빠르게 공격 합니다.",
+    "icon": 62,
+    "priceFactor": 1.0,
+    "passiveType": 0,
+    "types": [
+      9,
+      0,
+      0
+    ],
+    "effects": [
+      0.2,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 9,
+        "type_name": "공격 속도 {0}",
+        "value": 0.2,
+        "value_display": "20%",
+        "description": "공격 속도 20%"
+      }
+    ],
+    "randomValue": 2
+  },
+  {
+    "index": 80,
+    "name": "분노++",
+    "description": "분노의 힘으로 적들을 보다 빠르게 공격 합니다.",
+    "icon": 63,
+    "priceFactor": 1.5,
+    "passiveType": 0,
+    "types": [
+      9,
+      0,
+      0
+    ],
+    "effects": [
+      0.3,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 9,
+        "type_name": "공격 속도 {0}",
+        "value": 0.3,
+        "value_display": "30%",
+        "description": "공격 속도 30%"
+      }
+    ],
+    "randomValue": 4
+  },
+  {
+    "index": 81,
+    "name": "용맹",
+    "description": "용맹의 힘으로 적들을 보다 강하게 공격 합니다.",
+    "icon": 64,
+    "priceFactor": 1.0,
+    "passiveType": 0,
+    "types": [
+      1,
+      0,
+      0
+    ],
+    "effects": [
+      0.3,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1,
+        "type_name": "데미지 {0}",
+        "value": 0.3,
+        "value_display": "30%",
+        "description": "데미지 30%"
+      }
+    ],
+    "randomValue": 1
+  },
+  {
+    "index": 82,
+    "name": "용맹+",
+    "description": "용맹의 힘으로 적들을 보다 강하게 공격 합니다.",
+    "icon": 65,
+    "priceFactor": 1.0,
+    "passiveType": 0,
+    "types": [
+      1,
+      0,
+      0
+    ],
+    "effects": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1,
+        "type_name": "데미지 {0}",
+        "value": 0.5,
+        "value_display": "50%",
+        "description": "데미지 50%"
+      }
+    ],
+    "randomValue": 1
+  },
+  {
+    "index": 83,
+    "name": "용맹++",
+    "description": "용맹의 힘으로 적들을 보다 강하게 공격 합니다.",
+    "icon": 66,
+    "priceFactor": 1.5,
+    "passiveType": 0,
+    "types": [
+      1,
+      0,
+      0
+    ],
+    "effects": [
+      0.75,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1,
+        "type_name": "데미지 {0}",
+        "value": 0.75,
+        "value_display": "75%",
+        "description": "데미지 75%"
+      }
+    ],
+    "randomValue": 2
+  },
+  {
+    "index": 85,
+    "name": "바람의 문양+",
+    "description": "바람의 문양을 활성화 하여 신속의 힘을 얻게 됩니다.",
+    "icon": 68,
+    "priceFactor": 1.0,
+    "passiveType": 0,
+    "types": [
+      10,
+      0,
+      0
+    ],
+    "effects": [
+      0.04,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 10,
+        "type_name": "모든 용병의 공격 속도 {0}",
+        "value": 0.04,
+        "value_display": "4%",
+        "description": "모든 용병의 공격 속도 4%"
+      }
+    ],
+    "randomValue": 4
+  },
+  {
+    "index": 86,
+    "name": "바람의 문양++",
+    "description": "바람의 문양을 활성화 하여 신속의 힘을 얻게 됩니다.",
+    "icon": 69,
+    "priceFactor": 1.5,
+    "passiveType": 0,
+    "types": [
+      10,
+      0,
+      0
+    ],
+    "effects": [
+      0.06,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 10,
+        "type_name": "모든 용병의 공격 속도 {0}",
+        "value": 0.06,
+        "value_display": "6%",
+        "description": "모든 용병의 공격 속도 6%"
+      }
+    ],
+    "randomValue": 5
+  },
+  {
+    "index": 87,
+    "name": "믿음",
+    "description": "리더를 전적으로 믿고 지지해 줍니다.",
+    "icon": 70,
+    "priceFactor": 1.0,
+    "passiveType": 0,
+    "types": [
+      16,
+      0,
+      0
+    ],
+    "effects": [
+      0.2,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 16,
+        "type_name": "모든 용병의 클릭 데미지 {0}",
+        "value": 0.2,
+        "value_display": "20%",
+        "description": "모든 용병의 클릭 데미지 20%"
+      }
+    ],
+    "randomValue": 1
+  },
+  {
+    "index": 88,
+    "name": "믿음+",
+    "description": "리더를 전적으로 믿고 지지해 줍니다.",
+    "icon": 71,
+    "priceFactor": 1.0,
+    "passiveType": 0,
+    "types": [
+      16,
+      0,
+      0
+    ],
+    "effects": [
+      0.3,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 16,
+        "type_name": "모든 용병의 클릭 데미지 {0}",
+        "value": 0.3,
+        "value_display": "30%",
+        "description": "모든 용병의 클릭 데미지 30%"
+      }
+    ],
+    "randomValue": 2
+  },
+  {
+    "index": 89,
+    "name": "믿음++",
+    "description": "리더를 전적으로 믿고 지지해 줍니다.",
+    "icon": 72,
+    "priceFactor": 1.5,
+    "passiveType": 0,
+    "types": [
+      16,
+      0,
+      0
+    ],
+    "effects": [
+      0.45,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 16,
+        "type_name": "모든 용병의 클릭 데미지 {0}",
+        "value": 0.45,
+        "value_display": "45%",
+        "description": "모든 용병의 클릭 데미지 45%"
+      }
+    ],
+    "randomValue": 3
+  },
+  {
+    "index": 93,
+    "name": "돌격",
+    "description": "적의 빈틈을 노려 단숨에 돌격합니다.",
+    "icon": 76,
+    "priceFactor": 1.0,
+    "passiveType": 0,
+    "types": [
+      38,
+      0,
+      0
+    ],
+    "effects": [
+      0.01,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 38,
+        "type_name": "클릭 크리티컬 확률 {0}",
+        "value": 0.01,
+        "value_display": "1%",
+        "description": "클릭 크리티컬 확률 1%"
+      }
+    ],
+    "randomValue": 4
+  },
+  {
+    "index": 94,
+    "name": "투쟁의 오라",
+    "description": "전투의지를 불러일으키는 오라를 활성화 합니다.",
+    "icon": 77,
+    "priceFactor": 1.0,
+    "passiveType": 0,
+    "types": [
+      2,
+      0,
+      0
+    ],
+    "effects": [
+      0.05,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 2,
+        "type_name": "모든 용병의 데미지 {0}",
+        "value": 0.05,
+        "value_display": "5%",
+        "description": "모든 용병의 데미지 5%"
+      }
+    ],
+    "randomValue": 2
+  },
+  {
+    "index": 95,
+    "name": "투쟁의 오라+",
+    "description": "전투의지를 불러일으키는 오라를 활성화 합니다.",
+    "icon": 78,
+    "priceFactor": 1.0,
+    "passiveType": 0,
+    "types": [
+      2,
+      0,
+      0
+    ],
+    "effects": [
+      0.08,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 2,
+        "type_name": "모든 용병의 데미지 {0}",
+        "value": 0.08,
+        "value_display": "8%",
+        "description": "모든 용병의 데미지 8%"
+      }
+    ],
+    "randomValue": 3
+  },
+  {
+    "index": 96,
+    "name": "투쟁의 오라++",
+    "description": "전투의지를 불러일으키는 오라를 활성화 합니다.",
+    "icon": 79,
+    "priceFactor": 1.5,
+    "passiveType": 0,
+    "types": [
+      2,
+      0,
+      0
+    ],
+    "effects": [
+      0.12,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 2,
+        "type_name": "모든 용병의 데미지 {0}",
+        "value": 0.12,
+        "value_display": "12%",
+        "description": "모든 용병의 데미지 12%"
+      }
+    ],
+    "randomValue": 4
+  },
+  {
+    "index": 97,
+    "name": "언데드 전용 칼슘",
+    "description": "칼슘을 뼈에 직접 주입하여 뼈를 튼튼하게 만듭니다.",
+    "icon": 80,
+    "priceFactor": 1.0,
+    "passiveType": 0,
+    "types": [
+      38,
+      635,
+      0
+    ],
+    "effects": [
+      0.01,
+      0.02,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 38,
+        "type_name": "클릭 크리티컬 확률 {0}",
+        "value": 0.01,
+        "value_display": "1%",
+        "description": "클릭 크리티컬 확률 1%"
+      },
+      {
+        "type_code": 635,
+        "type_name": "종족이 언데드인 용병의 강타 배수 +[언데드] 용병 수 X {0}",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "종족이 언데드인 용병의 강타 배수 +[언데드] 용병 수 X 2%"
+      }
+    ],
+    "randomValue": 4
+  },
+  {
+    "index": 98,
+    "name": "물어 뜯기",
+    "description": "적을 강하게 물어 뜯어 공격 합니다.",
+    "icon": 81,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      7,
+      39,
+      0
+    ],
+    "effects": [
+      7500.0,
+      1.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 7,
+        "type_name": "추가 데미지 {0}",
+        "value": 7500.0,
+        "value_display": "+7500",
+        "description": "추가 데미지 +7500"
+      },
+      {
+        "type_code": 39,
+        "type_name": "클릭 크리티컬 배수 {0}",
+        "value": 1.0,
+        "value_display": "+1",
+        "description": "클릭 크리티컬 배수 +1"
+      }
+    ],
+    "randomValue": 4
+  },
+  {
+    "index": 99,
+    "name": "개의 습성",
+    "description": "개과 동물들은 아무리 진화해도 개의 습성을 버리지 못한다고 합니다.",
+    "icon": 82,
+    "priceFactor": 1.0,
+    "passiveType": 0,
+    "types": [
+      9,
+      0,
+      0
+    ],
+    "effects": [
+      0.2,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 9,
+        "type_name": "공격 속도 {0}",
+        "value": 0.2,
+        "value_display": "20%",
+        "description": "공격 속도 20%"
+      }
+    ],
+    "randomValue": 2
+  },
+  {
+    "index": 100,
+    "name": "파이어볼",
+    "description": "화염의 구를 적에게 날려 화상을 입힙니다.",
+    "icon": 83,
+    "priceFactor": 1.0,
+    "passiveType": 0,
+    "types": [
+      1,
+      0,
+      0
+    ],
+    "effects": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1,
+        "type_name": "데미지 {0}",
+        "value": 0.5,
+        "value_display": "50%",
+        "description": "데미지 50%"
+      }
+    ],
+    "randomValue": 1
+  },
+  {
+    "index": 102,
+    "name": "넝쿨 채찍",
+    "description": "가시가 돋아난 긴 넝쿨로 적을 채찍질 합니다.",
+    "icon": 85,
+    "priceFactor": 1.0,
+    "passiveType": 0,
+    "types": [
+      7,
+      421,
+      422
+    ],
+    "effects": [
+      5000.0,
+      0.4,
+      0.4
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 7,
+        "type_name": "추가 데미지 {0}",
+        "value": 5000.0,
+        "value_display": "+5000",
+        "description": "추가 데미지 +5000"
+      },
+      {
+        "type_code": 421,
+        "type_name": "종족이 식물인 용병의 데미지 +[식물] 용병 수 X {0}%",
+        "value": 0.4,
+        "value_display": "40%",
+        "description": "종족이 식물인 용병의 데미지 +[식물] 용병 수 X 40%%"
+      },
+      {
+        "type_code": 422,
+        "type_name": "종족이 식물인 용병의 클릭 데미지 +[식물] 용병 수 X {0}%",
+        "value": 0.4,
+        "value_display": "40%",
+        "description": "종족이 식물인 용병의 클릭 데미지 +[식물] 용병 수 X 40%%"
+      }
+    ],
+    "randomValue": 3
+  },
+  {
+    "index": 103,
+    "name": "암석 던지기",
+    "description": "커다란 암석을 던져 적을 공격 합니다.",
+    "icon": 86,
+    "priceFactor": 1.5,
+    "passiveType": 0,
+    "types": [
+      1,
+      0,
+      0
+    ],
+    "effects": [
+      0.75,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1,
+        "type_name": "데미지 {0}",
+        "value": 0.75,
+        "value_display": "75%",
+        "description": "데미지 75%"
+      }
+    ],
+    "randomValue": 2
+  },
+  {
+    "index": 104,
+    "name": "드래곤 브레스",
+    "description": "강력한 드래곤 브레스로 적들을 태워 버립니다.",
+    "icon": 87,
+    "priceFactor": 1.5,
+    "passiveType": 0,
+    "types": [
+      1,
+      43,
+      20
+    ],
+    "effects": [
+      1.8,
+      0.45,
+      0.09
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1,
+        "type_name": "데미지 {0}",
+        "value": 1.8,
+        "value_display": "+1.8",
+        "description": "데미지 +1.8"
+      },
+      {
+        "type_code": 43,
+        "type_name": "추가 클릭 확률 {0}",
+        "value": 0.45,
+        "value_display": "45%",
+        "description": "추가 클릭 확률 45%"
+      },
+      {
+        "type_code": 20,
+        "type_name": "강타 확률 {0}",
+        "value": 0.09,
+        "value_display": "9%",
+        "description": "강타 확률 9%"
+      }
+    ],
+    "randomValue": 7
+  },
+  {
+    "index": 105,
+    "name": "회오리",
+    "description": "회오리 바람을 일으켜 적들을 날려 버립니다.",
+    "icon": 88,
+    "priceFactor": 1.0,
+    "passiveType": 0,
+    "types": [
+      1,
+      0,
+      0
+    ],
+    "effects": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1,
+        "type_name": "데미지 {0}",
+        "value": 0.5,
+        "value_display": "50%",
+        "description": "데미지 50%"
+      }
+    ],
+    "randomValue": 1
+  },
+  {
+    "index": 106,
+    "name": "얼음 송곳",
+    "description": "매우 날카로운 얼음 송곳을 적에게 날려 공격 합니다.",
+    "icon": 1031,
+    "priceFactor": 1.5,
+    "passiveType": 0,
+    "types": [
+      1,
+      0,
+      0
+    ],
+    "effects": [
+      0.75,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1,
+        "type_name": "데미지 {0}",
+        "value": 0.75,
+        "value_display": "75%",
+        "description": "데미지 75%"
+      }
+    ],
+    "randomValue": 2
+  },
+  {
+    "index": 107,
+    "name": "고대신 조각상",
+    "description": "고대신 [네코]의 조각상 입니다.",
+    "icon": 90,
+    "priceFactor": 1.5,
+    "passiveType": 0,
+    "types": [
+      46,
+      0,
+      0
+    ],
+    "effects": [
+      0.27,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 46,
+        "type_name": "골드 획득량 {0}",
+        "value": 0.27,
+        "value_display": "27%",
+        "description": "골드 획득량 27%"
+      }
+    ],
+    "randomValue": 3
+  },
+  {
+    "index": 108,
+    "name": "퍼루나 해의 진주",
+    "description": "이 귀중한 진주는 오직 퍼루나 해의 깊은 바다에서만 채취할 수 있다고 합니다.",
+    "icon": 91,
+    "priceFactor": 1.0,
+    "passiveType": 0,
+    "types": [
+      1,
+      495,
+      0
+    ],
+    "effects": [
+      0.5,
+      0.5,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1,
+        "type_name": "데미지 {0}",
+        "value": 0.5,
+        "value_display": "50%",
+        "description": "데미지 50%"
+      },
+      {
+        "type_code": 495,
+        "type_name": "지역이 퍼루나인 용병의 데미지 +[퍼루나] 용병 수 X {0}%",
+        "value": 0.5,
+        "value_display": "50%",
+        "description": "지역이 퍼루나인 용병의 데미지 +[퍼루나] 용병 수 X 50%%"
+      }
+    ],
+    "randomValue": 1
+  },
+  {
+    "index": 109,
+    "name": "악마의 표식",
+    "description": "심연의 악마들이 성인식을 통과하면 받게 된다는 악마의 표식 입니다.",
+    "icon": 92,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      1,
+      15,
+      1171
+    ],
+    "effects": [
+      0.75,
+      0.75,
+      0.12
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1,
+        "type_name": "데미지 {0}",
+        "value": 0.75,
+        "value_display": "75%",
+        "description": "데미지 75%"
+      },
+      {
+        "type_code": 15,
+        "type_name": "클릭 데미지 {0}",
+        "value": 0.75,
+        "value_display": "75%",
+        "description": "클릭 데미지 75%"
+      },
+      {
+        "type_code": 1171,
+        "type_name": "즉시 공격 확률 {0}",
+        "value": 0.12,
+        "value_display": "12%",
+        "description": "즉시 공격 확률 12%"
+      }
+    ],
+    "randomValue": 3
+  },
+  {
+    "index": 111,
+    "name": "웨폰 마스터리",
+    "description": "무기를 보다 능숙하게 다루게 해줍니다.",
+    "icon": 94,
+    "priceFactor": 1.0,
+    "passiveType": 0,
+    "types": [
+      1,
+      0,
+      0
+    ],
+    "effects": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1,
+        "type_name": "데미지 {0}",
+        "value": 0.5,
+        "value_display": "50%",
+        "description": "데미지 50%"
+      }
+    ],
+    "randomValue": 1
+  },
+  {
+    "index": 112,
+    "name": "할퀴기",
+    "description": "날카로운 발톱을 이용하여 적들을 찢어 버립니다.",
+    "icon": 95,
+    "priceFactor": 1.0,
+    "passiveType": 0,
+    "types": [
+      1,
+      107,
+      0
+    ],
+    "effects": [
+      0.75,
+      0.1,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1,
+        "type_name": "데미지 {0}",
+        "value": 0.75,
+        "value_display": "75%",
+        "description": "데미지 75%"
+      },
+      {
+        "type_code": 107,
+        "type_name": "피격 지속시간 감소 {0}",
+        "value": 0.1,
+        "value_display": "10%",
+        "description": "피격 지속시간 감소 10%"
+      }
+    ],
+    "randomValue": 4
+  },
+  {
+    "index": 113,
+    "name": "스펠북",
+    "description": "여러가지 스펠이 기록되어있는 책입니다.",
+    "icon": 96,
+    "priceFactor": 1.0,
+    "passiveType": 0,
+    "types": [
+      1,
+      0,
+      0
+    ],
+    "effects": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1,
+        "type_name": "데미지 {0}",
+        "value": 0.5,
+        "value_display": "50%",
+        "description": "데미지 50%"
+      }
+    ],
+    "randomValue": 1
+  },
+  {
+    "index": 114,
+    "name": "두번째 심장",
+    "description": "두번째 심장에서 뿜어져 나오는 엄청난 활력으로 전장을 마음껏 누빕니다.",
+    "icon": 97,
+    "priceFactor": 1.5,
+    "passiveType": 0,
+    "types": [
+      9,
+      0,
+      0
+    ],
+    "effects": [
+      0.3,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 9,
+        "type_name": "공격 속도 {0}",
+        "value": 0.3,
+        "value_display": "30%",
+        "description": "공격 속도 30%"
+      }
+    ],
+    "randomValue": 4
+  },
+  {
+    "index": 115,
+    "name": "지혜의 돌",
+    "description": "비인간류 종족이 지니면 지능이 크게 올라간다고 알려져 있습니다.",
+    "icon": 98,
+    "priceFactor": 1.0,
+    "passiveType": 0,
+    "types": [
+      16,
+      0,
+      0
+    ],
+    "effects": [
+      0.3,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 16,
+        "type_name": "모든 용병의 클릭 데미지 {0}",
+        "value": 0.3,
+        "value_display": "30%",
+        "description": "모든 용병의 클릭 데미지 30%"
+      }
+    ],
+    "randomValue": 2
+  },
+  {
+    "index": 117,
+    "name": "추적",
+    "description": "적의 흔적을 찾아 추적 합니다.",
+    "icon": 100,
+    "priceFactor": 1.0,
+    "passiveType": 0,
+    "types": [
+      38,
+      0,
+      0
+    ],
+    "effects": [
+      0.01,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 38,
+        "type_name": "클릭 크리티컬 확률 {0}",
+        "value": 0.01,
+        "value_display": "1%",
+        "description": "클릭 크리티컬 확률 1%"
+      }
+    ],
+    "randomValue": 4
+  },
+  {
+    "index": 119,
+    "name": "인간의 자긍심",
+    "description": "인간들은 자신들이 미들랜드의 주류종족이라는 것에 자긍심을 가지고 있습니다. 반면 다른 종족들은 인간을 오만하다고 여깁니다.",
+    "icon": 102,
+    "priceFactor": 1.0,
+    "passiveType": 0,
+    "types": [
+      1,
+      0,
+      0
+    ],
+    "effects": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1,
+        "type_name": "데미지 {0}",
+        "value": 0.5,
+        "value_display": "50%",
+        "description": "데미지 50%"
+      }
+    ],
+    "randomValue": 1
+  },
+  {
+    "index": 120,
+    "name": "야생 본능",
+    "description": "야생 본능을 일깨워 전장에서 더욱 강하게 만들어 줍니다.",
+    "icon": 103,
+    "priceFactor": 1.0,
+    "passiveType": 0,
+    "types": [
+      1,
+      0,
+      0
+    ],
+    "effects": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1,
+        "type_name": "데미지 {0}",
+        "value": 0.5,
+        "value_display": "50%",
+        "description": "데미지 50%"
+      }
+    ],
+    "randomValue": 1
+  },
+  {
+    "index": 121,
+    "name": "도약",
+    "description": "공격시 도약하여 파괴력을 증폭 시킵니다.",
+    "icon": 104,
+    "priceFactor": 1.0,
+    "passiveType": 0,
+    "types": [
+      1,
+      0,
+      0
+    ],
+    "effects": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1,
+        "type_name": "데미지 {0}",
+        "value": 0.5,
+        "value_display": "50%",
+        "description": "데미지 50%"
+      }
+    ],
+    "randomValue": 1
+  },
+  {
+    "index": 122,
+    "name": "전술",
+    "description": "동료들을 전술적으로 행동하도록 하여 부대 전체가 전장에서 더욱 강해 집니다.",
+    "icon": 105,
+    "priceFactor": 1.5,
+    "passiveType": 0,
+    "types": [
+      2,
+      16,
+      431
+    ],
+    "effects": [
+      0.08,
+      0.3,
+      0.03
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 2,
+        "type_name": "모든 용병의 데미지 {0}",
+        "value": 0.08,
+        "value_display": "8%",
+        "description": "모든 용병의 데미지 8%"
+      },
+      {
+        "type_code": 16,
+        "type_name": "모든 용병의 클릭 데미지 {0}",
+        "value": 0.3,
+        "value_display": "30%",
+        "description": "모든 용병의 클릭 데미지 30%"
+      },
+      {
+        "type_code": 431,
+        "type_name": "모든 용병의 추가 클릭 확률 {0}",
+        "value": 0.03,
+        "value_display": "3%",
+        "description": "모든 용병의 추가 클릭 확률 3%"
+      }
+    ],
+    "randomValue": 3
+  },
+  {
+    "index": 123,
+    "name": "암기",
+    "description": "적의 빈틈을 노려 숨겨진 무기를 날립니다.",
+    "icon": 106,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      39,
+      0,
+      0
+    ],
+    "effects": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 39,
+        "type_name": "클릭 크리티컬 배수 {0}",
+        "value": 1.0,
+        "value_display": "+1",
+        "description": "클릭 크리티컬 배수 +1"
+      }
+    ],
+    "randomValue": 4
+  },
+  {
+    "index": 124,
+    "name": "재물신 관우의 부적",
+    "description": "미들랜드에서는 관우가 누군지 아무도 모르지만 재물신의 이름은 관우라고 알려져 있습니다. 재물운을 가져다 준다고 합니다.",
+    "icon": 107,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      46,
+      0,
+      0
+    ],
+    "effects": [
+      0.36,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 46,
+        "type_name": "골드 획득량 {0}",
+        "value": 0.36,
+        "value_display": "36%",
+        "description": "골드 획득량 36%"
+      }
+    ],
+    "randomValue": 4
+  },
+  {
+    "index": 125,
+    "name": "발도술",
+    "description": "고대로부터 내려오는 살인기술입니다.",
+    "icon": 108,
+    "priceFactor": 1.5,
+    "passiveType": 0,
+    "types": [
+      1,
+      1171,
+      0
+    ],
+    "effects": [
+      0.75,
+      0.09,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1,
+        "type_name": "데미지 {0}",
+        "value": 0.75,
+        "value_display": "75%",
+        "description": "데미지 75%"
+      },
+      {
+        "type_code": 1171,
+        "type_name": "즉시 공격 확률 {0}",
+        "value": 0.09,
+        "value_display": "9%",
+        "description": "즉시 공격 확률 9%"
+      }
+    ],
+    "randomValue": 2
+  },
+  {
+    "index": 126,
+    "name": "격투술",
+    "description": "무기가 아닌 자신의 신체를 이용하여 상대를 파괴 합니다.",
+    "icon": 109,
+    "priceFactor": 1.0,
+    "passiveType": 0,
+    "types": [
+      1,
+      0,
+      0
+    ],
+    "effects": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1,
+        "type_name": "데미지 {0}",
+        "value": 0.5,
+        "value_display": "50%",
+        "description": "데미지 50%"
+      }
+    ],
+    "randomValue": 1
+  },
+  {
+    "index": 128,
+    "name": "어둠의 정수",
+    "description": "어둠의 힘이 응축되어 있는 구슬입니다. 소지자에게 강력한 힘을 줍니다.",
+    "icon": 110,
+    "priceFactor": 1.5,
+    "passiveType": 0,
+    "types": [
+      1,
+      0,
+      0
+    ],
+    "effects": [
+      0.75,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1,
+        "type_name": "데미지 {0}",
+        "value": 0.75,
+        "value_display": "75%",
+        "description": "데미지 75%"
+      }
+    ],
+    "randomValue": 2
+  },
+  {
+    "index": 129,
+    "name": "라이트닝",
+    "description": "라이트닝으로 적들을 감전 시킵니다.",
+    "icon": 8,
+    "priceFactor": 1.0,
+    "passiveType": 0,
+    "types": [
+      1,
+      0,
+      0
+    ],
+    "effects": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1,
+        "type_name": "데미지 {0}",
+        "value": 0.5,
+        "value_display": "50%",
+        "description": "데미지 50%"
+      }
+    ],
+    "randomValue": 1
+  },
+  {
+    "index": 140,
+    "name": "다크 마인드",
+    "description": "상대의 정신을 헤집어 어두운 측면을 증폭 시킵니다.",
+    "icon": 114,
+    "priceFactor": 3.0,
+    "passiveType": 0,
+    "types": [
+      38,
+      0,
+      0
+    ],
+    "effects": [
+      0.02,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 38,
+        "type_name": "클릭 크리티컬 확률 {0}",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "클릭 크리티컬 확률 2%"
+      }
+    ],
+    "randomValue": 8
+  },
+  {
+    "index": 141,
+    "name": "제압",
+    "description": "상대를 제압하여 무방비 상태로 만듭니다.",
+    "icon": 115,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      51,
+      0,
+      0
+    ],
+    "effects": [
+      0.03,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 51,
+        "type_name": "적들의 물리 저항력 감소 {0}",
+        "value": 0.03,
+        "value_display": "3%",
+        "description": "적들의 물리 저항력 감소 3%"
+      }
+    ],
+    "randomValue": 5
+  },
+  {
+    "index": 143,
+    "name": "마검 디멘션 커터+",
+    "description": "차원을 베는 지옥왕의 검으로 적이 존재하는 차원 자체에 치명적인 상처를 입힙니다.",
+    "icon": 116,
+    "priceFactor": 4.0,
+    "passiveType": 0,
+    "types": [
+      39,
+      0,
+      0
+    ],
+    "effects": [
+      2.0,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 39,
+        "type_name": "클릭 크리티컬 배수 {0}",
+        "value": 2.0,
+        "value_display": "+2",
+        "description": "클릭 크리티컬 배수 +2"
+      }
+    ],
+    "randomValue": 9
+  },
+  {
+    "index": 146,
+    "name": "니피의 주사위+",
+    "description": "니피는 수상한 장치가 되어있는 주사위로 도박판을 벌여 돈을 추가적으로 벌수 있습니다.",
+    "icon": 117,
+    "priceFactor": 0.0,
+    "passiveType": 0,
+    "types": [
+      46,
+      300,
+      0
+    ],
+    "effects": [
+      0.63,
+      0.16,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 46,
+        "type_name": "골드 획득량 {0}",
+        "value": 0.63,
+        "value_display": "63%",
+        "description": "골드 획득량 63%"
+      },
+      {
+        "type_code": 300,
+        "type_name": "아티팩트 드랍 확률 {0}",
+        "value": 0.16,
+        "value_display": "16%",
+        "description": "아티팩트 드랍 확률 16%"
+      }
+    ],
+    "randomValue": 5
+  },
+  {
+    "index": 150,
+    "name": "저주의 문양",
+    "description": "적들에게 저주를 걸어 방어력을 약화 시킵니다.",
+    "icon": 121,
+    "priceFactor": 1.5,
+    "passiveType": 0,
+    "types": [
+      51,
+      0,
+      0
+    ],
+    "effects": [
+      0.015,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 51,
+        "type_name": "적들의 물리 저항력 감소 {0}",
+        "value": 0.015,
+        "value_display": "1.5%",
+        "description": "적들의 물리 저항력 감소 1.5%"
+      }
+    ],
+    "randomValue": 3
+  },
+  {
+    "index": 151,
+    "name": "저주의 문양+",
+    "description": "적들에게 저주를 걸어 방어력을 약화 시킵니다.",
+    "icon": 122,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      51,
+      0,
+      0
+    ],
+    "effects": [
+      0.02,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 51,
+        "type_name": "적들의 물리 저항력 감소 {0}",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "적들의 물리 저항력 감소 2%"
+      }
+    ],
+    "randomValue": 4
+  },
+  {
+    "index": 152,
+    "name": "저주의 문양++",
+    "description": "적들에게 저주를 걸어 방어력을 약화 시킵니다.",
+    "icon": 123,
+    "priceFactor": 2.5,
+    "passiveType": 0,
+    "types": [
+      51,
+      0,
+      0
+    ],
+    "effects": [
+      0.03,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 51,
+        "type_name": "적들의 물리 저항력 감소 {0}",
+        "value": 0.03,
+        "value_display": "3%",
+        "description": "적들의 물리 저항력 감소 3%"
+      }
+    ],
+    "randomValue": 5
+  },
+  {
+    "index": 153,
+    "name": "저항력 약화",
+    "description": "적들의 마력을 오염시켜 마법 저항력을 약화 시킵니다.",
+    "icon": 124,
+    "priceFactor": 1.5,
+    "passiveType": 0,
+    "types": [
+      52,
+      0,
+      0
+    ],
+    "effects": [
+      0.02,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 52,
+        "type_name": "적들의 마법 저항력 감소 {0}",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "적들의 마법 저항력 감소 2%"
+      }
+    ],
+    "randomValue": 3
+  },
+  {
+    "index": 154,
+    "name": "저항력 약화+",
+    "description": "적들의 마력을 오염시켜 마법 저항력을 약화 시킵니다.",
+    "icon": 125,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      52,
+      0,
+      0
+    ],
+    "effects": [
+      0.03,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 52,
+        "type_name": "적들의 마법 저항력 감소 {0}",
+        "value": 0.03,
+        "value_display": "3%",
+        "description": "적들의 마법 저항력 감소 3%"
+      }
+    ],
+    "randomValue": 4
+  },
+  {
+    "index": 155,
+    "name": "저항력 약화++",
+    "description": "적들의 마력을 오염시켜 마법 저항력을 약화 시킵니다.",
+    "icon": 126,
+    "priceFactor": 2.5,
+    "passiveType": 0,
+    "types": [
+      52,
+      0,
+      0
+    ],
+    "effects": [
+      0.04,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 52,
+        "type_name": "적들의 마법 저항력 감소 {0}",
+        "value": 0.04,
+        "value_display": "4%",
+        "description": "적들의 마법 저항력 감소 4%"
+      }
+    ],
+    "randomValue": 5
+  },
+  {
+    "index": 163,
+    "name": "예리한 눈",
+    "description": "적들의 약점을 예리하게 파악하여 헛점을 노립니다.",
+    "icon": 132,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      39,
+      0,
+      0
+    ],
+    "effects": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 39,
+        "type_name": "클릭 크리티컬 배수 {0}",
+        "value": 1.0,
+        "value_display": "+1",
+        "description": "클릭 크리티컬 배수 +1"
+      }
+    ],
+    "randomValue": 4
+  },
+  {
+    "index": 165,
+    "name": "모나크의 탐지 구슬",
+    "description": "악명 높은 도굴 꾼 모나크의 탐지 구슬 입니다. 값 비싼 물건이 근처에 있으면 빛이 납니다.",
+    "icon": 134,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      48,
+      300,
+      0
+    ],
+    "effects": [
+      0.36,
+      0.06,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 48,
+        "type_name": "아이템 획득 확률 {0}",
+        "value": 0.36,
+        "value_display": "36%",
+        "description": "아이템 획득 확률 36%"
+      },
+      {
+        "type_code": 300,
+        "type_name": "아티팩트 드랍 확률 {0}",
+        "value": 0.06,
+        "value_display": "6%",
+        "description": "아티팩트 드랍 확률 6%"
+      }
+    ],
+    "randomValue": 4
+  },
+  {
+    "index": 166,
+    "name": "모나크의 탐지 구슬+",
+    "description": "악명 높은 도굴 꾼 모나크의 탐지 구슬 입니다. 값 비싼 물건이 근처에 있으면 빛이 납니다.",
+    "icon": 134,
+    "priceFactor": 2.5,
+    "passiveType": 0,
+    "types": [
+      48,
+      300,
+      0
+    ],
+    "effects": [
+      0.45,
+      0.08,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 48,
+        "type_name": "아이템 획득 확률 {0}",
+        "value": 0.45,
+        "value_display": "45%",
+        "description": "아이템 획득 확률 45%"
+      },
+      {
+        "type_code": 300,
+        "type_name": "아티팩트 드랍 확률 {0}",
+        "value": 0.08,
+        "value_display": "8%",
+        "description": "아티팩트 드랍 확률 8%"
+      }
+    ],
+    "randomValue": 5
+  },
+  {
+    "index": 167,
+    "name": "모나크의 탐지 구슬++",
+    "description": "악명 높은 도굴 꾼 모나크의 탐지 구슬 입니다. 값 비싼 물건이 근처에 있으면 빛이 납니다.",
+    "icon": 134,
+    "priceFactor": 3.0,
+    "passiveType": 0,
+    "types": [
+      48,
+      300,
+      0
+    ],
+    "effects": [
+      0.54,
+      0.1,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 48,
+        "type_name": "아이템 획득 확률 {0}",
+        "value": 0.54,
+        "value_display": "54%",
+        "description": "아이템 획득 확률 54%"
+      },
+      {
+        "type_code": 300,
+        "type_name": "아티팩트 드랍 확률 {0}",
+        "value": 0.1,
+        "value_display": "10%",
+        "description": "아티팩트 드랍 확률 10%"
+      }
+    ],
+    "randomValue": 6
+  },
+  {
+    "index": 168,
+    "name": "탐지 구슬",
+    "description": "값 비싼 물건이 근처에 있으면 밝게 빛나기 시작하는 구슬 입니다.",
+    "icon": 136,
+    "priceFactor": 1.0,
+    "passiveType": 0,
+    "types": [
+      48,
+      0,
+      0
+    ],
+    "effects": [
+      0.12,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 48,
+        "type_name": "아이템 획득 확률 {0}",
+        "value": 0.12,
+        "value_display": "12%",
+        "description": "아이템 획득 확률 12%"
+      }
+    ],
+    "randomValue": 1
+  },
+  {
+    "index": 169,
+    "name": "탐지 구슬+",
+    "description": "값 비싼 물건이 근처에 있으면 밝게 빛나기 시작하는 구슬 입니다.",
+    "icon": 133,
+    "priceFactor": 1.0,
+    "passiveType": 0,
+    "types": [
+      48,
+      0,
+      0
+    ],
+    "effects": [
+      0.18,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 48,
+        "type_name": "아이템 획득 확률 {0}",
+        "value": 0.18,
+        "value_display": "18%",
+        "description": "아이템 획득 확률 18%"
+      }
+    ],
+    "randomValue": 2
+  },
+  {
+    "index": 170,
+    "name": "탐지 구슬++",
+    "description": "값 비싼 물건이 근처에 있으면 밝게 빛나기 시작하는 구슬 입니다.",
+    "icon": 135,
+    "priceFactor": 1.5,
+    "passiveType": 0,
+    "types": [
+      48,
+      0,
+      0
+    ],
+    "effects": [
+      0.27,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 48,
+        "type_name": "아이템 획득 확률 {0}",
+        "value": 0.27,
+        "value_display": "27%",
+        "description": "아이템 획득 확률 27%"
+      }
+    ],
+    "randomValue": 3
+  },
+  {
+    "index": 176,
+    "name": "우르간의 방패++",
+    "description": "견고한 방패로 적의 공격을 막으며 치명타를 날릴 기회를 노립니다.",
+    "icon": 1,
+    "priceFactor": 4.0,
+    "passiveType": 0,
+    "types": [
+      38,
+      431,
+      0
+    ],
+    "effects": [
+      0.025,
+      0.03,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 38,
+        "type_name": "클릭 크리티컬 확률 {0}",
+        "value": 0.025,
+        "value_display": "2.5%",
+        "description": "클릭 크리티컬 확률 2.5%"
+      },
+      {
+        "type_code": 431,
+        "type_name": "모든 용병의 추가 클릭 확률 {0}",
+        "value": 0.03,
+        "value_display": "3%",
+        "description": "모든 용병의 추가 클릭 확률 3%"
+      }
+    ],
+    "randomValue": 9
+  },
+  {
+    "index": 177,
+    "name": "명사수 새라+",
+    "description": "새라는 적의 약점을 찾아 그곳에 화살을 명중 시킵니다.",
+    "icon": 6,
+    "priceFactor": 3.0,
+    "passiveType": 0,
+    "types": [
+      38,
+      56,
+      0
+    ],
+    "effects": [
+      0.02,
+      0.02,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 38,
+        "type_name": "클릭 크리티컬 확률 {0}",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "클릭 크리티컬 확률 2%"
+      },
+      {
+        "type_code": 56,
+        "type_name": "공격 무효화 관통 {0}",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "공격 무효화 관통 2%"
+      }
+    ],
+    "randomValue": 8
+  },
+  {
+    "index": 181,
+    "name": "휴대용 금주머니+",
+    "description": "휴대용 금주머니에 골드를 추가적으로 보관 합니다.",
+    "icon": 476,
+    "priceFactor": 1.5,
+    "passiveType": 0,
+    "types": [
+      47,
+      0,
+      0
+    ],
+    "effects": [
+      0.45,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 47,
+        "type_name": "골드 저장량 {0}",
+        "value": 0.45,
+        "value_display": "45%",
+        "description": "골드 저장량 45%"
+      }
+    ],
+    "randomValue": 3
+  },
+  {
+    "index": 183,
+    "name": "이졸데의 신념+",
+    "description": "신에 대한 굳은 신념으로 전장에서 놀라운 힘을 발휘 합니다.",
+    "icon": 142,
+    "priceFactor": 2.5,
+    "passiveType": 0,
+    "types": [
+      1,
+      9,
+      0
+    ],
+    "effects": [
+      1.0,
+      0.5,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1,
+        "type_name": "데미지 {0}",
+        "value": 1.0,
+        "value_display": "+1",
+        "description": "데미지 +1"
+      },
+      {
+        "type_code": 9,
+        "type_name": "공격 속도 {0}",
+        "value": 0.5,
+        "value_display": "50%",
+        "description": "공격 속도 50%"
+      }
+    ],
+    "randomValue": 7
+  },
+  {
+    "index": 185,
+    "name": "왕실 칙령",
+    "description": "크사르팍스의 공격으로부터 미들랜드를 지키라는 제이나의 칙령 입니다.",
+    "icon": 143,
+    "priceFactor": 1.0,
+    "passiveType": 0,
+    "types": [
+      49,
+      1173,
+      0
+    ],
+    "effects": [
+      0.08,
+      0.06,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 49,
+        "type_name": "명성 {0}",
+        "value": 0.08,
+        "value_display": "8%",
+        "description": "명성 8%"
+      },
+      {
+        "type_code": 1173,
+        "type_name": "즉시 공격 속도 {0}",
+        "value": 0.06,
+        "value_display": "6%",
+        "description": "즉시 공격 속도 6%"
+      }
+    ],
+    "randomValue": 1
+  },
+  {
+    "index": 186,
+    "name": "왕실 칙령+",
+    "description": "크사르팍스의 공격으로부터 미들랜드를 지키라는 제이나의 칙령 입니다.",
+    "icon": 144,
+    "priceFactor": 1.0,
+    "passiveType": 0,
+    "types": [
+      49,
+      1173,
+      0
+    ],
+    "effects": [
+      0.12,
+      0.08,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 49,
+        "type_name": "명성 {0}",
+        "value": 0.12,
+        "value_display": "12%",
+        "description": "명성 12%"
+      },
+      {
+        "type_code": 1173,
+        "type_name": "즉시 공격 속도 {0}",
+        "value": 0.08,
+        "value_display": "8%",
+        "description": "즉시 공격 속도 8%"
+      }
+    ],
+    "randomValue": 2
+  },
+  {
+    "index": 187,
+    "name": "왕실 칙령++",
+    "description": "크사르팍스의 공격으로부터 미들랜드를 지키라는 제이나의 칙령 입니다.",
+    "icon": 145,
+    "priceFactor": 1.5,
+    "passiveType": 0,
+    "types": [
+      49,
+      1173,
+      0
+    ],
+    "effects": [
+      0.18,
+      0.1,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 49,
+        "type_name": "명성 {0}",
+        "value": 0.18,
+        "value_display": "18%",
+        "description": "명성 18%"
+      },
+      {
+        "type_code": 1173,
+        "type_name": "즉시 공격 속도 {0}",
+        "value": 0.1,
+        "value_display": "10%",
+        "description": "즉시 공격 속도 10%"
+      }
+    ],
+    "randomValue": 3
+  },
+  {
+    "index": 191,
+    "name": "철통 수비++",
+    "description": "철통같은 수비로 용병단을 지켜 리더가 공격에 전념할 수 있게 합니다.",
+    "icon": 146,
+    "priceFactor": 3.5,
+    "passiveType": 0,
+    "types": [
+      16,
+      17,
+      1172
+    ],
+    "effects": [
+      1.05,
+      0.008,
+      0.15
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 16,
+        "type_name": "모든 용병의 클릭 데미지 {0}",
+        "value": 1.05,
+        "value_display": "+1.1",
+        "description": "모든 용병의 클릭 데미지 +1.1"
+      },
+      {
+        "type_code": 17,
+        "type_name": "모든 용병의 베이스 데미지 {0}",
+        "value": 0.008,
+        "value_display": "0.8%",
+        "description": "모든 용병의 베이스 데미지 0.8%"
+      },
+      {
+        "type_code": 1172,
+        "type_name": "즉시 공격 데미지 {0}",
+        "value": 0.15,
+        "value_display": "15%",
+        "description": "즉시 공격 데미지 15%"
+      }
+    ],
+    "randomValue": 5
+  },
+  {
+    "index": 193,
+    "name": "성서",
+    "description": "뿔레교의 교리가 담겨있는 책 입니다. 뿔레가 작성했다고 알려져 있기는 합니다.",
+    "icon": 147,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      169,
+      0,
+      0
+    ],
+    "effects": [
+      0.2,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 169,
+        "type_name": "모든 용병의 신성 데미지 {0}",
+        "value": 0.2,
+        "value_display": "20%",
+        "description": "모든 용병의 신성 데미지 20%"
+      }
+    ],
+    "randomValue": 5
+  },
+  {
+    "index": 196,
+    "name": "에테르 에너지 커터",
+    "description": "적들의 에테르 에너지를 잘라내어 공격에 대항하지 못하게 만듭니다.",
+    "icon": 127,
+    "priceFactor": 1.5,
+    "passiveType": 0,
+    "types": [
+      54,
+      0,
+      0
+    ],
+    "effects": [
+      0.0225,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 54,
+        "type_name": "적들의 클릭 저항력 감소 {0}",
+        "value": 0.0225,
+        "value_display": "2.2%",
+        "description": "적들의 클릭 저항력 감소 2.2%"
+      }
+    ],
+    "randomValue": 3
+  },
+  {
+    "index": 197,
+    "name": "에테르 에너지 커터+",
+    "description": "적들의 에테르 에너지를 잘라내어 공격에 대항하지 못하게 만듭니다.",
+    "icon": 128,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      54,
+      0,
+      0
+    ],
+    "effects": [
+      0.03,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 54,
+        "type_name": "적들의 클릭 저항력 감소 {0}",
+        "value": 0.03,
+        "value_display": "3%",
+        "description": "적들의 클릭 저항력 감소 3%"
+      }
+    ],
+    "randomValue": 4
+  },
+  {
+    "index": 198,
+    "name": "에테르 에너지 커터++",
+    "description": "적들의 에테르 에너지를 잘라내어 공격에 대항하지 못하게 만듭니다.",
+    "icon": 129,
+    "priceFactor": 2.5,
+    "passiveType": 0,
+    "types": [
+      54,
+      0,
+      0
+    ],
+    "effects": [
+      0.045,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 54,
+        "type_name": "적들의 클릭 저항력 감소 {0}",
+        "value": 0.045,
+        "value_display": "4.5%",
+        "description": "적들의 클릭 저항력 감소 4.5%"
+      }
+    ],
+    "randomValue": 5
+  },
+  {
+    "index": 203,
+    "name": "딕의 풀 플레이트 아머+",
+    "description": "딕은 견고한 풀플레이트 아머로 공격을 받아내며 적의 헛점을 찾아냅니다.",
+    "icon": 5,
+    "priceFactor": 4.0,
+    "passiveType": 0,
+    "types": [
+      39,
+      0,
+      0
+    ],
+    "effects": [
+      2.0,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 39,
+        "type_name": "클릭 크리티컬 배수 {0}",
+        "value": 2.0,
+        "value_display": "+2",
+        "description": "클릭 크리티컬 배수 +2"
+      }
+    ],
+    "randomValue": 9
+  },
+  {
+    "index": 210,
+    "name": "혼돈의 화살",
+    "description": "동료들의 혼돈의 에너지를 증폭시켜 화살의 형태로 만들어 발사 합니다.",
+    "icon": 153,
+    "priceFactor": 1.0,
+    "passiveType": 0,
+    "types": [
+      6,
+      1016,
+      0
+    ],
+    "effects": [
+      0.17,
+      0.01,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 6,
+        "type_name": "모든 카오스 용병의 데미지 {0}",
+        "value": 0.17,
+        "value_display": "17%",
+        "description": "모든 카오스 용병의 데미지 17%"
+      },
+      {
+        "type_code": 1016,
+        "type_name": "모든 카오스 용병의 성장 데미지 {0}",
+        "value": 0.01,
+        "value_display": "1%",
+        "description": "모든 카오스 용병의 성장 데미지 1%"
+      }
+    ],
+    "randomValue": 4
+  },
+  {
+    "index": 211,
+    "name": "혼돈의 화살+",
+    "description": "동료들의 혼돈의 에너지를 증폭시켜 화살의 형태로 만들어 발사 합니다.",
+    "icon": 154,
+    "priceFactor": 1.5,
+    "passiveType": 0,
+    "types": [
+      6,
+      1016,
+      0
+    ],
+    "effects": [
+      0.22,
+      0.014,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 6,
+        "type_name": "모든 카오스 용병의 데미지 {0}",
+        "value": 0.22,
+        "value_display": "22%",
+        "description": "모든 카오스 용병의 데미지 22%"
+      },
+      {
+        "type_code": 1016,
+        "type_name": "모든 카오스 용병의 성장 데미지 {0}",
+        "value": 0.014,
+        "value_display": "1.4%",
+        "description": "모든 카오스 용병의 성장 데미지 1.4%"
+      }
+    ],
+    "randomValue": 5
+  },
+  {
+    "index": 212,
+    "name": "혼돈의 화살++",
+    "description": "동료들의 혼돈의 에너지를 증폭시켜 화살의 형태로 만들어 발사 합니다.",
+    "icon": 155,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      6,
+      1016,
+      0
+    ],
+    "effects": [
+      0.3,
+      0.018,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 6,
+        "type_name": "모든 카오스 용병의 데미지 {0}",
+        "value": 0.3,
+        "value_display": "30%",
+        "description": "모든 카오스 용병의 데미지 30%"
+      },
+      {
+        "type_code": 1016,
+        "type_name": "모든 카오스 용병의 성장 데미지 {0}",
+        "value": 0.018,
+        "value_display": "1.8%",
+        "description": "모든 카오스 용병의 성장 데미지 1.8%"
+      }
+    ],
+    "randomValue": 6
+  },
+  {
+    "index": 218,
+    "name": "마검 이퀄라이져++",
+    "description": "이퀄라이져에 깃든 마력으로 적들을 공격 합니다.",
+    "icon": 158,
+    "priceFactor": 4.0,
+    "passiveType": 0,
+    "types": [
+      1,
+      114,
+      0
+    ],
+    "effects": [
+      1.5,
+      30000.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1,
+        "type_name": "데미지 {0}",
+        "value": 1.5,
+        "value_display": "+1.5",
+        "description": "데미지 +1.5"
+      },
+      {
+        "type_code": 114,
+        "type_name": "순수 데미지 {0}",
+        "value": 30000.0,
+        "value_display": "+30000",
+        "description": "순수 데미지 +30000"
+      }
+    ],
+    "randomValue": 5
+  },
+  {
+    "index": 226,
+    "name": "강력한 일격",
+    "description": "강력한 공격으로 큰 피해를 입혀 상대의 방어를 무력화 시킵니다.",
+    "icon": 163,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      20,
+      0,
+      0
+    ],
+    "effects": [
+      0.08,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 20,
+        "type_name": "강타 확률 {0}",
+        "value": 0.08,
+        "value_display": "8%",
+        "description": "강타 확률 8%"
+      }
+    ],
+    "randomValue": 5
+  },
+  {
+    "index": 229,
+    "name": "화염 방사",
+    "description": "적에게 화염을 강하게 방사하여 치명적인 피해를 입힙니다.",
+    "icon": 166,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      1,
+      29,
+      0
+    ],
+    "effects": [
+      1.0,
+      0.15,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1,
+        "type_name": "데미지 {0}",
+        "value": 1.0,
+        "value_display": "+1",
+        "description": "데미지 +1"
+      },
+      {
+        "type_code": 29,
+        "type_name": "모든 마법 용병의 강타 배수 {0}",
+        "value": 0.15,
+        "value_display": "15%",
+        "description": "모든 마법 용병의 강타 배수 15%"
+      }
+    ],
+    "randomValue": 4
+  },
+  {
+    "index": 230,
+    "name": "오염된 발할라의 빛",
+    "description": "카오스에 오염된 발할라의 빛은 가끔 씩 강력한 에너지를 방출 합니다.",
+    "icon": 168,
+    "priceFactor": 3.0,
+    "passiveType": 0,
+    "types": [
+      26,
+      0,
+      0
+    ],
+    "effects": [
+      1.5,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 26,
+        "type_name": "강타 배수 {0}",
+        "value": 1.5,
+        "value_display": "+1.5",
+        "description": "강타 배수 +1.5"
+      }
+    ],
+    "randomValue": 7
+  },
+  {
+    "index": 234,
+    "name": "광분",
+    "description": "전장에서 광분하여 자신의 한계를 넘어 공격 합니다.",
+    "icon": 1043,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      32,
+      0,
+      0
+    ],
+    "effects": [
+      0.08,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 32,
+        "type_name": "연타 확률 {0}",
+        "value": 0.08,
+        "value_display": "8%",
+        "description": "연타 확률 8%"
+      }
+    ],
+    "randomValue": 5
+  },
+  {
+    "index": 237,
+    "name": "죽음의 낙인",
+    "description": "아리만으로부터 죽음을 사면 받은 자들이 받는 낙인 입니다.",
+    "icon": 174,
+    "priceFactor": 4.0,
+    "passiveType": 0,
+    "types": [
+      1,
+      32,
+      175
+    ],
+    "effects": [
+      1.2,
+      0.1,
+      0.025
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1,
+        "type_name": "데미지 {0}",
+        "value": 1.2,
+        "value_display": "+1.2",
+        "description": "데미지 +1.2"
+      },
+      {
+        "type_code": 32,
+        "type_name": "연타 확률 {0}",
+        "value": 0.1,
+        "value_display": "10%",
+        "description": "연타 확률 10%"
+      },
+      {
+        "type_code": 175,
+        "type_name": "공포 극복 확률 {0}",
+        "value": 0.025,
+        "value_display": "2.5%",
+        "description": "공포 극복 확률 2.5%"
+      }
+    ],
+    "randomValue": 7
+  },
+  {
+    "index": 239,
+    "name": "약점 공격",
+    "description": "상대의 약점을 공격하여 고통을 줍니다.",
+    "icon": 177,
+    "priceFactor": 1.5,
+    "passiveType": 0,
+    "types": [
+      7,
+      0,
+      0
+    ],
+    "effects": [
+      5000.0,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 7,
+        "type_name": "추가 데미지 {0}",
+        "value": 5000.0,
+        "value_display": "+5000",
+        "description": "추가 데미지 +5000"
+      }
+    ],
+    "randomValue": 2
+  },
+  {
+    "index": 240,
+    "name": "출혈",
+    "description": "적의 상처를 열어 출혈을 일으킵니다.",
+    "icon": 178,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      7,
+      0,
+      0
+    ],
+    "effects": [
+      6750.0,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 7,
+        "type_name": "추가 데미지 {0}",
+        "value": 6750.0,
+        "value_display": "+6750",
+        "description": "추가 데미지 +6750"
+      }
+    ],
+    "randomValue": 4
+  },
+  {
+    "index": 241,
+    "name": "노쓰페라투쓰의 위압",
+    "description": "노쓰페라투쓰의 압도적인 힘에 위축된 적들은 헛점을 보이게 됩니다.",
+    "icon": 179,
+    "priceFactor": 3.0,
+    "passiveType": 0,
+    "types": [
+      20,
+      26,
+      107
+    ],
+    "effects": [
+      0.1,
+      1.5,
+      0.35
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 20,
+        "type_name": "강타 확률 {0}",
+        "value": 0.1,
+        "value_display": "10%",
+        "description": "강타 확률 10%"
+      },
+      {
+        "type_code": 26,
+        "type_name": "강타 배수 {0}",
+        "value": 1.5,
+        "value_display": "+1.5",
+        "description": "강타 배수 +1.5"
+      },
+      {
+        "type_code": 107,
+        "type_name": "피격 지속시간 감소 {0}",
+        "value": 0.35,
+        "value_display": "35%",
+        "description": "피격 지속시간 감소 35%"
+      }
+    ],
+    "randomValue": 9
+  },
+  {
+    "index": 242,
+    "name": "세번째 심장",
+    "description": "세번째 심장을 소유한자는 전장에서 압도적인 활력을 가지게 됩니다.",
+    "icon": 180,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      9,
+      107,
+      0
+    ],
+    "effects": [
+      0.45,
+      0.15,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 9,
+        "type_name": "공격 속도 {0}",
+        "value": 0.45,
+        "value_display": "45%",
+        "description": "공격 속도 45%"
+      },
+      {
+        "type_code": 107,
+        "type_name": "피격 지속시간 감소 {0}",
+        "value": 0.15,
+        "value_display": "15%",
+        "description": "피격 지속시간 감소 15%"
+      }
+    ],
+    "randomValue": 7
+  },
+  {
+    "index": 243,
+    "name": "스탈링의 애교",
+    "description": "스탈링의 치명적인 애교는 적들의 전의를 상실 시킵니다.",
+    "icon": 181,
+    "priceFactor": 2.5,
+    "passiveType": 0,
+    "types": [
+      51,
+      0,
+      0
+    ],
+    "effects": [
+      0.035,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 51,
+        "type_name": "적들의 물리 저항력 감소 {0}",
+        "value": 0.035,
+        "value_display": "3.5%",
+        "description": "적들의 물리 저항력 감소 3.5%"
+      }
+    ],
+    "randomValue": 6
+  },
+  {
+    "index": 251,
+    "name": "본 키메라 합성",
+    "description": "다양한 종류의 뼈들을 조합하여 보다 강력한 존재가 되었습니다.",
+    "icon": 187,
+    "priceFactor": 2.5,
+    "passiveType": 0,
+    "types": [
+      20,
+      21,
+      27
+    ],
+    "effects": [
+      0.1,
+      0.01,
+      0.25
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 20,
+        "type_name": "강타 확률 {0}",
+        "value": 0.1,
+        "value_display": "10%",
+        "description": "강타 확률 10%"
+      },
+      {
+        "type_code": 21,
+        "type_name": "모든 용병의 강타 확률 {0}",
+        "value": 0.01,
+        "value_display": "1%",
+        "description": "모든 용병의 강타 확률 1%"
+      },
+      {
+        "type_code": 27,
+        "type_name": "모든 용병의 강타 배수 {0}",
+        "value": 0.25,
+        "value_display": "25%",
+        "description": "모든 용병의 강타 배수 25%"
+      }
+    ],
+    "randomValue": 9
+  },
+  {
+    "index": 253,
+    "name": "공포",
+    "description": "적들을 공포에 떨게하여 공황 상태로 만듭니다.",
+    "icon": 203,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      21,
+      431,
+      0
+    ],
+    "effects": [
+      0.01,
+      0.05,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 21,
+        "type_name": "모든 용병의 강타 확률 {0}",
+        "value": 0.01,
+        "value_display": "1%",
+        "description": "모든 용병의 강타 확률 1%"
+      },
+      {
+        "type_code": 431,
+        "type_name": "모든 용병의 추가 클릭 확률 {0}",
+        "value": 0.05,
+        "value_display": "5%",
+        "description": "모든 용병의 추가 클릭 확률 5%"
+      }
+    ],
+    "randomValue": 7
+  },
+  {
+    "index": 257,
+    "name": "내면의 악마",
+    "description": "악마적인 악랄함으로 적들에게 치명적인 피해를 입힙니다.",
+    "icon": 188,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      26,
+      1172,
+      0
+    ],
+    "effects": [
+      0.75,
+      0.15,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 26,
+        "type_name": "강타 배수 {0}",
+        "value": 0.75,
+        "value_display": "75%",
+        "description": "강타 배수 75%"
+      },
+      {
+        "type_code": 1172,
+        "type_name": "즉시 공격 데미지 {0}",
+        "value": 0.15,
+        "value_display": "15%",
+        "description": "즉시 공격 데미지 15%"
+      }
+    ],
+    "randomValue": 4
+  },
+  {
+    "index": 258,
+    "name": "운명의 퍼즐조각",
+    "description": "전장의 운명을 점치는 마법의 퍼즐 조각 입니다.",
+    "icon": 390,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      41,
+      0,
+      0
+    ],
+    "effects": [
+      0.2,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 41,
+        "type_name": "자동 클릭 확률 {0}",
+        "value": 0.2,
+        "value_display": "20%",
+        "description": "자동 클릭 확률 20%"
+      }
+    ],
+    "randomValue": 4
+  },
+  {
+    "index": 260,
+    "name": "시공의 폭풍",
+    "description": "시공의 폭풍으로 참전한 적들을 고급 스럽게 휩쓸어 버립니다.",
+    "icon": 194,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      39,
+      0,
+      0
+    ],
+    "effects": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 39,
+        "type_name": "클릭 크리티컬 배수 {0}",
+        "value": 1.0,
+        "value_display": "+1",
+        "description": "클릭 크리티컬 배수 +1"
+      }
+    ],
+    "randomValue": 4
+  },
+  {
+    "index": 261,
+    "name": "무영권",
+    "description": "훈련을 거듭하여 무의식적으로 적들을 공격하게 됩니다.",
+    "icon": 195,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      42,
+      0,
+      0
+    ],
+    "effects": [
+      0.18,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 42,
+        "type_name": "자동 클릭 속도 {0}",
+        "value": 0.18,
+        "value_display": "18%",
+        "description": "자동 클릭 속도 18%"
+      }
+    ],
+    "randomValue": 4
+  },
+  {
+    "index": 262,
+    "name": "크레이지 핸드",
+    "description": "악령이 빙의된 손이 스스로 적들을 공격 합니다.",
+    "icon": 196,
+    "priceFactor": 3.0,
+    "passiveType": 0,
+    "types": [
+      122,
+      42,
+      375
+    ],
+    "effects": [
+      0.4,
+      0.3,
+      0.12
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 122,
+        "type_name": "추가 클릭 데미지 {0}",
+        "value": 0.4,
+        "value_display": "40%",
+        "description": "추가 클릭 데미지 40%"
+      },
+      {
+        "type_code": 42,
+        "type_name": "자동 클릭 속도 {0}",
+        "value": 0.3,
+        "value_display": "30%",
+        "description": "자동 클릭 속도 30%"
+      },
+      {
+        "type_code": 375,
+        "type_name": "자동 클릭 데미지 {0}",
+        "value": 0.12,
+        "value_display": "12%",
+        "description": "자동 클릭 데미지 12%"
+      }
+    ],
+    "randomValue": 6
+  },
+  {
+    "index": 263,
+    "name": "영혼 흡수",
+    "description": "적들의 영혼 일부를 흡수하여 취약점을 찾아낸 후 공격 합니다.",
+    "icon": 197,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      40,
+      0,
+      0
+    ],
+    "effects": [
+      0.025,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 40,
+        "type_name": "소울 클릭 확률 {0}",
+        "value": 0.025,
+        "value_display": "2.5%",
+        "description": "소울 클릭 확률 2.5%"
+      }
+    ],
+    "randomValue": 6
+  },
+  {
+    "index": 264,
+    "name": "광폭화",
+    "description": "본능에 눈을 떠 매우 광폭해 집니다.",
+    "icon": 198,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      9,
+      7,
+      0
+    ],
+    "effects": [
+      0.4,
+      6000.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 9,
+        "type_name": "공격 속도 {0}",
+        "value": 0.4,
+        "value_display": "40%",
+        "description": "공격 속도 40%"
+      },
+      {
+        "type_code": 7,
+        "type_name": "추가 데미지 {0}",
+        "value": 6000.0,
+        "value_display": "+6000",
+        "description": "추가 데미지 +6000"
+      }
+    ],
+    "randomValue": 5
+  },
+  {
+    "index": 267,
+    "name": "운명의 변절자",
+    "description": "정해진 운명을 따르는 대신 스스로 자신의 운명을 개척하며 살아 갑니다.",
+    "icon": 201,
+    "priceFactor": 2.5,
+    "passiveType": 0,
+    "types": [
+      26,
+      56,
+      0
+    ],
+    "effects": [
+      0.75,
+      0.025,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 26,
+        "type_name": "강타 배수 {0}",
+        "value": 0.75,
+        "value_display": "75%",
+        "description": "강타 배수 75%"
+      },
+      {
+        "type_code": 56,
+        "type_name": "공격 무효화 관통 {0}",
+        "value": 0.025,
+        "value_display": "2.5%",
+        "description": "공격 무효화 관통 2.5%"
+      }
+    ],
+    "randomValue": 6
+  },
+  {
+    "index": 269,
+    "name": "웨폰 블록",
+    "description": "상대의 공격을 무기로 막아내어 헛점을 유도 합니다.",
+    "icon": 202,
+    "priceFactor": 3.0,
+    "passiveType": 0,
+    "types": [
+      20,
+      107,
+      0
+    ],
+    "effects": [
+      0.1,
+      0.25,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 20,
+        "type_name": "강타 확률 {0}",
+        "value": 0.1,
+        "value_display": "10%",
+        "description": "강타 확률 10%"
+      },
+      {
+        "type_code": 107,
+        "type_name": "피격 지속시간 감소 {0}",
+        "value": 0.25,
+        "value_display": "25%",
+        "description": "피격 지속시간 감소 25%"
+      }
+    ],
+    "randomValue": 7
+  },
+  {
+    "index": 271,
+    "name": "이계의 에너지",
+    "description": "다른 차원의 에너지를 이용하여 상대를 파괴 시킵니다.",
+    "icon": 204,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      1,
+      1173,
+      0
+    ],
+    "effects": [
+      1.0,
+      0.12,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1,
+        "type_name": "데미지 {0}",
+        "value": 1.0,
+        "value_display": "+1",
+        "description": "데미지 +1"
+      },
+      {
+        "type_code": 1173,
+        "type_name": "즉시 공격 속도 {0}",
+        "value": 0.12,
+        "value_display": "12%",
+        "description": "즉시 공격 속도 12%"
+      }
+    ],
+    "randomValue": 4
+  },
+  {
+    "index": 273,
+    "name": "불굴의 투지",
+    "description": "그 어떠한 시련에도 꺽이지 않는 강렬한 투지를 지니고 있습니다.",
+    "icon": 206,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      1,
+      1172,
+      0
+    ],
+    "effects": [
+      1.0,
+      0.15,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1,
+        "type_name": "데미지 {0}",
+        "value": 1.0,
+        "value_display": "+1",
+        "description": "데미지 +1"
+      },
+      {
+        "type_code": 1172,
+        "type_name": "즉시 공격 데미지 {0}",
+        "value": 0.15,
+        "value_display": "15%",
+        "description": "즉시 공격 데미지 15%"
+      }
+    ],
+    "randomValue": 4
+  },
+  {
+    "index": 274,
+    "name": "자아붕괴",
+    "description": "적들의 자아를 붕괴시켜 헛점을 만들어 냅니다.",
+    "icon": 207,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      20,
+      0,
+      0
+    ],
+    "effects": [
+      0.08,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 20,
+        "type_name": "강타 확률 {0}",
+        "value": 0.08,
+        "value_display": "8%",
+        "description": "강타 확률 8%"
+      }
+    ],
+    "randomValue": 5
+  },
+  {
+    "index": 276,
+    "name": "그림자 독",
+    "description": "그림자 독을 묻힌 검에 맞은 적들은 행동이 둔해져 연속적인 공격을 허용하게 됩니다.",
+    "icon": 209,
+    "priceFactor": 3.0,
+    "passiveType": 0,
+    "types": [
+      32,
+      107,
+      0
+    ],
+    "effects": [
+      0.09,
+      0.35,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 32,
+        "type_name": "연타 확률 {0}",
+        "value": 0.09,
+        "value_display": "9%",
+        "description": "연타 확률 9%"
+      },
+      {
+        "type_code": 107,
+        "type_name": "피격 지속시간 감소 {0}",
+        "value": 0.35,
+        "value_display": "35%",
+        "description": "피격 지속시간 감소 35%"
+      }
+    ],
+    "randomValue": 8
+  },
+  {
+    "index": 280,
+    "name": "초신속",
+    "description": "속도를 한계까지 끌어올려 적들을 교란 시킵니다.",
+    "icon": 212,
+    "priceFactor": 3.0,
+    "passiveType": 0,
+    "types": [
+      32,
+      255,
+      0
+    ],
+    "effects": [
+      0.1,
+      0.025,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 32,
+        "type_name": "연타 확률 {0}",
+        "value": 0.1,
+        "value_display": "10%",
+        "description": "연타 확률 10%"
+      },
+      {
+        "type_code": 255,
+        "type_name": "연타 데미지 {0}",
+        "value": 0.025,
+        "value_display": "2.5%",
+        "description": "연타 데미지 2.5%"
+      }
+    ],
+    "randomValue": 6
+  },
+  {
+    "index": 283,
+    "name": "마인드 컨트롤",
+    "description": "적들의 정신을 조종하여 강제로 헛점을 만들어 냅니다.",
+    "icon": 214,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      27,
+      29,
+      0
+    ],
+    "effects": [
+      0.1,
+      0.1,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 27,
+        "type_name": "모든 용병의 강타 배수 {0}",
+        "value": 0.1,
+        "value_display": "10%",
+        "description": "모든 용병의 강타 배수 10%"
+      },
+      {
+        "type_code": 29,
+        "type_name": "모든 마법 용병의 강타 배수 {0}",
+        "value": 0.1,
+        "value_display": "10%",
+        "description": "모든 마법 용병의 강타 배수 10%"
+      }
+    ],
+    "randomValue": 7
+  },
+  {
+    "index": 285,
+    "name": "재거의 저장공간++",
+    "description": "재거의 몸통에는 넓은 빈공간이 있어서 전투 중 획득한 골드를 보관하기에 안성맞춤 입니다.",
+    "icon": 140,
+    "priceFactor": 3.5,
+    "passiveType": 0,
+    "types": [
+      47,
+      0,
+      0
+    ],
+    "effects": [
+      1.05,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 47,
+        "type_name": "골드 저장량 {0}",
+        "value": 1.05,
+        "value_display": "+1.1",
+        "description": "골드 저장량 +1.1"
+      }
+    ],
+    "randomValue": 5
+  },
+  {
+    "index": 288,
+    "name": "동물뼈 군단의 단결력",
+    "description": "동물뼈 군단은 서로의 뼈를 연결하기 때문에 뭉칠수록 강해 집니다.",
+    "icon": 217,
+    "priceFactor": 1.5,
+    "passiveType": 0,
+    "types": [
+      219,
+      475,
+      0
+    ],
+    "effects": [
+      12500.0,
+      0.02,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 219,
+        "type_name": "개성이 동물뼈 언데드인 용병의 추가 데미지 +[동물뼈 언데드] 용병 수 X {0}",
+        "value": 12500.0,
+        "value_display": "+12500",
+        "description": "개성이 동물뼈 언데드인 용병의 추가 데미지 +[동물뼈 언데드] 용병 수 X +12500"
+      },
+      {
+        "type_code": 475,
+        "type_name": "개성이 동물뼈 언데드인 용병의 베이스 데미지 +[동물뼈 언데드] 용병 수 X {0}%",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "개성이 동물뼈 언데드인 용병의 베이스 데미지 +[동물뼈 언데드] 용병 수 X 2%%"
+      }
+    ],
+    "randomValue": 3
+  },
+  {
+    "index": 289,
+    "name": "크시론의 자부심",
+    "description": "크시론은 자신이 드래곤의 뼈로 만들어진 언데드라는것에 큰 자부심을 느끼고 있습니다.",
+    "icon": 216,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      20,
+      1000,
+      56
+    ],
+    "effects": [
+      0.12,
+      0.4,
+      0.02
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 20,
+        "type_name": "강타 확률 {0}",
+        "value": 0.12,
+        "value_display": "12%",
+        "description": "강타 확률 12%"
+      },
+      {
+        "type_code": 1000,
+        "type_name": "추가 데미지 증폭 {0}",
+        "value": 0.4,
+        "value_display": "40%",
+        "description": "추가 데미지 증폭 40%"
+      },
+      {
+        "type_code": 56,
+        "type_name": "공격 무효화 관통 {0}",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "공격 무효화 관통 2%"
+      }
+    ],
+    "randomValue": 9
+  },
+  {
+    "index": 292,
+    "name": "헤드 샷",
+    "description": "적들의 머리를 정조준하여 치명상을 입힙니다.",
+    "icon": 221,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      20,
+      112,
+      1172
+    ],
+    "effects": [
+      0.08,
+      0.03,
+      0.21
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 20,
+        "type_name": "강타 확률 {0}",
+        "value": 0.08,
+        "value_display": "8%",
+        "description": "강타 확률 8%"
+      },
+      {
+        "type_code": 112,
+        "type_name": "적들의 회피 확률 감소 {0}",
+        "value": 0.03,
+        "value_display": "3%",
+        "description": "적들의 회피 확률 감소 3%"
+      },
+      {
+        "type_code": 1172,
+        "type_name": "즉시 공격 데미지 {0}",
+        "value": 0.21,
+        "value_display": "21%",
+        "description": "즉시 공격 데미지 21%"
+      }
+    ],
+    "randomValue": 7
+  },
+  {
+    "index": 311,
+    "name": "격투가의 긍지",
+    "description": "칼과 마법이 난무하는 전장에서 격투가의 긍지를 지키며 맨손으로 적들을 제압 합니다.",
+    "icon": 231,
+    "priceFactor": 3.0,
+    "passiveType": 0,
+    "types": [
+      9,
+      122,
+      0
+    ],
+    "effects": [
+      0.4,
+      0.15,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 9,
+        "type_name": "공격 속도 {0}",
+        "value": 0.4,
+        "value_display": "40%",
+        "description": "공격 속도 40%"
+      },
+      {
+        "type_code": 122,
+        "type_name": "추가 클릭 데미지 {0}",
+        "value": 0.15,
+        "value_display": "15%",
+        "description": "추가 클릭 데미지 15%"
+      }
+    ],
+    "randomValue": 6
+  },
+  {
+    "index": 314,
+    "name": "데쓰 핸드",
+    "description": "죽음의 마법이 서려있는 라라엘의 손은 닿는 모든것을 파괴 시킵니다.",
+    "icon": 164,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      26,
+      0,
+      0
+    ],
+    "effects": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 26,
+        "type_name": "강타 배수 {0}",
+        "value": 1.0,
+        "value_display": "+1",
+        "description": "강타 배수 +1"
+      }
+    ],
+    "randomValue": 6
+  },
+  {
+    "index": 317,
+    "name": "바람의 문양",
+    "description": "바람의 문양을 활성화 하여 신속의 힘을 얻게 됩니다.",
+    "icon": 234,
+    "priceFactor": 1.0,
+    "passiveType": 0,
+    "types": [
+      10,
+      0,
+      0
+    ],
+    "effects": [
+      0.025,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 10,
+        "type_name": "모든 용병의 공격 속도 {0}",
+        "value": 0.025,
+        "value_display": "2.5%",
+        "description": "모든 용병의 공격 속도 2.5%"
+      }
+    ],
+    "randomValue": 3
+  },
+  {
+    "index": 319,
+    "name": "혼돈의 용맹",
+    "description": "혼돈의 힘으로 증폭된 용맹함으로 적들을 보다 강하게 공격 합니다.",
+    "icon": 236,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      1,
+      124,
+      0
+    ],
+    "effects": [
+      1.2,
+      0.12,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1,
+        "type_name": "데미지 {0}",
+        "value": 1.2,
+        "value_display": "+1.2",
+        "description": "데미지 +1.2"
+      },
+      {
+        "type_code": 124,
+        "type_name": "데미지 편차 {0}",
+        "value": 0.12,
+        "value_display": "12%",
+        "description": "데미지 편차 12%"
+      }
+    ],
+    "randomValue": 4
+  },
+  {
+    "index": 320,
+    "name": "혼돈의 분노",
+    "description": "혼돈의 힘으로 증폭된 분노로 적들을 보다 빠르게 공격 합니다.",
+    "icon": 237,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      9,
+      124,
+      0
+    ],
+    "effects": [
+      0.45,
+      0.1,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 9,
+        "type_name": "공격 속도 {0}",
+        "value": 0.45,
+        "value_display": "45%",
+        "description": "공격 속도 45%"
+      },
+      {
+        "type_code": 124,
+        "type_name": "데미지 편차 {0}",
+        "value": 0.1,
+        "value_display": "10%",
+        "description": "데미지 편차 10%"
+      }
+    ],
+    "randomValue": 6
+  },
+  {
+    "index": 321,
+    "name": "괴수의 본능",
+    "description": "괴수들은 자신에게 겁먹은 생명체들의 약점을 본능적으로 느낄수 있습니다.",
+    "icon": 238,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      38,
+      0,
+      0
+    ],
+    "effects": [
+      0.015,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 38,
+        "type_name": "클릭 크리티컬 확률 {0}",
+        "value": 0.015,
+        "value_display": "1.5%",
+        "description": "클릭 크리티컬 확률 1.5%"
+      }
+    ],
+    "randomValue": 6
+  },
+  {
+    "index": 322,
+    "name": "마력 연결",
+    "description": "용병들의 마력을 연결하여 그들의 마력을 증폭시킵니다.",
+    "icon": 242,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      4,
+      1014,
+      0
+    ],
+    "effects": [
+      0.36,
+      0.02,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 4,
+        "type_name": "모든 마법 용병의 데미지 {0}",
+        "value": 0.36,
+        "value_display": "36%",
+        "description": "모든 마법 용병의 데미지 36%"
+      },
+      {
+        "type_code": 1014,
+        "type_name": "모든 마법 용병의 성장 데미지 {0}",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "모든 마법 용병의 성장 데미지 2%"
+      }
+    ],
+    "randomValue": 5
+  },
+  {
+    "index": 324,
+    "name": "블러드러스트",
+    "description": "전사들의 피를 끓게 만들어 전장에서 강력한 힘을 발휘하게 합니다.",
+    "icon": 241,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      3,
+      1013,
+      0
+    ],
+    "effects": [
+      0.36,
+      0.02,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 3,
+        "type_name": "모든 물리 용병의 데미지 {0}",
+        "value": 0.36,
+        "value_display": "36%",
+        "description": "모든 물리 용병의 데미지 36%"
+      },
+      {
+        "type_code": 1013,
+        "type_name": "모든 물리 용병의 성장 데미지 {0}",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "모든 물리 용병의 성장 데미지 2%"
+      }
+    ],
+    "randomValue": 5
+  },
+  {
+    "index": 326,
+    "name": "크리스마스 트리",
+    "description": "크리스마스 정신을 불러일으키는 나무 장식 입니다.",
+    "icon": 243,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      38,
+      16,
+      0
+    ],
+    "effects": [
+      0.012,
+      0.125,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 38,
+        "type_name": "클릭 크리티컬 확률 {0}",
+        "value": 0.012,
+        "value_display": "1.2%",
+        "description": "클릭 크리티컬 확률 1.2%"
+      },
+      {
+        "type_code": 16,
+        "type_name": "모든 용병의 클릭 데미지 {0}",
+        "value": 0.125,
+        "value_display": "12.5%",
+        "description": "모든 용병의 클릭 데미지 12.5%"
+      }
+    ],
+    "randomValue": 4
+  },
+  {
+    "index": 328,
+    "name": "눈 던지기",
+    "description": "적들에게 눈을 던져 강제로 크리스마스 정신을 주입 시킵니다.",
+    "icon": 245,
+    "priceFactor": 1.0,
+    "passiveType": 0,
+    "types": [
+      1,
+      9,
+      0
+    ],
+    "effects": [
+      0.08,
+      0.25,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1,
+        "type_name": "데미지 {0}",
+        "value": 0.08,
+        "value_display": "8%",
+        "description": "데미지 8%"
+      },
+      {
+        "type_code": 9,
+        "type_name": "공격 속도 {0}",
+        "value": 0.25,
+        "value_display": "25%",
+        "description": "공격 속도 25%"
+      }
+    ],
+    "randomValue": 3
+  },
+  {
+    "index": 333,
+    "name": "혼돈의 투쟁 오라",
+    "description": "혼돈의 에너지를 가진 동료들에게 전투 의지를 불러 일으킵니다.",
+    "icon": 249,
+    "priceFactor": 1.5,
+    "passiveType": 0,
+    "types": [
+      6,
+      1022,
+      0
+    ],
+    "effects": [
+      0.22,
+      0.012,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 6,
+        "type_name": "모든 카오스 용병의 데미지 {0}",
+        "value": 0.22,
+        "value_display": "22%",
+        "description": "모든 카오스 용병의 데미지 22%"
+      },
+      {
+        "type_code": 1022,
+        "type_name": "모든 카오스 용병의 강타 배수 증폭 {0}",
+        "value": 0.012,
+        "value_display": "1.2%",
+        "description": "모든 카오스 용병의 강타 배수 증폭 1.2%"
+      }
+    ],
+    "randomValue": 5
+  },
+  {
+    "index": 337,
+    "name": "흔한 라이터",
+    "description": "여고생들이 흔히 가지고 다니는 라이터 입니다. 하라는 적들을 공격할때 라이터를 꽉 쥐고 때립니다.",
+    "icon": 252,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      26,
+      0,
+      0
+    ],
+    "effects": [
+      0.75,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 26,
+        "type_name": "강타 배수 {0}",
+        "value": 0.75,
+        "value_display": "75%",
+        "description": "강타 배수 75%"
+      }
+    ],
+    "randomValue": 4
+  },
+  {
+    "index": 338,
+    "name": "흔한 포켓 나이프",
+    "description": "여고생들이 흔히 가지고 다니는 포켓 나이프 입니다. 동료들을 협박하여 분발하도록 합니다.",
+    "icon": 254,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      2,
+      1173,
+      0
+    ],
+    "effects": [
+      0.16,
+      0.12,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 2,
+        "type_name": "모든 용병의 데미지 {0}",
+        "value": 0.16,
+        "value_display": "16%",
+        "description": "모든 용병의 데미지 16%"
+      },
+      {
+        "type_code": 1173,
+        "type_name": "즉시 공격 속도 {0}",
+        "value": 0.12,
+        "value_display": "12%",
+        "description": "즉시 공격 속도 12%"
+      }
+    ],
+    "randomValue": 4
+  },
+  {
+    "index": 339,
+    "name": "실전 경험",
+    "description": "수년간 쌓은 실전 결험으로 전장에서 크게 활약 합니다.",
+    "icon": 255,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      1,
+      43,
+      0
+    ],
+    "effects": [
+      1.0,
+      0.24,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1,
+        "type_name": "데미지 {0}",
+        "value": 1.0,
+        "value_display": "+1",
+        "description": "데미지 +1"
+      },
+      {
+        "type_code": 43,
+        "type_name": "추가 클릭 확률 {0}",
+        "value": 0.24,
+        "value_display": "24%",
+        "description": "추가 클릭 확률 24%"
+      }
+    ],
+    "randomValue": 4
+  },
+  {
+    "index": 340,
+    "name": "자유인의 의지",
+    "description": "자유인의 긍지로 전장에서 적극적으로 적들과 맞서 싸웁니다.",
+    "icon": 256,
+    "priceFactor": 4.0,
+    "passiveType": 0,
+    "types": [
+      43,
+      122,
+      0
+    ],
+    "effects": [
+      0.55,
+      0.15,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 43,
+        "type_name": "추가 클릭 확률 {0}",
+        "value": 0.55,
+        "value_display": "55.0%",
+        "description": "추가 클릭 확률 55.0%"
+      },
+      {
+        "type_code": 122,
+        "type_name": "추가 클릭 데미지 {0}",
+        "value": 0.15,
+        "value_display": "15%",
+        "description": "추가 클릭 데미지 15%"
+      }
+    ],
+    "randomValue": 7
+  },
+  {
+    "index": 344,
+    "name": "리나의 무영권",
+    "description": "리나는 특훈을 통해 무의식적으로 적들을 공격하는 경지에 올랐습니다.",
+    "icon": 259,
+    "priceFactor": 3.0,
+    "passiveType": 0,
+    "types": [
+      42,
+      43,
+      0
+    ],
+    "effects": [
+      0.2,
+      0.2,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 42,
+        "type_name": "자동 클릭 속도 {0}",
+        "value": 0.2,
+        "value_display": "20%",
+        "description": "자동 클릭 속도 20%"
+      },
+      {
+        "type_code": 43,
+        "type_name": "추가 클릭 확률 {0}",
+        "value": 0.2,
+        "value_display": "20%",
+        "description": "추가 클릭 확률 20%"
+      }
+    ],
+    "randomValue": 6
+  },
+  {
+    "index": 353,
+    "name": "보호막 관통",
+    "description": "적들의 보호막을 뚫어 본체를 타격 합니다.",
+    "icon": 264,
+    "priceFactor": 1.5,
+    "passiveType": 0,
+    "types": [
+      56,
+      0,
+      0
+    ],
+    "effects": [
+      0.02,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 56,
+        "type_name": "공격 무효화 관통 {0}",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "공격 무효화 관통 2%"
+      }
+    ],
+    "randomValue": 3
+  },
+  {
+    "index": 355,
+    "name": "이계의 거울",
+    "description": "이계의 에너지를 불러와 동료들에게 알수없는 힘을 줍니다.",
+    "icon": 361,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      19,
+      1171,
+      0
+    ],
+    "effects": [
+      1.0,
+      0.12,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 19,
+        "type_name": "모든 용병의 최대 레벨 {0}",
+        "value": 1.0,
+        "value_display": "+1",
+        "description": "모든 용병의 최대 레벨 +1"
+      },
+      {
+        "type_code": 1171,
+        "type_name": "즉시 공격 확률 {0}",
+        "value": 0.12,
+        "value_display": "12%",
+        "description": "즉시 공격 확률 12%"
+      }
+    ],
+    "randomValue": 4
+  },
+  {
+    "index": 359,
+    "name": "인내의 열매",
+    "description": "인내의 열매 특유의 단맛은 동료들의 사기를 높혀 줍니다.",
+    "icon": 268,
+    "priceFactor": 0.0,
+    "passiveType": 0,
+    "types": [
+      9,
+      19,
+      108
+    ],
+    "effects": [
+      0.4,
+      2.0,
+      0.08
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 9,
+        "type_name": "공격 속도 {0}",
+        "value": 0.4,
+        "value_display": "40%",
+        "description": "공격 속도 40%"
+      },
+      {
+        "type_code": 19,
+        "type_name": "모든 용병의 최대 레벨 {0}",
+        "value": 2.0,
+        "value_display": "+2",
+        "description": "모든 용병의 최대 레벨 +2"
+      },
+      {
+        "type_code": 108,
+        "type_name": "모든 용병의 피격 지속시간 감소 {0}",
+        "value": 0.08,
+        "value_display": "8%",
+        "description": "모든 용병의 피격 지속시간 감소 8%"
+      }
+    ],
+    "randomValue": 7
+  },
+  {
+    "index": 362,
+    "name": "예지의 눈",
+    "description": "프로페타의 눈들 중 일부는 미래를 볼수 있기 때문에 동료들에게 위험을 예측해 주곤 합니다. 예언체들의 관점에서는 미래도 과거처럼 이미 발생한것이라고 합니다.",
+    "icon": 680,
+    "priceFactor": 3.0,
+    "passiveType": 0,
+    "types": [
+      8,
+      1173,
+      0
+    ],
+    "effects": [
+      2000.0,
+      0.15,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 8,
+        "type_name": "모든 용병의 추가 데미지 {0}",
+        "value": 2000.0,
+        "value_display": "+2000",
+        "description": "모든 용병의 추가 데미지 +2000"
+      },
+      {
+        "type_code": 1173,
+        "type_name": "즉시 공격 속도 {0}",
+        "value": 0.15,
+        "value_display": "15%",
+        "description": "즉시 공격 속도 15%"
+      }
+    ],
+    "randomValue": 5
+  },
+  {
+    "index": 363,
+    "name": "사우쓰페라투쓰의 위압",
+    "description": "노쓰페라투쓰에 버금가는 압도적인 힘으로 적들을 제압 합니다.",
+    "icon": 272,
+    "priceFactor": 3.0,
+    "passiveType": 0,
+    "types": [
+      26,
+      107,
+      0
+    ],
+    "effects": [
+      1.8,
+      0.2,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 26,
+        "type_name": "강타 배수 {0}",
+        "value": 1.8,
+        "value_display": "+1.8",
+        "description": "강타 배수 +1.8"
+      },
+      {
+        "type_code": 107,
+        "type_name": "피격 지속시간 감소 {0}",
+        "value": 0.2,
+        "value_display": "20%",
+        "description": "피격 지속시간 감소 20%"
+      }
+    ],
+    "randomValue": 9
+  },
+  {
+    "index": 364,
+    "name": "이계의 발할라의 빛",
+    "description": "이계의 발할라의 빛은 작은 발광체들의 집합으로 이를 화살의 형태로 만들어 쏘아 보내며 물리적인 피해를 입힙니다.",
+    "icon": 273,
+    "priceFactor": 3.0,
+    "passiveType": 0,
+    "types": [
+      26,
+      176,
+      591
+    ],
+    "effects": [
+      2.0,
+      0.5,
+      0.06
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 26,
+        "type_name": "강타 배수 {0}",
+        "value": 2.0,
+        "value_display": "+2",
+        "description": "강타 배수 +2"
+      },
+      {
+        "type_code": 176,
+        "type_name": "피격 회피 확률 {0}",
+        "value": 0.5,
+        "value_display": "50%",
+        "description": "피격 회피 확률 50%"
+      },
+      {
+        "type_code": 591,
+        "type_name": "회피시 데미지 증가 {0}",
+        "value": 0.06,
+        "value_display": "6%",
+        "description": "회피시 데미지 증가 6%"
+      }
+    ],
+    "randomValue": 7
+  },
+  {
+    "index": 365,
+    "name": "명중",
+    "description": "적들의 급소를 노려 사격 합니다. 명중된 적은 치명적인 피해를 받게 됩니다.",
+    "icon": 274,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      20,
+      112,
+      0
+    ],
+    "effects": [
+      0.08,
+      0.02,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 20,
+        "type_name": "강타 확률 {0}",
+        "value": 0.08,
+        "value_display": "8%",
+        "description": "강타 확률 8%"
+      },
+      {
+        "type_code": 112,
+        "type_name": "적들의 회피 확률 감소 {0}",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "적들의 회피 확률 감소 2%"
+      }
+    ],
+    "randomValue": 6
+  },
+  {
+    "index": 377,
+    "name": "진정한 용기",
+    "description": "진정한 용기를 발휘하여 전장에서 활약 합니다.",
+    "icon": 286,
+    "priceFactor": 3.0,
+    "passiveType": 0,
+    "types": [
+      1,
+      15,
+      84
+    ],
+    "effects": [
+      1.0,
+      1.0,
+      0.04
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1,
+        "type_name": "데미지 {0}",
+        "value": 1.0,
+        "value_display": "+1",
+        "description": "데미지 +1"
+      },
+      {
+        "type_code": 15,
+        "type_name": "클릭 데미지 {0}",
+        "value": 1.0,
+        "value_display": "+1",
+        "description": "클릭 데미지 +1"
+      },
+      {
+        "type_code": 84,
+        "type_name": "베이스 데미지 {0}",
+        "value": 0.04,
+        "value_display": "4%",
+        "description": "베이스 데미지 4%"
+      }
+    ],
+    "randomValue": 4
+  },
+  {
+    "index": 389,
+    "name": "불신",
+    "description": "복제된 세이두는 동료들을 전혀 신뢰하지 않습니다.",
+    "icon": 297,
+    "priceFactor": 5.0,
+    "passiveType": 0,
+    "types": [
+      20,
+      53,
+      0
+    ],
+    "effects": [
+      0.06,
+      0.015,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 20,
+        "type_name": "강타 확률 {0}",
+        "value": 0.06,
+        "value_display": "6%",
+        "description": "강타 확률 6%"
+      },
+      {
+        "type_code": 53,
+        "type_name": "적들의 카오스 취약성 {0}",
+        "value": 0.015,
+        "value_display": "1.5%",
+        "description": "적들의 카오스 취약성 1.5%"
+      }
+    ],
+    "randomValue": 5
+  },
+  {
+    "index": 401,
+    "name": "퍼루나 해의 진주+",
+    "description": "이 귀중한 진주는 오직 퍼루나 해의 깊은 바다에서만 채취할 수 있다고 합니다.",
+    "icon": 91,
+    "priceFactor": 3.0,
+    "passiveType": 0,
+    "types": [
+      1,
+      9,
+      495
+    ],
+    "effects": [
+      1.0,
+      0.35,
+      0.6
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1,
+        "type_name": "데미지 {0}",
+        "value": 1.0,
+        "value_display": "+1",
+        "description": "데미지 +1"
+      },
+      {
+        "type_code": 9,
+        "type_name": "공격 속도 {0}",
+        "value": 0.35,
+        "value_display": "35%",
+        "description": "공격 속도 35%"
+      },
+      {
+        "type_code": 495,
+        "type_name": "지역이 퍼루나인 용병의 데미지 +[퍼루나] 용병 수 X {0}%",
+        "value": 0.6,
+        "value_display": "60%",
+        "description": "지역이 퍼루나인 용병의 데미지 +[퍼루나] 용병 수 X 60%%"
+      }
+    ],
+    "randomValue": 6
+  },
+  {
+    "index": 403,
+    "name": "혼돈의 저주",
+    "description": "혼돈의 저주를 걸어 적들을 카오스 데미지에 취약하도록 만듭니다.",
+    "icon": 313,
+    "priceFactor": 1.5,
+    "passiveType": 0,
+    "types": [
+      53,
+      0,
+      0
+    ],
+    "effects": [
+      0.01,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 53,
+        "type_name": "적들의 카오스 취약성 {0}",
+        "value": 0.01,
+        "value_display": "1%",
+        "description": "적들의 카오스 취약성 1%"
+      }
+    ],
+    "randomValue": 3
+  },
+  {
+    "index": 404,
+    "name": "혼돈의 저주+",
+    "description": "혼돈의 저주를 걸어 적들을 카오스 데미지에 취약하도록 만듭니다.",
+    "icon": 314,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      53,
+      0,
+      0
+    ],
+    "effects": [
+      0.015,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 53,
+        "type_name": "적들의 카오스 취약성 {0}",
+        "value": 0.015,
+        "value_display": "1.5%",
+        "description": "적들의 카오스 취약성 1.5%"
+      }
+    ],
+    "randomValue": 4
+  },
+  {
+    "index": 405,
+    "name": "혼돈의 저주++",
+    "description": "혼돈의 저주를 걸어 적들을 카오스 데미지에 취약하도록 만듭니다.",
+    "icon": 315,
+    "priceFactor": 2.5,
+    "passiveType": 0,
+    "types": [
+      53,
+      0,
+      0
+    ],
+    "effects": [
+      0.02,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 53,
+        "type_name": "적들의 카오스 취약성 {0}",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "적들의 카오스 취약성 2%"
+      }
+    ],
+    "randomValue": 5
+  },
+  {
+    "index": 408,
+    "name": "혼돈의 바람",
+    "description": "혼돈의 바람을 일으켜 카오스 에너지를 지닌 용병들을 신속하게 만들어 줍니다.",
+    "icon": 316,
+    "priceFactor": 1.5,
+    "passiveType": 0,
+    "types": [
+      14,
+      0,
+      0
+    ],
+    "effects": [
+      0.08,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 14,
+        "type_name": "모든 카오스 용병의 공격 속도 {0}",
+        "value": 0.08,
+        "value_display": "8%",
+        "description": "모든 카오스 용병의 공격 속도 8%"
+      }
+    ],
+    "randomValue": 7
+  },
+  {
+    "index": 416,
+    "name": "정당한 분노",
+    "description": "정당한 분노로 적들을 빠르고 효율적으로 공격 합니다.",
+    "icon": 324,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      9,
+      15,
+      0
+    ],
+    "effects": [
+      0.3,
+      0.75,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 9,
+        "type_name": "공격 속도 {0}",
+        "value": 0.3,
+        "value_display": "30%",
+        "description": "공격 속도 30%"
+      },
+      {
+        "type_code": 15,
+        "type_name": "클릭 데미지 {0}",
+        "value": 0.75,
+        "value_display": "75%",
+        "description": "클릭 데미지 75%"
+      }
+    ],
+    "randomValue": 5
+  },
+  {
+    "index": 417,
+    "name": "정당한 분노+",
+    "description": "정당한 분노로 적들을 빠르고 효율적으로 공격 합니다.",
+    "icon": 325,
+    "priceFactor": 3.0,
+    "passiveType": 0,
+    "types": [
+      9,
+      15,
+      0
+    ],
+    "effects": [
+      0.4,
+      1.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 9,
+        "type_name": "공격 속도 {0}",
+        "value": 0.4,
+        "value_display": "40%",
+        "description": "공격 속도 40%"
+      },
+      {
+        "type_code": 15,
+        "type_name": "클릭 데미지 {0}",
+        "value": 1.0,
+        "value_display": "+1",
+        "description": "클릭 데미지 +1"
+      }
+    ],
+    "randomValue": 5
+  },
+  {
+    "index": 418,
+    "name": "자룰의 생존의지",
+    "description": "자룰은 고대 어류의 멸종을 막기 위하여 끝까지 생존하고자 합니다.",
+    "icon": 326,
+    "priceFactor": 5.0,
+    "passiveType": 0,
+    "types": [
+      2,
+      177,
+      56
+    ],
+    "effects": [
+      0.5,
+      0.01,
+      0.03
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 2,
+        "type_name": "모든 용병의 데미지 {0}",
+        "value": 0.5,
+        "value_display": "50%",
+        "description": "모든 용병의 데미지 50%"
+      },
+      {
+        "type_code": 177,
+        "type_name": "모든 용병의 공포 극복 확률 {0}",
+        "value": 0.01,
+        "value_display": "1%",
+        "description": "모든 용병의 공포 극복 확률 1%"
+      },
+      {
+        "type_code": 56,
+        "type_name": "공격 무효화 관통 {0}",
+        "value": 0.03,
+        "value_display": "3%",
+        "description": "공격 무효화 관통 3%"
+      }
+    ],
+    "randomValue": 7
+  },
+  {
+    "index": 421,
+    "name": "혼합된 투쟁의 오라",
+    "description": "동료들의 전투의지를 불러일으키며 동시에 공격 속도도 향상 시키는 오라를 활성화 합니다.",
+    "icon": 302,
+    "priceFactor": 3.0,
+    "passiveType": 0,
+    "types": [
+      2,
+      10,
+      0
+    ],
+    "effects": [
+      0.12,
+      0.06,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 2,
+        "type_name": "모든 용병의 데미지 {0}",
+        "value": 0.12,
+        "value_display": "12%",
+        "description": "모든 용병의 데미지 12%"
+      },
+      {
+        "type_code": 10,
+        "type_name": "모든 용병의 공격 속도 {0}",
+        "value": 0.06,
+        "value_display": "6%",
+        "description": "모든 용병의 공격 속도 6%"
+      }
+    ],
+    "randomValue": 7
+  },
+  {
+    "index": 431,
+    "name": "절대적 용맹",
+    "description": "전장에서 독보적인 용맹을 보여줍니다.",
+    "icon": 337,
+    "priceFactor": 4.0,
+    "passiveType": 0,
+    "types": [
+      1,
+      56,
+      0
+    ],
+    "effects": [
+      1.0,
+      0.03,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1,
+        "type_name": "데미지 {0}",
+        "value": 1.0,
+        "value_display": "+1",
+        "description": "데미지 +1"
+      },
+      {
+        "type_code": 56,
+        "type_name": "공격 무효화 관통 {0}",
+        "value": 0.03,
+        "value_display": "3%",
+        "description": "공격 무효화 관통 3%"
+      }
+    ],
+    "randomValue": 6
+  },
+  {
+    "index": 436,
+    "name": "특이점 생성",
+    "description": "혼돈의 힘을 사용하여 기존의 질서를 무너뜨리는 특이점을 생성 합니다.",
+    "icon": 341,
+    "priceFactor": 6.0,
+    "passiveType": 0,
+    "types": [
+      20,
+      26,
+      0
+    ],
+    "effects": [
+      -0.11,
+      2.4,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 20,
+        "type_name": "강타 확률 {0}",
+        "value": -0.11,
+        "value_display": "-11%",
+        "description": "강타 확률 -11%"
+      },
+      {
+        "type_code": 26,
+        "type_name": "강타 배수 {0}",
+        "value": 2.4,
+        "value_display": "+2.4",
+        "description": "강타 배수 +2.4"
+      }
+    ],
+    "randomValue": 6
+  },
+  {
+    "index": 437,
+    "name": "우프레틴의 책임감",
+    "description": "드워프 왕국의 왕으로 추대된 후 막중한 책임감을 느끼게 되었으며 그에 걸맞는 드워프가 되었습니다.",
+    "icon": 342,
+    "priceFactor": 4.0,
+    "passiveType": 0,
+    "types": [
+      1,
+      56,
+      0
+    ],
+    "effects": [
+      1.25,
+      0.04,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1,
+        "type_name": "데미지 {0}",
+        "value": 1.25,
+        "value_display": "+1.2",
+        "description": "데미지 +1.2"
+      },
+      {
+        "type_code": 56,
+        "type_name": "공격 무효화 관통 {0}",
+        "value": 0.04,
+        "value_display": "4%",
+        "description": "공격 무효화 관통 4%"
+      }
+    ],
+    "randomValue": 6
+  },
+  {
+    "index": 445,
+    "name": "마법의 투쟁",
+    "description": "마력을 지닌 용병들에게 전투의지를 불러 일으킵니다.",
+    "icon": 354,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      4,
+      29,
+      0
+    ],
+    "effects": [
+      0.45,
+      0.15,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 4,
+        "type_name": "모든 마법 용병의 데미지 {0}",
+        "value": 0.45,
+        "value_display": "45%",
+        "description": "모든 마법 용병의 데미지 45%"
+      },
+      {
+        "type_code": 29,
+        "type_name": "모든 마법 용병의 강타 배수 {0}",
+        "value": 0.15,
+        "value_display": "15%",
+        "description": "모든 마법 용병의 강타 배수 15%"
+      }
+    ],
+    "randomValue": 7
+  },
+  {
+    "index": 449,
+    "name": "절대적 분노",
+    "description": "적들에 대한 절대적인 분노로 무자비한 공격을 퍼붓습니다.",
+    "icon": 352,
+    "priceFactor": 3.0,
+    "passiveType": 0,
+    "types": [
+      9,
+      18,
+      0
+    ],
+    "effects": [
+      0.3,
+      3.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 9,
+        "type_name": "공격 속도 {0}",
+        "value": 0.3,
+        "value_display": "30%",
+        "description": "공격 속도 30%"
+      },
+      {
+        "type_code": 18,
+        "type_name": "최대 레벨 {0}",
+        "value": 3.0,
+        "value_display": "+3",
+        "description": "최대 레벨 +3"
+      }
+    ],
+    "randomValue": 5
+  },
+  {
+    "index": 450,
+    "name": "절대적 분노+",
+    "description": "적들에 대한 절대적인 분노로 무자비한 공격을 퍼붓습니다.",
+    "icon": 353,
+    "priceFactor": 5.0,
+    "passiveType": 0,
+    "types": [
+      9,
+      18,
+      0
+    ],
+    "effects": [
+      0.4,
+      5.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 9,
+        "type_name": "공격 속도 {0}",
+        "value": 0.4,
+        "value_display": "40%",
+        "description": "공격 속도 40%"
+      },
+      {
+        "type_code": 18,
+        "type_name": "최대 레벨 {0}",
+        "value": 5.0,
+        "value_display": "+5",
+        "description": "최대 레벨 +5"
+      }
+    ],
+    "randomValue": 5
+  },
+  {
+    "index": 457,
+    "name": "파이썬의 느린 신경",
+    "description": "파이썬은 조금 둔한 신경을 가지고 있지만 강력한 육체로 이를 커버 합니다.",
+    "icon": 359,
+    "priceFactor": 5.0,
+    "passiveType": 0,
+    "types": [
+      9,
+      26,
+      0
+    ],
+    "effects": [
+      -0.9,
+      2.8,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 9,
+        "type_name": "공격 속도 {0}",
+        "value": -0.9,
+        "value_display": "-90%",
+        "description": "공격 속도 -90%"
+      },
+      {
+        "type_code": 26,
+        "type_name": "강타 배수 {0}",
+        "value": 2.8,
+        "value_display": "+2.8",
+        "description": "강타 배수 +2.8"
+      }
+    ],
+    "randomValue": 6
+  },
+  {
+    "index": 458,
+    "name": "압도적 용맹",
+    "description": "전장에서 압도적인 용맹을 보여줍니다.",
+    "icon": 360,
+    "priceFactor": 5.0,
+    "passiveType": 0,
+    "types": [
+      84,
+      18,
+      0
+    ],
+    "effects": [
+      0.03,
+      5.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 84,
+        "type_name": "베이스 데미지 {0}",
+        "value": 0.03,
+        "value_display": "3%",
+        "description": "베이스 데미지 3%"
+      },
+      {
+        "type_code": 18,
+        "type_name": "최대 레벨 {0}",
+        "value": 5.0,
+        "value_display": "+5",
+        "description": "최대 레벨 +5"
+      }
+    ],
+    "randomValue": 5
+  },
+  {
+    "index": 459,
+    "name": "이계의 거울+",
+    "description": "이계의 에너지를 불러와 동료들에게 알수없는 힘을 줍니다.",
+    "icon": 266,
+    "priceFactor": 3.0,
+    "passiveType": 0,
+    "types": [
+      19,
+      1171,
+      0
+    ],
+    "effects": [
+      2.0,
+      0.15,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 19,
+        "type_name": "모든 용병의 최대 레벨 {0}",
+        "value": 2.0,
+        "value_display": "+2",
+        "description": "모든 용병의 최대 레벨 +2"
+      },
+      {
+        "type_code": 1171,
+        "type_name": "즉시 공격 확률 {0}",
+        "value": 0.15,
+        "value_display": "15%",
+        "description": "즉시 공격 확률 15%"
+      }
+    ],
+    "randomValue": 5
+  },
+  {
+    "index": 460,
+    "name": "이계의 거울++",
+    "description": "이계의 에너지를 불러와 동료들에게 알수없는 힘을 줍니다.",
+    "icon": 362,
+    "priceFactor": 4.0,
+    "passiveType": 0,
+    "types": [
+      19,
+      1171,
+      0
+    ],
+    "effects": [
+      3.0,
+      0.18,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 19,
+        "type_name": "모든 용병의 최대 레벨 {0}",
+        "value": 3.0,
+        "value_display": "+3",
+        "description": "모든 용병의 최대 레벨 +3"
+      },
+      {
+        "type_code": 1171,
+        "type_name": "즉시 공격 확률 {0}",
+        "value": 0.18,
+        "value_display": "18%",
+        "description": "즉시 공격 확률 18%"
+      }
+    ],
+    "randomValue": 6
+  },
+  {
+    "index": 461,
+    "name": "보호막 관통+",
+    "description": "적들의 보호막을 뚫어 본체를 타격 합니다.",
+    "icon": 363,
+    "priceFactor": 3.0,
+    "passiveType": 0,
+    "types": [
+      56,
+      0,
+      0
+    ],
+    "effects": [
+      0.03,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 56,
+        "type_name": "공격 무효화 관통 {0}",
+        "value": 0.03,
+        "value_display": "3%",
+        "description": "공격 무효화 관통 3%"
+      }
+    ],
+    "randomValue": 4
+  },
+  {
+    "index": 465,
+    "name": "투쟁의 소용돌이",
+    "description": "동료들의 투쟁욕을 빨아들이는 소용돌이를 활성화 시킵니다.",
+    "icon": 364,
+    "priceFactor": 3.0,
+    "passiveType": 0,
+    "types": [
+      1,
+      2,
+      0
+    ],
+    "effects": [
+      3.0,
+      -0.12,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1,
+        "type_name": "데미지 {0}",
+        "value": 3.0,
+        "value_display": "+3",
+        "description": "데미지 +3"
+      },
+      {
+        "type_code": 2,
+        "type_name": "모든 용병의 데미지 {0}",
+        "value": -0.12,
+        "value_display": "-12%",
+        "description": "모든 용병의 데미지 -12%"
+      }
+    ],
+    "randomValue": 4
+  },
+  {
+    "index": 466,
+    "name": "분노의 소용돌이",
+    "description": "동료들의 분노를 빨아들이는 소용돌이를 활성화 시킵니다.",
+    "icon": 365,
+    "priceFactor": 3.0,
+    "passiveType": 0,
+    "types": [
+      9,
+      10,
+      0
+    ],
+    "effects": [
+      0.9,
+      -0.03,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 9,
+        "type_name": "공격 속도 {0}",
+        "value": 0.9,
+        "value_display": "90%",
+        "description": "공격 속도 90%"
+      },
+      {
+        "type_code": 10,
+        "type_name": "모든 용병의 공격 속도 {0}",
+        "value": -0.03,
+        "value_display": "-3%",
+        "description": "모든 용병의 공격 속도 -3%"
+      }
+    ],
+    "randomValue": 4
+  },
+  {
+    "index": 467,
+    "name": "혼돈의 소용돌이",
+    "description": "동료들의 잠재력을 빨아들이는 소용돌이를 활성화 시킵니다.",
+    "icon": 366,
+    "priceFactor": 3.0,
+    "passiveType": 0,
+    "types": [
+      20,
+      21,
+      0
+    ],
+    "effects": [
+      0.16,
+      -0.015,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 20,
+        "type_name": "강타 확률 {0}",
+        "value": 0.16,
+        "value_display": "16%",
+        "description": "강타 확률 16%"
+      },
+      {
+        "type_code": 21,
+        "type_name": "모든 용병의 강타 확률 {0}",
+        "value": -0.015,
+        "value_display": "-1.5%",
+        "description": "모든 용병의 강타 확률 -1.5%"
+      }
+    ],
+    "randomValue": 4
+  },
+  {
+    "index": 468,
+    "name": "슬라임의 부드러움",
+    "description": "부드러운 슬라임의 육체로 동료들의 몸을 따스하게 감싸고 기분좋게 합니다.",
+    "icon": 137,
+    "priceFactor": 2.5,
+    "passiveType": 0,
+    "types": [
+      21,
+      431,
+      0
+    ],
+    "effects": [
+      0.022,
+      0.04,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 21,
+        "type_name": "모든 용병의 강타 확률 {0}",
+        "value": 0.022,
+        "value_display": "2.2%",
+        "description": "모든 용병의 강타 확률 2.2%"
+      },
+      {
+        "type_code": 431,
+        "type_name": "모든 용병의 추가 클릭 확률 {0}",
+        "value": 0.04,
+        "value_display": "4%",
+        "description": "모든 용병의 추가 클릭 확률 4%"
+      }
+    ],
+    "randomValue": 9
+  },
+  {
+    "index": 472,
+    "name": "마법의 바람",
+    "description": "마법의 바람을 일으켜 마법 에너지를 지닌 용병들을 신속하게 만들어 줍니다.",
+    "icon": 371,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      12,
+      52,
+      0
+    ],
+    "effects": [
+      0.1,
+      0.02,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 12,
+        "type_name": "모든 마법 용병의 공격 속도 {0}",
+        "value": 0.1,
+        "value_display": "10%",
+        "description": "모든 마법 용병의 공격 속도 10%"
+      },
+      {
+        "type_code": 52,
+        "type_name": "적들의 마법 저항력 감소 {0}",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "적들의 마법 저항력 감소 2%"
+      }
+    ],
+    "randomValue": 8
+  },
+  {
+    "index": 476,
+    "name": "짐승의 눈",
+    "description": "본능적인 예리함으로 적들의 약점을 파악하여 헛점을 공격 합니다.",
+    "icon": 374,
+    "priceFactor": 3.5,
+    "passiveType": 0,
+    "types": [
+      39,
+      56,
+      0
+    ],
+    "effects": [
+      1.5,
+      0.02,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 39,
+        "type_name": "클릭 크리티컬 배수 {0}",
+        "value": 1.5,
+        "value_display": "+1.5",
+        "description": "클릭 크리티컬 배수 +1.5"
+      },
+      {
+        "type_code": 56,
+        "type_name": "공격 무효화 관통 {0}",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "공격 무효화 관통 2%"
+      }
+    ],
+    "randomValue": 8
+  },
+  {
+    "index": 478,
+    "name": "디바인 스트라이크+",
+    "description": "신의 권능으로 적에게 모든것을 꿰뚫는 절대적인 피해를 줍니다.",
+    "icon": 382,
+    "priceFactor": 3.0,
+    "passiveType": 0,
+    "types": [
+      95,
+      0,
+      0
+    ],
+    "effects": [
+      8000.0,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 95,
+        "type_name": "신성 데미지 {0}",
+        "value": 8000.0,
+        "value_display": "+8000",
+        "description": "신성 데미지 +8000"
+      }
+    ],
+    "randomValue": 4
+  },
+  {
+    "index": 481,
+    "name": "디바인 스트라이크",
+    "description": "신의 권능으로 적에게 모든것을 꿰뚫는 절대적인 피해를 줍니다.",
+    "icon": 383,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      95,
+      0,
+      0
+    ],
+    "effects": [
+      6000.0,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 95,
+        "type_name": "신성 데미지 {0}",
+        "value": 6000.0,
+        "value_display": "+6000",
+        "description": "신성 데미지 +6000"
+      }
+    ],
+    "randomValue": 3
+  },
+  {
+    "index": 482,
+    "name": "디바인 스트라이크++",
+    "description": "신의 권능으로 적에게 모든것을 꿰뚫는 절대적인 피해를 줍니다.",
+    "icon": 379,
+    "priceFactor": 4.0,
+    "passiveType": 0,
+    "types": [
+      95,
+      169,
+      0
+    ],
+    "effects": [
+      10000.0,
+      0.05,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 95,
+        "type_name": "신성 데미지 {0}",
+        "value": 10000.0,
+        "value_display": "+10000",
+        "description": "신성 데미지 +10000"
+      },
+      {
+        "type_code": 169,
+        "type_name": "모든 용병의 신성 데미지 {0}",
+        "value": 0.05,
+        "value_display": "5%",
+        "description": "모든 용병의 신성 데미지 5%"
+      }
+    ],
+    "randomValue": 5
+  },
+  {
+    "index": 485,
+    "name": "명예 훈장",
+    "description": "명예 훈장은 동료들에게 좋은 동기 부여가 됩니다.",
+    "icon": 386,
+    "priceFactor": 6.0,
+    "passiveType": 0,
+    "types": [
+      2,
+      56,
+      1173
+    ],
+    "effects": [
+      0.28,
+      0.03,
+      0.12
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 2,
+        "type_name": "모든 용병의 데미지 {0}",
+        "value": 0.28,
+        "value_display": "28.0%",
+        "description": "모든 용병의 데미지 28.0%"
+      },
+      {
+        "type_code": 56,
+        "type_name": "공격 무효화 관통 {0}",
+        "value": 0.03,
+        "value_display": "3%",
+        "description": "공격 무효화 관통 3%"
+      },
+      {
+        "type_code": 1173,
+        "type_name": "즉시 공격 속도 {0}",
+        "value": 0.12,
+        "value_display": "12%",
+        "description": "즉시 공격 속도 12%"
+      }
+    ],
+    "randomValue": 6
+  },
+  {
+    "index": 491,
+    "name": "운명의 퍼즐조각+",
+    "description": "전장의 운명을 점치는 마법의 퍼즐 조각 입니다.",
+    "icon": 193,
+    "priceFactor": 3.0,
+    "passiveType": 0,
+    "types": [
+      41,
+      42,
+      0
+    ],
+    "effects": [
+      0.2,
+      0.12,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 41,
+        "type_name": "자동 클릭 확률 {0}",
+        "value": 0.2,
+        "value_display": "20%",
+        "description": "자동 클릭 확률 20%"
+      },
+      {
+        "type_code": 42,
+        "type_name": "자동 클릭 속도 {0}",
+        "value": 0.12,
+        "value_display": "12%",
+        "description": "자동 클릭 속도 12%"
+      }
+    ],
+    "randomValue": 6
+  },
+  {
+    "index": 492,
+    "name": "그레이트 에테르 커터",
+    "description": "적들의 에테르 에너지를 잘라내어 공격에 대항하지 못하게 만듭니다.",
+    "icon": 391,
+    "priceFactor": 4.0,
+    "passiveType": 0,
+    "types": [
+      54,
+      18,
+      0
+    ],
+    "effects": [
+      0.045,
+      8.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 54,
+        "type_name": "적들의 클릭 저항력 감소 {0}",
+        "value": 0.045,
+        "value_display": "4.5%",
+        "description": "적들의 클릭 저항력 감소 4.5%"
+      },
+      {
+        "type_code": 18,
+        "type_name": "최대 레벨 {0}",
+        "value": 8.0,
+        "value_display": "+8",
+        "description": "최대 레벨 +8"
+      }
+    ],
+    "randomValue": 6
+  },
+  {
+    "index": 493,
+    "name": "영혼 흡수+",
+    "description": "적들의 영혼 일부를 흡수하여 취약점을 찾아낸 후 공격 합니다.",
+    "icon": 392,
+    "priceFactor": 4.0,
+    "passiveType": 0,
+    "types": [
+      40,
+      102,
+      0
+    ],
+    "effects": [
+      0.0225,
+      0.1,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 40,
+        "type_name": "소울 클릭 확률 {0}",
+        "value": 0.0225,
+        "value_display": "2.2%",
+        "description": "소울 클릭 확률 2.2%"
+      },
+      {
+        "type_code": 102,
+        "type_name": "소울 클릭 배수 {0}",
+        "value": 0.1,
+        "value_display": "10%",
+        "description": "소울 클릭 배수 10%"
+      }
+    ],
+    "randomValue": 9
+  },
+  {
+    "index": 495,
+    "name": "마인드 쉴드",
+    "description": "동료들의 정신을 보호하는 마법의 쉴드를 생성 합니다.",
+    "icon": 394,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      108,
+      0,
+      0
+    ],
+    "effects": [
+      0.04,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 108,
+        "type_name": "모든 용병의 피격 지속시간 감소 {0}",
+        "value": 0.04,
+        "value_display": "4%",
+        "description": "모든 용병의 피격 지속시간 감소 4%"
+      }
+    ],
+    "randomValue": 4
+  },
+  {
+    "index": 496,
+    "name": "마인드 쉴드+",
+    "description": "동료들의 정신을 보호하는 마법의 쉴드를 생성 합니다.",
+    "icon": 395,
+    "priceFactor": 3.0,
+    "passiveType": 0,
+    "types": [
+      108,
+      0,
+      0
+    ],
+    "effects": [
+      0.06,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 108,
+        "type_name": "모든 용병의 피격 지속시간 감소 {0}",
+        "value": 0.06,
+        "value_display": "6%",
+        "description": "모든 용병의 피격 지속시간 감소 6%"
+      }
+    ],
+    "randomValue": 5
+  },
+  {
+    "index": 497,
+    "name": "마인드 쉴드++",
+    "description": "동료들의 정신을 보호하는 마법의 쉴드를 생성 합니다.",
+    "icon": 396,
+    "priceFactor": 4.0,
+    "passiveType": 0,
+    "types": [
+      108,
+      0,
+      0
+    ],
+    "effects": [
+      0.08,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 108,
+        "type_name": "모든 용병의 피격 지속시간 감소 {0}",
+        "value": 0.08,
+        "value_display": "8%",
+        "description": "모든 용병의 피격 지속시간 감소 8%"
+      }
+    ],
+    "randomValue": 6
+  },
+  {
+    "index": 500,
+    "name": "에테르 에너지 커터+++",
+    "description": "적들의 에테르 에너지를 잘라내어 공격에 대항하지 못하게 만듭니다.",
+    "icon": 398,
+    "priceFactor": 4.0,
+    "passiveType": 0,
+    "types": [
+      54,
+      56,
+      0
+    ],
+    "effects": [
+      0.04,
+      0.02,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 54,
+        "type_name": "적들의 클릭 저항력 감소 {0}",
+        "value": 0.04,
+        "value_display": "4%",
+        "description": "적들의 클릭 저항력 감소 4%"
+      },
+      {
+        "type_code": 56,
+        "type_name": "공격 무효화 관통 {0}",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "공격 무효화 관통 2%"
+      }
+    ],
+    "randomValue": 6
+  },
+  {
+    "index": 502,
+    "name": "머스킷 정조준",
+    "description": "강력한 화력을 지닌 머스킷을 정조준 하여 적들을 공격합니다. 조금 느리지만 확실한 한방을 노립니다.",
+    "icon": 401,
+    "priceFactor": 7.0,
+    "passiveType": 0,
+    "types": [
+      26,
+      32,
+      0
+    ],
+    "effects": [
+      3.0,
+      -5.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 26,
+        "type_name": "강타 배수 {0}",
+        "value": 3.0,
+        "value_display": "+3",
+        "description": "강타 배수 +3"
+      },
+      {
+        "type_code": 32,
+        "type_name": "연타 확률 {0}",
+        "value": -5.0,
+        "value_display": "+-5",
+        "description": "연타 확률 +-5"
+      }
+    ],
+    "randomValue": 6
+  },
+  {
+    "index": 504,
+    "name": "지혜의 보석",
+    "description": "지혜의 돌을 정제하여 만든 보석 입니다. 지혜의 돌 보다 뛰어난 효과를 지니고 있습니다.",
+    "icon": 402,
+    "priceFactor": 3.0,
+    "passiveType": 0,
+    "types": [
+      16,
+      56,
+      0
+    ],
+    "effects": [
+      0.4,
+      0.02,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 16,
+        "type_name": "모든 용병의 클릭 데미지 {0}",
+        "value": 0.4,
+        "value_display": "40%",
+        "description": "모든 용병의 클릭 데미지 40%"
+      },
+      {
+        "type_code": 56,
+        "type_name": "공격 무효화 관통 {0}",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "공격 무효화 관통 2%"
+      }
+    ],
+    "randomValue": 4
+  },
+  {
+    "index": 505,
+    "name": "끌어당김의 법칙",
+    "description": "뿔레정수가 다른 뿔레정수를 끌어당기는 특성을 활용하여 전장에서 뿔레정수를 수집 합니다.",
+    "icon": 403,
+    "priceFactor": 5.0,
+    "passiveType": 0,
+    "types": [
+      109,
+      0,
+      0
+    ],
+    "effects": [
+      0.06,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 109,
+        "type_name": "뿔레정수 획득 확률 {0}",
+        "value": 0.06,
+        "value_display": "6%",
+        "description": "뿔레정수 획득 확률 6%"
+      }
+    ],
+    "randomValue": 6
+  },
+  {
+    "index": 510,
+    "name": "소울 트랩",
+    "description": "적들의 영혼을 묶어 공격을 피하지 못하도록 합니다.",
+    "icon": 407,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      112,
+      0,
+      0
+    ],
+    "effects": [
+      0.02,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 112,
+        "type_name": "적들의 회피 확률 감소 {0}",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "적들의 회피 확률 감소 2%"
+      }
+    ],
+    "randomValue": 4
+  },
+  {
+    "index": 511,
+    "name": "소울 트랩+",
+    "description": "적들의 영혼을 묶어 공격을 피하지 못하도록 합니다.",
+    "icon": 408,
+    "priceFactor": 3.0,
+    "passiveType": 0,
+    "types": [
+      112,
+      0,
+      0
+    ],
+    "effects": [
+      0.03,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 112,
+        "type_name": "적들의 회피 확률 감소 {0}",
+        "value": 0.03,
+        "value_display": "3%",
+        "description": "적들의 회피 확률 감소 3%"
+      }
+    ],
+    "randomValue": 5
+  },
+  {
+    "index": 512,
+    "name": "소울 트랩++",
+    "description": "적들의 영혼을 묶어 공격을 피하지 못하도록 합니다.",
+    "icon": 409,
+    "priceFactor": 4.0,
+    "passiveType": 0,
+    "types": [
+      112,
+      0,
+      0
+    ],
+    "effects": [
+      0.04,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 112,
+        "type_name": "적들의 회피 확률 감소 {0}",
+        "value": 0.04,
+        "value_display": "4%",
+        "description": "적들의 회피 확률 감소 4%"
+      }
+    ],
+    "randomValue": 6
+  },
+  {
+    "index": 514,
+    "name": "밀집 대형",
+    "description": "밀집 대형을 지휘합니다. 기동력이 줄지만 강력한 공격을 가할수 있게 됩니다.",
+    "icon": 411,
+    "priceFactor": 4.0,
+    "passiveType": 0,
+    "types": [
+      10,
+      27,
+      0
+    ],
+    "effects": [
+      -0.1,
+      0.5,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 10,
+        "type_name": "모든 용병의 공격 속도 {0}",
+        "value": -0.1,
+        "value_display": "-10%",
+        "description": "모든 용병의 공격 속도 -10%"
+      },
+      {
+        "type_code": 27,
+        "type_name": "모든 용병의 강타 배수 {0}",
+        "value": 0.5,
+        "value_display": "50%",
+        "description": "모든 용병의 강타 배수 50%"
+      }
+    ],
+    "randomValue": 8
+  },
+  {
+    "index": 519,
+    "name": "스트레이트 플러시",
+    "description": "미들랜드에서 가장 포커를 잘한다고 알려진 마리세바는 전투에도 카드를 사용합니다.",
+    "icon": 416,
+    "priceFactor": 5.0,
+    "passiveType": 0,
+    "types": [
+      20,
+      56,
+      0
+    ],
+    "effects": [
+      0.09,
+      0.03,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 20,
+        "type_name": "강타 확률 {0}",
+        "value": 0.09,
+        "value_display": "9%",
+        "description": "강타 확률 9%"
+      },
+      {
+        "type_code": 56,
+        "type_name": "공격 무효화 관통 {0}",
+        "value": 0.03,
+        "value_display": "3%",
+        "description": "공격 무효화 관통 3%"
+      }
+    ],
+    "randomValue": 7
+  },
+  {
+    "index": 526,
+    "name": "역풍의 문양++",
+    "description": "역풍의 문양을 활성화 하여 느리지만 강력한 공격을 하게 합니다.",
+    "icon": 420,
+    "priceFactor": 4.0,
+    "passiveType": 0,
+    "types": [
+      10,
+      27,
+      0
+    ],
+    "effects": [
+      -0.06,
+      0.3,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 10,
+        "type_name": "모든 용병의 공격 속도 {0}",
+        "value": -0.06,
+        "value_display": "-6%",
+        "description": "모든 용병의 공격 속도 -6%"
+      },
+      {
+        "type_code": 27,
+        "type_name": "모든 용병의 강타 배수 {0}",
+        "value": 0.3,
+        "value_display": "30%",
+        "description": "모든 용병의 강타 배수 30%"
+      }
+    ],
+    "randomValue": 7
+  },
+  {
+    "index": 527,
+    "name": "딜비도의 생선 뼈",
+    "description": "딜비도의 찌르기 공격은 피할수도 저항 할수도 없습니다.",
+    "icon": 422,
+    "priceFactor": 4.0,
+    "passiveType": 0,
+    "types": [
+      112,
+      54,
+      0
+    ],
+    "effects": [
+      0.04,
+      0.02,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 112,
+        "type_name": "적들의 회피 확률 감소 {0}",
+        "value": 0.04,
+        "value_display": "4%",
+        "description": "적들의 회피 확률 감소 4%"
+      },
+      {
+        "type_code": 54,
+        "type_name": "적들의 클릭 저항력 감소 {0}",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "적들의 클릭 저항력 감소 2%"
+      }
+    ],
+    "randomValue": 7
+  },
+  {
+    "index": 531,
+    "name": "드레그빈의 두개의 발톱",
+    "description": "스웜프 와이번은 강철도 찢어버릴 정도의 강력한 두개의 발톱을 지니고 있습니다.",
+    "icon": 426,
+    "priceFactor": 5.0,
+    "passiveType": 0,
+    "types": [
+      32,
+      18,
+      0
+    ],
+    "effects": [
+      -0.2,
+      12.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 32,
+        "type_name": "연타 확률 {0}",
+        "value": -0.2,
+        "value_display": "-20%",
+        "description": "연타 확률 -20%"
+      },
+      {
+        "type_code": 18,
+        "type_name": "최대 레벨 {0}",
+        "value": 12.0,
+        "value_display": "+12",
+        "description": "최대 레벨 +12"
+      }
+    ],
+    "randomValue": 4
+  },
+  {
+    "index": 536,
+    "name": "죽음의 응시+++",
+    "description": "싸늘한 죽음의 응시로 적들의 생명력을 약화 시킵니다.",
+    "icon": 430,
+    "priceFactor": 5.0,
+    "passiveType": 0,
+    "types": [
+      55,
+      56,
+      0
+    ],
+    "effects": [
+      0.02,
+      0.02,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 55,
+        "type_name": "적들의 최대 체력 감소 {0}",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "적들의 최대 체력 감소 2%"
+      },
+      {
+        "type_code": 56,
+        "type_name": "공격 무효화 관통 {0}",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "공격 무효화 관통 2%"
+      }
+    ],
+    "randomValue": 9
+  },
+  {
+    "index": 537,
+    "name": "또 다른 퍼루나 해의 진주",
+    "description": "귀하다고 알려진 퍼루나 해의 진주들 중에서도 특히 귀하다고 알려진 진주입니다. 자연의 빛깔을 담고 있습니다.",
+    "icon": 702,
+    "priceFactor": 5.0,
+    "passiveType": 0,
+    "types": [
+      17,
+      48,
+      495
+    ],
+    "effects": [
+      0.01,
+      0.16,
+      0.7
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 17,
+        "type_name": "모든 용병의 베이스 데미지 {0}",
+        "value": 0.01,
+        "value_display": "1%",
+        "description": "모든 용병의 베이스 데미지 1%"
+      },
+      {
+        "type_code": 48,
+        "type_name": "아이템 획득 확률 {0}",
+        "value": 0.16,
+        "value_display": "16%",
+        "description": "아이템 획득 확률 16%"
+      },
+      {
+        "type_code": 495,
+        "type_name": "지역이 퍼루나인 용병의 데미지 +[퍼루나] 용병 수 X {0}%",
+        "value": 0.7,
+        "value_display": "70%",
+        "description": "지역이 퍼루나인 용병의 데미지 +[퍼루나] 용병 수 X 70%%"
+      }
+    ],
+    "randomValue": 5
+  },
+  {
+    "index": 548,
+    "name": "피라미드 파워",
+    "description": "정북방향을 바라보게 위치한 피라미드의 내부에는 신기한 현상이 일어납니다.",
+    "icon": 442,
+    "priceFactor": 4.0,
+    "passiveType": 0,
+    "types": [
+      16,
+      2,
+      0
+    ],
+    "effects": [
+      1.5,
+      0.15,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 16,
+        "type_name": "모든 용병의 클릭 데미지 {0}",
+        "value": 1.5,
+        "value_display": "+1.5",
+        "description": "모든 용병의 클릭 데미지 +1.5"
+      },
+      {
+        "type_code": 2,
+        "type_name": "모든 용병의 데미지 {0}",
+        "value": 0.15,
+        "value_display": "15%",
+        "description": "모든 용병의 데미지 15%"
+      }
+    ],
+    "randomValue": 6
+  },
+  {
+    "index": 549,
+    "name": "살인 충동",
+    "description": "소이치는 살인에 대한 억제하기 힘든 충동을 가지고 있습니다.",
+    "icon": 443,
+    "priceFactor": 4.0,
+    "passiveType": 0,
+    "types": [
+      26,
+      32,
+      0
+    ],
+    "effects": [
+      2.2,
+      -0.3,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 26,
+        "type_name": "강타 배수 {0}",
+        "value": 2.2,
+        "value_display": "+2.2",
+        "description": "강타 배수 +2.2"
+      },
+      {
+        "type_code": 32,
+        "type_name": "연타 확률 {0}",
+        "value": -0.3,
+        "value_display": "-30%",
+        "description": "연타 확률 -30%"
+      }
+    ],
+    "randomValue": 6
+  },
+  {
+    "index": 552,
+    "name": "에테르 에너지 커터++++",
+    "description": "적들의 에테르 에너지를 잘라내어 공격에 대항하지 못하게 만듭니다.",
+    "icon": 398,
+    "priceFactor": 6.0,
+    "passiveType": 0,
+    "types": [
+      54,
+      56,
+      0
+    ],
+    "effects": [
+      0.045,
+      0.03,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 54,
+        "type_name": "적들의 클릭 저항력 감소 {0}",
+        "value": 0.045,
+        "value_display": "4.5%",
+        "description": "적들의 클릭 저항력 감소 4.5%"
+      },
+      {
+        "type_code": 56,
+        "type_name": "공격 무효화 관통 {0}",
+        "value": 0.03,
+        "value_display": "3%",
+        "description": "공격 무효화 관통 3%"
+      }
+    ],
+    "randomValue": 7
+  },
+  {
+    "index": 558,
+    "name": "애향심",
+    "description": "아오마루스는 크사르팍스에게 점령당한 고향 [아오마]평원을 되찾기 위하여 최선을 다합니다.",
+    "icon": 450,
+    "priceFactor": 6.0,
+    "passiveType": 0,
+    "types": [
+      138,
+      140,
+      0
+    ],
+    "effects": [
+      0.025,
+      0.1,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 138,
+        "type_name": "모든 용병의 행운 확률 {0}",
+        "value": 0.025,
+        "value_display": "2.5%",
+        "description": "모든 용병의 행운 확률 2.5%"
+      },
+      {
+        "type_code": 140,
+        "type_name": "모든 용병의 행운 배수 {0}",
+        "value": 0.1,
+        "value_display": "10%",
+        "description": "모든 용병의 행운 배수 10%"
+      }
+    ],
+    "randomValue": 9
+  },
+  {
+    "index": 562,
+    "name": "더스티의 신체구조",
+    "description": "더스티의 덤불같은 신체구조는 물건을 넣기는 좋으나 꺼내기는 어려운 구조로 되어있다고 합니다.",
+    "icon": 436,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      151,
+      39,
+      0
+    ],
+    "effects": [
+      1.2,
+      1.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 151,
+        "type_name": "보이 참전시 골드 저장량 {0}",
+        "value": 1.2,
+        "value_display": "+1.2",
+        "description": "보이 참전시 골드 저장량 +1.2"
+      },
+      {
+        "type_code": 39,
+        "type_name": "클릭 크리티컬 배수 {0}",
+        "value": 1.0,
+        "value_display": "+1",
+        "description": "클릭 크리티컬 배수 +1"
+      }
+    ],
+    "randomValue": 5
+  },
+  {
+    "index": 569,
+    "name": "바람의 문양+++",
+    "description": "바람의 문양을 활성화 하여 신속의 힘을 얻게 됩니다.",
+    "icon": 461,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      10,
+      0,
+      0
+    ],
+    "effects": [
+      0.075,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 10,
+        "type_name": "모든 용병의 공격 속도 {0}",
+        "value": 0.075,
+        "value_display": "7.5%",
+        "description": "모든 용병의 공격 속도 7.5%"
+      }
+    ],
+    "randomValue": 8
+  },
+  {
+    "index": 570,
+    "name": "도발",
+    "description": "적을 약올리는게 아닙니다. 당신을 약올리고 있는겁니다.",
+    "icon": 462,
+    "priceFactor": 1.0,
+    "passiveType": 0,
+    "types": [
+      1,
+      124,
+      0
+    ],
+    "effects": [
+      0.2,
+      0.2,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1,
+        "type_name": "데미지 {0}",
+        "value": 0.2,
+        "value_display": "20%",
+        "description": "데미지 20%"
+      },
+      {
+        "type_code": 124,
+        "type_name": "데미지 편차 {0}",
+        "value": 0.2,
+        "value_display": "20%",
+        "description": "데미지 편차 20%"
+      }
+    ],
+    "randomValue": 2
+  },
+  {
+    "index": 571,
+    "name": "발목 공격",
+    "description": "방어가 허술한 발목을 공격하여 상대에게 피해를 줍니다.",
+    "icon": 463,
+    "priceFactor": 1.0,
+    "passiveType": 0,
+    "types": [
+      7,
+      0,
+      0
+    ],
+    "effects": [
+      3000.0,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 7,
+        "type_name": "추가 데미지 {0}",
+        "value": 3000.0,
+        "value_display": "+3000",
+        "description": "추가 데미지 +3000"
+      }
+    ],
+    "randomValue": 2
+  },
+  {
+    "index": 572,
+    "name": "믿음+++",
+    "description": "리더를 전적으로 믿고 지지해 줍니다.",
+    "icon": 464,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      16,
+      17,
+      0
+    ],
+    "effects": [
+      0.75,
+      0.007,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 16,
+        "type_name": "모든 용병의 클릭 데미지 {0}",
+        "value": 0.75,
+        "value_display": "75%",
+        "description": "모든 용병의 클릭 데미지 75%"
+      },
+      {
+        "type_code": 17,
+        "type_name": "모든 용병의 베이스 데미지 {0}",
+        "value": 0.007,
+        "value_display": "0.7%",
+        "description": "모든 용병의 베이스 데미지 0.7%"
+      }
+    ],
+    "randomValue": 5
+  },
+  {
+    "index": 573,
+    "name": "진정한 리더의 긍지",
+    "description": "리더로써 긍지를 가지고 적들을 공격 합니다.",
+    "icon": 465,
+    "priceFactor": 3.0,
+    "passiveType": 0,
+    "types": [
+      15,
+      43,
+      0
+    ],
+    "effects": [
+      1.25,
+      0.4,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 15,
+        "type_name": "클릭 데미지 {0}",
+        "value": 1.25,
+        "value_display": "+1.2",
+        "description": "클릭 데미지 +1.2"
+      },
+      {
+        "type_code": 43,
+        "type_name": "추가 클릭 확률 {0}",
+        "value": 0.4,
+        "value_display": "40%",
+        "description": "추가 클릭 확률 40%"
+      }
+    ],
+    "randomValue": 6
+  },
+  {
+    "index": 574,
+    "name": "천상의 믿음",
+    "description": "리더를 전적으로 믿고 지지해 줍니다.",
+    "icon": 466,
+    "priceFactor": 3.0,
+    "passiveType": 0,
+    "types": [
+      16,
+      17,
+      0
+    ],
+    "effects": [
+      0.9,
+      0.01,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 16,
+        "type_name": "모든 용병의 클릭 데미지 {0}",
+        "value": 0.9,
+        "value_display": "90%",
+        "description": "모든 용병의 클릭 데미지 90%"
+      },
+      {
+        "type_code": 17,
+        "type_name": "모든 용병의 베이스 데미지 {0}",
+        "value": 0.01,
+        "value_display": "1%",
+        "description": "모든 용병의 베이스 데미지 1%"
+      }
+    ],
+    "randomValue": 6
+  },
+  {
+    "index": 575,
+    "name": "수면",
+    "description": "아아, 이것은 '수면'이라는 것이다. 전투 중 잠을 잡니다.",
+    "icon": 467,
+    "priceFactor": 1.0,
+    "passiveType": 0,
+    "types": [
+      47,
+      1,
+      0
+    ],
+    "effects": [
+      0.9,
+      -0.5,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 47,
+        "type_name": "골드 저장량 {0}",
+        "value": 0.9,
+        "value_display": "90%",
+        "description": "골드 저장량 90%"
+      },
+      {
+        "type_code": 1,
+        "type_name": "데미지 {0}",
+        "value": -0.5,
+        "value_display": "-50%",
+        "description": "데미지 -50%"
+      }
+    ],
+    "randomValue": 3
+  },
+  {
+    "index": 576,
+    "name": "탈모",
+    "description": "소중한 머리카락이 한올 한올 빠지게 됩니다. 그 분노로 인하여 강해 집니다.",
+    "icon": 468,
+    "priceFactor": 1.5,
+    "passiveType": 0,
+    "types": [
+      9,
+      7,
+      0
+    ],
+    "effects": [
+      0.25,
+      6000.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 9,
+        "type_name": "공격 속도 {0}",
+        "value": 0.25,
+        "value_display": "25%",
+        "description": "공격 속도 25%"
+      },
+      {
+        "type_code": 7,
+        "type_name": "추가 데미지 {0}",
+        "value": 6000.0,
+        "value_display": "+6000",
+        "description": "추가 데미지 +6000"
+      }
+    ],
+    "randomValue": 4
+  },
+  {
+    "index": 577,
+    "name": "믿음에 대한 응답",
+    "description": "한결같은 믿음이 드디어 결실을 이루게 되었습니다.",
+    "icon": 469,
+    "priceFactor": 2.5,
+    "passiveType": 0,
+    "types": [
+      16,
+      17,
+      0
+    ],
+    "effects": [
+      1.05,
+      0.015,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 16,
+        "type_name": "모든 용병의 클릭 데미지 {0}",
+        "value": 1.05,
+        "value_display": "+1.1",
+        "description": "모든 용병의 클릭 데미지 +1.1"
+      },
+      {
+        "type_code": 17,
+        "type_name": "모든 용병의 베이스 데미지 {0}",
+        "value": 0.015,
+        "value_display": "1.5%",
+        "description": "모든 용병의 베이스 데미지 1.5%"
+      }
+    ],
+    "randomValue": 7
+  },
+  {
+    "index": 578,
+    "name": "랜덤신의 축복",
+    "description": "랜덤신의 축복을 받아 용병단에 큰 보탬이 됩니다.",
+    "icon": 470,
+    "priceFactor": 4.0,
+    "passiveType": 0,
+    "types": [
+      19,
+      17,
+      0
+    ],
+    "effects": [
+      3.0,
+      0.015,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 19,
+        "type_name": "모든 용병의 최대 레벨 {0}",
+        "value": 3.0,
+        "value_display": "+3",
+        "description": "모든 용병의 최대 레벨 +3"
+      },
+      {
+        "type_code": 17,
+        "type_name": "모든 용병의 베이스 데미지 {0}",
+        "value": 0.015,
+        "value_display": "1.5%",
+        "description": "모든 용병의 베이스 데미지 1.5%"
+      }
+    ],
+    "randomValue": 7
+  },
+  {
+    "index": 579,
+    "name": "랜덤신의 가호",
+    "description": "랜덤신의 가호로 전장에서 크게 활약 합니다.",
+    "icon": 471,
+    "priceFactor": 3.0,
+    "passiveType": 0,
+    "types": [
+      20,
+      26,
+      0
+    ],
+    "effects": [
+      0.07,
+      0.9,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 20,
+        "type_name": "강타 확률 {0}",
+        "value": 0.07,
+        "value_display": "7.0%",
+        "description": "강타 확률 7.0%"
+      },
+      {
+        "type_code": 26,
+        "type_name": "강타 배수 {0}",
+        "value": 0.9,
+        "value_display": "90%",
+        "description": "강타 배수 90%"
+      }
+    ],
+    "randomValue": 8
+  },
+  {
+    "index": 580,
+    "name": "투쟁의 오라+++",
+    "description": "전투의지를 불러일으키는 오라를 활성화 합니다.",
+    "icon": 472,
+    "priceFactor": 2.5,
+    "passiveType": 0,
+    "types": [
+      2,
+      27,
+      0
+    ],
+    "effects": [
+      0.2,
+      0.1,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 2,
+        "type_name": "모든 용병의 데미지 {0}",
+        "value": 0.2,
+        "value_display": "20%",
+        "description": "모든 용병의 데미지 20%"
+      },
+      {
+        "type_code": 27,
+        "type_name": "모든 용병의 강타 배수 {0}",
+        "value": 0.1,
+        "value_display": "10%",
+        "description": "모든 용병의 강타 배수 10%"
+      }
+    ],
+    "randomValue": 6
+  },
+  {
+    "index": 581,
+    "name": "왕실 칙령+++",
+    "description": "크사르팍스의 공격으로부터 미들랜드를 지키라는 제이나의 칙령 입니다.",
+    "icon": 473,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      49,
+      19,
+      1173
+    ],
+    "effects": [
+      0.24,
+      1.0,
+      0.15
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 49,
+        "type_name": "명성 {0}",
+        "value": 0.24,
+        "value_display": "24%",
+        "description": "명성 24%"
+      },
+      {
+        "type_code": 19,
+        "type_name": "모든 용병의 최대 레벨 {0}",
+        "value": 1.0,
+        "value_display": "+1",
+        "description": "모든 용병의 최대 레벨 +1"
+      },
+      {
+        "type_code": 1173,
+        "type_name": "즉시 공격 속도 {0}",
+        "value": 0.15,
+        "value_display": "15%",
+        "description": "즉시 공격 속도 15%"
+      }
+    ],
+    "randomValue": 5
+  },
+  {
+    "index": 582,
+    "name": "역풍의 문양",
+    "description": "역풍의 문양을 활성화 하여 느리지만 강력한 공격을 하게 합니다.",
+    "icon": 475,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      10,
+      27,
+      0
+    ],
+    "effects": [
+      -0.03,
+      0.15,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 10,
+        "type_name": "모든 용병의 공격 속도 {0}",
+        "value": -0.03,
+        "value_display": "-3%",
+        "description": "모든 용병의 공격 속도 -3%"
+      },
+      {
+        "type_code": 27,
+        "type_name": "모든 용병의 강타 배수 {0}",
+        "value": 0.15,
+        "value_display": "15%",
+        "description": "모든 용병의 강타 배수 15%"
+      }
+    ],
+    "randomValue": 5
+  },
+  {
+    "index": 583,
+    "name": "역풍의 문양+",
+    "description": "역풍의 문양을 활성화 하여 느리지만 강력한 공격을 하게 합니다.",
+    "icon": 474,
+    "priceFactor": 3.0,
+    "passiveType": 0,
+    "types": [
+      10,
+      27,
+      0
+    ],
+    "effects": [
+      -0.04,
+      0.2,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 10,
+        "type_name": "모든 용병의 공격 속도 {0}",
+        "value": -0.04,
+        "value_display": "-4%",
+        "description": "모든 용병의 공격 속도 -4%"
+      },
+      {
+        "type_code": 27,
+        "type_name": "모든 용병의 강타 배수 {0}",
+        "value": 0.2,
+        "value_display": "20%",
+        "description": "모든 용병의 강타 배수 20%"
+      }
+    ],
+    "randomValue": 6
+  },
+  {
+    "index": 584,
+    "name": "휴대용 금주머니",
+    "description": "휴대용 금주머니에 골드를 추가적으로 보관 합니다.",
+    "icon": 141,
+    "priceFactor": 1.0,
+    "passiveType": 0,
+    "types": [
+      47,
+      0,
+      0
+    ],
+    "effects": [
+      0.3,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 47,
+        "type_name": "골드 저장량 {0}",
+        "value": 0.3,
+        "value_display": "30%",
+        "description": "골드 저장량 30%"
+      }
+    ],
+    "randomValue": 2
+  },
+  {
+    "index": 585,
+    "name": "휴대용 금주머니++",
+    "description": "휴대용 금주머니에 골드를 추가적으로 보관 합니다.",
+    "icon": 477,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      47,
+      0,
+      0
+    ],
+    "effects": [
+      0.7,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 47,
+        "type_name": "골드 저장량 {0}",
+        "value": 0.7,
+        "value_display": "70%",
+        "description": "골드 저장량 70%"
+      }
+    ],
+    "randomValue": 4
+  },
+  {
+    "index": 586,
+    "name": "전사들의 열정",
+    "description": "전사들의 열정에 불을 지펴 전장에서 활약할수 있도록 도와 줍니다.",
+    "icon": 478,
+    "priceFactor": 3.0,
+    "passiveType": 0,
+    "types": [
+      11,
+      22,
+      0
+    ],
+    "effects": [
+      0.06,
+      0.006,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 11,
+        "type_name": "모든 물리 용병의 공격 속도 {0}",
+        "value": 0.06,
+        "value_display": "6%",
+        "description": "모든 물리 용병의 공격 속도 6%"
+      },
+      {
+        "type_code": 22,
+        "type_name": "모든 물리 용병의 강타 확률 {0}",
+        "value": 0.006,
+        "value_display": "0.6%",
+        "description": "모든 물리 용병의 강타 확률 0.6%"
+      }
+    ],
+    "randomValue": 8
+  },
+  {
+    "index": 587,
+    "name": "칼라무쉬의 단결력",
+    "description": "칼라무쉬 종족은 뭉칠수록 강해 집니다.",
+    "icon": 479,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      78,
+      218,
+      0
+    ],
+    "effects": [
+      0.16,
+      0.5,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 78,
+        "type_name": "종족이 칼라무쉬인 용병의 베이스 데미지 {0}",
+        "value": 0.16,
+        "value_display": "16%",
+        "description": "종족이 칼라무쉬인 용병의 베이스 데미지 16%"
+      },
+      {
+        "type_code": 218,
+        "type_name": "종족이 칼라무쉬인 용병의 데미지 {0}",
+        "value": 0.5,
+        "value_display": "50%",
+        "description": "종족이 칼라무쉬인 용병의 데미지 50%"
+      }
+    ],
+    "randomValue": 3
+  },
+  {
+    "index": 595,
+    "name": "지옥왕의 위엄+",
+    "description": "쿠카이가 자칭 지옥왕으로써 위엄을 보입니다.",
+    "icon": 258,
+    "priceFactor": 6.0,
+    "passiveType": 0,
+    "types": [
+      43,
+      38,
+      0
+    ],
+    "effects": [
+      0.444,
+      0.01,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 43,
+        "type_name": "추가 클릭 확률 {0}",
+        "value": 0.444,
+        "value_display": "44.4%",
+        "description": "추가 클릭 확률 44.4%"
+      },
+      {
+        "type_code": 38,
+        "type_name": "클릭 크리티컬 확률 {0}",
+        "value": 0.01,
+        "value_display": "1%",
+        "description": "클릭 크리티컬 확률 1%"
+      }
+    ],
+    "randomValue": 7
+  },
+  {
+    "index": 599,
+    "name": "R.I.P",
+    "description": "전장에서 쓰러진 병사들의 명복을 빌어 줍니다.",
+    "icon": 489,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      41,
+      42,
+      375
+    ],
+    "effects": [
+      0.12,
+      0.24,
+      0.06
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 41,
+        "type_name": "자동 클릭 확률 {0}",
+        "value": 0.12,
+        "value_display": "12%",
+        "description": "자동 클릭 확률 12%"
+      },
+      {
+        "type_code": 42,
+        "type_name": "자동 클릭 속도 {0}",
+        "value": 0.24,
+        "value_display": "24%",
+        "description": "자동 클릭 속도 24%"
+      },
+      {
+        "type_code": 375,
+        "type_name": "자동 클릭 데미지 {0}",
+        "value": 0.06,
+        "value_display": "6%",
+        "description": "자동 클릭 데미지 6%"
+      }
+    ],
+    "randomValue": 5
+  },
+  {
+    "index": 605,
+    "name": "칼라무쉬 치즈+++",
+    "description": "칼라무쉬 종족 특유의 제조법으로 만든 치즈 입니다. 먹으면 기운이 샘솟습니다.",
+    "icon": 131,
+    "priceFactor": 6.0,
+    "passiveType": 0,
+    "types": [
+      42,
+      41,
+      431
+    ],
+    "effects": [
+      0.3,
+      0.2,
+      0.07
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 42,
+        "type_name": "자동 클릭 속도 {0}",
+        "value": 0.3,
+        "value_display": "30%",
+        "description": "자동 클릭 속도 30%"
+      },
+      {
+        "type_code": 41,
+        "type_name": "자동 클릭 확률 {0}",
+        "value": 0.2,
+        "value_display": "20%",
+        "description": "자동 클릭 확률 20%"
+      },
+      {
+        "type_code": 431,
+        "type_name": "모든 용병의 추가 클릭 확률 {0}",
+        "value": 0.07,
+        "value_display": "7.0%",
+        "description": "모든 용병의 추가 클릭 확률 7.0%"
+      }
+    ],
+    "randomValue": 8
+  },
+  {
+    "index": 609,
+    "name": "매직 미사일+",
+    "description": "마법의 구체를 이용하여 적들을 추가적으로 타격 합니다.",
+    "icon": 257,
+    "priceFactor": 3.0,
+    "passiveType": 0,
+    "types": [
+      43,
+      122,
+      0
+    ],
+    "effects": [
+      0.36,
+      0.15,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 43,
+        "type_name": "추가 클릭 확률 {0}",
+        "value": 0.36,
+        "value_display": "36%",
+        "description": "추가 클릭 확률 36%"
+      },
+      {
+        "type_code": 122,
+        "type_name": "추가 클릭 데미지 {0}",
+        "value": 0.15,
+        "value_display": "15%",
+        "description": "추가 클릭 데미지 15%"
+      }
+    ],
+    "randomValue": 6
+  },
+  {
+    "index": 632,
+    "name": "용감한 콩인간",
+    "description": "콩인간은 두려움이라는 감정이 결여되어 있습니다.",
+    "icon": 513,
+    "priceFactor": 3.0,
+    "passiveType": 0,
+    "types": [
+      175,
+      56,
+      0
+    ],
+    "effects": [
+      1.0,
+      0.02,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 175,
+        "type_name": "공포 극복 확률 {0}",
+        "value": 1.0,
+        "value_display": "+1",
+        "description": "공포 극복 확률 +1"
+      },
+      {
+        "type_code": 56,
+        "type_name": "공격 무효화 관통 {0}",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "공격 무효화 관통 2%"
+      }
+    ],
+    "randomValue": 9
+  },
+  {
+    "index": 639,
+    "name": "새라의 궁술",
+    "description": "새라의 궁술은 한번에 세개의 화살을 쏠수 있을정도로 뛰어납니다.",
+    "icon": 519,
+    "priceFactor": 3.0,
+    "passiveType": 0,
+    "types": [
+      43,
+      112,
+      0
+    ],
+    "effects": [
+      0.7,
+      0.02,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 43,
+        "type_name": "추가 클릭 확률 {0}",
+        "value": 0.7,
+        "value_display": "70%",
+        "description": "추가 클릭 확률 70%"
+      },
+      {
+        "type_code": 112,
+        "type_name": "적들의 회피 확률 감소 {0}",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "적들의 회피 확률 감소 2%"
+      }
+    ],
+    "randomValue": 8
+  },
+  {
+    "index": 643,
+    "name": "불운의 낙인",
+    "description": "악행으로 인해 아리만으로부터 불운의 낙인을 받았습니다. 행운이 세어나가게 됩니다.",
+    "icon": 526,
+    "priceFactor": 2.5,
+    "passiveType": 0,
+    "types": [
+      137,
+      138,
+      0
+    ],
+    "effects": [
+      -0.0666,
+      0.0222,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 137,
+        "type_name": "행운 확률 {0}",
+        "value": -0.0666,
+        "value_display": "-6.7%",
+        "description": "행운 확률 -6.7%"
+      },
+      {
+        "type_code": 138,
+        "type_name": "모든 용병의 행운 확률 {0}",
+        "value": 0.0222,
+        "value_display": "2.2%",
+        "description": "모든 용병의 행운 확률 2.2%"
+      }
+    ],
+    "randomValue": 7
+  },
+  {
+    "index": 644,
+    "name": "성공적 실험",
+    "description": "복잡하고 고통스러운 실험은 성공적이였고 그 결과 외모가 향상 되었습니다.",
+    "icon": 527,
+    "priceFactor": 3.0,
+    "passiveType": 0,
+    "types": [
+      138,
+      0,
+      0
+    ],
+    "effects": [
+      0.0225,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 138,
+        "type_name": "모든 용병의 행운 확률 {0}",
+        "value": 0.0225,
+        "value_display": "2.2%",
+        "description": "모든 용병의 행운 확률 2.2%"
+      }
+    ],
+    "randomValue": 8
+  },
+  {
+    "index": 645,
+    "name": "인생은 로또",
+    "description": "당신의 로또 당첨될 확률을 낮추고 용병들의 행운을 높혀 줍니다.",
+    "icon": 524,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      138,
+      0,
+      0
+    ],
+    "effects": [
+      0.0175,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 138,
+        "type_name": "모든 용병의 행운 확률 {0}",
+        "value": 0.0175,
+        "value_display": "1.8%",
+        "description": "모든 용병의 행운 확률 1.8%"
+      }
+    ],
+    "randomValue": 6
+  },
+  {
+    "index": 652,
+    "name": "연금 복권",
+    "description": "당신의 연금 복권 당첨될 확률, 좋은 곳에 쓰겠습니다.",
+    "icon": 531,
+    "priceFactor": 3.0,
+    "passiveType": 0,
+    "types": [
+      137,
+      19,
+      0
+    ],
+    "effects": [
+      0.07,
+      2.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 137,
+        "type_name": "행운 확률 {0}",
+        "value": 0.07,
+        "value_display": "7.0%",
+        "description": "행운 확률 7.0%"
+      },
+      {
+        "type_code": 19,
+        "type_name": "모든 용병의 최대 레벨 {0}",
+        "value": 2.0,
+        "value_display": "+2",
+        "description": "모든 용병의 최대 레벨 +2"
+      }
+    ],
+    "randomValue": 7
+  },
+  {
+    "index": 653,
+    "name": "읽으면 복이 오는 책",
+    "description": "책 서문에 이 책을 읽고 복이 오지 않으면 환불해 주겠다고 써있습니다.",
+    "icon": 532,
+    "priceFactor": 3.5,
+    "passiveType": 0,
+    "types": [
+      137,
+      19,
+      0
+    ],
+    "effects": [
+      0.08,
+      3.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 137,
+        "type_name": "행운 확률 {0}",
+        "value": 0.08,
+        "value_display": "8%",
+        "description": "행운 확률 8%"
+      },
+      {
+        "type_code": 19,
+        "type_name": "모든 용병의 최대 레벨 {0}",
+        "value": 3.0,
+        "value_display": "+3",
+        "description": "모든 용병의 최대 레벨 +3"
+      }
+    ],
+    "randomValue": 8
+  },
+  {
+    "index": 654,
+    "name": "도발+",
+    "description": "적을 약올리는게 아닙니다. 당신을 약올리고 있는겁니다.",
+    "icon": 533,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      137,
+      124,
+      0
+    ],
+    "effects": [
+      0.05,
+      0.3,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 137,
+        "type_name": "행운 확률 {0}",
+        "value": 0.05,
+        "value_display": "5%",
+        "description": "행운 확률 5%"
+      },
+      {
+        "type_code": 124,
+        "type_name": "데미지 편차 {0}",
+        "value": 0.3,
+        "value_display": "30%",
+        "description": "데미지 편차 30%"
+      }
+    ],
+    "randomValue": 5
+  },
+  {
+    "index": 655,
+    "name": "고대의 여인상",
+    "description": "고대 여인의 아름다운 자태를 조각한것이라고 합니다. 그때 태어나지 않은게 참 다행입니다.",
+    "icon": 534,
+    "priceFactor": 2.5,
+    "passiveType": 0,
+    "types": [
+      137,
+      46,
+      0
+    ],
+    "effects": [
+      0.06,
+      0.3,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 137,
+        "type_name": "행운 확률 {0}",
+        "value": 0.06,
+        "value_display": "6%",
+        "description": "행운 확률 6%"
+      },
+      {
+        "type_code": 46,
+        "type_name": "골드 획득량 {0}",
+        "value": 0.3,
+        "value_display": "30%",
+        "description": "골드 획득량 30%"
+      }
+    ],
+    "randomValue": 6
+  },
+  {
+    "index": 656,
+    "name": "변형된 혼합의 투쟁",
+    "description": "혼합된 전투의지를 불러일으키는 오라를 활성화 합니다.",
+    "icon": 535,
+    "priceFactor": 3.0,
+    "passiveType": 0,
+    "types": [
+      2,
+      30,
+      0
+    ],
+    "effects": [
+      0.12,
+      0.22,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 2,
+        "type_name": "모든 용병의 데미지 {0}",
+        "value": 0.12,
+        "value_display": "12%",
+        "description": "모든 용병의 데미지 12%"
+      },
+      {
+        "type_code": 30,
+        "type_name": "모든 혼합 용병의 강타 배수 {0}",
+        "value": 0.22,
+        "value_display": "22%",
+        "description": "모든 혼합 용병의 강타 배수 22%"
+      }
+    ],
+    "randomValue": 8
+  },
+  {
+    "index": 663,
+    "name": "조화의 나뭇잎",
+    "description": "세개의 힘이 조화를 이루고 있는 신비로운 나뭇잎 입니다.",
+    "icon": 541,
+    "priceFactor": 3.0,
+    "passiveType": 0,
+    "types": [
+      2,
+      196,
+      0
+    ],
+    "effects": [
+      0.111,
+      0.03,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 2,
+        "type_name": "모든 용병의 데미지 {0}",
+        "value": 0.111,
+        "value_display": "11.1%",
+        "description": "모든 용병의 데미지 11.1%"
+      },
+      {
+        "type_code": 196,
+        "type_name": "모든 트리니티 용병의 강타 확률 {0}",
+        "value": 0.03,
+        "value_display": "3%",
+        "description": "모든 트리니티 용병의 강타 확률 3%"
+      }
+    ],
+    "randomValue": 9
+  },
+  {
+    "index": 685,
+    "name": "폭력적 조화",
+    "description": "조화의 실현을 위해서는 때론 극단적 폭력이 필요합니다.",
+    "icon": 1014,
+    "priceFactor": 3.0,
+    "passiveType": 0,
+    "types": [
+      368,
+      197,
+      0
+    ],
+    "effects": [
+      0.02,
+      0.4,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 368,
+        "type_name": "모든 용병의 추가 클릭 데미지 {0}",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "모든 용병의 추가 클릭 데미지 2%"
+      },
+      {
+        "type_code": 197,
+        "type_name": "모든 트리니티  용병의 강타 배수 {0}",
+        "value": 0.4,
+        "value_display": "40%",
+        "description": "모든 트리니티  용병의 강타 배수 40%"
+      }
+    ],
+    "randomValue": 9
+  },
+  {
+    "index": 687,
+    "name": "분노의 끝",
+    "description": "극단적인 분노로 가공할 속도로 적들을 공격 합니다.",
+    "icon": 564,
+    "priceFactor": 2.5,
+    "passiveType": 0,
+    "types": [
+      9,
+      7,
+      0
+    ],
+    "effects": [
+      0.5,
+      5000.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 9,
+        "type_name": "공격 속도 {0}",
+        "value": 0.5,
+        "value_display": "50%",
+        "description": "공격 속도 50%"
+      },
+      {
+        "type_code": 7,
+        "type_name": "추가 데미지 {0}",
+        "value": 5000.0,
+        "value_display": "+5000",
+        "description": "추가 데미지 +5000"
+      }
+    ],
+    "randomValue": 8
+  },
+  {
+    "index": 694,
+    "name": "제리의 군자금",
+    "description": "제리는 자신의 추종자들에게 수단과 방법을 가리지 말고 이 주머니를 채워오도록 명 하였습니다.",
+    "icon": 569,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      46,
+      47,
+      0
+    ],
+    "effects": [
+      0.25,
+      0.5,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 46,
+        "type_name": "골드 획득량 {0}",
+        "value": 0.25,
+        "value_display": "25%",
+        "description": "골드 획득량 25%"
+      },
+      {
+        "type_code": 47,
+        "type_name": "골드 저장량 {0}",
+        "value": 0.5,
+        "value_display": "50%",
+        "description": "골드 저장량 50%"
+      }
+    ],
+    "randomValue": 4
+  },
+  {
+    "index": 705,
+    "name": "스톤 하트",
+    "description": "바위 육체를 움직일수 있게 해주는 심장입니다. 혈액 대신 용암이 흐르고 있습니다.",
+    "icon": 578,
+    "priceFactor": 1.5,
+    "passiveType": 0,
+    "types": [
+      1,
+      175,
+      1171
+    ],
+    "effects": [
+      3.0,
+      0.07,
+      0.21
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1,
+        "type_name": "데미지 {0}",
+        "value": 3.0,
+        "value_display": "+3",
+        "description": "데미지 +3"
+      },
+      {
+        "type_code": 175,
+        "type_name": "공포 극복 확률 {0}",
+        "value": 0.07,
+        "value_display": "7.0%",
+        "description": "공포 극복 확률 7.0%"
+      },
+      {
+        "type_code": 1171,
+        "type_name": "즉시 공격 확률 {0}",
+        "value": 0.21,
+        "value_display": "21%",
+        "description": "즉시 공격 확률 21%"
+      }
+    ],
+    "randomValue": 7
+  },
+  {
+    "index": 706,
+    "name": "더블 어택+",
+    "description": "빠르게 2번 연속으로 공격 합니다.",
+    "icon": 579,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      250,
+      0,
+      0
+    ],
+    "effects": [
+      0.2,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 250,
+        "type_name": "더블 어택 확률 {0}",
+        "value": 0.2,
+        "value_display": "20%",
+        "description": "더블 어택 확률 20%"
+      }
+    ],
+    "randomValue": 6
+  },
+  {
+    "index": 716,
+    "name": "수호",
+    "description": "적들의 공격을 막아 동료들을 지켜 줍니다.",
+    "icon": 589,
+    "priceFactor": 1.5,
+    "passiveType": 0,
+    "types": [
+      258,
+      0,
+      0
+    ],
+    "effects": [
+      0.02,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 258,
+        "type_name": "아군 피격 보호 확률 {0}",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "아군 피격 보호 확률 2%"
+      }
+    ],
+    "randomValue": 7
+  },
+  {
+    "index": 717,
+    "name": "수호+",
+    "description": "적들의 공격을 막아 동료들을 지켜 줍니다.",
+    "icon": 588,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      258,
+      0,
+      0
+    ],
+    "effects": [
+      0.03,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 258,
+        "type_name": "아군 피격 보호 확률 {0}",
+        "value": 0.03,
+        "value_display": "3%",
+        "description": "아군 피격 보호 확률 3%"
+      }
+    ],
+    "randomValue": 8
+  },
+  {
+    "index": 719,
+    "name": "간절한 소망",
+    "description": "[뿔레 오브]는 찾는다고 찾아지는것이 아닙니다. 간절히 바라면 [뿔레 오브]가 스스로 찾아 오는 것입니다.",
+    "icon": 591,
+    "priceFactor": 1.5,
+    "passiveType": 0,
+    "types": [
+      257,
+      0,
+      0
+    ],
+    "effects": [
+      0.025,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 257,
+        "type_name": "뿔레 오브 드랍 확률 {0}",
+        "value": 0.025,
+        "value_display": "2.5%",
+        "description": "뿔레 오브 드랍 확률 2.5%"
+      }
+    ],
+    "randomValue": 8
+  },
+  {
+    "index": 720,
+    "name": "간절한 소망+",
+    "description": "[뿔레 오브]는 찾는다고 찾아지는것이 아닙니다. 간절히 바라면 [뿔레 오브]가 스스로 찾아 오는 것입니다.",
+    "icon": 592,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      257,
+      0,
+      0
+    ],
+    "effects": [
+      0.035,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 257,
+        "type_name": "뿔레 오브 드랍 확률 {0}",
+        "value": 0.035,
+        "value_display": "3.5%",
+        "description": "뿔레 오브 드랍 확률 3.5%"
+      }
+    ],
+    "randomValue": 9
+  },
+  {
+    "index": 756,
+    "name": "루비 채굴",
+    "description": "전문적인 채굴장비로 루비를 채굴 합니다.",
+    "icon": 628,
+    "priceFactor": 3.0,
+    "passiveType": 0,
+    "types": [
+      295,
+      0,
+      0
+    ],
+    "effects": [
+      0.15,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 295,
+        "type_name": "루비 드랍 확률 {0}",
+        "value": 0.15,
+        "value_display": "15%",
+        "description": "루비 드랍 확률 15%"
+      }
+    ],
+    "randomValue": 4
+  },
+  {
+    "index": 757,
+    "name": "토파즈 탐지",
+    "description": "토파즈에서 뿜어져 나오는 빛으로 토파즈가 숨겨진 위치를 찾아냅니다.",
+    "icon": 629,
+    "priceFactor": 3.0,
+    "passiveType": 0,
+    "types": [
+      296,
+      0,
+      0
+    ],
+    "effects": [
+      0.15,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 296,
+        "type_name": "토파즈 드랍 확률 {0}",
+        "value": 0.15,
+        "value_display": "15%",
+        "description": "토파즈 드랍 확률 15%"
+      }
+    ],
+    "randomValue": 4
+  },
+  {
+    "index": 758,
+    "name": "사파이어 공명",
+    "description": "사파이어들이 공명하는 성질을 이용하여 사파이어를 찾아냅니다.",
+    "icon": 630,
+    "priceFactor": 3.0,
+    "passiveType": 0,
+    "types": [
+      297,
+      0,
+      0
+    ],
+    "effects": [
+      0.15,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 297,
+        "type_name": "사파이어 드랍 확률 {0}",
+        "value": 0.15,
+        "value_display": "15%",
+        "description": "사파이어 드랍 확률 15%"
+      }
+    ],
+    "randomValue": 4
+  },
+  {
+    "index": 759,
+    "name": "에머랄드 에너지",
+    "description": "에머랄드를 감싸고 있는 에너지를 감지하여 에머랄드를 발견 합니다.",
+    "icon": 631,
+    "priceFactor": 3.0,
+    "passiveType": 0,
+    "types": [
+      298,
+      0,
+      0
+    ],
+    "effects": [
+      0.15,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 298,
+        "type_name": "에머랄드 드랍 확률 {0}",
+        "value": 0.15,
+        "value_display": "15%",
+        "description": "에머랄드 드랍 확률 15%"
+      }
+    ],
+    "randomValue": 4
+  },
+  {
+    "index": 760,
+    "name": "자수정 추출",
+    "description": "마력속에 녹아있는 자수정을 추출 합니다.",
+    "icon": 632,
+    "priceFactor": 3.0,
+    "passiveType": 0,
+    "types": [
+      299,
+      0,
+      0
+    ],
+    "effects": [
+      0.15,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 299,
+        "type_name": "자수정 드랍 확률 {0}",
+        "value": 0.15,
+        "value_display": "15%",
+        "description": "자수정 드랍 확률 15%"
+      }
+    ],
+    "randomValue": 4
+  },
+  {
+    "index": 761,
+    "name": "럭키 핸드",
+    "description": "운이 좋으면 적절한 순간, 적절한 장소에서 아티팩트를 슬쩍 주울 수 있습니다.",
+    "icon": 633,
+    "priceFactor": 3.0,
+    "passiveType": 0,
+    "types": [
+      300,
+      0,
+      0
+    ],
+    "effects": [
+      0.09,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 300,
+        "type_name": "아티팩트 드랍 확률 {0}",
+        "value": 0.09,
+        "value_display": "9%",
+        "description": "아티팩트 드랍 확률 9%"
+      }
+    ],
+    "randomValue": 4
+  },
+  {
+    "index": 762,
+    "name": "럭키 핸드+",
+    "description": "운이 좋으면 적절한 순간, 적절한 장소에서 아티팩트를 슬쩍 주울 수 있습니다.",
+    "icon": 634,
+    "priceFactor": 4.0,
+    "passiveType": 0,
+    "types": [
+      300,
+      0,
+      0
+    ],
+    "effects": [
+      0.12,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 300,
+        "type_name": "아티팩트 드랍 확률 {0}",
+        "value": 0.12,
+        "value_display": "12%",
+        "description": "아티팩트 드랍 확률 12%"
+      }
+    ],
+    "randomValue": 5
+  },
+  {
+    "index": 764,
+    "name": "데들리 플랜",
+    "description": "적에게 치명적인 피해를 입히기 위한 방법을 동료들과 공유 합니다.",
+    "icon": 636,
+    "priceFactor": 4.0,
+    "passiveType": 0,
+    "types": [
+      309,
+      0,
+      0
+    ],
+    "effects": [
+      0.22,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 309,
+        "type_name": "모든 용병의 치명타 배수 {0}",
+        "value": 0.22,
+        "value_display": "22%",
+        "description": "모든 용병의 치명타 배수 22%"
+      }
+    ],
+    "randomValue": 8
+  },
+  {
+    "index": 777,
+    "name": "전사들의 열정+",
+    "description": "전사들의 열정에 불을 지펴 전장에서 활약할수 있도록 도와 줍니다.",
+    "icon": 650,
+    "priceFactor": 4.0,
+    "passiveType": 0,
+    "types": [
+      11,
+      22,
+      0
+    ],
+    "effects": [
+      0.08,
+      0.008,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 11,
+        "type_name": "모든 물리 용병의 공격 속도 {0}",
+        "value": 0.08,
+        "value_display": "8%",
+        "description": "모든 물리 용병의 공격 속도 8%"
+      },
+      {
+        "type_code": 22,
+        "type_name": "모든 물리 용병의 강타 확률 {0}",
+        "value": 0.008,
+        "value_display": "0.8%",
+        "description": "모든 물리 용병의 강타 확률 0.8%"
+      }
+    ],
+    "randomValue": 8
+  },
+  {
+    "index": 793,
+    "name": "라이프 스파이크",
+    "description": "외부의 간섭으로부터 생명력을 지키는 가시를 생성하여 생명력을 보전 합니다.",
+    "icon": 664,
+    "priceFactor": 1.5,
+    "passiveType": 0,
+    "types": [
+      253,
+      0,
+      0
+    ],
+    "effects": [
+      0.012,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 253,
+        "type_name": "적들의 흡수 확률 감소 {0}",
+        "value": 0.012,
+        "value_display": "1.2%",
+        "description": "적들의 흡수 확률 감소 1.2%"
+      }
+    ],
+    "randomValue": 4
+  },
+  {
+    "index": 794,
+    "name": "라이프 스파이크+",
+    "description": "외부의 간섭으로부터 생명력을 지키는 가시를 생성하여 생명력을 보전 합니다.",
+    "icon": 665,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      253,
+      0,
+      0
+    ],
+    "effects": [
+      0.016,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 253,
+        "type_name": "적들의 흡수 확률 감소 {0}",
+        "value": 0.016,
+        "value_display": "1.6%",
+        "description": "적들의 흡수 확률 감소 1.6%"
+      }
+    ],
+    "randomValue": 5
+  },
+  {
+    "index": 812,
+    "name": "용기의 방패",
+    "description": "동료들이 두려움을 극복 할 수 있도록 용기를 북돋아 줍니다.",
+    "icon": 676,
+    "priceFactor": 1.5,
+    "passiveType": 0,
+    "types": [
+      177,
+      431,
+      1173
+    ],
+    "effects": [
+      0.008,
+      0.04,
+      0.08
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 177,
+        "type_name": "모든 용병의 공포 극복 확률 {0}",
+        "value": 0.008,
+        "value_display": "0.8%",
+        "description": "모든 용병의 공포 극복 확률 0.8%"
+      },
+      {
+        "type_code": 431,
+        "type_name": "모든 용병의 추가 클릭 확률 {0}",
+        "value": 0.04,
+        "value_display": "4%",
+        "description": "모든 용병의 추가 클릭 확률 4%"
+      },
+      {
+        "type_code": 1173,
+        "type_name": "즉시 공격 속도 {0}",
+        "value": 0.08,
+        "value_display": "8%",
+        "description": "즉시 공격 속도 8%"
+      }
+    ],
+    "randomValue": 5
+  },
+  {
+    "index": 813,
+    "name": "용기의 방패+",
+    "description": "동료들이 두려움을 극복 할 수 있도록 용기를 북돋아 줍니다.",
+    "icon": 677,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      177,
+      431,
+      1173
+    ],
+    "effects": [
+      0.01,
+      0.05,
+      0.1
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 177,
+        "type_name": "모든 용병의 공포 극복 확률 {0}",
+        "value": 0.01,
+        "value_display": "1%",
+        "description": "모든 용병의 공포 극복 확률 1%"
+      },
+      {
+        "type_code": 431,
+        "type_name": "모든 용병의 추가 클릭 확률 {0}",
+        "value": 0.05,
+        "value_display": "5%",
+        "description": "모든 용병의 추가 클릭 확률 5%"
+      },
+      {
+        "type_code": 1173,
+        "type_name": "즉시 공격 속도 {0}",
+        "value": 0.1,
+        "value_display": "10%",
+        "description": "즉시 공격 속도 10%"
+      }
+    ],
+    "randomValue": 6
+  },
+  {
+    "index": 814,
+    "name": "용기의 방패++",
+    "description": "동료들이 두려움을 극복 할 수 있도록 용기를 북돋아 줍니다.",
+    "icon": 678,
+    "priceFactor": 2.5,
+    "passiveType": 0,
+    "types": [
+      177,
+      431,
+      1173
+    ],
+    "effects": [
+      0.012,
+      0.06,
+      0.12
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 177,
+        "type_name": "모든 용병의 공포 극복 확률 {0}",
+        "value": 0.012,
+        "value_display": "1.2%",
+        "description": "모든 용병의 공포 극복 확률 1.2%"
+      },
+      {
+        "type_code": 431,
+        "type_name": "모든 용병의 추가 클릭 확률 {0}",
+        "value": 0.06,
+        "value_display": "6%",
+        "description": "모든 용병의 추가 클릭 확률 6%"
+      },
+      {
+        "type_code": 1173,
+        "type_name": "즉시 공격 속도 {0}",
+        "value": 0.12,
+        "value_display": "12%",
+        "description": "즉시 공격 속도 12%"
+      }
+    ],
+    "randomValue": 7
+  },
+  {
+    "index": 828,
+    "name": "공포+",
+    "description": "적들을 공포에 떨게하여 공황 상태로 만듭니다.",
+    "icon": 689,
+    "priceFactor": 3.0,
+    "passiveType": 0,
+    "types": [
+      21,
+      27,
+      431
+    ],
+    "effects": [
+      0.01,
+      0.1,
+      0.08
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 21,
+        "type_name": "모든 용병의 강타 확률 {0}",
+        "value": 0.01,
+        "value_display": "1%",
+        "description": "모든 용병의 강타 확률 1%"
+      },
+      {
+        "type_code": 27,
+        "type_name": "모든 용병의 강타 배수 {0}",
+        "value": 0.1,
+        "value_display": "10%",
+        "description": "모든 용병의 강타 배수 10%"
+      },
+      {
+        "type_code": 431,
+        "type_name": "모든 용병의 추가 클릭 확률 {0}",
+        "value": 0.08,
+        "value_display": "8%",
+        "description": "모든 용병의 추가 클릭 확률 8%"
+      }
+    ],
+    "randomValue": 9
+  },
+  {
+    "index": 871,
+    "name": "제압+",
+    "description": "상대를 제압하여 무방비 상태로 만듭니다.",
+    "icon": 725,
+    "priceFactor": 3.0,
+    "passiveType": 0,
+    "types": [
+      51,
+      28,
+      0
+    ],
+    "effects": [
+      0.03,
+      0.1,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 51,
+        "type_name": "적들의 물리 저항력 감소 {0}",
+        "value": 0.03,
+        "value_display": "3%",
+        "description": "적들의 물리 저항력 감소 3%"
+      },
+      {
+        "type_code": 28,
+        "type_name": "모든 물리 용병의 강타 배수 {0}",
+        "value": 0.1,
+        "value_display": "10%",
+        "description": "모든 물리 용병의 강타 배수 10%"
+      }
+    ],
+    "randomValue": 7
+  },
+  {
+    "index": 890,
+    "name": "돌격+",
+    "description": "적의 빈틈을 노려 단숨에 돌격합니다.",
+    "icon": 743,
+    "priceFactor": 0.5,
+    "passiveType": 0,
+    "types": [
+      38,
+      56,
+      0
+    ],
+    "effects": [
+      0.01,
+      0.02,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 38,
+        "type_name": "클릭 크리티컬 확률 {0}",
+        "value": 0.01,
+        "value_display": "1%",
+        "description": "클릭 크리티컬 확률 1%"
+      },
+      {
+        "type_code": 56,
+        "type_name": "공격 무효화 관통 {0}",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "공격 무효화 관통 2%"
+      }
+    ],
+    "randomValue": 6
+  },
+  {
+    "index": 988,
+    "name": "뿔레별 구하기 대소동",
+    "description": "어떤 차원에서는 뿔레별 구하기 대소동이 세상에서 가장 인기 있는 게임이라고 합니다.",
+    "icon": 488,
+    "priceFactor": 4.0,
+    "passiveType": 0,
+    "types": [
+      16,
+      431,
+      0
+    ],
+    "effects": [
+      1.5,
+      0.12,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 16,
+        "type_name": "모든 용병의 클릭 데미지 {0}",
+        "value": 1.5,
+        "value_display": "+1.5",
+        "description": "모든 용병의 클릭 데미지 +1.5"
+      },
+      {
+        "type_code": 431,
+        "type_name": "모든 용병의 추가 클릭 확률 {0}",
+        "value": 0.12,
+        "value_display": "12%",
+        "description": "모든 용병의 추가 클릭 확률 12%"
+      }
+    ],
+    "randomValue": 9
+  },
+  {
+    "index": 997,
+    "name": "융합",
+    "description": "서로 다른 두가지 성질을 합하여 하나로 만듭니다.",
+    "icon": 839,
+    "priceFactor": 1.5,
+    "passiveType": 0,
+    "types": [
+      431,
+      27,
+      1172
+    ],
+    "effects": [
+      0.05,
+      0.09,
+      0.09
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 431,
+        "type_name": "모든 용병의 추가 클릭 확률 {0}",
+        "value": 0.05,
+        "value_display": "5%",
+        "description": "모든 용병의 추가 클릭 확률 5%"
+      },
+      {
+        "type_code": 27,
+        "type_name": "모든 용병의 강타 배수 {0}",
+        "value": 0.09,
+        "value_display": "9%",
+        "description": "모든 용병의 강타 배수 9%"
+      },
+      {
+        "type_code": 1172,
+        "type_name": "즉시 공격 데미지 {0}",
+        "value": 0.09,
+        "value_display": "9%",
+        "description": "즉시 공격 데미지 9%"
+      }
+    ],
+    "randomValue": 6
+  },
+  {
+    "index": 998,
+    "name": "융합+",
+    "description": "서로 다른 두가지 성질을 합하여 하나로 만듭니다.",
+    "icon": 840,
+    "priceFactor": 2.0,
+    "passiveType": 0,
+    "types": [
+      431,
+      27,
+      1172
+    ],
+    "effects": [
+      0.07,
+      0.12,
+      0.12
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 431,
+        "type_name": "모든 용병의 추가 클릭 확률 {0}",
+        "value": 0.07,
+        "value_display": "7.0%",
+        "description": "모든 용병의 추가 클릭 확률 7.0%"
+      },
+      {
+        "type_code": 27,
+        "type_name": "모든 용병의 강타 배수 {0}",
+        "value": 0.12,
+        "value_display": "12%",
+        "description": "모든 용병의 강타 배수 12%"
+      },
+      {
+        "type_code": 1172,
+        "type_name": "즉시 공격 데미지 {0}",
+        "value": 0.12,
+        "value_display": "12%",
+        "description": "즉시 공격 데미지 12%"
+      }
+    ],
+    "randomValue": 7
+  },
+  {
+    "index": 999,
+    "name": "융합++",
+    "description": "서로 다른 두가지 성질을 합하여 하나로 만듭니다.",
+    "icon": 841,
+    "priceFactor": 2.5,
+    "passiveType": 0,
+    "types": [
+      431,
+      27,
+      1172
+    ],
+    "effects": [
+      0.09,
+      0.15,
+      0.15
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 431,
+        "type_name": "모든 용병의 추가 클릭 확률 {0}",
+        "value": 0.09,
+        "value_display": "9%",
+        "description": "모든 용병의 추가 클릭 확률 9%"
+      },
+      {
+        "type_code": 27,
+        "type_name": "모든 용병의 강타 배수 {0}",
+        "value": 0.15,
+        "value_display": "15%",
+        "description": "모든 용병의 강타 배수 15%"
+      },
+      {
+        "type_code": 1172,
+        "type_name": "즉시 공격 데미지 {0}",
+        "value": 0.15,
+        "value_display": "15%",
+        "description": "즉시 공격 데미지 15%"
+      }
+    ],
+    "randomValue": 8
+  },
+  {
+    "index": 1298,
+    "name": "아카식 블레이드",
+    "description": "아카식 에너지로 만들어진 회전 칼날은 적들을 자동으로 공격 합니다.",
+    "icon": 1073,
+    "priceFactor": 6.0,
+    "passiveType": 0,
+    "types": [
+      1171,
+      1172,
+      1173
+    ],
+    "effects": [
+      0.2,
+      0.2,
+      0.2
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1171,
+        "type_name": "즉시 공격 확률 {0}",
+        "value": 0.2,
+        "value_display": "20%",
+        "description": "즉시 공격 확률 20%"
+      },
+      {
+        "type_code": 1172,
+        "type_name": "즉시 공격 데미지 {0}",
+        "value": 0.2,
+        "value_display": "20%",
+        "description": "즉시 공격 데미지 20%"
+      },
+      {
+        "type_code": 1173,
+        "type_name": "즉시 공격 속도 {0}",
+        "value": 0.2,
+        "value_display": "20%",
+        "description": "즉시 공격 속도 20%"
+      }
+    ],
+    "randomValue": 8
+  }
+]

@@ -1,0 +1,808 @@
+{
+  "commanders": [
+    {
+      "index": 0,
+      "strings": [],
+      "rarity": 0,
+      "icon": 0,
+      "gender": 0,
+      "statStr": 23,
+      "statInt": 10,
+      "statLuck": 9,
+      "statChar": 13,
+      "name_ko": "폴드런",
+      "grade": "평범함",
+      "specialties": [
+        {
+          "index": 8,
+          "strings": [],
+          "icon": 8,
+          "targetIndex": 0,
+          "target": 0,
+          "type": "finalDmg",
+          "effect": 0.15
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "strings": [],
+      "rarity": 0,
+      "icon": 13,
+      "gender": 0,
+      "statStr": 12,
+      "statInt": 4,
+      "statLuck": 15,
+      "statChar": 7,
+      "name_ko": "풀레",
+      "grade": "평범함",
+      "specialties": [
+        {
+          "index": 3,
+          "strings": [],
+          "icon": 3,
+          "targetIndex": 1,
+          "target": 1,
+          "type": "gold",
+          "effect": 0.005
+        },
+        {
+          "index": 4,
+          "strings": [],
+          "icon": 4,
+          "targetIndex": 1,
+          "target": 4,
+          "type": "finalDmg",
+          "effect": 0.05
+        },
+        {
+          "index": 6,
+          "strings": [],
+          "icon": 6,
+          "targetIndex": 1,
+          "target": 0,
+          "type": "finalDmg",
+          "effect": 0.003
+        },
+        {
+          "index": 18,
+          "strings": [],
+          "icon": 36,
+          "targetIndex": 1,
+          "target": 1,
+          "type": "bashTimes",
+          "effect": 0.0012
+        },
+        {
+          "index": 24,
+          "strings": [],
+          "icon": 41,
+          "targetIndex": 1,
+          "target": 3,
+          "type": "amplifyM",
+          "effect": 0.03
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "strings": [],
+      "rarity": 0,
+      "icon": 36,
+      "gender": 3,
+      "statStr": 15,
+      "statInt": 7,
+      "statLuck": 26,
+      "statChar": 6,
+      "name_ko": "언서튼",
+      "grade": "평범함",
+      "specialties": []
+    },
+    {
+      "index": 3,
+      "strings": [],
+      "rarity": 0,
+      "icon": 47,
+      "gender": 0,
+      "statStr": 19,
+      "statInt": 12,
+      "statLuck": 14,
+      "statChar": 9,
+      "name_ko": "브라이언 킴",
+      "grade": "평범함",
+      "specialties": [
+        {
+          "index": 19,
+          "strings": [],
+          "icon": 37,
+          "targetIndex": 3,
+          "target": 1,
+          "type": "bashTimes",
+          "effect": 0.05
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "strings": [],
+      "rarity": 0,
+      "icon": 49,
+      "gender": 0,
+      "statStr": 14,
+      "statInt": 18,
+      "statLuck": 13,
+      "statChar": 8,
+      "name_ko": "아유해피",
+      "grade": "평범함",
+      "specialties": []
+    },
+    {
+      "index": 5,
+      "strings": [],
+      "rarity": 0,
+      "icon": 50,
+      "gender": 0,
+      "statStr": 25,
+      "statInt": 11,
+      "statLuck": 9,
+      "statChar": 7,
+      "name_ko": "발리언트",
+      "grade": "평범함",
+      "specialties": [
+        {
+          "index": 0,
+          "strings": [],
+          "icon": 0,
+          "targetIndex": 5,
+          "target": 5,
+          "type": "finalDmg",
+          "effect": 0.25
+        },
+        {
+          "index": 2,
+          "strings": [],
+          "icon": 2,
+          "targetIndex": 5,
+          "target": 1,
+          "type": "finalDmg",
+          "effect": 0.005
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "strings": [],
+      "rarity": 0,
+      "icon": 19,
+      "gender": 1,
+      "statStr": 8,
+      "statInt": 12,
+      "statLuck": 17,
+      "statChar": 19,
+      "name_ko": "에바",
+      "grade": "평범함",
+      "specialties": [
+        {
+          "index": 34,
+          "strings": [],
+          "icon": 50,
+          "targetIndex": 6,
+          "target": 1,
+          "type": "",
+          "effect": 0.04
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "strings": [],
+      "rarity": 0,
+      "icon": 24,
+      "gender": 0,
+      "statStr": 9,
+      "statInt": 11,
+      "statLuck": 10,
+      "statChar": 25,
+      "name_ko": "쿠미스",
+      "grade": "평범함",
+      "specialties": [
+        {
+          "index": 5,
+          "strings": [],
+          "icon": 5,
+          "targetIndex": 7,
+          "target": 3,
+          "type": "finalDmg",
+          "effect": 0.01
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "strings": [],
+      "rarity": 0,
+      "icon": 48,
+      "gender": 0,
+      "statStr": 13,
+      "statInt": 14,
+      "statLuck": 16,
+      "statChar": 4,
+      "name_ko": "히데요시",
+      "grade": "평범함",
+      "specialties": [
+        {
+          "index": 15,
+          "strings": [],
+          "icon": 10,
+          "targetIndex": 8,
+          "target": 1,
+          "type": "finalDmg",
+          "effect": 0.007
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "strings": [],
+      "rarity": 0,
+      "icon": 17,
+      "gender": 1,
+      "statStr": 6,
+      "statInt": 31,
+      "statLuck": 4,
+      "statChar": 8,
+      "name_ko": "아반도나",
+      "grade": "평범함",
+      "specialties": [
+        {
+          "index": 20,
+          "strings": [],
+          "icon": 12,
+          "targetIndex": 9,
+          "target": 1,
+          "type": "bashTimes",
+          "effect": 0.06
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "strings": [],
+      "rarity": 1,
+      "icon": 14,
+      "gender": 0,
+      "statStr": 14,
+      "statInt": 11,
+      "statLuck": 8,
+      "statChar": 7,
+      "name_ko": "패니키",
+      "grade": "평범함",
+      "specialties": []
+    },
+    {
+      "index": 11,
+      "strings": [],
+      "rarity": 1,
+      "icon": 42,
+      "gender": 0,
+      "statStr": 10,
+      "statInt": 9,
+      "statLuck": 19,
+      "statChar": 6,
+      "name_ko": "도므릭스",
+      "grade": "평범함",
+      "specialties": []
+    },
+    {
+      "index": 12,
+      "strings": [],
+      "rarity": 1,
+      "icon": 44,
+      "gender": 1,
+      "statStr": 10,
+      "statInt": 12,
+      "statLuck": 13,
+      "statChar": 21,
+      "name_ko": "바이티",
+      "grade": "평범함",
+      "specialties": [
+        {
+          "index": 28,
+          "strings": [],
+          "icon": 44,
+          "targetIndex": 12,
+          "target": 1,
+          "type": "luckTimes",
+          "effect": 0.008
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "strings": [],
+      "rarity": 1,
+      "icon": 18,
+      "gender": 0,
+      "statStr": 9,
+      "statInt": 17,
+      "statLuck": 10,
+      "statChar": 15,
+      "name_ko": "언더더씨",
+      "grade": "훌륭함",
+      "specialties": [
+        {
+          "index": 17,
+          "strings": [],
+          "icon": 17,
+          "targetIndex": 13,
+          "target": 5,
+          "type": "criticalChance",
+          "effect": 0.006
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "strings": [],
+      "rarity": 1,
+      "icon": 16,
+      "gender": 1,
+      "statStr": 14,
+      "statInt": 12,
+      "statLuck": 11,
+      "statChar": 13,
+      "name_ko": "사오 일나런 홀트",
+      "grade": "훌륭함",
+      "specialties": []
+    },
+    {
+      "index": 15,
+      "strings": [],
+      "rarity": 1,
+      "icon": 51,
+      "gender": 0,
+      "statStr": 23,
+      "statInt": 19,
+      "statLuck": 16,
+      "statChar": 15,
+      "name_ko": "디나 다이크너",
+      "grade": "훌륭함",
+      "specialties": []
+    },
+    {
+      "index": 16,
+      "strings": [],
+      "rarity": 1,
+      "icon": 10,
+      "gender": 0,
+      "statStr": 28,
+      "statInt": 6,
+      "statLuck": 26,
+      "statChar": 11,
+      "name_ko": "프록스먼",
+      "grade": "훌륭함",
+      "specialties": []
+    },
+    {
+      "index": 17,
+      "strings": [],
+      "rarity": 1,
+      "icon": 22,
+      "gender": 0,
+      "statStr": 18,
+      "statInt": 12,
+      "statLuck": 16,
+      "statChar": 20,
+      "name_ko": "아델레이드",
+      "grade": "훌륭함",
+      "specialties": []
+    },
+    {
+      "index": 18,
+      "strings": [],
+      "rarity": 1,
+      "icon": 7,
+      "gender": 1,
+      "statStr": 14,
+      "statInt": 13,
+      "statLuck": 16,
+      "statChar": 17,
+      "name_ko": "그루터기",
+      "grade": "훌륭함",
+      "specialties": [
+        {
+          "index": 32,
+          "strings": [],
+          "icon": 48,
+          "targetIndex": 18,
+          "target": 1,
+          "type": "absorb",
+          "effect": 0.05
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "strings": [],
+      "rarity": 2,
+      "icon": 33,
+      "gender": 0,
+      "statStr": 34,
+      "statInt": 17,
+      "statLuck": 20,
+      "statChar": 18,
+      "name_ko": "치즈코이",
+      "grade": "훌륭함",
+      "specialties": [
+        {
+          "index": 1,
+          "strings": [],
+          "icon": 1,
+          "targetIndex": 19,
+          "target": 1,
+          "type": "finalDmg",
+          "effect": 0.008
+        },
+        {
+          "index": 9,
+          "strings": [],
+          "icon": 9,
+          "targetIndex": 19,
+          "target": 5,
+          "type": "jewelRuby",
+          "effect": 0.007
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "strings": [],
+      "rarity": 2,
+      "icon": 38,
+      "gender": 3,
+      "statStr": 36,
+      "statInt": 11,
+      "statLuck": 24,
+      "statChar": 7,
+      "name_ko": "예거",
+      "grade": "훌륭함",
+      "specialties": []
+    },
+    {
+      "index": 21,
+      "strings": [],
+      "rarity": 2,
+      "icon": 9,
+      "gender": 3,
+      "statStr": 25,
+      "statInt": 25,
+      "statLuck": 25,
+      "statChar": 25,
+      "name_ko": "알버트",
+      "grade": "훌륭함",
+      "specialties": [
+        {
+          "index": 7,
+          "strings": [],
+          "icon": 7,
+          "targetIndex": 21,
+          "target": 1,
+          "type": "goldStash",
+          "effect": 0.015
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "strings": [],
+      "rarity": 2,
+      "icon": 8,
+      "gender": 1,
+      "statStr": 16,
+      "statInt": 14,
+      "statLuck": 37,
+      "statChar": 17,
+      "name_ko": "말론",
+      "grade": "훌륭함",
+      "specialties": []
+    },
+    {
+      "index": 23,
+      "strings": [],
+      "rarity": 2,
+      "icon": 52,
+      "gender": 1,
+      "statStr": 34,
+      "statInt": 18,
+      "statLuck": 13,
+      "statChar": 22,
+      "name_ko": "알리제",
+      "grade": "훌륭함",
+      "specialties": []
+    },
+    {
+      "index": 24,
+      "strings": [],
+      "rarity": 2,
+      "icon": 6,
+      "gender": 0,
+      "statStr": 27,
+      "statInt": 26,
+      "statLuck": 21,
+      "statChar": 26,
+      "name_ko": "우바루",
+      "grade": "영웅",
+      "specialties": []
+    },
+    {
+      "index": 25,
+      "strings": [],
+      "rarity": 2,
+      "icon": 25,
+      "gender": 1,
+      "statStr": 13,
+      "statInt": 35,
+      "statLuck": 16,
+      "statChar": 21,
+      "name_ko": "마그나",
+      "grade": "영웅",
+      "specialties": []
+    },
+    {
+      "index": 26,
+      "strings": [],
+      "rarity": 2,
+      "icon": 40,
+      "gender": 0,
+      "statStr": 30,
+      "statInt": 30,
+      "statLuck": 30,
+      "statChar": 9,
+      "name_ko": "미케니코스",
+      "grade": "영웅",
+      "specialties": []
+    },
+    {
+      "index": 27,
+      "strings": [],
+      "rarity": 0,
+      "icon": 15,
+      "gender": 3,
+      "statStr": 11,
+      "statInt": 12,
+      "statLuck": 10,
+      "statChar": 11,
+      "name_ko": "파우다",
+      "grade": "영웅",
+      "specialties": [
+        {
+          "index": 21,
+          "strings": [],
+          "icon": 23,
+          "targetIndex": 27,
+          "target": 1,
+          "type": "amplifyChaos",
+          "effect": 0.05
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "strings": [],
+      "rarity": 1,
+      "icon": 55,
+      "gender": 0,
+      "statStr": 20,
+      "statInt": 19,
+      "statLuck": 14,
+      "statChar": 15,
+      "name_ko": "벨라",
+      "grade": "영웅",
+      "specialties": []
+    },
+    {
+      "index": 29,
+      "strings": [],
+      "rarity": 2,
+      "icon": 1,
+      "gender": 0,
+      "statStr": 23,
+      "statInt": 24,
+      "statLuck": 22,
+      "statChar": 28,
+      "name_ko": "베드로",
+      "grade": "영웅",
+      "specialties": [
+        {
+          "index": 16,
+          "strings": [],
+          "icon": 14,
+          "targetIndex": 29,
+          "target": 1,
+          "type": "precision",
+          "effect": 0.01
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "strings": [],
+      "rarity": 0,
+      "icon": 56,
+      "gender": 0,
+      "statStr": 12,
+      "statInt": 13,
+      "statLuck": 5,
+      "statChar": 12,
+      "name_ko": "릴리안",
+      "grade": "영웅",
+      "specialties": []
+    },
+    {
+      "index": 31,
+      "strings": [],
+      "rarity": 0,
+      "icon": 58,
+      "gender": 3,
+      "statStr": 17,
+      "statInt": 15,
+      "statLuck": 12,
+      "statChar": 10,
+      "name_ko": "제노시스",
+      "grade": "영웅",
+      "specialties": []
+    },
+    {
+      "index": 32,
+      "strings": [],
+      "rarity": 1,
+      "icon": 57,
+      "gender": 3,
+      "statStr": 22,
+      "statInt": 20,
+      "statLuck": 17,
+      "statChar": 21,
+      "name_ko": "다케다",
+      "grade": "영웅",
+      "specialties": []
+    },
+    {
+      "index": 33,
+      "strings": [],
+      "rarity": 1,
+      "icon": 59,
+      "gender": 1,
+      "statStr": 21,
+      "statInt": 23,
+      "statLuck": 15,
+      "statChar": 22,
+      "name_ko": "골드루그",
+      "grade": "영웅",
+      "specialties": []
+    },
+    {
+      "index": 34,
+      "strings": [],
+      "rarity": 2,
+      "icon": 60,
+      "gender": 0,
+      "statStr": 32,
+      "statInt": 33,
+      "statLuck": 14,
+      "statChar": 23,
+      "name_ko": "",
+      "grade": "",
+      "specialties": []
+    }
+  ],
+  "global_specialties": [
+    {
+      "index": 10,
+      "strings": [],
+      "icon": 31,
+      "targetIndex": -1,
+      "target": -1,
+      "type": "jewelTopaz",
+      "effect": 0.25
+    },
+    {
+      "index": 11,
+      "strings": [],
+      "icon": 32,
+      "targetIndex": -1,
+      "target": -1,
+      "type": "jewelSapphire",
+      "effect": 0.25
+    },
+    {
+      "index": 12,
+      "strings": [],
+      "icon": 33,
+      "targetIndex": -1,
+      "target": -1,
+      "type": "jewelEmerald",
+      "effect": 0.25
+    },
+    {
+      "index": 13,
+      "strings": [],
+      "icon": 34,
+      "targetIndex": -1,
+      "target": -1,
+      "type": "jewelAmethyst",
+      "effect": 0.25
+    },
+    {
+      "index": 14,
+      "strings": [],
+      "icon": 35,
+      "targetIndex": -1,
+      "target": -1,
+      "type": "finalDmg",
+      "effect": 0.25
+    },
+    {
+      "index": 22,
+      "strings": [],
+      "icon": 38,
+      "targetIndex": -1,
+      "target": -1,
+      "type": "amplifyP",
+      "effect": 0.013
+    },
+    {
+      "index": 23,
+      "strings": [],
+      "icon": 40,
+      "targetIndex": -1,
+      "target": -1,
+      "type": "luckTimes",
+      "effect": 0.03
+    },
+    {
+      "index": 25,
+      "strings": [],
+      "icon": 39,
+      "targetIndex": -1,
+      "target": -1,
+      "type": "deadlyDelay",
+      "effect": 0.04
+    },
+    {
+      "index": 27,
+      "strings": [],
+      "icon": 43,
+      "targetIndex": -1,
+      "target": -1,
+      "type": "bashChance",
+      "effect": 0.015
+    },
+    {
+      "index": 30,
+      "strings": [],
+      "icon": 47,
+      "targetIndex": -1,
+      "target": -1,
+      "type": "penetration",
+      "effect": 0.16
+    },
+    {
+      "index": 31,
+      "strings": [],
+      "icon": 46,
+      "targetIndex": -1,
+      "target": -1,
+      "type": "luckTimes",
+      "effect": 0.02
+    },
+    {
+      "index": 33,
+      "strings": [],
+      "icon": 49,
+      "targetIndex": -1,
+      "target": -1,
+      "type": "luckTimes",
+      "effect": 0.015
+    }
+  ]
+}

@@ -1,0 +1,7942 @@
+[
+  {
+    "index": 145,
+    "name": "니피의 주사위++",
+    "description": "니피는 수상한 장치가 되어있는 주사위로 도박판을 벌여 돈을 추가적으로 벌수 있습니다.",
+    "icon": 117,
+    "priceFactor": 0.0,
+    "passiveType": 202,
+    "types": [
+      46,
+      300,
+      1045
+    ],
+    "effects": [
+      0.63,
+      0.16,
+      0.0004
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 46,
+        "type_name": "골드 획득량 {0}",
+        "value": 0.63,
+        "value_display": "63%",
+        "description": "골드 획득량 63%"
+      },
+      {
+        "type_code": 300,
+        "type_name": "아티팩트 드랍 확률 {0}",
+        "value": 0.16,
+        "value_display": "16%",
+        "description": "아티팩트 드랍 확률 16%"
+      },
+      {
+        "type_code": 1045,
+        "type_name": "모든 카오스 용병의 데미지 +총 각성수 X {0}%",
+        "value": 0.0004,
+        "value_display": "0.0%",
+        "description": "모든 카오스 용병의 데미지 +총 각성수 X 0.0%%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 173,
+    "name": "쉐도우윙의 강산성 발톱",
+    "description": "쉐도우윙의 발톱에서 뿜어져 나오는 강산성 액체는 적들의 육체를 태워버릴 수 있습니다.",
+    "icon": 138,
+    "priceFactor": 0.0,
+    "passiveType": 206,
+    "types": [
+      1,
+      7,
+      26
+    ],
+    "effects": [
+      1.5,
+      8800.0,
+      0.98
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1,
+        "type_name": "데미지 {0}",
+        "value": 1.5,
+        "value_display": "+1.5",
+        "description": "데미지 +1.5"
+      },
+      {
+        "type_code": 7,
+        "type_name": "추가 데미지 {0}",
+        "value": 8800.0,
+        "value_display": "+8800",
+        "description": "추가 데미지 +8800"
+      },
+      {
+        "type_code": 26,
+        "type_name": "강타 배수 {0}",
+        "value": 0.98,
+        "value_display": "98%",
+        "description": "강타 배수 98%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 287,
+    "name": "하진의 선물",
+    "description": "하진은 용병업으로 받은 첫 월급을 누나인 세하를 위한 선물을 사기위해 사용 하였습니다.",
+    "icon": 218,
+    "priceFactor": 0.0,
+    "passiveType": 199,
+    "types": [
+      107,
+      33,
+      466
+    ],
+    "effects": [
+      0.2,
+      0.02,
+      0.2
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 107,
+        "type_name": "피격 지속시간 감소 {0}",
+        "value": 0.2,
+        "value_display": "20%",
+        "description": "피격 지속시간 감소 20%"
+      },
+      {
+        "type_code": 33,
+        "type_name": "모든 용병의 연타 확률 {0}",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "모든 용병의 연타 확률 2%"
+      },
+      {
+        "type_code": 466,
+        "type_name": "세하의 베이스 데미지 {0}",
+        "value": 0.2,
+        "value_display": "20%",
+        "description": "세하의 베이스 데미지 20%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 374,
+    "name": "미들랜드 왕국 깃발",
+    "description": "미들랜드 왕국의 상징인 흰 독수리가 그려진 깃발 입니다.",
+    "icon": 285,
+    "priceFactor": 0.0,
+    "passiveType": 1,
+    "types": [
+      0,
+      19,
+      0
+    ],
+    "effects": [
+      0.0,
+      2.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 19,
+        "type_name": "모든 용병의 최대 레벨 {0}",
+        "value": 2.0,
+        "value_display": "+2",
+        "description": "모든 용병의 최대 레벨 +2"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 379,
+    "name": "루페스 니그라의 냉기",
+    "description": "루페스 니그라의 냉기로 빙수를 만들어 동료들에게 제공 합니다.",
+    "icon": 288,
+    "priceFactor": 0.0,
+    "passiveType": 2,
+    "types": [
+      41,
+      42,
+      375
+    ],
+    "effects": [
+      0.2,
+      0.2,
+      0.2
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 41,
+        "type_name": "자동 클릭 확률 {0}",
+        "value": 0.2,
+        "value_display": "20%",
+        "description": "자동 클릭 확률 20%"
+      },
+      {
+        "type_code": 42,
+        "type_name": "자동 클릭 속도 {0}",
+        "value": 0.2,
+        "value_display": "20%",
+        "description": "자동 클릭 속도 20%"
+      },
+      {
+        "type_code": 375,
+        "type_name": "자동 클릭 데미지 {0}",
+        "value": 0.2,
+        "value_display": "20%",
+        "description": "자동 클릭 데미지 20%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 381,
+    "name": "차원의 균열",
+    "description": "차원의 균열을 열어 적들의 생명력을 빨아들입니다.",
+    "icon": 290,
+    "priceFactor": 0.0,
+    "passiveType": 5,
+    "types": [
+      1001,
+      1172,
+      253
+    ],
+    "effects": [
+      0.5,
+      0.25,
+      0.015
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1001,
+        "type_name": "강타 배수 증폭 {0}",
+        "value": 0.5,
+        "value_display": "50%",
+        "description": "강타 배수 증폭 50%"
+      },
+      {
+        "type_code": 1172,
+        "type_name": "즉시 공격 데미지 {0}",
+        "value": 0.25,
+        "value_display": "25%",
+        "description": "즉시 공격 데미지 25%"
+      },
+      {
+        "type_code": 253,
+        "type_name": "적들의 흡수 확률 감소 {0}",
+        "value": 0.015,
+        "value_display": "1.5%",
+        "description": "적들의 흡수 확률 감소 1.5%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 383,
+    "name": "물은 답을 알고 있다",
+    "description": "물은 태고적 부터 존재해 왔기 때문에 모든것을 알고 있다고 합니다.",
+    "icon": 291,
+    "priceFactor": 0.0,
+    "passiveType": 3,
+    "types": [
+      1087,
+      24,
+      30
+    ],
+    "effects": [
+      0.02,
+      0.02,
+      0.3
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1087,
+        "type_name": "모든 혼합 용병의 더블 어택 확률 {0}",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "모든 혼합 용병의 더블 어택 확률 2%"
+      },
+      {
+        "type_code": 24,
+        "type_name": "모든 혼합 용병의 강타 확률 {0}",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "모든 혼합 용병의 강타 확률 2%"
+      },
+      {
+        "type_code": 30,
+        "type_name": "모든 혼합 용병의 강타 배수 {0}",
+        "value": 0.3,
+        "value_display": "30%",
+        "description": "모든 혼합 용병의 강타 배수 30%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 385,
+    "name": "고대신을 위한 제물",
+    "description": "조드는 전장에서 희생한 병사들을 고대신에게 제물로 바칩니다.",
+    "icon": 293,
+    "priceFactor": 0.0,
+    "passiveType": 6,
+    "types": [
+      300,
+      0,
+      0
+    ],
+    "effects": [
+      0.15,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 300,
+        "type_name": "아티팩트 드랍 확률 {0}",
+        "value": 0.15,
+        "value_display": "15%",
+        "description": "아티팩트 드랍 확률 15%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 390,
+    "name": "진정한 믿음",
+    "description": "파이는 동료들을 진정으로 믿고 지지해 줍니다.",
+    "icon": 299,
+    "priceFactor": 0.0,
+    "passiveType": 4,
+    "types": [
+      16,
+      375,
+      282
+    ],
+    "effects": [
+      0.5,
+      0.1,
+      0.02
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 16,
+        "type_name": "모든 용병의 클릭 데미지 {0}",
+        "value": 0.5,
+        "value_display": "50%",
+        "description": "모든 용병의 클릭 데미지 50%"
+      },
+      {
+        "type_code": 375,
+        "type_name": "자동 클릭 데미지 {0}",
+        "value": 0.1,
+        "value_display": "10%",
+        "description": "자동 클릭 데미지 10%"
+      },
+      {
+        "type_code": 282,
+        "type_name": "적들의 둔화 효과 감소 {0}",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "적들의 둔화 효과 감소 2%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 392,
+    "name": "코엘로 게이트",
+    "description": "마리세바는 코엘로 게이트를 통해 마력을 공급 받습니다.",
+    "icon": 301,
+    "priceFactor": 0.0,
+    "passiveType": 7,
+    "types": [
+      52,
+      0,
+      0
+    ],
+    "effects": [
+      0.05,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 52,
+        "type_name": "적들의 마법 저항력 감소 {0}",
+        "value": 0.05,
+        "value_display": "5%",
+        "description": "적들의 마법 저항력 감소 5%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 394,
+    "name": "광폭의 오라",
+    "description": "세이버투쓰의 불같은 광기는 동료들의 투지를 높혀 줍니다.",
+    "icon": 305,
+    "priceFactor": 0.0,
+    "passiveType": 8,
+    "types": [
+      5,
+      24,
+      0
+    ],
+    "effects": [
+      0.8,
+      0.04,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 5,
+        "type_name": "모든 혼합 용병의 데미지 {0}",
+        "value": 0.8,
+        "value_display": "80%",
+        "description": "모든 혼합 용병의 데미지 80%"
+      },
+      {
+        "type_code": 24,
+        "type_name": "모든 혼합 용병의 강타 확률 {0}",
+        "value": 0.04,
+        "value_display": "4%",
+        "description": "모든 혼합 용병의 강타 확률 4%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 396,
+    "name": "고대기술의 해석과 이해",
+    "description": "객갱 박사는 고대 유물을 역공학 하여 집행자들을 제작할 수 있었습니다.",
+    "icon": 306,
+    "priceFactor": 0.0,
+    "passiveType": 9,
+    "types": [
+      67,
+      634,
+      0
+    ],
+    "effects": [
+      8.88,
+      0.02,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 67,
+        "type_name": "폰의 데미지 {0}",
+        "value": 8.88,
+        "value_display": "+8.9",
+        "description": "폰의 데미지 +8.9"
+      },
+      {
+        "type_code": 634,
+        "type_name": "뿔레조각 획득 확률 +[기계] 용병 수 X {0}%",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "뿔레조각 획득 확률 +[기계] 용병 수 X 2%%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 399,
+    "name": "사하긴의 저주",
+    "description": "사하긴 부족 전통의 저주술 입니다. 보통 전 여친 혹은 전 남친에게 많이 사용된다고 합니다.",
+    "icon": 309,
+    "priceFactor": 0.0,
+    "passiveType": 10,
+    "types": [
+      9,
+      1171,
+      0
+    ],
+    "effects": [
+      0.35,
+      0.35,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 9,
+        "type_name": "공격 속도 {0}",
+        "value": 0.35,
+        "value_display": "35%",
+        "description": "공격 속도 35%"
+      },
+      {
+        "type_code": 1171,
+        "type_name": "즉시 공격 확률 {0}",
+        "value": 0.35,
+        "value_display": "35%",
+        "description": "즉시 공격 확률 35%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 406,
+    "name": "낡은 사제복",
+    "description": "샬린은 파문 당한 이후에도 로카히교의 사제복을 입고 다닙니다.",
+    "icon": 311,
+    "priceFactor": 0.0,
+    "passiveType": 11,
+    "types": [
+      15,
+      43,
+      122
+    ],
+    "effects": [
+      2.0,
+      0.7,
+      0.35
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 15,
+        "type_name": "클릭 데미지 {0}",
+        "value": 2.0,
+        "value_display": "+2",
+        "description": "클릭 데미지 +2"
+      },
+      {
+        "type_code": 43,
+        "type_name": "추가 클릭 확률 {0}",
+        "value": 0.7,
+        "value_display": "70%",
+        "description": "추가 클릭 확률 70%"
+      },
+      {
+        "type_code": 122,
+        "type_name": "추가 클릭 데미지 {0}",
+        "value": 0.35,
+        "value_display": "35%",
+        "description": "추가 클릭 데미지 35%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 410,
+    "name": "쉐도우 라이트",
+    "description": "로코코는 마법을 배운적이 없지만 마력이 로코코에게 반하여 찾아 왔습니다.",
+    "icon": 319,
+    "priceFactor": 0.0,
+    "passiveType": 12,
+    "types": [
+      17,
+      0,
+      0
+    ],
+    "effects": [
+      0.02,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 17,
+        "type_name": "모든 용병의 베이스 데미지 {0}",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "모든 용병의 베이스 데미지 2%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 413,
+    "name": "훈련용 허수아비",
+    "description": "훈련용 허수아비들을 제공하여 용병들의 훈련을 도와 줍니다.",
+    "icon": 321,
+    "priceFactor": 0.0,
+    "passiveType": 13,
+    "types": [
+      17,
+      0,
+      0
+    ],
+    "effects": [
+      0.02,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 17,
+        "type_name": "모든 용병의 베이스 데미지 {0}",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "모든 용병의 베이스 데미지 2%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 422,
+    "name": "저축왕 쯔바이",
+    "description": "쯔바이가 전장에서 획득하는 골드를 착실하게 저축 합니다.",
+    "icon": 330,
+    "priceFactor": 0.0,
+    "passiveType": 14,
+    "types": [
+      9,
+      46,
+      109
+    ],
+    "effects": [
+      0.44,
+      0.44,
+      0.11
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 9,
+        "type_name": "공격 속도 {0}",
+        "value": 0.44,
+        "value_display": "44%",
+        "description": "공격 속도 44%"
+      },
+      {
+        "type_code": 46,
+        "type_name": "골드 획득량 {0}",
+        "value": 0.44,
+        "value_display": "44%",
+        "description": "골드 획득량 44%"
+      },
+      {
+        "type_code": 109,
+        "type_name": "뿔레정수 획득 확률 {0}",
+        "value": 0.11,
+        "value_display": "11%",
+        "description": "뿔레정수 획득 확률 11%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 425,
+    "name": "문 라이트",
+    "description": "달조각으로 만들어진 헬싱의 검 [문 라이트]는 적들의 마력을 무력화 시킵니다.",
+    "icon": 331,
+    "priceFactor": 0.0,
+    "passiveType": 15,
+    "types": [
+      20,
+      56,
+      0
+    ],
+    "effects": [
+      0.1,
+      0.025,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 20,
+        "type_name": "강타 확률 {0}",
+        "value": 0.1,
+        "value_display": "10%",
+        "description": "강타 확률 10%"
+      },
+      {
+        "type_code": 56,
+        "type_name": "공격 무효화 관통 {0}",
+        "value": 0.025,
+        "value_display": "2.5%",
+        "description": "공격 무효화 관통 2.5%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 429,
+    "name": "아딜리야의 응원",
+    "description": "아딜리야는 전투를 수행하지 않을때도 특유의 다람쥐 댄스로 동료들의 사기를 높혀 줍니다.",
+    "icon": 335,
+    "priceFactor": 0.0,
+    "passiveType": 16,
+    "types": [
+      42,
+      113,
+      0
+    ],
+    "effects": [
+      0.24,
+      0.36,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 42,
+        "type_name": "자동 클릭 속도 {0}",
+        "value": 0.24,
+        "value_display": "24%",
+        "description": "자동 클릭 속도 24%"
+      },
+      {
+        "type_code": 113,
+        "type_name": "리더일때 자동 클릭의 확률, 속도, 데미지 {0}",
+        "value": 0.36,
+        "value_display": "36%",
+        "description": "리더일때 자동 클릭의 확률, 속도, 데미지 36%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 433,
+    "name": "혼돈의 여행자",
+    "description": "혼돈을 연구하는 단계에 머물러 있는 다른 차원의 젤다들과는 달리 혼돈을 즐기며 여행하고 있습니다.",
+    "icon": 339,
+    "priceFactor": 0.0,
+    "passiveType": 17,
+    "types": [
+      124,
+      20,
+      14
+    ],
+    "effects": [
+      0.36,
+      -0.12,
+      0.12
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 124,
+        "type_name": "데미지 편차 {0}",
+        "value": 0.36,
+        "value_display": "36%",
+        "description": "데미지 편차 36%"
+      },
+      {
+        "type_code": 20,
+        "type_name": "강타 확률 {0}",
+        "value": -0.12,
+        "value_display": "-12%",
+        "description": "강타 확률 -12%"
+      },
+      {
+        "type_code": 14,
+        "type_name": "모든 카오스 용병의 공격 속도 {0}",
+        "value": 0.12,
+        "value_display": "12%",
+        "description": "모든 카오스 용병의 공격 속도 12%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 441,
+    "name": "제대로 성장한 페퍼",
+    "description": "다른 차원에서 온 페퍼는 현세계의 페퍼와 달리 제대로 묘족으로 성장하였습니다.",
+    "icon": 346,
+    "priceFactor": 0.0,
+    "passiveType": 18,
+    "types": [
+      1041,
+      56,
+      0
+    ],
+    "effects": [
+      0.015,
+      0.03,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1041,
+        "type_name": "모든 마법 용병의 공포 극복 확률 {0}",
+        "value": 0.015,
+        "value_display": "1.5%",
+        "description": "모든 마법 용병의 공포 극복 확률 1.5%"
+      },
+      {
+        "type_code": 56,
+        "type_name": "공격 무효화 관통 {0}",
+        "value": 0.03,
+        "value_display": "3%",
+        "description": "공격 무효화 관통 3%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 446,
+    "name": "사랑 받은 이졸데",
+    "description": "화목한 가정에서 자란 다른 차원의 이졸데는 사랑을 베풀수 있는 숙녀로 성장 하였습니다.",
+    "icon": 349,
+    "priceFactor": 0.0,
+    "passiveType": 19,
+    "types": [
+      539,
+      108,
+      111
+    ],
+    "effects": [
+      0.02,
+      0.08,
+      0.4
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 539,
+        "type_name": "적들의 반사 확률 감소 {0}",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "적들의 반사 확률 감소 2%"
+      },
+      {
+        "type_code": 108,
+        "type_name": "모든 용병의 피격 지속시간 감소 {0}",
+        "value": 0.08,
+        "value_display": "8%",
+        "description": "모든 용병의 피격 지속시간 감소 8%"
+      },
+      {
+        "type_code": 111,
+        "type_name": "해링턴 참전시 피격 지속시간 감소 {0}",
+        "value": 0.4,
+        "value_display": "40%",
+        "description": "해링턴 참전시 피격 지속시간 감소 40%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 470,
+    "name": "세번째 달 조각 지팡이",
+    "description": "[문폴 위치] 길드의 입단 조건인 세번째 달 조각으로 제작한 지팡이 입니다.",
+    "icon": 369,
+    "priceFactor": 0.0,
+    "passiveType": 20,
+    "types": [
+      1,
+      4,
+      0
+    ],
+    "effects": [
+      4.0,
+      0.4,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1,
+        "type_name": "데미지 {0}",
+        "value": 4.0,
+        "value_display": "+4",
+        "description": "데미지 +4"
+      },
+      {
+        "type_code": 4,
+        "type_name": "모든 마법 용병의 데미지 {0}",
+        "value": 0.4,
+        "value_display": "40%",
+        "description": "모든 마법 용병의 데미지 40%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 477,
+    "name": "전투 사제 미미로즈",
+    "description": "기도만으로는 전쟁을 끝낼수 없기에 미미로즈는 직접 전장에 뛰어들었습니다.",
+    "icon": 381,
+    "priceFactor": 0.0,
+    "passiveType": 21,
+    "types": [
+      95,
+      1165,
+      1058
+    ],
+    "effects": [
+      30000.0,
+      15.0,
+      0.02
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 95,
+        "type_name": "신성 데미지 {0}",
+        "value": 30000.0,
+        "value_display": "+30000",
+        "description": "신성 데미지 +30000"
+      },
+      {
+        "type_code": 1165,
+        "type_name": "신성 데미지 +총 각성수 X {0}",
+        "value": 15.0,
+        "value_display": "+15",
+        "description": "신성 데미지 +총 각성수 X +15"
+      },
+      {
+        "type_code": 1058,
+        "type_name": "모든 혼합 용병의 공포 극복 확률 {0}",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "모든 혼합 용병의 공포 극복 확률 2%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 484,
+    "name": "인사기록부",
+    "description": "케일라는 용병들의 신상 정보를 상세하게 적어두고 관리 하고 있습니다. 용병들의 부끄러운 비밀도 적혀 있다고 합니다.",
+    "icon": 385,
+    "priceFactor": 0.0,
+    "passiveType": 22,
+    "types": [
+      53,
+      0,
+      0
+    ],
+    "effects": [
+      0.022,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 53,
+        "type_name": "적들의 카오스 취약성 {0}",
+        "value": 0.022,
+        "value_display": "2.2%",
+        "description": "적들의 카오스 취약성 2.2%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 499,
+    "name": "블랙의 스콜피온 베놈+",
+    "description": "블랙의 독침은 치명적인 스콜피온 베놈을 머금고 있습니다.",
+    "icon": 24,
+    "priceFactor": 0.0,
+    "passiveType": 23,
+    "types": [
+      9,
+      307,
+      102
+    ],
+    "effects": [
+      0.6,
+      0.26,
+      0.36
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 9,
+        "type_name": "공격 속도 {0}",
+        "value": 0.6,
+        "value_display": "60%",
+        "description": "공격 속도 60%"
+      },
+      {
+        "type_code": 307,
+        "type_name": "치명타 확률 {0}",
+        "value": 0.26,
+        "value_display": "26%",
+        "description": "치명타 확률 26%"
+      },
+      {
+        "type_code": 102,
+        "type_name": "소울 클릭 배수 {0}",
+        "value": 0.36,
+        "value_display": "36%",
+        "description": "소울 클릭 배수 36%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 501,
+    "name": "해링턴의 선견지명",
+    "description": "해링턴은 현재는 가치가 높지 않은 뿔레정수를 열심히 모으고 있습니다. 그는 하루에도 몇번 씩 [가즈아~~~!]라고 외칩니다.",
+    "icon": 399,
+    "priceFactor": 0.0,
+    "passiveType": 24,
+    "types": [
+      109,
+      0,
+      0
+    ],
+    "effects": [
+      0.12,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 109,
+        "type_name": "뿔레정수 획득 확률 {0}",
+        "value": 0.12,
+        "value_display": "12%",
+        "description": "뿔레정수 획득 확률 12%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 513,
+    "name": "패전의 책임",
+    "description": "하인리히는 패전에 대한 큰 죄책감을 가지고 있기 때문에 어떻게 해서든 만회 하고자 합니다.",
+    "icon": 410,
+    "priceFactor": 0.0,
+    "passiveType": 25,
+    "types": [
+      11,
+      0,
+      0
+    ],
+    "effects": [
+      0.06,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 11,
+        "type_name": "모든 물리 용병의 공격 속도 {0}",
+        "value": 0.06,
+        "value_display": "6%",
+        "description": "모든 물리 용병의 공격 속도 6%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 516,
+    "name": "현상금 사냥꾼 새라",
+    "description": "새라는 동료들에게 현상금 사냥의 비법을 알려주곤 합니다. 동료들이 거의 잡았을때 막타를 때릴 계획이기 때문입니다.",
+    "icon": 413,
+    "priceFactor": 0.0,
+    "passiveType": 26,
+    "types": [
+      43,
+      20,
+      21
+    ],
+    "effects": [
+      1.2,
+      0.12,
+      0.012
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 43,
+        "type_name": "추가 클릭 확률 {0}",
+        "value": 1.2,
+        "value_display": "+1.2",
+        "description": "추가 클릭 확률 +1.2"
+      },
+      {
+        "type_code": 20,
+        "type_name": "강타 확률 {0}",
+        "value": 0.12,
+        "value_display": "12%",
+        "description": "강타 확률 12%"
+      },
+      {
+        "type_code": 21,
+        "type_name": "모든 용병의 강타 확률 {0}",
+        "value": 0.012,
+        "value_display": "1.2%",
+        "description": "모든 용병의 강타 확률 1.2%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 520,
+    "name": "컴카이의 방패",
+    "description": "아리만이 컴카이에게 준 마법의 방패입니다. 평소에는 숨겨져 있으나 필요한 순간에는 모습을 드러냅니다.",
+    "icon": 415,
+    "priceFactor": 0.0,
+    "passiveType": 27,
+    "types": [
+      38,
+      54,
+      55
+    ],
+    "effects": [
+      0.01,
+      0.05,
+      0.015
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 38,
+        "type_name": "클릭 크리티컬 확률 {0}",
+        "value": 0.01,
+        "value_display": "1%",
+        "description": "클릭 크리티컬 확률 1%"
+      },
+      {
+        "type_code": 54,
+        "type_name": "적들의 클릭 저항력 감소 {0}",
+        "value": 0.05,
+        "value_display": "5%",
+        "description": "적들의 클릭 저항력 감소 5%"
+      },
+      {
+        "type_code": 55,
+        "type_name": "적들의 최대 체력 감소 {0}",
+        "value": 0.015,
+        "value_display": "1.5%",
+        "description": "적들의 최대 체력 감소 1.5%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 525,
+    "name": "소름끼치는 모습",
+    "description": "허물을 벗으며 잃어버린 가죽과 맹독으로 녹아버린 살점 때문에 쟈무카의 모습은 매우 흉측해 졌습니다.",
+    "icon": 199,
+    "priceFactor": 0.0,
+    "passiveType": 28,
+    "types": [
+      14,
+      0,
+      0
+    ],
+    "effects": [
+      0.04,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 14,
+        "type_name": "모든 카오스 용병의 공격 속도 {0}",
+        "value": 0.04,
+        "value_display": "4%",
+        "description": "모든 카오스 용병의 공격 속도 4%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 532,
+    "name": "크시론과의 우정",
+    "description": "크시론이 드라코리치가 된 후에도 둘의 우정은 변치 않습니다.",
+    "icon": 216,
+    "priceFactor": 0.0,
+    "passiveType": 187,
+    "types": [
+      678,
+      126,
+      225
+    ],
+    "effects": [
+      0.1,
+      3.0,
+      0.6
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 678,
+        "type_name": "크시론 참전시 선제 공격 확률 {0}",
+        "value": 0.1,
+        "value_display": "10%",
+        "description": "크시론 참전시 선제 공격 확률 10%"
+      },
+      {
+        "type_code": 126,
+        "type_name": "크시론 참전시 강타 배수 {0}",
+        "value": 3.0,
+        "value_display": "+3",
+        "description": "크시론 참전시 강타 배수 +3"
+      },
+      {
+        "type_code": 225,
+        "type_name": "크시론 참전시 모든 용병의 강타배수 {0}",
+        "value": 0.6,
+        "value_display": "60%",
+        "description": "크시론 참전시 모든 용병의 강타배수 60%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 533,
+    "name": "최적화",
+    "description": "RBD-719의 기계 육체는 침략자들을 파괴하는데 최적화 되어 있습니다.",
+    "icon": 427,
+    "priceFactor": 0.0,
+    "passiveType": 29,
+    "types": [
+      20,
+      26,
+      0
+    ],
+    "effects": [
+      0.06,
+      0.6,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 20,
+        "type_name": "강타 확률 {0}",
+        "value": 0.06,
+        "value_display": "6%",
+        "description": "강타 확률 6%"
+      },
+      {
+        "type_code": 26,
+        "type_name": "강타 배수 {0}",
+        "value": 0.6,
+        "value_display": "60%",
+        "description": "강타 배수 60%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 540,
+    "name": "오키의 헤이스트",
+    "description": "오키의 순간 가속도는 시공간에 영향을 줄수 있는 수준 입니다.",
+    "icon": 433,
+    "priceFactor": 0.0,
+    "passiveType": 30,
+    "types": [
+      640,
+      641,
+      0
+    ],
+    "effects": [
+      0.15,
+      0.06,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 640,
+        "type_name": "도키의 치명타 확률 {0}",
+        "value": 0.15,
+        "value_display": "15%",
+        "description": "도키의 치명타 확률 15%"
+      },
+      {
+        "type_code": 641,
+        "type_name": "도키 참전시 적들의 회피 확률 감소 {0}",
+        "value": 0.06,
+        "value_display": "6%",
+        "description": "도키 참전시 적들의 회피 확률 감소 6%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 543,
+    "name": "가루가의 헌신",
+    "description": "가루가는 동료들의 잠재된 혼돈의 힘을 증폭시켜 전투력을 강화 시킵니다.",
+    "icon": 437,
+    "priceFactor": 0.0,
+    "passiveType": 31,
+    "types": [
+      14,
+      0,
+      0
+    ],
+    "effects": [
+      0.06,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 14,
+        "type_name": "모든 카오스 용병의 공격 속도 {0}",
+        "value": 0.06,
+        "value_display": "6%",
+        "description": "모든 카오스 용병의 공격 속도 6%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 553,
+    "name": "선택적 진화",
+    "description": "조디악의 금속 육체는 임무를 완수하기 위하여 오랜시간 선택적 진화를 진행 하였습니다.",
+    "icon": 446,
+    "priceFactor": 0.0,
+    "passiveType": 32,
+    "types": [
+      0,
+      0,
+      0
+    ],
+    "effects": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [],
+    "randomValue": 0
+  },
+  {
+    "index": 556,
+    "name": "운 전파자",
+    "description": "아오마루스의 차고 넘치는 행운은 주변에도 영향을 미칩니다.",
+    "icon": 449,
+    "priceFactor": 0.0,
+    "passiveType": 33,
+    "types": [
+      0,
+      0,
+      0
+    ],
+    "effects": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [],
+    "randomValue": 0
+  },
+  {
+    "index": 564,
+    "name": "사쿠라와 히토미",
+    "description": "[오야유비]의 여성 도검 장인인 [미츠요]가 제작한 두개의 검. 이로우가 사용하면 가공할 위력을 낸다고 합니다.",
+    "icon": 457,
+    "priceFactor": 0.0,
+    "passiveType": 34,
+    "types": [
+      1173,
+      96,
+      0
+    ],
+    "effects": [
+      0.3,
+      0.03,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1173,
+        "type_name": "즉시 공격 속도 {0}",
+        "value": 0.3,
+        "value_display": "30%",
+        "description": "즉시 공격 속도 30%"
+      },
+      {
+        "type_code": 96,
+        "type_name": "모든 물리 용병의 최종 데미지 {0}",
+        "value": 0.03,
+        "value_display": "3%",
+        "description": "모든 물리 용병의 최종 데미지 3%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 566,
+    "name": "행성파괴",
+    "description": "궁극적인 목표인 행성파괴를 달성하기 위하여 티어달리스는 끊임없이 마법을 수련 합니다.",
+    "icon": 459,
+    "priceFactor": 0.0,
+    "passiveType": 35,
+    "types": [
+      32,
+      97,
+      0
+    ],
+    "effects": [
+      -5.0,
+      0.02,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 32,
+        "type_name": "연타 확률 {0}",
+        "value": -5.0,
+        "value_display": "+-5",
+        "description": "연타 확률 +-5"
+      },
+      {
+        "type_code": 97,
+        "type_name": "모든 마법 용병의 최종 데미지 {0}",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "모든 마법 용병의 최종 데미지 2%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 594,
+    "name": "쿠카이의 야욕",
+    "description": "지옥의 왕이되고자 하는 쿠카이의 야욕은 그를 발전 시키는 원동력 입니다.",
+    "icon": 486,
+    "priceFactor": 0.0,
+    "passiveType": 36,
+    "types": [
+      1026,
+      242,
+      0
+    ],
+    "effects": [
+      0.15,
+      0.2,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1026,
+        "type_name": "절대명중 확률 {0}",
+        "value": 0.15,
+        "value_display": "15%",
+        "description": "절대명중 확률 15%"
+      },
+      {
+        "type_code": 242,
+        "type_name": "아리만 참전시 모든 용병의 행운 배수 {0}",
+        "value": 0.2,
+        "value_display": "20%",
+        "description": "아리만 참전시 모든 용병의 행운 배수 20%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 596,
+    "name": "뿔레별 구하기 대소동+",
+    "description": "어떤 차원에서는 뿔레별 구하기 대소동이 세상에서 가장 인기 있는 게임이라고 합니다.",
+    "icon": 488,
+    "priceFactor": 0.0,
+    "passiveType": 37,
+    "types": [
+      16,
+      431,
+      299
+    ],
+    "effects": [
+      1.5,
+      0.15,
+      0.15
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 16,
+        "type_name": "모든 용병의 클릭 데미지 {0}",
+        "value": 1.5,
+        "value_display": "+1.5",
+        "description": "모든 용병의 클릭 데미지 +1.5"
+      },
+      {
+        "type_code": 431,
+        "type_name": "모든 용병의 추가 클릭 확률 {0}",
+        "value": 0.15,
+        "value_display": "15%",
+        "description": "모든 용병의 추가 클릭 확률 15%"
+      },
+      {
+        "type_code": 299,
+        "type_name": "자수정 드랍 확률 {0}",
+        "value": 0.15,
+        "value_display": "15%",
+        "description": "자수정 드랍 확률 15%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 603,
+    "name": "마갑 [코라짐]",
+    "description": "전설적인 대장장이 [딕슨]이 자신의 아들을 위해 전재산을 투자하여 만든 갑옷입니다.",
+    "icon": 493,
+    "priceFactor": 0.0,
+    "passiveType": 38,
+    "types": [
+      107,
+      0,
+      0
+    ],
+    "effects": [
+      0.3,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 107,
+        "type_name": "피격 지속시간 감소 {0}",
+        "value": 0.3,
+        "value_display": "30%",
+        "description": "피격 지속시간 감소 30%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 604,
+    "name": "신이 된 제리",
+    "description": "제리의 추종자들은 제리를 거의 신으로 떠받들고 있습니다.",
+    "icon": 494,
+    "priceFactor": 0.0,
+    "passiveType": 39,
+    "types": [
+      235,
+      0,
+      0
+    ],
+    "effects": [
+      20002.0,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 235,
+        "type_name": "신성 데미지 +[칼라무쉬] 용병 수 X {0}",
+        "value": 20002.0,
+        "value_display": "+20002",
+        "description": "신성 데미지 +[칼라무쉬] 용병 수 X +20002"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 610,
+    "name": "아바돈의 꺼진 불꽃",
+    "description": "아바돈의 불꽃은 절대 꺼지지 않을듯 했으나 결국 꺼지게 되었고 이제는 새로운 영원의 불꽃을 지니게 되었습니다.",
+    "icon": 38,
+    "priceFactor": 0.0,
+    "passiveType": 40,
+    "types": [
+      0,
+      0,
+      0
+    ],
+    "effects": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [],
+    "randomValue": 0
+  },
+  {
+    "index": 612,
+    "name": "사우스헤이븐을 위하여",
+    "description": "자신의 영지였던 사우스헤이븐을 되찾을 수만 있다면 랜달은 목숨도 바칠 수 있습니다.",
+    "icon": 498,
+    "priceFactor": 0.0,
+    "passiveType": 41,
+    "types": [
+      0,
+      0,
+      0
+    ],
+    "effects": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [],
+    "randomValue": 0
+  },
+  {
+    "index": 615,
+    "name": "블레스드 해머",
+    "description": "유다 4세의 망치는 일반 망치의 100배에 달하는 가격으로 구매한 프리미엄 망치 입니다.",
+    "icon": 500,
+    "priceFactor": 0.0,
+    "passiveType": 42,
+    "types": [
+      95,
+      9,
+      175
+    ],
+    "effects": [
+      25000.0,
+      0.5,
+      0.125
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 95,
+        "type_name": "신성 데미지 {0}",
+        "value": 25000.0,
+        "value_display": "+25000",
+        "description": "신성 데미지 +25000"
+      },
+      {
+        "type_code": 9,
+        "type_name": "공격 속도 {0}",
+        "value": 0.5,
+        "value_display": "50%",
+        "description": "공격 속도 50%"
+      },
+      {
+        "type_code": 175,
+        "type_name": "공포 극복 확률 {0}",
+        "value": 0.125,
+        "value_display": "12.5%",
+        "description": "공포 극복 확률 12.5%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 616,
+    "name": "쿠르샤의 30번째 검",
+    "description": "쿠르샤는 매번 새로운 임무를 수행 할때마다 새로운 검을 사용합니다.",
+    "icon": 501,
+    "priceFactor": 0.0,
+    "passiveType": 43,
+    "types": [
+      20,
+      0,
+      0
+    ],
+    "effects": [
+      -0.09,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 20,
+        "type_name": "강타 확률 {0}",
+        "value": -0.09,
+        "value_display": "-9%",
+        "description": "강타 확률 -9%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 619,
+    "name": "팔랑크스",
+    "description": "판티테스는 전장에서 홀로 팔랑크스 진형으로 전투를 합니다. 동료들이 대부분 전사하였기 때문입니다.",
+    "icon": 504,
+    "priceFactor": 0.0,
+    "passiveType": 44,
+    "types": [
+      43,
+      0,
+      0
+    ],
+    "effects": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 43,
+        "type_name": "추가 클릭 확률 {0}",
+        "value": 0.5,
+        "value_display": "50%",
+        "description": "추가 클릭 확률 50%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 505,
+    "name": "끌어당김의 법칙",
+    "description": "뿔레정수가 다른 뿔레정수를 끌어당기는 특성을 활용하여 전장에서 뿔레정수를 수집 합니다.",
+    "icon": 505,
+    "priceFactor": 0.0,
+    "passiveType": 45,
+    "types": [
+      124,
+      0,
+      0
+    ],
+    "effects": [
+      0.4,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 124,
+        "type_name": "데미지 편차 {0}",
+        "value": 0.4,
+        "value_display": "40%",
+        "description": "데미지 편차 40%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 622,
+    "name": "귀여운 강아지",
+    "description": "또치는 세상에서 가장 귀여운 강아지라고 합니다. 뿔레가 보장 합니다.",
+    "icon": 506,
+    "priceFactor": 0.0,
+    "passiveType": 46,
+    "types": [
+      49,
+      5,
+      1031
+    ],
+    "effects": [
+      0.33,
+      0.6,
+      0.03
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 49,
+        "type_name": "명성 {0}",
+        "value": 0.33,
+        "value_display": "33%",
+        "description": "명성 33%"
+      },
+      {
+        "type_code": 5,
+        "type_name": "모든 혼합 용병의 데미지 {0}",
+        "value": 0.6,
+        "value_display": "60%",
+        "description": "모든 혼합 용병의 데미지 60%"
+      },
+      {
+        "type_code": 1031,
+        "type_name": "모든 혼합 용병의 피격 회피 확률 {0}",
+        "value": 0.03,
+        "value_display": "3%",
+        "description": "모든 혼합 용병의 피격 회피 확률 3%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 626,
+    "name": "장식용 날개",
+    "description": "크고 거추장 스러운 날개 때문에 행동에 제약이 생기지만 번식에 유리해 집니다.",
+    "icon": 509,
+    "priceFactor": 0.0,
+    "passiveType": 47,
+    "types": [
+      32,
+      124,
+      0
+    ],
+    "effects": [
+      -5.0,
+      0.14,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 32,
+        "type_name": "연타 확률 {0}",
+        "value": -5.0,
+        "value_display": "+-5",
+        "description": "연타 확률 +-5"
+      },
+      {
+        "type_code": 124,
+        "type_name": "데미지 편차 {0}",
+        "value": 0.14,
+        "value_display": "14.0%",
+        "description": "데미지 편차 14.0%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 634,
+    "name": "개조된 상자",
+    "description": "재거는 동료들의 골드로 자신의 상자를 개조하였습니다.",
+    "icon": 515,
+    "priceFactor": 0.0,
+    "passiveType": 48,
+    "types": [
+      7,
+      1171,
+      1172
+    ],
+    "effects": [
+      25000.0,
+      0.25,
+      0.25
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 7,
+        "type_name": "추가 데미지 {0}",
+        "value": 25000.0,
+        "value_display": "+25000",
+        "description": "추가 데미지 +25000"
+      },
+      {
+        "type_code": 1171,
+        "type_name": "즉시 공격 확률 {0}",
+        "value": 0.25,
+        "value_display": "25%",
+        "description": "즉시 공격 확률 25%"
+      },
+      {
+        "type_code": 1172,
+        "type_name": "즉시 공격 데미지 {0}",
+        "value": 0.25,
+        "value_display": "25%",
+        "description": "즉시 공격 데미지 25%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 635,
+    "name": "해골 군주 미렌",
+    "description": "영지를 하사받은 미렌은 탐욕이 생겨 지난날을 잊게 되었습니다.",
+    "icon": 516,
+    "priceFactor": 0.0,
+    "passiveType": 49,
+    "types": [
+      47,
+      38,
+      108
+    ],
+    "effects": [
+      0.7,
+      0.02,
+      0.05
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 47,
+        "type_name": "골드 저장량 {0}",
+        "value": 0.7,
+        "value_display": "70%",
+        "description": "골드 저장량 70%"
+      },
+      {
+        "type_code": 38,
+        "type_name": "클릭 크리티컬 확률 {0}",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "클릭 크리티컬 확률 2%"
+      },
+      {
+        "type_code": 108,
+        "type_name": "모든 용병의 피격 지속시간 감소 {0}",
+        "value": 0.05,
+        "value_display": "5%",
+        "description": "모든 용병의 피격 지속시간 감소 5%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 636,
+    "name": "색다른 새라",
+    "description": "새라가 좀 처럼 보기 힘든 머리색을 하고 나타났습니다.",
+    "icon": 1000,
+    "priceFactor": 0.0,
+    "passiveType": 50,
+    "types": [
+      304,
+      149,
+      538
+    ],
+    "effects": [
+      0.06,
+      0.003,
+      0.03
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 304,
+        "type_name": "선제 공격 확률 {0}",
+        "value": 0.06,
+        "value_display": "6%",
+        "description": "선제 공격 확률 6%"
+      },
+      {
+        "type_code": 149,
+        "type_name": "클릭 데미지 +총 각성수 X {0}%",
+        "value": 0.003,
+        "value_display": "0.3%",
+        "description": "클릭 데미지 +총 각성수 X 0.3%%"
+      },
+      {
+        "type_code": 538,
+        "type_name": "적들의 피해 면제 효과 감소 {0}",
+        "value": 0.03,
+        "value_display": "3%",
+        "description": "적들의 피해 면제 효과 감소 3%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 641,
+    "name": "나름 주인공 피블",
+    "description": "2016년 1월 대용병시대가 출시 되었을 때 앱 아이콘.",
+    "icon": 520,
+    "priceFactor": 0.0,
+    "passiveType": 51,
+    "types": [
+      20,
+      431,
+      1035
+    ],
+    "effects": [
+      0.08,
+      0.15,
+      0.04
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 20,
+        "type_name": "강타 확률 {0}",
+        "value": 0.08,
+        "value_display": "8%",
+        "description": "강타 확률 8%"
+      },
+      {
+        "type_code": 431,
+        "type_name": "모든 용병의 추가 클릭 확률 {0}",
+        "value": 0.15,
+        "value_display": "15%",
+        "description": "모든 용병의 추가 클릭 확률 15%"
+      },
+      {
+        "type_code": 1035,
+        "type_name": "모든 용병의 봉인 무효화 확률 {0}",
+        "value": 0.04,
+        "value_display": "4%",
+        "description": "모든 용병의 봉인 무효화 확률 4%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 646,
+    "name": "크사르팍스의 탐욕",
+    "description": "[미들랜드]를 향한 크사르팍스의 탐욕은 그 자신도 망가뜨리고 있습니다.",
+    "icon": 523,
+    "priceFactor": 0.0,
+    "passiveType": 52,
+    "types": [
+      629,
+      630,
+      0
+    ],
+    "effects": [
+      0.015,
+      0.015,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 629,
+        "type_name": "뿔레 오브 드랍 확률 +[아케메스] 용병 수 X {0}%",
+        "value": 0.015,
+        "value_display": "1.5%",
+        "description": "뿔레 오브 드랍 확률 +[아케메스] 용병 수 X 1.5%%"
+      },
+      {
+        "type_code": 630,
+        "type_name": "적들의 회피 확률 감소 +[아케메스] 용병 수 X {0}%",
+        "value": 0.015,
+        "value_display": "1.5%",
+        "description": "적들의 회피 확률 감소 +[아케메스] 용병 수 X 1.5%%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 650,
+    "name": "토미에의 본모습",
+    "description": "[멩겔레]박사의 실험실에 끌려가기 전 토미에는 아름다운 [늪의 엘프] 였습니다.",
+    "icon": 529,
+    "priceFactor": 0.0,
+    "passiveType": 53,
+    "types": [
+      16,
+      0,
+      0
+    ],
+    "effects": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 16,
+        "type_name": "모든 용병의 클릭 데미지 {0}",
+        "value": 1.0,
+        "value_display": "+1",
+        "description": "모든 용병의 클릭 데미지 +1"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 651,
+    "name": "구르톡의 이상한 꿈",
+    "description": "구르톡의 꿈은 분명 이상했지만 아름다웠습니다.",
+    "icon": 530,
+    "priceFactor": 0.0,
+    "passiveType": 54,
+    "types": [
+      1061,
+      1169,
+      1019
+    ],
+    "effects": [
+      0.03,
+      0.045,
+      0.06
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1061,
+        "type_name": "모든 용병의 치명타 배수 증폭 {0}",
+        "value": 0.03,
+        "value_display": "3%",
+        "description": "모든 용병의 치명타 배수 증폭 3%"
+      },
+      {
+        "type_code": 1169,
+        "type_name": "모든 용병의 연타 데미지 증폭 {0}",
+        "value": 0.045,
+        "value_display": "4.5%",
+        "description": "모든 용병의 연타 데미지 증폭 4.5%"
+      },
+      {
+        "type_code": 1019,
+        "type_name": "모든 물리 용병의 강타 배수 증폭 {0}",
+        "value": 0.06,
+        "value_display": "6%",
+        "description": "모든 물리 용병의 강타 배수 증폭 6%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 657,
+    "name": "미이트",
+    "description": "시전자의 힘을 강화시켜 주는 [마이트] 마법을 독자적으로 연구·개량 한 후 미이트라고 부르고 있습니다.",
+    "icon": 536,
+    "priceFactor": 0.0,
+    "passiveType": 55,
+    "types": [
+      191,
+      178,
+      56
+    ],
+    "effects": [
+      77.699997,
+      0.02,
+      0.04
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 191,
+        "type_name": "시작 레벨 {0}",
+        "value": 77.699997,
+        "value_display": "+77.7",
+        "description": "시작 레벨 +77.7"
+      },
+      {
+        "type_code": 178,
+        "type_name": "모든 용병의 피격 회피 확률 {0}",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "모든 용병의 피격 회피 확률 2%"
+      },
+      {
+        "type_code": 56,
+        "type_name": "공격 무효화 관통 {0}",
+        "value": 0.04,
+        "value_display": "4%",
+        "description": "공격 무효화 관통 4%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 662,
+    "name": "버몬트 가문의 후계자",
+    "description": "비록 자신은 버림 받았을지라도 빅터는 버몬트 가문의 부흥을 위하여 혼신의 힘을 다합니다.",
+    "icon": 543,
+    "priceFactor": 0.0,
+    "passiveType": 56,
+    "types": [
+      193,
+      431,
+      0
+    ],
+    "effects": [
+      0.02,
+      0.05,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 193,
+        "type_name": "같은 대상 일반 공격시 데미지 중첩 {0}",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "같은 대상 일반 공격시 데미지 중첩 2%"
+      },
+      {
+        "type_code": 431,
+        "type_name": "모든 용병의 추가 클릭 확률 {0}",
+        "value": 0.05,
+        "value_display": "5%",
+        "description": "모든 용병의 추가 클릭 확률 5%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 664,
+    "name": "확실한 한방",
+    "description": "샐리는 자잘한 공격을 이어나가기 보다는 확실한 한방을 노리는 전투 방식을 선호 합니다.",
+    "icon": 537,
+    "priceFactor": 0.0,
+    "passiveType": 57,
+    "types": [
+      32,
+      20,
+      112
+    ],
+    "effects": [
+      -5.0,
+      -0.1,
+      0.04
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 32,
+        "type_name": "연타 확률 {0}",
+        "value": -5.0,
+        "value_display": "+-5",
+        "description": "연타 확률 +-5"
+      },
+      {
+        "type_code": 20,
+        "type_name": "강타 확률 {0}",
+        "value": -0.1,
+        "value_display": "-10%",
+        "description": "강타 확률 -10%"
+      },
+      {
+        "type_code": 112,
+        "type_name": "적들의 회피 확률 감소 {0}",
+        "value": 0.04,
+        "value_display": "4%",
+        "description": "적들의 회피 확률 감소 4%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 669,
+    "name": "객스의 집요함",
+    "description": "집요한 객스의 집요함은 덜 집요한 자이다의 집요함 보다 더 집요하기 때문에 덜 집요한 자이다는 집요한 객스의 집요함을 매우 집요하다고 생각 합니다.",
+    "icon": 546,
+    "priceFactor": 0.0,
+    "passiveType": 58,
+    "types": [
+      20,
+      32,
+      193
+    ],
+    "effects": [
+      0.08,
+      0.08,
+      0.04
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 20,
+        "type_name": "강타 확률 {0}",
+        "value": 0.08,
+        "value_display": "8%",
+        "description": "강타 확률 8%"
+      },
+      {
+        "type_code": 32,
+        "type_name": "연타 확률 {0}",
+        "value": 0.08,
+        "value_display": "8%",
+        "description": "연타 확률 8%"
+      },
+      {
+        "type_code": 193,
+        "type_name": "같은 대상 일반 공격시 데미지 중첩 {0}",
+        "value": 0.04,
+        "value_display": "4%",
+        "description": "같은 대상 일반 공격시 데미지 중첩 4%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 671,
+    "name": "조각의 여신",
+    "description": "조각의 여신이 하달하는 알수없는 임무들을 코쿠니아는 충실하게 수행합니다.",
+    "icon": 550,
+    "priceFactor": 0.0,
+    "passiveType": 59,
+    "types": [
+      10,
+      19,
+      0
+    ],
+    "effects": [
+      0.12,
+      6.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 10,
+        "type_name": "모든 용병의 공격 속도 {0}",
+        "value": 0.12,
+        "value_display": "12%",
+        "description": "모든 용병의 공격 속도 12%"
+      },
+      {
+        "type_code": 19,
+        "type_name": "모든 용병의 최대 레벨 {0}",
+        "value": 6.0,
+        "value_display": "+6",
+        "description": "모든 용병의 최대 레벨 +6"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 674,
+    "name": "검은 악마",
+    "description": "죽음에서 돌아온 베멜로스는 검은 악마로 승급되었습니다. 또한 침착한 성격이 되었습니다.",
+    "icon": 552,
+    "priceFactor": 0.0,
+    "passiveType": 61,
+    "types": [
+      1000,
+      461,
+      0
+    ],
+    "effects": [
+      4.44,
+      2.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1000,
+        "type_name": "추가 데미지 증폭 {0}",
+        "value": 4.44,
+        "value_display": "+4.4",
+        "description": "추가 데미지 증폭 +4.4"
+      },
+      {
+        "type_code": 461,
+        "type_name": "가문이 베멜인 용병의 데미지 +[베멜] 용병 수 X {0}%",
+        "value": 2.0,
+        "value_display": "+2",
+        "description": "가문이 베멜인 용병의 데미지 +[베멜] 용병 수 X +2%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 678,
+    "name": "남동생 카메히코",
+    "description": "카메히메의 동생 카메히코는 여신의 애완동물이 되었다고 합니다.",
+    "icon": 557,
+    "priceFactor": 0.0,
+    "passiveType": 62,
+    "types": [
+      0,
+      0,
+      0
+    ],
+    "effects": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [],
+    "randomValue": 0
+  },
+  {
+    "index": 681,
+    "name": "타고 남은 젠",
+    "description": "타고 남은 그의 육체는 가부좌 상태로 굳어 버렸지만 그의 정신은 더욱 또렸해 졌습니다.",
+    "icon": 558,
+    "priceFactor": 0.0,
+    "passiveType": 63,
+    "types": [
+      684,
+      304,
+      1082
+    ],
+    "effects": [
+      -0.4,
+      0.0999,
+      3.33
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 684,
+        "type_name": "연타 불가, 강타 확률 -40%",
+        "value": -0.4,
+        "value_display": "-40%",
+        "description": "연타 불가, 강타 확률 -40%"
+      },
+      {
+        "type_code": 304,
+        "type_name": "선제 공격 확률 {0}",
+        "value": 0.0999,
+        "value_display": "10.0%",
+        "description": "선제 공격 확률 10.0%"
+      },
+      {
+        "type_code": 1082,
+        "type_name": "추가 클릭 데미지 증폭 {0}",
+        "value": 3.33,
+        "value_display": "+3.3",
+        "description": "추가 클릭 데미지 증폭 +3.3"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 695,
+    "name": "기계 하인",
+    "description": "쓰레기를 줏어 담던 몸통에 이제는 금화를 줏어담게 되었습니다.",
+    "icon": 570,
+    "priceFactor": 0.0,
+    "passiveType": 64,
+    "types": [
+      46,
+      47,
+      0
+    ],
+    "effects": [
+      0.3,
+      0.6,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 46,
+        "type_name": "골드 획득량 {0}",
+        "value": 0.3,
+        "value_display": "30%",
+        "description": "골드 획득량 30%"
+      },
+      {
+        "type_code": 47,
+        "type_name": "골드 저장량 {0}",
+        "value": 0.6,
+        "value_display": "60%",
+        "description": "골드 저장량 60%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 697,
+    "name": "진정한 지옥왕의 위엄",
+    "description": "아리만은 [쿠카이]가 실추시킨 지옥왕의 위엄을 되찾고자 합니다. 적들에게는 공포 그 자체 입니다.",
+    "icon": 573,
+    "priceFactor": 0.0,
+    "passiveType": 65,
+    "types": [
+      43,
+      175,
+      0
+    ],
+    "effects": [
+      0.666,
+      0.04,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 43,
+        "type_name": "추가 클릭 확률 {0}",
+        "value": 0.666,
+        "value_display": "66.6%",
+        "description": "추가 클릭 확률 66.6%"
+      },
+      {
+        "type_code": 175,
+        "type_name": "공포 극복 확률 {0}",
+        "value": 0.04,
+        "value_display": "4%",
+        "description": "공포 극복 확률 4%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 703,
+    "name": "무적의 바위 육체",
+    "description": "화강암으로 이루어진 맥가이어의 육체는 조금 느리지만 대적할 상대가 없을 정도로 강력 합니다.",
+    "icon": 576,
+    "priceFactor": 0.0,
+    "passiveType": 66,
+    "types": [
+      1001,
+      107,
+      32
+    ],
+    "effects": [
+      0.75,
+      0.5,
+      -5.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1001,
+        "type_name": "강타 배수 증폭 {0}",
+        "value": 0.75,
+        "value_display": "75%",
+        "description": "강타 배수 증폭 75%"
+      },
+      {
+        "type_code": 107,
+        "type_name": "피격 지속시간 감소 {0}",
+        "value": 0.5,
+        "value_display": "50%",
+        "description": "피격 지속시간 감소 50%"
+      },
+      {
+        "type_code": 32,
+        "type_name": "연타 확률 {0}",
+        "value": -5.0,
+        "value_display": "+-5",
+        "description": "연타 확률 +-5"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 709,
+    "name": "새로운 미들랜드 왕국 깃발",
+    "description": "미들랜드 왕국의 새로운 상징은 검은 까마귀가 되었습니다.",
+    "icon": 582,
+    "priceFactor": 0.0,
+    "passiveType": 67,
+    "types": [
+      38,
+      19,
+      0
+    ],
+    "effects": [
+      0.024,
+      4.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 38,
+        "type_name": "클릭 크리티컬 확률 {0}",
+        "value": 0.024,
+        "value_display": "2.4%",
+        "description": "클릭 크리티컬 확률 2.4%"
+      },
+      {
+        "type_code": 19,
+        "type_name": "모든 용병의 최대 레벨 {0}",
+        "value": 4.0,
+        "value_display": "+4",
+        "description": "모든 용병의 최대 레벨 +4"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 714,
+    "name": "치명적인 유혹",
+    "description": "아카샤의 유혹이 치명적인 이유는 유혹에 넘어간 사람들이 나중에 정신을 차리고 나면 자신을 혐오하게 되기 때문입니다.",
+    "icon": 586,
+    "priceFactor": 0.0,
+    "passiveType": 68,
+    "types": [
+      8,
+      1050,
+      109
+    ],
+    "effects": [
+      600.0,
+      0.12,
+      0.06
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 8,
+        "type_name": "모든 용병의 추가 데미지 {0}",
+        "value": 600.0,
+        "value_display": "+600",
+        "description": "모든 용병의 추가 데미지 +600"
+      },
+      {
+        "type_code": 1050,
+        "type_name": "모든 용병의 추가 데미지 증폭 {0}",
+        "value": 0.12,
+        "value_display": "12%",
+        "description": "모든 용병의 추가 데미지 증폭 12%"
+      },
+      {
+        "type_code": 109,
+        "type_name": "뿔레정수 획득 확률 {0}",
+        "value": 0.06,
+        "value_display": "6%",
+        "description": "뿔레정수 획득 확률 6%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 718,
+    "name": "프로기의 아들",
+    "description": "전설적인 [뿔레 오브] 수집가인 아버지의 영향으로 터트로그도 [뿔레 오브]를 발견하는데 일가견이 있습니다.",
+    "icon": 590,
+    "priceFactor": 0.0,
+    "passiveType": 69,
+    "types": [
+      257,
+      0,
+      0
+    ],
+    "effects": [
+      0.05,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 257,
+        "type_name": "뿔레 오브 드랍 확률 {0}",
+        "value": 0.05,
+        "value_display": "5%",
+        "description": "뿔레 오브 드랍 확률 5%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 722,
+    "name": "불리한 신체",
+    "description": "한나는 팔다리가 짧아 주먹싸움에 불리하지만 이를 반칙으로 커버하곤 했습니다.",
+    "icon": 596,
+    "priceFactor": 0.0,
+    "passiveType": 70,
+    "types": [
+      39,
+      16,
+      0
+    ],
+    "effects": [
+      2.0,
+      0.8,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 39,
+        "type_name": "클릭 크리티컬 배수 {0}",
+        "value": 2.0,
+        "value_display": "+2",
+        "description": "클릭 크리티컬 배수 +2"
+      },
+      {
+        "type_code": 16,
+        "type_name": "모든 용병의 클릭 데미지 {0}",
+        "value": 0.8,
+        "value_display": "80%",
+        "description": "모든 용병의 클릭 데미지 80%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 725,
+    "name": "몬몬은 몬몬",
+    "description": "몬몬은 몬몬 몬몬은 몬몬 몬몬은 몬몬.",
+    "icon": 597,
+    "priceFactor": 0.0,
+    "passiveType": 71,
+    "types": [
+      261,
+      0,
+      0
+    ],
+    "effects": [
+      3.0,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 261,
+        "type_name": "골드 획득량 +{0}% -환생횟수 X {1}%",
+        "value": 3.0,
+        "value_display": "+3",
+        "description": "골드 획득량 ++3% -환생횟수 X {1}%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 731,
+    "name": "비둘기야 먹자",
+    "description": "구우 비둘기야 먹자\n구구구구구 구우 구구구구구 구우우구우우구 우우우우우\n마시쩡? 마시쩡!",
+    "icon": 603,
+    "priceFactor": 0.0,
+    "passiveType": 72,
+    "types": [
+      46,
+      0,
+      0
+    ],
+    "effects": [
+      0.399,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 46,
+        "type_name": "골드 획득량 {0}",
+        "value": 0.399,
+        "value_display": "39.9%",
+        "description": "골드 획득량 39.9%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 735,
+    "name": "광신도의 탄생",
+    "description": "님부스는 [셉트리스]를 영접한 후, 완전히 새로운 존재가 되었습니다.",
+    "icon": 607,
+    "priceFactor": 0.0,
+    "passiveType": 73,
+    "types": [
+      231,
+      122,
+      416
+    ],
+    "effects": [
+      1.5,
+      0.9,
+      0.1
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 231,
+        "type_name": "신성 데미지 증폭 {0}%",
+        "value": 1.5,
+        "value_display": "+1.5",
+        "description": "신성 데미지 증폭 +1.5%"
+      },
+      {
+        "type_code": 122,
+        "type_name": "추가 클릭 데미지 {0}",
+        "value": 0.9,
+        "value_display": "90%",
+        "description": "추가 클릭 데미지 90%"
+      },
+      {
+        "type_code": 416,
+        "type_name": "최종 데미지의 {0}%가 신성 데미지로 변환",
+        "value": 0.1,
+        "value_display": "10%",
+        "description": "최종 데미지의 10%%가 신성 데미지로 변환"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 738,
+    "name": "평행적 연결",
+    "description": "티어달리스와 같은 방향의 목적을 추구하는 과정에서 둘 사이에 평행적 연결이 생성되었습니다.",
+    "icon": 612,
+    "priceFactor": 1.0,
+    "passiveType": 74,
+    "types": [
+      32,
+      307,
+      0
+    ],
+    "effects": [
+      -5.0,
+      0.2,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 32,
+        "type_name": "연타 확률 {0}",
+        "value": -5.0,
+        "value_display": "+-5",
+        "description": "연타 확률 +-5"
+      },
+      {
+        "type_code": 307,
+        "type_name": "치명타 확률 {0}",
+        "value": 0.2,
+        "value_display": "20%",
+        "description": "치명타 확률 20%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 741,
+    "name": "처형",
+    "description": "스톰 클리프에서 나무꾼으로 일했었던 페이스리스에게는 도끼로 사형수들을 처형하는게 천직이였습니다.",
+    "icon": 613,
+    "priceFactor": 0.0,
+    "passiveType": 75,
+    "types": [
+      51,
+      0,
+      0
+    ],
+    "effects": [
+      0.02,
+      0.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 51,
+        "type_name": "적들의 물리 저항력 감소 {0}",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "적들의 물리 저항력 감소 2%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 744,
+    "name": "랜덤신과의 접선",
+    "description": "드라콘은 주사위를 매개체로 카오스 에너지를 연구하던 중 [랜덤신]을 영접하게 되고 특별한 에너지를 받게 되었습니다.",
+    "icon": 617,
+    "priceFactor": 0.0,
+    "passiveType": 76,
+    "types": [
+      1171,
+      1173,
+      174
+    ],
+    "effects": [
+      0.12,
+      0.12,
+      0.06
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1171,
+        "type_name": "즉시 공격 확률 {0}",
+        "value": 0.12,
+        "value_display": "12%",
+        "description": "즉시 공격 확률 12%"
+      },
+      {
+        "type_code": 1173,
+        "type_name": "즉시 공격 속도 {0}",
+        "value": 0.12,
+        "value_display": "12%",
+        "description": "즉시 공격 속도 12%"
+      },
+      {
+        "type_code": 174,
+        "type_name": "뿔레조각 드랍 확률 {0}",
+        "value": 0.06,
+        "value_display": "6%",
+        "description": "뿔레조각 드랍 확률 6%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 747,
+    "name": "당근 마켓",
+    "description": "다른 차원에거 가져온 특별한 품종의 당근이 주력 상품입니다.  여러가지 중고 물품들도 취급 한다고 합니다.",
+    "icon": 619,
+    "priceFactor": 0.0,
+    "passiveType": 77,
+    "types": [
+      46,
+      284,
+      258
+    ],
+    "effects": [
+      0.3,
+      0.04,
+      0.04
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 46,
+        "type_name": "골드 획득량 {0}",
+        "value": 0.3,
+        "value_display": "30%",
+        "description": "골드 획득량 30%"
+      },
+      {
+        "type_code": 284,
+        "type_name": "종족이 식물인 용병의 최종 데미지 +[식물] 용병 수 X {0}%",
+        "value": 0.04,
+        "value_display": "4%",
+        "description": "종족이 식물인 용병의 최종 데미지 +[식물] 용병 수 X 4%%"
+      },
+      {
+        "type_code": 258,
+        "type_name": "아군 피격 보호 확률 {0}",
+        "value": 0.04,
+        "value_display": "4%",
+        "description": "아군 피격 보호 확률 4%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 753,
+    "name": "정당한 댓가",
+    "description": "신탁을 받기 위해서는 골드를 지불해야 합니다. 더 많은 골드를 지불 할수록 더 좋은 신탁이 나온다고 합니다.",
+    "icon": 625,
+    "priceFactor": 0.0,
+    "passiveType": 78,
+    "types": [
+      46,
+      41,
+      42
+    ],
+    "effects": [
+      1.23,
+      0.24,
+      0.36
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 46,
+        "type_name": "골드 획득량 {0}",
+        "value": 1.23,
+        "value_display": "+1.2",
+        "description": "골드 획득량 +1.2"
+      },
+      {
+        "type_code": 41,
+        "type_name": "자동 클릭 확률 {0}",
+        "value": 0.24,
+        "value_display": "24%",
+        "description": "자동 클릭 확률 24%"
+      },
+      {
+        "type_code": 42,
+        "type_name": "자동 클릭 속도 {0}",
+        "value": 0.36,
+        "value_display": "36%",
+        "description": "자동 클릭 속도 36%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 763,
+    "name": "오염된 아로크",
+    "description": "알렉산드라가 지켜오던 순수한 신앙이 카오스에 의해 오염되어 그녀는 어딘가 이상해 졌습니다.",
+    "icon": 635,
+    "priceFactor": 0.0,
+    "passiveType": 79,
+    "types": [
+      175,
+      112,
+      0
+    ],
+    "effects": [
+      0.25,
+      0.015,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 175,
+        "type_name": "공포 극복 확률 {0}",
+        "value": 0.25,
+        "value_display": "25%",
+        "description": "공포 극복 확률 25%"
+      },
+      {
+        "type_code": 112,
+        "type_name": "적들의 회피 확률 감소 {0}",
+        "value": 0.015,
+        "value_display": "1.5%",
+        "description": "적들의 회피 확률 감소 1.5%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 767,
+    "name": "해탈자의 경지",
+    "description": "우르간은 결국 여체에 대한 욕망을 떨쳐내고 해탈하게 되었습니다. 허튼곳에 에너지를 안쓰는 만큼 더욱 강해졌습니다.",
+    "icon": 639,
+    "priceFactor": 0.0,
+    "passiveType": 80,
+    "types": [
+      307,
+      299,
+      0
+    ],
+    "effects": [
+      0.15,
+      0.2,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 307,
+        "type_name": "치명타 확률 {0}",
+        "value": 0.15,
+        "value_display": "15%",
+        "description": "치명타 확률 15%"
+      },
+      {
+        "type_code": 299,
+        "type_name": "자수정 드랍 확률 {0}",
+        "value": 0.2,
+        "value_display": "20%",
+        "description": "자수정 드랍 확률 20%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 770,
+    "name": "피의 광기",
+    "description": "전장에 흩 뿌려진 블러디한 피로 인해 리크는 광기에 휩싸이게 되었습니다.",
+    "icon": 642,
+    "priceFactor": 0.0,
+    "passiveType": 81,
+    "types": [
+      193,
+      253,
+      56
+    ],
+    "effects": [
+      0.04,
+      0.04,
+      0.02
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 193,
+        "type_name": "같은 대상 일반 공격시 데미지 중첩 {0}",
+        "value": 0.04,
+        "value_display": "4%",
+        "description": "같은 대상 일반 공격시 데미지 중첩 4%"
+      },
+      {
+        "type_code": 253,
+        "type_name": "적들의 흡수 확률 감소 {0}",
+        "value": 0.04,
+        "value_display": "4%",
+        "description": "적들의 흡수 확률 감소 4%"
+      },
+      {
+        "type_code": 56,
+        "type_name": "공격 무효화 관통 {0}",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "공격 무효화 관통 2%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 771,
+    "name": "다시 일어난 뮤턴트",
+    "description": "전장에서 제대로된 활약도 못하고 쓰러진 뮤턴트가 다시 한번 일어납니다.",
+    "icon": 643,
+    "priceFactor": 0.0,
+    "passiveType": 82,
+    "types": [
+      1,
+      1175,
+      0
+    ],
+    "effects": [
+      6.0,
+      0.09,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1,
+        "type_name": "데미지 {0}",
+        "value": 6.0,
+        "value_display": "+6",
+        "description": "데미지 +6"
+      },
+      {
+        "type_code": 1175,
+        "type_name": "적들의 무력화 효과 감소 {0}",
+        "value": 0.09,
+        "value_display": "9%",
+        "description": "적들의 무력화 효과 감소 9%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 772,
+    "name": "저주의 숨결",
+    "description": "저주를 계속 걸다보니 짓타의 숨결에 저주가 짙게 배어버렸습니다.",
+    "icon": 644,
+    "priceFactor": 0.0,
+    "passiveType": 83,
+    "types": [
+      51,
+      52,
+      0
+    ],
+    "effects": [
+      0.04,
+      0.05,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 51,
+        "type_name": "적들의 물리 저항력 감소 {0}",
+        "value": 0.04,
+        "value_display": "4%",
+        "description": "적들의 물리 저항력 감소 4%"
+      },
+      {
+        "type_code": 52,
+        "type_name": "적들의 마법 저항력 감소 {0}",
+        "value": 0.05,
+        "value_display": "5%",
+        "description": "적들의 마법 저항력 감소 5%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 773,
+    "name": "라이언 가라사대",
+    "description": "이 몸은 라이온 워리어 중의 라이온 워리어 라이언로소이다!",
+    "icon": 645,
+    "priceFactor": 0.0,
+    "passiveType": 84,
+    "types": [
+      41,
+      42,
+      0
+    ],
+    "effects": [
+      0.24,
+      0.24,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 41,
+        "type_name": "자동 클릭 확률 {0}",
+        "value": 0.24,
+        "value_display": "24%",
+        "description": "자동 클릭 확률 24%"
+      },
+      {
+        "type_code": 42,
+        "type_name": "자동 클릭 속도 {0}",
+        "value": 0.24,
+        "value_display": "24%",
+        "description": "자동 클릭 속도 24%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 778,
+    "name": "마이티 마그누스",
+    "description": "출처를 가늠할수조차 없는 고이고 농축된 마법 찌꺼기로 인하여 마그누스는 강력한 힘을 가지게 되었습니다. 그는 무서울것이 없습니다.",
+    "icon": 653,
+    "priceFactor": 0.0,
+    "passiveType": 85,
+    "types": [
+      175,
+      102,
+      0
+    ],
+    "effects": [
+      0.3,
+      0.2,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 175,
+        "type_name": "공포 극복 확률 {0}",
+        "value": 0.3,
+        "value_display": "30%",
+        "description": "공포 극복 확률 30%"
+      },
+      {
+        "type_code": 102,
+        "type_name": "소울 클릭 배수 {0}",
+        "value": 0.2,
+        "value_display": "20%",
+        "description": "소울 클릭 배수 20%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 781,
+    "name": "본 윌",
+    "description": "트리칼로는 강령술을 통해 더 나은 존재가 되겠다는 확고한 의지가 있습니다.",
+    "icon": 654,
+    "priceFactor": 0.0,
+    "passiveType": 86,
+    "types": [
+      193,
+      304,
+      1035
+    ],
+    "effects": [
+      0.013,
+      0.06,
+      0.05
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 193,
+        "type_name": "같은 대상 일반 공격시 데미지 중첩 {0}",
+        "value": 0.013,
+        "value_display": "1.3%",
+        "description": "같은 대상 일반 공격시 데미지 중첩 1.3%"
+      },
+      {
+        "type_code": 304,
+        "type_name": "선제 공격 확률 {0}",
+        "value": 0.06,
+        "value_display": "6%",
+        "description": "선제 공격 확률 6%"
+      },
+      {
+        "type_code": 1035,
+        "type_name": "모든 용병의 봉인 무효화 확률 {0}",
+        "value": 0.05,
+        "value_display": "5%",
+        "description": "모든 용병의 봉인 무효화 확률 5%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 785,
+    "name": "스크롱 텐타클+",
+    "description": "스크롱은 날카로운 발톱이 달려있는 5개의 텐타클로 고문 대상에게 장난을 치곤 하였습니다. 그 장난의 이름은 [어느 촉수로 찔렀게?] 였다고 합니다.",
+    "icon": 658,
+    "priceFactor": 0.0,
+    "passiveType": 87,
+    "types": [
+      45,
+      240,
+      1003
+    ],
+    "effects": [
+      0.018,
+      0.008,
+      0.64
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 45,
+        "type_name": "매 공격시 적 체력 감소 {0}",
+        "value": 0.018,
+        "value_display": "1.8%",
+        "description": "매 공격시 적 체력 감소 1.8%"
+      },
+      {
+        "type_code": 240,
+        "type_name": "즉사 공격 확률 {0}",
+        "value": 0.008,
+        "value_display": "0.8%",
+        "description": "즉사 공격 확률 0.8%"
+      },
+      {
+        "type_code": 1003,
+        "type_name": "치명타 배수 증폭 {0}",
+        "value": 0.64,
+        "value_display": "64%",
+        "description": "치명타 배수 증폭 64%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 789,
+    "name": "노아 레코드+",
+    "description": "노아는 아카식 레코드를 이해하기 위해 자신만의 레코드를 만들기 시작하였습니다. 노아가 고안한 레코드 압축 마법으로 한권의 책에 10권 분량의 내용을 기록 할 수 있다고 합니다.",
+    "icon": 661,
+    "priceFactor": 0.0,
+    "passiveType": 88,
+    "types": [
+      50,
+      10,
+      431
+    ],
+    "effects": [
+      0.08,
+      0.05,
+      0.1
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 50,
+        "type_name": "모든 용병의 레벨업 및 스킬 학습 비용 감소 {0}",
+        "value": 0.08,
+        "value_display": "8%",
+        "description": "모든 용병의 레벨업 및 스킬 학습 비용 감소 8%"
+      },
+      {
+        "type_code": 10,
+        "type_name": "모든 용병의 공격 속도 {0}",
+        "value": 0.05,
+        "value_display": "5%",
+        "description": "모든 용병의 공격 속도 5%"
+      },
+      {
+        "type_code": 431,
+        "type_name": "모든 용병의 추가 클릭 확률 {0}",
+        "value": 0.1,
+        "value_display": "10%",
+        "description": "모든 용병의 추가 클릭 확률 10%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 796,
+    "name": "무한의 발톱+",
+    "description": "마줄리스의 발톱도 이빨과 마찬가지로 강력한 재생능력을 지니고 있습니다. 손톱이 부러지는 순간 새로운 손톱이 자라납니다.",
+    "icon": 666,
+    "priceFactor": 0.0,
+    "passiveType": 89,
+    "types": [
+      7,
+      176,
+      1000
+    ],
+    "effects": [
+      30000.0,
+      0.35,
+      1.6
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 7,
+        "type_name": "추가 데미지 {0}",
+        "value": 30000.0,
+        "value_display": "+30000",
+        "description": "추가 데미지 +30000"
+      },
+      {
+        "type_code": 176,
+        "type_name": "피격 회피 확률 {0}",
+        "value": 0.35,
+        "value_display": "35%",
+        "description": "피격 회피 확률 35%"
+      },
+      {
+        "type_code": 1000,
+        "type_name": "추가 데미지 증폭 {0}",
+        "value": 1.6,
+        "value_display": "+1.6",
+        "description": "추가 데미지 증폭 +1.6"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 800,
+    "name": "룬스톤+",
+    "description": "콘치의 몸을 이루는 암석에는 군데 군데 룬문자로 추정되는 것들이 적혀 있다고 합니다. 아직 단 한 글자도 해석되지 못하였으며 누가 적었는지 조차 알지 못합니다.",
+    "icon": 668,
+    "priceFactor": 0.0,
+    "passiveType": 90,
+    "types": [
+      1,
+      9,
+      476
+    ],
+    "effects": [
+      6.0,
+      0.4,
+      0.07
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1,
+        "type_name": "데미지 {0}",
+        "value": 6.0,
+        "value_display": "+6",
+        "description": "데미지 +6"
+      },
+      {
+        "type_code": 9,
+        "type_name": "공격 속도 {0}",
+        "value": 0.4,
+        "value_display": "40%",
+        "description": "공격 속도 40%"
+      },
+      {
+        "type_code": 476,
+        "type_name": "모든 용병의 공격 속도 +기본 공격 쿨다운 X {0}%",
+        "value": 0.07,
+        "value_display": "7.0%",
+        "description": "모든 용병의 공격 속도 +기본 공격 쿨다운 X 7.0%%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 803,
+    "name": "울프 레이지",
+    "description": "프로스트가 분노로 흥분된 상태를 유지하여 전장에서 강력한 힘을 발휘 합니다.",
+    "icon": 1025,
+    "priceFactor": 0.0,
+    "passiveType": 91,
+    "types": [
+      32,
+      56,
+      119
+    ],
+    "effects": [
+      0.16,
+      0.05,
+      0.005
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 32,
+        "type_name": "연타 확률 {0}",
+        "value": 0.16,
+        "value_display": "16%",
+        "description": "연타 확률 16%"
+      },
+      {
+        "type_code": 56,
+        "type_name": "공격 무효화 관통 {0}",
+        "value": 0.05,
+        "value_display": "5%",
+        "description": "공격 무효화 관통 5%"
+      },
+      {
+        "type_code": 119,
+        "type_name": "데미지 +총 각성수 X {0}%",
+        "value": 0.005,
+        "value_display": "0.5%",
+        "description": "데미지 +총 각성수 X 0.5%%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 806,
+    "name": "마마 치와와+",
+    "description": "[라이티]의 엄마인 [벨]은 대부분의 경우에 라이티를 사랑으로 키웠습니다. 체벌은 딱 적당한 수준으로 했습니다. 사실 라이티는 좀더 맞고 자랐어야 합니다.",
+    "icon": 673,
+    "priceFactor": 0.0,
+    "passiveType": 92,
+    "types": [
+      137,
+      1004,
+      0
+    ],
+    "effects": [
+      0.07,
+      0.36,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 137,
+        "type_name": "행운 확률 {0}",
+        "value": 0.07,
+        "value_display": "7.0%",
+        "description": "행운 확률 7.0%"
+      },
+      {
+        "type_code": 1004,
+        "type_name": "행운 배수 증폭 {0}",
+        "value": 0.36,
+        "value_display": "36%",
+        "description": "행운 배수 증폭 36%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 810,
+    "name": "마마 치와와+",
+    "description": "[라이티]의 엄마인 [벨]은 대부분의 경우에 라이티를 사랑으로 키웠습니다. 체벌은 딱 적당한 수준으로 했습니다. 사실 라이티는 좀더 맞고 자랐어야 합니다.",
+    "icon": 673,
+    "priceFactor": 0.0,
+    "passiveType": 93,
+    "types": [
+      40,
+      140,
+      0
+    ],
+    "effects": [
+      0.02,
+      0.08,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 40,
+        "type_name": "소울 클릭 확률 {0}",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "소울 클릭 확률 2%"
+      },
+      {
+        "type_code": 140,
+        "type_name": "모든 용병의 행운 배수 {0}",
+        "value": 0.08,
+        "value_display": "8%",
+        "description": "모든 용병의 행운 배수 8%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 819,
+    "name": "정규군의 자긍심++",
+    "description": "비정규적인 일반 용병들은 다쳐도 치료비를 직접내야 하고 휴가도 보장되지 않고 퇴직금도 없지만 정규군은 치료비도 무료이고 휴가 중에도 급여가 나오며 퇴직금도 착실히 쌓입니다. 자긍심이 생길수 밖에 없습니다.",
+    "icon": 682,
+    "priceFactor": 0.0,
+    "passiveType": 94,
+    "types": [
+      38,
+      1000,
+      342
+    ],
+    "effects": [
+      0.03,
+      1.5,
+      20000.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 38,
+        "type_name": "클릭 크리티컬 확률 {0}",
+        "value": 0.03,
+        "value_display": "3%",
+        "description": "클릭 크리티컬 확률 3%"
+      },
+      {
+        "type_code": 1000,
+        "type_name": "추가 데미지 증폭 {0}",
+        "value": 1.5,
+        "value_display": "+1.5",
+        "description": "추가 데미지 증폭 +1.5"
+      },
+      {
+        "type_code": 342,
+        "type_name": "추가 데미지 +[정규군] 용병 수 X {0}",
+        "value": 20000.0,
+        "value_display": "+20000",
+        "description": "추가 데미지 +[정규군] 용병 수 X +20000"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 822,
+    "name": "피와 독",
+    "description": "리커는 뱀의 신 [아하스]의 힘을 받기 위하여 자신의 피와 독을 제물로 바쳤습니다. 아하스는 이에 부응하였고 리커는 뱀의 여왕이라고 불릴 정도로 강력한 힘을 가지게 되었습니다.",
+    "icon": 683,
+    "priceFactor": 0.0,
+    "passiveType": 95,
+    "types": [
+      257,
+      304,
+      0
+    ],
+    "effects": [
+      0.03,
+      0.055,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 257,
+        "type_name": "뿔레 오브 드랍 확률 {0}",
+        "value": 0.03,
+        "value_display": "3%",
+        "description": "뿔레 오브 드랍 확률 3%"
+      },
+      {
+        "type_code": 304,
+        "type_name": "선제 공격 확률 {0}",
+        "value": 0.055,
+        "value_display": "5.5%",
+        "description": "선제 공격 확률 5.5%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 825,
+    "name": "기계-신체 결합",
+    "description": "시체를 엮어 만든 마발이의 신체는 여러가지 하자가 있었기 때문에 [객갱]은 기계로 마발이의 신체를 보강하였습니다.",
+    "icon": 686,
+    "priceFactor": 0.0,
+    "passiveType": 96,
+    "types": [
+      250,
+      307,
+      0
+    ],
+    "effects": [
+      0.15,
+      0.1,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 250,
+        "type_name": "더블 어택 확률 {0}",
+        "value": 0.15,
+        "value_display": "15%",
+        "description": "더블 어택 확률 15%"
+      },
+      {
+        "type_code": 307,
+        "type_name": "치명타 확률 {0}",
+        "value": 0.1,
+        "value_display": "10%",
+        "description": "치명타 확률 10%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 827,
+    "name": "뱀의 밤+",
+    "description": "[아하스]교의 신도는 그저 믿기만 하는것으로는 부족 합니다. 어두운 밤에 모여 신성한 의식을 치루고 재물을 바쳐야 진정한 신도로 인정 받게 됩니다.",
+    "icon": 688,
+    "priceFactor": 0.0,
+    "passiveType": 97,
+    "types": [
+      95,
+      169,
+      0
+    ],
+    "effects": [
+      80000.0,
+      0.5,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 95,
+        "type_name": "신성 데미지 {0}",
+        "value": 80000.0,
+        "value_display": "+80000",
+        "description": "신성 데미지 +80000"
+      },
+      {
+        "type_code": 169,
+        "type_name": "모든 용병의 신성 데미지 {0}",
+        "value": 0.5,
+        "value_display": "50%",
+        "description": "모든 용병의 신성 데미지 50%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 829,
+    "name": "뱀의 밤",
+    "description": "[아하스]교의 신도는 그저 믿기만 하는것으로는 부족 합니다. 어두운 밤에 모여 신성한 의식을 치루고 재물을 바쳐야 진정한 신도로 인정 받게 됩니다.",
+    "icon": 688,
+    "priceFactor": 0.0,
+    "passiveType": 101,
+    "types": [
+      95,
+      169,
+      0
+    ],
+    "effects": [
+      50000.0,
+      0.3,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 95,
+        "type_name": "신성 데미지 {0}",
+        "value": 50000.0,
+        "value_display": "+50000",
+        "description": "신성 데미지 +50000"
+      },
+      {
+        "type_code": 169,
+        "type_name": "모든 용병의 신성 데미지 {0}",
+        "value": 0.3,
+        "value_display": "30%",
+        "description": "모든 용병의 신성 데미지 30%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 831,
+    "name": "오크는 뭉치면 강하다!+",
+    "description": "오크들은 독립적인 성향이 강해서 잘 뭉치지 않지만, 뭉치게 되면 매우 강력해진다고 합니다.",
+    "icon": 694,
+    "priceFactor": 0.0,
+    "passiveType": 98,
+    "types": [
+      355,
+      357,
+      406
+    ],
+    "effects": [
+      0.03,
+      0.03,
+      0.06
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 355,
+        "type_name": "치명타 확률 +[오크] 용병 수 X {0}%",
+        "value": 0.03,
+        "value_display": "3%",
+        "description": "치명타 확률 +[오크] 용병 수 X 3%%"
+      },
+      {
+        "type_code": 357,
+        "type_name": "종족이 오크인 용병의 치명타 확률 +[오크] 용병 수 X {0}%",
+        "value": 0.03,
+        "value_display": "3%",
+        "description": "종족이 오크인 용병의 치명타 확률 +[오크] 용병 수 X 3%%"
+      },
+      {
+        "type_code": 406,
+        "type_name": "모든 용병의 치명타 딜레이 감소 {0}",
+        "value": 0.06,
+        "value_display": "6%",
+        "description": "모든 용병의 치명타 딜레이 감소 6%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 838,
+    "name": "비상한 손재주",
+    "description": "시계공 [키루하]에게 받은 특훈의 결과로 휘스커는 매우 뛰어난 손재주를 가지게 되었습니다. 그래서 그는 어떤 도구든 능숙하게 다룰 수 있습니다.",
+    "icon": 696,
+    "priceFactor": 0.0,
+    "passiveType": 99,
+    "types": [
+      353,
+      354,
+      0
+    ],
+    "effects": [
+      0.18,
+      0.16,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 353,
+        "type_name": "아이템 효과 증폭 {0}",
+        "value": 0.18,
+        "value_display": "18%",
+        "description": "아이템 효과 증폭 18%"
+      },
+      {
+        "type_code": 354,
+        "type_name": "아티팩트 효과 증폭 {0}",
+        "value": 0.16,
+        "value_display": "16%",
+        "description": "아티팩트 효과 증폭 16%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 840,
+    "name": "멜로디의 노래 주머니",
+    "description": "사람들은 멜로디가 노래를 잘 부르는 이유가 커다란 노래 주머니를 가지고 있기 때문이라고 생각 합니다.",
+    "icon": 698,
+    "priceFactor": 0.0,
+    "passiveType": 100,
+    "types": [
+      27,
+      177,
+      300
+    ],
+    "effects": [
+      0.24,
+      0.01,
+      0.16
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 27,
+        "type_name": "모든 용병의 강타 배수 {0}",
+        "value": 0.24,
+        "value_display": "24%",
+        "description": "모든 용병의 강타 배수 24%"
+      },
+      {
+        "type_code": 177,
+        "type_name": "모든 용병의 공포 극복 확률 {0}",
+        "value": 0.01,
+        "value_display": "1%",
+        "description": "모든 용병의 공포 극복 확률 1%"
+      },
+      {
+        "type_code": 300,
+        "type_name": "아티팩트 드랍 확률 {0}",
+        "value": 0.16,
+        "value_display": "16%",
+        "description": "아티팩트 드랍 확률 16%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 853,
+    "name": "꿀꺽 꿀꺽 드로플렛",
+    "description": "주로 수분으로 구성된 드로플렛은 물을 발견할때 마다 꿀꺽 꿀꺽 마셔서 체내에 물을 보관합니다. 물고기 동료들이 갈증을 호소하면 드로플렛은 체내의 물을 베풀어 줍니다.",
+    "icon": 711,
+    "priceFactor": 0.0,
+    "passiveType": 102,
+    "types": [
+      375,
+      390,
+      0
+    ],
+    "effects": [
+      0.1,
+      0.1,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 375,
+        "type_name": "자동 클릭 데미지 {0}",
+        "value": 0.1,
+        "value_display": "10%",
+        "description": "자동 클릭 데미지 10%"
+      },
+      {
+        "type_code": 390,
+        "type_name": "종족이 어류인 용병의 행운 배수 +[어류] 용병 수 X {0}",
+        "value": 0.1,
+        "value_display": "10%",
+        "description": "종족이 어류인 용병의 행운 배수 +[어류] 용병 수 X 10%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 855,
+    "name": "센트럴 썬",
+    "description": "오크둠의 마법적 힘은 지하세계의 태양인 센트럴 썬과 연결되어 있습니다.",
+    "icon": 713,
+    "priceFactor": 0.0,
+    "passiveType": 103,
+    "types": [
+      406,
+      52,
+      0
+    ],
+    "effects": [
+      0.05,
+      0.05,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 406,
+        "type_name": "모든 용병의 치명타 딜레이 감소 {0}",
+        "value": 0.05,
+        "value_display": "5%",
+        "description": "모든 용병의 치명타 딜레이 감소 5%"
+      },
+      {
+        "type_code": 52,
+        "type_name": "적들의 마법 저항력 감소 {0}",
+        "value": 0.05,
+        "value_display": "5%",
+        "description": "적들의 마법 저항력 감소 5%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 859,
+    "name": "드마이스의 무덤",
+    "description": "지옥에 일하러 왔었던 드마이스가 무척 마음에 들었던 아리만은 친히 그를 죽이고 성대한 장례식을 열어준 후, 그의 뼈로 언데드로 만들어 주었습니다.",
+    "icon": 717,
+    "priceFactor": 0.0,
+    "passiveType": 104,
+    "types": [
+      175,
+      395,
+      0
+    ],
+    "effects": [
+      0.13,
+      0.006,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 175,
+        "type_name": "공포 극복 확률 {0}",
+        "value": 0.13,
+        "value_display": "13%",
+        "description": "공포 극복 확률 13%"
+      },
+      {
+        "type_code": 395,
+        "type_name": "아리만 고용시 모든 용병의 데미지 +자신의 각성수 X {0}%",
+        "value": 0.006,
+        "value_display": "0.6%",
+        "description": "아리만 고용시 모든 용병의 데미지 +자신의 각성수 X 0.6%%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 861,
+    "name": "단독 창술",
+    "description": "기포드는 군사학교에서 창술의 교관을 했었을 정도로 뛰어난 창술 실력을 지니고 있습니다.",
+    "icon": 719,
+    "priceFactor": 0.0,
+    "passiveType": 105,
+    "types": [
+      43,
+      122,
+      0
+    ],
+    "effects": [
+      0.7,
+      0.7,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 43,
+        "type_name": "추가 클릭 확률 {0}",
+        "value": 0.7,
+        "value_display": "70%",
+        "description": "추가 클릭 확률 70%"
+      },
+      {
+        "type_code": 122,
+        "type_name": "추가 클릭 데미지 {0}",
+        "value": 0.7,
+        "value_display": "70%",
+        "description": "추가 클릭 데미지 70%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 863,
+    "name": "뚝배기 분쇄",
+    "description": "키가 큰 크릴겐은 대충 주먹을 휘둘러도 적들의 뚝배기를 깨 부수게 됩니다.",
+    "icon": 721,
+    "priceFactor": 0.0,
+    "passiveType": 106,
+    "types": [
+      295,
+      282,
+      119
+    ],
+    "effects": [
+      0.2,
+      0.035,
+      0.006
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 295,
+        "type_name": "루비 드랍 확률 {0}",
+        "value": 0.2,
+        "value_display": "20%",
+        "description": "루비 드랍 확률 20%"
+      },
+      {
+        "type_code": 282,
+        "type_name": "적들의 둔화 효과 감소 {0}",
+        "value": 0.035,
+        "value_display": "3.5%",
+        "description": "적들의 둔화 효과 감소 3.5%"
+      },
+      {
+        "type_code": 119,
+        "type_name": "데미지 +총 각성수 X {0}%",
+        "value": 0.006,
+        "value_display": "0.6%",
+        "description": "데미지 +총 각성수 X 0.6%%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 866,
+    "name": "나의 주군 헬싱님",
+    "description": "툼마 공국의 최고 권력자이자, 최고 부자인 헬싱은 잘생기기 까지 했습니다. 비아트리체는 이런 헬싱을 절대 놓칠 수 없습니다.",
+    "icon": 332,
+    "priceFactor": 0.0,
+    "passiveType": 107,
+    "types": [
+      399,
+      398,
+      0
+    ],
+    "effects": [
+      0.12,
+      0.04,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 399,
+        "type_name": "헬싱 고용시 행운 확률 {0}",
+        "value": 0.12,
+        "value_display": "12%",
+        "description": "헬싱 고용시 행운 확률 12%"
+      },
+      {
+        "type_code": 398,
+        "type_name": "헬싱의 행운 확률 {0}",
+        "value": 0.04,
+        "value_display": "4%",
+        "description": "헬싱의 행운 확률 4%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 872,
+    "name": "무지성 돌격",
+    "description": "사우스페라투쓰는 인내심이 그리 좋지않습니다. 준비가 안되어 있어도 무지성으로 적들에게 달려 나갑니다.",
+    "icon": 726,
+    "priceFactor": 0.0,
+    "passiveType": 201,
+    "types": [
+      1,
+      20,
+      0
+    ],
+    "effects": [
+      6.0,
+      0.08,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1,
+        "type_name": "데미지 {0}",
+        "value": 6.0,
+        "value_display": "+6",
+        "description": "데미지 +6"
+      },
+      {
+        "type_code": 20,
+        "type_name": "강타 확률 {0}",
+        "value": 0.08,
+        "value_display": "8%",
+        "description": "강타 확률 8%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 873,
+    "name": "스며듬",
+    "description": "베르디오스는 비전투 상황에도 항상 그림자에 스며들어 만약의 사태를 대비합니다.",
+    "icon": 727,
+    "priceFactor": 0.0,
+    "passiveType": 200,
+    "types": [
+      1,
+      33,
+      112
+    ],
+    "effects": [
+      4.0,
+      0.02,
+      0.04
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1,
+        "type_name": "데미지 {0}",
+        "value": 4.0,
+        "value_display": "+4",
+        "description": "데미지 +4"
+      },
+      {
+        "type_code": 33,
+        "type_name": "모든 용병의 연타 확률 {0}",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "모든 용병의 연타 확률 2%"
+      },
+      {
+        "type_code": 112,
+        "type_name": "적들의 회피 확률 감소 {0}",
+        "value": 0.04,
+        "value_display": "4%",
+        "description": "적들의 회피 확률 감소 4%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 877,
+    "name": "지옥신의 위엄",
+    "description": "차원 전체를 정복하고 지옥왕을 넘어 지옥신이 된 쿠카이가 위엄을 보입니다.",
+    "icon": 730,
+    "priceFactor": 0.0,
+    "passiveType": 108,
+    "types": [
+      409,
+      175,
+      0
+    ],
+    "effects": [
+      3.0,
+      0.09,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 409,
+        "type_name": "{0}% 확률로 데미지가 {1}배의 신성 데미지로 변환",
+        "value": 3.0,
+        "value_display": "+3",
+        "description": "+3% 확률로 데미지가 {1}배의 신성 데미지로 변환"
+      },
+      {
+        "type_code": 175,
+        "type_name": "공포 극복 확률 {0}",
+        "value": 0.09,
+        "value_display": "9%",
+        "description": "공포 극복 확률 9%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 883,
+    "name": "어둠의 기사",
+    "description": "갑옷을 깨끗하고 빛나게 관리할 돈이 없었기 때문에, 마르셀루스의 갑옷은 점차 어두워졌고, 그는 어둠의 기사로 불리게 되었습니다.",
+    "icon": 735,
+    "priceFactor": 0.0,
+    "passiveType": 109,
+    "types": [
+      9,
+      20,
+      1001
+    ],
+    "effects": [
+      0.5,
+      0.08,
+      0.3808
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 9,
+        "type_name": "공격 속도 {0}",
+        "value": 0.5,
+        "value_display": "50%",
+        "description": "공격 속도 50%"
+      },
+      {
+        "type_code": 20,
+        "type_name": "강타 확률 {0}",
+        "value": 0.08,
+        "value_display": "8%",
+        "description": "강타 확률 8%"
+      },
+      {
+        "type_code": 1001,
+        "type_name": "강타 배수 증폭 {0}",
+        "value": 0.3808,
+        "value_display": "38.1%",
+        "description": "강타 배수 증폭 38.1%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 887,
+    "name": "애남매",
+    "description": "세상에는 애자매만 있는것이 아닙니다. 세하와 하진의 우애는 매우 깊기 때문에, 애남매라고 불립니다.",
+    "icon": 740,
+    "priceFactor": 0.0,
+    "passiveType": 210,
+    "types": [
+      255,
+      21,
+      419
+    ],
+    "effects": [
+      0.06,
+      0.02,
+      0.04
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 255,
+        "type_name": "연타 데미지 {0}",
+        "value": 0.06,
+        "value_display": "6%",
+        "description": "연타 데미지 6%"
+      },
+      {
+        "type_code": 21,
+        "type_name": "모든 용병의 강타 확률 {0}",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "모든 용병의 강타 확률 2%"
+      },
+      {
+        "type_code": 419,
+        "type_name": "가문이 박인 용병의 행운 확률 +[박] 용병 수 X {0}%",
+        "value": 0.04,
+        "value_display": "4%",
+        "description": "가문이 박인 용병의 행운 확률 +[박] 용병 수 X 4%%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 888,
+    "name": "영웅적 수비",
+    "description": "철통 수비로 미들랜드를 지키기에는 역부족 입니다. 영웅적인 활약이 필요할 때 입니다.",
+    "icon": 741,
+    "priceFactor": 0.0,
+    "passiveType": 110,
+    "types": [
+      258,
+      281,
+      431
+    ],
+    "effects": [
+      0.06,
+      0.02,
+      0.1
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 258,
+        "type_name": "아군 피격 보호 확률 {0}",
+        "value": 0.06,
+        "value_display": "6%",
+        "description": "아군 피격 보호 확률 6%"
+      },
+      {
+        "type_code": 281,
+        "type_name": "적들의 약화 효과 감소 {0}",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "적들의 약화 효과 감소 2%"
+      },
+      {
+        "type_code": 431,
+        "type_name": "모든 용병의 추가 클릭 확률 {0}",
+        "value": 0.1,
+        "value_display": "10%",
+        "description": "모든 용병의 추가 클릭 확률 10%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 891,
+    "name": "새로운 인형",
+    "description": "쥬쥬는 더럽고 못생긴 부두 인형에서 벗어나 자신의 영혼을 다른 인형으로 옮겼습니다. 실제 사람처럼 리얼한 인형이라서 [리얼돌]이라고 불립니다.",
+    "icon": 744,
+    "priceFactor": 0.0,
+    "passiveType": 111,
+    "types": [
+      51,
+      52,
+      282
+    ],
+    "effects": [
+      0.03,
+      0.04,
+      0.025
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 51,
+        "type_name": "적들의 물리 저항력 감소 {0}",
+        "value": 0.03,
+        "value_display": "3%",
+        "description": "적들의 물리 저항력 감소 3%"
+      },
+      {
+        "type_code": 52,
+        "type_name": "적들의 마법 저항력 감소 {0}",
+        "value": 0.04,
+        "value_display": "4%",
+        "description": "적들의 마법 저항력 감소 4%"
+      },
+      {
+        "type_code": 282,
+        "type_name": "적들의 둔화 효과 감소 {0}",
+        "value": 0.025,
+        "value_display": "2.5%",
+        "description": "적들의 둔화 효과 감소 2.5%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 893,
+    "name": "애라의 마녀 스튜",
+    "description": "애라는 평범한 마녀 스튜를 요리하는것이 시시해 졌습니다. 애라에게 요리는 살인이기 때문입니다.",
+    "icon": 746,
+    "priceFactor": 0.0,
+    "passiveType": 112,
+    "types": [
+      281,
+      55,
+      0
+    ],
+    "effects": [
+      0.02,
+      0.01,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 281,
+        "type_name": "적들의 약화 효과 감소 {0}",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "적들의 약화 효과 감소 2%"
+      },
+      {
+        "type_code": 55,
+        "type_name": "적들의 최대 체력 감소 {0}",
+        "value": 0.01,
+        "value_display": "1%",
+        "description": "적들의 최대 체력 감소 1%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 895,
+    "name": "아오야마의 전투복",
+    "description": "몹시 추운 [루페스 니그라] 출신인 아오야마는 미들랜드의 온화한 기후에서 열사병에 걸리지 않기 위하여 어쩔수 없이 수영복을 입고 생활 합니다. 전장에서도 예외는 없습니다.",
+    "icon": 748,
+    "priceFactor": 0.0,
+    "passiveType": 113,
+    "types": [
+      253,
+      281,
+      282
+    ],
+    "effects": [
+      0.02,
+      0.015,
+      0.015
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 253,
+        "type_name": "적들의 흡수 확률 감소 {0}",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "적들의 흡수 확률 감소 2%"
+      },
+      {
+        "type_code": 281,
+        "type_name": "적들의 약화 효과 감소 {0}",
+        "value": 0.015,
+        "value_display": "1.5%",
+        "description": "적들의 약화 효과 감소 1.5%"
+      },
+      {
+        "type_code": 282,
+        "type_name": "적들의 둔화 효과 감소 {0}",
+        "value": 0.015,
+        "value_display": "1.5%",
+        "description": "적들의 둔화 효과 감소 1.5%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 898,
+    "name": "베디스펍",
+    "description": "마부였던 베디를 해고했던 사업가가 베디의 블렌딩 맥주에 반하여 창업을 지원해준 술집입니다. 미들랜드에서 맥주가 가장 많이 팔리는 술집이라고 합니다.",
+    "icon": 751,
+    "priceFactor": 0.0,
+    "passiveType": 114,
+    "types": [
+      46,
+      423,
+      0
+    ],
+    "effects": [
+      0.36,
+      2.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 46,
+        "type_name": "골드 획득량 {0}",
+        "value": 0.36,
+        "value_display": "36%",
+        "description": "골드 획득량 36%"
+      },
+      {
+        "type_code": 423,
+        "type_name": "개성이 베디스펍인 용병의 데미지 +[베디스펍] 용병 수 X {0}%",
+        "value": 2.0,
+        "value_display": "+2",
+        "description": "개성이 베디스펍인 용병의 데미지 +[베디스펍] 용병 수 X +2%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 902,
+    "name": "어린 기사의 양",
+    "description": "앙투안은 기사답게 백마를 타려고 했지만 그에게 말은 너무 크고 무서웠기 때문에 흰양을 타고자 합니다.",
+    "icon": 755,
+    "priceFactor": 0.0,
+    "passiveType": 115,
+    "types": [
+      425,
+      426,
+      0
+    ],
+    "effects": [
+      0.06,
+      0.008,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 425,
+        "type_name": "스탈링 참전시 적들의 물리 저항력 감소 {0}",
+        "value": 0.06,
+        "value_display": "6%",
+        "description": "스탈링 참전시 적들의 물리 저항력 감소 6%"
+      },
+      {
+        "type_code": 426,
+        "type_name": "스탈링 참전시 데미지 +총 각성수 X {0}%",
+        "value": 0.008,
+        "value_display": "0.8%",
+        "description": "스탈링 참전시 데미지 +총 각성수 X 0.8%%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 903,
+    "name": "무신의 경지",
+    "description": "끝 없는 무예 연마로 무신의 경지에 오른 이름없는 자는 공포를 정복 하였습니다.",
+    "icon": 757,
+    "priceFactor": 0.0,
+    "passiveType": 116,
+    "types": [
+      175,
+      427,
+      119
+    ],
+    "effects": [
+      0.2,
+      0.03,
+      0.006
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 175,
+        "type_name": "공포 극복 확률 {0}",
+        "value": 0.2,
+        "value_display": "20%",
+        "description": "공포 극복 확률 20%"
+      },
+      {
+        "type_code": 427,
+        "type_name": "모든 트리니티 용병의 공포 극복 확률 {0}",
+        "value": 0.03,
+        "value_display": "3%",
+        "description": "모든 트리니티 용병의 공포 극복 확률 3%"
+      },
+      {
+        "type_code": 119,
+        "type_name": "데미지 +총 각성수 X {0}%",
+        "value": 0.006,
+        "value_display": "0.6%",
+        "description": "데미지 +총 각성수 X 0.6%%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 906,
+    "name": "이카루스의 중압감",
+    "description": "이카루스 아직 소년이지만 많은 자식을 낳아야 한다는 중압감에 시달리고 있습니다. 심지어 자식을 키울 둥지도 없는데 어른들은 자식을 많이 나으라고만 합니다.",
+    "icon": 759,
+    "priceFactor": 0.0,
+    "passiveType": 117,
+    "types": [
+      175,
+      177,
+      431
+    ],
+    "effects": [
+      0.24,
+      0.02,
+      0.2
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 175,
+        "type_name": "공포 극복 확률 {0}",
+        "value": 0.24,
+        "value_display": "24%",
+        "description": "공포 극복 확률 24%"
+      },
+      {
+        "type_code": 177,
+        "type_name": "모든 용병의 공포 극복 확률 {0}",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "모든 용병의 공포 극복 확률 2%"
+      },
+      {
+        "type_code": 431,
+        "type_name": "모든 용병의 추가 클릭 확률 {0}",
+        "value": 0.2,
+        "value_display": "20%",
+        "description": "모든 용병의 추가 클릭 확률 20%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 908,
+    "name": "베디스펍 문지기",
+    "description": "케이나인은 [베디스펍]의 훌륭한 문지기였습니다. [베멜로스]의 난동을 막지 못한적이 있었는데 이것을 술집 문지기의 수치로 여기고 있습니다.",
+    "icon": 761,
+    "priceFactor": 0.0,
+    "passiveType": 118,
+    "types": [
+      56,
+      368,
+      430
+    ],
+    "effects": [
+      0.03,
+      0.03,
+      0.02
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 56,
+        "type_name": "공격 무효화 관통 {0}",
+        "value": 0.03,
+        "value_display": "3%",
+        "description": "공격 무효화 관통 3%"
+      },
+      {
+        "type_code": 368,
+        "type_name": "모든 용병의 추가 클릭 데미지 {0}",
+        "value": 0.03,
+        "value_display": "3%",
+        "description": "모든 용병의 추가 클릭 데미지 3%"
+      },
+      {
+        "type_code": 430,
+        "type_name": "개성이 베디스펍인 용병의 행운 확률 +[베디스펍] 용병 수 X {0}%",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "개성이 베디스펍인 용병의 행운 확률 +[베디스펍] 용병 수 X 2%%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 911,
+    "name": "복수의 대상",
+    "description": "[다른 차원]의 [줄라바]가 자신을 봉인한것은 아니지만, 줄라바인건 맞으니까 그를 죽이고자 합니다.",
+    "icon": 745,
+    "priceFactor": 0.0,
+    "passiveType": 119,
+    "types": [
+      255,
+      112,
+      448
+    ],
+    "effects": [
+      0.12,
+      0.025,
+      0.15
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 255,
+        "type_name": "연타 데미지 {0}",
+        "value": 0.12,
+        "value_display": "12%",
+        "description": "연타 데미지 12%"
+      },
+      {
+        "type_code": 112,
+        "type_name": "적들의 회피 확률 감소 {0}",
+        "value": 0.025,
+        "value_display": "2.5%",
+        "description": "적들의 회피 확률 감소 2.5%"
+      },
+      {
+        "type_code": 448,
+        "type_name": "모든 트리니티 용병의 행운 배수 {0}",
+        "value": 0.15,
+        "value_display": "15%",
+        "description": "모든 트리니티 용병의 행운 배수 15%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 912,
+    "name": "주인님",
+    "description": "만약 오후 4시에 [앙투안]이 온다면, 스탈링은 3시부터 행복해지기 시작할 겁니다.",
+    "icon": 764,
+    "priceFactor": 0.0,
+    "passiveType": 120,
+    "types": [
+      140,
+      433,
+      436
+    ],
+    "effects": [
+      0.2,
+      10.0,
+      0.02
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 140,
+        "type_name": "모든 용병의 행운 배수 {0}",
+        "value": 0.2,
+        "value_display": "20%",
+        "description": "모든 용병의 행운 배수 20%"
+      },
+      {
+        "type_code": 433,
+        "type_name": "앙투안의 데미지 {0}",
+        "value": 10.0,
+        "value_display": "+10",
+        "description": "앙투안의 데미지 +10"
+      },
+      {
+        "type_code": 436,
+        "type_name": "앙투안의 중첩 데미지 {0}",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "앙투안의 중첩 데미지 2%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 915,
+    "name": "아버지의 마음",
+    "description": "딕슨은 [딕]이 집에 데려온 여자친구를 몇 번 뺐은적이 있는데, 이로인해 딕이 겁쟁이가 된건 아닌지 자책하는 마음을 가지고 있습니다.",
+    "icon": 767,
+    "priceFactor": 0.0,
+    "passiveType": 121,
+    "types": [
+      375,
+      177,
+      435
+    ],
+    "effects": [
+      0.1,
+      0.01,
+      0.15
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 375,
+        "type_name": "자동 클릭 데미지 {0}",
+        "value": 0.1,
+        "value_display": "10%",
+        "description": "자동 클릭 데미지 10%"
+      },
+      {
+        "type_code": 177,
+        "type_name": "모든 용병의 공포 극복 확률 {0}",
+        "value": 0.01,
+        "value_display": "1%",
+        "description": "모든 용병의 공포 극복 확률 1%"
+      },
+      {
+        "type_code": 435,
+        "type_name": "딕의 공포 극복 확률 {0}",
+        "value": 0.15,
+        "value_display": "15%",
+        "description": "딕의 공포 극복 확률 15%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 916,
+    "name": "매직 애로우",
+    "description": "마력으로 강력한 화살을 생성하여 활로 쏩니다. 화살을 가지고 다닐 필요가 없어 편리합니다.",
+    "icon": 768,
+    "priceFactor": 0.0,
+    "passiveType": 122,
+    "types": [
+      52,
+      38,
+      138
+    ],
+    "effects": [
+      0.05,
+      0.02,
+      0.015
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 52,
+        "type_name": "적들의 마법 저항력 감소 {0}",
+        "value": 0.05,
+        "value_display": "5%",
+        "description": "적들의 마법 저항력 감소 5%"
+      },
+      {
+        "type_code": 38,
+        "type_name": "클릭 크리티컬 확률 {0}",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "클릭 크리티컬 확률 2%"
+      },
+      {
+        "type_code": 138,
+        "type_name": "모든 용병의 행운 확률 {0}",
+        "value": 0.015,
+        "value_display": "1.5%",
+        "description": "모든 용병의 행운 확률 1.5%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 920,
+    "name": "패전의 책임+",
+    "description": "패전에 대한 자책이 지속되다보니 무감각해 졌습니다. 이제는 패전의 책임이 자신의 천재적인 지휘를 따르지 못한 병사들에게 있다고 말합니다.",
+    "icon": 1027,
+    "priceFactor": 0.0,
+    "passiveType": 123,
+    "types": [
+      354,
+      11,
+      38
+    ],
+    "effects": [
+      0.16,
+      0.12,
+      0.024
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 354,
+        "type_name": "아티팩트 효과 증폭 {0}",
+        "value": 0.16,
+        "value_display": "16%",
+        "description": "아티팩트 효과 증폭 16%"
+      },
+      {
+        "type_code": 11,
+        "type_name": "모든 물리 용병의 공격 속도 {0}",
+        "value": 0.12,
+        "value_display": "12%",
+        "description": "모든 물리 용병의 공격 속도 12%"
+      },
+      {
+        "type_code": 38,
+        "type_name": "클릭 크리티컬 확률 {0}",
+        "value": 0.024,
+        "value_display": "2.4%",
+        "description": "클릭 크리티컬 확률 2.4%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 923,
+    "name": "추락",
+    "description": "[미카엘]에 의해 [엔젤]의 권능을 잃고 지상으로 추락하게 되었습니다. 날개는 있으나 날 수 없고, 엔젤이지만 신성한 힘을 사용 할 수 없습니다.",
+    "icon": 775,
+    "priceFactor": 0.0,
+    "passiveType": 124,
+    "types": [
+      20,
+      119,
+      0
+    ],
+    "effects": [
+      0.17,
+      0.007,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 20,
+        "type_name": "강타 확률 {0}",
+        "value": 0.17,
+        "value_display": "17%",
+        "description": "강타 확률 17%"
+      },
+      {
+        "type_code": 119,
+        "type_name": "데미지 +총 각성수 X {0}%",
+        "value": 0.007,
+        "value_display": "0.7%",
+        "description": "데미지 +총 각성수 X 0.7%%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 929,
+    "name": "아이 컨택트",
+    "description": "그녀와의 아이 컨택트는 매우 어렵다고 합니다. 이유는 저도 잘 모르겠습니다.",
+    "icon": 785,
+    "priceFactor": 0.0,
+    "passiveType": 125,
+    "types": [
+      51,
+      52,
+      315
+    ],
+    "effects": [
+      0.06,
+      0.08,
+      0.024
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 51,
+        "type_name": "적들의 물리 저항력 감소 {0}",
+        "value": 0.06,
+        "value_display": "6%",
+        "description": "적들의 물리 저항력 감소 6%"
+      },
+      {
+        "type_code": 52,
+        "type_name": "적들의 마법 저항력 감소 {0}",
+        "value": 0.08,
+        "value_display": "8%",
+        "description": "적들의 마법 저항력 감소 8%"
+      },
+      {
+        "type_code": 315,
+        "type_name": "적들의 부활 확률 감소 {0}",
+        "value": 0.024,
+        "value_display": "2.4%",
+        "description": "적들의 부활 확률 감소 2.4%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 936,
+    "name": "붉은 악마에게 간 여자",
+    "description": "붉은 악마에게 간 여자는 돌아오지 않는다는 얘기가 있습니다. 로즈는 이 말에 수줍게 미소를 띨 뿐입니다.",
+    "icon": 795,
+    "priceFactor": 0.0,
+    "passiveType": 126,
+    "types": [
+      52,
+      314,
+      482
+    ],
+    "effects": [
+      0.04,
+      0.024,
+      0.003
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 52,
+        "type_name": "적들의 마법 저항력 감소 {0}",
+        "value": 0.04,
+        "value_display": "4%",
+        "description": "적들의 마법 저항력 감소 4%"
+      },
+      {
+        "type_code": 314,
+        "type_name": "적들의 방어막 효과 감소 {0}",
+        "value": 0.024,
+        "value_display": "2.4%",
+        "description": "적들의 방어막 효과 감소 2.4%"
+      },
+      {
+        "type_code": 482,
+        "type_name": "모든 용병의 행운 확률 +[베멜] 용병 수 X {0}%",
+        "value": 0.003,
+        "value_display": "0.3%",
+        "description": "모든 용병의 행운 확률 +[베멜] 용병 수 X 0.3%%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 941,
+    "name": "카일라스 산의 냉기",
+    "description": "작은 존재들에게는 카일라스 산의 냉기가 너무 차갑지만, 큰 존재들에게는 시원할 뿐입니다.",
+    "icon": 787,
+    "priceFactor": 0.0,
+    "passiveType": 127,
+    "types": [
+      10,
+      476,
+      282
+    ],
+    "effects": [
+      -0.1,
+      0.1,
+      0.04
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 10,
+        "type_name": "모든 용병의 공격 속도 {0}",
+        "value": -0.1,
+        "value_display": "-10%",
+        "description": "모든 용병의 공격 속도 -10%"
+      },
+      {
+        "type_code": 476,
+        "type_name": "모든 용병의 공격 속도 +기본 공격 쿨다운 X {0}%",
+        "value": 0.1,
+        "value_display": "10%",
+        "description": "모든 용병의 공격 속도 +기본 공격 쿨다운 X 10%%"
+      },
+      {
+        "type_code": 282,
+        "type_name": "적들의 둔화 효과 감소 {0}",
+        "value": 0.04,
+        "value_display": "4%",
+        "description": "적들의 둔화 효과 감소 4%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 943,
+    "name": "아주 오래된 약속",
+    "description": "[미들랜드]로 소환 하겠다는 아주 오래된 약속이 지켜졌습니다. 새로 부여 받은 육체는 강하고 튼튼 합니다.",
+    "icon": 789,
+    "priceFactor": 0.0,
+    "passiveType": 128,
+    "types": [
+      43,
+      107,
+      257
+    ],
+    "effects": [
+      0.32,
+      0.16,
+      0.04
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 43,
+        "type_name": "추가 클릭 확률 {0}",
+        "value": 0.32,
+        "value_display": "32%",
+        "description": "추가 클릭 확률 32%"
+      },
+      {
+        "type_code": 107,
+        "type_name": "피격 지속시간 감소 {0}",
+        "value": 0.16,
+        "value_display": "16%",
+        "description": "피격 지속시간 감소 16%"
+      },
+      {
+        "type_code": 257,
+        "type_name": "뿔레 오브 드랍 확률 {0}",
+        "value": 0.04,
+        "value_display": "4%",
+        "description": "뿔레 오브 드랍 확률 4%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 947,
+    "name": "초전도체",
+    "description": "에퀴나스가 특별히 가공한 광물은 카오스 에너지가 주입될 때 공중으로 떠오르게 됩니다. 에퀴나스는 이것을 초전도체라고 설명 합니다.",
+    "icon": 797,
+    "priceFactor": 0.0,
+    "passiveType": 129,
+    "types": [
+      124,
+      250,
+      307
+    ],
+    "effects": [
+      0.24,
+      0.16,
+      0.13
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 124,
+        "type_name": "데미지 편차 {0}",
+        "value": 0.24,
+        "value_display": "24%",
+        "description": "데미지 편차 24%"
+      },
+      {
+        "type_code": 250,
+        "type_name": "더블 어택 확률 {0}",
+        "value": 0.16,
+        "value_display": "16%",
+        "description": "더블 어택 확률 16%"
+      },
+      {
+        "type_code": 307,
+        "type_name": "치명타 확률 {0}",
+        "value": 0.13,
+        "value_display": "13%",
+        "description": "치명타 확률 13%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 952,
+    "name": "로이스의 고향",
+    "description": "로이스의 고향은 유황불의 미세 먼지가 짙게 배어있어 상쾌한, 악마들의 고향 [불칸햄] 입니다.",
+    "icon": 801,
+    "priceFactor": 0.0,
+    "passiveType": 130,
+    "types": [
+      489,
+      490,
+      0
+    ],
+    "effects": [
+      0.8,
+      0.04,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 489,
+        "type_name": "지역이 불칸햄인 용병의 데미지 +[불칸햄] 용병 수 X {0}%",
+        "value": 0.8,
+        "value_display": "80%",
+        "description": "지역이 불칸햄인 용병의 데미지 +[불칸햄] 용병 수 X 80%%"
+      },
+      {
+        "type_code": 490,
+        "type_name": "지역이 불칸햄인 용병의 행운 배수 +[불칸햄] 용병 수 X {0}",
+        "value": 0.04,
+        "value_display": "4%",
+        "description": "지역이 불칸햄인 용병의 행운 배수 +[불칸햄] 용병 수 X 4%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 955,
+    "name": "수평적 혼돈",
+    "description": "모든것이 평등하게 혼돈의 상태라면 이 또한 수평적 상태로 볼수 있다고 아가요르는 생각하는 듯 합니다.",
+    "icon": 806,
+    "priceFactor": 0.0,
+    "passiveType": 131,
+    "types": [
+      53,
+      1024,
+      109
+    ],
+    "effects": [
+      0.04,
+      0.03,
+      0.07
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 53,
+        "type_name": "적들의 카오스 취약성 {0}",
+        "value": 0.04,
+        "value_display": "4%",
+        "description": "적들의 카오스 취약성 4%"
+      },
+      {
+        "type_code": 1024,
+        "type_name": "소울 클릭 배수 증폭 {0}",
+        "value": 0.03,
+        "value_display": "3%",
+        "description": "소울 클릭 배수 증폭 3%"
+      },
+      {
+        "type_code": 109,
+        "type_name": "뿔레정수 획득 확률 {0}",
+        "value": 0.07,
+        "value_display": "7.0%",
+        "description": "뿔레정수 획득 확률 7.0%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 959,
+    "name": "개그?담당 니모",
+    "description": "니모는 자기가 입담이 좋아서 개그담당이 된거라고 착각하고 있습니다.",
+    "icon": 808,
+    "priceFactor": 0.0,
+    "passiveType": 132,
+    "types": [
+      300,
+      496,
+      0
+    ],
+    "effects": [
+      0.14,
+      0.005,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 300,
+        "type_name": "아티팩트 드랍 확률 {0}",
+        "value": 0.14,
+        "value_display": "14.0%",
+        "description": "아티팩트 드랍 확률 14.0%"
+      },
+      {
+        "type_code": 496,
+        "type_name": "종족이 어류인 용병의 행운 확률 +[어류] 용병 수 X {0}%",
+        "value": 0.005,
+        "value_display": "0.5%",
+        "description": "종족이 어류인 용병의 행운 확률 +[어류] 용병 수 X 0.5%%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 963,
+    "name": "칼리아의 탐욕",
+    "description": "칼리아는 자신이 탐욕적인게 아니라, 그저 남들이 가진것들을 빼았고 싶은 욕구에 솔직할 뿐이라고 합니다.",
+    "icon": 811,
+    "priceFactor": 0.0,
+    "passiveType": 133,
+    "types": [
+      501,
+      502,
+      112
+    ],
+    "effects": [
+      0.006,
+      2.0,
+      0.03
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 501,
+        "type_name": "모든 용병의 행운 확률 +[탐욕적임] 용병 수 X {0}%",
+        "value": 0.006,
+        "value_display": "0.6%",
+        "description": "모든 용병의 행운 확률 +[탐욕적임] 용병 수 X 0.6%%"
+      },
+      {
+        "type_code": 502,
+        "type_name": "데미지 +골드 획득량 X {0}",
+        "value": 2.0,
+        "value_display": "+2",
+        "description": "데미지 +골드 획득량 X +2"
+      },
+      {
+        "type_code": 112,
+        "type_name": "적들의 회피 확률 감소 {0}",
+        "value": 0.03,
+        "value_display": "3%",
+        "description": "적들의 회피 확률 감소 3%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 966,
+    "name": "백의의 천사",
+    "description": "레베카가 전장에서 부상입은 병사들을 간호하는 모습은 마치 흰옷을 입은 천사 같다고 합니다.",
+    "icon": 814,
+    "priceFactor": 0.0,
+    "passiveType": 134,
+    "types": [
+      253,
+      281,
+      108
+    ],
+    "effects": [
+      0.025,
+      0.02,
+      0.1
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 253,
+        "type_name": "적들의 흡수 확률 감소 {0}",
+        "value": 0.025,
+        "value_display": "2.5%",
+        "description": "적들의 흡수 확률 감소 2.5%"
+      },
+      {
+        "type_code": 281,
+        "type_name": "적들의 약화 효과 감소 {0}",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "적들의 약화 효과 감소 2%"
+      },
+      {
+        "type_code": 108,
+        "type_name": "모든 용병의 피격 지속시간 감소 {0}",
+        "value": 0.1,
+        "value_display": "10%",
+        "description": "모든 용병의 피격 지속시간 감소 10%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 970,
+    "name": "나비효과",
+    "description": "[스톰 클리프]에 있는 나비의 날개짓이 [미들랜드]에 토네이도를 발생 시킬수도 있다고 합니다.",
+    "icon": 818,
+    "priceFactor": 0.0,
+    "passiveType": 135,
+    "types": [
+      137,
+      9,
+      53
+    ],
+    "effects": [
+      0.08,
+      -1.0,
+      0.025
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 137,
+        "type_name": "행운 확률 {0}",
+        "value": 0.08,
+        "value_display": "8%",
+        "description": "행운 확률 8%"
+      },
+      {
+        "type_code": 9,
+        "type_name": "공격 속도 {0}",
+        "value": -1.0,
+        "value_display": "+-1",
+        "description": "공격 속도 +-1"
+      },
+      {
+        "type_code": 53,
+        "type_name": "적들의 카오스 취약성 {0}",
+        "value": 0.025,
+        "value_display": "2.5%",
+        "description": "적들의 카오스 취약성 2.5%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 978,
+    "name": "콰소스 랜스",
+    "description": "르네는 [기포드]에게 배운 단독 창술에 [콰소스]로 부터 받은 마력을 결합하여 새로운 창술을 만들어 냈습니다.",
+    "icon": 825,
+    "priceFactor": 0.0,
+    "passiveType": 136,
+    "types": [
+      32,
+      193,
+      543
+    ],
+    "effects": [
+      0.1,
+      0.003,
+      1.4
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 32,
+        "type_name": "연타 확률 {0}",
+        "value": 0.1,
+        "value_display": "10%",
+        "description": "연타 확률 10%"
+      },
+      {
+        "type_code": 193,
+        "type_name": "같은 대상 일반 공격시 데미지 중첩 {0}",
+        "value": 0.003,
+        "value_display": "0.3%",
+        "description": "같은 대상 일반 공격시 데미지 중첩 0.3%"
+      },
+      {
+        "type_code": 543,
+        "type_name": "효과543",
+        "value": 1.4,
+        "value_display": "+1.4",
+        "description": "효과543"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 982,
+    "name": "하프 엘프+",
+    "description": "우라칸은 누가봐도 오크로 보이지만, 자신의 어머니가 엘프이기 때문에 스스로는 하프 엘프라고 생각하고 있습니다.",
+    "icon": 830,
+    "priceFactor": 0.0,
+    "passiveType": 137,
+    "types": [
+      1146,
+      518,
+      519
+    ],
+    "effects": [
+      0.026,
+      0.06,
+      0.006
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1146,
+        "type_name": "모든 물리 용병의 치명타 확률 {0}",
+        "value": 0.026,
+        "value_display": "2.6%",
+        "description": "모든 물리 용병의 치명타 확률 2.6%"
+      },
+      {
+        "type_code": 518,
+        "type_name": "최종 데미지 +[엘프] 용병 수 X {0}%",
+        "value": 0.06,
+        "value_display": "6%",
+        "description": "최종 데미지 +[엘프] 용병 수 X 6%%"
+      },
+      {
+        "type_code": 519,
+        "type_name": "모든 용병의 행운 확률 +[엘프] 용병 수 X {0}%",
+        "value": 0.006,
+        "value_display": "0.6%",
+        "description": "모든 용병의 행운 확률 +[엘프] 용병 수 X 0.6%%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 990,
+    "name": "광적인 용맹+",
+    "description": "전장에서 미쳐 날뛰는 하프단의 모습은 적들의 간담을 서늘하게 합니다.",
+    "icon": 832,
+    "priceFactor": 0.0,
+    "passiveType": 138,
+    "types": [
+      109,
+      26,
+      130
+    ],
+    "effects": [
+      0.08,
+      1.2,
+      30.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 109,
+        "type_name": "뿔레정수 획득 확률 {0}",
+        "value": 0.08,
+        "value_display": "8%",
+        "description": "뿔레정수 획득 확률 8%"
+      },
+      {
+        "type_code": 26,
+        "type_name": "강타 배수 {0}",
+        "value": 1.2,
+        "value_display": "+1.2",
+        "description": "강타 배수 +1.2"
+      },
+      {
+        "type_code": 130,
+        "type_name": "추가 데미지 +총 각성수 X {0}",
+        "value": 30.0,
+        "value_display": "+30",
+        "description": "추가 데미지 +총 각성수 X +30"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 994,
+    "name": "독자 연구",
+    "description": "도서관에서 훔친 고서들로 독자적으로 마법을 연구하였습니다. 고대의 악마가 쓴 책들이라고 합니다.",
+    "icon": 836,
+    "priceFactor": 0.0,
+    "passiveType": 139,
+    "types": [
+      299,
+      33,
+      27
+    ],
+    "effects": [
+      0.25,
+      0.025,
+      0.25
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 299,
+        "type_name": "자수정 드랍 확률 {0}",
+        "value": 0.25,
+        "value_display": "25%",
+        "description": "자수정 드랍 확률 25%"
+      },
+      {
+        "type_code": 33,
+        "type_name": "모든 용병의 연타 확률 {0}",
+        "value": 0.025,
+        "value_display": "2.5%",
+        "description": "모든 용병의 연타 확률 2.5%"
+      },
+      {
+        "type_code": 27,
+        "type_name": "모든 용병의 강타 배수 {0}",
+        "value": 0.25,
+        "value_display": "25%",
+        "description": "모든 용병의 강타 배수 25%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1000,
+    "name": "아카식 리딩",
+    "description": "[빛의 탄생] 부터 [어둠의 소멸] 까지의 모든 내용이 기록되어 있다는 [아카식 레코드]를 읽을 수 있는 능력입니다.",
+    "icon": 842,
+    "priceFactor": 0.0,
+    "passiveType": 140,
+    "types": [
+      99,
+      251,
+      0
+    ],
+    "effects": [
+      0.001,
+      0.0008,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 99,
+        "type_name": "모든 용병의 데미지 +총 각성수 X {0}%",
+        "value": 0.001,
+        "value_display": "0.1%",
+        "description": "모든 용병의 데미지 +총 각성수 X 0.1%%"
+      },
+      {
+        "type_code": 251,
+        "type_name": "모든 용병의 클릭 데미지 +총 각성수 X {0}%",
+        "value": 0.0008,
+        "value_display": "0.1%",
+        "description": "모든 용병의 클릭 데미지 +총 각성수 X 0.1%%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1005,
+    "name": "일격필살",
+    "description": "한번의 공격에 모든것을 거는 겁니다. 실패 했을때의 일은 생각조차 하지 않습니다.",
+    "icon": 848,
+    "priceFactor": 0.0,
+    "passiveType": 141,
+    "types": [
+      1001,
+      541,
+      709
+    ],
+    "effects": [
+      0.44,
+      2.2,
+      0.088
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1001,
+        "type_name": "강타 배수 증폭 {0}",
+        "value": 0.44,
+        "value_display": "44%",
+        "description": "강타 배수 증폭 44%"
+      },
+      {
+        "type_code": 541,
+        "type_name": "{0}% 확률로 모든 데미지가 {1}배로 증폭",
+        "value": 2.2,
+        "value_display": "+2.2",
+        "description": "+2.2% 확률로 모든 데미지가 {1}배로 증폭"
+      },
+      {
+        "type_code": 709,
+        "type_name": "혼합 용병만 공격 할 때 선제 공격 확률 {0}",
+        "value": 0.088,
+        "value_display": "8.8%",
+        "description": "혼합 용병만 공격 할 때 선제 공격 확률 8.8%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1017,
+    "name": "페가 스피어+",
+    "description": "페가시가 만든 창술입니다. 두개의 창을 현란하게 사용하며 적들에게 강력한 공격을 퍼붓습니다.",
+    "icon": 856,
+    "priceFactor": 0.0,
+    "passiveType": 142,
+    "types": [
+      257,
+      124,
+      550
+    ],
+    "effects": [
+      0.04,
+      0.3,
+      5.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 257,
+        "type_name": "뿔레 오브 드랍 확률 {0}",
+        "value": 0.04,
+        "value_display": "4%",
+        "description": "뿔레 오브 드랍 확률 4%"
+      },
+      {
+        "type_code": 124,
+        "type_name": "데미지 편차 {0}",
+        "value": 0.3,
+        "value_display": "30%",
+        "description": "데미지 편차 30%"
+      },
+      {
+        "type_code": 550,
+        "type_name": "효과550",
+        "value": 5.0,
+        "value_display": "+5",
+        "description": "효과550"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1020,
+    "name": "핫 핑크",
+    "description": "아리안은 머리색도 핫 핑크 입니다.",
+    "icon": 861,
+    "priceFactor": 0.0,
+    "passiveType": 205,
+    "types": [
+      38,
+      10,
+      51
+    ],
+    "effects": [
+      0.02,
+      0.1,
+      0.04
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 38,
+        "type_name": "클릭 크리티컬 확률 {0}",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "클릭 크리티컬 확률 2%"
+      },
+      {
+        "type_code": 10,
+        "type_name": "모든 용병의 공격 속도 {0}",
+        "value": 0.1,
+        "value_display": "10%",
+        "description": "모든 용병의 공격 속도 10%"
+      },
+      {
+        "type_code": 51,
+        "type_name": "적들의 물리 저항력 감소 {0}",
+        "value": 0.04,
+        "value_display": "4%",
+        "description": "적들의 물리 저항력 감소 4%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1021,
+    "name": "인생은 한번뿐",
+    "description": "시애나는 한번뿐인 인생, 그 어떤 후회도 남지 않도록, 극도로 충동적으로 살아 갑니다. 인생이 카오스 그 자체 입니다.",
+    "icon": 865,
+    "priceFactor": 0.0,
+    "passiveType": 143,
+    "types": [
+      27,
+      53,
+      538
+    ],
+    "effects": [
+      0.4,
+      0.03,
+      0.03
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 27,
+        "type_name": "모든 용병의 강타 배수 {0}",
+        "value": 0.4,
+        "value_display": "40%",
+        "description": "모든 용병의 강타 배수 40%"
+      },
+      {
+        "type_code": 53,
+        "type_name": "적들의 카오스 취약성 {0}",
+        "value": 0.03,
+        "value_display": "3%",
+        "description": "적들의 카오스 취약성 3%"
+      },
+      {
+        "type_code": 538,
+        "type_name": "적들의 피해 면제 효과 감소 {0}",
+        "value": 0.03,
+        "value_display": "3%",
+        "description": "적들의 피해 면제 효과 감소 3%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1029,
+    "name": "나가 주술",
+    "description": "고대 부터 내려온 나가의 주술을 쓰기 위해서는 힘과 지능도 필요하지만 매력도 필요하다고 합니다.",
+    "icon": 868,
+    "priceFactor": 0.0,
+    "passiveType": 144,
+    "types": [
+      51,
+      52,
+      39
+    ],
+    "effects": [
+      0.04,
+      0.05,
+      2.5
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 51,
+        "type_name": "적들의 물리 저항력 감소 {0}",
+        "value": 0.04,
+        "value_display": "4%",
+        "description": "적들의 물리 저항력 감소 4%"
+      },
+      {
+        "type_code": 52,
+        "type_name": "적들의 마법 저항력 감소 {0}",
+        "value": 0.05,
+        "value_display": "5%",
+        "description": "적들의 마법 저항력 감소 5%"
+      },
+      {
+        "type_code": 39,
+        "type_name": "클릭 크리티컬 배수 {0}",
+        "value": 2.5,
+        "value_display": "+2.5",
+        "description": "클릭 크리티컬 배수 +2.5"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1030,
+    "name": "연못 지킴이",
+    "description": "트위기는 키는 작지만 당당 합니다. 땅에서 재면 가장 작지만 하늘에서 재면 가장 크다고 말하곤 합니다.",
+    "icon": 869,
+    "priceFactor": 0.0,
+    "passiveType": 145,
+    "types": [
+      307,
+      40,
+      138
+    ],
+    "effects": [
+      0.2,
+      0.022,
+      0.01
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 307,
+        "type_name": "치명타 확률 {0}",
+        "value": 0.2,
+        "value_display": "20%",
+        "description": "치명타 확률 20%"
+      },
+      {
+        "type_code": 40,
+        "type_name": "소울 클릭 확률 {0}",
+        "value": 0.022,
+        "value_display": "2.2%",
+        "description": "소울 클릭 확률 2.2%"
+      },
+      {
+        "type_code": 138,
+        "type_name": "모든 용병의 행운 확률 {0}",
+        "value": 0.01,
+        "value_display": "1%",
+        "description": "모든 용병의 행운 확률 1%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1035,
+    "name": "타이탄의 보복",
+    "description": "플레이드는 열등한 종족들이 고귀한 타이탄인 자신에게 상처를 입히는것을 용납하지 않습니다.",
+    "icon": 873,
+    "priceFactor": 0.0,
+    "passiveType": 146,
+    "types": [
+      307,
+      250,
+      583
+    ],
+    "effects": [
+      0.2,
+      0.2,
+      0.08
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 307,
+        "type_name": "치명타 확률 {0}",
+        "value": 0.2,
+        "value_display": "20%",
+        "description": "치명타 확률 20%"
+      },
+      {
+        "type_code": 250,
+        "type_name": "더블 어택 확률 {0}",
+        "value": 0.2,
+        "value_display": "20%",
+        "description": "더블 어택 확률 20%"
+      },
+      {
+        "type_code": 583,
+        "type_name": "피격시 데미지 증가 {0}",
+        "value": 0.08,
+        "value_display": "8%",
+        "description": "피격시 데미지 증가 8%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1040,
+    "name": "메가 스케일",
+    "description": "메가리자드의 견고한 비늘은 전장에서 훌륭한 갑옷이 되어 줍니다.",
+    "icon": 877,
+    "priceFactor": 0.0,
+    "passiveType": 198,
+    "types": [
+      9,
+      250,
+      107
+    ],
+    "effects": [
+      0.5,
+      0.25,
+      0.25
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 9,
+        "type_name": "공격 속도 {0}",
+        "value": 0.5,
+        "value_display": "50%",
+        "description": "공격 속도 50%"
+      },
+      {
+        "type_code": 250,
+        "type_name": "더블 어택 확률 {0}",
+        "value": 0.25,
+        "value_display": "25%",
+        "description": "더블 어택 확률 25%"
+      },
+      {
+        "type_code": 107,
+        "type_name": "피격 지속시간 감소 {0}",
+        "value": 0.25,
+        "value_display": "25%",
+        "description": "피격 지속시간 감소 25%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1043,
+    "name": "고문 is Life",
+    "description": "툴팁미씽은 깨어있는 대부분의 시간을 고문 연구를 하며 보냅니다.",
+    "icon": 884,
+    "priceFactor": 0.0,
+    "passiveType": 147,
+    "types": [
+      539,
+      257,
+      588
+    ],
+    "effects": [
+      0.03,
+      0.03,
+      -5.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 539,
+        "type_name": "적들의 반사 확률 감소 {0}",
+        "value": 0.03,
+        "value_display": "3%",
+        "description": "적들의 반사 확률 감소 3%"
+      },
+      {
+        "type_code": 257,
+        "type_name": "뿔레 오브 드랍 확률 {0}",
+        "value": 0.03,
+        "value_display": "3%",
+        "description": "뿔레 오브 드랍 확률 3%"
+      },
+      {
+        "type_code": 588,
+        "type_name": "마르셀루스 행운 불가",
+        "value": -5.0,
+        "value_display": "+-5",
+        "description": "마르셀루스 행운 불가"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1050,
+    "name": "배드 가이",
+    "description": "글렌이 가오수의 [5:5 검투 대결]에서 사용 했었던 링네임 입니다.",
+    "icon": 887,
+    "priceFactor": 0.0,
+    "passiveType": 148,
+    "types": [
+      539,
+      257,
+      176
+    ],
+    "effects": [
+      0.03,
+      0.03,
+      0.18
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 539,
+        "type_name": "적들의 반사 확률 감소 {0}",
+        "value": 0.03,
+        "value_display": "3%",
+        "description": "적들의 반사 확률 감소 3%"
+      },
+      {
+        "type_code": 257,
+        "type_name": "뿔레 오브 드랍 확률 {0}",
+        "value": 0.03,
+        "value_display": "3%",
+        "description": "뿔레 오브 드랍 확률 3%"
+      },
+      {
+        "type_code": 176,
+        "type_name": "피격 회피 확률 {0}",
+        "value": 0.18,
+        "value_display": "18%",
+        "description": "피격 회피 확률 18%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1056,
+    "name": "창조주의 형상",
+    "description": "사람들은 안드레의 잘생긴 얼굴은 분명 창조주가 스스로의 모습을 본따서 만든것이라고 생각 합니다.",
+    "icon": 888,
+    "priceFactor": 0.0,
+    "passiveType": 149,
+    "types": [
+      539,
+      257,
+      107
+    ],
+    "effects": [
+      0.03,
+      0.03,
+      0.24
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 539,
+        "type_name": "적들의 반사 확률 감소 {0}",
+        "value": 0.03,
+        "value_display": "3%",
+        "description": "적들의 반사 확률 감소 3%"
+      },
+      {
+        "type_code": 257,
+        "type_name": "뿔레 오브 드랍 확률 {0}",
+        "value": 0.03,
+        "value_display": "3%",
+        "description": "뿔레 오브 드랍 확률 3%"
+      },
+      {
+        "type_code": 107,
+        "type_name": "피격 지속시간 감소 {0}",
+        "value": 0.24,
+        "value_display": "24%",
+        "description": "피격 지속시간 감소 24%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1073,
+    "name": "쿠카이 친위대 문양+",
+    "description": "자신의 뼈 1개를 바치고 쿠카이에게 충성을 맹세한 친위대원만이 받는 문양 입니다.",
+    "icon": 215,
+    "priceFactor": 0.0,
+    "passiveType": 150,
+    "types": [
+      602,
+      112,
+      0
+    ],
+    "effects": [
+      0.9,
+      0.04,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 602,
+        "type_name": "쿠카이의 추가 클릭 확률 {0}",
+        "value": 0.9,
+        "value_display": "90%",
+        "description": "쿠카이의 추가 클릭 확률 90%"
+      },
+      {
+        "type_code": 112,
+        "type_name": "적들의 회피 확률 감소 {0}",
+        "value": 0.04,
+        "value_display": "4%",
+        "description": "적들의 회피 확률 감소 4%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1079,
+    "name": "프리츠 골렘",
+    "description": "동력원이 없어 작동을 멈춘 고대의 골렘에 프리츠가 탑승하자, 골렘이 작동하기 시작하였습니다.",
+    "icon": 910,
+    "priceFactor": 0.0,
+    "passiveType": 151,
+    "types": [
+      107,
+      175,
+      0
+    ],
+    "effects": [
+      0.5,
+      0.3,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 107,
+        "type_name": "피격 지속시간 감소 {0}",
+        "value": 0.5,
+        "value_display": "50%",
+        "description": "피격 지속시간 감소 50%"
+      },
+      {
+        "type_code": 175,
+        "type_name": "공포 극복 확률 {0}",
+        "value": 0.3,
+        "value_display": "30%",
+        "description": "공포 극복 확률 30%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1081,
+    "name": "클로로티카의 느긋함",
+    "description": "툭하면 배고파 하는 비식물들과는 다르게 클로로티카는 전장에서 고립되어 있어도 느긋할 수 있습니다.",
+    "icon": 912,
+    "priceFactor": 0.0,
+    "passiveType": 152,
+    "types": [
+      42,
+      281,
+      539
+    ],
+    "effects": [
+      0.3,
+      0.03,
+      0.02
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 42,
+        "type_name": "자동 클릭 속도 {0}",
+        "value": 0.3,
+        "value_display": "30%",
+        "description": "자동 클릭 속도 30%"
+      },
+      {
+        "type_code": 281,
+        "type_name": "적들의 약화 효과 감소 {0}",
+        "value": 0.03,
+        "value_display": "3%",
+        "description": "적들의 약화 효과 감소 3%"
+      },
+      {
+        "type_code": 539,
+        "type_name": "적들의 반사 확률 감소 {0}",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "적들의 반사 확률 감소 2%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1084,
+    "name": "엘프견",
+    "description": "엘프와 같이 아름다운 용모를 지녔기에 붙여진 별명입니다. 엄마가 엘프니까 당연한것이긴 합니다.",
+    "icon": 915,
+    "priceFactor": 0.0,
+    "passiveType": 153,
+    "types": [
+      43,
+      176,
+      604
+    ],
+    "effects": [
+      0.6,
+      0.3,
+      10.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 43,
+        "type_name": "추가 클릭 확률 {0}",
+        "value": 0.6,
+        "value_display": "60%",
+        "description": "추가 클릭 확률 60%"
+      },
+      {
+        "type_code": 176,
+        "type_name": "피격 회피 확률 {0}",
+        "value": 0.3,
+        "value_display": "30%",
+        "description": "피격 회피 확률 30%"
+      },
+      {
+        "type_code": 604,
+        "type_name": "효과604",
+        "value": 10.0,
+        "value_display": "+10",
+        "description": "효과604"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1088,
+    "name": "남겨진 어둠",
+    "description": "사미에르는 다시 잘생겨졌지만, 거울에 비치는 모습은 여전히 어둠의 자식입니다.",
+    "icon": 919,
+    "priceFactor": 0.0,
+    "passiveType": 154,
+    "types": [
+      15,
+      43,
+      0
+    ],
+    "effects": [
+      1.0,
+      0.5,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 15,
+        "type_name": "클릭 데미지 {0}",
+        "value": 1.0,
+        "value_display": "+1",
+        "description": "클릭 데미지 +1"
+      },
+      {
+        "type_code": 43,
+        "type_name": "추가 클릭 확률 {0}",
+        "value": 0.5,
+        "value_display": "50%",
+        "description": "추가 클릭 확률 50%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1089,
+    "name": "프로페셔널리즘",
+    "description": "전장은 각자의 전문성이 빛을 발하는 곳입니다. 레무도 자신의 접대 능력을 발휘중입니다.",
+    "icon": 920,
+    "priceFactor": 0.0,
+    "passiveType": 155,
+    "types": [
+      538,
+      539,
+      0
+    ],
+    "effects": [
+      0.03,
+      0.03,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 538,
+        "type_name": "적들의 피해 면제 효과 감소 {0}",
+        "value": 0.03,
+        "value_display": "3%",
+        "description": "적들의 피해 면제 효과 감소 3%"
+      },
+      {
+        "type_code": 539,
+        "type_name": "적들의 반사 확률 감소 {0}",
+        "value": 0.03,
+        "value_display": "3%",
+        "description": "적들의 반사 확률 감소 3%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1093,
+    "name": "기계신",
+    "description": "데우스 마키나는 스스로를 신적인 존재로 여기고 있습니다.",
+    "icon": 924,
+    "priceFactor": 0.0,
+    "passiveType": 156,
+    "types": [
+      610,
+      170,
+      0
+    ],
+    "effects": [
+      0.01,
+      0.005,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 610,
+        "type_name": "종족이 기계인 용병의 행운 확률 +[기계] 용병 수 X {0}%",
+        "value": 0.01,
+        "value_display": "1%",
+        "description": "종족이 기계인 용병의 행운 확률 +[기계] 용병 수 X 1%%"
+      },
+      {
+        "type_code": 170,
+        "type_name": "모든 용병의 데미지 +자신의 각성수 X {0}%",
+        "value": 0.005,
+        "value_display": "0.5%",
+        "description": "모든 용병의 데미지 +자신의 각성수 X 0.5%%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1100,
+    "name": "크사르팍스의 약혼녀",
+    "description": "크사르팍스가 지상을 정복한 후, 지상에서 성대한 결혼식을 치루기로 하였습니다. 결혼 선물은 노예 [제이나]가 될 것입니다.",
+    "icon": 931,
+    "priceFactor": 0.0,
+    "passiveType": 157,
+    "types": [
+      612,
+      613,
+      0
+    ],
+    "effects": [
+      0.16,
+      0.08,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 612,
+        "type_name": "크사르팍스와 크사르파트라의 공포 극복 확률 {0}",
+        "value": 0.16,
+        "value_display": "16%",
+        "description": "크사르팍스와 크사르파트라의 공포 극복 확률 16%"
+      },
+      {
+        "type_code": 613,
+        "type_name": "제이나 참전시 모든 용병의 성장 데미지 {0}",
+        "value": 0.08,
+        "value_display": "8%",
+        "description": "제이나 참전시 모든 용병의 성장 데미지 8%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1104,
+    "name": "토끼의 신속함",
+    "description": "토끼들은 빨리 싸우고 빨리 끝납니다.",
+    "icon": 921,
+    "priceFactor": 0.0,
+    "passiveType": 158,
+    "types": [
+      304,
+      627,
+      624
+    ],
+    "effects": [
+      0.1,
+      0.004,
+      0.08
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 304,
+        "type_name": "선제 공격 확률 {0}",
+        "value": 0.1,
+        "value_display": "10%",
+        "description": "선제 공격 확률 10%"
+      },
+      {
+        "type_code": 627,
+        "type_name": "종족이 토끼인 용병의 선제 공격 확률 +[토끼] 용병 수 X {0}%",
+        "value": 0.004,
+        "value_display": "0.4%",
+        "description": "종족이 토끼인 용병의 선제 공격 확률 +[토끼] 용병 수 X 0.4%%"
+      },
+      {
+        "type_code": 624,
+        "type_name": "모든 용병의 행운 배수 +[토끼] 용병 수 X {0}",
+        "value": 0.08,
+        "value_display": "8%",
+        "description": "모든 용병의 행운 배수 +[토끼] 용병 수 X 8%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1111,
+    "name": "메도우의 소망",
+    "description": "메도우는 커서 훌륭한 기사가 되고자 합니다.",
+    "icon": 941,
+    "priceFactor": 0.0,
+    "passiveType": 159,
+    "types": [
+      5,
+      24,
+      112
+    ],
+    "effects": [
+      1.0,
+      0.03,
+      0.04
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 5,
+        "type_name": "모든 혼합 용병의 데미지 {0}",
+        "value": 1.0,
+        "value_display": "+1",
+        "description": "모든 혼합 용병의 데미지 +1"
+      },
+      {
+        "type_code": 24,
+        "type_name": "모든 혼합 용병의 강타 확률 {0}",
+        "value": 0.03,
+        "value_display": "3%",
+        "description": "모든 혼합 용병의 강타 확률 3%"
+      },
+      {
+        "type_code": 112,
+        "type_name": "적들의 회피 확률 감소 {0}",
+        "value": 0.04,
+        "value_display": "4%",
+        "description": "적들의 회피 확률 감소 4%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1112,
+    "name": "노력의 결실",
+    "description": "메도우의 노력으로 칼을 쥘 손이 생기고 갑옷을 입을 몸통이 생겨 기사가 될 수 있었습니다.",
+    "icon": 938,
+    "priceFactor": 0.0,
+    "passiveType": 160,
+    "types": [
+      30,
+      1031,
+      109
+    ],
+    "effects": [
+      0.4,
+      0.03,
+      0.07
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 30,
+        "type_name": "모든 혼합 용병의 강타 배수 {0}",
+        "value": 0.4,
+        "value_display": "40%",
+        "description": "모든 혼합 용병의 강타 배수 40%"
+      },
+      {
+        "type_code": 1031,
+        "type_name": "모든 혼합 용병의 피격 회피 확률 {0}",
+        "value": 0.03,
+        "value_display": "3%",
+        "description": "모든 혼합 용병의 피격 회피 확률 3%"
+      },
+      {
+        "type_code": 109,
+        "type_name": "뿔레정수 획득 확률 {0}",
+        "value": 0.07,
+        "value_display": "7.0%",
+        "description": "뿔레정수 획득 확률 7.0%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1117,
+    "name": "집행자의 정확성",
+    "description": "집행자는 목적을 신속하고 정확하게 달성 할 수 있습니다.",
+    "icon": 306,
+    "priceFactor": 0.0,
+    "passiveType": 161,
+    "types": [
+      304,
+      1026,
+      56
+    ],
+    "effects": [
+      0.07,
+      0.08,
+      0.04
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 304,
+        "type_name": "선제 공격 확률 {0}",
+        "value": 0.07,
+        "value_display": "7.0%",
+        "description": "선제 공격 확률 7.0%"
+      },
+      {
+        "type_code": 1026,
+        "type_name": "절대명중 확률 {0}",
+        "value": 0.08,
+        "value_display": "8%",
+        "description": "절대명중 확률 8%"
+      },
+      {
+        "type_code": 56,
+        "type_name": "공격 무효화 관통 {0}",
+        "value": 0.04,
+        "value_display": "4%",
+        "description": "공격 무효화 관통 4%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1119,
+    "name": "진동 칼날",
+    "description": "외계 물질로 제작된 미티어의 칼날은 언제나 미세하게 진동하고 있습니다.",
+    "icon": 943,
+    "priceFactor": 0.0,
+    "passiveType": 162,
+    "types": [
+      7,
+      176,
+      282
+    ],
+    "effects": [
+      8000.0,
+      0.36,
+      0.04
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 7,
+        "type_name": "추가 데미지 {0}",
+        "value": 8000.0,
+        "value_display": "+8000",
+        "description": "추가 데미지 +8000"
+      },
+      {
+        "type_code": 176,
+        "type_name": "피격 회피 확률 {0}",
+        "value": 0.36,
+        "value_display": "36%",
+        "description": "피격 회피 확률 36%"
+      },
+      {
+        "type_code": 282,
+        "type_name": "적들의 둔화 효과 감소 {0}",
+        "value": 0.04,
+        "value_display": "4%",
+        "description": "적들의 둔화 효과 감소 4%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1120,
+    "name": "매직 매크로",
+    "description": "이그레는 마법서의 내용을 머리에 자동으로 주입시키는 마법을 만들어 하루종일 돌리고 있습니다.",
+    "icon": 944,
+    "priceFactor": 0.0,
+    "passiveType": 163,
+    "types": [
+      4,
+      52,
+      174
+    ],
+    "effects": [
+      0.4,
+      0.07,
+      0.06
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 4,
+        "type_name": "모든 마법 용병의 데미지 {0}",
+        "value": 0.4,
+        "value_display": "40%",
+        "description": "모든 마법 용병의 데미지 40%"
+      },
+      {
+        "type_code": 52,
+        "type_name": "적들의 마법 저항력 감소 {0}",
+        "value": 0.07,
+        "value_display": "7.0%",
+        "description": "적들의 마법 저항력 감소 7.0%"
+      },
+      {
+        "type_code": 174,
+        "type_name": "뿔레조각 드랍 확률 {0}",
+        "value": 0.06,
+        "value_display": "6%",
+        "description": "뿔레조각 드랍 확률 6%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1121,
+    "name": "도찐개찐",
+    "description": "도키는 오키 보다 큽니다.",
+    "icon": 945,
+    "priceFactor": 0.0,
+    "passiveType": 164,
+    "types": [
+      56,
+      642,
+      0
+    ],
+    "effects": [
+      0.03,
+      0.04,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 56,
+        "type_name": "공격 무효화 관통 {0}",
+        "value": 0.03,
+        "value_display": "3%",
+        "description": "공격 무효화 관통 3%"
+      },
+      {
+        "type_code": 642,
+        "type_name": "오키 참전시 적들의 흡수 확률 감소 {0}",
+        "value": 0.04,
+        "value_display": "4%",
+        "description": "오키 참전시 적들의 흡수 확률 감소 4%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1124,
+    "name": "애라를 위하여+",
+    "description": "미스터 페퍼는 애라의 곁에서 함께 싸우고자 합니다.",
+    "icon": 947,
+    "priceFactor": 0.0,
+    "passiveType": 165,
+    "types": [
+      440,
+      648,
+      0
+    ],
+    "effects": [
+      0.02,
+      0.0004,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 440,
+        "type_name": "모든 마법 용병의 행운 확률 {0}",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "모든 마법 용병의 행운 확률 2%"
+      },
+      {
+        "type_code": 648,
+        "type_name": "애라 참전시 모든 마법 용병의 데미지 +총 각성수 X {0}%",
+        "value": 0.0004,
+        "value_display": "0.0%",
+        "description": "애라 참전시 모든 마법 용병의 데미지 +총 각성수 X 0.0%%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1126,
+    "name": "지난날의 기억",
+    "description": "한때는 그저 갈곳 없는 고양이였을 뿐입니다.",
+    "icon": 959,
+    "priceFactor": 0.0,
+    "passiveType": 166,
+    "types": [
+      32,
+      20,
+      307
+    ],
+    "effects": [
+      -5.0,
+      -0.15,
+      -0.09
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 32,
+        "type_name": "연타 확률 {0}",
+        "value": -5.0,
+        "value_display": "+-5",
+        "description": "연타 확률 +-5"
+      },
+      {
+        "type_code": 20,
+        "type_name": "강타 확률 {0}",
+        "value": -0.15,
+        "value_display": "-15%",
+        "description": "강타 확률 -15%"
+      },
+      {
+        "type_code": 307,
+        "type_name": "치명타 확률 {0}",
+        "value": -0.09,
+        "value_display": "-9%",
+        "description": "치명타 확률 -9%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1132,
+    "name": "삽질",
+    "description": "삽질은 도굴꾼의 기본 소양입니다.",
+    "icon": 951,
+    "priceFactor": 0.0,
+    "passiveType": 203,
+    "types": [
+      300,
+      354,
+      1046
+    ],
+    "effects": [
+      0.2,
+      0.2,
+      0.0005
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 300,
+        "type_name": "아티팩트 드랍 확률 {0}",
+        "value": 0.2,
+        "value_display": "20%",
+        "description": "아티팩트 드랍 확률 20%"
+      },
+      {
+        "type_code": 354,
+        "type_name": "아티팩트 효과 증폭 {0}",
+        "value": 0.2,
+        "value_display": "20%",
+        "description": "아티팩트 효과 증폭 20%"
+      },
+      {
+        "type_code": 1046,
+        "type_name": "모든 트리니티 용병의 데미지 +총 각성수 X {0}%",
+        "value": 0.0005,
+        "value_display": "0.1%",
+        "description": "모든 트리니티 용병의 데미지 +총 각성수 X 0.1%%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1138,
+    "name": "님프의 유혹",
+    "description": "님프의 유혹은 꽤 천박하다고 합니다.",
+    "icon": 957,
+    "priceFactor": 0.0,
+    "passiveType": 167,
+    "types": [
+      46,
+      50,
+      253
+    ],
+    "effects": [
+      0.5,
+      0.05,
+      0.03
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 46,
+        "type_name": "골드 획득량 {0}",
+        "value": 0.5,
+        "value_display": "50%",
+        "description": "골드 획득량 50%"
+      },
+      {
+        "type_code": 50,
+        "type_name": "모든 용병의 레벨업 및 스킬 학습 비용 감소 {0}",
+        "value": 0.05,
+        "value_display": "5%",
+        "description": "모든 용병의 레벨업 및 스킬 학습 비용 감소 5%"
+      },
+      {
+        "type_code": 253,
+        "type_name": "적들의 흡수 확률 감소 {0}",
+        "value": 0.03,
+        "value_display": "3%",
+        "description": "적들의 흡수 확률 감소 3%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1140,
+    "name": "이로우치",
+    "description": "이유는 모르지만 금빛 렉스는 이로우치라고 불립니다.",
+    "icon": 962,
+    "priceFactor": 0.0,
+    "passiveType": 168,
+    "types": [
+      250,
+      193,
+      0
+    ],
+    "effects": [
+      0.15,
+      0.005,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 250,
+        "type_name": "더블 어택 확률 {0}",
+        "value": 0.15,
+        "value_display": "15%",
+        "description": "더블 어택 확률 15%"
+      },
+      {
+        "type_code": 193,
+        "type_name": "같은 대상 일반 공격시 데미지 중첩 {0}",
+        "value": 0.005,
+        "value_display": "0.5%",
+        "description": "같은 대상 일반 공격시 데미지 중첩 0.5%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1142,
+    "name": "배셔의 몽둥이",
+    "description": "배셔의 몽둥이가 박히면 꼼짝을 못하게 됩니다.",
+    "icon": 963,
+    "priceFactor": 0.0,
+    "passiveType": 169,
+    "types": [
+      130,
+      655,
+      0
+    ],
+    "effects": [
+      40.0,
+      0.15,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 130,
+        "type_name": "추가 데미지 +총 각성수 X {0}",
+        "value": 40.0,
+        "value_display": "+40",
+        "description": "추가 데미지 +총 각성수 X +40"
+      },
+      {
+        "type_code": 655,
+        "type_name": "효과655",
+        "value": 0.15,
+        "value_display": "15%",
+        "description": "효과655"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1144,
+    "name": "봉인 해제",
+    "description": "봉인이 풀린 묘족 요괴는 미미의 육체와 결합하였습니다.",
+    "icon": 965,
+    "priceFactor": 0.0,
+    "passiveType": 170,
+    "types": [
+      1062,
+      176,
+      354
+    ],
+    "effects": [
+      0.24,
+      0.24,
+      0.12
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1062,
+        "type_name": "봉인 무효화 확률 {0}",
+        "value": 0.24,
+        "value_display": "24%",
+        "description": "봉인 무효화 확률 24%"
+      },
+      {
+        "type_code": 176,
+        "type_name": "피격 회피 확률 {0}",
+        "value": 0.24,
+        "value_display": "24%",
+        "description": "피격 회피 확률 24%"
+      },
+      {
+        "type_code": 354,
+        "type_name": "아티팩트 효과 증폭 {0}",
+        "value": 0.12,
+        "value_display": "12%",
+        "description": "아티팩트 효과 증폭 12%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1152,
+    "name": "진짜 못생긴 칼라마르",
+    "description": "와 진짜 너무 못생겨서 말이 안나옵니다.",
+    "icon": 972,
+    "priceFactor": 0.0,
+    "passiveType": 171,
+    "types": [
+      524,
+      587,
+      0
+    ],
+    "effects": [
+      0.03,
+      0.15,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 524,
+        "type_name": "모든 용병의 최종 데미지 +[못생김] 용병 수 X {0}%",
+        "value": 0.03,
+        "value_display": "3%",
+        "description": "모든 용병의 최종 데미지 +[못생김] 용병 수 X 3%%"
+      },
+      {
+        "type_code": 587,
+        "type_name": "개성이 못생김인 용병의 강타 배수 +[못생김] 용병 수 X {0}",
+        "value": 0.15,
+        "value_display": "15%",
+        "description": "개성이 못생김인 용병의 강타 배수 +[못생김] 용병 수 X 15%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1153,
+    "name": "나의 성주님",
+    "description": "자이다에게 [헬싱]은 성주 그 이상의 의미를 가지고 있습니다.",
+    "icon": 332,
+    "priceFactor": 0.0,
+    "passiveType": 204,
+    "types": [
+      660,
+      661,
+      0
+    ],
+    "effects": [
+      0.5,
+      100.0,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 660,
+        "type_name": "헬싱의 최종 데미지 {0}",
+        "value": 0.5,
+        "value_display": "50%",
+        "description": "헬싱의 최종 데미지 50%"
+      },
+      {
+        "type_code": 661,
+        "type_name": "효과661",
+        "value": 100.0,
+        "value_display": "+100",
+        "description": "효과661"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1159,
+    "name": "한푼만 주세요+++",
+    "description": "푸시니아가 두손을 모으고 고개를 숙이면, 왠일인지 남자들이 혼쾌이 돈을 줍니다.",
+    "icon": 975,
+    "priceFactor": 0.0,
+    "passiveType": 172,
+    "types": [
+      46,
+      48,
+      109
+    ],
+    "effects": [
+      0.6,
+      0.4,
+      0.08
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 46,
+        "type_name": "골드 획득량 {0}",
+        "value": 0.6,
+        "value_display": "60%",
+        "description": "골드 획득량 60%"
+      },
+      {
+        "type_code": 48,
+        "type_name": "아이템 획득 확률 {0}",
+        "value": 0.4,
+        "value_display": "40%",
+        "description": "아이템 획득 확률 40%"
+      },
+      {
+        "type_code": 109,
+        "type_name": "뿔레정수 획득 확률 {0}",
+        "value": 0.08,
+        "value_display": "8%",
+        "description": "뿔레정수 획득 확률 8%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1175,
+    "name": "뱀파이어와의 인터뷰++",
+    "description": "리스켈이 잘생겨지자 다시 인터뷰가 잡혔습니다.",
+    "icon": 1046,
+    "priceFactor": 0.0,
+    "passiveType": 178,
+    "types": [
+      304,
+      43,
+      354
+    ],
+    "effects": [
+      0.05,
+      1.5,
+      0.15
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 304,
+        "type_name": "선제 공격 확률 {0}",
+        "value": 0.05,
+        "value_display": "5%",
+        "description": "선제 공격 확률 5%"
+      },
+      {
+        "type_code": 43,
+        "type_name": "추가 클릭 확률 {0}",
+        "value": 1.5,
+        "value_display": "+1.5",
+        "description": "추가 클릭 확률 +1.5"
+      },
+      {
+        "type_code": 354,
+        "type_name": "아티팩트 효과 증폭 {0}",
+        "value": 0.15,
+        "value_display": "15%",
+        "description": "아티팩트 효과 증폭 15%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1182,
+    "name": "그림자 걷기",
+    "description": "어두운 밤의 그림자 처럼 은밀하게 의뢰를 수행 합니다.",
+    "icon": 987,
+    "priceFactor": 0.0,
+    "passiveType": 173,
+    "types": [
+      1070,
+      176,
+      193
+    ],
+    "effects": [
+      0.18,
+      0.2,
+      0.01
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1070,
+        "type_name": "저항력 무시 {0}",
+        "value": 0.18,
+        "value_display": "18%",
+        "description": "저항력 무시 18%"
+      },
+      {
+        "type_code": 176,
+        "type_name": "피격 회피 확률 {0}",
+        "value": 0.2,
+        "value_display": "20%",
+        "description": "피격 회피 확률 20%"
+      },
+      {
+        "type_code": 193,
+        "type_name": "같은 대상 일반 공격시 데미지 중첩 {0}",
+        "value": 0.01,
+        "value_display": "1%",
+        "description": "같은 대상 일반 공격시 데미지 중첩 1%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1187,
+    "name": "카오스 캔디",
+    "description": "리스크에게 마르셀루스는 달콤한 카오스 맛이 나는 캔디와 같습니다.",
+    "icon": 991,
+    "priceFactor": 0.0,
+    "passiveType": 174,
+    "types": [
+      1004,
+      119,
+      677
+    ],
+    "effects": [
+      0.4,
+      0.005,
+      -0.4
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1004,
+        "type_name": "행운 배수 증폭 {0}",
+        "value": 0.4,
+        "value_display": "40%",
+        "description": "행운 배수 증폭 40%"
+      },
+      {
+        "type_code": 119,
+        "type_name": "데미지 +총 각성수 X {0}%",
+        "value": 0.005,
+        "value_display": "0.5%",
+        "description": "데미지 +총 각성수 X 0.5%%"
+      },
+      {
+        "type_code": 677,
+        "type_name": "마르셀루스의 강타 배수 증폭 {0}",
+        "value": -0.4,
+        "value_display": "-40%",
+        "description": "마르셀루스의 강타 배수 증폭 -40%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1192,
+    "name": "크리티 걸++",
+    "description": "미오가 출근하는 날이면 매출이 크리티컬 터진 것 마냥 높게 나오곤 했었습니다.",
+    "icon": 996,
+    "priceFactor": 0.0,
+    "passiveType": 175,
+    "types": [
+      43,
+      431,
+      38
+    ],
+    "effects": [
+      0.7,
+      0.15,
+      0.03
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 43,
+        "type_name": "추가 클릭 확률 {0}",
+        "value": 0.7,
+        "value_display": "70%",
+        "description": "추가 클릭 확률 70%"
+      },
+      {
+        "type_code": 431,
+        "type_name": "모든 용병의 추가 클릭 확률 {0}",
+        "value": 0.15,
+        "value_display": "15%",
+        "description": "모든 용병의 추가 클릭 확률 15%"
+      },
+      {
+        "type_code": 38,
+        "type_name": "클릭 크리티컬 확률 {0}",
+        "value": 0.03,
+        "value_display": "3%",
+        "description": "클릭 크리티컬 확률 3%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1211,
+    "name": "다시 태어난 루돌프+",
+    "description": "다시 태어난 루돌프는 자신에게 썰매를 끌도록 강요하던 주인의 두개골을 부셔버렸습니다.",
+    "icon": 1005,
+    "priceFactor": 0.0,
+    "passiveType": 176,
+    "types": [
+      1070,
+      354,
+      119
+    ],
+    "effects": [
+      0.24,
+      0.16,
+      0.005
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1070,
+        "type_name": "저항력 무시 {0}",
+        "value": 0.24,
+        "value_display": "24%",
+        "description": "저항력 무시 24%"
+      },
+      {
+        "type_code": 354,
+        "type_name": "아티팩트 효과 증폭 {0}",
+        "value": 0.16,
+        "value_display": "16%",
+        "description": "아티팩트 효과 증폭 16%"
+      },
+      {
+        "type_code": 119,
+        "type_name": "데미지 +총 각성수 X {0}%",
+        "value": 0.005,
+        "value_display": "0.5%",
+        "description": "데미지 +총 각성수 X 0.5%%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1217,
+    "name": "진짜 베인+",
+    "description": "베인은 스스로를 리자드로 알고 있었으나 사실은 티라노였습니다.",
+    "icon": 1007,
+    "priceFactor": 0.0,
+    "passiveType": 177,
+    "types": [
+      307,
+      304,
+      119
+    ],
+    "effects": [
+      0.18,
+      0.045,
+      0.005
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 307,
+        "type_name": "치명타 확률 {0}",
+        "value": 0.18,
+        "value_display": "18%",
+        "description": "치명타 확률 18%"
+      },
+      {
+        "type_code": 304,
+        "type_name": "선제 공격 확률 {0}",
+        "value": 0.045,
+        "value_display": "4.5%",
+        "description": "선제 공격 확률 4.5%"
+      },
+      {
+        "type_code": 119,
+        "type_name": "데미지 +총 각성수 X {0}%",
+        "value": 0.005,
+        "value_display": "0.5%",
+        "description": "데미지 +총 각성수 X 0.5%%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1253,
+    "name": "악동의 마음",
+    "description": "룩쏘가 이상한 행동을 하도록 만드는 어떤 존재가 룩쏘의 내면에 살고 있다고 합니다.",
+    "icon": 1038,
+    "priceFactor": 0.0,
+    "passiveType": 179,
+    "types": [
+      174,
+      1070,
+      711
+    ],
+    "effects": [
+      0.06,
+      0.24,
+      0.12
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 174,
+        "type_name": "뿔레조각 드랍 확률 {0}",
+        "value": 0.06,
+        "value_display": "6%",
+        "description": "뿔레조각 드랍 확률 6%"
+      },
+      {
+        "type_code": 1070,
+        "type_name": "저항력 무시 {0}",
+        "value": 0.24,
+        "value_display": "24%",
+        "description": "저항력 무시 24%"
+      },
+      {
+        "type_code": 711,
+        "type_name": "혼합 용병만 공격 할 때 강타 확률 {0}",
+        "value": 0.12,
+        "value_display": "12%",
+        "description": "혼합 용병만 공격 할 때 강타 확률 12%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1266,
+    "name": "개그?담당 니모+",
+    "description": "니모는 자기가 입담이 좋아서 개그담당이 된거라고 착각하고 있습니다.",
+    "icon": 808,
+    "priceFactor": 0.0,
+    "passiveType": 180,
+    "types": [
+      300,
+      496,
+      0
+    ],
+    "effects": [
+      0.24,
+      0.005,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 300,
+        "type_name": "아티팩트 드랍 확률 {0}",
+        "value": 0.24,
+        "value_display": "24%",
+        "description": "아티팩트 드랍 확률 24%"
+      },
+      {
+        "type_code": 496,
+        "type_name": "종족이 어류인 용병의 행운 확률 +[어류] 용병 수 X {0}%",
+        "value": 0.005,
+        "value_display": "0.5%",
+        "description": "종족이 어류인 용병의 행운 확률 +[어류] 용병 수 X 0.5%%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1274,
+    "name": "도그 마인드",
+    "description": "도저히 개 처럼 보이지는 않지만, 개 처럼 생각하고, 개 처럼 행동하니 개가 맞습니다.",
+    "icon": 277,
+    "priceFactor": 0.0,
+    "passiveType": 181,
+    "types": [
+      56,
+      109,
+      1019
+    ],
+    "effects": [
+      0.05,
+      0.07,
+      0.05
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 56,
+        "type_name": "공격 무효화 관통 {0}",
+        "value": 0.05,
+        "value_display": "5%",
+        "description": "공격 무효화 관통 5%"
+      },
+      {
+        "type_code": 109,
+        "type_name": "뿔레정수 획득 확률 {0}",
+        "value": 0.07,
+        "value_display": "7.0%",
+        "description": "뿔레정수 획득 확률 7.0%"
+      },
+      {
+        "type_code": 1019,
+        "type_name": "모든 물리 용병의 강타 배수 증폭 {0}",
+        "value": 0.05,
+        "value_display": "5%",
+        "description": "모든 물리 용병의 강타 배수 증폭 5%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1277,
+    "name": "플레이그 터치",
+    "description": "지이크트의 손에는 역병이 배어있어 모두가 그와의 악수를 꺼린다고 합니다.",
+    "icon": 1059,
+    "priceFactor": 0.0,
+    "passiveType": 182,
+    "types": [
+      1169,
+      36,
+      1058
+    ],
+    "effects": [
+      0.02,
+      0.02,
+      0.02
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1169,
+        "type_name": "모든 용병의 연타 데미지 증폭 {0}",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "모든 용병의 연타 데미지 증폭 2%"
+      },
+      {
+        "type_code": 36,
+        "type_name": "모든 혼합 용병의 연타 확률 {0}",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "모든 혼합 용병의 연타 확률 2%"
+      },
+      {
+        "type_code": 1058,
+        "type_name": "모든 혼합 용병의 공포 극복 확률 {0}",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "모든 혼합 용병의 공포 극복 확률 2%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1278,
+    "name": "사과 요리의 정수",
+    "description": "자룰은 다양한 방법으로 사과요리를 해봤지만 결국 가장 맛있는건 자신의 겨드랑이에서 삭힌 사과였습니다.",
+    "icon": 1060,
+    "priceFactor": 0.0,
+    "passiveType": 183,
+    "types": [
+      1169,
+      30,
+      1049
+    ],
+    "effects": [
+      0.04,
+      0.2,
+      0.08
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1169,
+        "type_name": "모든 용병의 연타 데미지 증폭 {0}",
+        "value": 0.04,
+        "value_display": "4%",
+        "description": "모든 용병의 연타 데미지 증폭 4%"
+      },
+      {
+        "type_code": 30,
+        "type_name": "모든 혼합 용병의 강타 배수 {0}",
+        "value": 0.2,
+        "value_display": "20%",
+        "description": "모든 혼합 용병의 강타 배수 20%"
+      },
+      {
+        "type_code": 1049,
+        "type_name": "모든 혼합 용병의 피격 지속시간 감소 {0}",
+        "value": 0.08,
+        "value_display": "8%",
+        "description": "모든 혼합 용병의 피격 지속시간 감소 8%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1279,
+    "name": "익숙함+",
+    "description": "유령도 자주보면 익숙해 집니다. 코쿠니아를 자주보는 적들은 점차 두려움을 잃게 됩니다.",
+    "icon": 551,
+    "priceFactor": 0.0,
+    "passiveType": 184,
+    "types": [
+      1,
+      304,
+      193
+    ],
+    "effects": [
+      4.0,
+      0.1,
+      -0.02
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1,
+        "type_name": "데미지 {0}",
+        "value": 4.0,
+        "value_display": "+4",
+        "description": "데미지 +4"
+      },
+      {
+        "type_code": 304,
+        "type_name": "선제 공격 확률 {0}",
+        "value": 0.1,
+        "value_display": "10%",
+        "description": "선제 공격 확률 10%"
+      },
+      {
+        "type_code": 193,
+        "type_name": "같은 대상 일반 공격시 데미지 중첩 {0}",
+        "value": -0.02,
+        "value_display": "-2%",
+        "description": "같은 대상 일반 공격시 데미지 중첩 -2%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1280,
+    "name": "파이썬의 발톱",
+    "description": "파이썬의 발톱은 강철판을 꿰뚫을 정도로 강력하다고 합니다.",
+    "icon": 1062,
+    "priceFactor": 0.0,
+    "passiveType": 185,
+    "types": [
+      32,
+      109,
+      1058
+    ],
+    "effects": [
+      0.12,
+      0.06,
+      0.03
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 32,
+        "type_name": "연타 확률 {0}",
+        "value": 0.12,
+        "value_display": "12%",
+        "description": "연타 확률 12%"
+      },
+      {
+        "type_code": 109,
+        "type_name": "뿔레정수 획득 확률 {0}",
+        "value": 0.06,
+        "value_display": "6%",
+        "description": "뿔레정수 획득 확률 6%"
+      },
+      {
+        "type_code": 1058,
+        "type_name": "모든 혼합 용병의 공포 극복 확률 {0}",
+        "value": 0.03,
+        "value_display": "3%",
+        "description": "모든 혼합 용병의 공포 극복 확률 3%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1281,
+    "name": "스킨 체인징",
+    "description": "베멜루스는 자신의 모습을 자유자재로 바꿀 수 있는 능력이 있다고 합니다.",
+    "icon": 1061,
+    "priceFactor": 0.0,
+    "passiveType": 186,
+    "types": [
+      1070,
+      253,
+      174
+    ],
+    "effects": [
+      0.3,
+      0.015,
+      0.06
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1070,
+        "type_name": "저항력 무시 {0}",
+        "value": 0.3,
+        "value_display": "30%",
+        "description": "저항력 무시 30%"
+      },
+      {
+        "type_code": 253,
+        "type_name": "적들의 흡수 확률 감소 {0}",
+        "value": 0.015,
+        "value_display": "1.5%",
+        "description": "적들의 흡수 확률 감소 1.5%"
+      },
+      {
+        "type_code": 174,
+        "type_name": "뿔레조각 드랍 확률 {0}",
+        "value": 0.06,
+        "value_display": "6%",
+        "description": "뿔레조각 드랍 확률 6%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1283,
+    "name": "아이바르의 영향력",
+    "description": "아이바르는 연륜에서 나오는 강한 영향력을 지니고 있습니다.",
+    "icon": 1063,
+    "priceFactor": 0.0,
+    "passiveType": 188,
+    "types": [
+      54,
+      56,
+      109
+    ],
+    "effects": [
+      0.045,
+      0.03,
+      0.06
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 54,
+        "type_name": "적들의 클릭 저항력 감소 {0}",
+        "value": 0.045,
+        "value_display": "4.5%",
+        "description": "적들의 클릭 저항력 감소 4.5%"
+      },
+      {
+        "type_code": 56,
+        "type_name": "공격 무효화 관통 {0}",
+        "value": 0.03,
+        "value_display": "3%",
+        "description": "공격 무효화 관통 3%"
+      },
+      {
+        "type_code": 109,
+        "type_name": "뿔레정수 획득 확률 {0}",
+        "value": 0.06,
+        "value_display": "6%",
+        "description": "뿔레정수 획득 확률 6%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1284,
+    "name": "내파",
+    "description": "적들을 내부로 붕괴 시켜 저항력을 잃도록 만듭니다.",
+    "icon": 1064,
+    "priceFactor": 0.0,
+    "passiveType": 189,
+    "types": [
+      1070,
+      1071,
+      56
+    ],
+    "effects": [
+      0.9,
+      0.04,
+      0.03
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1070,
+        "type_name": "저항력 무시 {0}",
+        "value": 0.9,
+        "value_display": "90%",
+        "description": "저항력 무시 90%"
+      },
+      {
+        "type_code": 1071,
+        "type_name": "모든 용병의 저항력 무시 {0}",
+        "value": 0.04,
+        "value_display": "4%",
+        "description": "모든 용병의 저항력 무시 4%"
+      },
+      {
+        "type_code": 56,
+        "type_name": "공격 무효화 관통 {0}",
+        "value": 0.03,
+        "value_display": "3%",
+        "description": "공격 무효화 관통 3%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1285,
+    "name": "정령의 날개",
+    "description": "폴린은 벌레처럼 보이지만 정령의 날개를 지닌 요정입니다.",
+    "icon": 1065,
+    "priceFactor": 0.0,
+    "passiveType": 190,
+    "types": [
+      300,
+      10,
+      730
+    ],
+    "effects": [
+      0.24,
+      0.08,
+      0.1
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 300,
+        "type_name": "아티팩트 드랍 확률 {0}",
+        "value": 0.24,
+        "value_display": "24%",
+        "description": "아티팩트 드랍 확률 24%"
+      },
+      {
+        "type_code": 10,
+        "type_name": "모든 용병의 공격 속도 {0}",
+        "value": 0.08,
+        "value_display": "8%",
+        "description": "모든 용병의 공격 속도 8%"
+      },
+      {
+        "type_code": 730,
+        "type_name": "종족이 정령인 용병의 행운 배수 +[정령] 용병 수 X {0}",
+        "value": 0.1,
+        "value_display": "10%",
+        "description": "종족이 정령인 용병의 행운 배수 +[정령] 용병 수 X 10%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1290,
+    "name": "드라코의 눈",
+    "description": "드라코의 힘은 번뜩이는 눈에서 나온다고 합니다.",
+    "icon": 1068,
+    "priceFactor": 0.0,
+    "passiveType": 191,
+    "types": [
+      1,
+      124,
+      0
+    ],
+    "effects": [
+      1.2,
+      0.12,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1,
+        "type_name": "데미지 {0}",
+        "value": 1.2,
+        "value_display": "+1.2",
+        "description": "데미지 +1.2"
+      },
+      {
+        "type_code": 124,
+        "type_name": "데미지 편차 {0}",
+        "value": 0.12,
+        "value_display": "12%",
+        "description": "데미지 편차 12%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1291,
+    "name": "버블 쫀득 쿠키",
+    "description": "버블은 자신의 신체 일부로 유행하는 쿠키를 만들어 동료들에게 대접하곤 합니다.",
+    "icon": 1069,
+    "priceFactor": 0.0,
+    "passiveType": 192,
+    "types": [
+      1172,
+      1173,
+      56
+    ],
+    "effects": [
+      0.18,
+      0.18,
+      0.03
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1172,
+        "type_name": "즉시 공격 데미지 {0}",
+        "value": 0.18,
+        "value_display": "18%",
+        "description": "즉시 공격 데미지 18%"
+      },
+      {
+        "type_code": 1173,
+        "type_name": "즉시 공격 속도 {0}",
+        "value": 0.18,
+        "value_display": "18%",
+        "description": "즉시 공격 속도 18%"
+      },
+      {
+        "type_code": 56,
+        "type_name": "공격 무효화 관통 {0}",
+        "value": 0.03,
+        "value_display": "3%",
+        "description": "공격 무효화 관통 3%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1292,
+    "name": "블러디 핸드",
+    "description": "거역할 수 없는 크사르팍스의 명령에 의해 크스트레스의 손은 점점 피에 물들어 갔습니다.",
+    "icon": 1070,
+    "priceFactor": 0.0,
+    "passiveType": 193,
+    "types": [
+      1,
+      56,
+      0
+    ],
+    "effects": [
+      1.0,
+      0.03,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1,
+        "type_name": "데미지 {0}",
+        "value": 1.0,
+        "value_display": "+1",
+        "description": "데미지 +1"
+      },
+      {
+        "type_code": 56,
+        "type_name": "공격 무효화 관통 {0}",
+        "value": 0.03,
+        "value_display": "3%",
+        "description": "공격 무효화 관통 3%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1295,
+    "name": "확실한 그녀",
+    "description": "엑시는 잘하는 것과 못하는 것이 확실하게 구분 됩니다.",
+    "icon": 1071,
+    "priceFactor": 0.0,
+    "passiveType": 194,
+    "types": [
+      736,
+      1001,
+      176
+    ],
+    "effects": [
+      -5.0,
+      0.4,
+      0.24
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 736,
+        "type_name": "치명타, 연타, 더블 어택 불가",
+        "value": -5.0,
+        "value_display": "+-5",
+        "description": "치명타, 연타, 더블 어택 불가"
+      },
+      {
+        "type_code": 1001,
+        "type_name": "강타 배수 증폭 {0}",
+        "value": 0.4,
+        "value_display": "40%",
+        "description": "강타 배수 증폭 40%"
+      },
+      {
+        "type_code": 176,
+        "type_name": "피격 회피 확률 {0}",
+        "value": 0.24,
+        "value_display": "24%",
+        "description": "피격 회피 확률 24%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1301,
+    "name": "테토녀",
+    "description": "척박한 환경을 칼 한자루로 극복하며 살아남은 결과, 그녀는 강해졌습니다.",
+    "icon": 1075,
+    "priceFactor": 0.0,
+    "passiveType": 195,
+    "types": [
+      354,
+      107,
+      1062
+    ],
+    "effects": [
+      0.16,
+      0.24,
+      0.18
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 354,
+        "type_name": "아티팩트 효과 증폭 {0}",
+        "value": 0.16,
+        "value_display": "16%",
+        "description": "아티팩트 효과 증폭 16%"
+      },
+      {
+        "type_code": 107,
+        "type_name": "피격 지속시간 감소 {0}",
+        "value": 0.24,
+        "value_display": "24%",
+        "description": "피격 지속시간 감소 24%"
+      },
+      {
+        "type_code": 1062,
+        "type_name": "봉인 무효화 확률 {0}",
+        "value": 0.18,
+        "value_display": "18%",
+        "description": "봉인 무효화 확률 18%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1305,
+    "name": "아에노쓰의 괴력",
+    "description": "아에노쓰는 육중한 바위 육체로 적들을 짓밟고 다닙니다.",
+    "icon": 1079,
+    "priceFactor": 0.0,
+    "passiveType": 196,
+    "types": [
+      20,
+      119,
+      55
+    ],
+    "effects": [
+      0.16,
+      0.009,
+      0.03
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 20,
+        "type_name": "강타 확률 {0}",
+        "value": 0.16,
+        "value_display": "16%",
+        "description": "강타 확률 16%"
+      },
+      {
+        "type_code": 119,
+        "type_name": "데미지 +총 각성수 X {0}%",
+        "value": 0.009,
+        "value_display": "0.9%",
+        "description": "데미지 +총 각성수 X 0.9%%"
+      },
+      {
+        "type_code": 55,
+        "type_name": "적들의 최대 체력 감소 {0}",
+        "value": 0.03,
+        "value_display": "3%",
+        "description": "적들의 최대 체력 감소 3%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1306,
+    "name": "드래곤 브레스+",
+    "description": "강력한 드래곤 브레스로 적들을 태워 버립니다.",
+    "icon": 87,
+    "priceFactor": 0.0,
+    "passiveType": 197,
+    "types": [
+      1,
+      20,
+      43
+    ],
+    "effects": [
+      1.8,
+      0.18,
+      0.9
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1,
+        "type_name": "데미지 {0}",
+        "value": 1.8,
+        "value_display": "+1.8",
+        "description": "데미지 +1.8"
+      },
+      {
+        "type_code": 20,
+        "type_name": "강타 확률 {0}",
+        "value": 0.18,
+        "value_display": "18%",
+        "description": "강타 확률 18%"
+      },
+      {
+        "type_code": 43,
+        "type_name": "추가 클릭 확률 {0}",
+        "value": 0.9,
+        "value_display": "90%",
+        "description": "추가 클릭 확률 90%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1307,
+    "name": "한결 같은 미모+",
+    "description": "포니아는 항상 이렇게 아름다웠습니다. 포니아의 외모가 지금과 달랐던 사실은 없습니다.",
+    "icon": 985,
+    "priceFactor": 0.0,
+    "passiveType": 207,
+    "types": [
+      40,
+      56,
+      281
+    ],
+    "effects": [
+      0.03,
+      0.03,
+      0.02
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 40,
+        "type_name": "소울 클릭 확률 {0}",
+        "value": 0.03,
+        "value_display": "3%",
+        "description": "소울 클릭 확률 3%"
+      },
+      {
+        "type_code": 56,
+        "type_name": "공격 무효화 관통 {0}",
+        "value": 0.03,
+        "value_display": "3%",
+        "description": "공격 무효화 관통 3%"
+      },
+      {
+        "type_code": 281,
+        "type_name": "적들의 약화 효과 감소 {0}",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "적들의 약화 효과 감소 2%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1310,
+    "name": "혼돈의 길",
+    "description": "마갑 [길로시온]은 에반을 혼돈의 길로 인도 합니다.",
+    "icon": 1080,
+    "priceFactor": 0.0,
+    "passiveType": 208,
+    "types": [
+      177,
+      1173,
+      174
+    ],
+    "effects": [
+      0.02,
+      0.2,
+      0.06
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 177,
+        "type_name": "모든 용병의 공포 극복 확률 {0}",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "모든 용병의 공포 극복 확률 2%"
+      },
+      {
+        "type_code": 1173,
+        "type_name": "즉시 공격 속도 {0}",
+        "value": 0.2,
+        "value_display": "20%",
+        "description": "즉시 공격 속도 20%"
+      },
+      {
+        "type_code": 174,
+        "type_name": "뿔레조각 드랍 확률 {0}",
+        "value": 0.06,
+        "value_display": "6%",
+        "description": "뿔레조각 드랍 확률 6%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1314,
+    "name": "슈퍼 슈퍼걸",
+    "description": "유나는 슈퍼걸 칭호로는 부족하다고 느낍니다. 최소한 슈퍼-슈퍼걸은 되어야 합니다.",
+    "icon": 1083,
+    "priceFactor": 0.0,
+    "passiveType": 209,
+    "types": [
+      354,
+      304,
+      1001
+    ],
+    "effects": [
+      0.2,
+      0.05,
+      0.4
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 354,
+        "type_name": "아티팩트 효과 증폭 {0}",
+        "value": 0.2,
+        "value_display": "20%",
+        "description": "아티팩트 효과 증폭 20%"
+      },
+      {
+        "type_code": 304,
+        "type_name": "선제 공격 확률 {0}",
+        "value": 0.05,
+        "value_display": "5%",
+        "description": "선제 공격 확률 5%"
+      },
+      {
+        "type_code": 1001,
+        "type_name": "강타 배수 증폭 {0}",
+        "value": 0.4,
+        "value_display": "40%",
+        "description": "강타 배수 증폭 40%"
+      }
+    ],
+    "randomValue": 0
+  }
+]

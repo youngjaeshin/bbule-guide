@@ -1,0 +1,403 @@
+{
+  "lobby": {
+    "title": "대기소 연구",
+    "openCondition": "환생석 코인 연구 LV.MAX",
+    "note": "X, H급 용병 고용 시에도 1칸씩 추가로 열림",
+    "purchases": [
+      {"currency": "현금", "slots": "14자리", "units": "2,990원", "total": "(부가세 10% 별도)"},
+      {"currency": "골드", "slots": "3자리", "units": "5억 / 10억 / 20억", "total": "35억"},
+      {"currency": "코인", "slots": "5자리", "units": "200 / 400 / 600 / 800 / 1,000", "total": "3,000"},
+      {"currency": "메달", "slots": "6자리", "units": "175 / 200 / 225 / 250 / 275 / 300", "total": "1,425"}
+    ]
+  },
+  "gold": {
+    "title": "골드 연구",
+    "totalCost": null,
+    "sections": [
+      {
+        "name": "기본 기술 연구",
+        "items": [
+          {"name": "용병 슬롯", "effect": "용병 슬롯", "maxLv": 5, "maxEffect": "5슬롯", "totalCost": "112,000"},
+          {"name": "가방", "effect": "골드 저장량 [5 스테이지 클리어]", "maxLv": 250, "maxEffect": "4,750만", "totalCost": "제보 부탁"},
+          {"name": "명성", "effect": "명성량 [15 스테이지 클리어]", "maxLv": 100, "maxEffect": "1,000", "totalCost": "제보 부탁"},
+          {"name": "돋보기", "effect": "골드 획득량 [25 스테이지 클리어]", "maxLv": 100, "maxEffect": "100%", "totalCost": "제보 부탁"},
+          {"name": "전투의 룬", "effect": "모든 용병 일반 데미지 [35 스테이지 클리어]", "maxLv": 100, "maxEffect": "80%", "totalCost": "제보 부탁"},
+          {"name": "가죽 팔찌", "effect": "모든 용병 클릭 데미지 [45 스테이지 클리어]", "maxLv": 100, "maxEffect": "120%", "totalCost": "제보 부탁"},
+          {"name": "부두 인형", "effect": "물리 저항력 [55 스테이지 클리어]", "maxLv": 100, "maxEffect": "15%", "totalCost": "제보 부탁"}
+        ]
+      },
+      {
+        "name": "고급 기술 연구",
+        "items": [
+          {"name": "흡마석", "effect": "마법 저항력 [65 스테이지 클리어]", "maxLv": 100, "maxEffect": "20%", "totalCost": "제보 부탁"},
+          {"name": "혈석", "effect": "최대 체력 감소 [75 스테이지 클리어]", "maxLv": 100, "maxEffect": "15%", "totalCost": "제보 부탁"},
+          {"name": "지휘 도끼", "effect": "물리 데미지 [85 스테이지 클리어]", "maxLv": 100, "maxEffect": "50%", "totalCost": "제보 부탁"},
+          {"name": "마도서", "effect": "마법 데미지 [95 스테이지 클리어]", "maxLv": 100, "maxEffect": "50%", "totalCost": "제보 부탁"},
+          {"name": "카오스링", "effect": "카오스 데미지 [105 스테이지 클리어]", "maxLv": 100, "maxEffect": "75%", "totalCost": "제보 부탁"},
+          {"name": "휴대용 금고", "effect": "골드 저장량 [125 스테이지 클리어]", "maxLv": 275, "maxEffect": "7,975만", "totalCost": "제보 부탁"},
+          {"name": "개인 주머니", "effect": "용병 아이템 슬롯 [150 스테이지 클리어]", "maxLv": 3, "maxEffect": "3칸", "totalCost": "제보 부탁"}
+        ]
+      },
+      {
+        "name": "고대의 기술 연구",
+        "items": [
+          {"name": "인벤토리", "effect": "인벤토리 [175 스테이지 클리어]", "maxLv": 12, "maxEffect": "12칸", "totalCost": "240억"},
+          {"name": "탐지 구슬", "effect": "아이템 획득 확률 [200 스테이지 클리어]", "maxLv": 100, "maxEffect": "100%", "totalCost": "제보 부탁"},
+          {"name": "전쟁의 북", "effect": "모든 용병의 공격 속도 [225 스테이지 클리어]", "maxLv": 120, "maxEffect": "12%", "totalCost": "제보 부탁"},
+          {"name": "푸른 부두인형", "effect": "물리 저항력 [250 스테이지 클리어]", "maxLv": 100, "maxEffect": "10%", "totalCost": "제보 부탁"},
+          {"name": "정복자의 장갑", "effect": "모든 용병의 추가 클릭 데미지 [250 스테이지 클리어]", "maxLv": 200, "maxEffect": "10%", "totalCost": "제보 부탁"},
+          {"name": "라크탈의 왼손", "effect": "클릭 저항력 [275 스테이지 클리어]", "maxLv": 100, "maxEffect": "10%", "totalCost": "제보 부탁"},
+          {"name": "비밀 금고", "effect": "골드 저장량 [300 스테이지 클리어]", "maxLv": 300, "maxEffect": "1억 2천만", "totalCost": "제보 부탁"}
+        ]
+      },
+      {
+        "name": "금단의 기술 연구",
+        "items": [
+          {"name": "보조 슬롯 강화", "effect": "보조 슬롯 효과 [300 스테이지 클리어]", "maxLv": 150, "maxEffect": "15%", "totalCost": "제보 부탁"},
+          {"name": "취약의 보석", "effect": "카오스 취약성 [310 스테이지 클리어]", "maxLv": 100, "maxEffect": "10%", "totalCost": "10억+@"},
+          {"name": "다윗의 펜던트", "effect": "모든 용병의 강타 확률 [320 스테이지 클리어]", "maxLv": 125, "maxEffect": "10%", "totalCost": "제보 부탁"},
+          {"name": "다윗의 반지", "effect": "모든 용병의 강타 배수 [330 스테이지 클리어]", "maxLv": 125, "maxEffect": "0.5", "totalCost": "제보 부탁"},
+          {"name": "공포의 가면", "effect": "크리티컬 배수 [340 스테이지 클리어]", "maxLv": 2, "maxEffect": "2배", "totalCost": "30억"},
+          {"name": "와이번 하트", "effect": "모든 용병의 연타 확률 [345 스테이지 클리어]", "maxLv": 150, "maxEffect": "9%", "totalCost": "제보 부탁"},
+          {"name": "무한의 반지", "effect": "모든 용병의 최대 레벨 [350 스테이지 클리어]", "maxLv": 3, "maxEffect": "3%", "totalCost": "60억"}
+        ]
+      },
+      {
+        "name": "잊혀진 기술 연구",
+        "items": [
+          {"name": "정복자의 투구", "effect": "자동 클릭 확률 [355 스테이지 클리어]", "maxLv": 150, "maxEffect": "30%", "totalCost": "제보 부탁"},
+          {"name": "소울 펜던트", "effect": "소울 클릭 확률 [360 스테이지 클리어]", "maxLv": 200, "maxEffect": "10%", "totalCost": "제보 부탁"},
+          {"name": "바람의 구슬", "effect": "연타 딜레이 감소 [365 스테이지 클리어]", "maxLv": 225, "maxEffect": "9%", "totalCost": "제보 부탁"},
+          {"name": "미래 관측기", "effect": "침략자 추가 데미지 [380 스테이지 클리어]", "maxLv": 300, "maxEffect": "30%", "totalCost": "제보 부탁"},
+          {"name": "미움의 팔찌", "effect": "무효화 관통 [415 스테이지 클리어]", "maxLv": 200, "maxEffect": "5%", "totalCost": "제보 부탁"},
+          {"name": "앤트 룬", "effect": "모든 용병의 일반 데미지 (비효율) [250 스테이지 클리어]", "maxLv": 40000, "maxEffect": "2,000%", "totalCost": "6조"},
+          {"name": "비 룬", "effect": "모든 용병의 클릭 데미지 (비효율) [250 스테이지 클리어]", "maxLv": 20000, "maxEffect": "1,600%", "totalCost": "4.5조"}
+        ]
+      },
+      {
+        "name": "외계의 기술 연구",
+        "items": [
+          {"name": "비틀 룬", "effect": "모든 용병의 공격 속도 (비효율) [250 스테이지 클리어]", "maxLv": 2000, "maxEffect": "20%", "totalCost": "2천억"},
+          {"name": "레드 룬", "effect": "무효화 관통 [350 스테이지 클리어]", "maxLv": 3000, "maxEffect": "15%", "totalCost": "1.8조"},
+          {"name": "미래 조절기", "effect": "침략자 추가 데미지 [350 스테이지 클리어]", "maxLv": 6000, "maxEffect": "60%", "totalCost": "2.4조"},
+          {"name": "행운 도둑의 손", "effect": "모든 용병의 행운 확률 [450 스테이지 클리어]", "maxLv": 3000, "maxEffect": "3%", "totalCost": "4.5조"},
+          {"name": "기우제 가면", "effect": "모든 용병의 행운 배수 [500 스테이지 클리어]", "maxLv": 4000, "maxEffect": "0.6배", "totalCost": "7.2조"},
+          {"name": "핑크 떡흐", "effect": "회피 확률 감소 [575 스테이지 클리어]", "maxLv": 2000, "maxEffect": "8%", "totalCost": "4조"},
+          {"name": "뚠뚠 개미", "effect": "용병들의 추가 클릭 확률", "maxLv": 2000, "maxEffect": "6%", "totalCost": "6조"}
+        ]
+      },
+      {
+        "name": "마지막 기술 연구",
+        "items": [
+          {"name": "끈끈이 풀", "effect": "회피 확률 감소", "maxLv": 10000, "maxEffect": "3%", "totalCost": "12조"},
+          {"name": "자취녀의 초대", "effect": "공포 극복 확률 증가", "maxLv": 10000, "maxEffect": "3%", "totalCost": "14조"},
+          {"name": "자취남의 바지", "effect": "흡수 확률 감소", "maxLv": 10000, "maxEffect": "3%", "totalCost": "16조"},
+          {"name": "화염 지팡이", "effect": "약화 효과 감소", "maxLv": 15000, "maxEffect": "3%", "totalCost": "27조"},
+          {"name": "질풍 지팡이", "effect": "둔화 효과 감소", "maxLv": 15000, "maxEffect": "3%", "totalCost": "30조"},
+          {"name": "골드 룬", "effect": "골드 저장량 [250 스테이지 클리어]", "maxLv": 999999, "maxEffect": "40,000%", "totalCost": "49.9995조"},
+          {"name": "금 도둑", "effect": "골드 획득량 증가 (비효율)", "maxLv": 1000000, "maxEffect": "200%", "totalCost": "500조"}
+        ]
+      },
+      {
+        "name": "숨겨진 기술 연구 (1500 스테이지 클리어 후 오픈)",
+        "items": [
+          {"name": "악마의 열매", "effect": "방어막 효과 감소 (비효율)", "maxLv": 1000000, "maxEffect": "4%", "totalCost": "900조"},
+          {"name": "뿔레의 열매", "effect": "부활 확률 감소 (비효율)", "maxLv": 1000000, "maxEffect": "4%", "totalCost": "1,000조"},
+          {"name": "희망의 씨앗", "effect": "아티팩트 드랍률 증가 (비효율)", "maxLv": 1000000, "maxEffect": "10%", "totalCost": "800조"},
+          {"name": "루비 애플", "effect": "루비 드랍률 증가 (비효율)", "maxLv": 1000000, "maxEffect": "20%", "totalCost": "600조"},
+          {"name": "사파이어 애플", "effect": "사파이어 드랍률 증가 (비효율)", "maxLv": 1000000, "maxEffect": "30%", "totalCost": "700조"},
+          {"name": "뿔레새의 깃털", "effect": "뿔레 오브 드랍률 증가 (비효율)", "maxLv": 1000000, "maxEffect": "10%?", "totalCost": "1,500조?"},
+          {"name": "고행의 삽", "effect": "최종 데미지 증가 (도전)", "maxLv": 250000, "maxEffect": "10%", "totalCost": "500조"}
+        ]
+      }
+    ]
+  },
+  "coin": {
+    "title": "코인 연구",
+    "totalCost": "3,586,568 코인",
+    "sections": [
+      {
+        "name": "기본 코인 연구",
+        "items": [
+          {"name": "추가 슬롯", "effect": "용병 슬롯", "maxLv": 4, "maxEffect": "4슬롯", "totalCost": "120"},
+          {"name": "금상자", "effect": "골드 저장량", "maxLv": 25, "maxEffect": "150%", "totalCost": "325"},
+          {"name": "왕가의 검", "effect": "명성", "maxLv": 25, "maxEffect": "100%", "totalCost": "325"},
+          {"name": "마법의 횃불", "effect": "골드 획득량", "maxLv": 25, "maxEffect": "100%", "totalCost": "650"},
+          {"name": "전쟁의 룬", "effect": "모든 용병의 일반 데미지", "maxLv": 25, "maxEffect": "150%", "totalCost": "700"},
+          {"name": "리더의 팔찌", "effect": "모든 용병의 클릭 데미지", "maxLv": 25, "maxEffect": "200%", "totalCost": "750"},
+          {"name": "명예 훈장", "effect": "모집 횟수 최대치", "maxLv": 9, "maxEffect": "9회", "totalCost": "153"}
+        ]
+      },
+      {
+        "name": "고급 코인 연구",
+        "items": [
+          {"name": "그리즐리 풋", "effect": "모든 용병의 성장 데미지", "maxLv": 20, "maxEffect": "10%", "totalCost": "4,800"},
+          {"name": "고급 주머니", "effect": "용병 아이템 슬롯", "maxLv": 3, "maxEffect": "3칸", "totalCost": "1,800"},
+          {"name": "확장 인벤토리", "effect": "인벤토리", "maxLv": 12, "maxEffect": "12칸", "totalCost": "2,350"},
+          {"name": "향상된 탐지기", "effect": "아이템 획득 확률", "maxLv": 25, "maxEffect": "100%", "totalCost": "800"},
+          {"name": "강화 흡마석", "effect": "마법 저항력", "maxLv": 25, "maxEffect": "10%", "totalCost": "850"},
+          {"name": "라크탈의 오른손", "effect": "클릭 저항력", "maxLv": 25, "maxEffect": "10%", "totalCost": "900"},
+          {"name": "정열의 북", "effect": "모든 용병의 공격 속도", "maxLv": 5, "maxEffect": "5%", "totalCost": "810"}
+        ]
+      },
+      {
+        "name": "고대의 코인 연구",
+        "items": [
+          {"name": "망자의 토템", "effect": "최대 체력 감소", "maxLv": 3, "maxEffect": "3%", "totalCost": "450"},
+          {"name": "골리앗의 펜던트", "effect": "모든 용병의 강타 확률", "maxLv": 5, "maxEffect": "5%", "totalCost": "835"},
+          {"name": "골리앗의 반지", "effect": "모든 용병의 강타 배수", "maxLv": 5, "maxEffect": "0.25배", "totalCost": "860"},
+          {"name": "위압의 가면", "effect": "크리티컬 배수", "maxLv": 2, "maxEffect": "2배", "totalCost": "1,500"},
+          {"name": "드래곤 하트", "effect": "모든 용병의 연타 확률", "maxLv": 5, "maxEffect": "4%", "totalCost": "900"},
+          {"name": "영원의 반지", "effect": "모든 용병의 최대 레벨", "maxLv": 5, "maxEffect": "5", "totalCost": "2,700"},
+          {"name": "정복자의 갑옷", "effect": "자동 클릭 확률", "maxLv": 6, "maxEffect": "24%", "totalCost": "1,210"}
+        ]
+      },
+      {
+        "name": "금단의 코인 연구",
+        "items": [
+          {"name": "정복자의 팔찌", "effect": "자동 클릭 속도", "maxLv": 6, "maxEffect": "24%", "totalCost": "1,210"},
+          {"name": "소울 아울렛", "effect": "소울 클릭 확률", "maxLv": 5, "maxEffect": "10%", "totalCost": "1,000"},
+          {"name": "환생 증폭기", "effect": "환생 스테이지", "maxLv": 200, "maxEffect": "1,000층", "totalCost": "?"},
+          {"name": "질풍의 구슬", "effect": "연타 딜레이 감소", "maxLv": 8, "maxEffect": "8%", "totalCost": "1,280"},
+          {"name": "혼돈의 보석", "effect": "카오스 취약성", "maxLv": 5, "maxEffect": "5%", "totalCost": "1,010"},
+          {"name": "보조 슬롯 강화", "effect": "보조 슬롯 효과", "maxLv": 5, "maxEffect": "15%", "totalCost": "1,010"},
+          {"name": "광인의 장갑", "effect": "모든 용병의 추가 클릭 데미지", "maxLv": 5, "maxEffect": "10%", "totalCost": "1,000"}
+        ]
+      },
+      {
+        "name": "잊혀진 코인 연구",
+        "items": [
+          {"name": "불신의 반지", "effect": "무효화 관통", "maxLv": 5, "maxEffect": "5%", "totalCost": "1,010"},
+          {"name": "성장 촉진제", "effect": "레벨업 비용 감소", "maxLv": 5, "maxEffect": "15%", "totalCost": "1,010"},
+          {"name": "학습의 책", "effect": "스킬 학습 비용 감소", "maxLv": 5, "maxEffect": "15%", "totalCost": "750"},
+          {"name": "유니버스 스톤", "effect": "일정 확률로 1.5배의 일반/클릭 데미지 [모든 용병의 행운 확률]", "maxLv": 10, "maxEffect": "4%", "totalCost": "2,625"},
+          {"name": "행운의 룬", "effect": "무효화 관통 (비효율)", "maxLv": 2000, "maxEffect": "20%", "totalCost": "75,000"},
+          {"name": "일반 슬롯 강화", "effect": "용병 슬롯만 최종 데미지", "maxLv": 10, "maxEffect": "5%", "totalCost": "4,750"},
+          {"name": "퓨처룬", "effect": "침략자 최종 데미지", "maxLv": 10000, "maxEffect": "1,000%", "totalCost": "750,000"}
+        ]
+      },
+      {
+        "name": "마지막 코인 연구",
+        "items": [
+          {"name": "귀신의 눈", "effect": "추가/신성 데미지 배수 (사신의 눈 포함)", "maxLv": 10, "maxEffect": "5", "totalCost": "2,375"},
+          {"name": "페르미 큐브", "effect": "침략자 최대 체력 감소", "maxLv": 10, "maxEffect": "50%", "totalCost": "8,750"},
+          {"name": "줄라바 스컬", "effect": "최대 체력 감소 (비효율)", "maxLv": 1000, "maxEffect": "10%", "totalCost": "100,000"},
+          {"name": "루비 광맥", "effect": "루비 드랍률 증가 (1500 스테이지 이후 드랍)", "maxLv": 100, "maxEffect": "100%", "totalCost": "50,000"},
+          {"name": "사파이어 광맥", "effect": "사파이어 드랍률 증가 (1500 스테이지 이후 드랍)", "maxLv": 100, "maxEffect": "100%", "totalCost": "50,000"},
+          {"name": "자수정 광맥", "effect": "자수정 드랍률 증가 (1500 스테이지 이후 드랍)", "maxLv": 100, "maxEffect": "100%", "totalCost": "60,000"},
+          {"name": "퍼플 아티팩트 룬", "effect": "아티팩트 드랍률 증가", "maxLv": 100, "maxEffect": "25%", "totalCost": "50,000"}
+        ]
+      },
+      {
+        "name": "숨겨진 코인 연구",
+        "items": [
+          {"name": "퍼플 홀", "effect": "아티팩트 드랍률 증가 (비효율)", "maxLv": 1000, "maxEffect": "5%", "totalCost": "500,000"},
+          {"name": "소멸의 반지", "effect": "적들의 초기 체력 감소 (비효율)", "maxLv": 1000, "maxEffect": "5%", "totalCost": "500,000"},
+          {"name": "방출의 깃털", "effect": "적들의 흡수 확률을 감소 (비효율)", "maxLv": 1000, "maxEffect": "5%?", "totalCost": "400,000"},
+          {"name": "신속의 구름", "effect": "적들의 둔화 효과를 감소 (비효율)", "maxLv": 1000, "maxEffect": "5%", "totalCost": "300,000"},
+          {"name": "강화 포션", "effect": "적들의 약화 효과를 감소 (비효율)", "maxLv": 1000, "maxEffect": "5%", "totalCost": "300,000"},
+          {"name": "위협의 독", "effect": "적들의 보호막 효과를 감소 (비효율)", "maxLv": 1000, "maxEffect": "5%", "totalCost": "200,000"},
+          {"name": "이승의 사슬", "effect": "적들의 부활 확률을 감소 (비효율)", "maxLv": 1000, "maxEffect": "5%", "totalCost": "200,000"}
+        ]
+      }
+    ]
+  },
+  "medal": {
+    "title": "메달 특권",
+    "totalCost": "643,090 메달",
+    "sections": [
+      {
+        "name": "기본 메달 특권",
+        "items": [
+          {"name": "환생 증폭기", "effect": "환생 스테이지", "maxLv": 160, "maxEffect": "750층", "totalCost": "?"},
+          {"name": "우주의 반지", "effect": "모든 용병의 최대 레벨", "maxLv": 12, "maxEffect": "12", "totalCost": "2,550"},
+          {"name": "아리만의 펜던트", "effect": "모든 용병의 강타 확률", "maxLv": 10, "maxEffect": "5%", "totalCost": "650"},
+          {"name": "아리만의 반지", "effect": "모든 용병의 강타 배수", "maxLv": 20, "maxEffect": "0.5배", "totalCost": "3,310"},
+          {"name": "레이븐 심볼", "effect": "크리티컬 확률", "maxLv": 10, "maxEffect": "3%", "totalCost": "700"},
+          {"name": "죽음의 가면", "effect": "크리티컬 배수", "maxLv": 10, "maxEffect": "3배", "totalCost": "650"},
+          {"name": "피의 부두 인형", "effect": "물리 저항력", "maxLv": 10, "maxEffect": "5%", "totalCost": "650"}
+        ]
+      },
+      {
+        "name": "고급 메달 특권",
+        "items": [
+          {"name": "붉은 흡마석", "effect": "마법 저항력", "maxLv": 10, "maxEffect": "5%", "totalCost": "700"},
+          {"name": "소용돌이 보석", "effect": "카오스 취약성", "maxLv": 10, "maxEffect": "5%", "totalCost": "700"},
+          {"name": "라크탈의 셋째손", "effect": "클릭 저항력", "maxLv": 10, "maxEffect": "5%", "totalCost": "700"},
+          {"name": "폭풍의 구슬", "effect": "연타 딜레이 감소", "maxLv": 10, "maxEffect": "7%", "totalCost": "750"},
+          {"name": "전설의 북", "effect": "모든 용병의 공격 속도", "maxLv": 10, "maxEffect": "10%", "totalCost": "750"},
+          {"name": "보조 슬롯 강화", "effect": "보조 슬롯 효과", "maxLv": 5, "maxEffect": "20%", "totalCost": "750"},
+          {"name": "학살자의 장갑", "effect": "모든 용병의 추가 클릭 데미지", "maxLv": 10, "maxEffect": "10%", "totalCost": "675"}
+        ]
+      },
+      {
+        "name": "고대의 메달 특권",
+        "items": [
+          {"name": "배반의 팔찌", "effect": "무효화 관통", "maxLv": 5, "maxEffect": "5%", "totalCost": "600"},
+          {"name": "전설의 인벤토리", "effect": "인벤토리", "maxLv": 6, "maxEffect": "6칸", "totalCost": "390"},
+          {"name": "진화 촉진제", "effect": "레벨업 비용 감소", "maxLv": 5, "maxEffect": "15%", "totalCost": "1,000"},
+          {"name": "아리만의 뿔", "effect": "최대 체력 감소", "maxLv": 5, "maxEffect": "5%", "totalCost": "1,090"},
+          {"name": "실천의 책", "effect": "스킬 학습 비용 감소", "maxLv": 5, "maxEffect": "15%", "totalCost": "750"},
+          {"name": "명예 훈장", "effect": "모집 횟수 최대치", "maxLv": 5, "maxEffect": "5회", "totalCost": "500"},
+          {"name": "소울 커넥터", "effect": "제단 효과", "maxLv": 10, "maxEffect": "60%", "totalCost": "2,000"}
+        ]
+      },
+      {
+        "name": "금단의 메달 특권",
+        "items": [
+          {"name": "제이드 박스", "effect": "모든 용병의 행운 확률", "maxLv": 10, "maxEffect": "4%", "totalCost": "2,625"},
+          {"name": "베이스 룬", "effect": "모든 용병의 베이스 데미지 (비효율)", "maxLv": 1000, "maxEffect": "15%", "totalCost": "15,000"},
+          {"name": "머니 룬", "effect": "골드 획득량 (비효율)", "maxLv": 1000, "maxEffect": "450%", "totalCost": "20,000"},
+          {"name": "리더 슬롯 강화", "effect": "리더 슬롯만 최종 데미지", "maxLv": 10, "maxEffect": "5%", "totalCost": "4,750"},
+          {"name": "명예의 갑옷", "effect": "조각 명성 소모량 감소", "maxLv": 2, "maxEffect": "2", "totalCost": "2,500"},
+          {"name": "명예의 제단", "effect": "제단 확장", "maxLv": 7, "maxEffect": "7칸", "totalCost": "3,350"},
+          {"name": "명예의 하프", "effect": "성장 데미지", "maxLv": 20, "maxEffect": "5.1", "totalCost": "5,000"}
+        ]
+      },
+      {
+        "name": "잊혀진 메달 특권",
+        "items": [
+          {"name": "오렌지 아티팩트 룬", "effect": "아티팩트 드랍률 증가", "maxLv": 100, "maxEffect": "25%", "totalCost": "50,000"},
+          {"name": "어지러움 상징", "effect": "적들의 둔화 효과를 감소 (비효율)", "maxLv": 100, "maxEffect": "5%", "totalCost": "100,000"},
+          {"name": "허약의 상징", "effect": "적들의 약화 효과를 감소 (비효율)", "maxLv": 100, "maxEffect": "5%", "totalCost": "100,000"},
+          {"name": "고대인의 가면", "effect": "공격 무효화 관통 확률 증가 (비효율)", "maxLv": 100, "maxEffect": "5%", "totalCost": "75,000"},
+          {"name": "고대인의 장난감", "effect": "적들의 회피 확률 감소 (비효율)", "maxLv": 100, "maxEffect": "5%", "totalCost": "75,000"},
+          {"name": "고대인의 석판", "effect": "2501 스테이지 이후 아티팩트 드랍률 증가", "maxLv": 100, "maxEffect": "50%", "totalCost": "85,000"},
+          {"name": "고대인의 쥬얼", "effect": "2501 스테이지 이후 모든 쥬얼 드랍률 증가", "maxLv": 100, "maxEffect": "50%", "totalCost": "85,000"}
+        ]
+      }
+    ]
+  },
+  "essence": {
+    "title": "정수 특권",
+    "totalCost": "490,255 정수",
+    "sections": [
+      {
+        "name": "기본 정수 특권",
+        "items": [
+          {"name": "농축된 정수", "effect": "정수 드랍 확률", "maxLv": 50, "maxEffect": "100%", "totalCost": "15,200"},
+          {"name": "각성의 도끼", "effect": "각성 효과 증가", "maxLv": 20, "maxEffect": "10%", "totalCost": "3,050"},
+          {"name": "깨달음의 반지", "effect": "모든 용병의 최대 레벨", "maxLv": 7, "maxEffect": "7", "totalCost": "1,085"},
+          {"name": "관통의 팔찌", "effect": "무효화 관통", "maxLv": 20, "maxEffect": "20%", "totalCost": "7,650"},
+          {"name": "아리만의 다른뿔", "effect": "최대 체력 감소", "maxLv": 8, "maxEffect": "4%", "totalCost": "960"},
+          {"name": "정수 연금술", "effect": "환생 시 추가 정수", "maxLv": 3, "maxEffect": "3", "totalCost": "2,400"},
+          {"name": "살육의 상징", "effect": "막타 효과", "maxLv": 30, "maxEffect": "30%", "totalCost": "5,325"}
+        ]
+      },
+      {
+        "name": "고급 정수 특권",
+        "items": [
+          {"name": "저주 생성기", "effect": "물리 저항력", "maxLv": 20, "maxEffect": "10%", "totalCost": "5,550"},
+          {"name": "마법 봉인기", "effect": "마법 저항력", "maxLv": 20, "maxEffect": "10%", "totalCost": "3,350"},
+          {"name": "힘의 정수", "effect": "물리 최종 데미지", "maxLv": 20, "maxEffect": "13%", "totalCost": "5,350"},
+          {"name": "마법의 정수", "effect": "마법 최종 데미지", "maxLv": 20, "maxEffect": "13%", "totalCost": "5,350"},
+          {"name": "혼돈의 정수", "effect": "카오스 최종 데미지", "maxLv": 20, "maxEffect": "13%", "totalCost": "5,350"},
+          {"name": "소울 증폭기", "effect": "소울 클릭 배수", "maxLv": 4, "maxEffect": "0.2배", "totalCost": "800"},
+          {"name": "피의 투구", "effect": "피격 지속 시간 감소", "maxLv": 5, "maxEffect": "10%", "totalCost": "800"}
+        ]
+      },
+      {
+        "name": "고대의 정수 특권",
+        "items": [
+          {"name": "신성한 제단", "effect": "제단 확장", "maxLv": 50, "maxEffect": "50칸", "totalCost": "10,125"},
+          {"name": "그림자 말뚝", "effect": "회피 확률 감소", "maxLv": 4, "maxEffect": "8%", "totalCost": "800"},
+          {"name": "해방의 가면", "effect": "모든 용병의 추가 클릭 데미지", "maxLv": 10, "maxEffect": "20%", "totalCost": "1,800"},
+          {"name": "사신의 눈", "effect": "추가/신성 데미지 배수 (귀신의 눈 포함)", "maxLv": 10, "maxEffect": "5배", "totalCost": "1,225"},
+          {"name": "신의 눈", "effect": "각성 비례 추가/신성 데미지", "maxLv": 10, "maxEffect": "x0.0006배", "totalCost": "2,125"},
+          {"name": "로제타 스톤", "effect": "침략자 추가 데미지", "maxLv": 10, "maxEffect": "50%", "totalCost": "2,125"},
+          {"name": "천운의 갑옷", "effect": "모든 용병의 행운 배수", "maxLv": 10, "maxEffect": "0.5배", "totalCost": "3,625"}
+        ]
+      },
+      {
+        "name": "금단의 정수 특권",
+        "items": [
+          {"name": "아리만의 정수", "effect": "모든 용병의 최종 데미지", "maxLv": 20, "maxEffect": "10%", "totalCost": "7,750"},
+          {"name": "환생 증폭기", "effect": "환생 스테이지", "maxLv": 140, "maxEffect": "?", "totalCost": "?"},
+          {"name": "탐욕의 족쇄", "effect": "골드 획득량", "maxLv": 40, "maxEffect": "600%", "totalCost": "29,500"},
+          {"name": "일반슬롯 강화", "effect": "용병 슬롯만 최종 데미지", "maxLv": 10, "maxEffect": "5%", "totalCost": "3,150"},
+          {"name": "리더슬롯 강화", "effect": "리더 슬롯만 최종 데미지", "maxLv": 10, "maxEffect": "32%", "totalCost": "3,800"},
+          {"name": "취약의 정수", "effect": "카오스 취약성", "maxLv": 10, "maxEffect": "10%", "totalCost": "3,150"},
+          {"name": "명예의 갑옷", "effect": "조각 명성 소모량 감소", "maxLv": 2, "maxEffect": "2", "totalCost": "2,000"}
+        ]
+      },
+      {
+        "name": "잊혀진 정수 특권",
+        "items": [
+          {"name": "명예 훈장", "effect": "모집 횟수 최대치", "maxLv": 6, "maxEffect": "6", "totalCost": "1,860"},
+          {"name": "포텐셜 광맥", "effect": "모든 쥬얼 드랍률 증가 (1500 스테이지 이후 드랍)", "maxLv": 50, "maxEffect": "50", "totalCost": "75,000"},
+          {"name": "레드 아티팩트 룬", "effect": "아티팩트 드랍률 증가", "maxLv": 100, "maxEffect": "25%", "totalCost": "50,000"},
+          {"name": "방어의 구술", "effect": "적들의 보호막 효과를 감소 (비효율)", "maxLv": 100, "maxEffect": "5%", "totalCost": "40,000"},
+          {"name": "재탄생의 구슬", "effect": "적들의 부활 확률을 감소 (비효율)", "maxLv": 100, "maxEffect": "5%", "totalCost": "40,000"},
+          {"name": "굶주림의 구슬", "effect": "적들의 흡수 확률을 감소 (비효율)", "maxLv": 100, "maxEffect": "5%", "totalCost": "75,000"},
+          {"name": "공포의 근원", "effect": "모든 용병의 공포 확률 감소 (비효율)", "maxLv": 100, "maxEffect": "5%", "totalCost": "75,000"}
+        ]
+      }
+    ]
+  },
+  "piece": {
+    "title": "조각 기적",
+    "totalCost": "913,725 조각",
+    "sections": [
+      {
+        "name": "기본 조각 기적",
+        "items": [
+          {"name": "뿔레 조각 코어", "effect": "조각 획득 확률", "maxLv": 50, "maxEffect": "100%", "totalCost": "15,200"},
+          {"name": "기억의 하프", "effect": "성장 데미지", "maxLv": 20, "maxEffect": "5.1", "totalCost": "3,050"},
+          {"name": "리더슬롯 강화", "effect": "리더 슬롯만 최종 데미지", "maxLv": 10, "maxEffect": "5%", "totalCost": "1,900"},
+          {"name": "각성의 도끼", "effect": "각성 효과", "maxLv": 20, "maxEffect": "10%", "totalCost": "3,050"},
+          {"name": "살육의 상징", "effect": "막타 효과", "maxLv": 30, "maxEffect": "15%", "totalCost": "5,325"},
+          {"name": "미래의 장갑", "effect": "침략자 최종 데미지", "maxLv": 10, "maxEffect": "50%", "totalCost": "1,675"},
+          {"name": "취약의 조각", "effect": "카오스 취약성", "maxLv": 16, "maxEffect": "16%", "totalCost": "4,525"}
+        ]
+      },
+      {
+        "name": "고급 조각 기적",
+        "items": [
+          {"name": "명예 훈장", "effect": "모집 횟수 최대치", "maxLv": 6, "maxEffect": "6회", "totalCost": "1,500"},
+          {"name": "공포의 거울", "effect": "공포 극복", "maxLv": 10, "maxEffect": "10%", "totalCost": "1,900"},
+          {"name": "광자의 팔찌", "effect": "무효화 관통", "maxLv": 10, "maxEffect": "10%", "totalCost": "1,900"},
+          {"name": "초정밀 장갑", "effect": "회피 확률 감소", "maxLv": 18, "maxEffect": "18%", "totalCost": "7,900"},
+          {"name": "명예의 갑옷", "effect": "조각 명성 소모량 감소", "maxLv": 1, "maxEffect": "1", "totalCost": "750"},
+          {"name": "우한의 역병", "effect": "적들의 흡수 확률 감소", "maxLv": 10, "maxEffect": "10%", "totalCost": "2,625"},
+          {"name": "저주 증폭기", "effect": "물리 저항력 감소", "maxLv": 10, "maxEffect": "12%", "totalCost": "2,625"}
+        ]
+      },
+      {
+        "name": "고대의 조각 기적",
+        "items": [
+          {"name": "마력 차단기", "effect": "마법 저항력 감소", "maxLv": 10, "maxEffect": "8%", "totalCost": "2,625"},
+          {"name": "라크탈의 넷째손", "effect": "클릭 저항력 감소", "maxLv": 10, "maxEffect": "10%", "totalCost": "2,625"},
+          {"name": "뿔레 레이더", "effect": "뿔레 오브 드랍률 증가", "maxLv": 10, "maxEffect": "25%", "totalCost": "2,625"},
+          {"name": "환생 증폭기", "effect": "환생 스테이지", "maxLv": 140, "maxEffect": "600", "totalCost": "?"},
+          {"name": "뿔레뿔레 레이더", "effect": "뿔레 오브 드랍률 증가", "maxLv": 10, "maxEffect": "25%", "totalCost": "1,925"},
+          {"name": "뿔레 수정구", "effect": "뿔레 오브 드랍률 증가 (비효율)", "maxLv": 1000, "maxEffect": "10%", "totalCost": "90,000"},
+          {"name": "기계 기생충", "effect": "침략자 최종 데미지 (비효율)", "maxLv": 1000, "maxEffect": "10%", "totalCost": "60,000"}
+        ]
+      },
+      {
+        "name": "금단의 조각 기적",
+        "items": [
+          {"name": "조각난 꿈", "effect": "2001 스테이지 이후 뿔레 오브 드랍률 증가 (비효율)", "maxLv": 1000, "maxEffect": "25%", "totalCost": "50,000"},
+          {"name": "옵시디안 대거", "effect": "적들의 흡수 확률 감소 (비효율)", "maxLv": 1000, "maxEffect": "5%", "totalCost": "60,000"},
+          {"name": "아폴로의 활", "effect": "적들의 약화 효과를 감소 (비효율)", "maxLv": 1000, "maxEffect": "5%", "totalCost": "70,000"},
+          {"name": "시지프스의 불", "effect": "적들의 둔화 효과를 감소 (비효율)", "maxLv": 1000, "maxEffect": "5%", "totalCost": "70,000"},
+          {"name": "토파즈 광맥", "effect": "토파즈 드랍률 증가 (1500 스테이지 이후 드랍)", "maxLv": 100, "maxEffect": "100%", "totalCost": "50,000"},
+          {"name": "에메랄드 광맥", "effect": "에메랄드 드랍률 증가 (1500 스테이지 이후 드랍)", "maxLv": 100, "maxEffect": "100%", "totalCost": "50,000"},
+          {"name": "잠재력의 광맥", "effect": "모든 쥬얼 드랍률 증가 (1500 스테이지 이후 드랍)", "maxLv": 50, "maxEffect": "50%", "totalCost": "75,000"}
+        ]
+      },
+      {
+        "name": "잊혀진 조각 기적",
+        "items": [
+          {"name": "그린 아티팩트 룬", "effect": "아티팩트 드랍률 증가", "maxLv": 100, "maxEffect": "25%", "totalCost": "50,000"},
+          {"name": "그린 홀", "effect": "아티팩트 드랍률 증가 (비효율)", "maxLv": 100, "maxEffect": "5%", "totalCost": "50,000"},
+          {"name": "필멸의 반지", "effect": "적들의 초기 체력 감소 (비효율)", "maxLv": 100, "maxEffect": "5%", "totalCost": "50,000"},
+          {"name": "돌격의 돌", "effect": "적들의 보호막 효과를 감소 (비효율)", "maxLv": 100, "maxEffect": "5%", "totalCost": "?"},
+          {"name": "생사경", "effect": "적들의 부활 확률을 감소 (비효율)", "maxLv": 100, "maxEffect": "5%", "totalCost": "?"},
+          {"name": "피라미드 룬", "effect": "2501 스테이지 이후 아티팩트 드랍률 증가", "maxLv": 100, "maxEffect": "50%", "totalCost": "50,000"},
+          {"name": "레인보우 쥬얼", "effect": "2501 스테이지 이후 모든 쥬얼 드랍률 증가", "maxLv": 100, "maxEffect": "50%", "totalCost": "75,000"}
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "cafe_id": 19273420,
+  "menu_id": 161,
+  "menu_name": "클리커 2월 정산",
+  "article_id_range": [139879, 140198],
+  "total_articles": 152,
+  "title_format": "2월/닉네임/덱타입/색단/각성수(메인+서브1+서브2)/비고",
+  "dps_rule": "DPS라고 표시된 모든 값을 합산 (물리/마법/카오스/즉시공격/신성/클릭/추가클릭/자동클릭 등)",
+  "image_crop": {
+    "top_ratio": 0.08,
+    "left_ratio": 0.55,
+    "enlarge": 4,
+    "description": "게임 화면 상단 HUD 바에 DPS가 표시됨. 상단 8%, 좌측 55% 크롭 후 4배 확대"
+  },
+  "api_base": "https://apis.naver.com/cafe-web/cafe-articleapi/v2.1/cafes/{cafe_id}/articles/{article_id}?useCafeId=true",
+  "image_suffix": "?type=w1600"
+}
