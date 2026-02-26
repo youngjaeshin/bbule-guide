@@ -299,10 +299,10 @@ main{max-width:900px;margin:0 auto;padding:16px;}
   font-size:0.72rem;color:var(--text-muted);overflow:hidden;text-overflow:ellipsis;
 }
 @media(max-width:640px){
-  .equip-row{grid-template-columns:48px 1fr}
+  .equip-row{grid-template-columns:48px 1fr;grid-template-rows:auto auto}
   .equip-grade-col{display:none}
   .equip-spec-col{display:none}
-  .equip-effect-col{display:none}
+  .equip-effect-col{display:block;grid-column:1/-1;padding:0 10px 6px 10px;border-left:none;border-top:none;font-size:0.72rem;color:var(--text-dim);line-height:1.4}
   .equip-img,.equip-img-placeholder{width:48px;height:48px}
 }
 
