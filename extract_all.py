@@ -59,6 +59,7 @@ MAINTYPE_TO_EFFECT = {
     #   'raw' = show decimal as-is (배수/multiplier types only)
     #   'int' = show as integer (absolute count types)
     0: ('데미지', 'pct', 4.5),
+    90: ('데미지', 'pct', 1.0),  # binary stores at 1/1000 scale vs code 0; pre-scaled in resolve
     1: ('추가 데미지', 'int', 3.0),
     2: ('모든 용병의 데미지', 'pct', 5.0),
     3: ('클릭 데미지', 'pct', 4.5),
@@ -560,6 +561,9 @@ def resolve_artifact_effects(types: list, effects: list) -> list:
     for t, e in zip(types, effects):
         if t == 0 and e == 0.0:
             continue
+        # code 90: binary stores 데미지 at 1/1000 scale vs code 0
+        if t == 90:
+            e = e * 1000
         # 1) Name: MAINTYPE_TO_EFFECT (verified) takes priority over ART_TYPE_TO_EFFECT
         main_mapping = MAINTYPE_TO_EFFECT.get(t)
         if main_mapping:
