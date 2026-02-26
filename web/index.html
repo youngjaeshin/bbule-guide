@@ -306,10 +306,10 @@ main{max-width:900px;margin:0 auto;padding:16px;}
   .equip-img,.equip-img-placeholder{width:48px;height:48px}
 }
 
-/* ── ARTIFACT 4-COLUMN GRID (xlsx style) ── */
+/* ── ARTIFACT GRID ── */
 .art-grid{
   display:grid;
-  grid-template-columns:repeat(4,1fr);
+  grid-template-columns:repeat(3,1fr);
   gap:0;
   background:var(--bg-white);border:1px solid var(--border);
   border-radius:var(--radius);overflow:hidden;
@@ -344,17 +344,14 @@ main{max-width:900px;margin:0 auto;padding:16px;}
 .art-item-info{padding:3px 5px;min-width:0;overflow:hidden}
 .art-item-name{font-size:0.72rem;font-weight:600;color:var(--text);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .art-item-effects{font-size:0.62rem;color:var(--text-dim);line-height:1.4}
-.art-eff-line{padding:1px 0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.art-eff-line{padding:1px 0;word-break:keep-all}
 .art-item-set{font-size:0.58rem;color:var(--accent);font-weight:500}
 @media(max-width:640px){
-  .art-grid{grid-template-columns:repeat(2,1fr)}
-  .art-img,.art-img-placeholder{width:40px;height:40px}
-  .art-item{grid-template-columns:40px 1fr}
-  .art-item-name{font-size:0.68rem}
-  .art-item-effects{font-size:0.58rem}
-}
-@media(max-width:380px){
   .art-grid{grid-template-columns:1fr}
+  .art-img,.art-img-placeholder{width:44px;height:44px}
+  .art-item{grid-template-columns:44px 1fr}
+  .art-item-name{font-size:0.75rem}
+  .art-item-effects{font-size:0.65rem}
 }
 
 /* ── RANK HEADER ── */
