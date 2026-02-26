@@ -162,18 +162,11 @@ main{max-width:1200px;margin:0 auto;padding:16px;}
 .merc-row{
   display:grid;
   grid-template-columns:68px minmax(0,1fr) minmax(80px,140px) 50px 70px;
-  grid-template-rows:auto auto;
   align-items:start;
   border-bottom:1px solid var(--border-light);
   cursor:pointer;transition:background 0.12s;
   min-height:60px;
 }
-.merc-row>.merc-info{display:contents}
-.merc-row .merc-name-row{grid-column:2;grid-row:1;padding:6px 8px;align-self:center}
-.merc-row .skill-list{grid-column:1/-1;grid-row:2;padding:2px 8px 6px}
-.merc-row .merc-equip{grid-column:3;grid-row:1}
-.merc-row .merc-props-col{grid-column:4;grid-row:1}
-.merc-row .merc-vals-col{grid-column:5;grid-row:1}
 .merc-row:last-child{border-bottom:none}
 .merc-row:hover{background:var(--accent-light)}
 .merc-portrait{
@@ -199,10 +192,9 @@ main{max-width:1200px;margin:0 auto;padding:16px;}
 .dmg-트리니티{background:#fce7f3;color:#9d174d}
 .dmg-카오스{background:#ede9fe;color:#6d28d9}
 .dmg-혼합{background:#d1fae5;color:#065f46}
-.skill-list{display:grid;grid-template-columns:auto 1fr;gap:1px 10px}
-.skill-line{display:contents}
-.skill-name{font-weight:600;color:var(--text);font-size:0.72rem;white-space:nowrap;line-height:1.35}
-.skill-effect{font-size:0.72rem;color:var(--text-dim);line-height:1.35;word-break:keep-all}
+.skill-list{display:flex;flex-direction:column;gap:1px}
+.skill-line{font-size:0.72rem;color:var(--text-dim);line-height:1.35;white-space:normal;word-break:break-all}
+.skill-name{font-weight:600;color:var(--text)}
 .passive-line{font-size:0.72rem;color:#d97706;line-height:1.35;font-weight:600;margin-top:2px}
 .modal-passive{font-size:0.85rem;color:#d97706;font-weight:600;padding:6px 10px;background:#fef3c7;border-radius:6px;border-left:3px solid #d97706}
 
@@ -459,8 +451,7 @@ img.loaded{opacity:1}
 }
 
 /* ── Random Merc / Subslot / Enemy / Commander shared ── */
-.merc-card .skill-list{display:flex;flex-direction:column;gap:4px}
-#rm-list.skill-list{display:flex;flex-direction:column;gap:4px}
+.skill-list{display:flex;flex-direction:column;gap:4px}
 .skill-card{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:10px 12px;cursor:pointer;transition:border-color .15s}
 .skill-card:hover{border-color:var(--accent)}
 .skill-card-name{font-size:0.82rem;font-weight:600;color:var(--text)}
@@ -1002,7 +993,7 @@ function mercRowHTML(m){
   }
 
   const skillLines=skills.slice(0,5).map(s=>
-    `<div class="skill-line"><span class="skill-name">${esc(s['이름'])}</span><span class="skill-effect">${esc(s['효과'])}</span></div>`
+    `<div class="skill-line"><span class="skill-name">${esc(s['이름'])}</span> / ${esc(s['효과'])}</div>`
   ).join('');
   const passiveLine=m.passive?`<div class="passive-line">⭐ 패시브: ${esc(m.passive)}</div>`:'';
 
