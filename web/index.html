@@ -1051,7 +1051,7 @@ function openMercModal(id){
     <div class="modal-section">
       <h3>전투 스탯</h3>
       <div class="modal-stats">
-        ${[['공격 쿨타임',m.attackCooldown+'s'],['기본 DPS',m.baseDPS],['성장 DPS',m.growthDPS],['기본 데미지',m.baseDamage],['성장 데미지',m.growthDamage],['클릭 데미지',m.baseClickDamage]]
+        ${[['공격 쿨타임',m.attackCooldown+'s'],['기본 DPS',m.baseDPS],['성장 DPS',m.growthDPS],['기본 데미지',m.baseDamage],['성장 데미지',m.growthDamage],['기본 클릭 데미지',m.baseClickDamage],['성장 클릭 데미지',m.growthClickDamage]]
           .map(([l,v])=>`<div class="modal-stat"><div class="modal-stat-label">${l}</div><div class="modal-stat-val">${v??'-'}</div></div>`).join('')}
       </div>
     </div>`;
