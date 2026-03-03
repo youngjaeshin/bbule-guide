@@ -1158,8 +1158,8 @@
       "race_top": "파충류",
       "race_code": 7,
       "race": "드래곤",
-      "location_code": 0,
-      "location": "",
+      "location_code": 41,
+      "location": "드래곤캐니언",
       "gender_code": 0,
       "gender": "남성",
       "house_code": 0,
@@ -8410,8 +8410,8 @@
       "race_top": "파충류",
       "race_code": 7,
       "race": "드래곤",
-      "location_code": 0,
-      "location": "",
+      "location_code": 41,
+      "location": "드래곤캐니언",
       "gender_code": 0,
       "gender": "남성",
       "house_code": 0,
@@ -26834,8 +26834,8 @@
       "race_top": "파충류",
       "race_code": 7,
       "race": "드래곤",
-      "location_code": 0,
-      "location": "",
+      "location_code": 41,
+      "location": "드래곤캐니언",
       "gender_code": 0,
       "gender": "남성",
       "house_code": 0,
@@ -26932,8 +26932,8 @@
       "race_top": "파충류",
       "race_code": 7,
       "race": "드래곤",
-      "location_code": 0,
-      "location": "",
+      "location_code": 41,
+      "location": "드래곤캐니언",
       "gender_code": 0,
       "gender": "남성",
       "house_code": 0,
@@ -27030,8 +27030,8 @@
       "race_top": "파충류",
       "race_code": 7,
       "race": "드래곤",
-      "location_code": 0,
-      "location": "",
+      "location_code": 41,
+      "location": "드래곤캐니언",
       "gender_code": 0,
       "gender": "남성",
       "house_code": 0,
@@ -49831,14 +49831,14 @@
     "damage_raw": {
       "damage": 480,
       "damageUp": 80,
-      "damageClick": 13,
-      "damageClickUp": 7
+      "damageClick": 60,
+      "damageClickUp": 20
     },
     "damageG_raw": {
       "damageG": 480,
       "damageUpG": 80,
-      "damageClickG": 13,
-      "damageClickUpG": 7
+      "damageClickG": 60,
+      "damageClickUpG": 20
     },
     "attackCooldown": 4.44,
     "attackCooldownG": 4.44,
@@ -49846,9 +49846,9 @@
       "base_dps": 432.4,
       "attack_cooldown": 4.44,
       "growth_dps": 72.1,
-      "base_click_damage": 9.1,
+      "base_click_damage": 42.0,
       "base_damage": 1920.0,
-      "growth_click_damage": 4.9,
+      "growth_click_damage": 14.0,
       "growth_damage": 320.0
     },
     "exclusiveIDs": [
@@ -52769,27 +52769,27 @@
       }
     ],
     "damage_raw": {
-      "damage": 180,
-      "damageUp": 30,
+      "damage": 162,
+      "damageUp": 27,
       "damageClick": 60,
       "damageClickUp": 30
     },
     "damageG_raw": {
-      "damageG": 180,
-      "damageUpG": 30,
+      "damageG": 162,
+      "damageUpG": 27,
       "damageClickG": 60,
       "damageClickUpG": 30
     },
     "attackCooldown": 1.6,
     "attackCooldownG": 1.6,
     "sheet_stats": {
-      "base_dps": 450.0,
+      "base_dps": 405.0,
       "attack_cooldown": 1.6,
-      "growth_dps": 75.0,
+      "growth_dps": 67.5,
       "base_click_damage": 42.0,
-      "base_damage": 720.0,
+      "base_damage": 648.0,
       "growth_click_damage": 21.0,
-      "growth_damage": 120.0
+      "growth_damage": 108.0
     },
     "exclusiveIDs": [
       -1,
@@ -52814,6 +52814,104 @@
       "religion": "무신론자",
       "individuality_code": 21,
       "individuality": "마녀"
+    },
+    "exclusive_names": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "hero_id": 539,
+    "name": "자르",
+    "grade": "X",
+    "subtitle": "어비스 드래곤",
+    "subtitle_grade": "",
+    "story": "터무니 없이 길고 넓은 골짜기 [드래곤캐니언] 출신의 강력한 전사입니다. 수많은 드래곤들의 서식지라서 굉장히 위험하다고 알려진 드래곤캐니언에서도 가장 깊고 어두운 심연에서 왔다고 합니다. [미들랜드]도 [크사르팍스]도 딱히 관심이 없었기 때문에 자르는 어느쪽의 편도 들지 않은 채 심연속에서 전쟁이 끝나기를 기다리고 있었는데, 금방 끝날 것 같았던 전쟁이 도저히 끝나지 않자 조금이라도 더 마음에 드는 [미들랜드]를 돕기로 마음 먹었습니다.\n\n봉인과 무력화에 대항할 수 있습니다.",
+    "model": 527,
+    "rank": 540,
+    "attackType": 6,
+    "attackType_kr": "트리니티",
+    "canG": true,
+    "canAwaken": true,
+    "skills": [
+      {
+        "slot": 1,
+        "id": 1320,
+        "name": "봉인석",
+        "description": "수 많은 영혼이 봉인되어 있는 위험한 보석입니다."
+      },
+      {
+        "slot": 2,
+        "id": 1321,
+        "name": "압도적인 육체",
+        "description": "자르의 압도적으로 강력한 육체는 무력화 시킬 수 없습니다."
+      },
+      {
+        "slot": 3,
+        "id": 1322,
+        "name": "어비스 브레스",
+        "description": "심연의 입김을 담아 드래곤 브레스를 뿜어냅니다."
+      },
+      {
+        "slot": 4,
+        "id": 1323,
+        "name": "심연의 응시",
+        "description": "자르의 눈빛은 어둡고 깊은 고인물에 잠긴듯 한 느낌을 줍니다."
+      },
+      {
+        "slot": 5,
+        "id": 1324,
+        "name": "드래곤 슬래시",
+        "description": "강철보다 강력한 드래곤의 발톱으로 적들을 찢어 버립니다."
+      }
+    ],
+    "damage_raw": {
+      "damage": 198,
+      "damageUp": 33,
+      "damageClick": 155,
+      "damageClickUp": 31
+    },
+    "damageG_raw": {
+      "damageG": 198,
+      "damageUpG": 33,
+      "damageClickG": 155,
+      "damageClickUpG": 31
+    },
+    "attackCooldown": 1.66,
+    "attackCooldownG": 1.66,
+    "sheet_stats": {
+      "base_dps": 477.1,
+      "attack_cooldown": 1.66,
+      "growth_dps": 79.5,
+      "base_click_damage": 108.5,
+      "base_damage": 792.0,
+      "growth_click_damage": 21.7,
+      "growth_damage": 132.0
+    },
+    "exclusiveIDs": [
+      -1,
+      -1,
+      -1
+    ],
+    "effectAttack": 3,
+    "requireOrb": 0,
+    "requireParticle": 0,
+    "types": {
+      "race_top_code": 2,
+      "race_top": "파충류",
+      "race_code": 7,
+      "race": "드래곤",
+      "location_code": 41,
+      "location": "드래곤캐니언",
+      "gender_code": 0,
+      "gender": "남성",
+      "house_code": 0,
+      "house": "",
+      "religion_code": 11,
+      "religion": "아하스",
+      "individuality_code": 24,
+      "individuality": "잔인함"
     },
     "exclusive_names": [
       "",

@@ -43,6 +43,9 @@ from bgdb_utils import (
     loc_text,
     KOKR_OFF,
     NAME_MAP_OFF,
+    detect_offsets,
+    scan_all_table_fields,
+    detect_row_counts,
 )
 from enhancement_multipliers import get_enhancement_multiplier
 
@@ -144,9 +147,9 @@ MAINTYPE_TO_EFFECT = {
     1013: ('모든 물리용병의 성장 데미지', 'pct', 1.0),
     1014: ('모든 마법용병의 성장 데미지', 'pct', 1.0),
     1015: ('모든 혼합용병의 성장 데미지', 'pct', 1.0),
-    1019: ('물리 강타배수 증폭', 'raw', 1.0),
-    1020: ('마법 강타배수 증폭', 'raw', 1.0),
-    1021: ('혼합 강타배수 증폭', 'raw', 1.0),
+    1019: ('물리 강타배수 증폭', 'pct', 1.0),
+    1020: ('마법 강타배수 증폭', 'pct', 1.0),
+    1021: ('혼합 강타배수 증폭', 'pct', 1.0),
     1168: ('모든 용병의 연타 간격 감소', 'pct', 0.8),
     1169: ('모든 용병의 연타 데미지 증폭', 'pct', 1.0),
     1171: ('즉시 공격 확률', 'pct', 1.0),
@@ -221,6 +224,16 @@ def _load_art_type_mapping() -> dict:
     return {}
 
 ART_TYPE_TO_EFFECT = _load_art_type_mapping()
+
+def _load_artifact_overrides() -> dict:
+    """Load per-artifact effect overrides from artifact_overrides.json."""
+    _path = Path(__file__).parent / 'artifact_overrides.json'
+    if _path.exists():
+        with open(_path, encoding='utf-8') as _f:
+            return json.load(_f)
+    return {}
+
+ART_OVERRIDES = _load_artifact_overrides()
 
 # ---------------------------------------------------------------------------
 # sec code → Korean effect template mapping (894 codes from BansheeGz DB)
@@ -524,7 +537,9 @@ def resolve_effects(types: list, effects: list, key_to_id: dict, ko_map: dict) -
         else:
             template = (loc_text(key_to_id, ko_map, f'sec{t}') or f'효과{t}').replace('\n', ' ').replace('\r', '')
             # Detect format from template context
-            if '배수' in template:
+            if '배수 증폭' in template:
+                efmt = 'pct'
+            elif '배수' in template:
                 efmt = 'raw'
             elif '데미지' in template and abs(e) >= 100:
                 efmt = 'int'
@@ -601,6 +616,27 @@ def resolve_artifact_effects(types: list, effects: list) -> list:
             'description': desc,
         })
     return result
+
+
+def apply_artifact_overrides(index: int, effects: list) -> list:
+    """Apply per-artifact effect overrides from artifact_overrides.json."""
+    overrides = ART_OVERRIDES.get(str(index))
+    if not overrides:
+        return effects
+    for slot_str, patch in overrides.get('effects', {}).items():
+        slot = int(slot_str)
+        if slot >= len(effects):
+            continue
+        eff = effects[slot]
+        if 'type_name' in patch:
+            eff['type_name'] = patch['type_name']
+        if 'value' in patch:
+            eff['value'] = patch['value']
+        fmt = patch.get('format')
+        if fmt:
+            eff['value_display'] = format_effect_value(eff['value'], fmt)
+        eff['description'] = f"{eff['type_name']} {eff['value_display']}"
+    return effects
 
 
 # ===========================================================================
@@ -1318,6 +1354,7 @@ def extract_artifacts(data: bytes, name_map: list, strings: dict,
 
         # Use artifact-specific mapping (ART_TYPE_TO_EFFECT) instead of equipment mapping
         effects_resolved = resolve_artifact_effects(atypes, aeffects)
+        effects_resolved = apply_artifact_overrides(idx, effects_resolved)
 
         artifacts.append({
             'index':     idx,
@@ -1664,12 +1701,83 @@ def main():
     data = load_binary(bin_path)
     print(f"  File size: {len(data):,} bytes")
 
+    # Auto-detect offsets for this binary version
+    kokr_off, name_map_off = detect_offsets(data)
+    if kokr_off != KOKR_OFF or name_map_off != NAME_MAP_OFF:
+        print(f"  [auto-detect] koKR offset: {kokr_off} (default {KOKR_OFF})")
+        print(f"  [auto-detect] name_map offset: {name_map_off} (default {NAME_MAP_OFF})")
+
+    # Auto-detect field offsets for all tables
+    scanned = scan_all_table_fields(data)
+    _field_remap = {
+        'creature': CREATURE_FIELDS, 'item': ITEM_FIELDS,
+        'enemy': ENEMY_FIELDS, 'boss': BOSS_FIELDS,
+        'equip': EQUIP_FIELDS, 'commander': CMD_FIELDS,
+        'spec': SPEC_FIELDS, 'artifact': ART_FIELDS,
+    }
+    # Equipment field name aliases (new binary may rename fields)
+    _equip_aliases = {
+        'hero0': 'specializedHero0', 'hero1': 'specializedHero1',
+        'hero2': 'specializedHero2', 'hero3': 'specializedHero3',
+        'hero4': 'specializedHero4', 'hero5': 'specializedHero5',
+        'specEffect': 'specializedEffect',
+    }
+    for tbl_key, fields_dict in _field_remap.items():
+        s = scanned.get(tbl_key, {})
+        if not s:
+            continue
+        updated = 0
+        for old_name in list(fields_dict.keys()):
+            if old_name in s:
+                if fields_dict[old_name] != s[old_name]:
+                    fields_dict[old_name] = s[old_name]
+                    updated += 1
+            elif tbl_key == 'equip' and old_name in _equip_aliases:
+                new_name = _equip_aliases[old_name]
+                if new_name in s:
+                    fields_dict[old_name] = s[new_name]
+                    updated += 1
+        if updated:
+            print(f"  [auto-detect] {tbl_key}: {updated} field offsets updated")
+
+    # Auto-detect row counts and recalculate name_map slice starts
+    global CREATURE_ROWS, ITEM_ROWS, ENEMY_ROWS, BOSS_ROWS, STAGE_ROWS
+    global EQUIP_ROWS, CMD_ROWS, SPEC_ROWS, ART_ROWS
+    global ITEM_MAP_START, ENEMY_MAP_START, BOSS_MAP_START, STAGE_MAP_START
+    global EQUIP_MAP_START, CMD_MAP_START, SPEC_MAP_START, ART_MAP_START
+    row_counts = detect_row_counts(data, scanned)
+    _row_vars = [
+        ('creature', 'CREATURE_ROWS'), ('item', 'ITEM_ROWS'),
+        ('enemy', 'ENEMY_ROWS'), ('boss', 'BOSS_ROWS'),
+        ('stage', 'STAGE_ROWS'), ('equip', 'EQUIP_ROWS'),
+        ('commander', 'CMD_ROWS'), ('spec', 'SPEC_ROWS'),
+        ('artifact', 'ART_ROWS'),
+    ]
+    rows_changed = False
+    for tbl_key, var_name in _row_vars:
+        new_val = row_counts.get(tbl_key)
+        old_val = globals()[var_name]
+        if new_val and new_val != old_val:
+            globals()[var_name] = new_val
+            print(f"  [auto-detect] {var_name}: {old_val} -> {new_val}")
+            rows_changed = True
+    if rows_changed:
+        ITEM_MAP_START  = CREATURE_ROWS
+        ENEMY_MAP_START = ITEM_MAP_START + ITEM_ROWS
+        BOSS_MAP_START  = ENEMY_MAP_START + ENEMY_ROWS
+        STAGE_MAP_START = BOSS_MAP_START + BOSS_ROWS
+        EQUIP_MAP_START = STAGE_MAP_START + STAGE_ROWS
+        CMD_MAP_START   = EQUIP_MAP_START + EQUIP_ROWS
+        SPEC_MAP_START  = CMD_MAP_START + CMD_ROWS
+        ART_MAP_START   = SPEC_MAP_START + SPEC_ROWS
+        print(f"  [auto-detect] name_map starts recalculated")
+
     print("\nParsing koKR string table...", flush=True)
-    strings = parse_kokr_strings(data)
+    strings = parse_kokr_strings(data, kokr_off=kokr_off)
     print(f"  {len(strings)} strings loaded (max sid={max(strings) if strings else 0})")
 
     print("Parsing name_map...", flush=True)
-    name_map = parse_name_map(data)
+    name_map = parse_name_map(data, off=name_map_off)
     print(f"  {len(name_map)} entries loaded")
 
     print("Building localization lookup...", flush=True)

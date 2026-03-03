@@ -58,6 +58,128 @@ KOKR_OFF: int = 629160
 NAME_MAP_OFF: int = 485191
 
 
+def detect_offsets(data: bytes) -> tuple:
+    """Auto-detect koKR and name_map offsets from the binary.
+
+    Returns (kokr_off, name_map_off).  Falls back to hardcoded defaults
+    if auto-detection fails.
+    """
+    # --- koKR: search for b'koKR' marker, data starts 35 bytes after ---
+    kokr_marker = data.find(b'koKR')
+    if kokr_marker >= 0:
+        kokr_off = kokr_marker + 35
+    else:
+        kokr_off = KOKR_OFF
+
+    # --- name_map: entry_count ~9000-12000 followed by (row_id=0, str_id<20) ---
+    name_map_off = NAME_MAP_OFF
+    search_start = max(0, kokr_off - 200000)
+    search_end = kokr_off
+    for off in range(search_start, search_end):
+        if off + 12 > len(data):
+            break
+        count = struct.unpack_from('<I', data, off)[0]
+        if 9000 <= count <= 12000:
+            row0 = struct.unpack_from('<I', data, off + 4)[0]
+            sid0 = struct.unpack_from('<I', data, off + 8)[0]
+            if row0 == 0 and sid0 < 20:
+                name_map_off = off
+                break
+
+    return kokr_off, name_map_off
+
+
+# ---------------------------------------------------------------------------
+# Auto field scanner — detects table field offsets dynamically
+# ---------------------------------------------------------------------------
+
+def _find_field_by_name(data: bytes, field_name: str,
+                        search_start: int, search_end: int) -> int:
+    """Find a field's byte offset by searching for its name pattern."""
+    pattern = struct.pack('<I', len(field_name)) + field_name.encode('ascii')
+    pos = search_start
+    while pos < search_end:
+        p = data.find(pattern, pos, search_end)
+        if p < 0:
+            return -1
+        dr = p + 4 + len(field_name)
+        if dr + 35 < len(data):
+            ds = struct.unpack_from('<I', data, dr + 31)[0]
+            if 4 <= ds <= 500000:
+                return p
+        pos = p + 1
+    return -1
+
+
+def _walk_table_fields(data: bytes, start_off: int,
+                       max_fields: int = 50) -> Dict[str, int]:
+    """Walk fields sequentially from start_off, return {name: offset}."""
+    result = {}
+    cur = start_off
+    for _ in range(max_fields):
+        try:
+            name = read_field_name(data, cur)
+            if len(name) > 30 or not name.replace('_', '').isalnum():
+                break
+            result[name] = cur
+            cur = next_field_offset(data, cur)
+        except Exception:
+            break
+    return result
+
+
+# Table scan definitions: (table_key, first_field_name, search_range)
+_TABLE_SCAN_DEFS = [
+    ('creature',  'index',    (8000,   12000)),
+    ('item',      'name',     (104000, 107000)),
+    ('enemy',     'name',     (170000, 173000)),
+    ('boss',      'name',     (192000, 195000)),
+    ('stage',     'ambience', (208000, 215000)),
+    ('equip',     'name',     (244000, 248000)),
+    ('commander', 'name',     (278000, 281000)),
+    ('spec',      'name',     (281000, 284000)),
+    ('artifact',  'name',     (291000, 295000)),
+]
+
+
+def scan_all_table_fields(data: bytes) -> Dict[str, Dict[str, int]]:
+    """Auto-detect field offsets for all tables in the binary.
+
+    Returns dict mapping table_key -> {field_name: byte_offset}.
+    """
+    result = {}
+    for tbl_key, first_fn, (s, e) in _TABLE_SCAN_DEFS:
+        off = _find_field_by_name(data, first_fn, s, e)
+        if off < 0:
+            result[tbl_key] = {}
+            continue
+        result[tbl_key] = _walk_table_fields(data, off)
+    return result
+
+
+# Fields to use for row-count detection (must be int32, not string/bool)
+_ROW_COUNT_FIELDS = {
+    'creature': 'index', 'item': 'index',
+    'enemy': 'model', 'boss': 'model',
+    'stage': 'ambience', 'equip': 'index',
+    'commander': 'index', 'spec': 'index',
+    'artifact': 'index',
+}
+
+
+def detect_row_counts(data: bytes,
+                      table_fields: Dict[str, Dict[str, int]]) -> Dict[str, int]:
+    """Auto-detect row counts for each table from int32 field data sizes."""
+    counts = {}
+    for tbl_key, field_name in _ROW_COUNT_FIELDS.items():
+        fields = table_fields.get(tbl_key, {})
+        if field_name not in fields:
+            continue
+        _, ds, _ = _field_data_region(data, fields[field_name])
+        counts[tbl_key] = ds // 4
+    return counts
+
+
 # ---------------------------------------------------------------------------
 # Binary loader
 # ---------------------------------------------------------------------------

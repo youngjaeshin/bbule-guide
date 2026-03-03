@@ -9224,9 +9224,9 @@
       {
         "type_code": 90,
         "type_name": "데미지",
-        "value": 0.0055,
-        "value_display": "0.55%",
-        "description": "데미지 0.55%"
+        "value": 5.5,
+        "value_display": "550%",
+        "description": "데미지 550%"
       },
       {
         "type_code": 87,
@@ -9386,9 +9386,9 @@
       {
         "type_code": 90,
         "type_name": "데미지",
-        "value": 0.0055,
-        "value_display": "0.55%",
-        "description": "데미지 0.55%"
+        "value": 5.5,
+        "value_display": "550%",
+        "description": "데미지 550%"
       },
       {
         "type_code": 87,
@@ -12295,9 +12295,9 @@
       {
         "type_code": 90,
         "type_name": "데미지",
-        "value": 0.0075,
-        "value_display": "0.75%",
-        "description": "데미지 0.75%"
+        "value": 7.5,
+        "value_display": "750%",
+        "description": "데미지 750%"
       },
       {
         "type_code": 6,
@@ -12349,9 +12349,9 @@
       {
         "type_code": 90,
         "type_name": "데미지",
-        "value": 0.0075,
-        "value_display": "0.75%",
-        "description": "데미지 0.75%"
+        "value": 7.5,
+        "value_display": "750%",
+        "description": "데미지 750%"
       },
       {
         "type_code": 51,
@@ -13645,9 +13645,9 @@
       {
         "type_code": 90,
         "type_name": "데미지",
-        "value": 0.0066,
-        "value_display": "0.66%",
-        "description": "데미지 0.66%"
+        "value": 6.6,
+        "value_display": "660%",
+        "description": "데미지 660%"
       },
       {
         "type_code": 87,
@@ -15805,9 +15805,9 @@
       {
         "type_code": 90,
         "type_name": "데미지",
-        "value": 0.0088,
-        "value_display": "0.88%",
-        "description": "데미지 0.88%"
+        "value": 8.8,
+        "value_display": "880%",
+        "description": "데미지 880%"
       },
       {
         "type_code": 88,
@@ -17641,9 +17641,9 @@
       {
         "type_code": 90,
         "type_name": "데미지",
-        "value": 0.0066,
-        "value_display": "0.66%",
-        "description": "데미지 0.66%"
+        "value": 6.6,
+        "value_display": "660%",
+        "description": "데미지 660%"
       },
       {
         "type_code": 17,
@@ -21951,9 +21951,9 @@
       {
         "type_code": 90,
         "type_name": "데미지",
-        "value": 0.01,
-        "value_display": "1%",
-        "description": "데미지 1%"
+        "value": 10.0,
+        "value_display": "1000%",
+        "description": "데미지 1000%"
       },
       {
         "type_code": 16,
@@ -22005,9 +22005,9 @@
       {
         "type_code": 90,
         "type_name": "데미지",
-        "value": 0.01,
-        "value_display": "1%",
-        "description": "데미지 1%"
+        "value": 10.0,
+        "value_display": "1000%",
+        "description": "데미지 1000%"
       },
       {
         "type_code": 82,
@@ -26715,7 +26715,7 @@
       66.0,
       4.4,
       6.0,
-      4.0
+      0.4
     ],
     "effects_resolved": [
       {
@@ -26742,9 +26742,9 @@
       {
         "type_code": 59,
         "type_name": "모든 용병의 클릭 성장 데미지",
-        "value": 4.0,
-        "value_display": "4",
-        "description": "모든 용병의 클릭 성장 데미지 4"
+        "value": 0.4,
+        "value_display": "0.4",
+        "description": "모든 용병의 클릭 성장 데미지 0.4"
       }
     ]
   },
