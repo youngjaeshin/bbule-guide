@@ -10634,10 +10634,10 @@
       },
       {
         "type_code": 128,
-        "type_name": "모든 용병의 선제 공격 확률",
+        "type_name": "모든 용병의 추가 클릭 확률",
         "value": 0.04,
         "value_display": "4%",
-        "description": "모든 용병의 선제 공격 확률 4%"
+        "description": "모든 용병의 추가 클릭 확률 4%"
       },
       {
         "type_code": 80,
@@ -20128,10 +20128,10 @@
       },
       {
         "type_code": 128,
-        "type_name": "모든 용병의 선제 공격 확률",
+        "type_name": "모든 용병의 추가 클릭 확률",
         "value": 0.02,
         "value_display": "2%",
-        "description": "모든 용병의 선제 공격 확률 2%"
+        "description": "모든 용병의 추가 클릭 확률 2%"
       },
       {
         "type_code": 561,
@@ -20263,10 +20263,10 @@
       },
       {
         "type_code": 128,
-        "type_name": "모든 용병의 선제 공격 확률",
+        "type_name": "모든 용병의 추가 클릭 확률",
         "value": 0.017,
         "value_display": "1.7%",
-        "description": "모든 용병의 선제 공격 확률 1.7%"
+        "description": "모든 용병의 추가 클릭 확률 1.7%"
       },
       {
         "type_code": 564,
@@ -20499,10 +20499,10 @@
       },
       {
         "type_code": 128,
-        "type_name": "모든 용병의 선제 공격 확률",
+        "type_name": "모든 용병의 추가 클릭 확률",
         "value": 0.06,
         "value_display": "6%",
-        "description": "모든 용병의 선제 공격 확률 6%"
+        "description": "모든 용병의 추가 클릭 확률 6%"
       },
       {
         "type_code": 92,
@@ -23693,10 +23693,10 @@
       },
       {
         "type_code": 128,
-        "type_name": "모든 용병의 선제 공격 확률",
+        "type_name": "모든 용병의 추가 클릭 확률",
         "value": 0.044,
         "value_display": "4.4%",
-        "description": "모든 용병의 선제 공격 확률 4.4%"
+        "description": "모든 용병의 추가 클릭 확률 4.4%"
       }
     ]
   },
@@ -26093,10 +26093,10 @@
       },
       {
         "type_code": 3030,
-        "type_name": "코드 3030",
+        "type_name": "(아티팩트 New드루이드 스태프 장착시) 봉인 무효화 확률",
         "value": 0.06,
-        "value_display": "0.06",
-        "description": "코드 3030 0.06"
+        "value_display": "6%",
+        "description": "(아티팩트 New드루이드 스태프 장착시) 봉인 무효화 확률 6%"
       }
     ]
   },
@@ -26309,10 +26309,10 @@
       },
       {
         "type_code": 3034,
-        "type_name": "코드 3034",
+        "type_name": "(머셔너리 세트 완성시) 모든 용병의 강타 배수 증폭",
         "value": 0.03,
-        "value_display": "0.03",
-        "description": "코드 3034 0.03"
+        "value_display": "3%",
+        "description": "(머셔너리 세트 완성시) 모든 용병의 강타 배수 증폭 3%"
       }
     ]
   },
@@ -26612,31 +26612,31 @@
     "effects_resolved": [
       {
         "type_code": 1004,
-        "type_name": "코드 1004",
+        "type_name": "행운 배수 증폭",
         "value": 0.09,
-        "value_display": "0.09",
-        "description": "코드 1004 0.09"
+        "value_display": "9%",
+        "description": "행운 배수 증폭 9%"
       },
       {
         "type_code": 1029,
-        "type_name": "코드 1029",
+        "type_name": "모든 용병의 행운 배수 증폭",
         "value": 0.015,
-        "value_display": "0.015",
-        "description": "코드 1029 0.015"
+        "value_display": "1.5%",
+        "description": "모든 용병의 행운 배수 증폭 1.5%"
       },
       {
         "type_code": 3042,
-        "type_name": "코드 3042",
+        "type_name": "(데쓰나이트 세트 완성시) 적들의 반사 확률 감소",
         "value": 0.06,
-        "value_display": "0.06",
-        "description": "코드 3042 0.06"
+        "value_display": "6%",
+        "description": "(데쓰나이트 세트 완성시) 적들의 반사 확률 감소 6%"
       },
       {
         "type_code": 3043,
-        "type_name": "코드 3043",
+        "type_name": "(데쓰나이트 세트 완성시) 저주 공격 확률",
         "value": 0.048,
-        "value_display": "0.048",
-        "description": "코드 3043 0.048"
+        "value_display": "4.8%",
+        "description": "(데쓰나이트 세트 완성시) 저주 공격 확률 4.8%"
       }
     ]
   },
@@ -26903,10 +26903,10 @@
       },
       {
         "type_code": 128,
-        "type_name": "모든 용병의 선제 공격 확률",
+        "type_name": "모든 용병의 추가 클릭 확률",
         "value": 0.06,
         "value_display": "6%",
-        "description": "모든 용병의 선제 공격 확률 6%"
+        "description": "모든 용병의 추가 클릭 확률 6%"
       }
     ]
   },
@@ -27753,10 +27753,10 @@
       },
       {
         "type_code": 1004,
-        "type_name": "코드 1004",
+        "type_name": "행운 배수 증폭",
         "value": 0.05,
-        "value_display": "0.05",
-        "description": "코드 1004 0.05"
+        "value_display": "5%",
+        "description": "행운 배수 증폭 5%"
       },
       {
         "type_code": 52,
@@ -27767,10 +27767,10 @@
       },
       {
         "type_code": 1029,
-        "type_name": "코드 1029",
+        "type_name": "모든 용병의 행운 배수 증폭",
         "value": 0.01,
-        "value_display": "0.01",
-        "description": "코드 1029 0.01"
+        "value_display": "1%",
+        "description": "모든 용병의 행운 배수 증폭 1%"
       }
     ]
   },
@@ -27875,10 +27875,10 @@
       },
       {
         "type_code": 3057,
-        "type_name": "코드 3057",
+        "type_name": "(아티팩트 아너드 랜서 바이저 장착시) 즉시 공격 데미지",
         "value": 0.24,
-        "value_display": "0.24",
-        "description": "코드 3057 0.24"
+        "value_display": "24%",
+        "description": "(아티팩트 아너드 랜서 바이저 장착시) 즉시 공격 데미지 24%"
       }
     ]
   },
