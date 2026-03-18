@@ -7912,7 +7912,7 @@
     "effects": [
       0.2,
       0.05,
-      0.3
+      0.25
     ],
     "effects_resolved": [
       {
@@ -7932,9 +7932,9 @@
       {
         "type_code": 1001,
         "type_name": "강타 배수 증폭",
-        "value": 0.3,
-        "value_display": "30%",
-        "description": "강타 배수 증폭 30%"
+        "value": 0.25,
+        "value_display": "25%",
+        "description": "강타 배수 증폭 25%"
       }
     ],
     "randomValue": 0

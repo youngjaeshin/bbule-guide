@@ -25214,133 +25214,217 @@
   },
   {
     "index": 505,
-    "name": "아낙수나문",
+    "name": "아낙수나문 비틀 셉터",
     "set_id": 50,
     "set_name": "아낙수나문",
-    "icon": 0,
+    "icon": 517,
     "rank": 15,
     "grade": "유료",
     "dropTable": -1,
     "part": 0,
     "part_name": "무기",
     "aType": [
-      26,
-      0,
-      0,
-      0
+      5,
+      68,
+      14,
+      3059
     ],
     "aEffect": [
-      0.0,
-      0.0,
-      0.0,
-      0.0
+      0.8,
+      0.015,
+      0.02,
+      0.6
     ],
     "effects_resolved": [
       {
-        "type_code": 26,
-        "type_name": "베이스 데미지",
-        "value": 0.0,
-        "value_display": "",
-        "description": "베이스 데미지"
+        "type_code": 5,
+        "type_name": "모든 용병의 클릭 데미지",
+        "value": 0.8,
+        "value_display": "80%",
+        "description": "모든 용병의 클릭 데미지 80%"
+      },
+      {
+        "type_code": 68,
+        "type_name": "적 둔화 감소",
+        "value": 0.015,
+        "value_display": "1.5%",
+        "description": "적 둔화 감소 1.5%"
+      },
+      {
+        "type_code": 14,
+        "type_name": "클릭 크리티컬 확률",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "클릭 크리티컬 확률 2%"
+      },
+      {
+        "type_code": 3059,
+        "type_name": "코드 3059",
+        "value": 0.6,
+        "value_display": "0.6",
+        "description": "코드 3059 0.6"
       }
     ]
   },
   {
     "index": 506,
-    "name": "아낙수나문",
+    "name": "아낙수나문 헤드드레스",
     "set_id": 50,
     "set_name": "아낙수나문",
-    "icon": 0,
+    "icon": 518,
     "rank": 15,
     "grade": "유료",
     "dropTable": -1,
     "part": 1,
     "part_name": "투구",
     "aType": [
-      26,
-      0,
-      0,
-      0
+      2,
+      1009,
+      1018,
+      3060
     ],
     "aEffect": [
-      0.0,
-      0.0,
-      0.0,
-      0.0
+      0.8,
+      0.015,
+      0.03,
+      0.015
     ],
     "effects_resolved": [
       {
-        "type_code": 26,
-        "type_name": "베이스 데미지",
-        "value": 0.0,
-        "value_display": "",
-        "description": "베이스 데미지"
+        "type_code": 2,
+        "type_name": "모든 용병의 데미지",
+        "value": 0.8,
+        "value_display": "80%",
+        "description": "모든 용병의 데미지 80%"
+      },
+      {
+        "type_code": 1009,
+        "type_name": "적들의 부활 확률 감소",
+        "value": 0.015,
+        "value_display": "1.5%",
+        "description": "적들의 부활 확률 감소 1.5%"
+      },
+      {
+        "type_code": 1018,
+        "type_name": "모든 용병의 강타 배수 증폭",
+        "value": 0.03,
+        "value_display": "3%",
+        "description": "모든 용병의 강타 배수 증폭 3%"
+      },
+      {
+        "type_code": 3060,
+        "type_name": "코드 3060",
+        "value": 0.015,
+        "value_display": "0.015",
+        "description": "코드 3060 0.015"
       }
     ]
   },
   {
     "index": 507,
-    "name": "아낙수나문",
+    "name": "아낙수나문 퍼틸리티 탑",
     "set_id": 50,
     "set_name": "아낙수나문",
-    "icon": 0,
+    "icon": 519,
     "rank": 15,
     "grade": "유료",
     "dropTable": -1,
     "part": 2,
     "part_name": "갑옷",
     "aType": [
-      84,
-      0,
-      0,
-      0
+      33,
+      97,
+      100,
+      3061
     ],
     "aEffect": [
-      0.0,
-      0.0,
-      0.0,
-      0.0
+      0.07,
+      0.015,
+      0.0005,
+      0.015
     ],
     "effects_resolved": [
       {
-        "type_code": 84,
-        "type_name": "최종 데미지",
-        "value": 0.0,
-        "value_display": "",
-        "description": "최종 데미지"
+        "type_code": 33,
+        "type_name": "모든 용병의 베이스 데미지",
+        "value": 0.07,
+        "value_display": "7%",
+        "description": "모든 용병의 베이스 데미지 7%"
+      },
+      {
+        "type_code": 97,
+        "type_name": "소울 클릭 배수 증폭",
+        "value": 0.015,
+        "value_display": "1.5%",
+        "description": "소울 클릭 배수 증폭 1.5%"
+      },
+      {
+        "type_code": 100,
+        "type_name": "코드 100",
+        "value": 0.0005,
+        "value_display": "0.0005",
+        "description": "코드 100 0.0005"
+      },
+      {
+        "type_code": 3061,
+        "type_name": "코드 3061",
+        "value": 0.015,
+        "value_display": "0.015",
+        "description": "코드 3061 0.015"
       }
     ]
   },
   {
     "index": 508,
-    "name": "아낙수나문",
+    "name": "아낙수나문 아누비스 자",
     "set_id": 50,
     "set_name": "아낙수나문",
-    "icon": 0,
+    "icon": 520,
     "rank": 15,
     "grade": "유료",
     "dropTable": -1,
     "part": 3,
     "part_name": "보조",
     "aType": [
-      84,
-      0,
-      0,
-      0
+      54,
+      1035,
+      99,
+      3062
     ],
     "aEffect": [
-      0.0,
-      0.0,
-      0.0,
-      0.0
+      0.07,
+      0.015,
+      0.0006,
+      0.25
     ],
     "effects_resolved": [
       {
-        "type_code": 84,
-        "type_name": "최종 데미지",
-        "value": 0.0,
-        "value_display": "",
-        "description": "최종 데미지"
+        "type_code": 54,
+        "type_name": "모든 용병의 최종 데미지",
+        "value": 0.07,
+        "value_display": "7%",
+        "description": "모든 용병의 최종 데미지 7%"
+      },
+      {
+        "type_code": 1035,
+        "type_name": "모든 용병의 봉인 무효화 확률",
+        "value": 0.015,
+        "value_display": "1.5%",
+        "description": "모든 용병의 봉인 무효화 확률 1.5%"
+      },
+      {
+        "type_code": 99,
+        "type_name": "코드 99",
+        "value": 0.0006,
+        "value_display": "0.0006",
+        "description": "코드 99 0.0006"
+      },
+      {
+        "type_code": 3062,
+        "type_name": "코드 3062",
+        "value": 0.25,
+        "value_display": "0.25",
+        "description": "코드 3062 0.25"
       }
     ]
   },
@@ -25607,10 +25691,10 @@
       },
       {
         "type_code": 3021,
-        "type_name": "코드 3021",
+        "type_name": "(New로열 바이저 장착시) 적들의 약화 효과 감소",
         "value": 0.012,
-        "value_display": "0.012",
-        "description": "코드 3021 0.012"
+        "value_display": "1.2%",
+        "description": "(New로열 바이저 장착시) 적들의 약화 효과 감소 1.2%"
       }
     ]
   },
@@ -25823,10 +25907,10 @@
       },
       {
         "type_code": 3025,
-        "type_name": "(New 로열 스워드 장착 시) 적들의 무력화 감소",
+        "type_name": "(New박제사의 모자 장착시) 모든 용병의 추가 클릭 데미지",
         "value": 0.015,
         "value_display": "1.5%",
-        "description": "(New 로열 스워드 장착 시) 적들의 무력화 감소 1.5%"
+        "description": "(New박제사의 모자 장착시) 모든 용병의 추가 클릭 데미지 1.5%"
       }
     ]
   },
@@ -25870,17 +25954,17 @@
       },
       {
         "type_code": 1035,
-        "type_name": "코드 1035",
+        "type_name": "모든 용병의 봉인 무효화 확률",
         "value": 0.008,
-        "value_display": "0.008",
-        "description": "코드 1035 0.008"
+        "value_display": "0.8%",
+        "description": "모든 용병의 봉인 무효화 확률 0.8%"
       },
       {
         "type_code": 3026,
-        "type_name": "코드 3026",
+        "type_name": "(New박제사의 신발 장착시) 모든 용병의 행운 배수",
         "value": 0.18,
         "value_display": "0.18",
-        "description": "코드 3026 0.18"
+        "description": "(New박제사의 신발 장착시) 모든 용병의 행운 배수 0.18"
       }
     ]
   },
@@ -26147,10 +26231,10 @@
       },
       {
         "type_code": 3031,
-        "type_name": "코드 3031",
+        "type_name": "(New드루이드 헬멧 장착시) 모든 용병의 추가클릭확률",
         "value": 0.1,
-        "value_display": "0.1",
-        "description": "코드 3031 0.1"
+        "value_display": "10%",
+        "description": "(New드루이드 헬멧 장착시) 모든 용병의 추가클릭확률 10%"
       }
     ]
   },
@@ -26255,10 +26339,10 @@
       },
       {
         "type_code": 3033,
-        "type_name": "코드 3033",
+        "type_name": "(New머셔너리 헬름 장착시) 봉인 무효화 확률",
         "value": 0.06,
-        "value_display": "0.06",
-        "description": "코드 3033 0.06"
+        "value_display": "6%",
+        "description": "(New머셔너리 헬름 장착시) 봉인 무효화 확률 6%"
       }
     ]
   },
@@ -26417,10 +26501,10 @@
       },
       {
         "type_code": 3036,
-        "type_name": "코드 3036",
+        "type_name": "(New머셔너리 스워드 장착시) 모든 용병의 강타 배수",
         "value": 0.15,
         "value_display": "0.15",
-        "description": "코드 3036 0.15"
+        "description": "(New머셔너리 스워드 장착시) 모든 용병의 강타 배수 0.15"
       }
     ]
   },
@@ -26471,10 +26555,10 @@
       },
       {
         "type_code": 3037,
-        "type_name": "코드 3037",
+        "type_name": "(아르케로 세트 완성시) 적들의 무력화 효과 감소",
         "value": 0.032,
-        "value_display": "0.032",
-        "description": "코드 3037 0.032"
+        "value_display": "3.2%",
+        "description": "(아르케로 세트 완성시) 적들의 무력화 효과 감소 3.2%"
       }
     ]
   },
@@ -26715,7 +26799,7 @@
       66.0,
       4.4,
       6.0,
-      0.4
+      0.44
     ],
     "effects_resolved": [
       {
@@ -26742,9 +26826,9 @@
       {
         "type_code": 59,
         "type_name": "모든 용병의 클릭 성장 데미지",
-        "value": 0.4,
-        "value_display": "0.4",
-        "description": "모든 용병의 클릭 성장 데미지 0.4"
+        "value": 0.44,
+        "value_display": "0.44",
+        "description": "모든 용병의 클릭 성장 데미지 0.44"
       }
     ]
   },
@@ -27020,7 +27104,7 @@
   },
   {
     "index": 540,
-    "name": "아머 오브 루 부",
+    "name": "아머 오브 뤼부",
     "set_id": 1024,
     "set_name": "",
     "icon": 500,
@@ -27159,24 +27243,24 @@
       },
       {
         "type_code": 1026,
-        "type_name": "코드 1026",
+        "type_name": "절대명중 확률",
         "value": 0.08,
-        "value_display": "0.08",
-        "description": "코드 1026 0.08"
+        "value_display": "8%",
+        "description": "절대명중 확률 8%"
       },
       {
         "type_code": 1027,
-        "type_name": "코드 1027",
+        "type_name": "모든 용병의 절대명중 확률",
         "value": 0.01,
-        "value_display": "0.01",
-        "description": "코드 1027 0.01"
+        "value_display": "1%",
+        "description": "모든 용병의 절대명중 확률 1%"
       },
       {
         "type_code": 3047,
-        "type_name": "코드 3047",
+        "type_name": "(나이트메어 스워드 장착시) 봉인 무효화 확률",
         "value": 0.05,
-        "value_display": "0.05",
-        "description": "코드 3047 0.05"
+        "value_display": "5%",
+        "description": "(나이트메어 스워드 장착시) 봉인 무효화 확률 5%"
       }
     ]
   },
@@ -27497,10 +27581,10 @@
       },
       {
         "type_code": 3053,
-        "type_name": "코드 3053",
+        "type_name": "(트와일라잇 타워 쉴드 장착시) 추가클릭 확률",
         "value": 0.5,
-        "value_display": "0.5",
-        "description": "코드 3053 0.5"
+        "value_display": "50%",
+        "description": "(트와일라잇 타워 쉴드 장착시) 추가클릭 확률 50%"
       }
     ]
   },
@@ -27591,10 +27675,10 @@
       },
       {
         "type_code": 1026,
-        "type_name": "코드 1026",
+        "type_name": "절대명중 확률",
         "value": 0.08,
-        "value_display": "0.08",
-        "description": "코드 1026 0.08"
+        "value_display": "8%",
+        "description": "절대명중 확률 8%"
       },
       {
         "type_code": 96,
@@ -27614,7 +27698,7 @@
   },
   {
     "index": 551,
-    "name": "헬름 오브 루 부",
+    "name": "헬름 오브 뤼부",
     "set_id": 1024,
     "set_name": "",
     "icon": 511,
@@ -27645,10 +27729,10 @@
       },
       {
         "type_code": 1026,
-        "type_name": "코드 1026",
+        "type_name": "절대명중 확률",
         "value": 0.1,
-        "value_display": "0.1",
-        "description": "코드 1026 0.1"
+        "value_display": "10%",
+        "description": "절대명중 확률 10%"
       },
       {
         "type_code": 57,
@@ -27659,10 +27743,10 @@
       },
       {
         "type_code": 3056,
-        "type_name": "코드 3056",
+        "type_name": "(아머 오브 뤼부 장착시) 치명타 확률",
         "value": 0.06,
-        "value_display": "0.06",
-        "description": "코드 3056 0.06"
+        "value_display": "6%",
+        "description": "(아머 오브 뤼부 장착시) 치명타 확률 6%"
       }
     ]
   },
@@ -27814,17 +27898,17 @@
       },
       {
         "type_code": 1026,
-        "type_name": "코드 1026",
+        "type_name": "절대명중 확률",
         "value": 0.05,
-        "value_display": "0.05",
-        "description": "코드 1026 0.05"
+        "value_display": "5%",
+        "description": "절대명중 확률 5%"
       },
       {
         "type_code": 1027,
-        "type_name": "코드 1027",
+        "type_name": "모든 용병의 절대명중 확률",
         "value": 0.01,
-        "value_display": "0.01",
-        "description": "코드 1027 0.01"
+        "value_display": "1%",
+        "description": "모든 용병의 절대명중 확률 1%"
       }
     ]
   },

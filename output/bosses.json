@@ -342,7 +342,7 @@
   {
     "index": 17,
     "name": "콜드 소울",
-    "model": 40,
+    "model": 550,
     "resistPhysical": 0.25,
     "resistMagical": 2.0,
     "resistClick": 0.5,

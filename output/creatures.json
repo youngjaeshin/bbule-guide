@@ -3925,13 +3925,13 @@
     "grade": "A",
     "subtitle": "리퍼",
     "subtitle_grade": "",
-    "story": "소울테이커는 3개의 보물을 항상 들고다니는데 하나는 영혼을 빼았는 사신의 낫이고 다른 하나는 상대의 남은 수명을 볼수있는 모래시계 그리고 마지막으로 목숨을 빼았아야하는 대상이 적힌 노트 입니다. 그런데 소울 테이커가 사신일을 안하고 왜 용병일을 하고 있는지는 아무도 모릅니다.\r\n\r\n준수한 카오스 타입의 공격을 합니다.",
+    "story": "소울테이커는 아리만의 밑에서 망자를 저승으로 인도하는 사신 업무를 아주 오랫동안 수행하였으나, 최근에는 은퇴하고 용병이 되었습니다. 소울테이커가 사신일을 그만 두고 왜 용병일을 하고 있는지는 아무도 모릅니다.\n\n적들의 최대 체력을 대폭 감소 시킵니다.",
     "model": 40,
     "rank": 41,
     "attackType": 3,
     "attackType_kr": "카오스",
     "canG": false,
-    "canAwaken": true,
+    "canAwaken": false,
     "skills": [
       {
         "slot": 1,
@@ -3960,8 +3960,8 @@
       {
         "slot": 5,
         "id": 40,
-        "name": "소울 테이커의 죽음의 응시",
-        "description": "소울 테이커의 차가운 응시는 종종 상대의 심장을 멈춰 버리게 만듭니다."
+        "name": "소울테이커의 죽음의 응시",
+        "description": "소울테이커의 차가운 응시는 종종 상대의 심장을 멈춰 버리게 만듭니다."
       }
     ],
     "damage_raw": {
@@ -3988,7 +3988,7 @@
       "growth_damage": 92.0
     },
     "exclusiveIDs": [
-      -1,
+      540,
       -1,
       -1
     ],
@@ -52869,14 +52869,14 @@
     "damage_raw": {
       "damage": 198,
       "damageUp": 33,
-      "damageClick": 155,
-      "damageClickUp": 31
+      "damageClick": 150,
+      "damageClickUp": 30
     },
     "damageG_raw": {
       "damageG": 198,
       "damageUpG": 33,
-      "damageClickG": 155,
-      "damageClickUpG": 31
+      "damageClickG": 150,
+      "damageClickUpG": 30
     },
     "attackCooldown": 1.66,
     "attackCooldownG": 1.66,
@@ -52884,9 +52884,9 @@
       "base_dps": 477.1,
       "attack_cooldown": 1.66,
       "growth_dps": 79.5,
-      "base_click_damage": 108.5,
+      "base_click_damage": 105.0,
       "base_damage": 792.0,
-      "growth_click_damage": 21.7,
+      "growth_click_damage": 21.0,
       "growth_damage": 132.0
     },
     "exclusiveIDs": [
@@ -52915,6 +52915,104 @@
     },
     "exclusive_names": [
       "",
+      "",
+      ""
+    ]
+  },
+  {
+    "hero_id": 540,
+    "name": "소울테이커",
+    "grade": "G",
+    "subtitle": "그림 리퍼",
+    "subtitle_grade": "",
+    "story": "소울테이커는 아리만의 밑에서 망자를 저승으로 인도하는 사신 업무를 아주 오랫동안 수행하였으나, 최근에는 은퇴하고 용병이 되었습니다. 소울테이커가 사신일을 그만 두고 왜 용병일을 하고 있는지는 아무도 모릅니다.\n\n적들의 최대 체력을 대폭 감소 시킵니다.",
+    "model": 550,
+    "rank": 541,
+    "attackType": 3,
+    "attackType_kr": "카오스",
+    "canG": true,
+    "canAwaken": true,
+    "skills": [
+      {
+        "slot": 1,
+        "id": 320,
+        "name": "혼돈의 분노",
+        "description": "혼돈의 힘으로 증폭된 분노로 적들을 보다 빠르게 공격 합니다."
+      },
+      {
+        "slot": 2,
+        "id": 1039,
+        "name": "보복",
+        "description": "자신에게 해를 끼친 상대에게 자신이 당한 것 이상의 피해를 되돌려 줍니다."
+      },
+      {
+        "slot": 3,
+        "id": 1207,
+        "name": "스킨레스",
+        "description": "피부라는 감옥을 찢고 스스로를 해방시켜, 스킨레스 신께 조금 더 가까이 가시오."
+      },
+      {
+        "slot": 4,
+        "id": 149,
+        "name": "죽음의 응시++",
+        "description": "싸늘한 죽음의 응시로 적들의 생명력을 약화 시킵니다."
+      },
+      {
+        "slot": 5,
+        "id": 40,
+        "name": "소울테이커의 죽음의 응시",
+        "description": "소울테이커의 차가운 응시는 종종 상대의 심장을 멈춰 버리게 만듭니다."
+      }
+    ],
+    "damage_raw": {
+      "damage": 420,
+      "damageUp": 70,
+      "damageClick": 140,
+      "damageClickUp": 35
+    },
+    "damageG_raw": {
+      "damageG": 420,
+      "damageUpG": 70,
+      "damageClickG": 140,
+      "damageClickUpG": 35
+    },
+    "attackCooldown": 4.44,
+    "attackCooldownG": 4.44,
+    "sheet_stats": {
+      "base_dps": 378.4,
+      "attack_cooldown": 4.44,
+      "growth_dps": 63.1,
+      "base_click_damage": 98.0,
+      "base_damage": 1680.0,
+      "growth_click_damage": 24.5,
+      "growth_damage": 280.0
+    },
+    "exclusiveIDs": [
+      40,
+      -1,
+      -1
+    ],
+    "effectAttack": 32,
+    "requireOrb": 0,
+    "requireParticle": 0,
+    "types": {
+      "race_top_code": 0,
+      "race_top": "",
+      "race_code": 5,
+      "race": "언데드",
+      "location_code": 16,
+      "location": "루페스 니그라",
+      "gender_code": 3,
+      "gender": "불확실함",
+      "house_code": 0,
+      "house": "",
+      "religion_code": 17,
+      "religion": "스킨레스",
+      "individuality_code": 0,
+      "individuality": ""
+    },
+    "exclusive_names": [
+      "저주 두번받은 단검",
       "",
       ""
     ]
