@@ -5781,10 +5781,10 @@
     "effects_resolved": [
       {
         "type_code": 409,
-        "type_name": "추가 데미지",
+        "type_name": "(거지 세트완성시) 추가 데미지",
         "value": 12000.0,
         "value_display": "12000",
-        "description": "추가 데미지 12000"
+        "description": "(거지 세트완성시) 추가 데미지 12000"
       }
     ]
   },
@@ -5808,10 +5808,10 @@
     "effects_resolved": [
       {
         "type_code": 410,
-        "type_name": "골드 획득량",
+        "type_name": "(거지 세트완성시) 골드 획득량",
         "value": 0.25,
         "value_display": "25%",
-        "description": "골드 획득량 25%"
+        "description": "(거지 세트완성시) 골드 획득량 25%"
       }
     ]
   },
@@ -5835,10 +5835,10 @@
     "effects_resolved": [
       {
         "type_code": 410,
-        "type_name": "골드 획득량",
+        "type_name": "(거지 세트완성시) 골드 획득량",
         "value": 0.25,
         "value_display": "25%",
-        "description": "골드 획득량 25%"
+        "description": "(거지 세트완성시) 골드 획득량 25%"
       }
     ]
   },
@@ -5862,10 +5862,10 @@
     "effects_resolved": [
       {
         "type_code": 409,
-        "type_name": "추가 데미지",
+        "type_name": "(거지 세트완성시) 추가 데미지",
         "value": 12000.0,
         "value_display": "12000",
-        "description": "추가 데미지 12000"
+        "description": "(거지 세트완성시) 추가 데미지 12000"
       }
     ]
   },
@@ -5889,10 +5889,10 @@
     "effects_resolved": [
       {
         "type_code": 411,
-        "type_name": "데미지",
+        "type_name": "(산지기 세트완성시) 데미지",
         "value": 1.35,
         "value_display": "135%",
-        "description": "데미지 135%"
+        "description": "(산지기 세트완성시) 데미지 135%"
       }
     ]
   },
@@ -5916,10 +5916,10 @@
     "effects_resolved": [
       {
         "type_code": 412,
-        "type_name": "아이템 획득 확률",
+        "type_name": "(산지기 세트완성시) 아이템 획득 확률",
         "value": 0.09,
         "value_display": "9%",
-        "description": "아이템 획득 확률 9%"
+        "description": "(산지기 세트완성시) 아이템 획득 확률 9%"
       }
     ]
   },
@@ -5943,10 +5943,10 @@
     "effects_resolved": [
       {
         "type_code": 412,
-        "type_name": "아이템 획득 확률",
+        "type_name": "(산지기 세트완성시) 아이템 획득 확률",
         "value": 0.09,
         "value_display": "9%",
-        "description": "아이템 획득 확률 9%"
+        "description": "(산지기 세트완성시) 아이템 획득 확률 9%"
       }
     ]
   },
@@ -5970,10 +5970,10 @@
     "effects_resolved": [
       {
         "type_code": 411,
-        "type_name": "데미지",
+        "type_name": "(산지기 세트완성시) 데미지",
         "value": 1.35,
         "value_display": "135%",
-        "description": "데미지 135%"
+        "description": "(산지기 세트완성시) 데미지 135%"
       }
     ]
   },
@@ -9223,10 +9223,10 @@
       },
       {
         "type_code": 90,
-        "type_name": "데미지",
-        "value": 5.5,
-        "value_display": "550%",
-        "description": "데미지 550%"
+        "type_name": "모든 용병의 치명타 확률",
+        "value": 0.0055,
+        "value_display": "0.55%",
+        "description": "모든 용병의 치명타 확률 0.55%"
       },
       {
         "type_code": 87,
@@ -9385,10 +9385,10 @@
       },
       {
         "type_code": 90,
-        "type_name": "데미지",
-        "value": 5.5,
-        "value_display": "550%",
-        "description": "데미지 550%"
+        "type_name": "모든 용병의 치명타 확률",
+        "value": 0.0055,
+        "value_display": "0.55%",
+        "description": "모든 용병의 치명타 확률 0.55%"
       },
       {
         "type_code": 87,
@@ -10155,10 +10155,10 @@
       },
       {
         "type_code": 570,
-        "type_name": "모든 용병의 데미지",
+        "type_name": "(레인저 롱소드 장착시) 추가 클릭 확률",
         "value": 0.5,
         "value_display": "50%",
-        "description": "모든 용병의 데미지 50%"
+        "description": "(레인저 롱소드 장착시) 추가 클릭 확률 50%"
       }
     ]
   },
@@ -10209,10 +10209,10 @@
       },
       {
         "type_code": 571,
-        "type_name": "추가 클릭 데미지",
+        "type_name": "(레인저 라이트 헬름 장착시) 추가 클릭 데미지",
         "value": 0.15,
         "value_display": "15%",
-        "description": "추가 클릭 데미지 15%"
+        "description": "(레인저 라이트 헬름 장착시) 추가 클릭 데미지 15%"
       }
     ]
   },
@@ -10263,10 +10263,10 @@
       },
       {
         "type_code": 572,
-        "type_name": "모든 용병의 연타 확률",
+        "type_name": "(레인저 래더아머 장착시) 모든 용병의 연타 확률",
         "value": 0.015,
         "value_display": "1.5%",
-        "description": "모든 용병의 연타 확률 1.5%"
+        "description": "(레인저 래더아머 장착시) 모든 용병의 연타 확률 1.5%"
       }
     ]
   },
@@ -12294,10 +12294,10 @@
     "effects_resolved": [
       {
         "type_code": 90,
-        "type_name": "데미지",
-        "value": 7.5,
-        "value_display": "750%",
-        "description": "데미지 750%"
+        "type_name": "모든 용병의 치명타 확률",
+        "value": 0.0075,
+        "value_display": "0.75%",
+        "description": "모든 용병의 치명타 확률 0.75%"
       },
       {
         "type_code": 6,
@@ -12348,10 +12348,10 @@
     "effects_resolved": [
       {
         "type_code": 90,
-        "type_name": "데미지",
-        "value": 7.5,
-        "value_display": "750%",
-        "description": "데미지 750%"
+        "type_name": "모든 용병의 치명타 확률",
+        "value": 0.0075,
+        "value_display": "0.75%",
+        "description": "모든 용병의 치명타 확률 0.75%"
       },
       {
         "type_code": 51,
@@ -12402,10 +12402,10 @@
     "effects_resolved": [
       {
         "type_code": 127,
-        "type_name": "데미지",
+        "type_name": "모든 용병의 치명타 딜레이 감소",
         "value": 0.0075,
         "value_display": "0.75%",
-        "description": "데미지 0.75%"
+        "description": "모든 용병의 치명타 딜레이 감소 0.75%"
       },
       {
         "type_code": 50,
@@ -13644,10 +13644,10 @@
     "effects_resolved": [
       {
         "type_code": 90,
-        "type_name": "데미지",
-        "value": 6.6,
-        "value_display": "660%",
-        "description": "데미지 660%"
+        "type_name": "모든 용병의 치명타 확률",
+        "value": 0.0066,
+        "value_display": "0.66%",
+        "description": "모든 용병의 치명타 확률 0.66%"
       },
       {
         "type_code": 87,
@@ -15804,10 +15804,10 @@
     "effects_resolved": [
       {
         "type_code": 90,
-        "type_name": "데미지",
-        "value": 8.8,
-        "value_display": "880%",
-        "description": "데미지 880%"
+        "type_name": "모든 용병의 치명타 확률",
+        "value": 0.0088,
+        "value_display": "0.88%",
+        "description": "모든 용병의 치명타 확률 0.88%"
       },
       {
         "type_code": 88,
@@ -17640,10 +17640,10 @@
     "effects_resolved": [
       {
         "type_code": 90,
-        "type_name": "데미지",
-        "value": 6.6,
-        "value_display": "660%",
-        "description": "데미지 660%"
+        "type_name": "모든 용병의 치명타 확률",
+        "value": 0.0066,
+        "value_display": "0.66%",
+        "description": "모든 용병의 치명타 확률 0.66%"
       },
       {
         "type_code": 17,
@@ -21950,10 +21950,10 @@
     "effects_resolved": [
       {
         "type_code": 90,
-        "type_name": "데미지",
-        "value": 10.0,
-        "value_display": "1000%",
-        "description": "데미지 1000%"
+        "type_name": "모든 용병의 치명타 확률",
+        "value": 0.01,
+        "value_display": "1%",
+        "description": "모든 용병의 치명타 확률 1%"
       },
       {
         "type_code": 16,
@@ -22004,10 +22004,10 @@
     "effects_resolved": [
       {
         "type_code": 90,
-        "type_name": "데미지",
-        "value": 10.0,
-        "value_display": "1000%",
-        "description": "데미지 1000%"
+        "type_name": "모든 용병의 치명타 확률",
+        "value": 0.01,
+        "value_display": "1%",
+        "description": "모든 용병의 치명타 확률 1%"
       },
       {
         "type_code": 82,
@@ -24658,10 +24658,10 @@
       },
       {
         "type_code": 127,
-        "type_name": "데미지",
+        "type_name": "모든 용병의 치명타 딜레이 감소",
         "value": 0.0066,
         "value_display": "0.66%",
-        "description": "데미지 0.66%"
+        "description": "모든 용병의 치명타 딜레이 감소 0.66%"
       },
       {
         "type_code": 3009,
@@ -27149,10 +27149,10 @@
       },
       {
         "type_code": 127,
-        "type_name": "데미지",
+        "type_name": "모든 용병의 치명타 딜레이 감소",
         "value": 0.012,
         "value_display": "1.2%",
-        "description": "데미지 1.2%"
+        "description": "모든 용병의 치명타 딜레이 감소 1.2%"
       }
     ]
   },
