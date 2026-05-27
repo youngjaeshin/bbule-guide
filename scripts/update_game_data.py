@@ -25,6 +25,7 @@ BUILD_STEPS = [
     ("equipment web data", [sys.executable, "build_equipment_data.py"]),
     ("mercenary web data", [sys.executable, "build_mercenary_data.py"]),
     ("random mercenary skills", [sys.executable, "regenerate_rmskills.py"]),
+    ("sub-slot mercenary skills", [sys.executable, "build_subslot_data.py"]),
     ("simulator data", [sys.executable, "build_simulator_data.py"]),
 ]
 
@@ -33,6 +34,7 @@ PY_COMPILE_TARGETS = [
     "build_artifact_data.py",
     "build_equipment_data.py",
     "build_mercenary_data.py",
+    "build_subslot_data.py",
     "build_simulator_data.py",
     "regenerate_rmskills.py",
     "verify_web_data_sync.py",
@@ -58,6 +60,7 @@ COMMIT_PATHS = [
     "build_artifact_data.py",
     "build_equipment_data.py",
     "build_mercenary_data.py",
+    "build_subslot_data.py",
     "build_simulator_data.py",
     "enhancement_multipliers.py",
     "extract_all.py",
@@ -79,6 +82,7 @@ COMMIT_PATHS = [
     "web/data_equipment.json",
     "web/data_mercenaries.json",
     "web/data_random_merc.json",
+    "web/data_subslot.json",
     "web/data_simulator.json",
     "web/index.html",
 ]

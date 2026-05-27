@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """Build web/data_mercenaries.json from extracted creature data.
 
-Existing web data contains manual display corrections, so this script preserves
-corrected skill text, passive text, and exclusive item text for unchanged
-mercenaries while refreshing APK-derived stats and adding new mercenaries.
+APK output is the source of truth for skill effects because same-name skills can
+change values or effect types between game versions. Existing web data is used
+only for manual passive, portrait, and exclusive-item fields, plus skill text
+when APK output has no effect candidate.
 """
 
 import json
@@ -14,6 +15,7 @@ BASE = Path(__file__).parent
 CREATURES_JSON = BASE / "output" / "creatures.json"
 MERC_SKILLS_JSON = BASE / "output" / "mercenary_skills.json"
 SUB_SLOT_JSON = BASE / "output" / "sub_slot_troops.json"
+RANDOM_SKILLS_JSON = BASE / "output" / "random_merc_skills.json"
 RANDOM_WEB_JSON = BASE / "web" / "data_random_merc.json"
 MERC_WEB_JSON = BASE / "web" / "data_mercenaries.json"
 INDEX_HTML = BASE / "web" / "index.html"
@@ -101,17 +103,9 @@ def normalize_skill_entry(skill: dict) -> dict:
 
 
 def build_skill_fallbacks() -> dict[int, dict]:
-    random_skills = load_json(RANDOM_WEB_JSON)
-    fallback = {
-        s["index"]: {
-            "name": s["name"],
-            "desc": s.get("desc", ""),
-            "effects": [normalize_effect_text(e) for e in s.get("effects", [])],
-        }
-        for s in random_skills
-    }
+    fallback = {}
 
-    for path in (MERC_SKILLS_JSON, SUB_SLOT_JSON):
+    for path in (MERC_SKILLS_JSON, SUB_SLOT_JSON, RANDOM_SKILLS_JSON):
         for s in load_json(path):
             if s["index"] in fallback:
                 continue
@@ -125,18 +119,32 @@ def build_skill_fallbacks() -> dict[int, dict]:
                 "desc": s.get("description", ""),
                 "effects": effects,
             }
+
+    # Legacy web random-merc data is a last-resort fallback only. APK output is
+    # the source of truth because same-name skills can change between versions.
+    for s in load_json(RANDOM_WEB_JSON):
+        if s["index"] in fallback:
+            continue
+        fallback[s["index"]] = {
+            "name": s["name"],
+            "desc": s.get("desc", ""),
+            "effects": [normalize_effect_text(e) for e in s.get("effects", [])],
+        }
     return fallback
 
 
 def convert_skill(raw_skill: dict, old_skill: dict | None, fallback: dict[int, dict]) -> dict:
-    if old_skill and old_skill.get("이름") == raw_skill.get("name"):
-        return normalize_skill_entry(old_skill)
-
     source = fallback.get(raw_skill["id"], {})
     effects = source.get("effects", [])
     effect_text = normalize_effect_text(" / ".join(effects))
     name = raw_skill.get("name", "") or source.get("name", "") or "없음"
     desc = raw_skill.get("description", "") or source.get("desc", "")
+    if old_skill and not effect_text:
+        return normalize_skill_entry({
+            **old_skill,
+            "이름": name or old_skill.get("이름", ""),
+            "설명": desc or old_skill.get("설명", ""),
+        })
     return normalize_skill_entry({
         "slot": raw_skill["slot"],
         "이름": name,

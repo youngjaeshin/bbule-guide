@@ -531,35 +531,48 @@ def format_effect_value(val: float, fmt: str = 'raw') -> str:
     return s
 
 
-def resolve_effects(types: list, effects: list, key_to_id: dict, ko_map: dict) -> list:
-    """Resolve effect type codes + values into readable descriptions.
+def infer_skill_effect_format(template: str, value: float) -> str:
+    """Infer itemBase/mercenary skill value formatting from a sec template."""
+    if '배수 증폭' in template or '증폭' in template:
+        return 'pct'
+    if '배수' in template:
+        return 'raw'
+    if '최대 레벨' in template or '시작 레벨' in template or template.strip() == '레벨 {0}':
+        return 'int'
+    if (
+        ('추가 데미지' in template or '신성 데미지' in template or '순수 데미지' in template)
+        and '증폭' not in template
+        and abs(value) >= 10
+    ):
+        return 'int'
+    if any(kw in template for kw in ('확률', '속도', '데미지', '감소', '증폭', '획득', '저장', '관통', '취약성')):
+        return 'pct'
+    return 'raw'
 
-    For localized templates with {0} placeholders, the value is substituted
-    into the template.  The clean type_name strips {0}/{1} markers.
+
+def format_skill_template_value(template: str, value: float, fmt: str) -> str:
+    """Format a skill value for insertion into a localized sec template."""
+    text = format_effect_value(value, fmt)
+    if '{0}%' in template and text.endswith('%'):
+        return text[:-1]
+    return text
+
+
+def resolve_skill_effects(types: list, effects: list, key_to_id: dict, ko_map: dict) -> list:
+    """Resolve itemBase skill effect type codes via sec templates.
+
+    itemBase skill codes are sec codes, not equipment/artifact mainType codes.
+    For example, sec7 is flat 추가 데미지, while equipment mainType 7 is
+    모든 용병의 공격 속도. Mixing those maps produces bogus values such as
+    공격 속도 800000%.
     """
     result = []
     for t, e in zip(types, effects):
         if t == 0 and e == 0.0:
             continue
-        # Try our calibrated mapping first
-        mapping = MAINTYPE_TO_EFFECT.get(t)
-        if mapping:
-            ename, efmt, _ = mapping
-            template = ename
-        else:
-            template = (loc_text(key_to_id, ko_map, f'sec{t}') or f'효과{t}').replace('\n', ' ').replace('\r', '')
-            # Detect format from template context
-            if '배수 증폭' in template:
-                efmt = 'pct'
-            elif '배수' in template:
-                efmt = 'raw'
-            elif '데미지' in template and abs(e) >= 100:
-                efmt = 'int'
-            elif any(kw in template for kw in ('확률', '속도', '데미지', '감소', '증폭')):
-                efmt = 'pct'
-            else:
-                efmt = 'raw'
-        val_str = format_effect_value(e, efmt)
+        template = (loc_text(key_to_id, ko_map, f'sec{t}') or f'효과{t}').replace('\n', ' ').replace('\r', '')
+        efmt = infer_skill_effect_format(template, e)
+        val_str = format_skill_template_value(template, e, efmt)
         # Handle {0}/{1} template placeholders
         if '{0}' in template:
             desc = template.replace('{0}', val_str).replace('{1}', '').strip()
@@ -1021,8 +1034,8 @@ def extract_items(data: bytes, name_map: list, strings: dict,
         skill_desc = _loc(f'ss{idx}')
 
         # Resolve effect descriptions via sec{type} templates
-        effects_resolved = resolve_effects(types_raw, effects_raw,
-                                           key_to_id, ko_map)
+        effects_resolved = resolve_skill_effects(types_raw, effects_raw,
+                                                 key_to_id, ko_map)
 
         items.append({
             'index':       idx,

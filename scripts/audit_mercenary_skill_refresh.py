@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Report mercenary skills whose same-name web text masks APK candidates.
+"""Report same-name mercenary skills whose web text differs from APK candidates.
 
-This is an audit tool, not a fixer. The current mercenary skill effect resolver
-is not reliable enough to overwrite all same-name skills automatically.
+This is an audit tool, not a fixer. It should be clean after mercenary skill
+effects are rebuilt from APK output.
 """
 
 from __future__ import annotations
@@ -58,7 +58,7 @@ def main() -> int:
             if candidate != current:
                 masked.append((creature, raw_skill, current, candidate))
 
-    print(f"Same-name skills preserved by current builder: {len(same_name)}")
+    print(f"Same-name skills compared against APK candidates: {len(same_name)}")
     print(f"Same-name skills with no APK candidate effect text: {len(missing_candidate)}")
     print(f"Same-name skills where APK candidate differs from current web text: {len(masked)}")
     if masked:

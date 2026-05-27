@@ -13,10 +13,11 @@ Generated extraction output goes in `output/`. The deployed static app lives in 
 - `python3 build_equipment_data.py`: rebuild equipment web data, icon mappings, and inline `EQUIP_DATA`.
 - `python3 build_mercenary_data.py`: rebuild mercenary web data and inline `MERC_DATA`.
 - `python3 regenerate_rmskills.py`: rebuild random mercenary skill data and inline `RMSKILL_DATA`.
+- `python3 build_subslot_data.py`: rebuild sub-slot mercenary skill data and inline `SUBSLOT_DATA`.
 - `python3 build_commander_tab.py`: rebuild commander tab data.
 - `python3 build_scarecrow_invader.py`: rebuild scarecrow/invader data.
 - `python3 verify_web_data_sync.py`: verify root/output/web JSON and inline `index.html` data stay synchronized.
-- `python3 scripts/audit_mercenary_skill_refresh.py`: report same-name mercenary skills where current web text masks APK candidate effects; `scripts/update_game_data.py` runs this during verification.
+- `python3 scripts/audit_mercenary_skill_refresh.py`: report same-name mercenary skills where web text differs from APK candidate effects; `scripts/update_game_data.py` runs this during verification.
 - `python3 -m http.server 8000 --directory web`: serve the static site locally at `http://localhost:8000`.
 
 ## Coding Style & Naming Conventions
@@ -34,7 +35,7 @@ Pull requests should describe the data source or game version, list regenerated 
 
 For releases, keep `origin/main` and `origin/master` on the same commit. Vercel production follows `main`; `master` may only create preview deployments.
 
-Known limitation: mercenary skill effects are not yet safe to overwrite from APK candidates when the slot/name is unchanged. Same-name skills can still have balance changes, so the next extraction pass must calibrate mercenary skill effect-code mapping before switching to APK-first skill effects. After calibration, use `--strict-mercenary-skills` in `scripts/update_game_data.py`.
+Effect code namespaces are separate. Mercenary skills use `sec_korean_mapping.json` through `resolve_skill_effects`, equipment uses `MAINTYPE_TO_EFFECT`, and artifacts use artifact `aType` mappings plus artifact overrides. Do not reuse itemBase `sec` codes, equipment `mainType` codes, and artifact `aType` codes as if they share one global meaning. `artifact_code_mapping.json` is artifact-scoped but still partially inferred; verify conflicting entries before promoting them to global artifact mappings, and use `artifact_overrides.json` for per-artifact slot fixes. Same-name mercenary skills are APK-first because balance patches can change effects without changing skill names; use `--strict-mercenary-skills` in `scripts/update_game_data.py` to prevent regressions.
 
 ## Security & Configuration Tips
 Treat APK extracts, binary databases, and scraped screenshots as source artifacts. Do not add credentials, browser cookies, or private cafe access tokens to the repository.

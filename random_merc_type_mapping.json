@@ -285,8 +285,8 @@
     },
     "95": {
       "effect_name": "신성 데미지",
-      "format": "pct",
-      "base_multiplier": 100.0,
+      "format": "raw_int",
+      "base_multiplier": 1.0,
       "has_random_bonus": true
     },
     "102": {

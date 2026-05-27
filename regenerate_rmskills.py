@@ -19,6 +19,9 @@ import json
 import re
 import math
 import sys
+from pathlib import Path
+
+BASE = Path(__file__).resolve().parent
 
 # ============================================================
 # STEP 1: Build the comprehensive type mapping
@@ -179,8 +182,8 @@ TYPE_MAPPING = {
     # type 84: 베이스 데미지 (pct, ×300)
     84: {"effect_name": "베이스 데미지", "format": "pct", "base_multiplier": 300.0, "has_random_bonus": True},
 
-    # type 95: 신성 데미지 (pct, ×100)
-    95: {"effect_name": "신성 데미지", "format": "pct", "base_multiplier": 100.0, "has_random_bonus": True},
+    # type 95: 신성 데미지 (flat)
+    95: {"effect_name": "신성 데미지", "format": "raw_int", "base_multiplier": 1.0, "has_random_bonus": True},
 
     # type 102: 소울 클릭 배수 (raw)
     102: {"effect_name": "소울 클릭 배수", "format": "raw", "base_multiplier": 1.0, "has_random_bonus": True},
@@ -442,10 +445,11 @@ print("=" * 60)
 print("STEP 1: Loading data...")
 print("=" * 60)
 
-with open('/Users/shin542/Desktop/Code/bbule/random_merc_skills.json', 'r', encoding='utf-8') as f:
+input_path = BASE / 'output' / 'random_merc_skills.json'
+with input_path.open(encoding='utf-8') as f:
     skills = json.load(f)
 
-print(f"  Loaded {len(skills)} skills from random_merc_skills.json")
+print(f"  Loaded {len(skills)} skills from {input_path.relative_to(BASE)}")
 print(f"  Type mapping has {len(TYPE_MAPPING)} entries")
 
 # ============================================================
@@ -517,8 +521,8 @@ print("=" * 60)
 print("STEP 3: Saving output files...")
 print("=" * 60)
 
-output_path = '/Users/shin542/Desktop/Code/bbule/web/data_random_merc.json'
-with open(output_path, 'w', encoding='utf-8') as f:
+output_path = BASE / 'web' / 'data_random_merc.json'
+with output_path.open('w', encoding='utf-8') as f:
     json.dump(output_skills, f, ensure_ascii=False, indent=2)
 print(f"  Saved {output_path}")
 
@@ -531,8 +535,8 @@ print("=" * 60)
 print("STEP 4: Updating index.html RMSKILL_DATA...")
 print("=" * 60)
 
-html_path = '/Users/shin542/Desktop/Code/bbule/web/index.html'
-with open(html_path, 'r', encoding='utf-8') as f:
+html_path = BASE / 'web' / 'index.html'
+with html_path.open(encoding='utf-8') as f:
     html_lines = f.readlines()
 
 # Find the line with RMSKILL_DATA
@@ -552,7 +556,7 @@ new_line = f"const RMSKILL_DATA={minified};\n"
 
 html_lines[rmskill_line_idx] = new_line
 
-with open(html_path, 'w', encoding='utf-8') as f:
+with html_path.open('w', encoding='utf-8') as f:
     f.writelines(html_lines)
 
 print(f"  Updated line {rmskill_line_idx + 1} in index.html")
@@ -594,8 +598,8 @@ for tc in sorted(TYPE_MAPPING.keys()):
         "has_random_bonus": m["has_random_bonus"]
     }
 
-mapping_path = '/Users/shin542/Desktop/Code/bbule/random_merc_type_mapping.json'
-with open(mapping_path, 'w', encoding='utf-8') as f:
+mapping_path = BASE / 'random_merc_type_mapping.json'
+with mapping_path.open('w', encoding='utf-8') as f:
     json.dump(mapping_output, f, ensure_ascii=False, indent=2)
 print(f"  Saved {mapping_path}")
 

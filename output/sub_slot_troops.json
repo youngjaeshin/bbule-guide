@@ -19,10 +19,10 @@
     "effects_resolved": [
       {
         "type_code": 46,
-        "type_name": "뿔레정수 획득 확률",
+        "type_name": "골드 획득량",
         "value": 0.63,
         "value_display": "63%",
-        "description": "뿔레정수 획득 확률 63%"
+        "description": "골드 획득량 63%"
       },
       {
         "type_code": 300,
@@ -35,8 +35,8 @@
         "type_code": 1045,
         "type_name": "모든 카오스 용병의 데미지 +총 각성수 X%",
         "value": 0.0004,
-        "value_display": "0.04%",
-        "description": "모든 카오스 용병의 데미지 +총 각성수 X 0.04%%"
+        "value_display": "0.04",
+        "description": "모든 카오스 용병의 데미지 +총 각성수 X 0.04%"
       }
     ],
     "randomValue": 0
@@ -61,24 +61,24 @@
     "effects_resolved": [
       {
         "type_code": 1,
-        "type_name": "추가 데미지",
+        "type_name": "데미지",
         "value": 1.5,
-        "value_display": "2",
-        "description": "추가 데미지 2"
+        "value_display": "150%",
+        "description": "데미지 150%"
       },
       {
         "type_code": 7,
-        "type_name": "모든 용병의 공격 속도",
+        "type_name": "추가 데미지",
         "value": 8800.0,
-        "value_display": "880000%",
-        "description": "모든 용병의 공격 속도 880000%"
+        "value_display": "8800",
+        "description": "추가 데미지 8800"
       },
       {
         "type_code": 26,
-        "type_name": "베이스 데미지",
+        "type_name": "강타 배수",
         "value": 0.98,
-        "value_display": "98%",
-        "description": "베이스 데미지 98%"
+        "value_display": "0.98",
+        "description": "강타 배수 0.98"
       }
     ],
     "randomValue": 0
@@ -110,10 +110,10 @@
       },
       {
         "type_code": 33,
-        "type_name": "모든 용병의 베이스 데미지",
+        "type_name": "모든 용병의 연타 확률",
         "value": 0.02,
         "value_display": "2%",
-        "description": "모든 용병의 베이스 데미지 2%"
+        "description": "모든 용병의 연타 확률 2%"
       },
       {
         "type_code": 466,
@@ -145,10 +145,10 @@
     "effects_resolved": [
       {
         "type_code": 19,
-        "type_name": "모든 용병의 연타 확률",
+        "type_name": "모든 용병의 최대 레벨",
         "value": 2.0,
-        "value_display": "200%",
-        "description": "모든 용병의 연타 확률 200%"
+        "value_display": "2",
+        "description": "모든 용병의 최대 레벨 2"
       }
     ],
     "randomValue": 0
@@ -173,17 +173,17 @@
     "effects_resolved": [
       {
         "type_code": 41,
-        "type_name": "마법 최종 데미지",
+        "type_name": "자동 클릭 확률",
         "value": 0.2,
         "value_display": "20%",
-        "description": "마법 최종 데미지 20%"
+        "description": "자동 클릭 확률 20%"
       },
       {
         "type_code": 42,
-        "type_name": "카오스 최종 데미지",
+        "type_name": "자동 클릭 속도",
         "value": 0.2,
         "value_display": "20%",
-        "description": "카오스 최종 데미지 20%"
+        "description": "자동 클릭 속도 20%"
       },
       {
         "type_code": 375,
@@ -264,17 +264,17 @@
       },
       {
         "type_code": 24,
-        "type_name": "소울 클릭 확률",
+        "type_name": "모든 혼합 용병의 강타 확률",
         "value": 0.02,
         "value_display": "2%",
-        "description": "소울 클릭 확률 2%"
+        "description": "모든 혼합 용병의 강타 확률 2%"
       },
       {
         "type_code": 30,
-        "type_name": "최대 레벨",
+        "type_name": "모든 혼합 용병의 강타 배수",
         "value": 0.3,
-        "value_display": "0",
-        "description": "최대 레벨 0"
+        "value_display": "0.3",
+        "description": "모든 혼합 용병의 강타 배수 0.3"
       }
     ],
     "randomValue": 0
@@ -327,10 +327,10 @@
     "effects_resolved": [
       {
         "type_code": 16,
-        "type_name": "강타 확률",
+        "type_name": "모든 용병의 클릭 데미지",
         "value": 0.5,
         "value_display": "50%",
-        "description": "강타 확률 50%"
+        "description": "모든 용병의 클릭 데미지 50%"
       },
       {
         "type_code": 375,
@@ -369,10 +369,10 @@
     "effects_resolved": [
       {
         "type_code": 52,
-        "type_name": "모든 용병의 행운 확률",
+        "type_name": "적들의 마법 저항력 감소",
         "value": 0.05,
         "value_display": "5%",
-        "description": "모든 용병의 행운 확률 5%"
+        "description": "적들의 마법 저항력 감소 5%"
       }
     ],
     "randomValue": 0
@@ -397,17 +397,17 @@
     "effects_resolved": [
       {
         "type_code": 5,
-        "type_name": "모든 용병의 클릭 데미지",
+        "type_name": "모든 혼합 용병의 데미지",
         "value": 0.8,
         "value_display": "80%",
-        "description": "모든 용병의 클릭 데미지 80%"
+        "description": "모든 혼합 용병의 데미지 80%"
       },
       {
         "type_code": 24,
-        "type_name": "소울 클릭 확률",
+        "type_name": "모든 혼합 용병의 강타 확률",
         "value": 0.04,
         "value_display": "4%",
-        "description": "소울 클릭 확률 4%"
+        "description": "모든 혼합 용병의 강타 확률 4%"
       }
     ],
     "randomValue": 0
@@ -432,17 +432,17 @@
     "effects_resolved": [
       {
         "type_code": 67,
-        "type_name": "적 약화 감소",
+        "type_name": "폰의 데미지",
         "value": 8.88,
         "value_display": "888%",
-        "description": "적 약화 감소 888%"
+        "description": "폰의 데미지 888%"
       },
       {
         "type_code": 634,
         "type_name": "뿔레조각 획득 확률 +[기계] 용병 수 X%",
         "value": 0.02,
-        "value_display": "2%",
-        "description": "뿔레조각 획득 확률 +[기계] 용병 수 X 2%%"
+        "value_display": "2",
+        "description": "뿔레조각 획득 확률 +[기계] 용병 수 X 2%"
       }
     ],
     "randomValue": 0
@@ -467,10 +467,10 @@
     "effects_resolved": [
       {
         "type_code": 9,
-        "type_name": "적들의 물리 저항력 감소",
+        "type_name": "공격 속도",
         "value": 0.35,
         "value_display": "35%",
-        "description": "적들의 물리 저항력 감소 35%"
+        "description": "공격 속도 35%"
       },
       {
         "type_code": 1171,
@@ -502,17 +502,17 @@
     "effects_resolved": [
       {
         "type_code": 15,
-        "type_name": "아이템 획득 확률",
+        "type_name": "클릭 데미지",
         "value": 2.0,
         "value_display": "200%",
-        "description": "아이템 획득 확률 200%"
+        "description": "클릭 데미지 200%"
       },
       {
         "type_code": 43,
-        "type_name": "소울 클릭배수",
+        "type_name": "추가 클릭 확률",
         "value": 0.7,
         "value_display": "70%",
-        "description": "소울 클릭배수 70%"
+        "description": "추가 클릭 확률 70%"
       },
       {
         "type_code": 122,
@@ -544,10 +544,10 @@
     "effects_resolved": [
       {
         "type_code": 17,
-        "type_name": "강타 배수",
+        "type_name": "모든 용병의 베이스 데미지",
         "value": 0.02,
-        "value_display": "0.02",
-        "description": "강타 배수 0.02"
+        "value_display": "2%",
+        "description": "모든 용병의 베이스 데미지 2%"
       }
     ],
     "randomValue": 0
@@ -572,10 +572,10 @@
     "effects_resolved": [
       {
         "type_code": 17,
-        "type_name": "강타 배수",
+        "type_name": "모든 용병의 베이스 데미지",
         "value": 0.02,
-        "value_display": "0.02",
-        "description": "강타 배수 0.02"
+        "value_display": "2%",
+        "description": "모든 용병의 베이스 데미지 2%"
       }
     ],
     "randomValue": 0
@@ -600,17 +600,17 @@
     "effects_resolved": [
       {
         "type_code": 9,
-        "type_name": "적들의 물리 저항력 감소",
+        "type_name": "공격 속도",
         "value": 0.44,
         "value_display": "44%",
-        "description": "적들의 물리 저항력 감소 44%"
+        "description": "공격 속도 44%"
       },
       {
         "type_code": 46,
-        "type_name": "뿔레정수 획득 확률",
+        "type_name": "골드 획득량",
         "value": 0.44,
         "value_display": "44%",
-        "description": "뿔레정수 획득 확률 44%"
+        "description": "골드 획득량 44%"
       },
       {
         "type_code": 109,
@@ -642,17 +642,17 @@
     "effects_resolved": [
       {
         "type_code": 20,
-        "type_name": "모든 용병의 강타 확률",
+        "type_name": "강타 확률",
         "value": 0.1,
         "value_display": "10%",
-        "description": "모든 용병의 강타 확률 10%"
+        "description": "강타 확률 10%"
       },
       {
         "type_code": 56,
-        "type_name": "뿔레 조각 드랍 확률",
+        "type_name": "공격 무효화 관통",
         "value": 0.025,
         "value_display": "2.5%",
-        "description": "뿔레 조각 드랍 확률 2.5%"
+        "description": "공격 무효화 관통 2.5%"
       }
     ],
     "randomValue": 0
@@ -677,10 +677,10 @@
     "effects_resolved": [
       {
         "type_code": 42,
-        "type_name": "카오스 최종 데미지",
+        "type_name": "자동 클릭 속도",
         "value": 0.24,
         "value_display": "24%",
-        "description": "카오스 최종 데미지 24%"
+        "description": "자동 클릭 속도 24%"
       },
       {
         "type_code": 113,
@@ -719,17 +719,17 @@
       },
       {
         "type_code": 20,
-        "type_name": "모든 용병의 강타 확률",
+        "type_name": "강타 확률",
         "value": -0.12,
         "value_display": "-12%",
-        "description": "모든 용병의 강타 확률 -12%"
+        "description": "강타 확률 -12%"
       },
       {
         "type_code": 14,
-        "type_name": "클릭 크리티컬 확률",
+        "type_name": "모든 카오스 용병의 공격 속도",
         "value": 0.12,
         "value_display": "12%",
-        "description": "클릭 크리티컬 확률 12%"
+        "description": "모든 카오스 용병의 공격 속도 12%"
       }
     ],
     "randomValue": 0
@@ -761,10 +761,10 @@
       },
       {
         "type_code": 56,
-        "type_name": "뿔레 조각 드랍 확률",
+        "type_name": "공격 무효화 관통",
         "value": 0.03,
         "value_display": "3%",
-        "description": "뿔레 조각 드랍 확률 3%"
+        "description": "공격 무효화 관통 3%"
       }
     ],
     "randomValue": 0
@@ -789,10 +789,10 @@
     "effects_resolved": [
       {
         "type_code": 539,
-        "type_name": "적 반사 효과 감소",
+        "type_name": "적들의 반사 확률 감소",
         "value": 0.02,
         "value_display": "2%",
-        "description": "적 반사 효과 감소 2%"
+        "description": "적들의 반사 확률 감소 2%"
       },
       {
         "type_code": 108,
@@ -831,10 +831,10 @@
     "effects_resolved": [
       {
         "type_code": 1,
-        "type_name": "추가 데미지",
+        "type_name": "데미지",
         "value": 4.0,
-        "value_display": "4",
-        "description": "추가 데미지 4"
+        "value_display": "400%",
+        "description": "데미지 400%"
       },
       {
         "type_code": 4,
@@ -875,8 +875,8 @@
         "type_code": 1165,
         "type_name": "신성 데미지 +총 각성수 X",
         "value": 15.0,
-        "value_display": "1500%",
-        "description": "신성 데미지 +총 각성수 X 1500%"
+        "value_display": "15",
+        "description": "신성 데미지 +총 각성수 X 15"
       },
       {
         "type_code": 1058,
@@ -908,10 +908,10 @@
     "effects_resolved": [
       {
         "type_code": 53,
-        "type_name": "모든 용병의 행운 배수",
+        "type_name": "적들의 카오스 취약성",
         "value": 0.022,
-        "value_display": "0.022",
-        "description": "모든 용병의 행운 배수 0.022"
+        "value_display": "2.2%",
+        "description": "적들의 카오스 취약성 2.2%"
       }
     ],
     "randomValue": 0
@@ -936,10 +936,10 @@
     "effects_resolved": [
       {
         "type_code": 9,
-        "type_name": "적들의 물리 저항력 감소",
+        "type_name": "공격 속도",
         "value": 0.6,
         "value_display": "60%",
-        "description": "적들의 물리 저항력 감소 60%"
+        "description": "공격 속도 60%"
       },
       {
         "type_code": 307,
@@ -1006,10 +1006,10 @@
     "effects_resolved": [
       {
         "type_code": 11,
-        "type_name": "적들의 최대 체력 감소",
+        "type_name": "모든 물리 용병의 공격 속도",
         "value": 0.06,
         "value_display": "6%",
-        "description": "적들의 최대 체력 감소 6%"
+        "description": "모든 물리 용병의 공격 속도 6%"
       }
     ],
     "randomValue": 0
@@ -1034,24 +1034,24 @@
     "effects_resolved": [
       {
         "type_code": 43,
-        "type_name": "소울 클릭배수",
+        "type_name": "추가 클릭 확률",
         "value": 1.2,
         "value_display": "120%",
-        "description": "소울 클릭배수 120%"
+        "description": "추가 클릭 확률 120%"
       },
       {
         "type_code": 20,
-        "type_name": "모든 용병의 강타 확률",
+        "type_name": "강타 확률",
         "value": 0.12,
         "value_display": "12%",
-        "description": "모든 용병의 강타 확률 12%"
+        "description": "강타 확률 12%"
       },
       {
         "type_code": 21,
-        "type_name": "모든 용병의 강타 배수",
+        "type_name": "모든 용병의 강타 확률",
         "value": 0.012,
-        "value_display": "0.012",
-        "description": "모든 용병의 강타 배수 0.012"
+        "value_display": "1.2%",
+        "description": "모든 용병의 강타 확률 1.2%"
       }
     ],
     "randomValue": 0
@@ -1083,17 +1083,17 @@
       },
       {
         "type_code": 54,
-        "type_name": "모든 용병의 최종 데미지",
+        "type_name": "적들의 클릭 저항력 감소",
         "value": 0.05,
         "value_display": "5%",
-        "description": "모든 용병의 최종 데미지 5%"
+        "description": "적들의 클릭 저항력 감소 5%"
       },
       {
         "type_code": 55,
-        "type_name": "모든 용병의 성장 데미지",
+        "type_name": "적들의 최대 체력 감소",
         "value": 0.015,
-        "value_display": "0.015",
-        "description": "모든 용병의 성장 데미지 0.015"
+        "value_display": "1.5%",
+        "description": "적들의 최대 체력 감소 1.5%"
       }
     ],
     "randomValue": 0
@@ -1118,17 +1118,17 @@
     "effects_resolved": [
       {
         "type_code": 14,
-        "type_name": "클릭 크리티컬 확률",
+        "type_name": "모든 카오스 용병의 공격 속도",
         "value": 0.06,
         "value_display": "6%",
-        "description": "클릭 크리티컬 확률 6%"
+        "description": "모든 카오스 용병의 공격 속도 6%"
       },
       {
         "type_code": 56,
-        "type_name": "뿔레 조각 드랍 확률",
+        "type_name": "공격 무효화 관통",
         "value": 0.04,
         "value_display": "4%",
-        "description": "뿔레 조각 드랍 확률 4%"
+        "description": "공격 무효화 관통 4%"
       }
     ],
     "randomValue": 0
@@ -1195,17 +1195,17 @@
     "effects_resolved": [
       {
         "type_code": 20,
-        "type_name": "모든 용병의 강타 확률",
+        "type_name": "강타 확률",
         "value": 0.06,
         "value_display": "6%",
-        "description": "모든 용병의 강타 확률 6%"
+        "description": "강타 확률 6%"
       },
       {
         "type_code": 26,
-        "type_name": "베이스 데미지",
+        "type_name": "강타 배수",
         "value": 0.6,
-        "value_display": "60%",
-        "description": "베이스 데미지 60%"
+        "value_display": "0.6",
+        "description": "강타 배수 0.6"
       }
     ],
     "randomValue": 0
@@ -1265,10 +1265,10 @@
     "effects_resolved": [
       {
         "type_code": 14,
-        "type_name": "클릭 크리티컬 확률",
+        "type_name": "모든 카오스 용병의 공격 속도",
         "value": 0.06,
         "value_display": "6%",
-        "description": "클릭 크리티컬 확률 6%"
+        "description": "모든 카오스 용병의 공격 속도 6%"
       }
     ],
     "randomValue": 0
@@ -1368,10 +1368,10 @@
     "effects_resolved": [
       {
         "type_code": 32,
-        "type_name": "모든 용병의 레벨업 및 스킬학습 비용감소",
+        "type_name": "연타 확률",
         "value": -5.0,
         "value_display": "-500%",
-        "description": "모든 용병의 레벨업 및 스킬학습 비용감소 -500%"
+        "description": "연타 확률 -500%"
       },
       {
         "type_code": 97,
@@ -1438,10 +1438,10 @@
     "effects_resolved": [
       {
         "type_code": 16,
-        "type_name": "강타 확률",
+        "type_name": "모든 용병의 클릭 데미지",
         "value": 1.5,
         "value_display": "150%",
-        "description": "강타 확률 150%"
+        "description": "모든 용병의 클릭 데미지 150%"
       },
       {
         "type_code": 431,
@@ -1583,10 +1583,10 @@
       },
       {
         "type_code": 9,
-        "type_name": "적들의 물리 저항력 감소",
+        "type_name": "공격 속도",
         "value": 0.5,
         "value_display": "50%",
-        "description": "적들의 물리 저항력 감소 50%"
+        "description": "공격 속도 50%"
       },
       {
         "type_code": 175,
@@ -1618,10 +1618,10 @@
     "effects_resolved": [
       {
         "type_code": 20,
-        "type_name": "모든 용병의 강타 확률",
+        "type_name": "강타 확률",
         "value": -0.09,
         "value_display": "-9%",
-        "description": "모든 용병의 강타 확률 -9%"
+        "description": "강타 확률 -9%"
       }
     ],
     "randomValue": 0
@@ -1646,10 +1646,10 @@
     "effects_resolved": [
       {
         "type_code": 43,
-        "type_name": "소울 클릭배수",
+        "type_name": "추가 클릭 확률",
         "value": 0.5,
         "value_display": "50%",
-        "description": "소울 클릭배수 50%"
+        "description": "추가 클릭 확률 50%"
       }
     ],
     "randomValue": 0
@@ -1702,17 +1702,17 @@
     "effects_resolved": [
       {
         "type_code": 49,
-        "type_name": "침략자에게 추가 데미지",
+        "type_name": "명성",
         "value": 0.33,
-        "value_display": "33%",
-        "description": "침략자에게 추가 데미지 33%"
+        "value_display": "0.33",
+        "description": "명성 0.33"
       },
       {
         "type_code": 5,
-        "type_name": "모든 용병의 클릭 데미지",
+        "type_name": "모든 혼합 용병의 데미지",
         "value": 0.6,
         "value_display": "60%",
-        "description": "모든 용병의 클릭 데미지 60%"
+        "description": "모든 혼합 용병의 데미지 60%"
       },
       {
         "type_code": 1031,
@@ -1744,10 +1744,10 @@
     "effects_resolved": [
       {
         "type_code": 32,
-        "type_name": "모든 용병의 레벨업 및 스킬학습 비용감소",
+        "type_name": "연타 확률",
         "value": -5.0,
         "value_display": "-500%",
-        "description": "모든 용병의 레벨업 및 스킬학습 비용감소 -500%"
+        "description": "연타 확률 -500%"
       },
       {
         "type_code": 124,
@@ -1779,10 +1779,10 @@
     "effects_resolved": [
       {
         "type_code": 7,
-        "type_name": "모든 용병의 공격 속도",
+        "type_name": "추가 데미지",
         "value": 25000.0,
-        "value_display": "2500000%",
-        "description": "모든 용병의 공격 속도 2500000%"
+        "value_display": "25000",
+        "description": "추가 데미지 25000"
       },
       {
         "type_code": 1171,
@@ -1821,10 +1821,10 @@
     "effects_resolved": [
       {
         "type_code": 47,
-        "type_name": "적들의 회피 확률 감소",
+        "type_name": "골드 저장량",
         "value": 0.7,
         "value_display": "70%",
-        "description": "적들의 회피 확률 감소 70%"
+        "description": "골드 저장량 70%"
       },
       {
         "type_code": 38,
@@ -1872,15 +1872,15 @@
         "type_code": 149,
         "type_name": "클릭 데미지 +총 각성수 X%",
         "value": 0.003,
-        "value_display": "0.3%",
-        "description": "클릭 데미지 +총 각성수 X 0.3%%"
+        "value_display": "0.3",
+        "description": "클릭 데미지 +총 각성수 X 0.3%"
       },
       {
         "type_code": 538,
-        "type_name": "적 피해 면제 효과 감소",
+        "type_name": "적들의 피해 면제 효과 감소",
         "value": 0.03,
         "value_display": "3%",
-        "description": "적 피해 면제 효과 감소 3%"
+        "description": "적들의 피해 면제 효과 감소 3%"
       }
     ],
     "randomValue": 0
@@ -1905,10 +1905,10 @@
     "effects_resolved": [
       {
         "type_code": 20,
-        "type_name": "모든 용병의 강타 확률",
+        "type_name": "강타 확률",
         "value": 0.08,
         "value_display": "8%",
-        "description": "모든 용병의 강타 확률 8%"
+        "description": "강타 확률 8%"
       },
       {
         "type_code": 431,
@@ -1949,15 +1949,15 @@
         "type_code": 629,
         "type_name": "뿔레 오브 획득 확률 +[아케메스] 용병 수 X%",
         "value": 0.015,
-        "value_display": "1.5%",
-        "description": "뿔레 오브 획득 확률 +[아케메스] 용병 수 X 1.5%%"
+        "value_display": "1.5",
+        "description": "뿔레 오브 획득 확률 +[아케메스] 용병 수 X 1.5%"
       },
       {
         "type_code": 630,
         "type_name": "적들의 회피 확률 감소 +[아케메스] 용병 수 X%",
         "value": 0.015,
-        "value_display": "1.5%",
-        "description": "적들의 회피 확률 감소 +[아케메스] 용병 수 X 1.5%%"
+        "value_display": "1.5",
+        "description": "적들의 회피 확률 감소 +[아케메스] 용병 수 X 1.5%"
       }
     ],
     "randomValue": 0
@@ -1982,10 +1982,10 @@
     "effects_resolved": [
       {
         "type_code": 16,
-        "type_name": "강타 확률",
+        "type_name": "모든 용병의 클릭 데미지",
         "value": 1.0,
         "value_display": "100%",
-        "description": "강타 확률 100%"
+        "description": "모든 용병의 클릭 데미지 100%"
       }
     ],
     "randomValue": 0
@@ -2024,10 +2024,10 @@
       },
       {
         "type_code": 1019,
-        "type_name": "물리 강타배수 증폭",
+        "type_name": "모든 물리 용병의 강타 배수 증폭",
         "value": 0.06,
         "value_display": "6%",
-        "description": "물리 강타배수 증폭 6%"
+        "description": "모든 물리 용병의 강타 배수 증폭 6%"
       }
     ],
     "randomValue": 0
@@ -2054,8 +2054,8 @@
         "type_code": 191,
         "type_name": "시작 레벨",
         "value": 77.699997,
-        "value_display": "77.699997",
-        "description": "시작 레벨 77.699997"
+        "value_display": "78",
+        "description": "시작 레벨 78"
       },
       {
         "type_code": 178,
@@ -2066,10 +2066,10 @@
       },
       {
         "type_code": 56,
-        "type_name": "뿔레 조각 드랍 확률",
+        "type_name": "공격 무효화 관통",
         "value": 0.04,
         "value_display": "4%",
-        "description": "뿔레 조각 드랍 확률 4%"
+        "description": "공격 무효화 관통 4%"
       }
     ],
     "randomValue": 0
@@ -2129,17 +2129,17 @@
     "effects_resolved": [
       {
         "type_code": 32,
-        "type_name": "모든 용병의 레벨업 및 스킬학습 비용감소",
+        "type_name": "연타 확률",
         "value": -5.0,
         "value_display": "-500%",
-        "description": "모든 용병의 레벨업 및 스킬학습 비용감소 -500%"
+        "description": "연타 확률 -500%"
       },
       {
         "type_code": 20,
-        "type_name": "모든 용병의 강타 확률",
+        "type_name": "강타 확률",
         "value": -0.1,
         "value_display": "-10%",
-        "description": "모든 용병의 강타 확률 -10%"
+        "description": "강타 확률 -10%"
       },
       {
         "type_code": 112,
@@ -2171,17 +2171,17 @@
     "effects_resolved": [
       {
         "type_code": 20,
-        "type_name": "모든 용병의 강타 확률",
+        "type_name": "강타 확률",
         "value": 0.08,
         "value_display": "8%",
-        "description": "모든 용병의 강타 확률 8%"
+        "description": "강타 확률 8%"
       },
       {
         "type_code": 32,
-        "type_name": "모든 용병의 레벨업 및 스킬학습 비용감소",
+        "type_name": "연타 확률",
         "value": 0.08,
         "value_display": "8%",
-        "description": "모든 용병의 레벨업 및 스킬학습 비용감소 8%"
+        "description": "연타 확률 8%"
       },
       {
         "type_code": 193,
@@ -2213,17 +2213,17 @@
     "effects_resolved": [
       {
         "type_code": 10,
-        "type_name": "적들의 마법 저항력 감소",
+        "type_name": "모든 용병의 공격 속도",
         "value": 0.12,
         "value_display": "12%",
-        "description": "적들의 마법 저항력 감소 12%"
+        "description": "모든 용병의 공격 속도 12%"
       },
       {
         "type_code": 19,
-        "type_name": "모든 용병의 연타 확률",
+        "type_name": "모든 용병의 최대 레벨",
         "value": 6.0,
-        "value_display": "600%",
-        "description": "모든 용병의 연타 확률 600%"
+        "value_display": "6",
+        "description": "모든 용병의 최대 레벨 6"
       }
     ],
     "randomValue": 0
@@ -2257,8 +2257,8 @@
         "type_code": 461,
         "type_name": "가문이 베멜인 용병의 데미지 +[베멜] 용병 수 X%",
         "value": 2.0,
-        "value_display": "200%",
-        "description": "가문이 베멜인 용병의 데미지 +[베멜] 용병 수 X 200%%"
+        "value_display": "200",
+        "description": "가문이 베멜인 용병의 데미지 +[베멜] 용병 수 X 200%"
       }
     ],
     "randomValue": 0
@@ -2345,17 +2345,17 @@
     "effects_resolved": [
       {
         "type_code": 46,
-        "type_name": "뿔레정수 획득 확률",
+        "type_name": "골드 획득량",
         "value": 0.3,
         "value_display": "30%",
-        "description": "뿔레정수 획득 확률 30%"
+        "description": "골드 획득량 30%"
       },
       {
         "type_code": 47,
-        "type_name": "적들의 회피 확률 감소",
+        "type_name": "골드 저장량",
         "value": 0.6,
         "value_display": "60%",
-        "description": "적들의 회피 확률 감소 60%"
+        "description": "골드 저장량 60%"
       }
     ],
     "randomValue": 0
@@ -2380,10 +2380,10 @@
     "effects_resolved": [
       {
         "type_code": 43,
-        "type_name": "소울 클릭배수",
+        "type_name": "추가 클릭 확률",
         "value": 0.666,
         "value_display": "66.6%",
-        "description": "소울 클릭배수 66.6%"
+        "description": "추가 클릭 확률 66.6%"
       },
       {
         "type_code": 175,
@@ -2429,10 +2429,10 @@
       },
       {
         "type_code": 32,
-        "type_name": "모든 용병의 레벨업 및 스킬학습 비용감소",
+        "type_name": "연타 확률",
         "value": -5.0,
         "value_display": "-500%",
-        "description": "모든 용병의 레벨업 및 스킬학습 비용감소 -500%"
+        "description": "연타 확률 -500%"
       }
     ],
     "randomValue": 0
@@ -2464,10 +2464,10 @@
       },
       {
         "type_code": 19,
-        "type_name": "모든 용병의 연타 확률",
+        "type_name": "모든 용병의 최대 레벨",
         "value": 4.0,
-        "value_display": "400%",
-        "description": "모든 용병의 연타 확률 400%"
+        "value_display": "4",
+        "description": "모든 용병의 최대 레벨 4"
       }
     ],
     "randomValue": 0
@@ -2492,10 +2492,10 @@
     "effects_resolved": [
       {
         "type_code": 8,
-        "type_name": "골드 획득량",
+        "type_name": "모든 용병의 추가 데미지",
         "value": 600.0,
-        "value_display": "60000%",
-        "description": "골드 획득량 60000%"
+        "value_display": "600",
+        "description": "모든 용병의 추가 데미지 600"
       },
       {
         "type_code": 1050,
@@ -2562,17 +2562,17 @@
     "effects_resolved": [
       {
         "type_code": 39,
-        "type_name": "신성 데미지",
+        "type_name": "클릭 크리티컬 배수",
         "value": 2.0,
         "value_display": "2",
-        "description": "신성 데미지 2"
+        "description": "클릭 크리티컬 배수 2"
       },
       {
         "type_code": 16,
-        "type_name": "강타 확률",
+        "type_name": "모든 용병의 클릭 데미지",
         "value": 0.8,
         "value_display": "80%",
-        "description": "강타 확률 80%"
+        "description": "모든 용병의 클릭 데미지 80%"
       }
     ],
     "randomValue": 0
@@ -2597,17 +2597,17 @@
     "effects_resolved": [
       {
         "type_code": 8,
-        "type_name": "골드 획득량",
+        "type_name": "모든 용병의 추가 데미지",
         "value": 3000.0,
-        "value_display": "300000%",
-        "description": "골드 획득량 300000%"
+        "value_display": "3000",
+        "description": "모든 용병의 추가 데미지 3000"
       },
       {
         "type_code": 261,
         "type_name": "골드 획득량 +% -환생횟수 X%",
         "value": 3.0,
-        "value_display": "3",
-        "description": "골드 획득량 +3% -환생횟수 X %"
+        "value_display": "300",
+        "description": "골드 획득량 +300% -환생횟수 X %"
       }
     ],
     "randomValue": 0
@@ -2632,10 +2632,10 @@
     "effects_resolved": [
       {
         "type_code": 46,
-        "type_name": "뿔레정수 획득 확률",
+        "type_name": "골드 획득량",
         "value": 0.399,
         "value_display": "39.9%",
-        "description": "뿔레정수 획득 확률 39.9%"
+        "description": "골드 획득량 39.9%"
       }
     ],
     "randomValue": 0
@@ -2662,8 +2662,8 @@
         "type_code": 231,
         "type_name": "신성 데미지 증폭%",
         "value": 1.5,
-        "value_display": "150%",
-        "description": "신성 데미지 증폭 150%%"
+        "value_display": "150",
+        "description": "신성 데미지 증폭 150%"
       },
       {
         "type_code": 122,
@@ -2676,8 +2676,8 @@
         "type_code": 416,
         "type_name": "최종 데미지의%가 신성 데미지로 변환",
         "value": 0.1,
-        "value_display": "10%",
-        "description": "최종 데미지의 10%%가 신성 데미지로 변환"
+        "value_display": "10",
+        "description": "최종 데미지의 10%가 신성 데미지로 변환"
       }
     ],
     "randomValue": 0
@@ -2702,10 +2702,10 @@
     "effects_resolved": [
       {
         "type_code": 32,
-        "type_name": "모든 용병의 레벨업 및 스킬학습 비용감소",
+        "type_name": "연타 확률",
         "value": -5.0,
         "value_display": "-500%",
-        "description": "모든 용병의 레벨업 및 스킬학습 비용감소 -500%"
+        "description": "연타 확률 -500%"
       },
       {
         "type_code": 307,
@@ -2807,17 +2807,17 @@
     "effects_resolved": [
       {
         "type_code": 46,
-        "type_name": "뿔레정수 획득 확률",
+        "type_name": "골드 획득량",
         "value": 0.3,
         "value_display": "30%",
-        "description": "뿔레정수 획득 확률 30%"
+        "description": "골드 획득량 30%"
       },
       {
         "type_code": 284,
         "type_name": "종족이 식물인 용병의 최종 데미지 +[식물] 용병 수 X%",
         "value": 0.04,
-        "value_display": "4%",
-        "description": "종족이 식물인 용병의 최종 데미지 +[식물] 용병 수 X 4%%"
+        "value_display": "4",
+        "description": "종족이 식물인 용병의 최종 데미지 +[식물] 용병 수 X 4%"
       },
       {
         "type_code": 258,
@@ -2849,24 +2849,24 @@
     "effects_resolved": [
       {
         "type_code": 46,
-        "type_name": "뿔레정수 획득 확률",
+        "type_name": "골드 획득량",
         "value": 1.23,
         "value_display": "123%",
-        "description": "뿔레정수 획득 확률 123%"
+        "description": "골드 획득량 123%"
       },
       {
         "type_code": 41,
-        "type_name": "마법 최종 데미지",
+        "type_name": "자동 클릭 확률",
         "value": 0.24,
         "value_display": "24%",
-        "description": "마법 최종 데미지 24%"
+        "description": "자동 클릭 확률 24%"
       },
       {
         "type_code": 42,
-        "type_name": "카오스 최종 데미지",
+        "type_name": "자동 클릭 속도",
         "value": 0.36,
         "value_display": "36%",
-        "description": "카오스 최종 데미지 36%"
+        "description": "자동 클릭 속도 36%"
       }
     ],
     "randomValue": 0
@@ -2975,10 +2975,10 @@
       },
       {
         "type_code": 56,
-        "type_name": "뿔레 조각 드랍 확률",
+        "type_name": "공격 무효화 관통",
         "value": 0.02,
         "value_display": "2%",
-        "description": "뿔레 조각 드랍 확률 2%"
+        "description": "공격 무효화 관통 2%"
       }
     ],
     "randomValue": 0
@@ -3003,10 +3003,10 @@
     "effects_resolved": [
       {
         "type_code": 1,
-        "type_name": "추가 데미지",
+        "type_name": "데미지",
         "value": 6.0,
-        "value_display": "6",
-        "description": "추가 데미지 6"
+        "value_display": "600%",
+        "description": "데미지 600%"
       },
       {
         "type_code": 1175,
@@ -3045,10 +3045,10 @@
       },
       {
         "type_code": 52,
-        "type_name": "모든 용병의 행운 확률",
+        "type_name": "적들의 마법 저항력 감소",
         "value": 0.05,
         "value_display": "5%",
-        "description": "모든 용병의 행운 확률 5%"
+        "description": "적들의 마법 저항력 감소 5%"
       }
     ],
     "randomValue": 0
@@ -3073,17 +3073,17 @@
     "effects_resolved": [
       {
         "type_code": 41,
-        "type_name": "마법 최종 데미지",
+        "type_name": "자동 클릭 확률",
         "value": 0.24,
         "value_display": "24%",
-        "description": "마법 최종 데미지 24%"
+        "description": "자동 클릭 확률 24%"
       },
       {
         "type_code": 42,
-        "type_name": "카오스 최종 데미지",
+        "type_name": "자동 클릭 속도",
         "value": 0.24,
         "value_display": "24%",
-        "description": "카오스 최종 데미지 24%"
+        "description": "자동 클릭 속도 24%"
       }
     ],
     "randomValue": 0
@@ -3185,10 +3185,10 @@
     "effects_resolved": [
       {
         "type_code": 45,
-        "type_name": "모든 용병의 피격 지속시간 감소",
+        "type_name": "매 공격시 적 체력 감소",
         "value": 0.018,
         "value_display": "1.8%",
-        "description": "모든 용병의 피격 지속시간 감소 1.8%"
+        "description": "매 공격시 적 체력 감소 1.8%"
       },
       {
         "type_code": 240,
@@ -3234,10 +3234,10 @@
       },
       {
         "type_code": 10,
-        "type_name": "적들의 마법 저항력 감소",
+        "type_name": "모든 용병의 공격 속도",
         "value": 0.05,
         "value_display": "5%",
-        "description": "적들의 마법 저항력 감소 5%"
+        "description": "모든 용병의 공격 속도 5%"
       },
       {
         "type_code": 431,
@@ -3269,10 +3269,10 @@
     "effects_resolved": [
       {
         "type_code": 7,
-        "type_name": "모든 용병의 공격 속도",
+        "type_name": "추가 데미지",
         "value": 30000.0,
-        "value_display": "3000000%",
-        "description": "모든 용병의 공격 속도 3000000%"
+        "value_display": "30000",
+        "description": "추가 데미지 30000"
       },
       {
         "type_code": 176,
@@ -3311,24 +3311,24 @@
     "effects_resolved": [
       {
         "type_code": 1,
-        "type_name": "추가 데미지",
+        "type_name": "데미지",
         "value": 6.0,
-        "value_display": "6",
-        "description": "추가 데미지 6"
+        "value_display": "600%",
+        "description": "데미지 600%"
       },
       {
         "type_code": 9,
-        "type_name": "적들의 물리 저항력 감소",
+        "type_name": "공격 속도",
         "value": 0.4,
         "value_display": "40%",
-        "description": "적들의 물리 저항력 감소 40%"
+        "description": "공격 속도 40%"
       },
       {
         "type_code": 476,
         "type_name": "모든 용병의 공격 속도 +기본 공격 쿨다운 X%",
         "value": 0.07,
-        "value_display": "7%",
-        "description": "모든 용병의 공격 속도 +기본 공격 쿨다운 X 7%%"
+        "value_display": "7",
+        "description": "모든 용병의 공격 속도 +기본 공격 쿨다운 X 7%"
       }
     ],
     "randomValue": 0
@@ -3353,24 +3353,24 @@
     "effects_resolved": [
       {
         "type_code": 32,
-        "type_name": "모든 용병의 레벨업 및 스킬학습 비용감소",
+        "type_name": "연타 확률",
         "value": 0.16,
         "value_display": "16%",
-        "description": "모든 용병의 레벨업 및 스킬학습 비용감소 16%"
+        "description": "연타 확률 16%"
       },
       {
         "type_code": 56,
-        "type_name": "뿔레 조각 드랍 확률",
+        "type_name": "공격 무효화 관통",
         "value": 0.05,
         "value_display": "5%",
-        "description": "뿔레 조각 드랍 확률 5%"
+        "description": "공격 무효화 관통 5%"
       },
       {
         "type_code": 119,
         "type_name": "데미지 +총 각성수 X%",
         "value": 0.005,
-        "value_display": "0.5%",
-        "description": "데미지 +총 각성수 X 0.5%%"
+        "value_display": "0.5",
+        "description": "데미지 +총 각성수 X 0.5%"
       }
     ],
     "randomValue": 0
@@ -3430,10 +3430,10 @@
     "effects_resolved": [
       {
         "type_code": 40,
-        "type_name": "물리 최종 데미지",
+        "type_name": "소울 클릭 확률",
         "value": 0.02,
         "value_display": "2%",
-        "description": "물리 최종 데미지 2%"
+        "description": "소울 클릭 확률 2%"
       },
       {
         "type_code": 140,
@@ -3649,15 +3649,15 @@
         "type_code": 355,
         "type_name": "치명타 확률 +[오크] 용병 수 X%",
         "value": 0.03,
-        "value_display": "3%",
-        "description": "치명타 확률 +[오크] 용병 수 X 3%%"
+        "value_display": "3",
+        "description": "치명타 확률 +[오크] 용병 수 X 3%"
       },
       {
         "type_code": 357,
         "type_name": "종족이 오크인 용병의 치명타 확률 +[오크] 용병 수 X%",
         "value": 0.03,
-        "value_display": "3%",
-        "description": "종족이 오크인 용병의 치명타 확률 +[오크] 용병 수 X 3%%"
+        "value_display": "3",
+        "description": "종족이 오크인 용병의 치명타 확률 +[오크] 용병 수 X 3%"
       },
       {
         "type_code": 406,
@@ -3724,10 +3724,10 @@
     "effects_resolved": [
       {
         "type_code": 27,
-        "type_name": "추가 클릭 확률",
+        "type_name": "모든 용병의 강타 배수",
         "value": 0.24,
-        "value_display": "24%",
-        "description": "추가 클릭 확률 24%"
+        "value_display": "0.24",
+        "description": "모든 용병의 강타 배수 0.24"
       },
       {
         "type_code": 177,
@@ -3808,10 +3808,10 @@
       },
       {
         "type_code": 52,
-        "type_name": "모든 용병의 행운 확률",
+        "type_name": "적들의 마법 저항력 감소",
         "value": 0.05,
         "value_display": "5%",
-        "description": "모든 용병의 행운 확률 5%"
+        "description": "적들의 마법 저항력 감소 5%"
       }
     ],
     "randomValue": 0
@@ -3845,8 +3845,8 @@
         "type_code": 395,
         "type_name": "아리만 고용시 모든 용병의 데미지 +자신의 각성수 X%",
         "value": 0.006,
-        "value_display": "0.6%",
-        "description": "아리만 고용시 모든 용병의 데미지 +자신의 각성수 X 0.6%%"
+        "value_display": "0.6",
+        "description": "아리만 고용시 모든 용병의 데미지 +자신의 각성수 X 0.6%"
       }
     ],
     "randomValue": 0
@@ -3871,10 +3871,10 @@
     "effects_resolved": [
       {
         "type_code": 43,
-        "type_name": "소울 클릭배수",
+        "type_name": "추가 클릭 확률",
         "value": 0.7,
         "value_display": "70%",
-        "description": "소울 클릭배수 70%"
+        "description": "추가 클릭 확률 70%"
       },
       {
         "type_code": 122,
@@ -3922,8 +3922,8 @@
         "type_code": 119,
         "type_name": "데미지 +총 각성수 X%",
         "value": 0.006,
-        "value_display": "0.6%",
-        "description": "데미지 +총 각성수 X 0.6%%"
+        "value_display": "0.6",
+        "description": "데미지 +총 각성수 X 0.6%"
       }
     ],
     "randomValue": 0
@@ -3983,17 +3983,17 @@
     "effects_resolved": [
       {
         "type_code": 1,
-        "type_name": "추가 데미지",
+        "type_name": "데미지",
         "value": 6.0,
-        "value_display": "6",
-        "description": "추가 데미지 6"
+        "value_display": "600%",
+        "description": "데미지 600%"
       },
       {
         "type_code": 20,
-        "type_name": "모든 용병의 강타 확률",
+        "type_name": "강타 확률",
         "value": 0.08,
         "value_display": "8%",
-        "description": "모든 용병의 강타 확률 8%"
+        "description": "강타 확률 8%"
       },
       {
         "type_code": 304,
@@ -4025,17 +4025,17 @@
     "effects_resolved": [
       {
         "type_code": 1,
-        "type_name": "추가 데미지",
+        "type_name": "데미지",
         "value": 4.0,
-        "value_display": "4",
-        "description": "추가 데미지 4"
+        "value_display": "400%",
+        "description": "데미지 400%"
       },
       {
         "type_code": 33,
-        "type_name": "모든 용병의 베이스 데미지",
+        "type_name": "모든 용병의 연타 확률",
         "value": 0.02,
         "value_display": "2%",
-        "description": "모든 용병의 베이스 데미지 2%"
+        "description": "모든 용병의 연타 확률 2%"
       },
       {
         "type_code": 112,
@@ -4069,8 +4069,8 @@
         "type_code": 409,
         "type_name": "% 확률로 데미지가배의 신성 데미지로 변환",
         "value": 3.0,
-        "value_display": "300%",
-        "description": "300%% 확률로 데미지가 배의 신성 데미지로 변환"
+        "value_display": "300",
+        "description": "300% 확률로 데미지가 배의 신성 데미지로 변환"
       },
       {
         "type_code": 175,
@@ -4102,17 +4102,17 @@
     "effects_resolved": [
       {
         "type_code": 9,
-        "type_name": "적들의 물리 저항력 감소",
+        "type_name": "공격 속도",
         "value": 0.5,
         "value_display": "50%",
-        "description": "적들의 물리 저항력 감소 50%"
+        "description": "공격 속도 50%"
       },
       {
         "type_code": 20,
-        "type_name": "모든 용병의 강타 확률",
+        "type_name": "강타 확률",
         "value": 0.08,
         "value_display": "8%",
-        "description": "모든 용병의 강타 확률 8%"
+        "description": "강타 확률 8%"
       },
       {
         "type_code": 1001,
@@ -4151,17 +4151,17 @@
       },
       {
         "type_code": 21,
-        "type_name": "모든 용병의 강타 배수",
+        "type_name": "모든 용병의 강타 확률",
         "value": 0.02,
-        "value_display": "0.02",
-        "description": "모든 용병의 강타 배수 0.02"
+        "value_display": "2%",
+        "description": "모든 용병의 강타 확률 2%"
       },
       {
         "type_code": 419,
         "type_name": "가문이 박인 용병의 행운 확률 +[박] 용병 수 X%",
         "value": 0.04,
-        "value_display": "4%",
-        "description": "가문이 박인 용병의 행운 확률 +[박] 용병 수 X 4%%"
+        "value_display": "4",
+        "description": "가문이 박인 용병의 행운 확률 +[박] 용병 수 X 4%"
       }
     ],
     "randomValue": 0
@@ -4235,10 +4235,10 @@
       },
       {
         "type_code": 52,
-        "type_name": "모든 용병의 행운 확률",
+        "type_name": "적들의 마법 저항력 감소",
         "value": 0.04,
         "value_display": "4%",
-        "description": "모든 용병의 행운 확률 4%"
+        "description": "적들의 마법 저항력 감소 4%"
       },
       {
         "type_code": 282,
@@ -4277,10 +4277,10 @@
       },
       {
         "type_code": 55,
-        "type_name": "모든 용병의 성장 데미지",
+        "type_name": "적들의 최대 체력 감소",
         "value": 0.01,
-        "value_display": "0.01",
-        "description": "모든 용병의 성장 데미지 0.01"
+        "value_display": "1%",
+        "description": "적들의 최대 체력 감소 1%"
       }
     ],
     "randomValue": 0
@@ -4347,17 +4347,17 @@
     "effects_resolved": [
       {
         "type_code": 46,
-        "type_name": "뿔레정수 획득 확률",
+        "type_name": "골드 획득량",
         "value": 0.36,
         "value_display": "36%",
-        "description": "뿔레정수 획득 확률 36%"
+        "description": "골드 획득량 36%"
       },
       {
         "type_code": 423,
         "type_name": "개성이 베디스펍인 용병의 데미지 +[베디스펍] 용병 수 X%",
         "value": 2.0,
-        "value_display": "200%",
-        "description": "개성이 베디스펍인 용병의 데미지 +[베디스펍] 용병 수 X 200%%"
+        "value_display": "200",
+        "description": "개성이 베디스펍인 용병의 데미지 +[베디스펍] 용병 수 X 200%"
       }
     ],
     "randomValue": 0
@@ -4391,8 +4391,8 @@
         "type_code": 426,
         "type_name": "스탈링 참전시 데미지 +총 각성수 X%",
         "value": 0.008,
-        "value_display": "0.8%",
-        "description": "스탈링 참전시 데미지 +총 각성수 X 0.8%%"
+        "value_display": "0.8",
+        "description": "스탈링 참전시 데미지 +총 각성수 X 0.8%"
       }
     ],
     "randomValue": 0
@@ -4433,8 +4433,8 @@
         "type_code": 119,
         "type_name": "데미지 +총 각성수 X%",
         "value": 0.006,
-        "value_display": "0.6%",
-        "description": "데미지 +총 각성수 X 0.6%%"
+        "value_display": "0.6",
+        "description": "데미지 +총 각성수 X 0.6%"
       }
     ],
     "randomValue": 0
@@ -4501,10 +4501,10 @@
     "effects_resolved": [
       {
         "type_code": 56,
-        "type_name": "뿔레 조각 드랍 확률",
+        "type_name": "공격 무효화 관통",
         "value": 0.03,
         "value_display": "3%",
-        "description": "뿔레 조각 드랍 확률 3%"
+        "description": "공격 무효화 관통 3%"
       },
       {
         "type_code": 368,
@@ -4517,8 +4517,8 @@
         "type_code": 430,
         "type_name": "개성이 베디스펍인 용병의 행운 확률 +[베디스펍] 용병 수 X%",
         "value": 0.02,
-        "value_display": "2%",
-        "description": "개성이 베디스펍인 용병의 행운 확률 +[베디스펍] 용병 수 X 2%%"
+        "value_display": "2",
+        "description": "개성이 베디스펍인 용병의 행운 확률 +[베디스펍] 용병 수 X 2%"
       }
     ],
     "randomValue": 0
@@ -4669,10 +4669,10 @@
     "effects_resolved": [
       {
         "type_code": 52,
-        "type_name": "모든 용병의 행운 확률",
+        "type_name": "적들의 마법 저항력 감소",
         "value": 0.05,
         "value_display": "5%",
-        "description": "모든 용병의 행운 확률 5%"
+        "description": "적들의 마법 저항력 감소 5%"
       },
       {
         "type_code": 38,
@@ -4718,10 +4718,10 @@
       },
       {
         "type_code": 11,
-        "type_name": "적들의 최대 체력 감소",
+        "type_name": "모든 물리 용병의 공격 속도",
         "value": 0.12,
         "value_display": "12%",
-        "description": "적들의 최대 체력 감소 12%"
+        "description": "모든 물리 용병의 공격 속도 12%"
       },
       {
         "type_code": 38,
@@ -4753,17 +4753,17 @@
     "effects_resolved": [
       {
         "type_code": 20,
-        "type_name": "모든 용병의 강타 확률",
+        "type_name": "강타 확률",
         "value": 0.17,
         "value_display": "17%",
-        "description": "모든 용병의 강타 확률 17%"
+        "description": "강타 확률 17%"
       },
       {
         "type_code": 119,
         "type_name": "데미지 +총 각성수 X%",
         "value": 0.007,
-        "value_display": "0.7%",
-        "description": "데미지 +총 각성수 X 0.7%%"
+        "value_display": "0.7",
+        "description": "데미지 +총 각성수 X 0.7%"
       }
     ],
     "randomValue": 0
@@ -4795,17 +4795,17 @@
       },
       {
         "type_code": 52,
-        "type_name": "모든 용병의 행운 확률",
+        "type_name": "적들의 마법 저항력 감소",
         "value": 0.08,
         "value_display": "8%",
-        "description": "모든 용병의 행운 확률 8%"
+        "description": "적들의 마법 저항력 감소 8%"
       },
       {
         "type_code": 315,
-        "type_name": "적 부활 확률 감소",
+        "type_name": "적들의 부활 확률 감소",
         "value": 0.024,
         "value_display": "2.4%",
-        "description": "적 부활 확률 감소 2.4%"
+        "description": "적들의 부활 확률 감소 2.4%"
       }
     ],
     "randomValue": 0
@@ -4830,24 +4830,24 @@
     "effects_resolved": [
       {
         "type_code": 52,
-        "type_name": "모든 용병의 행운 확률",
+        "type_name": "적들의 마법 저항력 감소",
         "value": 0.04,
         "value_display": "4%",
-        "description": "모든 용병의 행운 확률 4%"
+        "description": "적들의 마법 저항력 감소 4%"
       },
       {
         "type_code": 314,
-        "type_name": "적 방어막 효과 감소",
+        "type_name": "적들의 방어막 효과 감소",
         "value": 0.024,
         "value_display": "2.4%",
-        "description": "적 방어막 효과 감소 2.4%"
+        "description": "적들의 방어막 효과 감소 2.4%"
       },
       {
         "type_code": 482,
         "type_name": "모든 용병의 행운 확률 +[베멜] 용병 수 X%",
         "value": 0.003,
-        "value_display": "0.3%",
-        "description": "모든 용병의 행운 확률 +[베멜] 용병 수 X 0.3%%"
+        "value_display": "0.3",
+        "description": "모든 용병의 행운 확률 +[베멜] 용병 수 X 0.3%"
       }
     ],
     "randomValue": 0
@@ -4872,17 +4872,17 @@
     "effects_resolved": [
       {
         "type_code": 10,
-        "type_name": "적들의 마법 저항력 감소",
+        "type_name": "모든 용병의 공격 속도",
         "value": -0.1,
         "value_display": "-10%",
-        "description": "적들의 마법 저항력 감소 -10%"
+        "description": "모든 용병의 공격 속도 -10%"
       },
       {
         "type_code": 476,
         "type_name": "모든 용병의 공격 속도 +기본 공격 쿨다운 X%",
         "value": 0.1,
-        "value_display": "10%",
-        "description": "모든 용병의 공격 속도 +기본 공격 쿨다운 X 10%%"
+        "value_display": "10",
+        "description": "모든 용병의 공격 속도 +기본 공격 쿨다운 X 10%"
       },
       {
         "type_code": 282,
@@ -4914,10 +4914,10 @@
     "effects_resolved": [
       {
         "type_code": 43,
-        "type_name": "소울 클릭배수",
+        "type_name": "추가 클릭 확률",
         "value": 0.32,
         "value_display": "32%",
-        "description": "소울 클릭배수 32%"
+        "description": "추가 클릭 확률 32%"
       },
       {
         "type_code": 107,
@@ -5000,8 +5000,8 @@
         "type_code": 489,
         "type_name": "지역이 불칸햄인 용병의 데미지 +[불칸햄] 용병 수 X%",
         "value": 0.8,
-        "value_display": "80%",
-        "description": "지역이 불칸햄인 용병의 데미지 +[불칸햄] 용병 수 X 80%%"
+        "value_display": "80",
+        "description": "지역이 불칸햄인 용병의 데미지 +[불칸햄] 용병 수 X 80%"
       },
       {
         "type_code": 490,
@@ -5033,10 +5033,10 @@
     "effects_resolved": [
       {
         "type_code": 53,
-        "type_name": "모든 용병의 행운 배수",
+        "type_name": "적들의 카오스 취약성",
         "value": 0.04,
-        "value_display": "0.04",
-        "description": "모든 용병의 행운 배수 0.04"
+        "value_display": "4%",
+        "description": "적들의 카오스 취약성 4%"
       },
       {
         "type_code": 1024,
@@ -5084,8 +5084,8 @@
         "type_code": 496,
         "type_name": "종족이 어류인 용병의 행운 확률 +[어류] 용병 수 X%",
         "value": 0.005,
-        "value_display": "0.5%",
-        "description": "종족이 어류인 용병의 행운 확률 +[어류] 용병 수 X 0.5%%"
+        "value_display": "0.5",
+        "description": "종족이 어류인 용병의 행운 확률 +[어류] 용병 수 X 0.5%"
       }
     ],
     "randomValue": 0
@@ -5112,8 +5112,8 @@
         "type_code": 501,
         "type_name": "모든 용병의 행운 확률 +[탐욕적임] 용병 수 X%",
         "value": 0.006,
-        "value_display": "0.6%",
-        "description": "모든 용병의 행운 확률 +[탐욕적임] 용병 수 X 0.6%%"
+        "value_display": "0.6",
+        "description": "모든 용병의 행운 확률 +[탐욕적임] 용병 수 X 0.6%"
       },
       {
         "type_code": 502,
@@ -5201,17 +5201,17 @@
       },
       {
         "type_code": 9,
-        "type_name": "적들의 물리 저항력 감소",
+        "type_name": "공격 속도",
         "value": -1.0,
         "value_display": "-100%",
-        "description": "적들의 물리 저항력 감소 -100%"
+        "description": "공격 속도 -100%"
       },
       {
         "type_code": 53,
-        "type_name": "모든 용병의 행운 배수",
+        "type_name": "적들의 카오스 취약성",
         "value": 0.025,
-        "value_display": "0.025",
-        "description": "모든 용병의 행운 배수 0.025"
+        "value_display": "2.5%",
+        "description": "적들의 카오스 취약성 2.5%"
       }
     ],
     "randomValue": 0
@@ -5236,10 +5236,10 @@
     "effects_resolved": [
       {
         "type_code": 32,
-        "type_name": "모든 용병의 레벨업 및 스킬학습 비용감소",
+        "type_name": "연타 확률",
         "value": 0.1,
         "value_display": "10%",
-        "description": "모든 용병의 레벨업 및 스킬학습 비용감소 10%"
+        "description": "연타 확률 10%"
       },
       {
         "type_code": 193,
@@ -5287,15 +5287,15 @@
         "type_code": 518,
         "type_name": "최종 데미지 +[엘프] 용병 수 X%",
         "value": 0.06,
-        "value_display": "6%",
-        "description": "최종 데미지 +[엘프] 용병 수 X 6%%"
+        "value_display": "6",
+        "description": "최종 데미지 +[엘프] 용병 수 X 6%"
       },
       {
         "type_code": 519,
         "type_name": "모든 용병의 행운 확률 +[엘프] 용병 수 X%",
         "value": 0.006,
-        "value_display": "0.6%",
-        "description": "모든 용병의 행운 확률 +[엘프] 용병 수 X 0.6%%"
+        "value_display": "0.6",
+        "description": "모든 용병의 행운 확률 +[엘프] 용병 수 X 0.6%"
       }
     ],
     "randomValue": 0
@@ -5327,17 +5327,17 @@
       },
       {
         "type_code": 26,
-        "type_name": "베이스 데미지",
+        "type_name": "강타 배수",
         "value": 1.2,
-        "value_display": "120%",
-        "description": "베이스 데미지 120%"
+        "value_display": "1.2",
+        "description": "강타 배수 1.2"
       },
       {
         "type_code": 130,
         "type_name": "추가 데미지 +총 각성수 X",
         "value": 30.0,
-        "value_display": "3000%",
-        "description": "추가 데미지 +총 각성수 X 3000%"
+        "value_display": "30",
+        "description": "추가 데미지 +총 각성수 X 30"
       }
     ],
     "randomValue": 0
@@ -5369,17 +5369,17 @@
       },
       {
         "type_code": 33,
-        "type_name": "모든 용병의 베이스 데미지",
+        "type_name": "모든 용병의 연타 확률",
         "value": 0.025,
         "value_display": "2.5%",
-        "description": "모든 용병의 베이스 데미지 2.5%"
+        "description": "모든 용병의 연타 확률 2.5%"
       },
       {
         "type_code": 27,
-        "type_name": "추가 클릭 확률",
+        "type_name": "모든 용병의 강타 배수",
         "value": 0.25,
-        "value_display": "25%",
-        "description": "추가 클릭 확률 25%"
+        "value_display": "0.25",
+        "description": "모든 용병의 강타 배수 0.25"
       }
     ],
     "randomValue": 0
@@ -5406,15 +5406,15 @@
         "type_code": 99,
         "type_name": "모든 용병의 데미지 +총 각성수 X%",
         "value": 0.001,
-        "value_display": "0.1%",
-        "description": "모든 용병의 데미지 +총 각성수 X 0.1%%"
+        "value_display": "0.1",
+        "description": "모든 용병의 데미지 +총 각성수 X 0.1%"
       },
       {
         "type_code": 251,
         "type_name": "모든 용병의 클릭 데미지 +총 각성수 X%",
         "value": 0.0008,
-        "value_display": "0.08%",
-        "description": "모든 용병의 클릭 데미지 +총 각성수 X 0.08%%"
+        "value_display": "0.08",
+        "description": "모든 용병의 클릭 데미지 +총 각성수 X 0.08%"
       }
     ],
     "randomValue": 0
@@ -5448,8 +5448,8 @@
         "type_code": 541,
         "type_name": "% 확률로 모든 데미지가배로 증폭",
         "value": 2.2,
-        "value_display": "220%",
-        "description": "220%% 확률로 모든 데미지가 배로 증폭"
+        "value_display": "220",
+        "description": "220% 확률로 모든 데미지가 배로 증폭"
       },
       {
         "type_code": 709,
@@ -5530,10 +5530,10 @@
       },
       {
         "type_code": 10,
-        "type_name": "적들의 마법 저항력 감소",
+        "type_name": "모든 용병의 공격 속도",
         "value": 0.1,
         "value_display": "10%",
-        "description": "적들의 마법 저항력 감소 10%"
+        "description": "모든 용병의 공격 속도 10%"
       },
       {
         "type_code": 51,
@@ -5565,24 +5565,24 @@
     "effects_resolved": [
       {
         "type_code": 27,
-        "type_name": "추가 클릭 확률",
+        "type_name": "모든 용병의 강타 배수",
         "value": 0.4,
-        "value_display": "40%",
-        "description": "추가 클릭 확률 40%"
+        "value_display": "0.4",
+        "description": "모든 용병의 강타 배수 0.4"
       },
       {
         "type_code": 53,
-        "type_name": "모든 용병의 행운 배수",
+        "type_name": "적들의 카오스 취약성",
         "value": 0.03,
-        "value_display": "0.03",
-        "description": "모든 용병의 행운 배수 0.03"
+        "value_display": "3%",
+        "description": "적들의 카오스 취약성 3%"
       },
       {
         "type_code": 538,
-        "type_name": "적 피해 면제 효과 감소",
+        "type_name": "적들의 피해 면제 효과 감소",
         "value": 0.03,
         "value_display": "3%",
-        "description": "적 피해 면제 효과 감소 3%"
+        "description": "적들의 피해 면제 효과 감소 3%"
       }
     ],
     "randomValue": 0
@@ -5614,17 +5614,17 @@
       },
       {
         "type_code": 52,
-        "type_name": "모든 용병의 행운 확률",
+        "type_name": "적들의 마법 저항력 감소",
         "value": 0.05,
         "value_display": "5%",
-        "description": "모든 용병의 행운 확률 5%"
+        "description": "적들의 마법 저항력 감소 5%"
       },
       {
         "type_code": 39,
-        "type_name": "신성 데미지",
+        "type_name": "클릭 크리티컬 배수",
         "value": 2.5,
-        "value_display": "2",
-        "description": "신성 데미지 2"
+        "value_display": "2.5",
+        "description": "클릭 크리티컬 배수 2.5"
       }
     ],
     "randomValue": 0
@@ -5656,10 +5656,10 @@
       },
       {
         "type_code": 40,
-        "type_name": "물리 최종 데미지",
+        "type_name": "소울 클릭 확률",
         "value": 0.022,
         "value_display": "2.2%",
-        "description": "물리 최종 데미지 2.2%"
+        "description": "소울 클릭 확률 2.2%"
       },
       {
         "type_code": 138,
@@ -5733,10 +5733,10 @@
     "effects_resolved": [
       {
         "type_code": 9,
-        "type_name": "적들의 물리 저항력 감소",
+        "type_name": "공격 속도",
         "value": 0.5,
         "value_display": "50%",
-        "description": "적들의 물리 저항력 감소 50%"
+        "description": "공격 속도 50%"
       },
       {
         "type_code": 250,
@@ -5775,10 +5775,10 @@
     "effects_resolved": [
       {
         "type_code": 539,
-        "type_name": "적 반사 효과 감소",
+        "type_name": "적들의 반사 확률 감소",
         "value": 0.03,
         "value_display": "3%",
-        "description": "적 반사 효과 감소 3%"
+        "description": "적들의 반사 확률 감소 3%"
       },
       {
         "type_code": 257,
@@ -5817,10 +5817,10 @@
     "effects_resolved": [
       {
         "type_code": 539,
-        "type_name": "적 반사 효과 감소",
+        "type_name": "적들의 반사 확률 감소",
         "value": 0.03,
         "value_display": "3%",
-        "description": "적 반사 효과 감소 3%"
+        "description": "적들의 반사 확률 감소 3%"
       },
       {
         "type_code": 257,
@@ -5859,10 +5859,10 @@
     "effects_resolved": [
       {
         "type_code": 539,
-        "type_name": "적 반사 효과 감소",
+        "type_name": "적들의 반사 확률 감소",
         "value": 0.03,
         "value_display": "3%",
-        "description": "적 반사 효과 감소 3%"
+        "description": "적들의 반사 확률 감소 3%"
       },
       {
         "type_code": 257,
@@ -5971,10 +5971,10 @@
     "effects_resolved": [
       {
         "type_code": 42,
-        "type_name": "카오스 최종 데미지",
+        "type_name": "자동 클릭 속도",
         "value": 0.3,
         "value_display": "30%",
-        "description": "카오스 최종 데미지 30%"
+        "description": "자동 클릭 속도 30%"
       },
       {
         "type_code": 281,
@@ -5985,10 +5985,10 @@
       },
       {
         "type_code": 539,
-        "type_name": "적 반사 효과 감소",
+        "type_name": "적들의 반사 확률 감소",
         "value": 0.02,
         "value_display": "2%",
-        "description": "적 반사 효과 감소 2%"
+        "description": "적들의 반사 확률 감소 2%"
       }
     ],
     "randomValue": 0
@@ -6013,10 +6013,10 @@
     "effects_resolved": [
       {
         "type_code": 43,
-        "type_name": "소울 클릭배수",
+        "type_name": "추가 클릭 확률",
         "value": 0.6,
         "value_display": "60%",
-        "description": "소울 클릭배수 60%"
+        "description": "추가 클릭 확률 60%"
       },
       {
         "type_code": 176,
@@ -6055,17 +6055,17 @@
     "effects_resolved": [
       {
         "type_code": 15,
-        "type_name": "아이템 획득 확률",
+        "type_name": "클릭 데미지",
         "value": 1.0,
         "value_display": "100%",
-        "description": "아이템 획득 확률 100%"
+        "description": "클릭 데미지 100%"
       },
       {
         "type_code": 43,
-        "type_name": "소울 클릭배수",
+        "type_name": "추가 클릭 확률",
         "value": 0.5,
         "value_display": "50%",
-        "description": "소울 클릭배수 50%"
+        "description": "추가 클릭 확률 50%"
       }
     ],
     "randomValue": 0
@@ -6090,17 +6090,17 @@
     "effects_resolved": [
       {
         "type_code": 538,
-        "type_name": "적 피해 면제 효과 감소",
+        "type_name": "적들의 피해 면제 효과 감소",
         "value": 0.03,
         "value_display": "3%",
-        "description": "적 피해 면제 효과 감소 3%"
+        "description": "적들의 피해 면제 효과 감소 3%"
       },
       {
         "type_code": 539,
-        "type_name": "적 반사 효과 감소",
+        "type_name": "적들의 반사 확률 감소",
         "value": 0.03,
         "value_display": "3%",
-        "description": "적 반사 효과 감소 3%"
+        "description": "적들의 반사 확률 감소 3%"
       }
     ],
     "randomValue": 0
@@ -6127,15 +6127,15 @@
         "type_code": 610,
         "type_name": "종족이 기계인 용병의 행운 확률 +[기계] 용병 수 X%",
         "value": 0.01,
-        "value_display": "1%",
-        "description": "종족이 기계인 용병의 행운 확률 +[기계] 용병 수 X 1%%"
+        "value_display": "1",
+        "description": "종족이 기계인 용병의 행운 확률 +[기계] 용병 수 X 1%"
       },
       {
         "type_code": 170,
         "type_name": "모든 용병의 데미지 +자신의 각성수 X%",
         "value": 0.005,
-        "value_display": "0.5%",
-        "description": "모든 용병의 데미지 +자신의 각성수 X 0.5%%"
+        "value_display": "0.5",
+        "description": "모든 용병의 데미지 +자신의 각성수 X 0.5%"
       }
     ],
     "randomValue": 0
@@ -6204,8 +6204,8 @@
         "type_code": 627,
         "type_name": "종족이 토끼인 용병의 선제 공격 확률 +[토끼] 용병 수 X%",
         "value": 0.004,
-        "value_display": "0.4%",
-        "description": "종족이 토끼인 용병의 선제 공격 확률 +[토끼] 용병 수 X 0.4%%"
+        "value_display": "0.4",
+        "description": "종족이 토끼인 용병의 선제 공격 확률 +[토끼] 용병 수 X 0.4%"
       },
       {
         "type_code": 624,
@@ -6237,17 +6237,17 @@
     "effects_resolved": [
       {
         "type_code": 5,
-        "type_name": "모든 용병의 클릭 데미지",
+        "type_name": "모든 혼합 용병의 데미지",
         "value": 1.0,
         "value_display": "100%",
-        "description": "모든 용병의 클릭 데미지 100%"
+        "description": "모든 혼합 용병의 데미지 100%"
       },
       {
         "type_code": 24,
-        "type_name": "소울 클릭 확률",
+        "type_name": "모든 혼합 용병의 강타 확률",
         "value": 0.03,
         "value_display": "3%",
-        "description": "소울 클릭 확률 3%"
+        "description": "모든 혼합 용병의 강타 확률 3%"
       },
       {
         "type_code": 112,
@@ -6279,10 +6279,10 @@
     "effects_resolved": [
       {
         "type_code": 30,
-        "type_name": "최대 레벨",
+        "type_name": "모든 혼합 용병의 강타 배수",
         "value": 0.4,
-        "value_display": "0",
-        "description": "최대 레벨 0"
+        "value_display": "0.4",
+        "description": "모든 혼합 용병의 강타 배수 0.4"
       },
       {
         "type_code": 1031,
@@ -6335,10 +6335,10 @@
       },
       {
         "type_code": 56,
-        "type_name": "뿔레 조각 드랍 확률",
+        "type_name": "공격 무효화 관통",
         "value": 0.04,
         "value_display": "4%",
-        "description": "뿔레 조각 드랍 확률 4%"
+        "description": "공격 무효화 관통 4%"
       }
     ],
     "randomValue": 0
@@ -6363,10 +6363,10 @@
     "effects_resolved": [
       {
         "type_code": 7,
-        "type_name": "모든 용병의 공격 속도",
+        "type_name": "추가 데미지",
         "value": 8000.0,
-        "value_display": "800000%",
-        "description": "모든 용병의 공격 속도 800000%"
+        "value_display": "8000",
+        "description": "추가 데미지 8000"
       },
       {
         "type_code": 176,
@@ -6412,10 +6412,10 @@
       },
       {
         "type_code": 52,
-        "type_name": "모든 용병의 행운 확률",
+        "type_name": "적들의 마법 저항력 감소",
         "value": 0.07,
         "value_display": "7%",
-        "description": "모든 용병의 행운 확률 7%"
+        "description": "적들의 마법 저항력 감소 7%"
       },
       {
         "type_code": 174,
@@ -6447,10 +6447,10 @@
     "effects_resolved": [
       {
         "type_code": 56,
-        "type_name": "뿔레 조각 드랍 확률",
+        "type_name": "공격 무효화 관통",
         "value": 0.03,
         "value_display": "3%",
-        "description": "뿔레 조각 드랍 확률 3%"
+        "description": "공격 무효화 관통 3%"
       },
       {
         "type_code": 642,
@@ -6491,8 +6491,8 @@
         "type_code": 648,
         "type_name": "애라 참전시 모든 마법 용병의 데미지 +총 각성수 X%",
         "value": 0.0004,
-        "value_display": "0.04%",
-        "description": "애라 참전시 모든 마법 용병의 데미지 +총 각성수 X 0.04%%"
+        "value_display": "0.04",
+        "description": "애라 참전시 모든 마법 용병의 데미지 +총 각성수 X 0.04%"
       }
     ],
     "randomValue": 0
@@ -6517,17 +6517,17 @@
     "effects_resolved": [
       {
         "type_code": 32,
-        "type_name": "모든 용병의 레벨업 및 스킬학습 비용감소",
+        "type_name": "연타 확률",
         "value": -5.0,
         "value_display": "-500%",
-        "description": "모든 용병의 레벨업 및 스킬학습 비용감소 -500%"
+        "description": "연타 확률 -500%"
       },
       {
         "type_code": 20,
-        "type_name": "모든 용병의 강타 확률",
+        "type_name": "강타 확률",
         "value": -0.15,
         "value_display": "-15%",
-        "description": "모든 용병의 강타 확률 -15%"
+        "description": "강타 확률 -15%"
       },
       {
         "type_code": 307,
@@ -6575,8 +6575,8 @@
         "type_code": 1046,
         "type_name": "모든 트리니티 용병의 데미지 +총 각성수 X%",
         "value": 0.0005,
-        "value_display": "0.05%",
-        "description": "모든 트리니티 용병의 데미지 +총 각성수 X 0.05%%"
+        "value_display": "0.05",
+        "description": "모든 트리니티 용병의 데미지 +총 각성수 X 0.05%"
       }
     ],
     "randomValue": 0
@@ -6601,10 +6601,10 @@
     "effects_resolved": [
       {
         "type_code": 46,
-        "type_name": "뿔레정수 획득 확률",
+        "type_name": "골드 획득량",
         "value": 0.5,
         "value_display": "50%",
-        "description": "뿔레정수 획득 확률 50%"
+        "description": "골드 획득량 50%"
       },
       {
         "type_code": 50,
@@ -6680,8 +6680,8 @@
         "type_code": 130,
         "type_name": "추가 데미지 +총 각성수 X",
         "value": 40.0,
-        "value_display": "4000%",
-        "description": "추가 데미지 +총 각성수 X 4000%"
+        "value_display": "40",
+        "description": "추가 데미지 +총 각성수 X 40"
       },
       {
         "type_code": 655,
@@ -6757,8 +6757,8 @@
         "type_code": 524,
         "type_name": "모든 용병의 최종 데미지 +[못생김] 용병 수 X%",
         "value": 0.03,
-        "value_display": "3%",
-        "description": "모든 용병의 최종 데미지 +[못생김] 용병 수 X 3%%"
+        "value_display": "3",
+        "description": "모든 용병의 최종 데미지 +[못생김] 용병 수 X 3%"
       },
       {
         "type_code": 587,
@@ -6825,17 +6825,17 @@
     "effects_resolved": [
       {
         "type_code": 46,
-        "type_name": "뿔레정수 획득 확률",
+        "type_name": "골드 획득량",
         "value": 0.6,
         "value_display": "60%",
-        "description": "뿔레정수 획득 확률 60%"
+        "description": "골드 획득량 60%"
       },
       {
         "type_code": 48,
-        "type_name": "순수 데미지",
+        "type_name": "아이템 획득 확률",
         "value": 0.4,
-        "value_display": "0",
-        "description": "순수 데미지 0"
+        "value_display": "40%",
+        "description": "아이템 획득 확률 40%"
       },
       {
         "type_code": 109,
@@ -6874,10 +6874,10 @@
       },
       {
         "type_code": 43,
-        "type_name": "소울 클릭배수",
+        "type_name": "추가 클릭 확률",
         "value": 1.5,
         "value_display": "150%",
-        "description": "소울 클릭배수 150%"
+        "description": "추가 클릭 확률 150%"
       },
       {
         "type_code": 354,
@@ -6960,8 +6960,8 @@
         "type_code": 119,
         "type_name": "데미지 +총 각성수 X%",
         "value": 0.005,
-        "value_display": "0.5%",
-        "description": "데미지 +총 각성수 X 0.5%%"
+        "value_display": "0.5",
+        "description": "데미지 +총 각성수 X 0.5%"
       },
       {
         "type_code": 677,
@@ -6993,10 +6993,10 @@
     "effects_resolved": [
       {
         "type_code": 43,
-        "type_name": "소울 클릭배수",
+        "type_name": "추가 클릭 확률",
         "value": 0.7,
         "value_display": "70%",
-        "description": "소울 클릭배수 70%"
+        "description": "추가 클릭 확률 70%"
       },
       {
         "type_code": 431,
@@ -7051,8 +7051,8 @@
         "type_code": 119,
         "type_name": "데미지 +총 각성수 X%",
         "value": 0.005,
-        "value_display": "0.5%",
-        "description": "데미지 +총 각성수 X 0.5%%"
+        "value_display": "0.5",
+        "description": "데미지 +총 각성수 X 0.5%"
       }
     ],
     "randomValue": 0
@@ -7093,8 +7093,8 @@
         "type_code": 119,
         "type_name": "데미지 +총 각성수 X%",
         "value": 0.005,
-        "value_display": "0.5%",
-        "description": "데미지 +총 각성수 X 0.5%%"
+        "value_display": "0.5",
+        "description": "데미지 +총 각성수 X 0.5%"
       }
     ],
     "randomValue": 0
@@ -7170,8 +7170,8 @@
         "type_code": 496,
         "type_name": "종족이 어류인 용병의 행운 확률 +[어류] 용병 수 X%",
         "value": 0.005,
-        "value_display": "0.5%",
-        "description": "종족이 어류인 용병의 행운 확률 +[어류] 용병 수 X 0.5%%"
+        "value_display": "0.5",
+        "description": "종족이 어류인 용병의 행운 확률 +[어류] 용병 수 X 0.5%"
       }
     ],
     "randomValue": 0
@@ -7196,10 +7196,10 @@
     "effects_resolved": [
       {
         "type_code": 56,
-        "type_name": "뿔레 조각 드랍 확률",
+        "type_name": "공격 무효화 관통",
         "value": 0.05,
         "value_display": "5%",
-        "description": "뿔레 조각 드랍 확률 5%"
+        "description": "공격 무효화 관통 5%"
       },
       {
         "type_code": 109,
@@ -7210,10 +7210,10 @@
       },
       {
         "type_code": 1019,
-        "type_name": "물리 강타배수 증폭",
+        "type_name": "모든 물리 용병의 강타 배수 증폭",
         "value": 0.05,
         "value_display": "5%",
-        "description": "물리 강타배수 증폭 5%"
+        "description": "모든 물리 용병의 강타 배수 증폭 5%"
       }
     ],
     "randomValue": 0
@@ -7245,10 +7245,10 @@
       },
       {
         "type_code": 36,
-        "type_name": "소울번",
+        "type_name": "모든 혼합 용병의 연타 확률",
         "value": 0.02,
         "value_display": "2%",
-        "description": "소울번 2%"
+        "description": "모든 혼합 용병의 연타 확률 2%"
       },
       {
         "type_code": 1058,
@@ -7287,10 +7287,10 @@
       },
       {
         "type_code": 30,
-        "type_name": "최대 레벨",
+        "type_name": "모든 혼합 용병의 강타 배수",
         "value": 0.2,
-        "value_display": "0",
-        "description": "최대 레벨 0"
+        "value_display": "0.2",
+        "description": "모든 혼합 용병의 강타 배수 0.2"
       },
       {
         "type_code": 1049,
@@ -7322,10 +7322,10 @@
     "effects_resolved": [
       {
         "type_code": 1,
-        "type_name": "추가 데미지",
+        "type_name": "데미지",
         "value": 4.0,
-        "value_display": "4",
-        "description": "추가 데미지 4"
+        "value_display": "400%",
+        "description": "데미지 400%"
       },
       {
         "type_code": 304,
@@ -7364,10 +7364,10 @@
     "effects_resolved": [
       {
         "type_code": 32,
-        "type_name": "모든 용병의 레벨업 및 스킬학습 비용감소",
+        "type_name": "연타 확률",
         "value": 0.12,
         "value_display": "12%",
-        "description": "모든 용병의 레벨업 및 스킬학습 비용감소 12%"
+        "description": "연타 확률 12%"
       },
       {
         "type_code": 109,
@@ -7448,17 +7448,17 @@
     "effects_resolved": [
       {
         "type_code": 54,
-        "type_name": "모든 용병의 최종 데미지",
+        "type_name": "적들의 클릭 저항력 감소",
         "value": 0.045,
         "value_display": "4.5%",
-        "description": "모든 용병의 최종 데미지 4.5%"
+        "description": "적들의 클릭 저항력 감소 4.5%"
       },
       {
         "type_code": 56,
-        "type_name": "뿔레 조각 드랍 확률",
+        "type_name": "공격 무효화 관통",
         "value": 0.03,
         "value_display": "3%",
-        "description": "뿔레 조각 드랍 확률 3%"
+        "description": "공격 무효화 관통 3%"
       },
       {
         "type_code": 109,
@@ -7504,10 +7504,10 @@
       },
       {
         "type_code": 56,
-        "type_name": "뿔레 조각 드랍 확률",
+        "type_name": "공격 무효화 관통",
         "value": 0.03,
         "value_display": "3%",
-        "description": "뿔레 조각 드랍 확률 3%"
+        "description": "공격 무효화 관통 3%"
       }
     ],
     "randomValue": 0
@@ -7539,10 +7539,10 @@
       },
       {
         "type_code": 10,
-        "type_name": "적들의 마법 저항력 감소",
+        "type_name": "모든 용병의 공격 속도",
         "value": 0.08,
         "value_display": "8%",
-        "description": "적들의 마법 저항력 감소 8%"
+        "description": "모든 용병의 공격 속도 8%"
       },
       {
         "type_code": 730,
@@ -7574,10 +7574,10 @@
     "effects_resolved": [
       {
         "type_code": 1,
-        "type_name": "추가 데미지",
+        "type_name": "데미지",
         "value": 1.2,
-        "value_display": "1",
-        "description": "추가 데미지 1"
+        "value_display": "120%",
+        "description": "데미지 120%"
       },
       {
         "type_code": 124,
@@ -7623,10 +7623,10 @@
       },
       {
         "type_code": 56,
-        "type_name": "뿔레 조각 드랍 확률",
+        "type_name": "공격 무효화 관통",
         "value": 0.03,
         "value_display": "3%",
-        "description": "뿔레 조각 드랍 확률 3%"
+        "description": "공격 무효화 관통 3%"
       }
     ],
     "randomValue": 0
@@ -7651,17 +7651,17 @@
     "effects_resolved": [
       {
         "type_code": 1,
-        "type_name": "추가 데미지",
+        "type_name": "데미지",
         "value": 1.0,
-        "value_display": "1",
-        "description": "추가 데미지 1"
+        "value_display": "100%",
+        "description": "데미지 100%"
       },
       {
         "type_code": 56,
-        "type_name": "뿔레 조각 드랍 확률",
+        "type_name": "공격 무효화 관통",
         "value": 0.03,
         "value_display": "3%",
-        "description": "뿔레 조각 드랍 확률 3%"
+        "description": "공격 무효화 관통 3%"
       }
     ],
     "randomValue": 0
@@ -7770,24 +7770,24 @@
     "effects_resolved": [
       {
         "type_code": 20,
-        "type_name": "모든 용병의 강타 확률",
+        "type_name": "강타 확률",
         "value": 0.16,
         "value_display": "16%",
-        "description": "모든 용병의 강타 확률 16%"
+        "description": "강타 확률 16%"
       },
       {
         "type_code": 119,
         "type_name": "데미지 +총 각성수 X%",
         "value": 0.009,
-        "value_display": "0.9%",
-        "description": "데미지 +총 각성수 X 0.9%%"
+        "value_display": "0.9",
+        "description": "데미지 +총 각성수 X 0.9%"
       },
       {
         "type_code": 55,
-        "type_name": "모든 용병의 성장 데미지",
+        "type_name": "적들의 최대 체력 감소",
         "value": 0.03,
-        "value_display": "0.03",
-        "description": "모든 용병의 성장 데미지 0.03"
+        "value_display": "3%",
+        "description": "적들의 최대 체력 감소 3%"
       }
     ],
     "randomValue": 0
@@ -7812,24 +7812,24 @@
     "effects_resolved": [
       {
         "type_code": 1,
-        "type_name": "추가 데미지",
+        "type_name": "데미지",
         "value": 1.8,
-        "value_display": "2",
-        "description": "추가 데미지 2"
+        "value_display": "180%",
+        "description": "데미지 180%"
       },
       {
         "type_code": 20,
-        "type_name": "모든 용병의 강타 확률",
+        "type_name": "강타 확률",
         "value": 0.18,
         "value_display": "18%",
-        "description": "모든 용병의 강타 확률 18%"
+        "description": "강타 확률 18%"
       },
       {
         "type_code": 43,
-        "type_name": "소울 클릭배수",
+        "type_name": "추가 클릭 확률",
         "value": 0.9,
         "value_display": "90%",
-        "description": "소울 클릭배수 90%"
+        "description": "추가 클릭 확률 90%"
       }
     ],
     "randomValue": 0
@@ -7854,17 +7854,17 @@
     "effects_resolved": [
       {
         "type_code": 40,
-        "type_name": "물리 최종 데미지",
+        "type_name": "소울 클릭 확률",
         "value": 0.03,
         "value_display": "3%",
-        "description": "물리 최종 데미지 3%"
+        "description": "소울 클릭 확률 3%"
       },
       {
         "type_code": 56,
-        "type_name": "뿔레 조각 드랍 확률",
+        "type_name": "공격 무효화 관통",
         "value": 0.03,
         "value_display": "3%",
-        "description": "뿔레 조각 드랍 확률 3%"
+        "description": "공격 무효화 관통 3%"
       },
       {
         "type_code": 281,
@@ -8024,8 +8024,8 @@
         "type_code": 289,
         "type_name": "공격시% 확률로 동료들의 다음 트리니티 공격에배 데미지 추가",
         "value": 0.07,
-        "value_display": "7%",
-        "description": "공격시 7%% 확률로 동료들의 다음 트리니티 공격에 배 데미지 추가"
+        "value_display": "7",
+        "description": "공격시 7% 확률로 동료들의 다음 트리니티 공격에 배 데미지 추가"
       },
       {
         "type_code": 354,
@@ -8064,17 +8064,17 @@
     "effects_resolved": [
       {
         "type_code": 1,
-        "type_name": "추가 데미지",
+        "type_name": "데미지",
         "value": 5.0,
-        "value_display": "5",
-        "description": "추가 데미지 5"
+        "value_display": "500%",
+        "description": "데미지 500%"
       },
       {
         "type_code": 9,
-        "type_name": "적들의 물리 저항력 감소",
+        "type_name": "공격 속도",
         "value": 0.45,
         "value_display": "45%",
-        "description": "적들의 물리 저항력 감소 45%"
+        "description": "공격 속도 45%"
       },
       {
         "type_code": 763,
@@ -8106,10 +8106,10 @@
     "effects_resolved": [
       {
         "type_code": 43,
-        "type_name": "소울 클릭배수",
+        "type_name": "추가 클릭 확률",
         "value": 2.0,
         "value_display": "200%",
-        "description": "소울 클릭배수 200%"
+        "description": "추가 클릭 확률 200%"
       },
       {
         "type_code": 354,
@@ -8232,17 +8232,17 @@
     "effects_resolved": [
       {
         "type_code": 538,
-        "type_name": "적 피해 면제 효과 감소",
+        "type_name": "적들의 피해 면제 효과 감소",
         "value": 0.03,
         "value_display": "3%",
-        "description": "적 피해 면제 효과 감소 3%"
+        "description": "적들의 피해 면제 효과 감소 3%"
       },
       {
         "type_code": 539,
-        "type_name": "적 반사 효과 감소",
+        "type_name": "적들의 반사 확률 감소",
         "value": 0.02,
         "value_display": "2%",
-        "description": "적 반사 효과 감소 2%"
+        "description": "적들의 반사 확률 감소 2%"
       }
     ],
     "randomValue": 0
@@ -8269,8 +8269,8 @@
         "type_code": 99,
         "type_name": "모든 용병의 데미지 +총 각성수 X%",
         "value": 0.0005,
-        "value_display": "0.05%",
-        "description": "모든 용병의 데미지 +총 각성수 X 0.05%%"
+        "value_display": "0.05",
+        "description": "모든 용병의 데미지 +총 각성수 X 0.05%"
       },
       {
         "type_code": 1178,
@@ -8309,17 +8309,17 @@
       },
       {
         "type_code": 10,
-        "type_name": "적들의 마법 저항력 감소",
+        "type_name": "모든 용병의 공격 속도",
         "value": 0.09,
         "value_display": "9%",
-        "description": "적들의 마법 저항력 감소 9%"
+        "description": "모든 용병의 공격 속도 9%"
       },
       {
         "type_code": 53,
-        "type_name": "모든 용병의 행운 배수",
+        "type_name": "적들의 카오스 취약성",
         "value": 0.025,
-        "value_display": "0.025",
-        "description": "모든 용병의 행운 배수 0.025"
+        "value_display": "2.5%",
+        "description": "적들의 카오스 취약성 2.5%"
       }
     ],
     "randomValue": 0
@@ -8353,8 +8353,8 @@
         "type_code": 1165,
         "type_name": "신성 데미지 +총 각성수 X",
         "value": 25.0,
-        "value_display": "2500%",
-        "description": "신성 데미지 +총 각성수 X 2500%"
+        "value_display": "25",
+        "description": "신성 데미지 +총 각성수 X 25"
       },
       {
         "type_code": 169,

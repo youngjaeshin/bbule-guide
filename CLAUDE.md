@@ -67,9 +67,12 @@ git push origin HEAD:main
 
 ## Effect Code System
 
-- `artifact_code_mapping.json`: 아티팩트 전용 620개 코드
-- `MAINTYPE_TO_EFFECT` (extract_all.py 내): 93개 검증 코드, artifact_code_mapping보다 **우선 적용**
-- `enum_mappings.json`: 장비/스킬 전용 코드 (mainType → effect_name, 61개 검증)
+- 용병 스킬, 장비, 아티팩트는 효과 코드 namespace가 다르다. 같은 숫자라도 의미가 다를 수 있으므로 매핑을 섞지 않는다.
+- 용병 스킬: `sec_korean_mapping.json` + `resolve_skill_effects()` (`extract_all.py`)
+- 장비: `MAINTYPE_TO_EFFECT` (`extract_all.py`)
+- 아티팩트: `artifact_code_mapping.json` + `artifact_overrides.json`
+- `artifact_code_mapping.json`은 아티팩트 전용이지만 일부 항목은 추론/수동 보정 기반이므로 전역 아티팩트 의미로 승격하기 전에 충돌 여부를 확인한다.
+- `enum_mappings.json`: legacy/xlsx cross-reference 보조 자료
 - `premium_effects.json`: 유료 아티팩트 32개 verified 데이터
 - 효과값 포맷: `pct` (×100+%), `raw` (배수), `int` (정수), `abs` (절대값)
 - **코드 90** = "모든 용병의 치명타 확률" (데미지 아님, ×1000 스케일링 없음)

@@ -8,7 +8,9 @@ This is the repeatable workflow used for the v.1863 TEST_8 / Guide v0.3 update.
 - `bgdb_clean.bin` is the parsed game database input for `extract_all.py`.
 - `output/*.json` is the canonical extracted data committed for the guide.
 - `web/data_*.json` and inline constants in `web/index.html` are the deployed data.
-- Manual mappings live in `artifact_code_mapping.json`, `artifact_overrides.json`, `premium_effects.json`, and the override tables in `build_mercenary_data.py`.
+- Effect-code namespaces are separate: mercenary skills use `sec_korean_mapping.json`, equipment uses `MAINTYPE_TO_EFFECT` in `extract_all.py`, and artifacts use artifact `aType` mappings plus `artifact_overrides.json`.
+- Do not blindly reuse one namespace in another. In particular, itemBase skill codes such as `7` are `sec7` skill templates, not equipment `mainType=7`.
+- Manual mappings live in `sec_korean_mapping.json`, `artifact_code_mapping.json`, `artifact_overrides.json`, `premium_effects.json`, and the override tables in `build_mercenary_data.py`. `artifact_code_mapping.json` is artifact-scoped but partially inferred, so conflicting entries must be verified before becoming global artifact meanings.
 
 ## Standard Update Command
 
@@ -39,24 +41,24 @@ python3 scripts/update_game_data.py \
 ## Manual Review Checklist
 
 - Check `python3 verify_web_data_sync.py` warnings. Missing portraits may be acceptable; unresolved `코드 N` entries need review.
-- `scripts/update_game_data.py` runs `python3 scripts/audit_mercenary_skill_refresh.py` during verification. Run it manually with `--strict` only after mercenary skill mappings are calibrated.
+- `scripts/update_game_data.py` runs `python3 scripts/audit_mercenary_skill_refresh.py` during verification. Use `--strict-mercenary-skills` when publishing so same-name mercenary skill changes cannot be missed.
 - If artifact codes are unknown, update `artifact_code_mapping.json` first. Use `artifact_overrides.json` for per-artifact slot fixes.
 - Use `premium_effects.json` for verified paid artifact effects.
 - Keep plain multipliers as raw numbers: `강타 배수 +0.4`, `행운 배수 +0.8`, `소울 클릭 배수 +1.0`.
 - Use percent only for probability, damage percent, debuffs, and explicit `증폭` effects.
 - Do not divide B/C/D artifact values by 2. v1863 values are already display scale.
-- For artifact code overlaps, prefer artifact-specific meanings when listed in `artifact_code_mapping.json`.
+- For artifact code overlaps, prefer verified artifact meanings. If a value in `artifact_code_mapping.json` conflicts with current verified output, fix the artifact mapping or add a per-item `artifact_overrides.json` entry instead of applying it blindly.
 
-## Mercenary Skill Caveat
+## Mercenary Skill Rules
 
-Current `build_mercenary_data.py` preserves existing web skill text when a mercenary skill has the same slot/name. That avoids known bad APK candidate effects from the current resolver, but it also means same-name skill balance changes can be missed.
+`build_mercenary_data.py` must use APK-extracted skill effects even when a mercenary skill has the same slot/name as the previous guide. Skill names can stay the same while effect type or value changes, such as `에밀리 / 저항력 약화의 문양` changing to physical and magical resistance reduction.
 
-Do not treat mercenary skill effects as fully APK-refreshed until this is fixed. The correct long-term direction is:
+Keep these rules intact:
 
-1. Calibrate the mercenary skill effect-code mapping separately from equipment/artifacts.
-2. Switch same-name skills to APK-extracted effect text by default.
-3. Keep only explicit, named manual overrides for extraction gaps.
-4. Use `scripts/audit_mercenary_skill_refresh.py` to list same-name skills where the APK candidate differs from current web text. After calibration, run `python3 scripts/update_game_data.py --strict-mercenary-skills ...` so this cannot regress silently.
+1. Resolve mercenary skills with `sec` mappings, not equipment `mainType` mappings.
+2. Prefer `output/mercenary_skills.json`, `output/sub_slot_troops.json`, and `output/random_merc_skills.json` over legacy web data.
+3. Keep old web skill text only when APK output has no candidate effect text.
+4. Run `python3 scripts/audit_mercenary_skill_refresh.py --strict`; the expected masked-difference count is zero.
 
 ## Files To Commit
 

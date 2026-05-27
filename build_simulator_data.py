@@ -1,24 +1,29 @@
 """
 build_simulator_data.py
 =======================
-output/creatures.json + output/mercenary_skills.json →  web/data_simulator.json
+output/creatures.json + output/*_skills.json → web/data_simulator.json + inline SIM_DATA
 
 용병 시뮬레이터용 JSON 생성 스크립트.
 - 각 용병의 기본/성장 스탯, 스킬 효과, 패시브, 타입, 전용장비 정보를 포함.
-- 스킬은 mercenary_skills.json에서 effects_resolved를 참조 (없으면 빈 리스트).
+- 스킬은 mercenary_skills/random_merc_skills/sub_slot_troops의 effects_resolved를 참조.
 - 슬롯5 스킬이 패시브 (모든 용병이 5슬롯 보유).
 - 출력: grade 우선순위 정렬 (P→O→H→X→G→S→A→B→C→D→E), compact JSON.
 """
 
 import json
 import os
-import sys
+import re
 
 GRADE_ORDER = ['P', 'O', 'H', 'X', 'G', 'S', 'A', 'B', 'C', 'D', 'E']
 
 INPUT_CREATURES = os.path.join(os.path.dirname(__file__), 'output', 'creatures.json')
-INPUT_SKILLS = os.path.join(os.path.dirname(__file__), 'output', 'mercenary_skills.json')
+INPUT_SKILL_FILES = [
+    os.path.join(os.path.dirname(__file__), 'output', 'mercenary_skills.json'),
+    os.path.join(os.path.dirname(__file__), 'output', 'random_merc_skills.json'),
+    os.path.join(os.path.dirname(__file__), 'output', 'sub_slot_troops.json'),
+]
 OUTPUT_JSON = os.path.join(os.path.dirname(__file__), 'web', 'data_simulator.json')
+INDEX_HTML = os.path.join(os.path.dirname(__file__), 'web', 'index.html')
 
 
 def load_json(path: str) -> object:
@@ -27,8 +32,11 @@ def load_json(path: str) -> object:
 
 
 def build_skill_map(skills: list) -> dict:
-    """mercenary_skills 리스트를 index 기준 딕셔너리로 변환."""
-    return {s['index']: s for s in skills}
+    """스킬 리스트를 index 기준 딕셔너리로 변환."""
+    result = {}
+    for s in skills:
+        result.setdefault(s['index'], s)
+    return result
 
 
 def simplify_effects(effects_resolved: list) -> list:
@@ -128,14 +136,38 @@ def build_creature_entry(creature: dict, skill_map: dict) -> dict:
     }
 
 
+def replace_inline_sim_data(entries: list) -> None:
+    """web/index.html의 SIM_DATA 상수를 최신 simulator 데이터로 교체."""
+    if not os.path.exists(INDEX_HTML):
+        return
+    with open(INDEX_HTML, encoding='utf-8') as f:
+        html = f.read()
+    compact = json.dumps(entries, ensure_ascii=False, separators=(',', ':'))
+    new_html, count = re.subn(
+        r'const SIM_DATA\s*=\s*(\[.*?\]);',
+        lambda _match: f'const SIM_DATA = {compact};',
+        html,
+        count=1,
+        flags=re.DOTALL,
+    )
+    if count != 1:
+        raise SystemExit('SIM_DATA block not found in web/index.html')
+    with open(INDEX_HTML, 'w', encoding='utf-8') as f:
+        f.write(new_html)
+    print(f'  Updated SIM_DATA in {INDEX_HTML}')
+
+
 def main():
     print(f'Reading {INPUT_CREATURES} ...')
     creatures = load_json(INPUT_CREATURES)
     print(f'  {len(creatures)} creatures loaded')
 
-    print(f'Reading {INPUT_SKILLS} ...')
-    skills = load_json(INPUT_SKILLS)
-    print(f'  {len(skills)} skills loaded')
+    skills = []
+    for path in INPUT_SKILL_FILES:
+        print(f'Reading {path} ...')
+        part = load_json(path)
+        skills.extend(part)
+        print(f'  {len(part)} skills loaded')
 
     skill_map = build_skill_map(skills)
 
@@ -158,6 +190,7 @@ def main():
     output_str = json.dumps(entries, ensure_ascii=False, separators=(',', ':'))
     with open(OUTPUT_JSON, 'w', encoding='utf-8') as f:
         f.write(output_str)
+    replace_inline_sim_data(entries)
 
     size_kb = os.path.getsize(OUTPUT_JSON) / 1024
     print(f'\n완료: {OUTPUT_JSON}')

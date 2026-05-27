@@ -78,9 +78,13 @@ Vercel 자동 배포
 
 | 파일 | 용도 | 개수 |
 |------|------|------|
+| `sec_korean_mapping.json` | 용병 스킬 효과 코드 | 894개 |
+| `MAINTYPE_TO_EFFECT` | 장비 효과 코드 (`extract_all.py`) | 93개 |
 | `artifact_code_mapping.json` | 아티팩트 효과 코드 | 620개 |
-| `enum_mappings.json` | 장비/스킬 효과 코드 | 61개 |
+| `enum_mappings.json` | legacy/xlsx cross-reference 보조 자료 | 61개 |
 | `premium_effects.json` | 유료 아티팩트 검증 | 32개 |
+
+용병 스킬, 장비, 아티팩트는 같은 코드 숫자라도 의미가 다를 수 있으므로 별도 매핑 경로를 사용합니다. `artifact_code_mapping.json`은 아티팩트 전용 매핑이지만 일부 항목은 추론/수동 보정 기반이므로, 충돌이 보이면 전역 코드명으로 확정하기 전에 `artifact_overrides.json` 또는 `extract_all.py`의 충돌 override로 검증합니다.
 
 효과값 포맷:
 - `pct`: 퍼센트 (×100+%)
@@ -196,11 +200,13 @@ bbule/
 ├── scripts/update_game_data.py        # 추출→웹 빌드→검증→선택 커밋/푸시 자동화
 ├── build_artifact_data.py             # 아티팩트 웹 데이터 생성
 ├── build_equipment_data.py            # 장비 웹 데이터 생성
+├── build_subslot_data.py              # 보조 슬롯 스킬 웹 데이터 생성
 ├── build_commander_tab.py             # 지휘관 탭 생성
 ├── build_scarecrow_invader.py         # 허수아비/침략자 탭 생성
 │
 ├── artifact_code_mapping.json         # 아티팩트 효과 코드 (620개)
-├── enum_mappings.json                 # 장비/스킬 효과 코드 (61개)
+├── sec_korean_mapping.json            # 용병 스킬 효과 코드
+├── enum_mappings.json                 # legacy/xlsx cross-reference 보조 자료
 ├── premium_effects.json               # 유료 아티팩트 검증 데이터 (32개)
 │
 ├── web/
@@ -338,7 +344,7 @@ icon 필드 값 → web/images/equip-icon/{icon:03d}.png
 2. `python3 scripts/update_game_data.py --bin bgdb_clean.bin --game-version "v.xxxx TEST_n" --guide-version v0.x` 실행
 3. `verify_web_data_sync.py` 경고에서 미매핑 코드와 누락 초상화 검토
 4. 필요하면 매핑 JSON과 수동 override를 수정한 뒤 스크립트 재실행
-5. 준비가 끝나면 `--commit --push --check-live` 옵션으로 커밋/배포 확인
+5. 준비가 끝나면 `--strict-mercenary-skills --commit --push --check-live` 옵션으로 커밋/배포 확인
 
 상세 절차는 `docs/apk-update-playbook.md`를 봅니다.
 
