@@ -2607,7 +2607,7 @@
         "type_name": "골드 획득량 +% -환생횟수 X%",
         "value": 3.0,
         "value_display": "300",
-        "description": "골드 획득량 +300% -환생횟수 X %"
+        "description": "효과261 3"
       }
     ],
     "randomValue": 0
@@ -4069,8 +4069,8 @@
         "type_code": 409,
         "type_name": "% 확률로 데미지가배의 신성 데미지로 변환",
         "value": 3.0,
-        "value_display": "300",
-        "description": "300% 확률로 데미지가 배의 신성 데미지로 변환"
+        "value_display": "3",
+        "description": "효과409 3"
       },
       {
         "type_code": 175,
@@ -5250,10 +5250,10 @@
       },
       {
         "type_code": 543,
-        "type_name": "효과543",
+        "type_name": "25% 확률로 모든 데미지가배 증폭",
         "value": 1.4,
         "value_display": "1.4",
-        "description": "효과543 1.4"
+        "description": "25% 확률로 모든 데미지가 1.4배 증폭"
       }
     ],
     "randomValue": 0
@@ -5448,8 +5448,8 @@
         "type_code": 541,
         "type_name": "% 확률로 모든 데미지가배로 증폭",
         "value": 2.2,
-        "value_display": "220",
-        "description": "220% 확률로 모든 데미지가 배로 증폭"
+        "value_display": "2.2",
+        "description": "효과541 2.2"
       },
       {
         "type_code": 709,
@@ -5495,10 +5495,10 @@
       },
       {
         "type_code": 550,
-        "type_name": "효과550",
+        "type_name": "아티팩트 저거너트 세트 보유시 클릭 크리티컬 확률 3%",
         "value": 5.0,
-        "value_display": "5",
-        "description": "효과550 5"
+        "value_display": "",
+        "description": "아티팩트 저거너트 세트 보유시 클릭 크리티컬 확률 3%"
       }
     ],
     "randomValue": 0
@@ -6027,10 +6027,10 @@
       },
       {
         "type_code": 604,
-        "type_name": "효과604",
+        "type_name": "5%의 확률로 모든 데미지가배 증폭",
         "value": 10.0,
         "value_display": "10",
-        "description": "효과604 10"
+        "description": "5%의 확률로 모든 데미지가 10배 증폭"
       }
     ],
     "randomValue": 0
@@ -6685,10 +6685,10 @@
       },
       {
         "type_code": 655,
-        "type_name": "효과655",
+        "type_name": "(아이템 배셔의 몽둥이 장착시) 강타 확률",
         "value": 0.15,
-        "value_display": "0.15",
-        "description": "효과655 0.15"
+        "value_display": "15%",
+        "description": "(아이템 배셔의 몽둥이 장착시) 강타 확률 15%"
       }
     ],
     "randomValue": 0
@@ -6797,10 +6797,10 @@
       },
       {
         "type_code": 661,
-        "type_name": "효과661",
+        "type_name": "(아이템 자이다의 헬버드 장착시) 추가 데미지 +총 각성수 X",
         "value": 100.0,
         "value_display": "100",
-        "description": "효과661 100"
+        "description": "(아이템 자이다의 헬버드 장착시) 추가 데미지 +총 각성수 X 100"
       }
     ],
     "randomValue": 0
@@ -8025,7 +8025,7 @@
         "type_name": "공격시% 확률로 동료들의 다음 트리니티 공격에배 데미지 추가",
         "value": 0.07,
         "value_display": "7",
-        "description": "공격시 7% 확률로 동료들의 다음 트리니티 공격에 배 데미지 추가"
+        "description": "효과289 0.07"
       },
       {
         "type_code": 354,
@@ -8078,10 +8078,10 @@
       },
       {
         "type_code": 763,
-        "type_name": "효과763",
+        "type_name": "(아이템 망각의 책 장착시) 모든 용병의 강타 확률",
         "value": 0.015,
-        "value_display": "0.015",
-        "description": "효과763 0.015"
+        "value_display": "1.5%",
+        "description": "(아이템 망각의 책 장착시) 모든 용병의 강타 확률 1.5%"
       }
     ],
     "randomValue": 0
@@ -8162,10 +8162,10 @@
       },
       {
         "type_code": 774,
-        "type_name": "효과774",
+        "type_name": "(아이템 이모텝의 목걸이 장착시) 모든 용병의 봉인 무효화 확률",
         "value": 0.04,
-        "value_display": "0.04",
-        "description": "효과774 0.04"
+        "value_display": "4%",
+        "description": "(아이템 이모텝의 목걸이 장착시) 모든 용병의 봉인 무효화 확률 4%"
       }
     ],
     "randomValue": 0

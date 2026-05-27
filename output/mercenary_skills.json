@@ -411,10 +411,10 @@
       },
       {
         "type_code": 643,
-        "type_name": "효과643",
+        "type_name": "(아이템 미렌의 도끼 장착시) 치명타 확률",
         "value": 0.16,
-        "value_display": "0.16",
-        "description": "효과643 0.16"
+        "value_display": "16%",
+        "description": "(아이템 미렌의 도끼 장착시) 치명타 확률 16%"
       }
     ],
     "randomValue": 0
@@ -2007,10 +2007,10 @@
       },
       {
         "type_code": 643,
-        "type_name": "효과643",
+        "type_name": "(아이템 미렌의 도끼 장착시) 치명타 확률",
         "value": 0.16,
-        "value_display": "0.16",
-        "description": "효과643 0.16"
+        "value_display": "16%",
+        "description": "(아이템 미렌의 도끼 장착시) 치명타 확률 16%"
       }
     ],
     "randomValue": 0
@@ -9668,7 +9668,7 @@
         "type_name": "공격시% 확률로 동료들의 다음 공격을초 앞당김",
         "value": 0.06,
         "value_display": "6",
-        "description": "공격시 6% 확률로 동료들의 다음 공격을 초 앞당김"
+        "description": "효과80 0.06"
       },
       {
         "type_code": 669,
@@ -9703,7 +9703,7 @@
         "type_name": "공격시% 확률로 동료들의 다음 공격을초 앞당김",
         "value": 0.065,
         "value_display": "6.5",
-        "description": "공격시 6.5% 확률로 동료들의 다음 공격을 초 앞당김"
+        "description": "효과80 0.065"
       },
       {
         "type_code": 81,
@@ -9885,7 +9885,7 @@
         "type_name": "공격시% 확률로 동료들의 다음 공격을초 앞당김",
         "value": 0.066,
         "value_display": "6.6",
-        "description": "공격시 6.6% 확률로 동료들의 다음 공격을 초 앞당김"
+        "description": "효과80 0.066"
       }
     ],
     "randomValue": 0
@@ -9990,7 +9990,7 @@
         "type_name": "참전한 카오스 용병 한명 당 모든 카오스 용병 강타 배수 +(신격화된 카오스 용병은 +)",
         "value": 0.05,
         "value_display": "0.05",
-        "description": "참전한 카오스 용병 한명 당 모든 카오스 용병 강타 배수 +0.05(신격화된 카오스 용병은 +)"
+        "description": "효과248 0.05"
       }
     ],
     "randomValue": 0
@@ -10060,7 +10060,7 @@
         "type_name": "공격시% 확률로 동료들의 다음 마법 공격에배 데미지 추가",
         "value": 0.08,
         "value_display": "8",
-        "description": "공격시 8% 확률로 동료들의 다음 마법 공격에 배 데미지 추가"
+        "description": "효과189 0.08"
       },
       {
         "type_code": 23,
@@ -10144,7 +10144,7 @@
         "type_name": "공격시% 확률로 동료들의 다음 공격을초 앞당김",
         "value": 0.06,
         "value_display": "6",
-        "description": "공격시 6% 확률로 동료들의 다음 공격을 초 앞당김"
+        "description": "효과80 0.06"
       }
     ],
     "randomValue": 0
@@ -10214,7 +10214,7 @@
         "type_name": "공격시% 확률로 동료들의 다음 혼합 공격에배 데미지 추가",
         "value": 0.07,
         "value_display": "7",
-        "description": "공격시 7% 확률로 동료들의 다음 혼합 공격에 배 데미지 추가"
+        "description": "효과190 0.07"
       }
     ],
     "randomValue": 0
@@ -11439,7 +11439,7 @@
         "type_name": "공격시% 확률로 적에게 저주를 걸어초 동안배의 추가 데미지 받게 합니다.",
         "value": 0.0666,
         "value_display": "6.66",
-        "description": "공격시 6.66% 확률로 적에게 저주를 걸어 초 동안 {2}배의 추가 데미지 받게 합니다."
+        "description": "효과133 0.0666"
       }
     ],
     "randomValue": 0
@@ -11992,7 +11992,7 @@
         "type_name": "공격시% 확률로 동료들의 다음 물리 공격에배 데미지 추가",
         "value": 0.07,
         "value_display": "7",
-        "description": "공격시 7% 확률로 동료들의 다음 물리 공격에 배 데미지 추가"
+        "description": "효과188 0.07"
       }
     ],
     "randomValue": 0
@@ -14484,7 +14484,7 @@
         "type_name": "공격시% 확률로 동료들의 다음 카오스 공격에배 데미지 추가",
         "value": 0.07,
         "value_display": "7",
-        "description": "공격시 7% 확률로 동료들의 다음 카오스 공격에 배 데미지 추가"
+        "description": "효과243 0.07"
       }
     ],
     "randomValue": 0
@@ -14603,7 +14603,7 @@
         "type_name": "매번째 공격 시배 데미지",
         "value": 5.0,
         "value_display": "500%",
-        "description": "매 500%번째 공격 시 배 데미지"
+        "description": "효과249 5"
       }
     ],
     "randomValue": 0
@@ -14981,14 +14981,14 @@
         "type_name": "모든 용병의 클릭 데미지 +% -환생횟수 X%",
         "value": 6.0,
         "value_display": "600",
-        "description": "모든 용병의 클릭 데미지 +600% -환생횟수 X %"
+        "description": "효과262 6"
       },
       {
         "type_code": 263,
         "type_name": "모든 용병의 데미지 +% -환생횟수 X%",
         "value": 3.0,
         "value_display": "300",
-        "description": "모든 용병의 데미지 +300% -환생횟수 X %"
+        "description": "효과263 3"
       }
     ],
     "randomValue": 0
@@ -15260,8 +15260,8 @@
         "type_code": 273,
         "type_name": "공격시% 확률로배 데미지로 공격하고 대상을초 동안 공격 불능 상태로 만듭니다.",
         "value": 4.5,
-        "value_display": "450",
-        "description": "공격시 450% 확률로 배 데미지로 공격하고 대상을 {2}초 동안 공격 불능 상태로 만듭니다."
+        "value_display": "4.5",
+        "description": "효과273 4.5"
       }
     ],
     "randomValue": 0
@@ -15365,8 +15365,8 @@
         "type_code": 276,
         "type_name": "티어도르에게배 데미지",
         "value": 2.0,
-        "value_display": "200%",
-        "description": "티어도르에게 200%배 데미지"
+        "value_display": "2",
+        "description": "티어도르에게 2배 데미지"
       },
       {
         "type_code": 250,
@@ -15674,7 +15674,7 @@
         "type_name": "공격시% 확률로 동료들의 다음 트리니티 공격에배 데미지 추가",
         "value": 0.08,
         "value_display": "8",
-        "description": "공격시 8% 확률로 동료들의 다음 트리니티 공격에 배 데미지 추가"
+        "description": "효과289 0.08"
       },
       {
         "type_code": 702,
@@ -16094,7 +16094,7 @@
         "type_name": "공격시% 확률로 적에게 저주를 걸어초 동안배의 추가 데미지 받게 합니다.",
         "value": 0.04,
         "value_display": "4",
-        "description": "공격시 4% 확률로 적에게 저주를 걸어 초 동안 {2}배의 추가 데미지 받게 합니다."
+        "description": "효과133 0.04"
       }
     ],
     "randomValue": 0
@@ -18802,8 +18802,8 @@
         "type_code": 410,
         "type_name": "% 확률로 데미지가배로 증폭",
         "value": 1.5,
-        "value_display": "150",
-        "description": "150% 확률로 데미지가 배로 증폭"
+        "value_display": "1.5",
+        "description": "효과410 1.5"
       },
       {
         "type_code": 414,
@@ -19930,7 +19930,7 @@
         "type_name": "공격시% 확률로 적에게 저주를 걸어초 동안배의 추가 데미지 받게 합니다.",
         "value": 0.04,
         "value_display": "4",
-        "description": "공격시 4% 확률로 적에게 저주를 걸어 초 동안 {2}배의 추가 데미지 받게 합니다."
+        "description": "효과133 0.04"
       }
     ],
     "randomValue": 0
@@ -21236,10 +21236,10 @@
       },
       {
         "type_code": 542,
-        "type_name": "효과542",
+        "type_name": "볼보레타 세트 보유시 모든 용병의 행운 확률 1.5%",
         "value": 1.5,
-        "value_display": "1.5",
-        "description": "효과542 1.5"
+        "value_display": "",
+        "description": "볼보레타 세트 보유시 모든 용병의 행운 확률 1.5%"
       }
     ],
     "randomValue": 0
@@ -21393,7 +21393,7 @@
         "type_name": "공격시% 확률로 동료들의 다음 공격을초 앞당김",
         "value": 0.06,
         "value_display": "6",
-        "description": "공격시 6% 확률로 동료들의 다음 공격을 초 앞당김"
+        "description": "효과80 0.06"
       },
       {
         "type_code": 500,
@@ -21817,10 +21817,10 @@
       },
       {
         "type_code": 528,
-        "type_name": "효과528",
+        "type_name": "6%의 확률로 데미지가배 증폭",
         "value": 6.0,
         "value_display": "6",
-        "description": "효과528 6"
+        "description": "6%의 확률로 데미지가 6배 증폭"
       }
     ],
     "randomValue": 0
@@ -21943,10 +21943,10 @@
       },
       {
         "type_code": 529,
-        "type_name": "효과529",
+        "type_name": "(아이템 스태프(문샤인) 장착시) 클릭 데미지 +총 각성수 X%",
         "value": 0.003,
-        "value_display": "0.003",
-        "description": "효과529 0.003"
+        "value_display": "0.3",
+        "description": "(아이템 스태프(문샤인) 장착시) 클릭 데미지 +총 각성수 X 0.3%"
       }
     ],
     "randomValue": 0
@@ -21978,17 +21978,17 @@
       },
       {
         "type_code": 530,
-        "type_name": "효과530",
+        "type_name": "(아이템 제사장의 단검 장착시) 추가 클릭%",
         "value": 1.0,
-        "value_display": "1",
-        "description": "효과530 1"
+        "value_display": "100",
+        "description": "(아이템 제사장의 단검 장착시) 추가 클릭 100%"
       },
       {
         "type_code": 531,
-        "type_name": "효과531",
+        "type_name": "(아이템 영혼의 등불 장착시) 추가 클릭 데미지%",
         "value": 0.5,
-        "value_display": "0.5",
-        "description": "효과531 0.5"
+        "value_display": "50",
+        "description": "(아이템 영혼의 등불 장착시) 추가 클릭 데미지 50%"
       }
     ],
     "randomValue": 0
@@ -22069,10 +22069,10 @@
       },
       {
         "type_code": 532,
-        "type_name": "효과532",
+        "type_name": "(아이템 바라봄의 지팡이 장착시) 추가 클릭 데미지 130%",
         "value": 1.2,
-        "value_display": "1.2",
-        "description": "효과532 1.2"
+        "value_display": "",
+        "description": "(아이템 바라봄의 지팡이 장착시) 추가 클릭 데미지 130%"
       }
     ],
     "randomValue": 0
@@ -22111,10 +22111,10 @@
       },
       {
         "type_code": 533,
-        "type_name": "효과533",
+        "type_name": "15% 확률로 데미지가배 증폭",
         "value": 2.8,
         "value_display": "2.8",
-        "description": "효과533 2.8"
+        "description": "15% 확률로 데미지가 2.8배 증폭"
       }
     ],
     "randomValue": 0
@@ -22153,10 +22153,10 @@
       },
       {
         "type_code": 534,
-        "type_name": "효과534",
+        "type_name": "(아티팩트 아이 오브 바라봄 장착시) 행운 확률",
         "value": 0.1,
-        "value_display": "0.1",
-        "description": "효과534 0.1"
+        "value_display": "10%",
+        "description": "(아티팩트 아이 오브 바라봄 장착시) 행운 확률 10%"
       }
     ],
     "randomValue": 0
@@ -22400,8 +22400,8 @@
         "type_code": 547,
         "type_name": "% 확률로 클릭 데미지가배로 증폭",
         "value": 3.0,
-        "value_display": "300",
-        "description": "300% 확률로 클릭 데미지가 배로 증폭"
+        "value_display": "3",
+        "description": "효과547 3"
       }
     ],
     "randomValue": 0
@@ -22426,17 +22426,17 @@
     "effects_resolved": [
       {
         "type_code": 548,
-        "type_name": "효과548",
+        "type_name": "모든 용병의 클릭 데미지%-환생 횟수 X 0.6%",
         "value": 6.0,
-        "value_display": "6",
-        "description": "효과548 6"
+        "value_display": "600",
+        "description": "모든 용병의 클릭 데미지 600%-환생 횟수 X 0.6%"
       },
       {
         "type_code": 549,
-        "type_name": "효과549",
+        "type_name": "모든 용병의 데미지%-환생 횟수 X 0.6%",
         "value": 6.0,
-        "value_display": "6",
-        "description": "효과549 6"
+        "value_display": "600",
+        "description": "모든 용병의 데미지 600%-환생 횟수 X 0.6%"
       }
     ],
     "randomValue": 0
@@ -22587,10 +22587,10 @@
       },
       {
         "type_code": 550,
-        "type_name": "효과550",
+        "type_name": "아티팩트 저거너트 세트 보유시 클릭 크리티컬 확률 3%",
         "value": 5.0,
-        "value_display": "5",
-        "description": "효과550 5"
+        "value_display": "",
+        "description": "아티팩트 저거너트 세트 보유시 클릭 크리티컬 확률 3%"
       }
     ],
     "randomValue": 0
@@ -22797,10 +22797,10 @@
       },
       {
         "type_code": 558,
-        "type_name": "효과558",
+        "type_name": "10% 확률로 데미지가배 증폭",
         "value": 3.0,
         "value_display": "3",
-        "description": "효과558 3"
+        "description": "10% 확률로 데미지가 3배 증폭"
       }
     ],
     "randomValue": 0
@@ -23380,8 +23380,8 @@
         "type_code": 590,
         "type_name": "% 확률로 연타 데미지가배로 증폭",
         "value": 2.0,
-        "value_display": "200",
-        "description": "200% 확률로 연타 데미지가 배로 증폭"
+        "value_display": "2",
+        "description": "효과590 2"
       }
     ],
     "randomValue": 0
@@ -23667,8 +23667,8 @@
         "type_code": 592,
         "type_name": "% 확률로 치명타 데미지가배로 증폭",
         "value": 6.0,
-        "value_display": "600",
-        "description": "600% 확률로 치명타 데미지가 배로 증폭"
+        "value_display": "6",
+        "description": "효과592 6"
       }
     ],
     "randomValue": 0
@@ -23821,8 +23821,8 @@
         "type_code": 593,
         "type_name": "% 확률로 행운 데미지가배로 증폭",
         "value": 5.0,
-        "value_display": "500",
-        "description": "500% 확률로 행운 데미지가 배로 증폭"
+        "value_display": "5",
+        "description": "효과593 5"
       }
     ],
     "randomValue": 0
@@ -24169,10 +24169,10 @@
       },
       {
         "type_code": 536,
-        "type_name": "효과536",
+        "type_name": "15% 확률로 데미지가배 증폭",
         "value": 3.0,
         "value_display": "3",
-        "description": "효과536 3"
+        "description": "15% 확률로 데미지가 3배 증폭"
       }
     ],
     "randomValue": 0
@@ -24561,10 +24561,10 @@
       },
       {
         "type_code": 603,
-        "type_name": "효과603",
+        "type_name": "4%의 확률로 데미지가배 증폭",
         "value": 25.0,
         "value_display": "25",
-        "description": "효과603 25"
+        "description": "4%의 확률로 데미지가 25배 증폭"
       }
     ],
     "randomValue": 0
@@ -24946,10 +24946,10 @@
     "effects_resolved": [
       {
         "type_code": 618,
-        "type_name": "효과618",
+        "type_name": "10%의 확률로 데미지가배 증폭",
         "value": 3.6,
         "value_display": "3.6",
-        "description": "효과618 3.6"
+        "description": "10%의 확률로 데미지가 3.6배 증폭"
       },
       {
         "type_code": 611,
@@ -25592,8 +25592,8 @@
         "type_code": 638,
         "type_name": "절대명중 발동 시 데미지가배로 증폭",
         "value": 2.0,
-        "value_display": "200%",
-        "description": "절대명중 발동 시 데미지가 200%배로 증폭"
+        "value_display": "2",
+        "description": "절대명중 발동 시 데미지가 2배로 증폭"
       },
       {
         "type_code": 1032,
@@ -25884,10 +25884,10 @@
       },
       {
         "type_code": 650,
-        "type_name": "효과650",
+        "type_name": "20% 확률로 연타 데미지가배로 증폭",
         "value": 2.0,
         "value_display": "2",
-        "description": "효과650 2"
+        "description": "20% 확률로 연타 데미지가 2배로 증폭"
       }
     ],
     "randomValue": 0
@@ -26283,10 +26283,10 @@
       },
       {
         "type_code": 654,
-        "type_name": "효과654",
+        "type_name": "(아이템 아이도피아의 장미 장착시) 모든 용병의 행운 확률",
         "value": 0.02,
-        "value_display": "0.02",
-        "description": "효과654 0.02"
+        "value_display": "2%",
+        "description": "(아이템 아이도피아의 장미 장착시) 모든 용병의 행운 확률 2%"
       }
     ],
     "randomValue": 0
@@ -26528,10 +26528,10 @@
       },
       {
         "type_code": 516,
-        "type_name": "효과516",
+        "type_name": "25% 확률로 데미지가배 증폭",
         "value": 1.5,
         "value_display": "1.5",
-        "description": "효과516 1.5"
+        "description": "25% 확률로 데미지가 1.5배 증폭"
       }
     ],
     "randomValue": 0
@@ -26696,10 +26696,10 @@
       },
       {
         "type_code": 662,
-        "type_name": "효과662",
+        "type_name": "(아이템 칼라마르의 다리 장착시) 모든 용병의 추가 데미지 +총 각성수 X",
         "value": 8.0,
         "value_display": "8",
-        "description": "효과662 8"
+        "description": "(아이템 칼라마르의 다리 장착시) 모든 용병의 추가 데미지 +총 각성수 X 8"
       }
     ],
     "randomValue": 0
@@ -27132,8 +27132,8 @@
         "type_code": 410,
         "type_name": "% 확률로 데미지가배로 증폭",
         "value": 1.6,
-        "value_display": "160",
-        "description": "160% 확률로 데미지가 배로 증폭"
+        "value_display": "1.6",
+        "description": "효과410 1.6"
       }
     ],
     "randomValue": 0
@@ -27760,10 +27760,10 @@
       },
       {
         "type_code": 663,
-        "type_name": "효과663",
+        "type_name": "(아이템 오컴의 면도날 장착시) 선제 공격 확률",
         "value": 0.088,
-        "value_display": "0.088",
-        "description": "효과663 0.088"
+        "value_display": "8.8%",
+        "description": "(아이템 오컴의 면도날 장착시) 선제 공격 확률 8.8%"
       }
     ],
     "randomValue": 0
@@ -28243,17 +28243,17 @@
       },
       {
         "type_code": 676,
-        "type_name": "효과676",
+        "type_name": "(아이템 풍요의 뿔피리 장착시) 추가 클릭 데미지",
         "value": 0.7,
-        "value_display": "0.7",
-        "description": "효과676 0.7"
+        "value_display": "70%",
+        "description": "(아이템 풍요의 뿔피리 장착시) 추가 클릭 데미지 70%"
       },
       {
         "type_code": 664,
-        "type_name": "효과664",
+        "type_name": "(아이템 풍요의 뿔피리 장착시) 모든 용병의 추가 클릭 데미지",
         "value": 0.07,
-        "value_display": "0.07",
-        "description": "효과664 0.07"
+        "value_display": "7%",
+        "description": "(아이템 풍요의 뿔피리 장착시) 모든 용병의 추가 클릭 데미지 7%"
       }
     ],
     "randomValue": 0
@@ -30294,10 +30294,10 @@
       },
       {
         "type_code": 705,
-        "type_name": "효과705",
+        "type_name": "20%의 확률로 클릭 데미지가배 증폭",
         "value": 1.6,
         "value_display": "1.6",
-        "description": "효과705 1.6"
+        "description": "20%의 확률로 클릭 데미지가 1.6배 증폭"
       }
     ],
     "randomValue": 0
@@ -30714,10 +30714,10 @@
       },
       {
         "type_code": 720,
-        "type_name": "효과720",
+        "type_name": "(아이템 지배자의 망또 장착시) 행운 배수 증폭",
         "value": 0.12,
-        "value_display": "0.12",
-        "description": "효과720 0.12"
+        "value_display": "12%",
+        "description": "(아이템 지배자의 망또 장착시) 행운 배수 증폭 12%"
       }
     ],
     "randomValue": 0
@@ -32397,7 +32397,7 @@
         "type_name": "모든 용병의 강타 확률 +% -환생횟수 X%",
         "value": 0.04,
         "value_display": "4",
-        "description": "모든 용병의 강타 확률 +4% -환생횟수 X %"
+        "description": "효과756 0.04"
       }
     ],
     "randomValue": 0
@@ -32464,17 +32464,17 @@
       },
       {
         "type_code": 757,
-        "type_name": "효과757",
+        "type_name": "(아이템 귀족의 옷 장착시) 모든 용병의 강타 확률",
         "value": 0.02,
-        "value_display": "0.02",
-        "description": "효과757 0.02"
+        "value_display": "2%",
+        "description": "(아이템 귀족의 옷 장착시) 모든 용병의 강타 확률 2%"
       },
       {
         "type_code": 758,
-        "type_name": "효과758",
+        "type_name": "(아이템 황족의 흉갑 장착시) 모든 용병의 행운 확률",
         "value": 0.02,
-        "value_display": "0.02",
-        "description": "효과758 0.02"
+        "value_display": "2%",
+        "description": "(아이템 황족의 흉갑 장착시) 모든 용병의 행운 확률 2%"
       }
     ],
     "randomValue": 0
@@ -32513,10 +32513,10 @@
       },
       {
         "type_code": 759,
-        "type_name": "효과759",
+        "type_name": "(아이템 라라엘의 기억 장착시) 모든 용병의 행운 확률",
         "value": 0.016,
-        "value_display": "0.016",
-        "description": "효과759 0.016"
+        "value_display": "1.6%",
+        "description": "(아이템 라라엘의 기억 장착시) 모든 용병의 행운 확률 1.6%"
       }
     ],
     "randomValue": 0
@@ -32555,10 +32555,10 @@
       },
       {
         "type_code": 760,
-        "type_name": "효과760",
+        "type_name": "(아이템 크사르팍스의 하사품 장착시) 모든 용병의 강타 확률",
         "value": 0.03,
-        "value_display": "0.03",
-        "description": "효과760 0.03"
+        "value_display": "3%",
+        "description": "(아이템 크사르팍스의 하사품 장착시) 모든 용병의 강타 확률 3%"
       }
     ],
     "randomValue": 0
@@ -32597,10 +32597,10 @@
       },
       {
         "type_code": 761,
-        "type_name": "효과761",
+        "type_name": "(아이템 오렌지 반쪽 장착시) 모든 용병의 행운 확률",
         "value": 0.02,
-        "value_display": "0.02",
-        "description": "효과761 0.02"
+        "value_display": "2%",
+        "description": "(아이템 오렌지 반쪽 장착시) 모든 용병의 행운 확률 2%"
       }
     ],
     "randomValue": 0
@@ -32639,10 +32639,10 @@
       },
       {
         "type_code": 762,
-        "type_name": "효과762",
+        "type_name": "(아이템 프리랜서의 브레이서 장착시) 모든 용병의 강타 확률",
         "value": 0.02,
-        "value_display": "0.02",
-        "description": "효과762 0.02"
+        "value_display": "2%",
+        "description": "(아이템 프리랜서의 브레이서 장착시) 모든 용병의 강타 확률 2%"
       }
     ],
     "randomValue": 0
@@ -32681,10 +32681,10 @@
       },
       {
         "type_code": 764,
-        "type_name": "효과764",
+        "type_name": "(아이템 미스릴 해머 장착시) 모든 용병의 행운 확률",
         "value": 0.03,
-        "value_display": "0.03",
-        "description": "효과764 0.03"
+        "value_display": "3%",
+        "description": "(아이템 미스릴 해머 장착시) 모든 용병의 행운 확률 3%"
       }
     ],
     "randomValue": 0
@@ -32723,10 +32723,10 @@
       },
       {
         "type_code": 765,
-        "type_name": "효과765",
+        "type_name": "(아이템 버서킹 해머 장착시) 모든 용병의 강타 확률",
         "value": 0.03,
-        "value_display": "0.03",
-        "description": "효과765 0.03"
+        "value_display": "3%",
+        "description": "(아이템 버서킹 해머 장착시) 모든 용병의 강타 확률 3%"
       }
     ],
     "randomValue": 0
@@ -32765,10 +32765,10 @@
       },
       {
         "type_code": 766,
-        "type_name": "효과766",
+        "type_name": "(아이템 바라봄의 반지 장착시) 모든 용병의 행운 확률",
         "value": 0.02,
-        "value_display": "0.02",
-        "description": "효과766 0.02"
+        "value_display": "2%",
+        "description": "(아이템 바라봄의 반지 장착시) 모든 용병의 행운 확률 2%"
       }
     ],
     "randomValue": 0
@@ -32807,10 +32807,10 @@
       },
       {
         "type_code": 767,
-        "type_name": "효과767",
+        "type_name": "(아이템 루비 귀걸이 장착시) 모든 용병의 행운 확률",
         "value": 0.02,
-        "value_display": "0.02",
-        "description": "효과767 0.02"
+        "value_display": "2%",
+        "description": "(아이템 루비 귀걸이 장착시) 모든 용병의 행운 확률 2%"
       }
     ],
     "randomValue": 0
@@ -32849,10 +32849,10 @@
       },
       {
         "type_code": 768,
-        "type_name": "효과768",
+        "type_name": "(아이템 저주받은 왕관 [그리프] 장착시) 모든 용병의 행운 확률",
         "value": 0.02,
-        "value_display": "0.02",
-        "description": "효과768 0.02"
+        "value_display": "2%",
+        "description": "(아이템 저주받은 왕관 [그리프] 장착시) 모든 용병의 행운 확률 2%"
       }
     ],
     "randomValue": 0
@@ -32961,10 +32961,10 @@
       },
       {
         "type_code": 769,
-        "type_name": "효과769",
+        "type_name": "(아이템 용기의 날개 장착시) 모든 용병의 봉인 무효화 확률",
         "value": 0.03,
-        "value_display": "0.03",
-        "description": "효과769 0.03"
+        "value_display": "3%",
+        "description": "(아이템 용기의 날개 장착시) 모든 용병의 봉인 무효화 확률 3%"
       }
     ],
     "randomValue": 0
@@ -33080,10 +33080,10 @@
       },
       {
         "type_code": 777,
-        "type_name": "효과777",
+        "type_name": "(아이템 플랫 어스 스톤 장착시) 행운 배수 증폭",
         "value": 0.2,
-        "value_display": "0.2",
-        "description": "효과777 0.2"
+        "value_display": "20%",
+        "description": "(아이템 플랫 어스 스톤 장착시) 행운 배수 증폭 20%"
       }
     ],
     "randomValue": 0
@@ -33241,10 +33241,10 @@
       },
       {
         "type_code": 778,
-        "type_name": "효과778",
+        "type_name": "(아이템 레인카네이션 펜던트 장착시) 아이템 효과 증폭",
         "value": 0.16,
-        "value_display": "0.16",
-        "description": "효과778 0.16"
+        "value_display": "16%",
+        "description": "(아이템 레인카네이션 펜던트 장착시) 아이템 효과 증폭 16%"
       }
     ],
     "randomValue": 0
@@ -33402,10 +33402,10 @@
       },
       {
         "type_code": 782,
-        "type_name": "효과782",
+        "type_name": "(아이템 금테양의 안대 장착시) 치명타 확률",
         "value": 0.24,
-        "value_display": "0.24",
-        "description": "효과782 0.24"
+        "value_display": "24%",
+        "description": "(아이템 금테양의 안대 장착시) 치명타 확률 24%"
       }
     ],
     "randomValue": 0

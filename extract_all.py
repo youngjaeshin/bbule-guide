@@ -550,6 +550,50 @@ def infer_skill_effect_format(template: str, value: float) -> str:
     return 'raw'
 
 
+SKILL_EFFECT_FORMAT_OVERRIDES = {
+    273: 'raw',
+    276: 'raw',
+    409: 'raw',
+    410: 'raw',
+    516: 'raw',
+    528: 'raw',
+    530: 'pct',
+    533: 'raw',
+    536: 'raw',
+    541: 'raw',
+    543: 'raw',
+    547: 'raw',
+    558: 'raw',
+    590: 'raw',
+    592: 'raw',
+    593: 'raw',
+    603: 'raw',
+    604: 'raw',
+    618: 'raw',
+    638: 'raw',
+    650: 'raw',
+    661: 'int',
+    662: 'int',
+    705: 'raw',
+}
+
+
+SKILL_EFFECT_STATIC_DESCRIPTIONS = {
+    532: {
+        'description': '(아이템 바라봄의 지팡이 장착시) 추가 클릭 데미지 130%',
+        'expected_value': 1.2,
+    },
+    542: {
+        'description': '볼보레타 세트 보유시 모든 용병의 행운 확률 1.5%',
+        'expected_value': 1.5,
+    },
+    550: {
+        'description': '아티팩트 저거너트 세트 보유시 클릭 크리티컬 확률 3%',
+        'expected_value': 5.0,
+    },
+}
+
+
 def format_skill_template_value(template: str, value: float, fmt: str) -> str:
     """Format a skill value for insertion into a localized sec template."""
     text = format_effect_value(value, fmt)
@@ -570,12 +614,32 @@ def resolve_skill_effects(types: list, effects: list, key_to_id: dict, ko_map: d
     for t, e in zip(types, effects):
         if t == 0 and e == 0.0:
             continue
-        template = (loc_text(key_to_id, ko_map, f'sec{t}') or f'효과{t}').replace('\n', ' ').replace('\r', '')
-        efmt = infer_skill_effect_format(template, e)
+        if t in SKILL_EFFECT_STATIC_DESCRIPTIONS:
+            override = SKILL_EFFECT_STATIC_DESCRIPTIONS[t]
+            expected_value = override['expected_value']
+            if abs(e - expected_value) > 0.000001:
+                raise ValueError(
+                    f"Manual skill effect override for sec{t} expected "
+                    f"{expected_value}, got {e}. Re-verify the mapping."
+                )
+            desc = override['description']
+            result.append({
+                'type_code': t,
+                'type_name': desc,
+                'value': round(e, 6),
+                'value_display': '',
+                'description': desc,
+            })
+            continue
+        sec_key = f'sec{t}'
+        template = (loc_text(key_to_id, ko_map, sec_key) or SEC_KOREAN_MAP.get(sec_key) or f'효과{t}').replace('\n', ' ').replace('\r', '')
+        efmt = SKILL_EFFECT_FORMAT_OVERRIDES.get(t) or infer_skill_effect_format(template, e)
         val_str = format_skill_template_value(template, e, efmt)
         # Handle {0}/{1} template placeholders
         if '{0}' in template:
-            desc = template.replace('{0}', val_str).replace('{1}', '').strip()
+            desc = template.replace('{0}', val_str).strip()
+            if re.search(r'\{[1-9]\}', desc):
+                desc = f"효과{t} {format_effect_value(e, 'raw')}"
             clean_name = re.sub(r'\s*\{[0-9]\}', '', template).strip()
         else:
             desc = f"{template} {val_str}".strip() if val_str else template

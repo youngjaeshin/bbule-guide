@@ -9,13 +9,25 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
-from build_mercenary_data import build_skill_fallbacks, normalize_effect_text  # noqa: E402
+from build_mercenary_data import (  # noqa: E402
+    build_skill_fallbacks,
+    normalize_effect_text,
+)
+
+
+MALFORMED_EFFECT_PATTERNS = (
+    ("unresolved placeholder", re.compile(r"\{[1-9]\}")),
+    ("missing damage multiplier", re.compile(r"(?:데미지가|공격에)\s*배")),
+    ("missing attack multiplier", re.compile(r"확률로\s*배\s*데미지")),
+    ("percent-suffixed multiplier", re.compile(r"[+-]?\d+(?:\.\d+)?%배")),
+)
 
 
 def load_json(path: Path):
@@ -37,6 +49,7 @@ def main() -> int:
     same_name = []
     masked = []
     missing_candidate = []
+    malformed = []
 
     for creature in creatures:
         web = web_by_id.get(creature["hero_id"])
@@ -55,20 +68,34 @@ def main() -> int:
                 continue
             candidate = normalize_effect_text(" / ".join(effects))
             current = normalize_effect_text(old_skill.get("효과", ""))
+            hits = [
+                label
+                for label, pattern in MALFORMED_EFFECT_PATTERNS
+                if pattern.search(current)
+            ]
+            if hits:
+                malformed.append((creature, raw_skill, current, hits))
             if candidate != current:
                 masked.append((creature, raw_skill, current, candidate))
 
     print(f"Same-name skills compared against APK candidates: {len(same_name)}")
     print(f"Same-name skills with no APK candidate effect text: {len(missing_candidate)}")
     print(f"Same-name skills where APK candidate differs from current web text: {len(masked)}")
+    print(f"Malformed effect texts: {len(malformed)}")
     if masked:
         print("\nSamples:")
         for creature, raw_skill, current, candidate in masked[: args.limit]:
             print(f"- {creature['grade']} {creature['name']} slot {raw_skill['slot']} {raw_skill['name']} id={raw_skill['id']}")
             print(f"  current:   {current}")
             print(f"  candidate: {candidate}")
+    if malformed:
+        print("\nMalformed samples:")
+        for creature, raw_skill, current, hits in malformed[: args.limit]:
+            print(f"- {creature['grade']} {creature['name']} slot {raw_skill['slot']} {raw_skill['name']} id={raw_skill['id']}")
+            print(f"  reason:    {', '.join(hits)}")
+            print(f"  current:   {current}")
 
-    if args.strict and masked:
+    if args.strict and (masked or malformed):
         return 1
     return 0
 
