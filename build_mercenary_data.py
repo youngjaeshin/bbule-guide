@@ -22,6 +22,7 @@ INDEX_HTML = BASE / "web" / "index.html"
 MERC_IMG_DIR = BASE / "web" / "images" / "mercenary"
 
 PASSIVE_OVERRIDES = {
+    391: "적들의 회피 확률 감소 +0.5%",
     538: "모든 용병의 강타 확률 +1%",
     539: "모든 용병의 봉인 무효화 확률 +2.4%, 적들의 무력화 효과 감소 3.6%",
     540: "추가 데미지 +1000",
