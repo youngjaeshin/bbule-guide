@@ -39,12 +39,24 @@ python3 scripts/update_game_data.py \
 ## Manual Review Checklist
 
 - Check `python3 verify_web_data_sync.py` warnings. Missing portraits may be acceptable; unresolved `코드 N` entries need review.
+- `scripts/update_game_data.py` runs `python3 scripts/audit_mercenary_skill_refresh.py` during verification. Run it manually with `--strict` only after mercenary skill mappings are calibrated.
 - If artifact codes are unknown, update `artifact_code_mapping.json` first. Use `artifact_overrides.json` for per-artifact slot fixes.
 - Use `premium_effects.json` for verified paid artifact effects.
 - Keep plain multipliers as raw numbers: `강타 배수 +0.4`, `행운 배수 +0.8`, `소울 클릭 배수 +1.0`.
 - Use percent only for probability, damage percent, debuffs, and explicit `증폭` effects.
 - Do not divide B/C/D artifact values by 2. v1863 values are already display scale.
 - For artifact code overlaps, prefer artifact-specific meanings when listed in `artifact_code_mapping.json`.
+
+## Mercenary Skill Caveat
+
+Current `build_mercenary_data.py` preserves existing web skill text when a mercenary skill has the same slot/name. That avoids known bad APK candidate effects from the current resolver, but it also means same-name skill balance changes can be missed.
+
+Do not treat mercenary skill effects as fully APK-refreshed until this is fixed. The correct long-term direction is:
+
+1. Calibrate the mercenary skill effect-code mapping separately from equipment/artifacts.
+2. Switch same-name skills to APK-extracted effect text by default.
+3. Keep only explicit, named manual overrides for extraction gaps.
+4. Use `scripts/audit_mercenary_skill_refresh.py` to list same-name skills where the APK candidate differs from current web text. After calibration, run `python3 scripts/update_game_data.py --strict-mercenary-skills ...` so this cannot regress silently.
 
 ## Files To Commit
 

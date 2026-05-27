@@ -38,6 +38,7 @@ PY_COMPILE_TARGETS = [
     "verify_web_data_sync.py",
     "bgdb_utils.py",
     "premium_effects.py",
+    "scripts/audit_mercenary_skill_refresh.py",
     "scripts/update_game_data.py",
 ]
 
@@ -47,6 +48,7 @@ COMMIT_PATHS = [
     "CLAUDE.md",
     "README.md",
     "docs/apk-update-playbook.md",
+    "scripts/audit_mercenary_skill_refresh.py",
     "scripts/update_game_data.py",
     "additional_strings.json",
     "artifact_code_mapping.json",
@@ -137,11 +139,15 @@ def sync_legacy_files() -> None:
         print(f"Synced {src.relative_to(ROOT)} -> {dst.relative_to(ROOT)}", flush=True)
 
 
-def verify(strict_codes: bool) -> None:
+def verify(strict_codes: bool, strict_mercenary_skills: bool) -> None:
     verify_cmd = [sys.executable, "verify_web_data_sync.py"]
     if strict_codes:
         verify_cmd.append("--strict-codes")
     run(verify_cmd)
+    audit_cmd = [sys.executable, "scripts/audit_mercenary_skill_refresh.py", "--limit", "20"]
+    if strict_mercenary_skills:
+        audit_cmd.append("--strict")
+    run(audit_cmd)
     run([sys.executable, "-m", "py_compile", *PY_COMPILE_TARGETS])
 
 
@@ -212,6 +218,11 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--guide-version", help="Example: v0.3")
     parser.add_argument("--apk-name", help="Example: bwc1863_TEST_8.apk")
     parser.add_argument("--strict-codes", action="store_true", help="Fail on unresolved artifact codes")
+    parser.add_argument(
+        "--strict-mercenary-skills",
+        action="store_true",
+        help="Fail when same-name mercenary skills hide different APK candidate effects",
+    )
     parser.add_argument("--commit", action="store_true", help="Commit the allowlisted update files")
     parser.add_argument("--push", action="store_true", help="Push HEAD to origin/master and origin/main")
     parser.add_argument("--check-live", action="store_true", help="Poll the production URL for version labels")
@@ -231,7 +242,7 @@ def main() -> int:
     for _label, cmd in BUILD_STEPS:
         run(cmd)
     update_versions(args.game_version, args.guide_version, args.apk_name)
-    verify(strict_codes=args.strict_codes)
+    verify(strict_codes=args.strict_codes, strict_mercenary_skills=args.strict_mercenary_skills)
 
     if args.commit:
         git_commit(args.game_version, args.guide_version)

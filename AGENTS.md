@@ -16,6 +16,7 @@ Generated extraction output goes in `output/`. The deployed static app lives in 
 - `python3 build_commander_tab.py`: rebuild commander tab data.
 - `python3 build_scarecrow_invader.py`: rebuild scarecrow/invader data.
 - `python3 verify_web_data_sync.py`: verify root/output/web JSON and inline `index.html` data stay synchronized.
+- `python3 scripts/audit_mercenary_skill_refresh.py`: report same-name mercenary skills where current web text masks APK candidate effects; `scripts/update_game_data.py` runs this during verification.
 - `python3 -m http.server 8000 --directory web`: serve the static site locally at `http://localhost:8000`.
 
 ## Coding Style & Naming Conventions
@@ -32,6 +33,8 @@ Recent history uses concise Conventional Commit prefixes, usually `feat:` for da
 Pull requests should describe the data source or game version, list regenerated files, and include verification commands. For UI-visible changes, attach screenshots or note the local URL checked. Do not commit `__pycache__/`, `.DS_Store`, or temporary scraper backups.
 
 For releases, keep `origin/main` and `origin/master` on the same commit. Vercel production follows `main`; `master` may only create preview deployments.
+
+Known limitation: mercenary skill effects are not yet safe to overwrite from APK candidates when the slot/name is unchanged. Same-name skills can still have balance changes, so the next extraction pass must calibrate mercenary skill effect-code mapping before switching to APK-first skill effects. After calibration, use `--strict-mercenary-skills` in `scripts/update_game_data.py`.
 
 ## Security & Configuration Tips
 Treat APK extracts, binary databases, and scraped screenshots as source artifacts. Do not add credentials, browser cookies, or private cafe access tokens to the repository.
