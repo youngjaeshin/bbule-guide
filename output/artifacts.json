@@ -26462,10 +26462,10 @@
       },
       {
         "type_code": 3035,
-        "type_name": "코드 3035",
+        "type_name": "(New머셔너리 글러브 장착시) 강타 확률",
         "value": 0.07,
-        "value_display": "0.07",
-        "description": "코드 3035 0.07"
+        "value_display": "7%",
+        "description": "(New머셔너리 글러브 장착시) 강타 확률 7%"
       }
     ]
   },
