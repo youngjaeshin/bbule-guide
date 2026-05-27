@@ -545,7 +545,7 @@ def infer_skill_effect_format(template: str, value: float) -> str:
         and abs(value) >= 10
     ):
         return 'int'
-    if any(kw in template for kw in ('확률', '속도', '데미지', '감소', '증폭', '획득', '저장', '관통', '취약성')):
+    if any(kw in template for kw in ('확률', '속도', '데미지', '감소', '증폭', '획득', '저장', '관통', '취약성', '무시')):
         return 'pct'
     return 'raw'
 

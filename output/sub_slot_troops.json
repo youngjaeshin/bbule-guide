@@ -6911,8 +6911,8 @@
         "type_code": 1070,
         "type_name": "저항력 무시",
         "value": 0.18,
-        "value_display": "0.18",
-        "description": "저항력 무시 0.18"
+        "value_display": "18%",
+        "description": "저항력 무시 18%"
       },
       {
         "type_code": 176,
@@ -7037,8 +7037,8 @@
         "type_code": 1070,
         "type_name": "저항력 무시",
         "value": 0.24,
-        "value_display": "0.24",
-        "description": "저항력 무시 0.24"
+        "value_display": "24%",
+        "description": "저항력 무시 24%"
       },
       {
         "type_code": 354,
@@ -7128,8 +7128,8 @@
         "type_code": 1070,
         "type_name": "저항력 무시",
         "value": 0.24,
-        "value_display": "0.24",
-        "description": "저항력 무시 0.24"
+        "value_display": "24%",
+        "description": "저항력 무시 24%"
       },
       {
         "type_code": 711,
@@ -7408,8 +7408,8 @@
         "type_code": 1070,
         "type_name": "저항력 무시",
         "value": 0.3,
-        "value_display": "0.3",
-        "description": "저항력 무시 0.3"
+        "value_display": "30%",
+        "description": "저항력 무시 30%"
       },
       {
         "type_code": 253,
@@ -7492,15 +7492,15 @@
         "type_code": 1070,
         "type_name": "저항력 무시",
         "value": 0.9,
-        "value_display": "0.9",
-        "description": "저항력 무시 0.9"
+        "value_display": "90%",
+        "description": "저항력 무시 90%"
       },
       {
         "type_code": 1071,
         "type_name": "모든 용병의 저항력 무시",
         "value": 0.04,
-        "value_display": "0.04",
-        "description": "모든 용병의 저항력 무시 0.04"
+        "value_display": "4%",
+        "description": "모든 용병의 저항력 무시 4%"
       },
       {
         "type_code": 56,
