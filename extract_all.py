@@ -97,7 +97,7 @@ MAINTYPE_TO_EFFECT = {
     40: ('물리 최종 데미지', 'pct', 0.316),
     41: ('마법 최종 데미지', 'pct', 0.316),
     42: ('카오스 최종 데미지', 'pct', 0.316),
-    43: ('소울 클릭배수', 'pct', 1.0),
+    43: ('소울 클릭 배수', 'raw', 1.0),
     45: ('모든 용병의 피격 지속시간 감소', 'pct', 1.0),
     46: ('뿔레정수 획득 확률', 'pct', 1.0),
     47: ('적들의 회피 확률 감소', 'pct', 1.0),
@@ -190,7 +190,7 @@ NAME_TO_FORMAT.update({
     '모용공극': 'pct',
     '소울번 확률': 'pct',
     '토큰 획득 확률': 'pct',
-    '회복 데미지 증가': 'pct',
+    '회피시 데미지 증가': 'pct',
     '피격시 데미지 증가': 'pct',
     '즉시 공격 속도': 'pct',
     '즉시 공격 확률': 'pct',
@@ -224,6 +224,18 @@ def _load_art_type_mapping() -> dict:
     return {}
 
 ART_TYPE_TO_EFFECT = _load_art_type_mapping()
+ART_TYPE_NAME_OVERRIDES = {
+    # Type 28 means resurrection reduction for equipment, but artifact references
+    # and the xlsx sheet use it as attack-nullification penetration.
+    28,
+    # These codes overlap equipment debuff effects, but artifacts use conditional
+    # set/region/item effects from artifact_code_mapping.json.
+    314,
+    315,
+    368,
+    538,
+    539,
+}
 
 def _load_artifact_overrides() -> dict:
     """Load per-artifact effect overrides from artifact_overrides.json."""
@@ -569,6 +581,7 @@ def resolve_artifact_effects(types: list, effects: list) -> list:
     """Resolve artifact effect type codes + values.
 
     Name priority:  MAINTYPE_TO_EFFECT (verified) > ART_TYPE_TO_EFFECT (partial) > '코드 N'
+    Known divergent artifact codes in ART_TYPE_NAME_OVERRIDES use artifact names first.
     Format priority: MAINTYPE_TO_EFFECT > NAME_TO_FORMAT > keyword heuristic
     Artifacts do NOT use display_ratio; raw DB values are formatted directly.
     """
@@ -577,8 +590,9 @@ def resolve_artifact_effects(types: list, effects: list) -> list:
         if t == 0 and e == 0.0:
             continue
         # (code 90 scaling removed — 90 is 모든 용병의 치명타 확률, not 데미지)
-        # 1) Name: MAINTYPE_TO_EFFECT (verified) takes priority over ART_TYPE_TO_EFFECT
-        main_mapping = MAINTYPE_TO_EFFECT.get(t)
+        # 1) Name: MAINTYPE_TO_EFFECT (verified) takes priority over ART_TYPE_TO_EFFECT,
+        # except for artifact codes known to diverge from equipment meanings.
+        main_mapping = None if t in ART_TYPE_NAME_OVERRIDES else MAINTYPE_TO_EFFECT.get(t)
         if main_mapping:
             template = main_mapping[0]
             efmt = main_mapping[1]
@@ -624,8 +638,16 @@ def apply_artifact_overrides(index: int, effects: list) -> list:
     for slot_str, patch in overrides.get('effects', {}).items():
         slot = int(slot_str)
         if slot >= len(effects):
-            continue
+            effects.append({
+                'type_code': patch.get('type_code', 0),
+                'type_name': patch.get('type_name', ''),
+                'value': patch.get('value', 0),
+                'value_display': '',
+                'description': '',
+            })
         eff = effects[slot]
+        if 'type_code' in patch:
+            eff['type_code'] = patch['type_code']
         if 'type_name' in patch:
             eff['type_name'] = patch['type_name']
         if 'value' in patch:
@@ -1343,12 +1365,8 @@ def extract_artifacts(data: bytes, name_map: list, strings: dict,
         else:
             atypes = []
             aeffects = []
-        # Grade D/C/B (rank 1,2,3) store effect values at 2× in the binary.
-        # Verified by cross-referencing with xlsx: 84% of D-grade, 73% of C-grade,
-        # 74% of B-grade values are exactly 2× the reference.
+        # v1863 artifact effects are already stored at display scale.
         rank_code = _g(rank_vals, i, 0)
-        if rank_code in (1, 2, 3):  # D, C, B
-            aeffects = [round(v / 2.0, 6) for v in aeffects]
 
         # Use artifact-specific mapping (ART_TYPE_TO_EFFECT) instead of equipment mapping
         effects_resolved = resolve_artifact_effects(atypes, aeffects)

@@ -4,21 +4,21 @@
 > APK 바이너리에서 추출한 데이터를 구조화하여 빠른 검색과 필터링이 가능합니다.
 
 **배포 URL**: https://bbule-guide.vercel.app
-**게임 버전**: v.1853 TEST_11
-**가이드 버전**: v0.2
+**게임 버전**: v.1863 TEST_8
+**가이드 버전**: v0.3
 
 ---
 
 ## 주요 기능
 
 ### 1. 용병 탭 (Mercenaries)
-- 539개 용병 데이터
+- 551개 용병 데이터
 - 등급별 필터링 (E~P, X, Q, 유료)
 - 이름/효과 검색
 - 스킬 정보 및 능력치 조회
 
 ### 2. 장비 탭 (Equipment)
-- 533개 장비 데이터
+- 541개 장비 데이터
 - 아이콘 기반 시각화 (95.5% 매칭)
 - 등급별 다중 선택 필터
 - 효과 코드 자동 해석
@@ -50,21 +50,21 @@
 ## 데이터 파이프라인
 
 ```
-APK (bwc1853_TEST_11.apk)
+APK (bwc1863_TEST_8.apk)
    ↓
 bgdb_clean.bin (BGDatabase 바이너리, 2.7MB)
    ↓
 extract_all.py (바이너리 파싱 + 효과 코드 해석)
    ↓
 output/*.json (9개 구조화 JSON 파일)
-   ├─ creatures.json (539 용병)
-   ├─ equipment.json (533 장비)
+   ├─ creatures.json (551 용병)
+   ├─ equipment.json (541 장비)
    ├─ artifacts.json (557 아티팩트)
    ├─ commanders.json (35 지휘관)
    ├─ enemies.json (387 적)
    ├─ bosses.json (110 보스)
    ├─ stages.json (500 스테이지)
-   ├─ random_merc_skills.json (265 랜덤용병 스킬)
+   ├─ random_merc_skills.json (267 랜덤용병 스킬)
    └─ scarecrow_invader.json (허수아비/침략자)
    ↓
 build_*_data.py (이미지 매칭 + 웹 최적화)
@@ -117,6 +117,14 @@ python3 build_artifact_data.py
 python3 build_equipment_data.py
 # → web/data_equipment.json (icon 필드 사용)
 
+# 용병 탭 빌드
+python3 build_mercenary_data.py
+# → web/data_mercenaries.json + index.html MERC_DATA 업데이트
+
+# 랜덤용병 스킬 빌드
+python3 regenerate_rmskills.py
+# → web/data_random_merc.json + index.html RMSKILL_DATA 업데이트
+
 # 지휘관 탭 빌드
 python3 build_commander_tab.py
 # → web/data_commanders.json + index.html 업데이트
@@ -131,7 +139,7 @@ python3 build_scarecrow_invader.py
 ```bash
 # 로컬 변경사항 커밋
 git add web/
-git commit -m "Update game data v.1853 TEST_11"
+git commit -m "Update game data v.1863 TEST_8"
 
 # GitHub 푸시 (Vercel 자동 배포)
 git push origin master
@@ -256,14 +264,15 @@ for i, equip in enumerate(equipment):
 
 | 테이블 | 범위 | 개수 |
 |--------|------|------|
-| creatureBase | 0–538 | 539 |
-| itemBase | 539–1858 | 1,320 |
-| enemy | 1859–2245 | 387 |
-| boss | 2246–2355 | 110 |
-| stage | 2356–2855 | 500 |
-| item/equip | 2856–3388 | 533 |
-| commander | 3389–3423 | 35 |
-| artifact | 3459–4015 | 557 |
+| creatureBase | 0–550 | 551 |
+| itemBase | 551–1917 | 1,367 |
+| enemy | 1918–2304 | 387 |
+| boss | 2305–2414 | 110 |
+| stage | 2415–2914 | 500 |
+| item/equip | 2915–3455 | 541 |
+| commander | 3456–3490 | 35 |
+| commanderSpecialty | 3491–3525 | 35 |
+| artifact | 3526–4082 | 557 |
 
 ---
 
@@ -370,6 +379,6 @@ python3 -m http.server 8000 --directory web
 
 ---
 
-**Last Updated**: 2026-02-25
-**Game Version**: v.1853 TEST_11
-**Guide Version**: v0.2
+**Last Updated**: 2026-05-27
+**Game Version**: v.1863 TEST_8
+**Guide Version**: v0.3

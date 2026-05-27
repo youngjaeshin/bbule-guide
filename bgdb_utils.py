@@ -131,14 +131,14 @@ def _walk_table_fields(data: bytes, start_off: int,
 # Table scan definitions: (table_key, first_field_name, search_range)
 _TABLE_SCAN_DEFS = [
     ('creature',  'index',    (8000,   12000)),
-    ('item',      'name',     (104000, 107000)),
-    ('enemy',     'name',     (170000, 173000)),
-    ('boss',      'name',     (192000, 195000)),
-    ('stage',     'ambience', (208000, 215000)),
-    ('equip',     'name',     (244000, 248000)),
-    ('commander', 'name',     (278000, 281000)),
-    ('spec',      'name',     (281000, 284000)),
-    ('artifact',  'name',     (291000, 295000)),
+    ('item',      'name',     (104000, 112000)),
+    ('enemy',     'name',     (170000, 180000)),
+    ('boss',      'name',     (192000, 202000)),
+    ('stage',     'ambience', (208000, 218000)),
+    ('equip',     'name',     (244000, 255000)),
+    ('commander', 'name',     (278000, 289000)),
+    ('spec',      'name',     (286000, 291000)),
+    ('artifact',  'name',     (291000, 302000)),
 ]
 
 

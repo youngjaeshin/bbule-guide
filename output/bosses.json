@@ -1,7 +1,7 @@
 [
   {
     "index": 0,
-    "name": "",
+    "name": "슬러그",
     "model": 17,
     "resistPhysical": 1.0,
     "resistMagical": 1.0,
@@ -42,7 +42,7 @@
   {
     "index": 2,
     "name": "티라스컬",
-    "model": 52,
+    "model": 543,
     "resistPhysical": 1.0,
     "resistMagical": 1.0,
     "resistClick": 1.0,
@@ -102,7 +102,7 @@
   {
     "index": 5,
     "name": "이블 와쳐",
-    "model": 49,
+    "model": 560,
     "resistPhysical": 1.0,
     "resistMagical": 1.0,
     "resistClick": 1.0,
@@ -162,7 +162,7 @@
   {
     "index": 8,
     "name": "시아툼",
-    "model": 21,
+    "model": 553,
     "resistPhysical": 1.0,
     "resistMagical": 1.0,
     "resistClick": 1.0,
@@ -182,7 +182,7 @@
   {
     "index": 9,
     "name": "쟝 피엘",
-    "model": 66,
+    "model": 563,
     "resistPhysical": 1.0,
     "resistMagical": 1.0,
     "resistClick": 1.0,
@@ -442,7 +442,7 @@
   {
     "index": 22,
     "name": "테 필라우",
-    "model": 33,
+    "model": 558,
     "resistPhysical": 1.0,
     "resistMagical": 1.0,
     "resistClick": 1.0,
@@ -662,7 +662,7 @@
   {
     "index": 33,
     "name": "레드 리들",
-    "model": 49,
+    "model": 559,
     "resistPhysical": 1.0,
     "resistMagical": 0.25,
     "resistClick": 1.0,
@@ -708,11 +708,11 @@
     "resistClick": 0.5,
     "factorHp": 30.0,
     "factorGold": 25.0,
-    "coin": 5,
-    "medal": 5,
+    "coin": 7,
+    "medal": 7,
     "essence": 6.0,
     "block": 1.3,
-    "cooldown": 5.0,
+    "cooldown": 2.5,
     "chanceAttackAll": 1.0,
     "isMirroring": false,
     "color": 1,
@@ -822,7 +822,7 @@
   {
     "index": 41,
     "name": "돌아온 쟝 피엘",
-    "model": 66,
+    "model": 563,
     "resistPhysical": 0.25,
     "resistMagical": 1.0,
     "resistClick": 1.0,
@@ -1182,7 +1182,7 @@
   {
     "index": 59,
     "name": "강화된 크사이",
-    "model": 58,
+    "model": 479,
     "resistPhysical": 0.3,
     "resistMagical": 1.7,
     "resistClick": 1.0,
@@ -1242,7 +1242,7 @@
   {
     "index": 62,
     "name": "네크로몽거",
-    "model": 155,
+    "model": 487,
     "resistPhysical": 1.0,
     "resistMagical": 2.0,
     "resistClick": 0.35,

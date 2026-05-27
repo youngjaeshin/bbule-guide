@@ -5,12 +5,14 @@ Source: output/equipment.json (NOT xlsx)
 """
 import json
 import os
+import re
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-EQUIP_JSON = os.path.join(BASE_DIR, "equipment.json")
-CREATURES_JSON = os.path.join(BASE_DIR, "creatures.json")
+EQUIP_JSON = os.path.join(BASE_DIR, "output", "equipment.json")
+CREATURES_JSON = os.path.join(BASE_DIR, "output", "creatures.json")
 EQUIP_IMG_DIR = os.path.join(BASE_DIR, "web", "images", "equip")
 OUTPUT_JSON = os.path.join(BASE_DIR, "web", "data_equipment.json")
+INDEX_HTML = os.path.join(BASE_DIR, "web", "index.html")
 
 def main():
     # Load source data
@@ -92,6 +94,18 @@ def main():
         json.dump(result, f, ensure_ascii=False, separators=(",", ":"))
 
     print(f"Written {len(result)} items to {OUTPUT_JSON}")
+
+    equip_json_compact = json.dumps(result, ensure_ascii=False, separators=(",", ":"))
+    with open(INDEX_HTML, encoding="utf-8") as f:
+        html = f.read()
+    pattern = r"const EQUIP_DATA = \[.*?\];"
+    new_decl = f"const EQUIP_DATA = {equip_json_compact};"
+    new_html, count = re.subn(pattern, new_decl, html, flags=re.DOTALL)
+    if count == 0:
+        raise RuntimeError("Could not find EQUIP_DATA in index.html")
+    with open(INDEX_HTML, "w", encoding="utf-8") as f:
+        f.write(new_html)
+    print(f"Updated EQUIP_DATA in {INDEX_HTML} ({count} occurrence)")
 
     # Stats
     no_portrait = sum(1 for x in result if not x["portrait"])

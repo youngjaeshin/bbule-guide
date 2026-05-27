@@ -1,0 +1,587 @@
+{
+  "meta": {
+    "description": "Random mercenary skill type code -> effect name mapping (CORRECTED)",
+    "source": "User-confirmed in-game values cross-referenced with APK data",
+    "total_type_codes": 95,
+    "scaling_formula": {
+      "pct": "display_pct = apk_val * base_multiplier * (1.3 if has_random_bonus)",
+      "raw": "display_val = apk_val * base_multiplier * (1.3 if has_random_bonus)",
+      "raw_int": "display_int = round(apk_val * base_multiplier * (1.3 if has_random_bonus))",
+      "special_count_pct": "[종족] 용병 수 × (apk_val * base_multiplier * 1.3)%",
+      "special_count_raw": "[종족] 용병 수 × (apk_val * base_multiplier * 1.3)",
+      "note": "30% random mercenary slot bonus (×1.3) applied to all positive effects"
+    }
+  },
+  "type_mapping": {
+    "1": {
+      "effect_name": "데미지",
+      "format": "pct",
+      "base_multiplier": 150.0,
+      "has_random_bonus": true
+    },
+    "2": {
+      "effect_name": "모든 용병 데미지",
+      "format": "pct",
+      "base_multiplier": 300.0,
+      "has_random_bonus": true
+    },
+    "3": {
+      "effect_name": "클릭 데미지",
+      "format": "pct",
+      "base_multiplier": 200.0,
+      "has_random_bonus": true
+    },
+    "4": {
+      "effect_name": "마법 용병 데미지",
+      "format": "pct",
+      "base_multiplier": 300.0,
+      "has_random_bonus": true
+    },
+    "6": {
+      "effect_name": "공격 속도",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "7": {
+      "effect_name": "추가 데미지",
+      "format": "raw_int",
+      "base_multiplier": 2.0,
+      "has_random_bonus": true
+    },
+    "8": {
+      "effect_name": "골드 획득량",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "9": {
+      "effect_name": "공격 속도",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "10": {
+      "effect_name": "모든 용병 공격 속도",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": false
+    },
+    "11": {
+      "effect_name": "물리 용병 공격 속도",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "12": {
+      "effect_name": "클릭 저항력 감소",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "14": {
+      "effect_name": "클릭 크리티컬 확률",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "15": {
+      "effect_name": "클릭 데미지",
+      "format": "pct",
+      "base_multiplier": 200.0,
+      "has_random_bonus": true
+    },
+    "16": {
+      "effect_name": "모든 용병 클릭 데미지",
+      "format": "pct",
+      "base_multiplier": 200.0,
+      "has_random_bonus": true
+    },
+    "17": {
+      "effect_name": "모든 용병 베이스 데미지",
+      "format": "pct",
+      "base_multiplier": 300.0,
+      "has_random_bonus": true
+    },
+    "18": {
+      "effect_name": "최대 레벨",
+      "format": "raw",
+      "base_multiplier": 1.0,
+      "has_random_bonus": true
+    },
+    "19": {
+      "effect_name": "모든 용병 최대 레벨",
+      "format": "raw",
+      "base_multiplier": 1.0,
+      "has_random_bonus": true
+    },
+    "20": {
+      "effect_name": "강타 확률",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "21": {
+      "effect_name": "모든 용병 강타 확률",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "22": {
+      "effect_name": "물리 용병 강타 확률",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "23": {
+      "effect_name": "자동 클릭 속도",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "26": {
+      "effect_name": "강타 배수",
+      "format": "raw",
+      "base_multiplier": 1.0,
+      "has_random_bonus": true
+    },
+    "27": {
+      "effect_name": "추가 클릭 확률",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "28": {
+      "effect_name": "공격 무효화 관통",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "29": {
+      "effect_name": "마법 용병 강타 배수",
+      "format": "raw",
+      "base_multiplier": 1.0,
+      "has_random_bonus": true
+    },
+    "30": {
+      "effect_name": "최대 레벨",
+      "format": "raw",
+      "base_multiplier": 1.0,
+      "has_random_bonus": true
+    },
+    "32": {
+      "effect_name": "연타 확률",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "38": {
+      "effect_name": "클릭 크리티컬 확률",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "39": {
+      "effect_name": "클릭 크리티컬 배수",
+      "format": "raw",
+      "base_multiplier": 1.0,
+      "has_random_bonus": true
+    },
+    "40": {
+      "effect_name": "소울 클릭 확률",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "41": {
+      "effect_name": "자동 클릭 확률",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "42": {
+      "effect_name": "자동 클릭 속도",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "43": {
+      "effect_name": "추가 클릭 확률",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "46": {
+      "effect_name": "골드 획득량",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "47": {
+      "effect_name": "회피 확률 감소",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "48": {
+      "effect_name": "아이템 획득 확률",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "49": {
+      "effect_name": "명성",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "51": {
+      "effect_name": "물리 저항력 감소",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "52": {
+      "effect_name": "마법 저항력 감소",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "53": {
+      "effect_name": "카오스 취약성",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "54": {
+      "effect_name": "모든 용병 최종 데미지",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "55": {
+      "effect_name": "모든 용병 성장 데미지",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "56": {
+      "effect_name": "공격 무효화 관통",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "78": {
+      "effect_name": "[칼라무쉬] 용병 베이스 데미지",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "84": {
+      "effect_name": "베이스 데미지",
+      "format": "pct",
+      "base_multiplier": 300.0,
+      "has_random_bonus": true
+    },
+    "95": {
+      "effect_name": "신성 데미지",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "102": {
+      "effect_name": "소울 클릭 배수",
+      "format": "raw",
+      "base_multiplier": 1.0,
+      "has_random_bonus": true
+    },
+    "107": {
+      "effect_name": "피격 지속시간 감소",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "108": {
+      "effect_name": "모든 용병 피격 지속시간 감소",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "109": {
+      "effect_name": "뿔레정수 획득 확률",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "112": {
+      "effect_name": "회피 확률 감소",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "114": {
+      "effect_name": "순수 데미지",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "122": {
+      "effect_name": "추가 클릭 데미지",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "124": {
+      "effect_name": "데미지 편차",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "137": {
+      "effect_name": "행운 확률",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "138": {
+      "effect_name": "모든 용병 행운 확률",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "140": {
+      "effect_name": "모든 용병 행운 배수",
+      "format": "raw",
+      "base_multiplier": 1.0,
+      "has_random_bonus": true
+    },
+    "151": {
+      "effect_name": "보이 참전시 골드 저장량",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "169": {
+      "effect_name": "모든 용병 신성 데미지",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "175": {
+      "effect_name": "공포 극복 확률",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "176": {
+      "effect_name": "피격 회피 확률",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "177": {
+      "effect_name": "모든 용병 공격 속도",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "196": {
+      "effect_name": "[트리니티] 용병 강타 확률",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "197": {
+      "effect_name": "[트리니티] 용병 강타 배수",
+      "format": "raw",
+      "base_multiplier": 1.0,
+      "has_random_bonus": true
+    },
+    "218": {
+      "effect_name": "[칼라무쉬] 용병 데미지",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "219": {
+      "effect_name": "[동물뼈 언데드] 용병 수 × 추가 데미지",
+      "format": "special_count",
+      "base_multiplier": 2.0,
+      "has_random_bonus": true
+    },
+    "250": {
+      "effect_name": "더블 어택 확률",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "253": {
+      "effect_name": "흡수 확률 감소",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "255": {
+      "effect_name": "연타 데미지",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "257": {
+      "effect_name": "뿔레 오브 드랍 확률",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "258": {
+      "effect_name": "아군 피격 보호 확률",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "295": {
+      "effect_name": "루비 드랍 확률",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "296": {
+      "effect_name": "토파즈 드랍 확률",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "297": {
+      "effect_name": "사파이어 드랍 확률",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "298": {
+      "effect_name": "에머랄드 드랍 확률",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "299": {
+      "effect_name": "자수정 드랍 확률",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "300": {
+      "effect_name": "아티팩트 드랍 확률",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "309": {
+      "effect_name": "모든 용병 치명타 배수",
+      "format": "raw",
+      "base_multiplier": 1.0,
+      "has_random_bonus": true
+    },
+    "368": {
+      "effect_name": "모든 용병 추가 클릭 데미지",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "375": {
+      "effect_name": "자동 클릭 데미지",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "421": {
+      "effect_name": "[식물] 용병 수 × 데미지",
+      "format": "special_count_pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "422": {
+      "effect_name": "[식물] 용병 수 × 클릭 데미지",
+      "format": "special_count_pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "431": {
+      "effect_name": "모든 용병 추가 클릭 확률",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "475": {
+      "effect_name": "[동물뼈 언데드] 용병 수 × 베이스 데미지",
+      "format": "special_count_pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "495": {
+      "effect_name": "[퍼루나] 용병 수 × 데미지",
+      "format": "special_count_pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "591": {
+      "effect_name": "회피시 데미지 증가",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "635": {
+      "effect_name": "[언데드] 용병 수 × 강타 배수",
+      "format": "special_count_raw",
+      "base_multiplier": 1.0,
+      "has_random_bonus": true
+    },
+    "1000": {
+      "effect_name": "추가 데미지 증폭",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "1013": {
+      "effect_name": "물리 용병 성장 데미지",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "1014": {
+      "effect_name": "마법 용병 성장 데미지",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "1016": {
+      "effect_name": "카오스 용병 성장 데미지",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "1022": {
+      "effect_name": "카오스 용병 강타 배수 증폭",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "1171": {
+      "effect_name": "즉시 공격 확률",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "1172": {
+      "effect_name": "즉시 공격 데미지",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    },
+    "1173": {
+      "effect_name": "즉시 공격 속도",
+      "format": "pct",
+      "base_multiplier": 100.0,
+      "has_random_bonus": true
+    }
+  }
+}

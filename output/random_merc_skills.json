@@ -8,13 +8,13 @@
     "passiveType": 0,
     "types": [
       2,
-      19,
-      0
+      27,
+      19
     ],
     "effects": [
       0.2,
-      2.0,
-      0.0
+      0.1,
+      2.0
     ],
     "effects_resolved": [
       {
@@ -23,6 +23,13 @@
         "value": 0.2,
         "value_display": "20%",
         "description": "모든 용병의 데미지 20%"
+      },
+      {
+        "type_code": 27,
+        "type_name": "추가 클릭 확률",
+        "value": 0.1,
+        "value_display": "10%",
+        "description": "추가 클릭 확률 10%"
       },
       {
         "type_code": 19,
@@ -1804,10 +1811,10 @@
       },
       {
         "type_code": 300,
-        "type_name": "아티팩트 드랍 확률",
+        "type_name": "아티팩트 획득 확률",
         "value": 0.16,
         "value_display": "16%",
-        "description": "아티팩트 드랍 확률 16%"
+        "description": "아티팩트 획득 확률 16%"
       }
     ],
     "randomValue": 5
@@ -2035,10 +2042,10 @@
       },
       {
         "type_code": 300,
-        "type_name": "아티팩트 드랍 확률",
+        "type_name": "아티팩트 획득 확률",
         "value": 0.06,
         "value_display": "6%",
-        "description": "아티팩트 드랍 확률 6%"
+        "description": "아티팩트 획득 확률 6%"
       }
     ],
     "randomValue": 4
@@ -2070,10 +2077,10 @@
       },
       {
         "type_code": 300,
-        "type_name": "아티팩트 드랍 확률",
+        "type_name": "아티팩트 획득 확률",
         "value": 0.08,
         "value_display": "8%",
-        "description": "아티팩트 드랍 확률 8%"
+        "description": "아티팩트 획득 확률 8%"
       }
     ],
     "randomValue": 5
@@ -2105,10 +2112,10 @@
       },
       {
         "type_code": 300,
-        "type_name": "아티팩트 드랍 확률",
+        "type_name": "아티팩트 획득 확률",
         "value": 0.1,
         "value_display": "10%",
-        "description": "아티팩트 드랍 확률 10%"
+        "description": "아티팩트 획득 확률 10%"
       }
     ],
     "randomValue": 6
@@ -3843,22 +3850,36 @@
     "priceFactor": 2.0,
     "passiveType": 0,
     "types": [
+      20,
       26,
-      0,
-      0
+      21
     ],
     "effects": [
+      0.05,
       1.0,
-      0.0,
-      0.0
+      0.005
     ],
     "effects_resolved": [
+      {
+        "type_code": 20,
+        "type_name": "모든 용병의 강타 확률",
+        "value": 0.05,
+        "value_display": "5%",
+        "description": "모든 용병의 강타 확률 5%"
+      },
       {
         "type_code": 26,
         "type_name": "베이스 데미지",
         "value": 1.0,
         "value_display": "100%",
         "description": "베이스 데미지 100%"
+      },
+      {
+        "type_code": 21,
+        "type_name": "모든 용병의 강타 배수",
+        "value": 0.005,
+        "value_display": "0.005",
+        "description": "모든 용병의 강타 배수 0.005"
       }
     ],
     "randomValue": 6
@@ -6351,12 +6372,12 @@
     "types": [
       16,
       2,
-      0
+      52
     ],
     "effects": [
       1.5,
-      0.15,
-      0.0
+      1.0,
+      0.06
     ],
     "effects_resolved": [
       {
@@ -6369,9 +6390,16 @@
       {
         "type_code": 2,
         "type_name": "모든 용병의 데미지",
-        "value": 0.15,
-        "value_display": "15%",
-        "description": "모든 용병의 데미지 15%"
+        "value": 1.0,
+        "value_display": "100%",
+        "description": "모든 용병의 데미지 100%"
+      },
+      {
+        "type_code": 52,
+        "type_name": "모든 용병의 행운 확률",
+        "value": 0.06,
+        "value_display": "6%",
+        "description": "모든 용병의 행운 확률 6%"
       }
     ],
     "randomValue": 6
@@ -6386,12 +6414,12 @@
     "types": [
       26,
       32,
-      0
+      107
     ],
     "effects": [
       2.2,
       -0.3,
-      0.0
+      0.25
     ],
     "effects_resolved": [
       {
@@ -6407,6 +6435,13 @@
         "value": -0.3,
         "value_display": "-30%",
         "description": "모든 용병의 레벨업 및 스킬학습 비용감소 -30%"
+      },
+      {
+        "type_code": 107,
+        "type_name": "피격 지속시간 감소",
+        "value": 0.25,
+        "value_display": "25%",
+        "description": "피격 지속시간 감소 25%"
       }
     ],
     "randomValue": 6
@@ -6480,41 +6515,6 @@
       }
     ],
     "randomValue": 9
-  },
-  {
-    "index": 562,
-    "name": "더스티의 신체구조",
-    "description": "더스티의 덤불같은 신체구조는 물건을 넣기는 좋으나 꺼내기는 어려운 구조로 되어있다고 합니다.",
-    "icon": 436,
-    "priceFactor": 2.0,
-    "passiveType": 0,
-    "types": [
-      151,
-      39,
-      0
-    ],
-    "effects": [
-      1.2,
-      1.0,
-      0.0
-    ],
-    "effects_resolved": [
-      {
-        "type_code": 151,
-        "type_name": "보이 참전시 골드 저장량",
-        "value": 1.2,
-        "value_display": "1.2",
-        "description": "보이 참전시 골드 저장량 1.2"
-      },
-      {
-        "type_code": 39,
-        "type_name": "신성 데미지",
-        "value": 1.0,
-        "value_display": "1",
-        "description": "신성 데미지 1"
-      }
-    ],
-    "randomValue": 5
   },
   {
     "index": 569,
@@ -6682,7 +6682,7 @@
     "name": "천상의 믿음",
     "description": "리더를 전적으로 믿고 지지해 줍니다.",
     "icon": 466,
-    "priceFactor": 3.0,
+    "priceFactor": 2.5,
     "passiveType": 0,
     "types": [
       16,
@@ -6787,7 +6787,7 @@
     "name": "믿음에 대한 응답",
     "description": "한결같은 믿음이 드디어 결실을 이루게 되었습니다.",
     "icon": 469,
-    "priceFactor": 2.5,
+    "priceFactor": 3.0,
     "passiveType": 0,
     "types": [
       16,
@@ -7936,10 +7936,10 @@
     "effects_resolved": [
       {
         "type_code": 257,
-        "type_name": "뿔레 오브 드랍 확률",
+        "type_name": "뿔레 오브 획득 확률",
         "value": 0.025,
         "value_display": "2.5%",
-        "description": "뿔레 오브 드랍 확률 2.5%"
+        "description": "뿔레 오브 획득 확률 2.5%"
       }
     ],
     "randomValue": 8
@@ -7964,10 +7964,10 @@
     "effects_resolved": [
       {
         "type_code": 257,
-        "type_name": "뿔레 오브 드랍 확률",
+        "type_name": "뿔레 오브 획득 확률",
         "value": 0.035,
         "value_display": "3.5%",
-        "description": "뿔레 오브 드랍 확률 3.5%"
+        "description": "뿔레 오브 획득 확률 3.5%"
       }
     ],
     "randomValue": 9
@@ -7992,10 +7992,10 @@
     "effects_resolved": [
       {
         "type_code": 295,
-        "type_name": "루비 드랍 확률",
+        "type_name": "루비 획득 확률",
         "value": 0.15,
         "value_display": "15%",
-        "description": "루비 드랍 확률 15%"
+        "description": "루비 획득 확률 15%"
       }
     ],
     "randomValue": 4
@@ -8020,10 +8020,10 @@
     "effects_resolved": [
       {
         "type_code": 296,
-        "type_name": "토파즈 드랍 확률",
+        "type_name": "토파즈 획득 확률",
         "value": 0.15,
         "value_display": "15%",
-        "description": "토파즈 드랍 확률 15%"
+        "description": "토파즈 획득 확률 15%"
       }
     ],
     "randomValue": 4
@@ -8048,10 +8048,10 @@
     "effects_resolved": [
       {
         "type_code": 297,
-        "type_name": "사파이어 드랍 확률",
+        "type_name": "사파이어 획득 확률",
         "value": 0.15,
         "value_display": "15%",
-        "description": "사파이어 드랍 확률 15%"
+        "description": "사파이어 획득 확률 15%"
       }
     ],
     "randomValue": 4
@@ -8076,10 +8076,10 @@
     "effects_resolved": [
       {
         "type_code": 298,
-        "type_name": "에머랄드 드랍 확률",
+        "type_name": "에머랄드 획득 확률",
         "value": 0.15,
         "value_display": "15%",
-        "description": "에머랄드 드랍 확률 15%"
+        "description": "에머랄드 획득 확률 15%"
       }
     ],
     "randomValue": 4
@@ -8104,10 +8104,10 @@
     "effects_resolved": [
       {
         "type_code": 299,
-        "type_name": "자수정 드랍 확률",
+        "type_name": "자수정 획득 확률",
         "value": 0.15,
         "value_display": "15%",
-        "description": "자수정 드랍 확률 15%"
+        "description": "자수정 획득 확률 15%"
       }
     ],
     "randomValue": 4
@@ -8132,10 +8132,10 @@
     "effects_resolved": [
       {
         "type_code": 300,
-        "type_name": "아티팩트 드랍 확률",
+        "type_name": "아티팩트 획득 확률",
         "value": 0.09,
         "value_display": "9%",
-        "description": "아티팩트 드랍 확률 9%"
+        "description": "아티팩트 획득 확률 9%"
       }
     ],
     "randomValue": 4
@@ -8160,10 +8160,10 @@
     "effects_resolved": [
       {
         "type_code": 300,
-        "type_name": "아티팩트 드랍 확률",
+        "type_name": "아티팩트 획득 확률",
         "value": 0.12,
         "value_display": "12%",
-        "description": "아티팩트 드랍 확률 12%"
+        "description": "아티팩트 획득 확률 12%"
       }
     ],
     "randomValue": 5
@@ -8727,5 +8727,117 @@
       }
     ],
     "randomValue": 8
+  },
+  {
+    "index": 1336,
+    "name": "발도술+",
+    "description": "고대로부터 내려오는 살인기술입니다.",
+    "icon": 1102,
+    "priceFactor": 1.5,
+    "passiveType": 0,
+    "types": [
+      1,
+      1171,
+      1172
+    ],
+    "effects": [
+      1.5,
+      0.09,
+      0.09
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1,
+        "type_name": "추가 데미지",
+        "value": 1.5,
+        "value_display": "2",
+        "description": "추가 데미지 2"
+      },
+      {
+        "type_code": 1171,
+        "type_name": "즉시 공격 확률",
+        "value": 0.09,
+        "value_display": "9%",
+        "description": "즉시 공격 확률 9%"
+      },
+      {
+        "type_code": 1172,
+        "type_name": "즉시 공격 데미지",
+        "value": 0.09,
+        "value_display": "9%",
+        "description": "즉시 공격 데미지 9%"
+      }
+    ],
+    "randomValue": 4
+  },
+  {
+    "index": 1339,
+    "name": "네잎 클로버",
+    "description": "당신은 네잎 클로버를 발견했습니다! 이정도 행운이면 충분하겠죠?",
+    "icon": 1105,
+    "priceFactor": 1.5,
+    "passiveType": 0,
+    "types": [
+      138,
+      140,
+      0
+    ],
+    "effects": [
+      0.012,
+      0.06,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 138,
+        "type_name": "모든 용병의 행운 확률",
+        "value": 0.012,
+        "value_display": "1.2%",
+        "description": "모든 용병의 행운 확률 1.2%"
+      },
+      {
+        "type_code": 140,
+        "type_name": "모든 용병의 행운 배수",
+        "value": 0.06,
+        "value_display": "0.06",
+        "description": "모든 용병의 행운 배수 0.06"
+      }
+    ],
+    "randomValue": 5
+  },
+  {
+    "index": 1340,
+    "name": "조금 시든 세잎 클로버",
+    "description": "네잎 클로버도 아니고 싱싱하지도 않습니다. 이 정도로 만족 하시죠.",
+    "icon": 1106,
+    "priceFactor": 1.0,
+    "passiveType": 0,
+    "types": [
+      138,
+      140,
+      0
+    ],
+    "effects": [
+      0.008,
+      0.04,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 138,
+        "type_name": "모든 용병의 행운 확률",
+        "value": 0.008,
+        "value_display": "0.8%",
+        "description": "모든 용병의 행운 확률 0.8%"
+      },
+      {
+        "type_code": 140,
+        "type_name": "모든 용병의 행운 배수",
+        "value": 0.04,
+        "value_display": "0.04",
+        "description": "모든 용병의 행운 배수 0.04"
+      }
+    ],
+    "randomValue": 4
   }
 ]

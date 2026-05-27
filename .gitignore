@@ -19,7 +19,23 @@ __pycache__/
 .vscode/
 
 # Extracted raw data
+apk/
 apk_extracted/
+raw/
+original/
+name_strips/
+cafe_screenshots/
+cropped_named/
+용병스크린샷/
+cafe_scraper/data/
+cafe_scraper/images/
+
+# Secrets
+.env
+cafe_scraper/.env
 
 # Temp
 index.html?*
+.vercel
+*.bak
+Screenshot*.png

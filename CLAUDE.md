@@ -7,12 +7,12 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 모바일 게임 "대용병시대 뿔레전쟁" APK에서 추출한 게임 데이터를 싱글페이지 웹 가이드로 제공하는 프로젝트.
 - 레포: `youngjaeshin/bbule-guide`
 - 배포: https://bbule-guide.vercel.app (GitHub 연동 자동 배포)
-- 게임 버전: v.1853 TEST_26
+- 게임 버전: v.1863 TEST_8
 
 ## Data Pipeline
 
 ```
-bwc1853_TEST_26.apk
+bwc1863_TEST_8.apk
   → bgdb_clean.bin (BGDatabase binary, 2.7MB)
   → extract_all.py (바이너리 파싱 + 효과코드 해석)
   → output/*.json (creatures, equipment, artifacts 등 9개)
@@ -28,8 +28,11 @@ python3 extract_all.py
 python3 extract_all.py --bin /path/to/bgdb_clean.bin --out /output/dir
 
 # 2. 웹 데이터 빌드 (각각 독립 실행 가능)
+python3 build_mercenary_data.py  # → web/data_mercenaries.json + index.html MERC_DATA
+python3 regenerate_rmskills.py   # → web/data_random_merc.json + index.html RMSKILL_DATA
 python3 build_artifact_data.py    # → web/data_artifacts.json + index.html ART_DATA 인라인 업데이트
 python3 build_equipment_data.py   # → web/data_equipment.json (icon 기반 이미지 매칭)
+python3 build_simulator_data.py   # → web/data_simulator.json
 python3 build_commander_tab.py    # → 지휘관 탭 (34 용병 + XP 레벨업 표)
 python3 build_scarecrow_invader.py # → 허수아비/침략자 탭
 
@@ -43,26 +46,31 @@ git push origin master
 - **장비는 shift 없음**: equipment 효과는 동일 인덱스에서 직접 읽음
 - **Field header**: `[4B name_len][name][31B header][4B data_size][data][22B separator]`
 - **Nested arrays**: `[4B row_count][4B vals_per_row][row_count × vals_per_row × 4B data]`
-- **String tables**: koKR(한국어) offset 629160, name_map offset 485191
+- **String tables**: `detect_offsets()`로 자동 감지. v.1863 TEST_8 기준 koKR offset 639581, name_map offset 493111
 
 ### String Table Ranges (name_map 기준)
 | 테이블 | 범위 | 개수 |
 |--------|------|------|
-| creatureBase | 0–538 | 539 |
-| itemBase | 539–1858 | 1320 |
-| enemy | 1859–2245 | 387 |
-| boss | 2246–2355 | 110 |
-| stage | 2356–2855 | 500 |
-| item/equip | 2856–3388 | 533 |
-| commander | 3389–3423 | 35 |
-| artifact | 3459–4015 | 557 |
+| creatureBase | 0–550 | 551 |
+| itemBase | 551–1917 | 1367 |
+| enemy | 1918–2304 | 387 |
+| boss | 2305–2414 | 110 |
+| stage | 2415–2914 | 500 |
+| item/equip | 2915–3455 | 541 |
+| commander | 3456–3490 | 35 |
+| cmdSpecialty | 3491–3525 | 35 |
+| artifact | 3526–4082 | 557 |
 
 ## Effect Code System
 
-- `artifact_code_mapping.json`: 아티팩트 전용 419개 코드 (0=데미지, 1=추가데미지, ...)
+- `artifact_code_mapping.json`: 아티팩트 전용 ~558개 코드
+- `MAINTYPE_TO_EFFECT` (extract_all.py 내): 93개 검증 코드, artifact_code_mapping보다 **우선 적용**
 - `enum_mappings.json`: 장비/스킬 전용 코드 (mainType → effect_name, 61개 검증)
 - `premium_effects.json`: 유료 아티팩트 32개 verified 데이터
 - 효과값 포맷: `pct` (×100+%), `raw` (배수), `int` (정수), `abs` (절대값)
+- **코드 90** = "모든 용병의 치명타 확률" (데미지 아님, ×1000 스케일링 없음)
+- **유료 전용 코드**: 1000번대 (1064=데미지, 1065=추가데미지 등) — 일반 코드와 같은 이름이어도 정상
+- **세트/조건부 코드**: 400~600번대에 "(세트완성시)", "(장착시)" 접두사로 구분
 
 ## Image Matching Rules (Validated)
 
@@ -80,7 +88,9 @@ git push origin master
 
 싱글페이지 SPA, ~39,000줄. 모든 JS/CSS/DATA 인라인.
 
-**인라인 데이터 상수**: `EQUIP_DATA`, `ART_DATA`, `RMSKILL_DATA` 등이 index.html 내에 직접 포함.
+**인라인 데이터 상수**: `EQUIP_DATA`, `ART_DATA`, `RMSKILL_DATA`, `MERC_DATA` 등이 index.html 내에 직접 포함.
+
+**인라인 동기화 주의**: MERC_DATA 라인 매칭 시 `const MERC_DATA = [` (공백 있음). `startswith('const MERC_DATA=')` (공백 없음)으로 매칭하면 실패. **반드시 `line.strip().startswith('const MERC_DATA')`로 매칭**.
 
 ### Tab 상태
 | Tab | Data Source | Status |

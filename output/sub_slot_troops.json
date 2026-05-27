@@ -26,10 +26,10 @@
       },
       {
         "type_code": 300,
-        "type_name": "아티팩트 드랍 확률",
+        "type_name": "아티팩트 획득 확률",
         "value": 0.16,
         "value_display": "16%",
-        "description": "아티팩트 드랍 확률 16%"
+        "description": "아티팩트 획득 확률 16%"
       },
       {
         "type_code": 1045,
@@ -299,10 +299,10 @@
     "effects_resolved": [
       {
         "type_code": 300,
-        "type_name": "아티팩트 드랍 확률",
+        "type_name": "아티팩트 획득 확률",
         "value": 0.15,
         "value_display": "15%",
-        "description": "아티팩트 드랍 확률 15%"
+        "description": "아티팩트 획득 확률 15%"
       }
     ],
     "randomValue": 0
@@ -1107,21 +1107,28 @@
     "passiveType": 28,
     "types": [
       14,
-      0,
+      56,
       0
     ],
     "effects": [
+      0.06,
       0.04,
-      0.0,
       0.0
     ],
     "effects_resolved": [
       {
         "type_code": 14,
         "type_name": "클릭 크리티컬 확률",
+        "value": 0.06,
+        "value_display": "6%",
+        "description": "클릭 크리티컬 확률 6%"
+      },
+      {
+        "type_code": 56,
+        "type_name": "뿔레 조각 드랍 확률",
         "value": 0.04,
         "value_display": "4%",
-        "description": "클릭 크리티컬 확률 4%"
+        "description": "뿔레 조각 드랍 확률 4%"
       }
     ],
     "randomValue": 0
@@ -1445,10 +1452,10 @@
       },
       {
         "type_code": 299,
-        "type_name": "자수정 드랍 확률",
+        "type_name": "자수정 획득 확률",
         "value": 0.15,
         "value_display": "15%",
-        "description": "자수정 드랍 확률 15%"
+        "description": "자수정 획득 확률 15%"
       }
     ],
     "randomValue": 0
@@ -1940,10 +1947,10 @@
     "effects_resolved": [
       {
         "type_code": 629,
-        "type_name": "뿔레 오브 드랍 확률 +[아케메스] 용병 수 X%",
+        "type_name": "뿔레 오브 획득 확률 +[아케메스] 용병 수 X%",
         "value": 0.015,
         "value_display": "1.5%",
-        "description": "뿔레 오브 드랍 확률 +[아케메스] 용병 수 X 1.5%%"
+        "description": "뿔레 오브 획득 확률 +[아케메스] 용병 수 X 1.5%%"
       },
       {
         "type_code": 630,
@@ -2527,10 +2534,10 @@
     "effects_resolved": [
       {
         "type_code": 257,
-        "type_name": "뿔레 오브 드랍 확률",
+        "type_name": "뿔레 오브 획득 확률",
         "value": 0.05,
         "value_display": "5%",
-        "description": "뿔레 오브 드랍 확률 5%"
+        "description": "뿔레 오브 획득 확률 5%"
       }
     ],
     "randomValue": 0
@@ -2578,16 +2585,23 @@
     "priceFactor": 0.0,
     "passiveType": 71,
     "types": [
+      8,
       261,
-      0,
       0
     ],
     "effects": [
+      3000.0,
       3.0,
-      0.0,
       0.0
     ],
     "effects_resolved": [
+      {
+        "type_code": 8,
+        "type_name": "골드 획득량",
+        "value": 3000.0,
+        "value_display": "300000%",
+        "description": "골드 획득량 300000%"
+      },
       {
         "type_code": 261,
         "type_name": "골드 획득량 +% -환생횟수 X%",
@@ -2765,10 +2779,10 @@
       },
       {
         "type_code": 174,
-        "type_name": "뿔레조각 드랍 확률",
+        "type_name": "뿔레조각 획득 확률",
         "value": 0.06,
         "value_display": "6%",
-        "description": "뿔레조각 드랍 확률 6%"
+        "description": "뿔레조각 획득 확률 6%"
       }
     ],
     "randomValue": 0
@@ -2919,10 +2933,10 @@
       },
       {
         "type_code": 299,
-        "type_name": "자수정 드랍 확률",
+        "type_name": "자수정 획득 확률",
         "value": 0.2,
         "value_display": "20%",
-        "description": "자수정 드랍 확률 20%"
+        "description": "자수정 획득 확률 20%"
       }
     ],
     "randomValue": 0
@@ -3493,10 +3507,10 @@
     "effects_resolved": [
       {
         "type_code": 257,
-        "type_name": "뿔레 오브 드랍 확률",
+        "type_name": "뿔레 오브 획득 확률",
         "value": 0.03,
         "value_display": "3%",
-        "description": "뿔레 오브 드랍 확률 3%"
+        "description": "뿔레 오브 획득 확률 3%"
       },
       {
         "type_code": 304,
@@ -3724,10 +3738,10 @@
       },
       {
         "type_code": 300,
-        "type_name": "아티팩트 드랍 확률",
+        "type_name": "아티팩트 획득 확률",
         "value": 0.16,
         "value_display": "16%",
-        "description": "아티팩트 드랍 확률 16%"
+        "description": "아티팩트 획득 확률 16%"
       }
     ],
     "randomValue": 0
@@ -3892,10 +3906,10 @@
     "effects_resolved": [
       {
         "type_code": 295,
-        "type_name": "루비 드랍 확률",
+        "type_name": "루비 획득 확률",
         "value": 0.2,
         "value_display": "20%",
-        "description": "루비 드랍 확률 20%"
+        "description": "루비 획득 확률 20%"
       },
       {
         "type_code": 282,
@@ -3959,12 +3973,12 @@
     "types": [
       1,
       20,
-      0
+      304
     ],
     "effects": [
       6.0,
       0.08,
-      0.0
+      0.06
     ],
     "effects_resolved": [
       {
@@ -3980,6 +3994,13 @@
         "value": 0.08,
         "value_display": "8%",
         "description": "모든 용병의 강타 확률 8%"
+      },
+      {
+        "type_code": 304,
+        "type_name": "선제 공격 확률",
+        "value": 0.06,
+        "value_display": "6%",
+        "description": "선제 공격 확률 6%"
       }
     ],
     "randomValue": 0
@@ -4907,10 +4928,10 @@
       },
       {
         "type_code": 257,
-        "type_name": "뿔레 오브 드랍 확률",
+        "type_name": "뿔레 오브 획득 확률",
         "value": 0.04,
         "value_display": "4%",
-        "description": "뿔레 오브 드랍 확률 4%"
+        "description": "뿔레 오브 획득 확률 4%"
       }
     ],
     "randomValue": 0
@@ -5054,10 +5075,10 @@
     "effects_resolved": [
       {
         "type_code": 300,
-        "type_name": "아티팩트 드랍 확률",
+        "type_name": "아티팩트 획득 확률",
         "value": 0.14,
         "value_display": "14%",
-        "description": "아티팩트 드랍 확률 14%"
+        "description": "아티팩트 획득 확률 14%"
       },
       {
         "type_code": 496,
@@ -5341,10 +5362,10 @@
     "effects_resolved": [
       {
         "type_code": 299,
-        "type_name": "자수정 드랍 확률",
+        "type_name": "자수정 획득 확률",
         "value": 0.25,
         "value_display": "25%",
-        "description": "자수정 드랍 확률 25%"
+        "description": "자수정 획득 확률 25%"
       },
       {
         "type_code": 33,
@@ -5460,10 +5481,10 @@
     "effects_resolved": [
       {
         "type_code": 257,
-        "type_name": "뿔레 오브 드랍 확률",
+        "type_name": "뿔레 오브 획득 확률",
         "value": 0.04,
         "value_display": "4%",
-        "description": "뿔레 오브 드랍 확률 4%"
+        "description": "뿔레 오브 획득 확률 4%"
       },
       {
         "type_code": 124,
@@ -5761,10 +5782,10 @@
       },
       {
         "type_code": 257,
-        "type_name": "뿔레 오브 드랍 확률",
+        "type_name": "뿔레 오브 획득 확률",
         "value": 0.03,
         "value_display": "3%",
-        "description": "뿔레 오브 드랍 확률 3%"
+        "description": "뿔레 오브 획득 확률 3%"
       },
       {
         "type_code": 588,
@@ -5803,10 +5824,10 @@
       },
       {
         "type_code": 257,
-        "type_name": "뿔레 오브 드랍 확률",
+        "type_name": "뿔레 오브 획득 확률",
         "value": 0.03,
         "value_display": "3%",
-        "description": "뿔레 오브 드랍 확률 3%"
+        "description": "뿔레 오브 획득 확률 3%"
       },
       {
         "type_code": 176,
@@ -5845,10 +5866,10 @@
       },
       {
         "type_code": 257,
-        "type_name": "뿔레 오브 드랍 확률",
+        "type_name": "뿔레 오브 획득 확률",
         "value": 0.03,
         "value_display": "3%",
-        "description": "뿔레 오브 드랍 확률 3%"
+        "description": "뿔레 오브 획득 확률 3%"
       },
       {
         "type_code": 107,
@@ -6398,10 +6419,10 @@
       },
       {
         "type_code": 174,
-        "type_name": "뿔레조각 드랍 확률",
+        "type_name": "뿔레조각 획득 확률",
         "value": 0.06,
         "value_display": "6%",
-        "description": "뿔레조각 드랍 확률 6%"
+        "description": "뿔레조각 획득 확률 6%"
       }
     ],
     "randomValue": 0
@@ -6538,10 +6559,10 @@
     "effects_resolved": [
       {
         "type_code": 300,
-        "type_name": "아티팩트 드랍 확률",
+        "type_name": "아티팩트 획득 확률",
         "value": 0.2,
         "value_display": "20%",
-        "description": "아티팩트 드랍 확률 20%"
+        "description": "아티팩트 획득 확률 20%"
       },
       {
         "type_code": 354,
@@ -7098,10 +7119,10 @@
     "effects_resolved": [
       {
         "type_code": 174,
-        "type_name": "뿔레조각 드랍 확률",
+        "type_name": "뿔레조각 획득 확률",
         "value": 0.06,
         "value_display": "6%",
-        "description": "뿔레조각 드랍 확률 6%"
+        "description": "뿔레조각 획득 확률 6%"
       },
       {
         "type_code": 1070,
@@ -7140,10 +7161,10 @@
     "effects_resolved": [
       {
         "type_code": 300,
-        "type_name": "아티팩트 드랍 확률",
+        "type_name": "아티팩트 획득 확률",
         "value": 0.24,
         "value_display": "24%",
-        "description": "아티팩트 드랍 확률 24%"
+        "description": "아티팩트 획득 확률 24%"
       },
       {
         "type_code": 496,
@@ -7399,10 +7420,10 @@
       },
       {
         "type_code": 174,
-        "type_name": "뿔레조각 드랍 확률",
+        "type_name": "뿔레조각 획득 확률",
         "value": 0.06,
         "value_display": "6%",
-        "description": "뿔레조각 드랍 확률 6%"
+        "description": "뿔레조각 획득 확률 6%"
       }
     ],
     "randomValue": 0
@@ -7511,10 +7532,10 @@
     "effects_resolved": [
       {
         "type_code": 300,
-        "type_name": "아티팩트 드랍 확률",
+        "type_name": "아티팩트 획득 확률",
         "value": 0.24,
         "value_display": "24%",
-        "description": "아티팩트 드랍 확률 24%"
+        "description": "아티팩트 획득 확률 24%"
       },
       {
         "type_code": 10,
@@ -7889,10 +7910,10 @@
       },
       {
         "type_code": 174,
-        "type_name": "뿔레조각 드랍 확률",
+        "type_name": "뿔레조각 획득 확률",
         "value": 0.06,
         "value_display": "6%",
-        "description": "뿔레조각 드랍 확률 6%"
+        "description": "뿔레조각 획득 확률 6%"
       }
     ],
     "randomValue": 0
@@ -8019,6 +8040,370 @@
         "value": 0.04,
         "value_display": "4%",
         "description": "적들의 무력화 효과 감소 4%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1332,
+    "name": "망각의 책",
+    "description": "망자들을 저승으로 인도한 후 그들의 이름을 기록하는 책입니다.",
+    "icon": 1098,
+    "priceFactor": 0.0,
+    "passiveType": 213,
+    "types": [
+      1,
+      9,
+      763
+    ],
+    "effects": [
+      5.0,
+      0.45,
+      0.015
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1,
+        "type_name": "추가 데미지",
+        "value": 5.0,
+        "value_display": "5",
+        "description": "추가 데미지 5"
+      },
+      {
+        "type_code": 9,
+        "type_name": "적들의 물리 저항력 감소",
+        "value": 0.45,
+        "value_display": "45%",
+        "description": "적들의 물리 저항력 감소 45%"
+      },
+      {
+        "type_code": 763,
+        "type_name": "효과763",
+        "value": 0.015,
+        "value_display": "0.015",
+        "description": "효과763 0.015"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1342,
+    "name": "그리폰의 눈+",
+    "description": "그리폰은 뛰어난 시력으로 항상 주변을 관찰하기 때문에 상황 파악 능력이 뛰어나다고 합니다.",
+    "icon": 1109,
+    "priceFactor": 0.0,
+    "passiveType": 214,
+    "types": [
+      43,
+      354,
+      1024
+    ],
+    "effects": [
+      2.0,
+      0.12,
+      0.03
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 43,
+        "type_name": "소울 클릭배수",
+        "value": 2.0,
+        "value_display": "200%",
+        "description": "소울 클릭배수 200%"
+      },
+      {
+        "type_code": 354,
+        "type_name": "아티팩트 효과 증폭",
+        "value": 0.12,
+        "value_display": "12%",
+        "description": "아티팩트 효과 증폭 12%"
+      },
+      {
+        "type_code": 1024,
+        "type_name": "소울 클릭 배수 증폭",
+        "value": 0.03,
+        "value_display": "3%",
+        "description": "소울 클릭 배수 증폭 3%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1346,
+    "name": "이모텝의 목걸이",
+    "description": "이모텝의 목걸이는 사실 500년간의 형벌을 위한 구속구였습니다.",
+    "icon": 1111,
+    "priceFactor": 0.0,
+    "passiveType": 215,
+    "types": [
+      354,
+      1175,
+      774
+    ],
+    "effects": [
+      0.12,
+      0.04,
+      0.04
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 354,
+        "type_name": "아티팩트 효과 증폭",
+        "value": 0.12,
+        "value_display": "12%",
+        "description": "아티팩트 효과 증폭 12%"
+      },
+      {
+        "type_code": 1175,
+        "type_name": "적들의 무력화 효과 감소",
+        "value": 0.04,
+        "value_display": "4%",
+        "description": "적들의 무력화 효과 감소 4%"
+      },
+      {
+        "type_code": 774,
+        "type_name": "효과774",
+        "value": 0.04,
+        "value_display": "0.04",
+        "description": "효과774 0.04"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1350,
+    "name": "금발의 미녀+",
+    "description": "염색할 필요도 없이 그녀의 머리카락은 천연 금발입니다.",
+    "icon": 1114,
+    "priceFactor": 0.0,
+    "passiveType": 216,
+    "types": [
+      354,
+      1082,
+      176
+    ],
+    "effects": [
+      0.18,
+      0.36,
+      0.18
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 354,
+        "type_name": "아티팩트 효과 증폭",
+        "value": 0.18,
+        "value_display": "18%",
+        "description": "아티팩트 효과 증폭 18%"
+      },
+      {
+        "type_code": 1082,
+        "type_name": "추가 클릭 데미지 증폭",
+        "value": 0.36,
+        "value_display": "36%",
+        "description": "추가 클릭 데미지 증폭 36%"
+      },
+      {
+        "type_code": 176,
+        "type_name": "피격 회피 확률",
+        "value": 0.18,
+        "value_display": "18%",
+        "description": "피격 회피 확률 18%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1353,
+    "name": "딥 슬립",
+    "description": "아낙수나문은 버프와 디버프를 시전하고 나면 전투가 끝날 때 까지 한숨 푹 잡니다.",
+    "icon": 1117,
+    "priceFactor": 0.0,
+    "passiveType": 217,
+    "types": [
+      538,
+      539,
+      0
+    ],
+    "effects": [
+      0.03,
+      0.02,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 538,
+        "type_name": "적 피해 면제 효과 감소",
+        "value": 0.03,
+        "value_display": "3%",
+        "description": "적 피해 면제 효과 감소 3%"
+      },
+      {
+        "type_code": 539,
+        "type_name": "적 반사 효과 감소",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "적 반사 효과 감소 2%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1354,
+    "name": "포텐셜 쥬얼 전문가",
+    "description": "아낙수나문은 포텐션 쥬얼의 잠재력을 증폭시킬 수 있습니다.",
+    "icon": 1118,
+    "priceFactor": 0.0,
+    "passiveType": 218,
+    "types": [
+      99,
+      1178,
+      0
+    ],
+    "effects": [
+      0.0005,
+      0.24,
+      0.0
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 99,
+        "type_name": "모든 용병의 데미지 +총 각성수 X%",
+        "value": 0.0005,
+        "value_display": "0.05%",
+        "description": "모든 용병의 데미지 +총 각성수 X 0.05%%"
+      },
+      {
+        "type_code": 1178,
+        "type_name": "쥬얼 효과 증폭",
+        "value": 0.24,
+        "value_display": "24%",
+        "description": "쥬얼 효과 증폭 24%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1358,
+    "name": "카오스에 오염된 눈+",
+    "description": "엑시스는 눈을 감을 수 없어 보지 말아야 할것들을 보다보니 오염되어 버렸습니다.",
+    "icon": 1121,
+    "priceFactor": 0.0,
+    "passiveType": 219,
+    "types": [
+      1178,
+      10,
+      53
+    ],
+    "effects": [
+      0.12,
+      0.09,
+      0.025
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1178,
+        "type_name": "쥬얼 효과 증폭",
+        "value": 0.12,
+        "value_display": "12%",
+        "description": "쥬얼 효과 증폭 12%"
+      },
+      {
+        "type_code": 10,
+        "type_name": "적들의 마법 저항력 감소",
+        "value": 0.09,
+        "value_display": "9%",
+        "description": "적들의 마법 저항력 감소 9%"
+      },
+      {
+        "type_code": 53,
+        "type_name": "모든 용병의 행운 배수",
+        "value": 0.025,
+        "value_display": "0.025",
+        "description": "모든 용병의 행운 배수 0.025"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1359,
+    "name": "신성한 힘",
+    "description": "라이샌더는 [콰소스] 신으로 부터 부여받은 신성한 힘을 다룰 수 있습니다.",
+    "icon": 1123,
+    "priceFactor": 0.0,
+    "passiveType": 220,
+    "types": [
+      95,
+      1165,
+      169
+    ],
+    "effects": [
+      40000.0,
+      25.0,
+      0.3
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 95,
+        "type_name": "신성 데미지",
+        "value": 40000.0,
+        "value_display": "40000",
+        "description": "신성 데미지 40000"
+      },
+      {
+        "type_code": 1165,
+        "type_name": "신성 데미지 +총 각성수 X",
+        "value": 25.0,
+        "value_display": "2500%",
+        "description": "신성 데미지 +총 각성수 X 2500%"
+      },
+      {
+        "type_code": 169,
+        "type_name": "모든 용병의 신성 데미지",
+        "value": 0.3,
+        "value_display": "30%",
+        "description": "모든 용병의 신성 데미지 30%"
+      }
+    ],
+    "randomValue": 0
+  },
+  {
+    "index": 1364,
+    "name": "카오스 디멘션",
+    "description": "혼돈의 힘을 이용하여 다른 차원으로 좌표값을 수정 할 수 있었습니다.",
+    "icon": 1129,
+    "priceFactor": 0.0,
+    "passiveType": 221,
+    "types": [
+      354,
+      1062,
+      1149
+    ],
+    "effects": [
+      0.2,
+      0.24,
+      0.02
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 354,
+        "type_name": "아티팩트 효과 증폭",
+        "value": 0.2,
+        "value_display": "20%",
+        "description": "아티팩트 효과 증폭 20%"
+      },
+      {
+        "type_code": 1062,
+        "type_name": "봉인 무효화 확률",
+        "value": 0.24,
+        "value_display": "24%",
+        "description": "봉인 무효화 확률 24%"
+      },
+      {
+        "type_code": 1149,
+        "type_name": "모든 카오스 용병의 치명타 확률",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "모든 카오스 용병의 치명타 확률 2%"
       }
     ],
     "randomValue": 0
