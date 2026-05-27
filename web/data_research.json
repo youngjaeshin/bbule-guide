@@ -106,7 +106,7 @@
           {"name": "희망의 씨앗", "effect": "아티팩트 드랍률 증가 (비효율)", "maxLv": 1000000, "maxEffect": "10%", "totalCost": "800조"},
           {"name": "루비 애플", "effect": "루비 드랍률 증가 (비효율)", "maxLv": 1000000, "maxEffect": "20%", "totalCost": "600조"},
           {"name": "사파이어 애플", "effect": "사파이어 드랍률 증가 (비효율)", "maxLv": 1000000, "maxEffect": "30%", "totalCost": "700조"},
-          {"name": "뿔레새의 깃털", "effect": "뿔레 오브 드랍률 증가 (비효율)", "maxLv": 1000000, "maxEffect": "10%?", "totalCost": "1,500조?"},
+          {"name": "뿔레새의 깃털", "effect": "뿔레 오브 드랍률 증가 (비효율)", "maxLv": 4000000, "maxEffect": "9%", "totalCost": "제보 부탁"},
           {"name": "고행의 삽", "effect": "최종 데미지 증가 (도전)", "maxLv": 250000, "maxEffect": "10%", "totalCost": "500조"}
         ]
       }
