@@ -10,12 +10,13 @@ Build artifact data for the web app.
 
 import re
 import json
-import os
+from pathlib import Path
 
-ARTIFACTS_JSON = '/Users/shin542/Desktop/Code/bbule/artifacts.json'
-ARTIFACT_IMG_DIR = '/Users/shin542/Desktop/Code/bbule/web/images/artifact/'
-OUTPUT_JSON = '/Users/shin542/Desktop/Code/bbule/web/data_artifacts.json'
-INDEX_HTML = '/Users/shin542/Desktop/Code/bbule/web/index.html'
+BASE_DIR = Path(__file__).resolve().parent
+ARTIFACTS_JSON = BASE_DIR / 'output' / 'artifacts.json'
+ARTIFACT_IMG_DIR = BASE_DIR / 'web' / 'images' / 'artifact'
+OUTPUT_JSON = BASE_DIR / 'web' / 'data_artifacts.json'
+INDEX_HTML = BASE_DIR / 'web' / 'index.html'
 
 # Fields to include in output (exclude aType, aEffect)
 KEEP_FIELDS = [
@@ -29,7 +30,7 @@ IMAGE_ALIASES = {
 }
 
 # --- Step 1: Build set of base portrait images ---
-all_images = set(os.listdir(ARTIFACT_IMG_DIR))
+all_images = {path.name for path in ARTIFACT_IMG_DIR.iterdir()}
 base_images = set()
 for img in all_images:
     if img.endswith('.png'):
@@ -52,7 +53,7 @@ print(f"Space-normalized aliases: {len(norm_to_img)}")
 with open(ARTIFACTS_JSON, 'r', encoding='utf-8') as f:
     raw_data = json.load(f)
 
-print(f"Loaded {len(raw_data)} artifacts from artifacts.json")
+print(f"Loaded {len(raw_data)} artifacts from {ARTIFACTS_JSON}")
 
 matched = 0
 unmatched = []

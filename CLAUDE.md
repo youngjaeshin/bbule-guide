@@ -23,6 +23,9 @@ bwc1863_TEST_8.apk
 ## Build & Deploy Commands
 
 ```bash
+# 권장: 추출 → 웹 빌드 → 버전 표기 → 검증
+python3 scripts/update_game_data.py --bin bgdb_clean.bin --game-version "v.1863 TEST_8" --guide-version v0.3 --apk-name bwc1863_TEST_8.apk
+
 # 1. 바이너리 → JSON 추출 (9개 파일 생성)
 python3 extract_all.py
 python3 extract_all.py --bin /path/to/bgdb_clean.bin --out /output/dir
@@ -36,8 +39,9 @@ python3 build_simulator_data.py   # → web/data_simulator.json
 python3 build_commander_tab.py    # → 지휘관 탭 (34 용병 + XP 레벨업 표)
 python3 build_scarecrow_invader.py # → 허수아비/침략자 탭
 
-# 3. 배포 (git push하면 Vercel 자동 배포)
-git push origin master
+# 3. 배포 (Vercel production은 main, preview는 master)
+git push origin HEAD:master
+git push origin HEAD:main
 ```
 
 ## Binary Parsing Rules (CRITICAL)
@@ -63,7 +67,7 @@ git push origin master
 
 ## Effect Code System
 
-- `artifact_code_mapping.json`: 아티팩트 전용 ~558개 코드
+- `artifact_code_mapping.json`: 아티팩트 전용 620개 코드
 - `MAINTYPE_TO_EFFECT` (extract_all.py 내): 93개 검증 코드, artifact_code_mapping보다 **우선 적용**
 - `enum_mappings.json`: 장비/스킬 전용 코드 (mainType → effect_name, 61개 검증)
 - `premium_effects.json`: 유료 아티팩트 32개 verified 데이터
@@ -79,10 +83,10 @@ git push origin master
 - 557개 중 37개는 New 버전이 원본과 icon 공유
 - 아낙수나문 유료 4종(idx 505~508)은 icon=0 임시매핑
 
-**장비** (95.5% 매칭, 509/533):
+**장비** (아이콘 기반 매칭):
 - `icon` 필드 → `web/images/equip-icon/{icon}.png` (padStart(3,'0'))
 - **idx ≠ icon** — 장비는 순서가 다름, 반드시 icon 기준으로 이미지 매칭
-- 24개 누락: icon 139, 184, 185, 201, 282~306 (신규 장비)
+- 누락 이미지는 `verify_web_data_sync.py` 경고에서 등급별로 확인
 
 ## Web Architecture (web/index.html)
 

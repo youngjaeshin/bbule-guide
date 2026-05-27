@@ -27,7 +27,7 @@
 ### 3. 아티팩트 탭 (Artifacts)
 - 557개 아티팩트 데이터
 - 100% 이미지 매칭
-- 효과 코드 (419개) 자동 해석
+- 효과 코드 (620개) 자동 해석
 - 유료 아티팩트 32개 검증 데이터
 - New/Original 버전 구분
 
@@ -78,7 +78,7 @@ Vercel 자동 배포
 
 | 파일 | 용도 | 개수 |
 |------|------|------|
-| `artifact_code_mapping.json` | 아티팩트 효과 코드 | 419개 |
+| `artifact_code_mapping.json` | 아티팩트 효과 코드 | 620개 |
 | `enum_mappings.json` | 장비/스킬 효과 코드 | 61개 |
 | `premium_effects.json` | 유료 아티팩트 검증 | 32개 |
 
@@ -95,6 +95,13 @@ Vercel 자동 배포
 ### 1. 데이터 추출 (바이너리 → JSON)
 
 ```bash
+# 권장: 추출/웹 빌드/버전 표기/검증을 한 번에 실행
+python3 scripts/update_game_data.py \
+  --bin bgdb_clean.bin \
+  --game-version "v.1863 TEST_8" \
+  --guide-version v0.3 \
+  --apk-name bwc1863_TEST_8.apk
+
 # 기본 실행
 python3 extract_all.py
 
@@ -142,10 +149,11 @@ git add web/
 git commit -m "Update game data v.1863 TEST_8"
 
 # GitHub 푸시 (Vercel 자동 배포)
-git push origin master
+git push origin HEAD:master
+git push origin HEAD:main
 ```
 
-> **배포 자동화**: `youngjaeshin/bbule-guide` GitHub 레포에서 master 브랜치 푸시 시 Vercel에서 자동 배포됩니다.
+> **배포 자동화**: `youngjaeshin/bbule-guide`의 Vercel production은 `main` 브랜치를 봅니다. `master`만 푸시하면 preview 배포만 생성될 수 있으므로 두 브랜치를 같은 커밋으로 맞춥니다.
 
 ---
 
@@ -185,20 +193,21 @@ bbule/
 ├── extract_all.py                     # 핵심: APK 바이너리 → JSON 추출
 ├── bgdb_utils.py                      # 바이너리 파싱 유틸리티
 │
+├── scripts/update_game_data.py        # 추출→웹 빌드→검증→선택 커밋/푸시 자동화
 ├── build_artifact_data.py             # 아티팩트 웹 데이터 생성
 ├── build_equipment_data.py            # 장비 웹 데이터 생성
 ├── build_commander_tab.py             # 지휘관 탭 생성
 ├── build_scarecrow_invader.py         # 허수아비/침략자 탭 생성
 │
-├── artifact_code_mapping.json         # 아티팩트 효과 코드 (419개)
+├── artifact_code_mapping.json         # 아티팩트 효과 코드 (620개)
 ├── enum_mappings.json                 # 장비/스킬 효과 코드 (61개)
 ├── premium_effects.json               # 유료 아티팩트 검증 데이터 (32개)
 │
 ├── web/
 │   ├── index.html                     # 메인 싱글페이지 (~39,000줄)
 │   ├── .gitignore
-│   ├── data_mercenaries.json          # 539 용병
-│   ├── data_equipment.json            # 533 장비
+│   ├── data_mercenaries.json          # 551 용병
+│   ├── data_equipment.json            # 541 장비
 │   ├── data_commanders.json           # 35 지휘관
 │   ├── data_subslot.json              # 보조슬롯
 │   ├── data_stages.json               # 500 스테이지
@@ -287,7 +296,7 @@ icon 필드 값 → web/images/artifact/{icon}.png
 - 557개 중 37개는 New 버전이 원본과 icon 공유
 - 아낙수나문 유료 4종(idx 505~508)은 icon=0 임시매핑
 
-### 장비 (95.5% 매칭, 509/533)
+### 장비 (아이콘 기반 매칭)
 
 ```
 icon 필드 값 → web/images/equip-icon/{icon:03d}.png
@@ -326,9 +335,12 @@ icon 필드 값 → web/images/equip-icon/{icon:03d}.png
 ### APK 업데이트 시
 
 1. 새 APK에서 `bgdb_clean.bin` 추출
-2. `python3 extract_all.py` 실행
-3. `build_*_data.py` 스크립트 순차 실행
-4. `web/index.html` 확인 및 배포
+2. `python3 scripts/update_game_data.py --bin bgdb_clean.bin --game-version "v.xxxx TEST_n" --guide-version v0.x` 실행
+3. `verify_web_data_sync.py` 경고에서 미매핑 코드와 누락 초상화 검토
+4. 필요하면 매핑 JSON과 수동 override를 수정한 뒤 스크립트 재실행
+5. 준비가 끝나면 `--commit --push --check-live` 옵션으로 커밋/배포 확인
+
+상세 절차는 `docs/apk-update-playbook.md`를 봅니다.
 
 ### 로컬 테스트
 

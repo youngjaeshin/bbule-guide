@@ -6,6 +6,7 @@ This repository builds a static web guide from extracted game data. Root Python 
 Generated extraction output goes in `output/`. The deployed static app lives in `web/`: `web/index.html` is the single-page app, `web/data_*.json` is browser-loaded data, and `web/images/` stores icons. `cafe_scraper/` is an optional ranking-data pipeline.
 
 ## Build, Test, and Development Commands
+- `python3 scripts/update_game_data.py --bin bgdb_clean.bin --game-version "v.xxxx TEST_n" --guide-version v0.x`: run the standard extract, rebuild, version-label, and verification pipeline.
 - `python3 extract_all.py`: parse `bgdb_clean.bin` into `output/*.json`.
 - `python3 extract_all.py --bin /path/to/bgdb_clean.bin --out output`: run extraction with explicit paths.
 - `python3 build_artifact_data.py`: rebuild artifact web data and inline `ART_DATA`.
@@ -29,6 +30,8 @@ There is no formal test framework yet. Before committing data-pipeline changes, 
 Recent history uses concise Conventional Commit prefixes, usually `feat:` for data/version additions and `fix:` for corrections, followed by a specific summary. Example: `fix: artifact code mapping correction`.
 
 Pull requests should describe the data source or game version, list regenerated files, and include verification commands. For UI-visible changes, attach screenshots or note the local URL checked. Do not commit `__pycache__/`, `.DS_Store`, or temporary scraper backups.
+
+For releases, keep `origin/main` and `origin/master` on the same commit. Vercel production follows `main`; `master` may only create preview deployments.
 
 ## Security & Configuration Tips
 Treat APK extracts, binary databases, and scraped screenshots as source artifacts. Do not add credentials, browser cookies, or private cafe access tokens to the repository.
