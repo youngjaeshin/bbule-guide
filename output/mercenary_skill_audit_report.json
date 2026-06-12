@@ -1,0 +1,1852 @@
+{
+  "summary": {
+    "same_name_compared": 2754,
+    "missing_candidate": 26,
+    "masked": 0,
+    "malformed": 0,
+    "unresolved": 0,
+    "ambiguous": 40,
+    "ambiguous_with_overrides": 40
+  },
+  "masked": [],
+  "malformed": [],
+  "unresolved": [],
+  "ambiguous": [
+    {
+      "grade": "E",
+      "mercenary": "모나크 2세",
+      "hero_id": 99,
+      "slot": 4,
+      "skill_id": 505,
+      "skill": "끌어당김의 법칙",
+      "selection": "override",
+      "selected": "뿔레정수 획득 확률 +6%",
+      "candidates": [
+        {
+          "source": "sub_slot_troops.json",
+          "types": [
+            124,
+            0,
+            0
+          ],
+          "effects": [
+            0.4,
+            0.0,
+            0.0
+          ],
+          "text": "데미지 편차 +40%"
+        },
+        {
+          "source": "random_merc_skills.json",
+          "types": [
+            109,
+            0,
+            0
+          ],
+          "effects": [
+            0.06,
+            0.0,
+            0.0
+          ],
+          "text": "뿔레정수 획득 확률 +6%"
+        }
+      ]
+    },
+    {
+      "grade": "B",
+      "mercenary": "모나크 2세",
+      "hero_id": 100,
+      "slot": 4,
+      "skill_id": 505,
+      "skill": "끌어당김의 법칙",
+      "selection": "override",
+      "selected": "뿔레정수 획득 확률 +6%",
+      "candidates": [
+        {
+          "source": "sub_slot_troops.json",
+          "types": [
+            124,
+            0,
+            0
+          ],
+          "effects": [
+            0.4,
+            0.0,
+            0.0
+          ],
+          "text": "데미지 편차 +40%"
+        },
+        {
+          "source": "random_merc_skills.json",
+          "types": [
+            109,
+            0,
+            0
+          ],
+          "effects": [
+            0.06,
+            0.0,
+            0.0
+          ],
+          "text": "뿔레정수 획득 확률 +6%"
+        }
+      ]
+    },
+    {
+      "grade": "S",
+      "mercenary": "모나크 2세",
+      "hero_id": 101,
+      "slot": 4,
+      "skill_id": 505,
+      "skill": "끌어당김의 법칙",
+      "selection": "override",
+      "selected": "뿔레정수 획득 확률 +6%",
+      "candidates": [
+        {
+          "source": "sub_slot_troops.json",
+          "types": [
+            124,
+            0,
+            0
+          ],
+          "effects": [
+            0.4,
+            0.0,
+            0.0
+          ],
+          "text": "데미지 편차 +40%"
+        },
+        {
+          "source": "random_merc_skills.json",
+          "types": [
+            109,
+            0,
+            0
+          ],
+          "effects": [
+            0.06,
+            0.0,
+            0.0
+          ],
+          "text": "뿔레정수 획득 확률 +6%"
+        }
+      ]
+    },
+    {
+      "grade": "B",
+      "mercenary": "미스터 버블",
+      "hero_id": 104,
+      "slot": 4,
+      "skill_id": 353,
+      "skill": "보호막 관통",
+      "selection": "override",
+      "selected": "공격 무효화 관통 +2%",
+      "candidates": [
+        {
+          "source": "mercenary_skills.json",
+          "types": [
+            56,
+            0,
+            0
+          ],
+          "effects": [
+            0.08,
+            0.0,
+            0.0
+          ],
+          "text": "공격 무효화 관통 +8%"
+        },
+        {
+          "source": "random_merc_skills.json",
+          "types": [
+            56,
+            0,
+            0
+          ],
+          "effects": [
+            0.02,
+            0.0,
+            0.0
+          ],
+          "text": "공격 무효화 관통 +2%"
+        }
+      ]
+    },
+    {
+      "grade": "C",
+      "mercenary": "에지",
+      "hero_id": 202,
+      "slot": 2,
+      "skill_id": 353,
+      "skill": "보호막 관통",
+      "selection": "override",
+      "selected": "공격 무효화 관통 +2%",
+      "candidates": [
+        {
+          "source": "mercenary_skills.json",
+          "types": [
+            56,
+            0,
+            0
+          ],
+          "effects": [
+            0.08,
+            0.0,
+            0.0
+          ],
+          "text": "공격 무효화 관통 +8%"
+        },
+        {
+          "source": "random_merc_skills.json",
+          "types": [
+            56,
+            0,
+            0
+          ],
+          "effects": [
+            0.02,
+            0.0,
+            0.0
+          ],
+          "text": "공격 무효화 관통 +2%"
+        }
+      ]
+    },
+    {
+      "grade": "S",
+      "mercenary": "에지",
+      "hero_id": 203,
+      "slot": 2,
+      "skill_id": 353,
+      "skill": "보호막 관통",
+      "selection": "override",
+      "selected": "공격 무효화 관통 +2%",
+      "candidates": [
+        {
+          "source": "mercenary_skills.json",
+          "types": [
+            56,
+            0,
+            0
+          ],
+          "effects": [
+            0.08,
+            0.0,
+            0.0
+          ],
+          "text": "공격 무효화 관통 +8%"
+        },
+        {
+          "source": "random_merc_skills.json",
+          "types": [
+            56,
+            0,
+            0
+          ],
+          "effects": [
+            0.02,
+            0.0,
+            0.0
+          ],
+          "text": "공격 무효화 관통 +2%"
+        }
+      ]
+    },
+    {
+      "grade": "S",
+      "mercenary": "하라",
+      "hero_id": 219,
+      "slot": 5,
+      "skill_id": 335,
+      "skill": "하라의 귀여움",
+      "selection": "override",
+      "selected": "강타 확률 +16%",
+      "candidates": [
+        {
+          "source": "mercenary_skills.json",
+          "types": [
+            36,
+            0,
+            0
+          ],
+          "effects": [
+            0.04,
+            0.0,
+            0.0
+          ],
+          "text": "모든 혼합 용병의 연타 확률 +4%"
+        },
+        {
+          "source": "mercenary_skills.json",
+          "types": [
+            20,
+            0,
+            0
+          ],
+          "effects": [
+            0.16,
+            0.0,
+            0.0
+          ],
+          "text": "강타 확률 +16%"
+        }
+      ]
+    },
+    {
+      "grade": "S",
+      "mercenary": "사이프리드",
+      "hero_id": 222,
+      "slot": 2,
+      "skill_id": 417,
+      "skill": "정당한 분노+",
+      "selection": "override",
+      "selected": "공격 속도 +40% / 클릭 데미지 +100%",
+      "candidates": [
+        {
+          "source": "mercenary_skills.json",
+          "types": [
+            45,
+            26,
+            0
+          ],
+          "effects": [
+            0.008,
+            1.7,
+            0.0
+          ],
+          "text": "매 공격시 적 체력 감소 +0.8% / 강타 배수 +1.7"
+        },
+        {
+          "source": "random_merc_skills.json",
+          "types": [
+            9,
+            15,
+            0
+          ],
+          "effects": [
+            0.4,
+            1.0,
+            0.0
+          ],
+          "text": "공격 속도 +40% / 클릭 데미지 +100%"
+        }
+      ]
+    },
+    {
+      "grade": "S",
+      "mercenary": "헤라클레스",
+      "hero_id": 225,
+      "slot": 5,
+      "skill_id": 348,
+      "skill": "촉진된 진화++",
+      "selection": "override",
+      "selected": "클릭 데미지 +300% / 추가 클릭 확률 +50% / 추가 클릭 데미지 +30%",
+      "candidates": [
+        {
+          "source": "mercenary_skills.json",
+          "types": [
+            15,
+            43,
+            122
+          ],
+          "effects": [
+            2.0,
+            0.4,
+            0.2
+          ],
+          "text": "클릭 데미지 +200% / 추가 클릭 확률 +40% / 추가 클릭 데미지 +20%"
+        },
+        {
+          "source": "mercenary_skills.json",
+          "types": [
+            15,
+            43,
+            122
+          ],
+          "effects": [
+            3.0,
+            0.5,
+            0.3
+          ],
+          "text": "클릭 데미지 +300% / 추가 클릭 확률 +50% / 추가 클릭 데미지 +30%"
+        }
+      ]
+    },
+    {
+      "grade": "S",
+      "mercenary": "알더탈론",
+      "hero_id": 228,
+      "slot": 3,
+      "skill_id": 417,
+      "skill": "정당한 분노+",
+      "selection": "override",
+      "selected": "공격 속도 +40% / 클릭 데미지 +100%",
+      "candidates": [
+        {
+          "source": "mercenary_skills.json",
+          "types": [
+            45,
+            26,
+            0
+          ],
+          "effects": [
+            0.008,
+            1.7,
+            0.0
+          ],
+          "text": "매 공격시 적 체력 감소 +0.8% / 강타 배수 +1.7"
+        },
+        {
+          "source": "random_merc_skills.json",
+          "types": [
+            9,
+            15,
+            0
+          ],
+          "effects": [
+            0.4,
+            1.0,
+            0.0
+          ],
+          "text": "공격 속도 +40% / 클릭 데미지 +100%"
+        }
+      ]
+    },
+    {
+      "grade": "C",
+      "mercenary": "사미개",
+      "hero_id": 232,
+      "slot": 4,
+      "skill_id": 353,
+      "skill": "보호막 관통",
+      "selection": "override",
+      "selected": "공격 무효화 관통 +2%",
+      "candidates": [
+        {
+          "source": "mercenary_skills.json",
+          "types": [
+            56,
+            0,
+            0
+          ],
+          "effects": [
+            0.08,
+            0.0,
+            0.0
+          ],
+          "text": "공격 무효화 관통 +8%"
+        },
+        {
+          "source": "random_merc_skills.json",
+          "types": [
+            56,
+            0,
+            0
+          ],
+          "effects": [
+            0.02,
+            0.0,
+            0.0
+          ],
+          "text": "공격 무효화 관통 +2%"
+        }
+      ]
+    },
+    {
+      "grade": "A",
+      "mercenary": "마줄리스",
+      "hero_id": 235,
+      "slot": 3,
+      "skill_id": 353,
+      "skill": "보호막 관통",
+      "selection": "override",
+      "selected": "공격 무효화 관통 +2%",
+      "candidates": [
+        {
+          "source": "mercenary_skills.json",
+          "types": [
+            56,
+            0,
+            0
+          ],
+          "effects": [
+            0.08,
+            0.0,
+            0.0
+          ],
+          "text": "공격 무효화 관통 +8%"
+        },
+        {
+          "source": "random_merc_skills.json",
+          "types": [
+            56,
+            0,
+            0
+          ],
+          "effects": [
+            0.02,
+            0.0,
+            0.0
+          ],
+          "text": "공격 무효화 관통 +2%"
+        }
+      ]
+    },
+    {
+      "grade": "G",
+      "mercenary": "스칼렛",
+      "hero_id": 245,
+      "slot": 2,
+      "skill_id": 505,
+      "skill": "끌어당김의 법칙",
+      "selection": "override",
+      "selected": "뿔레정수 획득 확률 +6%",
+      "candidates": [
+        {
+          "source": "sub_slot_troops.json",
+          "types": [
+            124,
+            0,
+            0
+          ],
+          "effects": [
+            0.4,
+            0.0,
+            0.0
+          ],
+          "text": "데미지 편차 +40%"
+        },
+        {
+          "source": "random_merc_skills.json",
+          "types": [
+            109,
+            0,
+            0
+          ],
+          "effects": [
+            0.06,
+            0.0,
+            0.0
+          ],
+          "text": "뿔레정수 획득 확률 +6%"
+        }
+      ]
+    },
+    {
+      "grade": "G",
+      "mercenary": "주니엘",
+      "hero_id": 256,
+      "slot": 2,
+      "skill_id": 505,
+      "skill": "끌어당김의 법칙",
+      "selection": "override",
+      "selected": "뿔레정수 획득 확률 +6%",
+      "candidates": [
+        {
+          "source": "sub_slot_troops.json",
+          "types": [
+            124,
+            0,
+            0
+          ],
+          "effects": [
+            0.4,
+            0.0,
+            0.0
+          ],
+          "text": "데미지 편차 +40%"
+        },
+        {
+          "source": "random_merc_skills.json",
+          "types": [
+            109,
+            0,
+            0
+          ],
+          "effects": [
+            0.06,
+            0.0,
+            0.0
+          ],
+          "text": "뿔레정수 획득 확률 +6%"
+        }
+      ]
+    },
+    {
+      "grade": "S",
+      "mercenary": "타케리리",
+      "hero_id": 290,
+      "slot": 4,
+      "skill_id": 505,
+      "skill": "끌어당김의 법칙",
+      "selection": "override",
+      "selected": "뿔레정수 획득 확률 +6%",
+      "candidates": [
+        {
+          "source": "sub_slot_troops.json",
+          "types": [
+            124,
+            0,
+            0
+          ],
+          "effects": [
+            0.4,
+            0.0,
+            0.0
+          ],
+          "text": "데미지 편차 +40%"
+        },
+        {
+          "source": "random_merc_skills.json",
+          "types": [
+            109,
+            0,
+            0
+          ],
+          "effects": [
+            0.06,
+            0.0,
+            0.0
+          ],
+          "text": "뿔레정수 획득 확률 +6%"
+        }
+      ]
+    },
+    {
+      "grade": "S",
+      "mercenary": "토드",
+      "hero_id": 291,
+      "slot": 1,
+      "skill_id": 505,
+      "skill": "끌어당김의 법칙",
+      "selection": "override",
+      "selected": "뿔레정수 획득 확률 +6%",
+      "candidates": [
+        {
+          "source": "sub_slot_troops.json",
+          "types": [
+            124,
+            0,
+            0
+          ],
+          "effects": [
+            0.4,
+            0.0,
+            0.0
+          ],
+          "text": "데미지 편차 +40%"
+        },
+        {
+          "source": "random_merc_skills.json",
+          "types": [
+            109,
+            0,
+            0
+          ],
+          "effects": [
+            0.06,
+            0.0,
+            0.0
+          ],
+          "text": "뿔레정수 획득 확률 +6%"
+        }
+      ]
+    },
+    {
+      "grade": "S",
+      "mercenary": "도키",
+      "hero_id": 303,
+      "slot": 2,
+      "skill_id": 505,
+      "skill": "끌어당김의 법칙",
+      "selection": "override",
+      "selected": "뿔레정수 획득 확률 +6%",
+      "candidates": [
+        {
+          "source": "sub_slot_troops.json",
+          "types": [
+            124,
+            0,
+            0
+          ],
+          "effects": [
+            0.4,
+            0.0,
+            0.0
+          ],
+          "text": "데미지 편차 +40%"
+        },
+        {
+          "source": "random_merc_skills.json",
+          "types": [
+            109,
+            0,
+            0
+          ],
+          "effects": [
+            0.06,
+            0.0,
+            0.0
+          ],
+          "text": "뿔레정수 획득 확률 +6%"
+        }
+      ]
+    },
+    {
+      "grade": "G",
+      "mercenary": "티어달리스",
+      "hero_id": 317,
+      "slot": 1,
+      "skill_id": 566,
+      "skill": "행성파괴",
+      "selection": "override",
+      "selected": "연타 불가 / 모든 마법 용병의 최종 데미지 +2%",
+      "candidates": [
+        {
+          "source": "mercenary_skills.json",
+          "types": [
+            119,
+            26,
+            282
+          ],
+          "effects": [
+            0.005,
+            1.0,
+            0.025
+          ],
+          "text": "데미지 +총 각성수 X +0.5% / 강타 배수 +1 / 적들의 둔화 효과 감소 +2.5%"
+        },
+        {
+          "source": "sub_slot_troops.json",
+          "types": [
+            32,
+            97,
+            0
+          ],
+          "effects": [
+            -5.0,
+            0.02,
+            0.0
+          ],
+          "text": "연타 확률 -500% / 모든 마법 용병의 최종 데미지 +2%"
+        }
+      ]
+    },
+    {
+      "grade": "H",
+      "mercenary": "판티테스",
+      "hero_id": 335,
+      "slot": 5,
+      "skill_id": 618,
+      "skill": "남다른 우정",
+      "selection": "override",
+      "selected": "클릭 데미지 +총 각성수 X +0.3% / 크릭서스 참전시 추가 클릭 데미지 +50%",
+      "candidates": [
+        {
+          "source": "mercenary_skills.json",
+          "types": [
+            149,
+            171,
+            0
+          ],
+          "effects": [
+            0.003,
+            0.5,
+            0.0
+          ],
+          "text": "클릭 데미지 +총 각성수 X +0.3% / 크릭서스 참전시 추가 클릭 데미지 +50%"
+        },
+        {
+          "source": "mercenary_skills.json",
+          "types": [
+            174,
+            0,
+            0
+          ],
+          "effects": [
+            0.06,
+            0.0,
+            0.0
+          ],
+          "text": "뿔레조각 획득 확률 +6%"
+        }
+      ]
+    },
+    {
+      "grade": "E",
+      "mercenary": "이파",
+      "hero_id": 340,
+      "slot": 3,
+      "skill_id": 353,
+      "skill": "보호막 관통",
+      "selection": "override",
+      "selected": "공격 무효화 관통 +2%",
+      "candidates": [
+        {
+          "source": "mercenary_skills.json",
+          "types": [
+            56,
+            0,
+            0
+          ],
+          "effects": [
+            0.08,
+            0.0,
+            0.0
+          ],
+          "text": "공격 무효화 관통 +8%"
+        },
+        {
+          "source": "random_merc_skills.json",
+          "types": [
+            56,
+            0,
+            0
+          ],
+          "effects": [
+            0.02,
+            0.0,
+            0.0
+          ],
+          "text": "공격 무효화 관통 +2%"
+        }
+      ]
+    },
+    {
+      "grade": "C",
+      "mercenary": "이파",
+      "hero_id": 341,
+      "slot": 3,
+      "skill_id": 353,
+      "skill": "보호막 관통",
+      "selection": "override",
+      "selected": "공격 무효화 관통 +2%",
+      "candidates": [
+        {
+          "source": "mercenary_skills.json",
+          "types": [
+            56,
+            0,
+            0
+          ],
+          "effects": [
+            0.08,
+            0.0,
+            0.0
+          ],
+          "text": "공격 무효화 관통 +8%"
+        },
+        {
+          "source": "random_merc_skills.json",
+          "types": [
+            56,
+            0,
+            0
+          ],
+          "effects": [
+            0.02,
+            0.0,
+            0.0
+          ],
+          "text": "공격 무효화 관통 +2%"
+        }
+      ]
+    },
+    {
+      "grade": "H",
+      "mercenary": "월-H",
+      "hero_id": 365,
+      "slot": 3,
+      "skill_id": 505,
+      "skill": "끌어당김의 법칙",
+      "selection": "override",
+      "selected": "뿔레정수 획득 확률 +6%",
+      "candidates": [
+        {
+          "source": "sub_slot_troops.json",
+          "types": [
+            124,
+            0,
+            0
+          ],
+          "effects": [
+            0.4,
+            0.0,
+            0.0
+          ],
+          "text": "데미지 편차 +40%"
+        },
+        {
+          "source": "random_merc_skills.json",
+          "types": [
+            109,
+            0,
+            0
+          ],
+          "effects": [
+            0.06,
+            0.0,
+            0.0
+          ],
+          "text": "뿔레정수 획득 확률 +6%"
+        }
+      ]
+    },
+    {
+      "grade": "O",
+      "mercenary": "티모클리에",
+      "hero_id": 379,
+      "slot": 3,
+      "skill_id": 505,
+      "skill": "끌어당김의 법칙",
+      "selection": "override",
+      "selected": "뿔레정수 획득 확률 +6%",
+      "candidates": [
+        {
+          "source": "sub_slot_troops.json",
+          "types": [
+            124,
+            0,
+            0
+          ],
+          "effects": [
+            0.4,
+            0.0,
+            0.0
+          ],
+          "text": "데미지 편차 +40%"
+        },
+        {
+          "source": "random_merc_skills.json",
+          "types": [
+            109,
+            0,
+            0
+          ],
+          "effects": [
+            0.06,
+            0.0,
+            0.0
+          ],
+          "text": "뿔레정수 획득 확률 +6%"
+        }
+      ]
+    },
+    {
+      "grade": "X",
+      "mercenary": "드라콘",
+      "hero_id": 381,
+      "slot": 2,
+      "skill_id": 505,
+      "skill": "끌어당김의 법칙",
+      "selection": "override",
+      "selected": "뿔레정수 획득 확률 +6%",
+      "candidates": [
+        {
+          "source": "sub_slot_troops.json",
+          "types": [
+            124,
+            0,
+            0
+          ],
+          "effects": [
+            0.4,
+            0.0,
+            0.0
+          ],
+          "text": "데미지 편차 +40%"
+        },
+        {
+          "source": "random_merc_skills.json",
+          "types": [
+            109,
+            0,
+            0
+          ],
+          "effects": [
+            0.06,
+            0.0,
+            0.0
+          ],
+          "text": "뿔레정수 획득 확률 +6%"
+        }
+      ]
+    },
+    {
+      "grade": "X",
+      "mercenary": "포에베",
+      "hero_id": 383,
+      "slot": 4,
+      "skill_id": 752,
+      "skill": "니헤르의 투구",
+      "selection": "override",
+      "selected": "공격 무효화 관통 +4% / 뿔레정수 획득 확률 +6% / 니헤르의 투구 착용시 모든 용병의 강타 배수 +0.4",
+      "candidates": [
+        {
+          "source": "mercenary_skills.json",
+          "types": [
+            1084,
+            289,
+            702
+          ],
+          "effects": [
+            0.02,
+            0.08,
+            0.03
+          ],
+          "text": "모든 용병의 더블 어택 확률 +2% / 효과 +289 +0.08 / 물리, 마법, 카오스 데미지가 모두 있을 때 적들의 부활 확률 감소 +3%"
+        },
+        {
+          "source": "mercenary_skills.json",
+          "types": [
+            56,
+            109,
+            292
+          ],
+          "effects": [
+            0.04,
+            0.06,
+            0.4
+          ],
+          "text": "공격 무효화 관통 +4% / 뿔레정수 획득 확률 +6% / 니헤르의 투구 착용시 모든 용병의 강타 배수 +0.4"
+        }
+      ]
+    },
+    {
+      "grade": "D",
+      "mercenary": "스크롱",
+      "hero_id": 398,
+      "slot": 2,
+      "skill_id": 353,
+      "skill": "보호막 관통",
+      "selection": "override",
+      "selected": "공격 무효화 관통 +2%",
+      "candidates": [
+        {
+          "source": "mercenary_skills.json",
+          "types": [
+            56,
+            0,
+            0
+          ],
+          "effects": [
+            0.08,
+            0.0,
+            0.0
+          ],
+          "text": "공격 무효화 관통 +8%"
+        },
+        {
+          "source": "random_merc_skills.json",
+          "types": [
+            56,
+            0,
+            0
+          ],
+          "effects": [
+            0.02,
+            0.0,
+            0.0
+          ],
+          "text": "공격 무효화 관통 +2%"
+        }
+      ]
+    },
+    {
+      "grade": "S",
+      "mercenary": "콘치",
+      "hero_id": 407,
+      "slot": 3,
+      "skill_id": 353,
+      "skill": "보호막 관통",
+      "selection": "override",
+      "selected": "공격 무효화 관통 +2%",
+      "candidates": [
+        {
+          "source": "mercenary_skills.json",
+          "types": [
+            56,
+            0,
+            0
+          ],
+          "effects": [
+            0.08,
+            0.0,
+            0.0
+          ],
+          "text": "공격 무효화 관통 +8%"
+        },
+        {
+          "source": "random_merc_skills.json",
+          "types": [
+            56,
+            0,
+            0
+          ],
+          "effects": [
+            0.02,
+            0.0,
+            0.0
+          ],
+          "text": "공격 무효화 관통 +2%"
+        }
+      ]
+    },
+    {
+      "grade": "B",
+      "mercenary": "타타",
+      "hero_id": 434,
+      "slot": 4,
+      "skill_id": 353,
+      "skill": "보호막 관통",
+      "selection": "override",
+      "selected": "공격 무효화 관통 +2%",
+      "candidates": [
+        {
+          "source": "mercenary_skills.json",
+          "types": [
+            56,
+            0,
+            0
+          ],
+          "effects": [
+            0.08,
+            0.0,
+            0.0
+          ],
+          "text": "공격 무효화 관통 +8%"
+        },
+        {
+          "source": "random_merc_skills.json",
+          "types": [
+            56,
+            0,
+            0
+          ],
+          "effects": [
+            0.02,
+            0.0,
+            0.0
+          ],
+          "text": "공격 무효화 관통 +2%"
+        }
+      ]
+    },
+    {
+      "grade": "G",
+      "mercenary": "드로플렛",
+      "hero_id": 437,
+      "slot": 3,
+      "skill_id": 505,
+      "skill": "끌어당김의 법칙",
+      "selection": "override",
+      "selected": "뿔레정수 획득 확률 +6%",
+      "candidates": [
+        {
+          "source": "sub_slot_troops.json",
+          "types": [
+            124,
+            0,
+            0
+          ],
+          "effects": [
+            0.4,
+            0.0,
+            0.0
+          ],
+          "text": "데미지 편차 +40%"
+        },
+        {
+          "source": "random_merc_skills.json",
+          "types": [
+            109,
+            0,
+            0
+          ],
+          "effects": [
+            0.06,
+            0.0,
+            0.0
+          ],
+          "text": "뿔레정수 획득 확률 +6%"
+        }
+      ]
+    },
+    {
+      "grade": "H",
+      "mercenary": "쥬쥬",
+      "hero_id": 447,
+      "slot": 2,
+      "skill_id": 505,
+      "skill": "끌어당김의 법칙",
+      "selection": "override",
+      "selected": "뿔레정수 획득 확률 +6%",
+      "candidates": [
+        {
+          "source": "sub_slot_troops.json",
+          "types": [
+            124,
+            0,
+            0
+          ],
+          "effects": [
+            0.4,
+            0.0,
+            0.0
+          ],
+          "text": "데미지 편차 +40%"
+        },
+        {
+          "source": "random_merc_skills.json",
+          "types": [
+            109,
+            0,
+            0
+          ],
+          "effects": [
+            0.06,
+            0.0,
+            0.0
+          ],
+          "text": "뿔레정수 획득 확률 +6%"
+        }
+      ]
+    },
+    {
+      "grade": "O",
+      "mercenary": "이름없는 자",
+      "hero_id": 452,
+      "slot": 3,
+      "skill_id": 505,
+      "skill": "끌어당김의 법칙",
+      "selection": "override",
+      "selected": "뿔레정수 획득 확률 +6%",
+      "candidates": [
+        {
+          "source": "sub_slot_troops.json",
+          "types": [
+            124,
+            0,
+            0
+          ],
+          "effects": [
+            0.4,
+            0.0,
+            0.0
+          ],
+          "text": "데미지 편차 +40%"
+        },
+        {
+          "source": "random_merc_skills.json",
+          "types": [
+            109,
+            0,
+            0
+          ],
+          "effects": [
+            0.06,
+            0.0,
+            0.0
+          ],
+          "text": "뿔레정수 획득 확률 +6%"
+        }
+      ]
+    },
+    {
+      "grade": "O",
+      "mercenary": "케이나인",
+      "hero_id": 454,
+      "slot": 3,
+      "skill_id": 505,
+      "skill": "끌어당김의 법칙",
+      "selection": "override",
+      "selected": "뿔레정수 획득 확률 +6%",
+      "candidates": [
+        {
+          "source": "sub_slot_troops.json",
+          "types": [
+            124,
+            0,
+            0
+          ],
+          "effects": [
+            0.4,
+            0.0,
+            0.0
+          ],
+          "text": "데미지 편차 +40%"
+        },
+        {
+          "source": "random_merc_skills.json",
+          "types": [
+            109,
+            0,
+            0
+          ],
+          "effects": [
+            0.06,
+            0.0,
+            0.0
+          ],
+          "text": "뿔레정수 획득 확률 +6%"
+        }
+      ]
+    },
+    {
+      "grade": "H",
+      "mercenary": "스탈링",
+      "hero_id": 456,
+      "slot": 3,
+      "skill_id": 505,
+      "skill": "끌어당김의 법칙",
+      "selection": "override",
+      "selected": "뿔레정수 획득 확률 +6%",
+      "candidates": [
+        {
+          "source": "sub_slot_troops.json",
+          "types": [
+            124,
+            0,
+            0
+          ],
+          "effects": [
+            0.4,
+            0.0,
+            0.0
+          ],
+          "text": "데미지 편차 +40%"
+        },
+        {
+          "source": "random_merc_skills.json",
+          "types": [
+            109,
+            0,
+            0
+          ],
+          "effects": [
+            0.06,
+            0.0,
+            0.0
+          ],
+          "text": "뿔레정수 획득 확률 +6%"
+        }
+      ]
+    },
+    {
+      "grade": "G",
+      "mercenary": "일루",
+      "hero_id": 489,
+      "slot": 2,
+      "skill_id": 505,
+      "skill": "끌어당김의 법칙",
+      "selection": "override",
+      "selected": "뿔레정수 획득 확률 +6%",
+      "candidates": [
+        {
+          "source": "sub_slot_troops.json",
+          "types": [
+            124,
+            0,
+            0
+          ],
+          "effects": [
+            0.4,
+            0.0,
+            0.0
+          ],
+          "text": "데미지 편차 +40%"
+        },
+        {
+          "source": "random_merc_skills.json",
+          "types": [
+            109,
+            0,
+            0
+          ],
+          "effects": [
+            0.06,
+            0.0,
+            0.0
+          ],
+          "text": "뿔레정수 획득 확률 +6%"
+        }
+      ]
+    },
+    {
+      "grade": "H",
+      "mercenary": "플레이드",
+      "hero_id": 491,
+      "slot": 4,
+      "skill_id": 505,
+      "skill": "끌어당김의 법칙",
+      "selection": "override",
+      "selected": "뿔레정수 획득 확률 +6%",
+      "candidates": [
+        {
+          "source": "sub_slot_troops.json",
+          "types": [
+            124,
+            0,
+            0
+          ],
+          "effects": [
+            0.4,
+            0.0,
+            0.0
+          ],
+          "text": "데미지 편차 +40%"
+        },
+        {
+          "source": "random_merc_skills.json",
+          "types": [
+            109,
+            0,
+            0
+          ],
+          "effects": [
+            0.06,
+            0.0,
+            0.0
+          ],
+          "text": "뿔레정수 획득 확률 +6%"
+        }
+      ]
+    },
+    {
+      "grade": "S",
+      "mercenary": "메도우",
+      "hero_id": 504,
+      "slot": 2,
+      "skill_id": 505,
+      "skill": "끌어당김의 법칙",
+      "selection": "override",
+      "selected": "뿔레정수 획득 확률 +6%",
+      "candidates": [
+        {
+          "source": "sub_slot_troops.json",
+          "types": [
+            124,
+            0,
+            0
+          ],
+          "effects": [
+            0.4,
+            0.0,
+            0.0
+          ],
+          "text": "데미지 편차 +40%"
+        },
+        {
+          "source": "random_merc_skills.json",
+          "types": [
+            109,
+            0,
+            0
+          ],
+          "effects": [
+            0.06,
+            0.0,
+            0.0
+          ],
+          "text": "뿔레정수 획득 확률 +6%"
+        }
+      ]
+    },
+    {
+      "grade": "G",
+      "mercenary": "미스터 페퍼",
+      "hero_id": 506,
+      "slot": 4,
+      "skill_id": 505,
+      "skill": "끌어당김의 법칙",
+      "selection": "override",
+      "selected": "뿔레정수 획득 확률 +6%",
+      "candidates": [
+        {
+          "source": "sub_slot_troops.json",
+          "types": [
+            124,
+            0,
+            0
+          ],
+          "effects": [
+            0.4,
+            0.0,
+            0.0
+          ],
+          "text": "데미지 편차 +40%"
+        },
+        {
+          "source": "random_merc_skills.json",
+          "types": [
+            109,
+            0,
+            0
+          ],
+          "effects": [
+            0.06,
+            0.0,
+            0.0
+          ],
+          "text": "뿔레정수 획득 확률 +6%"
+        }
+      ]
+    },
+    {
+      "grade": "C",
+      "mercenary": "푸시니아",
+      "hero_id": 514,
+      "slot": 1,
+      "skill_id": 1157,
+      "skill": "한푼만 주세요+",
+      "selection": "override",
+      "selected": "골드 획득량 +40% / 501 스테이지 이전 골드 획득량 +160%",
+      "candidates": [
+        {
+          "source": "mercenary_skills.json",
+          "types": [
+            46,
+            1069,
+            0
+          ],
+          "effects": [
+            0.4,
+            1.6,
+            0.0
+          ],
+          "text": "골드 획득량 +40% / 501 스테이지 이전 골드 획득량 +160%"
+        },
+        {
+          "source": "mercenary_skills.json",
+          "types": [
+            46,
+            1069,
+            0
+          ],
+          "effects": [
+            0.3,
+            1.2,
+            0.0
+          ],
+          "text": "골드 획득량 +30% / 501 스테이지 이전 골드 획득량 +120%"
+        }
+      ]
+    },
+    {
+      "grade": "C",
+      "mercenary": "푸시니아",
+      "hero_id": 514,
+      "slot": 2,
+      "skill_id": 1160,
+      "skill": "효과적 구걸법+",
+      "selection": "override",
+      "selected": "추가 데미지 +10000 / 연타 확률 +8%",
+      "candidates": [
+        {
+          "source": "mercenary_skills.json",
+          "types": [
+            7,
+            32,
+            0
+          ],
+          "effects": [
+            10000.0,
+            0.08,
+            0.0
+          ],
+          "text": "추가 데미지 +10000 / 연타 확률 +8%"
+        },
+        {
+          "source": "mercenary_skills.json",
+          "types": [
+            7,
+            0,
+            0
+          ],
+          "effects": [
+            10000.0,
+            0.0,
+            0.0
+          ],
+          "text": "추가 데미지 +10000"
+        }
+      ]
+    },
+    {
+      "grade": "C",
+      "mercenary": "푸시니아",
+      "hero_id": 514,
+      "slot": 5,
+      "skill_id": 1163,
+      "skill": "푸시니아의 작업복+",
+      "selection": "override",
+      "selected": "데미지 +200% / 모든 용병의 연타 확률 +2% / 모든 용병의 연타 데미지 +2%",
+      "candidates": [
+        {
+          "source": "mercenary_skills.json",
+          "types": [
+            1,
+            33,
+            256
+          ],
+          "effects": [
+            2.0,
+            0.02,
+            0.02
+          ],
+          "text": "데미지 +200% / 모든 용병의 연타 확률 +2% / 모든 용병의 연타 데미지 +2%"
+        },
+        {
+          "source": "mercenary_skills.json",
+          "types": [
+            1,
+            33,
+            0
+          ],
+          "effects": [
+            2.0,
+            0.02,
+            0.0
+          ],
+          "text": "데미지 +200% / 모든 용병의 연타 확률 +2%"
+        }
+      ]
+    }
+  ],
+  "missing_candidate": [
+    {
+      "grade": "A",
+      "mercenary": "자이다",
+      "hero_id": 16,
+      "slot": 2,
+      "skill_id": 628,
+      "skill": "뿔레 조각의 진동",
+      "current": "뿔레조각 드랍 확률 +6%"
+    },
+    {
+      "grade": "S",
+      "mercenary": "히토미",
+      "hero_id": 218,
+      "slot": 5,
+      "skill_id": 334,
+      "skill": "히토미의 귀여움",
+      "current": "모든 혼합 용병의 연타 확률 +4%"
+    },
+    {
+      "grade": "B",
+      "mercenary": "헤라클레스",
+      "hero_id": 224,
+      "slot": 5,
+      "skill_id": 347,
+      "skill": "촉진된 진화+",
+      "current": "클릭 데미지 +200% / 추가 클릭 확률 +40% / 추가 클릭 데미지 +20%"
+    },
+    {
+      "grade": "A",
+      "mercenary": "블리야트",
+      "hero_id": 229,
+      "slot": 5,
+      "skill_id": 352,
+      "skill": "레드의 돌파력",
+      "current": "공격 무효화 관통 +8%"
+    },
+    {
+      "grade": "S",
+      "mercenary": "자이다",
+      "hero_id": 230,
+      "slot": 2,
+      "skill_id": 628,
+      "skill": "뿔레 조각의 진동",
+      "current": "뿔레조각 드랍 확률 +6%"
+    },
+    {
+      "grade": "S",
+      "mercenary": "페로키",
+      "hero_id": 231,
+      "slot": 4,
+      "skill_id": 628,
+      "skill": "뿔레 조각의 진동",
+      "current": "뿔레조각 드랍 확률 +6%"
+    },
+    {
+      "grade": "G",
+      "mercenary": "지이크트",
+      "hero_id": 242,
+      "slot": 2,
+      "skill_id": 628,
+      "skill": "뿔레 조각의 진동",
+      "current": "뿔레조각 드랍 확률 +6%"
+    },
+    {
+      "grade": "X",
+      "mercenary": "헬싱",
+      "hero_id": 259,
+      "slot": 4,
+      "skill_id": 427,
+      "skill": "스워드 오브 툼마",
+      "current": "매 공격시 적 체력 감소 +0.8% / 강타 배수 +1.7"
+    },
+    {
+      "grade": "G",
+      "mercenary": "세뇨르 페퍼",
+      "hero_id": 265,
+      "slot": 2,
+      "skill_id": 628,
+      "skill": "뿔레 조각의 진동",
+      "current": "뿔레조각 드랍 확률 +6%"
+    },
+    {
+      "grade": "X",
+      "mercenary": "조디악",
+      "hero_id": 310,
+      "slot": 1,
+      "skill_id": 553,
+      "skill": "선택적 진화",
+      "current": "없음"
+    },
+    {
+      "grade": "G",
+      "mercenary": "아오마루스",
+      "hero_id": 311,
+      "slot": 1,
+      "skill_id": 556,
+      "skill": "운 전파자",
+      "current": "없음"
+    },
+    {
+      "grade": "G",
+      "mercenary": "이로우",
+      "hero_id": 318,
+      "slot": 5,
+      "skill_id": 565,
+      "skill": "이로우의 이도류",
+      "current": "데미지 +총 각성수 X +0.5% / 강타 배수 +1.0 / 적들의 둔화 효과 감소 +2.5%"
+    },
+    {
+      "grade": "G",
+      "mercenary": "아바돈",
+      "hero_id": 331,
+      "slot": 1,
+      "skill_id": 610,
+      "skill": "아바돈의 꺼진 불꽃",
+      "current": "없음"
+    },
+    {
+      "grade": "H",
+      "mercenary": "랜달",
+      "hero_id": 332,
+      "slot": 1,
+      "skill_id": 612,
+      "skill": "사우스헤이븐을 위하여",
+      "current": "없음"
+    },
+    {
+      "grade": "H",
+      "mercenary": "시그미스",
+      "hero_id": 336,
+      "slot": 1,
+      "skill_id": 621,
+      "skill": "불의 성수",
+      "current": "데미지 편차 +40%"
+    },
+    {
+      "grade": "G",
+      "mercenary": "카메히메",
+      "hero_id": 360,
+      "slot": 1,
+      "skill_id": 678,
+      "skill": "남동생 카메히코",
+      "current": "없음"
+    },
+    {
+      "grade": "G",
+      "mercenary": "카메히메",
+      "hero_id": 360,
+      "slot": 2,
+      "skill_id": 628,
+      "skill": "뿔레 조각의 진동",
+      "current": "뿔레조각 드랍 확률 +6%"
+    },
+    {
+      "grade": "X",
+      "mercenary": "포에베",
+      "hero_id": 383,
+      "slot": 5,
+      "skill_id": 751,
+      "skill": "신탁",
+      "current": "모든 용병의 더블 어택 확률 +2% / 공격시 +8% 확률로 동료들의 다음 트리니티 공격을 강화 / 물리, 마법, 카오스 데미지가 모두 있을 때 적들의 부활 확률 감소 +3%"
+    },
+    {
+      "grade": "A",
+      "mercenary": "리크",
+      "hero_id": 387,
+      "slot": 2,
+      "skill_id": 628,
+      "skill": "뿔레 조각의 진동",
+      "current": "뿔레조각 드랍 확률 +6%"
+    },
+    {
+      "grade": "O",
+      "mercenary": "리크",
+      "hero_id": 388,
+      "slot": 2,
+      "skill_id": 628,
+      "skill": "뿔레 조각의 진동",
+      "current": "뿔레조각 드랍 확률 +6%"
+    },
+    {
+      "grade": "O",
+      "mercenary": "프로스트",
+      "hero_id": 409,
+      "slot": 3,
+      "skill_id": 628,
+      "skill": "뿔레 조각의 진동",
+      "current": "뿔레조각 드랍 확률 +6%"
+    },
+    {
+      "grade": "G",
+      "mercenary": "드로플렛",
+      "hero_id": 437,
+      "slot": 4,
+      "skill_id": 628,
+      "skill": "뿔레 조각의 진동",
+      "current": "뿔레조각 드랍 확률 +6%"
+    },
+    {
+      "grade": "X",
+      "mercenary": "마르셀루스",
+      "hero_id": 443,
+      "slot": 4,
+      "skill_id": 628,
+      "skill": "뿔레 조각의 진동",
+      "current": "뿔레조각 드랍 확률 +6%"
+    },
+    {
+      "grade": "E",
+      "mercenary": "푸시니아",
+      "hero_id": 517,
+      "slot": 1,
+      "skill_id": 1167,
+      "skill": "한푼만 주세요",
+      "current": "골드 획득량 +30% / 501 스테이지 이전 골드 획득량 +120%"
+    },
+    {
+      "grade": "E",
+      "mercenary": "푸시니아",
+      "hero_id": 517,
+      "slot": 2,
+      "skill_id": 1168,
+      "skill": "효과적 구걸법",
+      "current": "추가 데미지 +10000"
+    },
+    {
+      "grade": "E",
+      "mercenary": "푸시니아",
+      "hero_id": 517,
+      "slot": 5,
+      "skill_id": 1169,
+      "skill": "푸시니아의 작업복",
+      "current": "데미지 +200% / 모든 용병의 연타 확률 +2%"
+    }
+  ]
+}

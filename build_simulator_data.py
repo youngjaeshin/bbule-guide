@@ -14,6 +14,8 @@ import json
 import os
 import re
 
+from build_mercenary_data import build_skill_sources, select_skill_source
+
 GRADE_ORDER = ['P', 'O', 'H', 'X', 'G', 'S', 'A', 'B', 'C', 'D', 'E']
 
 INPUT_CREATURES = os.path.join(os.path.dirname(__file__), 'output', 'creatures.json')
@@ -31,14 +33,6 @@ def load_json(path: str) -> object:
         return json.load(f)
 
 
-def build_skill_map(skills: list) -> dict:
-    """스킬 리스트를 index 기준 딕셔너리로 변환."""
-    result = {}
-    for s in skills:
-        result.setdefault(s['index'], s)
-    return result
-
-
 def simplify_effects(effects_resolved: list) -> list:
     """effects_resolved → simulator용 간소화 포맷."""
     result = []
@@ -52,7 +46,7 @@ def simplify_effects(effects_resolved: list) -> list:
     return result
 
 
-def build_creature_entry(creature: dict, skill_map: dict) -> dict:
+def build_creature_entry(creature: dict, skill_sources: dict) -> dict:
     """creatures.json 항목 하나를 simulator JSON 항목으로 변환."""
     ss = creature.get('sheet_stats', {})
     dgr = creature.get('damageG_raw', {})
@@ -69,7 +63,12 @@ def build_creature_entry(creature: dict, skill_map: dict) -> dict:
     for skill in raw_skills_sorted:
         slot = skill['slot']
         sid = skill['id']
-        skill_data = skill_map.get(sid)
+        skill_data = select_skill_source(
+            sid,
+            skill_sources,
+            hero_id=creature.get('hero_id'),
+            slot=slot,
+        )
 
         if skill_data:
             effects = simplify_effects(skill_data.get('effects_resolved', []))
@@ -162,14 +161,12 @@ def main():
     creatures = load_json(INPUT_CREATURES)
     print(f'  {len(creatures)} creatures loaded')
 
-    skills = []
     for path in INPUT_SKILL_FILES:
         print(f'Reading {path} ...')
         part = load_json(path)
-        skills.extend(part)
         print(f'  {len(part)} skills loaded')
 
-    skill_map = build_skill_map(skills)
+    skill_sources = build_skill_sources(include_legacy_random=False)
 
     # 변환
     entries = []
@@ -177,9 +174,9 @@ def main():
     for creature in creatures:
         for skill in creature.get('skills', []):
             sid = skill['id']
-            if sid not in skill_map:
+            if sid not in skill_sources:
                 missing_skill_ids.add(sid)
-        entries.append(build_creature_entry(creature, skill_map))
+        entries.append(build_creature_entry(creature, skill_sources))
 
     # grade 우선순위 정렬
     grade_rank = {g: i for i, g in enumerate(GRADE_ORDER)}

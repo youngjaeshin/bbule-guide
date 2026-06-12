@@ -23,11 +23,14 @@ def load_json(path: Path):
 def build_entries(rows: list[dict]) -> list[dict]:
     entries = []
     for row in rows:
-        effects = [
-            normalize_effect_text(effect.get("description", ""))
-            for effect in row.get("effects_resolved", [])
-            if effect.get("description")
-        ]
+        effects = []
+        for effect in row.get("effects_resolved", []):
+            text = effect.get("description", "")
+            if not text:
+                continue
+            if row["index"] == 566 and effect.get("type_code") == 32 and effect.get("value") == -5.0:
+                text = "연타 불가"
+            effects.append(normalize_effect_text(text))
         entries.append({
             "index": row["index"],
             "name": row.get("name", ""),

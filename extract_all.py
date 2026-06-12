@@ -579,6 +579,10 @@ SKILL_EFFECT_FORMAT_OVERRIDES = {
 
 
 SKILL_EFFECT_STATIC_DESCRIPTIONS = {
+    684: {
+        'description': '연타 불가, 강타 확률 -40%',
+        'expected_value': -0.4,
+    },
     532: {
         'description': '(아이템 바라봄의 지팡이 장착시) 추가 클릭 데미지 130%',
         'expected_value': 1.2,
@@ -590,6 +594,85 @@ SKILL_EFFECT_STATIC_DESCRIPTIONS = {
     550: {
         'description': '아티팩트 저거너트 세트 보유시 클릭 크리티컬 확률 3%',
         'expected_value': 5.0,
+    },
+}
+
+
+SKILL_EFFECT_VALUE_DESCRIPTIONS = {
+    (133, 0.04): {
+        'description': '4%의 확률로 적에게 저주를 걸어 2초동안 1.555배의 추가데미지',
+    },
+    (133, 0.0666): {
+        'description': '6.66% 확률로 저주를 걸어 2초동안 1.55배의 추가데미지',
+    },
+    (80, 0.06): {
+        'description': '6% 확률로 동료들의 다음 공격 0.8초 앞당김',
+    },
+    (80, 0.065): {
+        'description': '6.5% 확률로 동료들의 다음 공격 0.8초 앞당김',
+    },
+    (80, 0.066): {
+        'description': '6.6% 확률로 동료들의 다음 공격 0.8초 앞당김',
+    },
+    (188, 0.07): {
+        'description': '7% 확률로 동료들의 다음 물리 공격 2배 데미지',
+    },
+    (189, 0.08): {
+        'description': '8% 확률로 다음 마법 공격 2배 데미지',
+    },
+    (190, 0.07): {
+        'description': '7%의 확률로 다음 혼합 공격 2배 데미지',
+    },
+    (243, 0.07): {
+        'description': '7%의 확률로 동료들의 다음 카오스 공격에 2배 데미지',
+    },
+    (248, 0.05): {
+        'description': '참전한 카오스 용병당 카오스 용병 강타배수 +0.05',
+    },
+    (249, 5.0): {
+        'description': '매 5번 공격시 5배 데미지',
+    },
+    (261, 3.0): {
+        'description': '골드 획득량 +300% - 환생횟수 X 0.6%',
+    },
+    (262, 6.0): {
+        'description': '모든 용병의 클릭 데미지 +600% - 환생횟수 X 1.2%',
+    },
+    (263, 3.0): {
+        'description': '모든 용병의 데미지 +300% - 환생횟수 X 0.6%',
+    },
+    (273, 4.5): {
+        'description': '10%의 확률로 4.5배 데미지로 공격하고 대상을 1.3초동안 공격불능상태로 만듬',
+    },
+    (289, 0.07): {
+        'description': '공격시 7%의 확률로 다음 트리니티 공격에 2배 추가 데미지',
+    },
+    (409, 3.0): {
+        'description': '15% 확률로 데미지가 3배의 신성데미지로 변환',
+    },
+    (410, 1.5): {
+        'description': '20% 확률로 데미지가 1.5배 증폭',
+    },
+    (410, 1.6): {
+        'description': '20% 확률로 데미지가 1.6배 증폭',
+    },
+    (541, 2.2): {
+        'description': '15% 확률로 모든 데미지가 2.2배로 증폭',
+    },
+    (547, 3.0): {
+        'description': '골드 획득량 +300% - 환생횟수 X 0.1',
+    },
+    (590, 2.0): {
+        'description': '13% 확률로 연타 데미지가 2배 증폭',
+    },
+    (592, 6.0): {
+        'description': '20% 확률로 치명타 데미지가 6배 증폭',
+    },
+    (593, 5.0): {
+        'description': '12% 확률로 행운 데미지가 5배 증폭',
+    },
+    (756, 0.04): {
+        'description': '모든 용병의 강타 확률 +4% - 환생횟수 X 0.004',
     },
 }
 
@@ -613,6 +696,17 @@ def resolve_skill_effects(types: list, effects: list, key_to_id: dict, ko_map: d
     result = []
     for t, e in zip(types, effects):
         if t == 0 and e == 0.0:
+            continue
+        value_override = SKILL_EFFECT_VALUE_DESCRIPTIONS.get((t, round(e, 6)))
+        if value_override:
+            desc = value_override['description']
+            result.append({
+                'type_code': t,
+                'type_name': desc,
+                'value': round(e, 6),
+                'value_display': '',
+                'description': desc,
+            })
             continue
         if t in SKILL_EFFECT_STATIC_DESCRIPTIONS:
             override = SKILL_EFFECT_STATIC_DESCRIPTIONS[t]

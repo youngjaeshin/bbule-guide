@@ -2305,8 +2305,8 @@
         "type_code": 684,
         "type_name": "연타 불가, 강타 확률 -40%",
         "value": -0.4,
-        "value_display": "-40%",
-        "description": "연타 불가, 강타 확률 -40% -40%"
+        "value_display": "",
+        "description": "연타 불가, 강타 확률 -40%"
       },
       {
         "type_code": 304,
@@ -2604,10 +2604,10 @@
       },
       {
         "type_code": 261,
-        "type_name": "골드 획득량 +% -환생횟수 X%",
+        "type_name": "골드 획득량 +300% - 환생횟수 X 0.6%",
         "value": 3.0,
-        "value_display": "300",
-        "description": "효과261 3"
+        "value_display": "",
+        "description": "골드 획득량 +300% - 환생횟수 X 0.6%"
       }
     ],
     "randomValue": 0
@@ -4067,10 +4067,10 @@
     "effects_resolved": [
       {
         "type_code": 409,
-        "type_name": "% 확률로 데미지가배의 신성 데미지로 변환",
+        "type_name": "15% 확률로 데미지가 3배의 신성데미지로 변환",
         "value": 3.0,
-        "value_display": "3",
-        "description": "효과409 3"
+        "value_display": "",
+        "description": "15% 확률로 데미지가 3배의 신성데미지로 변환"
       },
       {
         "type_code": 175,
@@ -5446,10 +5446,10 @@
       },
       {
         "type_code": 541,
-        "type_name": "% 확률로 모든 데미지가배로 증폭",
+        "type_name": "15% 확률로 모든 데미지가 2.2배로 증폭",
         "value": 2.2,
-        "value_display": "2.2",
-        "description": "효과541 2.2"
+        "value_display": "",
+        "description": "15% 확률로 모든 데미지가 2.2배로 증폭"
       },
       {
         "type_code": 709,
@@ -8022,10 +8022,10 @@
     "effects_resolved": [
       {
         "type_code": 289,
-        "type_name": "공격시% 확률로 동료들의 다음 트리니티 공격에배 데미지 추가",
+        "type_name": "공격시 7%의 확률로 다음 트리니티 공격에 2배 추가 데미지",
         "value": 0.07,
-        "value_display": "7",
-        "description": "효과289 0.07"
+        "value_display": "",
+        "description": "공격시 7%의 확률로 다음 트리니티 공격에 2배 추가 데미지"
       },
       {
         "type_code": 354,

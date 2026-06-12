@@ -148,9 +148,16 @@ def verify(strict_codes: bool, strict_mercenary_skills: bool) -> None:
     if strict_codes:
         verify_cmd.append("--strict-codes")
     run(verify_cmd)
-    audit_cmd = [sys.executable, "scripts/audit_mercenary_skill_refresh.py", "--limit", "20"]
+    audit_cmd = [
+        sys.executable,
+        "scripts/audit_mercenary_skill_refresh.py",
+        "--limit",
+        "20",
+        "--json-output",
+        "output/mercenary_skill_audit_report.json",
+    ]
     if strict_mercenary_skills:
-        audit_cmd.append("--strict")
+        audit_cmd.extend(["--strict", "--strict-unresolved", "--strict-ambiguous"])
     run(audit_cmd)
     run([sys.executable, "-m", "py_compile", *PY_COMPILE_TARGETS])
 

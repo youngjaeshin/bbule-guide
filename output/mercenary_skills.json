@@ -9665,10 +9665,10 @@
       },
       {
         "type_code": 80,
-        "type_name": "공격시% 확률로 동료들의 다음 공격을초 앞당김",
+        "type_name": "6% 확률로 동료들의 다음 공격 0.8초 앞당김",
         "value": 0.06,
-        "value_display": "6",
-        "description": "효과80 0.06"
+        "value_display": "",
+        "description": "6% 확률로 동료들의 다음 공격 0.8초 앞당김"
       },
       {
         "type_code": 669,
@@ -9700,10 +9700,10 @@
     "effects_resolved": [
       {
         "type_code": 80,
-        "type_name": "공격시% 확률로 동료들의 다음 공격을초 앞당김",
+        "type_name": "6.5% 확률로 동료들의 다음 공격 0.8초 앞당김",
         "value": 0.065,
-        "value_display": "6.5",
-        "description": "효과80 0.065"
+        "value_display": "",
+        "description": "6.5% 확률로 동료들의 다음 공격 0.8초 앞당김"
       },
       {
         "type_code": 81,
@@ -9882,10 +9882,10 @@
       },
       {
         "type_code": 80,
-        "type_name": "공격시% 확률로 동료들의 다음 공격을초 앞당김",
+        "type_name": "6.6% 확률로 동료들의 다음 공격 0.8초 앞당김",
         "value": 0.066,
-        "value_display": "6.6",
-        "description": "효과80 0.066"
+        "value_display": "",
+        "description": "6.6% 확률로 동료들의 다음 공격 0.8초 앞당김"
       }
     ],
     "randomValue": 0
@@ -9987,10 +9987,10 @@
       },
       {
         "type_code": 248,
-        "type_name": "참전한 카오스 용병 한명 당 모든 카오스 용병 강타 배수 +(신격화된 카오스 용병은 +)",
+        "type_name": "참전한 카오스 용병당 카오스 용병 강타배수 +0.05",
         "value": 0.05,
-        "value_display": "0.05",
-        "description": "효과248 0.05"
+        "value_display": "",
+        "description": "참전한 카오스 용병당 카오스 용병 강타배수 +0.05"
       }
     ],
     "randomValue": 0
@@ -10057,10 +10057,10 @@
     "effects_resolved": [
       {
         "type_code": 189,
-        "type_name": "공격시% 확률로 동료들의 다음 마법 공격에배 데미지 추가",
+        "type_name": "8% 확률로 다음 마법 공격 2배 데미지",
         "value": 0.08,
-        "value_display": "8",
-        "description": "효과189 0.08"
+        "value_display": "",
+        "description": "8% 확률로 다음 마법 공격 2배 데미지"
       },
       {
         "type_code": 23,
@@ -10141,10 +10141,10 @@
       },
       {
         "type_code": 80,
-        "type_name": "공격시% 확률로 동료들의 다음 공격을초 앞당김",
+        "type_name": "6% 확률로 동료들의 다음 공격 0.8초 앞당김",
         "value": 0.06,
-        "value_display": "6",
-        "description": "효과80 0.06"
+        "value_display": "",
+        "description": "6% 확률로 동료들의 다음 공격 0.8초 앞당김"
       }
     ],
     "randomValue": 0
@@ -10211,10 +10211,10 @@
       },
       {
         "type_code": 190,
-        "type_name": "공격시% 확률로 동료들의 다음 혼합 공격에배 데미지 추가",
+        "type_name": "7%의 확률로 다음 혼합 공격 2배 데미지",
         "value": 0.07,
-        "value_display": "7",
-        "description": "효과190 0.07"
+        "value_display": "",
+        "description": "7%의 확률로 다음 혼합 공격 2배 데미지"
       }
     ],
     "randomValue": 0
@@ -11436,10 +11436,10 @@
       },
       {
         "type_code": 133,
-        "type_name": "공격시% 확률로 적에게 저주를 걸어초 동안배의 추가 데미지 받게 합니다.",
+        "type_name": "6.66% 확률로 저주를 걸어 2초동안 1.55배의 추가데미지",
         "value": 0.0666,
-        "value_display": "6.66",
-        "description": "효과133 0.0666"
+        "value_display": "",
+        "description": "6.66% 확률로 저주를 걸어 2초동안 1.55배의 추가데미지"
       }
     ],
     "randomValue": 0
@@ -11989,10 +11989,10 @@
       },
       {
         "type_code": 188,
-        "type_name": "공격시% 확률로 동료들의 다음 물리 공격에배 데미지 추가",
+        "type_name": "7% 확률로 동료들의 다음 물리 공격 2배 데미지",
         "value": 0.07,
-        "value_display": "7",
-        "description": "효과188 0.07"
+        "value_display": "",
+        "description": "7% 확률로 동료들의 다음 물리 공격 2배 데미지"
       }
     ],
     "randomValue": 0
@@ -14481,10 +14481,10 @@
       },
       {
         "type_code": 243,
-        "type_name": "공격시% 확률로 동료들의 다음 카오스 공격에배 데미지 추가",
+        "type_name": "7%의 확률로 동료들의 다음 카오스 공격에 2배 데미지",
         "value": 0.07,
-        "value_display": "7",
-        "description": "효과243 0.07"
+        "value_display": "",
+        "description": "7%의 확률로 동료들의 다음 카오스 공격에 2배 데미지"
       }
     ],
     "randomValue": 0
@@ -14600,10 +14600,10 @@
       },
       {
         "type_code": 249,
-        "type_name": "매번째 공격 시배 데미지",
+        "type_name": "매 5번 공격시 5배 데미지",
         "value": 5.0,
-        "value_display": "500%",
-        "description": "효과249 5"
+        "value_display": "",
+        "description": "매 5번 공격시 5배 데미지"
       }
     ],
     "randomValue": 0
@@ -14978,17 +14978,17 @@
     "effects_resolved": [
       {
         "type_code": 262,
-        "type_name": "모든 용병의 클릭 데미지 +% -환생횟수 X%",
+        "type_name": "모든 용병의 클릭 데미지 +600% - 환생횟수 X 1.2%",
         "value": 6.0,
-        "value_display": "600",
-        "description": "효과262 6"
+        "value_display": "",
+        "description": "모든 용병의 클릭 데미지 +600% - 환생횟수 X 1.2%"
       },
       {
         "type_code": 263,
-        "type_name": "모든 용병의 데미지 +% -환생횟수 X%",
+        "type_name": "모든 용병의 데미지 +300% - 환생횟수 X 0.6%",
         "value": 3.0,
-        "value_display": "300",
-        "description": "효과263 3"
+        "value_display": "",
+        "description": "모든 용병의 데미지 +300% - 환생횟수 X 0.6%"
       }
     ],
     "randomValue": 0
@@ -15258,10 +15258,10 @@
       },
       {
         "type_code": 273,
-        "type_name": "공격시% 확률로배 데미지로 공격하고 대상을초 동안 공격 불능 상태로 만듭니다.",
+        "type_name": "10%의 확률로 4.5배 데미지로 공격하고 대상을 1.3초동안 공격불능상태로 만듬",
         "value": 4.5,
-        "value_display": "4.5",
-        "description": "효과273 4.5"
+        "value_display": "",
+        "description": "10%의 확률로 4.5배 데미지로 공격하고 대상을 1.3초동안 공격불능상태로 만듬"
       }
     ],
     "randomValue": 0
@@ -16091,10 +16091,10 @@
       },
       {
         "type_code": 133,
-        "type_name": "공격시% 확률로 적에게 저주를 걸어초 동안배의 추가 데미지 받게 합니다.",
+        "type_name": "4%의 확률로 적에게 저주를 걸어 2초동안 1.555배의 추가데미지",
         "value": 0.04,
-        "value_display": "4",
-        "description": "효과133 0.04"
+        "value_display": "",
+        "description": "4%의 확률로 적에게 저주를 걸어 2초동안 1.555배의 추가데미지"
       }
     ],
     "randomValue": 0
@@ -18800,10 +18800,10 @@
       },
       {
         "type_code": 410,
-        "type_name": "% 확률로 데미지가배로 증폭",
+        "type_name": "20% 확률로 데미지가 1.5배 증폭",
         "value": 1.5,
-        "value_display": "1.5",
-        "description": "효과410 1.5"
+        "value_display": "",
+        "description": "20% 확률로 데미지가 1.5배 증폭"
       },
       {
         "type_code": 414,
@@ -19927,10 +19927,10 @@
       },
       {
         "type_code": 133,
-        "type_name": "공격시% 확률로 적에게 저주를 걸어초 동안배의 추가 데미지 받게 합니다.",
+        "type_name": "4%의 확률로 적에게 저주를 걸어 2초동안 1.555배의 추가데미지",
         "value": 0.04,
-        "value_display": "4",
-        "description": "효과133 0.04"
+        "value_display": "",
+        "description": "4%의 확률로 적에게 저주를 걸어 2초동안 1.555배의 추가데미지"
       }
     ],
     "randomValue": 0
@@ -21390,10 +21390,10 @@
     "effects_resolved": [
       {
         "type_code": 80,
-        "type_name": "공격시% 확률로 동료들의 다음 공격을초 앞당김",
+        "type_name": "6% 확률로 동료들의 다음 공격 0.8초 앞당김",
         "value": 0.06,
-        "value_display": "6",
-        "description": "효과80 0.06"
+        "value_display": "",
+        "description": "6% 확률로 동료들의 다음 공격 0.8초 앞당김"
       },
       {
         "type_code": 500,
@@ -22398,10 +22398,10 @@
       },
       {
         "type_code": 547,
-        "type_name": "% 확률로 클릭 데미지가배로 증폭",
+        "type_name": "골드 획득량 +300% - 환생횟수 X 0.1",
         "value": 3.0,
-        "value_display": "3",
-        "description": "효과547 3"
+        "value_display": "",
+        "description": "골드 획득량 +300% - 환생횟수 X 0.1"
       }
     ],
     "randomValue": 0
@@ -23378,10 +23378,10 @@
       },
       {
         "type_code": 590,
-        "type_name": "% 확률로 연타 데미지가배로 증폭",
+        "type_name": "13% 확률로 연타 데미지가 2배 증폭",
         "value": 2.0,
-        "value_display": "2",
-        "description": "효과590 2"
+        "value_display": "",
+        "description": "13% 확률로 연타 데미지가 2배 증폭"
       }
     ],
     "randomValue": 0
@@ -23665,10 +23665,10 @@
       },
       {
         "type_code": 592,
-        "type_name": "% 확률로 치명타 데미지가배로 증폭",
+        "type_name": "20% 확률로 치명타 데미지가 6배 증폭",
         "value": 6.0,
-        "value_display": "6",
-        "description": "효과592 6"
+        "value_display": "",
+        "description": "20% 확률로 치명타 데미지가 6배 증폭"
       }
     ],
     "randomValue": 0
@@ -23819,10 +23819,10 @@
       },
       {
         "type_code": 593,
-        "type_name": "% 확률로 행운 데미지가배로 증폭",
+        "type_name": "12% 확률로 행운 데미지가 5배 증폭",
         "value": 5.0,
-        "value_display": "5",
-        "description": "효과593 5"
+        "value_display": "",
+        "description": "12% 확률로 행운 데미지가 5배 증폭"
       }
     ],
     "randomValue": 0
@@ -27130,10 +27130,10 @@
       },
       {
         "type_code": 410,
-        "type_name": "% 확률로 데미지가배로 증폭",
+        "type_name": "20% 확률로 데미지가 1.6배 증폭",
         "value": 1.6,
-        "value_display": "1.6",
-        "description": "효과410 1.6"
+        "value_display": "",
+        "description": "20% 확률로 데미지가 1.6배 증폭"
       }
     ],
     "randomValue": 0
@@ -32394,10 +32394,10 @@
       },
       {
         "type_code": 756,
-        "type_name": "모든 용병의 강타 확률 +% -환생횟수 X%",
+        "type_name": "모든 용병의 강타 확률 +4% - 환생횟수 X 0.004",
         "value": 0.04,
-        "value_display": "4",
-        "description": "효과756 0.04"
+        "value_display": "",
+        "description": "모든 용병의 강타 확률 +4% - 환생횟수 X 0.004"
       }
     ],
     "randomValue": 0
