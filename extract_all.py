@@ -578,6 +578,64 @@ SKILL_EFFECT_FORMAT_OVERRIDES = {
 }
 
 
+SKILL_PERSONAL_DAMAGE_EFFECT_CODES = frozenset({
+    1, 60, 66, 67, 69, 71, 77, 82, 94, 106, 119, 136, 148,
+    164, 221, 228, 239, 271, 321, 324, 332, 338, 365, 380,
+    386, 393, 408, 426, 433, 437, 460, 480, 502, 510, 521,
+    552, 566, 577, 578, 633, 645, 690,
+})
+
+SKILL_ALL_DAMAGE_EFFECT_CODES = frozenset({
+    2, 3, 4, 5, 6, 83, 99, 170, 200, 218, 222, 266, 323,
+    378, 388, 395, 417, 421, 423, 461, 489, 491, 495, 504,
+    522, 527, 570, 598, 648, 651, 717, 1042, 1043, 1044,
+    1045, 1046, 1051,
+})
+
+SKILL_CLICK_DAMAGE_EFFECT_CODES = frozenset({15, 149, 529, 576})
+SKILL_ALL_CLICK_DAMAGE_EFFECT_CODES = frozenset({
+    16, 251, 254, 396, 418, 422, 652, 675,
+})
+
+SKILL_ADDITIONAL_DAMAGE_EFFECT_CODES = frozenset({
+    7, 130, 180, 331, 342, 451, 661, 667,
+})
+SKILL_ALL_ADDITIONAL_DAMAGE_EFFECT_CODES = frozenset({
+    8, 132, 219, 268, 662, 1060,
+})
+
+SKILL_HOLY_DAMAGE_EFFECT_CODES = frozenset({
+    95, 169, 234, 235, 584, 585, 1165, 1166,
+})
+
+SKILL_BASE_DAMAGE_EFFECT_CODES = frozenset({
+    17, 78, 79, 84, 217, 340, 371, 379, 382, 389, 420, 455,
+    466, 467, 470, 474, 475,
+})
+
+SKILL_EFFECT_DISPLAY_MULTIPLIERS = {
+    **dict.fromkeys(SKILL_PERSONAL_DAMAGE_EFFECT_CODES, 1.5),
+    **dict.fromkeys(SKILL_ALL_DAMAGE_EFFECT_CODES, 3.0),
+    **dict.fromkeys(SKILL_CLICK_DAMAGE_EFFECT_CODES, 2.0),
+    **dict.fromkeys(SKILL_ALL_CLICK_DAMAGE_EFFECT_CODES, 2.0),
+    **dict.fromkeys(SKILL_ADDITIONAL_DAMAGE_EFFECT_CODES, 2.0),
+    **dict.fromkeys(SKILL_ALL_ADDITIONAL_DAMAGE_EFFECT_CODES, 2.0),
+    **dict.fromkeys(SKILL_HOLY_DAMAGE_EFFECT_CODES, 1.5),
+    **dict.fromkeys(SKILL_BASE_DAMAGE_EFFECT_CODES, 3.0),
+}
+
+
+def scale_skill_effect_display_value(type_code: int, value: float) -> float:
+    """Apply skill-only display/calculation multipliers.
+
+    These are itemBase mercenary skill sec codes. They intentionally do not
+    touch equipment mainType ratios, which are handled by MAINTYPE_TO_EFFECT.
+    Manually verified static/value descriptions bypass this helper.
+    """
+    multiplier = SKILL_EFFECT_DISPLAY_MULTIPLIERS.get(type_code, 1.0)
+    return round(value * multiplier, 6)
+
+
 SKILL_EFFECT_STATIC_DESCRIPTIONS = {
     684: {
         'description': '연타 불가, 강타 확률 -40%',
@@ -728,12 +786,13 @@ def resolve_skill_effects(types: list, effects: list, key_to_id: dict, ko_map: d
         sec_key = f'sec{t}'
         template = (loc_text(key_to_id, ko_map, sec_key) or SEC_KOREAN_MAP.get(sec_key) or f'효과{t}').replace('\n', ' ').replace('\r', '')
         efmt = SKILL_EFFECT_FORMAT_OVERRIDES.get(t) or infer_skill_effect_format(template, e)
-        val_str = format_skill_template_value(template, e, efmt)
+        display_value = scale_skill_effect_display_value(t, e)
+        val_str = format_skill_template_value(template, display_value, efmt)
         # Handle {0}/{1} template placeholders
         if '{0}' in template:
             desc = template.replace('{0}', val_str).strip()
             if re.search(r'\{[1-9]\}', desc):
-                desc = f"효과{t} {format_effect_value(e, 'raw')}"
+                desc = f"효과{t} {format_effect_value(display_value, 'raw')}"
             clean_name = re.sub(r'\s*\{[0-9]\}', '', template).strip()
         else:
             desc = f"{template} {val_str}".strip() if val_str else template
@@ -741,7 +800,7 @@ def resolve_skill_effects(types: list, effects: list, key_to_id: dict, ko_map: d
         result.append({
             'type_code': t,
             'type_name': clean_name,
-            'value': round(e, 6),
+            'value': display_value,
             'value_display': val_str,
             'description': desc,
         })

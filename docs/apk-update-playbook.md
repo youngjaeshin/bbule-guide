@@ -60,6 +60,31 @@ Keep these rules intact:
 3. Keep old web skill text only when APK output has no candidate effect text.
 4. Run `python3 scripts/audit_mercenary_skill_refresh.py --strict`; the expected masked-difference count is zero.
 
+### Mercenary Skill Display Multipliers
+
+Some mercenary skill `sec` values are stored in APK raw scale and need the
+game's skill display multipliers before they are shown or used by the simulator.
+These are skill-only multipliers and must stay separate from equipment
+`MAINTYPE_TO_EFFECT` ratios, which are already calibrated.
+
+Reference screenshot: `docs/mercenary-skill-multiplier-constants.png`.
+
+Current verified skill display multipliers:
+
+- Personal damage skill: `x1.5`
+- All/type damage skill: `x3`
+- Personal click damage skill: `x2`
+- All/type click damage skill: `x2`
+- Personal additional damage skill: `x2`
+- All/type additional damage skill: `x2`
+- Holy damage skill: `x1.5`
+- Base damage skill: `x3`
+
+When adding new `sec` damage-like codes, decide whether they belong to one of
+these skill multiplier sets in `extract_all.py`. Do not apply these to final
+damage, growth damage, damage amplification, extra click damage, critical/lucky
+damage, or equipment/artifact effects unless verified separately in game.
+
 ## Files To Commit
 
 Commit generated guide data and the scripts/mappings that reproduce it:

@@ -75,7 +75,7 @@ SKILL_SOURCE_OVERRIDES = {
     (225, 5, 348): {
         "types": [15, 43, 122],
         "effects": [3.0, 0.5, 0.3],
-        "reason": "촉진된 진화++ uses the highest raw APK candidate after 600% could not be confirmed in APK extraction.",
+        "reason": "촉진된 진화++ uses the verified raw APK candidate; skill display scaling is applied during extraction.",
     },
     (335, 5, 618): {
         "types": [149, 171, 0],
