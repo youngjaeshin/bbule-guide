@@ -114,6 +114,7 @@ main{max-width:1200px;margin:0 auto;padding:16px;}
 }
 .merc-filter-select:focus{outline:none;border-color:var(--accent)}
 .merc-dropdowns{display:flex;flex-wrap:wrap;gap:6px}
+.merc-reset-btn{border-radius:6px;padding:4px 10px}
 .filter-btn.grade-E{--gc:var(--clr-E)}
 .filter-btn.grade-D{--gc:var(--clr-D)}
 .filter-btn.grade-C{--gc:var(--clr-C)}
@@ -716,6 +717,7 @@ img.loaded{opacity:1}
       <button class="filter-btn grade-E" data-grade="E">E</button>
     </div>
     <div class="filter-group merc-dropdowns" id="merc-dropdown-filters">
+      <button type="button" class="filter-btn merc-reset-btn" id="merc-reset-filters">리셋</button>
       <select class="merc-filter-select" data-field="damageType"><option value="">데미지타입</option></select>
       <select class="merc-filter-select" data-field="race"><option value="">종족</option></select>
       <select class="merc-filter-select" data-field="house"><option value="">가문</option></select>
@@ -1214,6 +1216,20 @@ document.querySelectorAll('#merc-grade-filters .filter-btn').forEach(btn=>{
     });
   });
 })();
+
+function resetMercFilters(){
+  mercGradeFilter.clear();
+  mercDropdownFilters={};
+  mercSearch='';
+  document.getElementById('merc-search').value='';
+  document.getElementById('merc-search-scope').value='all';
+  document.querySelectorAll('#merc-grade-filters .filter-btn').forEach(btn=>{
+    btn.classList.toggle('active',btn.dataset.grade==='ALL');
+  });
+  document.querySelectorAll('.merc-filter-select').forEach(sel=>{sel.value='';});
+  renderMercs();
+}
+document.getElementById('merc-reset-filters').addEventListener('click',resetMercFilters);
 
 // Search
 let mercSearchTimer;
