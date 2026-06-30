@@ -629,9 +629,9 @@
       {
         "type_code": 1060,
         "type_name": "모든 용병의 추가 데미지 +총 각성수 X",
-        "value": 20.0,
-        "value_display": "20",
-        "description": "모든 용병의 추가 데미지 +총 각성수 X 20"
+        "value": 10.0,
+        "value_display": "10",
+        "description": "모든 용병의 추가 데미지 +총 각성수 X 10"
       }
     ],
     "randomValue": 0
@@ -1000,9 +1000,9 @@
       {
         "type_code": 251,
         "type_name": "모든 용병의 클릭 데미지 +총 각성수 X%",
-        "value": 0.0008,
-        "value_display": "0.08",
-        "description": "모든 용병의 클릭 데미지 +총 각성수 X 0.08%"
+        "value": 0.0004,
+        "value_display": "0.04",
+        "description": "모든 용병의 클릭 데미지 +총 각성수 X 0.04%"
       },
       {
         "type_code": 75,
@@ -3828,9 +3828,9 @@
       {
         "type_code": 1166,
         "type_name": "모든 용병의 신성 데미지 +총 각성수 X%",
-        "value": 0.00045,
-        "value_display": "0.04",
-        "description": "모든 용병의 신성 데미지 +총 각성수 X 0.04%"
+        "value": 0.0003,
+        "value_display": "0.03",
+        "description": "모든 용병의 신성 데미지 +총 각성수 X 0.03%"
       }
     ],
     "randomValue": 0
@@ -4465,9 +4465,9 @@
       {
         "type_code": 1043,
         "type_name": "모든 마법 용병의 데미지 +총 각성수 X%",
-        "value": 0.0018,
-        "value_display": "0.18",
-        "description": "모든 마법 용병의 데미지 +총 각성수 X 0.18%"
+        "value": 0.0006,
+        "value_display": "0.06",
+        "description": "모든 마법 용병의 데미지 +총 각성수 X 0.06%"
       }
     ],
     "randomValue": 0
@@ -5550,9 +5550,9 @@
       {
         "type_code": 228,
         "type_name": "데미지 +크사르팍스의 각성수 X%",
-        "value": 0.018,
-        "value_display": "1.8",
-        "description": "데미지 +크사르팍스의 각성수 X 1.8%"
+        "value": 0.012,
+        "value_display": "1.2",
+        "description": "데미지 +크사르팍스의 각성수 X 1.2%"
       }
     ],
     "randomValue": 0
@@ -6845,9 +6845,9 @@
       {
         "type_code": 1045,
         "type_name": "모든 카오스 용병의 데미지 +총 각성수 X%",
-        "value": 0.0018,
-        "value_display": "0.18",
-        "description": "모든 카오스 용병의 데미지 +총 각성수 X 0.18%"
+        "value": 0.0006,
+        "value_display": "0.06",
+        "description": "모든 카오스 용병의 데미지 +총 각성수 X 0.06%"
       },
       {
         "type_code": 1175,
@@ -7664,16 +7664,16 @@
       {
         "type_code": 130,
         "type_name": "추가 데미지 +총 각성수 X",
-        "value": 80.0,
-        "value_display": "80",
-        "description": "추가 데미지 +총 각성수 X 80"
+        "value": 40.0,
+        "value_display": "40",
+        "description": "추가 데미지 +총 각성수 X 40"
       },
       {
         "type_code": 1060,
         "type_name": "모든 용병의 추가 데미지 +총 각성수 X",
-        "value": 16.0,
-        "value_display": "1600%",
-        "description": "모든 용병의 추가 데미지 +총 각성수 X 1600%"
+        "value": 8.0,
+        "value_display": "800%",
+        "description": "모든 용병의 추가 데미지 +총 각성수 X 800%"
       }
     ],
     "randomValue": 0
@@ -7916,9 +7916,9 @@
       {
         "type_code": 1060,
         "type_name": "모든 용병의 추가 데미지 +총 각성수 X",
-        "value": 16.0,
-        "value_display": "1600%",
-        "description": "모든 용병의 추가 데미지 +총 각성수 X 1600%"
+        "value": 8.0,
+        "value_display": "800%",
+        "description": "모든 용병의 추가 데미지 +총 각성수 X 800%"
       },
       {
         "type_code": 60,
@@ -8119,9 +8119,9 @@
       {
         "type_code": 1044,
         "type_name": "모든 혼합 용병의 데미지 +총 각성수 X%",
-        "value": 0.0012,
-        "value_display": "0.12",
-        "description": "모든 혼합 용병의 데미지 +총 각성수 X 0.12%"
+        "value": 0.0004,
+        "value_display": "0.04",
+        "description": "모든 혼합 용병의 데미지 +총 각성수 X 0.04%"
       }
     ],
     "randomValue": 0
@@ -10289,9 +10289,9 @@
       {
         "type_code": 99,
         "type_name": "모든 용병의 데미지 +총 각성수 X%",
-        "value": 0.0033,
-        "value_display": "0.33",
-        "description": "모든 용병의 데미지 +총 각성수 X 0.33%"
+        "value": 0.0011,
+        "value_display": "0.11",
+        "description": "모든 용병의 데미지 +총 각성수 X 0.11%"
       }
     ],
     "randomValue": 0
@@ -10786,9 +10786,9 @@
       {
         "type_code": 119,
         "type_name": "데미지 +총 각성수 X%",
-        "value": 0.0105,
-        "value_display": "1.05",
-        "description": "데미지 +총 각성수 X 1.05%"
+        "value": 0.007,
+        "value_display": "0.7",
+        "description": "데미지 +총 각성수 X 0.7%"
       },
       {
         "type_code": 1018,
@@ -11031,9 +11031,9 @@
       {
         "type_code": 119,
         "type_name": "데미지 +총 각성수 X%",
-        "value": 0.012,
-        "value_display": "1.2",
-        "description": "데미지 +총 각성수 X 1.2%"
+        "value": 0.008,
+        "value_display": "0.8",
+        "description": "데미지 +총 각성수 X 0.8%"
       }
     ],
     "randomValue": 0
@@ -11094,16 +11094,16 @@
       {
         "type_code": 119,
         "type_name": "데미지 +총 각성수 X%",
-        "value": 0.009,
-        "value_display": "0.9",
-        "description": "데미지 +총 각성수 X 0.9%"
+        "value": 0.006,
+        "value_display": "0.6",
+        "description": "데미지 +총 각성수 X 0.6%"
       },
       {
         "type_code": 99,
         "type_name": "모든 용병의 데미지 +총 각성수 X%",
-        "value": 0.0012,
-        "value_display": "0.12",
-        "description": "모든 용병의 데미지 +총 각성수 X 0.12%"
+        "value": 0.0004,
+        "value_display": "0.04",
+        "description": "모든 용병의 데미지 +총 각성수 X 0.04%"
       }
     ],
     "randomValue": 0
@@ -11255,9 +11255,9 @@
       {
         "type_code": 130,
         "type_name": "추가 데미지 +총 각성수 X",
-        "value": 40.0,
-        "value_display": "40",
-        "description": "추가 데미지 +총 각성수 X 40"
+        "value": 20.0,
+        "value_display": "20",
+        "description": "추가 데미지 +총 각성수 X 20"
       }
     ],
     "randomValue": 0
@@ -11402,9 +11402,9 @@
       {
         "type_code": 119,
         "type_name": "데미지 +총 각성수 X%",
-        "value": 0.0075,
-        "value_display": "0.75",
-        "description": "데미지 +총 각성수 X 0.75%"
+        "value": 0.005,
+        "value_display": "0.5",
+        "description": "데미지 +총 각성수 X 0.5%"
       }
     ],
     "randomValue": 0
@@ -11577,9 +11577,9 @@
       {
         "type_code": 136,
         "type_name": "데미지 +[켄신] 각성수 X%",
-        "value": 0.036,
-        "value_display": "3.6",
-        "description": "데미지 +[켄신] 각성수 X 3.6%"
+        "value": 0.024,
+        "value_display": "2.4",
+        "description": "데미지 +[켄신] 각성수 X 2.4%"
       }
     ],
     "randomValue": 0
@@ -11612,9 +11612,9 @@
       {
         "type_code": 149,
         "type_name": "클릭 데미지 +총 각성수 X%",
-        "value": 0.0036,
-        "value_display": "0.36",
-        "description": "클릭 데미지 +총 각성수 X 0.36%"
+        "value": 0.0018,
+        "value_display": "0.18",
+        "description": "클릭 데미지 +총 각성수 X 0.18%"
       }
     ],
     "randomValue": 0
@@ -11906,9 +11906,9 @@
       {
         "type_code": 119,
         "type_name": "데미지 +총 각성수 X%",
-        "value": 0.0075,
-        "value_display": "0.75",
-        "description": "데미지 +총 각성수 X 0.75%"
+        "value": 0.005,
+        "value_display": "0.5",
+        "description": "데미지 +총 각성수 X 0.5%"
       },
       {
         "type_code": 26,
@@ -11948,9 +11948,9 @@
       {
         "type_code": 119,
         "type_name": "데미지 +총 각성수 X%",
-        "value": 0.006,
-        "value_display": "0.6",
-        "description": "데미지 +총 각성수 X 0.6%"
+        "value": 0.004,
+        "value_display": "0.4",
+        "description": "데미지 +총 각성수 X 0.4%"
       }
     ],
     "randomValue": 0
@@ -12193,16 +12193,16 @@
       {
         "type_code": 119,
         "type_name": "데미지 +총 각성수 X%",
-        "value": 0.009,
-        "value_display": "0.9",
-        "description": "데미지 +총 각성수 X 0.9%"
+        "value": 0.006,
+        "value_display": "0.6",
+        "description": "데미지 +총 각성수 X 0.6%"
       },
       {
         "type_code": 149,
         "type_name": "클릭 데미지 +총 각성수 X%",
-        "value": 0.006,
-        "value_display": "0.6",
-        "description": "클릭 데미지 +총 각성수 X 0.6%"
+        "value": 0.003,
+        "value_display": "0.3",
+        "description": "클릭 데미지 +총 각성수 X 0.3%"
       }
     ],
     "randomValue": 0
@@ -12235,9 +12235,9 @@
       {
         "type_code": 119,
         "type_name": "데미지 +총 각성수 X%",
-        "value": 0.00825,
-        "value_display": "0.83",
-        "description": "데미지 +총 각성수 X 0.83%"
+        "value": 0.0055,
+        "value_display": "0.55",
+        "description": "데미지 +총 각성수 X 0.55%"
       },
       {
         "type_code": 159,
@@ -12431,9 +12431,9 @@
       {
         "type_code": 119,
         "type_name": "데미지 +총 각성수 X%",
-        "value": 0.009,
-        "value_display": "0.9",
-        "description": "데미지 +총 각성수 X 0.9%"
+        "value": 0.006,
+        "value_display": "0.6",
+        "description": "데미지 +총 각성수 X 0.6%"
       },
       {
         "type_code": 164,
@@ -12508,9 +12508,9 @@
       {
         "type_code": 119,
         "type_name": "데미지 +총 각성수 X%",
-        "value": 0.006,
-        "value_display": "0.6",
-        "description": "데미지 +총 각성수 X 0.6%"
+        "value": 0.004,
+        "value_display": "0.4",
+        "description": "데미지 +총 각성수 X 0.4%"
       },
       {
         "type_code": 165,
@@ -12690,9 +12690,9 @@
       {
         "type_code": 149,
         "type_name": "클릭 데미지 +총 각성수 X%",
-        "value": 0.006,
-        "value_display": "0.6",
-        "description": "클릭 데미지 +총 각성수 X 0.6%"
+        "value": 0.003,
+        "value_display": "0.3",
+        "description": "클릭 데미지 +총 각성수 X 0.3%"
       },
       {
         "type_code": 171,
@@ -12732,9 +12732,9 @@
       {
         "type_code": 170,
         "type_name": "모든 용병의 데미지 +자신의 각성수 X%",
-        "value": 0.03,
-        "value_display": "3",
-        "description": "모든 용병의 데미지 +자신의 각성수 X 3%"
+        "value": 0.01,
+        "value_display": "1",
+        "description": "모든 용병의 데미지 +자신의 각성수 X 1%"
       }
     ],
     "randomValue": 0
@@ -13264,9 +13264,9 @@
       {
         "type_code": 119,
         "type_name": "데미지 +총 각성수 X%",
-        "value": 0.006,
-        "value_display": "0.6",
-        "description": "데미지 +총 각성수 X 0.6%"
+        "value": 0.004,
+        "value_display": "0.4",
+        "description": "데미지 +총 각성수 X 0.4%"
       }
     ],
     "randomValue": 0
@@ -13369,9 +13369,9 @@
       {
         "type_code": 119,
         "type_name": "데미지 +총 각성수 X%",
-        "value": 0.006,
-        "value_display": "0.6",
-        "description": "데미지 +총 각성수 X 0.6%"
+        "value": 0.004,
+        "value_display": "0.4",
+        "description": "데미지 +총 각성수 X 0.4%"
       },
       {
         "type_code": 194,
@@ -13488,9 +13488,9 @@
       {
         "type_code": 119,
         "type_name": "데미지 +총 각성수 X%",
-        "value": 0.006,
-        "value_display": "0.6",
-        "description": "데미지 +총 각성수 X 0.6%"
+        "value": 0.004,
+        "value_display": "0.4",
+        "description": "데미지 +총 각성수 X 0.4%"
       },
       {
         "type_code": 199,
@@ -14062,9 +14062,9 @@
       {
         "type_code": 149,
         "type_name": "클릭 데미지 +총 각성수 X%",
-        "value": 0.00666,
-        "value_display": "0.67",
-        "description": "클릭 데미지 +총 각성수 X 0.67%"
+        "value": 0.00333,
+        "value_display": "0.33",
+        "description": "클릭 데미지 +총 각성수 X 0.33%"
       }
     ],
     "randomValue": 0
@@ -14447,9 +14447,9 @@
       {
         "type_code": 239,
         "type_name": "진.쿠카이 고용시 데미지 +총 각성수 X%",
-        "value": 0.006,
-        "value_display": "0.6",
-        "description": "진.쿠카이 고용시 데미지 +총 각성수 X 0.6%"
+        "value": 0.004,
+        "value_display": "0.4",
+        "description": "진.쿠카이 고용시 데미지 +총 각성수 X 0.4%"
       }
     ],
     "randomValue": 0
@@ -14643,9 +14643,9 @@
       {
         "type_code": 119,
         "type_name": "데미지 +총 각성수 X%",
-        "value": 0.0045,
-        "value_display": "0.45",
-        "description": "데미지 +총 각성수 X 0.45%"
+        "value": 0.003,
+        "value_display": "0.3",
+        "description": "데미지 +총 각성수 X 0.3%"
       }
     ],
     "randomValue": 0
@@ -14776,9 +14776,9 @@
       {
         "type_code": 251,
         "type_name": "모든 용병의 클릭 데미지 +총 각성수 X%",
-        "value": 0.002,
-        "value_display": "0.2",
-        "description": "모든 용병의 클릭 데미지 +총 각성수 X 0.2%"
+        "value": 0.001,
+        "value_display": "0.1",
+        "description": "모든 용병의 클릭 데미지 +총 각성수 X 0.1%"
       }
     ],
     "randomValue": 0
@@ -16008,9 +16008,9 @@
       {
         "type_code": 119,
         "type_name": "데미지 +총 각성수 X%",
-        "value": 0.009,
-        "value_display": "0.9",
-        "description": "데미지 +총 각성수 X 0.9%"
+        "value": 0.006,
+        "value_display": "0.6",
+        "description": "데미지 +총 각성수 X 0.6%"
       }
     ],
     "randomValue": 0
@@ -16288,9 +16288,9 @@
       {
         "type_code": 324,
         "type_name": "라라엘의 데미지 +총 각성수 X%",
-        "value": 0.009,
-        "value_display": "0.9",
-        "description": "라라엘의 데미지 +총 각성수 X 0.9%"
+        "value": 0.006,
+        "value_display": "0.6",
+        "description": "라라엘의 데미지 +총 각성수 X 0.6%"
       },
       {
         "type_code": 325,
@@ -16617,9 +16617,9 @@
       {
         "type_code": 130,
         "type_name": "추가 데미지 +총 각성수 X",
-        "value": 140.0,
-        "value_display": "140",
-        "description": "추가 데미지 +총 각성수 X 140"
+        "value": 70.0,
+        "value_display": "70",
+        "description": "추가 데미지 +총 각성수 X 70"
       }
     ],
     "randomValue": 0
@@ -16995,9 +16995,9 @@
       {
         "type_code": 338,
         "type_name": "또치의 데미지 +총 각성수 X%",
-        "value": 0.012,
-        "value_display": "1.2",
-        "description": "또치의 데미지 +총 각성수 X 1.2%"
+        "value": 0.008,
+        "value_display": "0.8",
+        "description": "또치의 데미지 +총 각성수 X 0.8%"
       },
       {
         "type_code": 339,
@@ -18255,9 +18255,9 @@
       {
         "type_code": 396,
         "type_name": "모든 용병의 클릭 데미지 +자신의 각성수 X%",
-        "value": 0.008,
-        "value_display": "0.8",
-        "description": "모든 용병의 클릭 데미지 +자신의 각성수 X 0.8%"
+        "value": 0.004,
+        "value_display": "0.4",
+        "description": "모든 용병의 클릭 데미지 +자신의 각성수 X 0.4%"
       }
     ],
     "randomValue": 0
@@ -18402,9 +18402,9 @@
       {
         "type_code": 170,
         "type_name": "모든 용병의 데미지 +자신의 각성수 X%",
-        "value": 0.021,
-        "value_display": "2.1",
-        "description": "모든 용병의 데미지 +자신의 각성수 X 2.1%"
+        "value": 0.007,
+        "value_display": "0.7",
+        "description": "모든 용병의 데미지 +자신의 각성수 X 0.7%"
       },
       {
         "type_code": 706,
@@ -19263,9 +19263,9 @@
       {
         "type_code": 99,
         "type_name": "모든 용병의 데미지 +총 각성수 X%",
-        "value": 0.0012,
-        "value_display": "0.12",
-        "description": "모든 용병의 데미지 +총 각성수 X 0.12%"
+        "value": 0.0004,
+        "value_display": "0.04",
+        "description": "모든 용병의 데미지 +총 각성수 X 0.04%"
       }
     ],
     "randomValue": 0
@@ -19389,9 +19389,9 @@
       {
         "type_code": 149,
         "type_name": "클릭 데미지 +총 각성수 X%",
-        "value": 0.006,
-        "value_display": "0.6",
-        "description": "클릭 데미지 +총 각성수 X 0.6%"
+        "value": 0.003,
+        "value_display": "0.3",
+        "description": "클릭 데미지 +총 각성수 X 0.3%"
       }
     ],
     "randomValue": 0
@@ -19557,9 +19557,9 @@
       {
         "type_code": 251,
         "type_name": "모든 용병의 클릭 데미지 +총 각성수 X%",
-        "value": 0.0006,
-        "value_display": "0.06",
-        "description": "모든 용병의 클릭 데미지 +총 각성수 X 0.06%"
+        "value": 0.0003,
+        "value_display": "0.03",
+        "description": "모든 용병의 클릭 데미지 +총 각성수 X 0.03%"
       }
     ],
     "randomValue": 0
@@ -19592,9 +19592,9 @@
       {
         "type_code": 437,
         "type_name": "아르케로 세트 착용시 데미지 +총 각성수 X%",
-        "value": 0.0105,
-        "value_display": "1.05",
-        "description": "아르케로 세트 착용시 데미지 +총 각성수 X 1.05%"
+        "value": 0.007,
+        "value_display": "0.7",
+        "description": "아르케로 세트 착용시 데미지 +총 각성수 X 0.7%"
       },
       {
         "type_code": 438,
@@ -19711,16 +19711,16 @@
       {
         "type_code": 119,
         "type_name": "데미지 +총 각성수 X%",
-        "value": 0.009,
-        "value_display": "0.9",
-        "description": "데미지 +총 각성수 X 0.9%"
+        "value": 0.006,
+        "value_display": "0.6",
+        "description": "데미지 +총 각성수 X 0.6%"
       },
       {
         "type_code": 170,
         "type_name": "모든 용병의 데미지 +자신의 각성수 X%",
-        "value": 0.018,
-        "value_display": "1.8",
-        "description": "모든 용병의 데미지 +자신의 각성수 X 1.8%"
+        "value": 0.006,
+        "value_display": "0.6",
+        "description": "모든 용병의 데미지 +자신의 각성수 X 0.6%"
       }
     ],
     "randomValue": 0
@@ -19802,9 +19802,9 @@
       {
         "type_code": 149,
         "type_name": "클릭 데미지 +총 각성수 X%",
-        "value": 0.006,
-        "value_display": "0.6",
-        "description": "클릭 데미지 +총 각성수 X 0.6%"
+        "value": 0.003,
+        "value_display": "0.3",
+        "description": "클릭 데미지 +총 각성수 X 0.3%"
       }
     ],
     "randomValue": 0
@@ -19970,9 +19970,9 @@
       {
         "type_code": 119,
         "type_name": "데미지 +총 각성수 X%",
-        "value": 0.009,
-        "value_display": "0.9",
-        "description": "데미지 +총 각성수 X 0.9%"
+        "value": 0.006,
+        "value_display": "0.6",
+        "description": "데미지 +총 각성수 X 0.6%"
       }
     ],
     "randomValue": 0
@@ -20005,9 +20005,9 @@
       {
         "type_code": 460,
         "type_name": "베멜로스의 데미지 +총 각성수 X%",
-        "value": 0.0075,
-        "value_display": "0.75",
-        "description": "베멜로스의 데미지 +총 각성수 X 0.75%"
+        "value": 0.005,
+        "value_display": "0.5",
+        "description": "베멜로스의 데미지 +총 각성수 X 0.5%"
       },
       {
         "type_code": 459,
@@ -20166,9 +20166,9 @@
       {
         "type_code": 480,
         "type_name": "베멜리나의 데미지 +총 각성수 X%",
-        "value": 0.0075,
-        "value_display": "0.75",
-        "description": "베멜리나의 데미지 +총 각성수 X 0.75%"
+        "value": 0.005,
+        "value_display": "0.5",
+        "description": "베멜리나의 데미지 +총 각성수 X 0.5%"
       },
       {
         "type_code": 481,
@@ -20285,9 +20285,9 @@
       {
         "type_code": 119,
         "type_name": "데미지 +총 각성수 X%",
-        "value": 0.0075,
-        "value_display": "0.75",
-        "description": "데미지 +총 각성수 X 0.75%"
+        "value": 0.005,
+        "value_display": "0.5",
+        "description": "데미지 +총 각성수 X 0.5%"
       }
     ],
     "randomValue": 0
@@ -20369,9 +20369,9 @@
       {
         "type_code": 396,
         "type_name": "모든 용병의 클릭 데미지 +자신의 각성수 X%",
-        "value": 0.008,
-        "value_display": "0.8",
-        "description": "모든 용병의 클릭 데미지 +자신의 각성수 X 0.8%"
+        "value": 0.004,
+        "value_display": "0.4",
+        "description": "모든 용병의 클릭 데미지 +자신의 각성수 X 0.4%"
       }
     ],
     "randomValue": 0
@@ -20488,9 +20488,9 @@
       {
         "type_code": 119,
         "type_name": "데미지 +총 각성수 X%",
-        "value": 0.009,
-        "value_display": "0.9",
-        "description": "데미지 +총 각성수 X 0.9%"
+        "value": 0.006,
+        "value_display": "0.6",
+        "description": "데미지 +총 각성수 X 0.6%"
       }
     ],
     "randomValue": 0
@@ -20768,9 +20768,9 @@
       {
         "type_code": 119,
         "type_name": "데미지 +총 각성수 X%",
-        "value": 0.0105,
-        "value_display": "1.05",
-        "description": "데미지 +총 각성수 X 1.05%"
+        "value": 0.007,
+        "value_display": "0.7",
+        "description": "데미지 +총 각성수 X 0.7%"
       },
       {
         "type_code": 494,
@@ -21279,9 +21279,9 @@
       {
         "type_code": 119,
         "type_name": "데미지 +총 각성수 X%",
-        "value": 0.0075,
-        "value_display": "0.75",
-        "description": "데미지 +총 각성수 X 0.75%"
+        "value": 0.005,
+        "value_display": "0.5",
+        "description": "데미지 +총 각성수 X 0.5%"
       }
     ],
     "randomValue": 0
@@ -21405,9 +21405,9 @@
       {
         "type_code": 510,
         "type_name": "올리비아 참전시 데미지 +총 각성수 X%",
-        "value": 0.012,
-        "value_display": "1.2",
-        "description": "올리비아 참전시 데미지 +총 각성수 X 1.2%"
+        "value": 0.008,
+        "value_display": "0.8",
+        "description": "올리비아 참전시 데미지 +총 각성수 X 0.8%"
       }
     ],
     "randomValue": 0
@@ -21447,9 +21447,9 @@
       {
         "type_code": 119,
         "type_name": "데미지 +총 각성수 X%",
-        "value": 0.006,
-        "value_display": "0.6",
-        "description": "데미지 +총 각성수 X 0.6%"
+        "value": 0.004,
+        "value_display": "0.4",
+        "description": "데미지 +총 각성수 X 0.4%"
       }
     ],
     "randomValue": 0
@@ -21573,9 +21573,9 @@
       {
         "type_code": 521,
         "type_name": "우르간의 데미지 +총 각성수 X%",
-        "value": 0.006,
-        "value_display": "0.6",
-        "description": "우르간의 데미지 +총 각성수 X 0.6%"
+        "value": 0.004,
+        "value_display": "0.4",
+        "description": "우르간의 데미지 +총 각성수 X 0.4%"
       }
     ],
     "randomValue": 0
@@ -21657,9 +21657,9 @@
       {
         "type_code": 119,
         "type_name": "데미지 +총 각성수 X%",
-        "value": 0.006,
-        "value_display": "0.6",
-        "description": "데미지 +총 각성수 X 0.6%"
+        "value": 0.004,
+        "value_display": "0.4",
+        "description": "데미지 +총 각성수 X 0.4%"
       }
     ],
     "randomValue": 0
@@ -21776,9 +21776,9 @@
       {
         "type_code": 130,
         "type_name": "추가 데미지 +총 각성수 X",
-        "value": 44.0,
-        "value_display": "44",
-        "description": "추가 데미지 +총 각성수 X 44"
+        "value": 22.0,
+        "value_display": "22",
+        "description": "추가 데미지 +총 각성수 X 22"
       }
     ],
     "randomValue": 0
@@ -21944,9 +21944,9 @@
       {
         "type_code": 529,
         "type_name": "(아이템 스태프(문샤인) 장착시) 클릭 데미지 +총 각성수 X%",
-        "value": 0.006,
-        "value_display": "0.6",
-        "description": "(아이템 스태프(문샤인) 장착시) 클릭 데미지 +총 각성수 X 0.6%"
+        "value": 0.003,
+        "value_display": "0.3",
+        "description": "(아이템 스태프(문샤인) 장착시) 클릭 데미지 +총 각성수 X 0.3%"
       }
     ],
     "randomValue": 0
@@ -22021,16 +22021,16 @@
       {
         "type_code": 119,
         "type_name": "데미지 +총 각성수 X%",
-        "value": 0.009,
-        "value_display": "0.9",
-        "description": "데미지 +총 각성수 X 0.9%"
+        "value": 0.006,
+        "value_display": "0.6",
+        "description": "데미지 +총 각성수 X 0.6%"
       },
       {
         "type_code": 149,
         "type_name": "클릭 데미지 +총 각성수 X%",
-        "value": 0.006,
-        "value_display": "0.6",
-        "description": "클릭 데미지 +총 각성수 X 0.6%"
+        "value": 0.003,
+        "value_display": "0.3",
+        "description": "클릭 데미지 +총 각성수 X 0.3%"
       }
     ],
     "randomValue": 0
@@ -22308,16 +22308,16 @@
       {
         "type_code": 119,
         "type_name": "데미지 +총 각성수 X%",
-        "value": 0.0075,
-        "value_display": "0.75",
-        "description": "데미지 +총 각성수 X 0.75%"
+        "value": 0.005,
+        "value_display": "0.5",
+        "description": "데미지 +총 각성수 X 0.5%"
       },
       {
         "type_code": 149,
         "type_name": "클릭 데미지 +총 각성수 X%",
-        "value": 0.006,
-        "value_display": "0.6",
-        "description": "클릭 데미지 +총 각성수 X 0.6%"
+        "value": 0.003,
+        "value_display": "0.3",
+        "description": "클릭 데미지 +총 각성수 X 0.3%"
       }
     ],
     "randomValue": 0
@@ -22756,9 +22756,9 @@
       {
         "type_code": 119,
         "type_name": "데미지 +총 각성수 X%",
-        "value": 0.006,
-        "value_display": "0.6",
-        "description": "데미지 +총 각성수 X 0.6%"
+        "value": 0.004,
+        "value_display": "0.4",
+        "description": "데미지 +총 각성수 X 0.4%"
       }
     ],
     "randomValue": 0
@@ -23631,9 +23631,9 @@
       {
         "type_code": 119,
         "type_name": "데미지 +총 각성수 X%",
-        "value": 0.0075,
-        "value_display": "0.75",
-        "description": "데미지 +총 각성수 X 0.75%"
+        "value": 0.005,
+        "value_display": "0.5",
+        "description": "데미지 +총 각성수 X 0.5%"
       }
     ],
     "randomValue": 0
@@ -23862,9 +23862,9 @@
       {
         "type_code": 119,
         "type_name": "데미지 +총 각성수 X%",
-        "value": 0.0075,
-        "value_display": "0.75",
-        "description": "데미지 +총 각성수 X 0.75%"
+        "value": 0.005,
+        "value_display": "0.5",
+        "description": "데미지 +총 각성수 X 0.5%"
       }
     ],
     "randomValue": 0
@@ -25150,9 +25150,9 @@
       {
         "type_code": 170,
         "type_name": "모든 용병의 데미지 +자신의 각성수 X%",
-        "value": 0.024,
-        "value_display": "2.4",
-        "description": "모든 용병의 데미지 +자신의 각성수 X 2.4%"
+        "value": 0.008,
+        "value_display": "0.8",
+        "description": "모든 용병의 데미지 +자신의 각성수 X 0.8%"
       }
     ],
     "randomValue": 0
@@ -25766,9 +25766,9 @@
       {
         "type_code": 645,
         "type_name": "데미지 +총 각성수 X 페퍼 X%",
-        "value": 0.00375,
-        "value_display": "0.38",
-        "description": "데미지 +총 각성수 X 페퍼 X 0.38%"
+        "value": 0.0025,
+        "value_display": "0.25",
+        "description": "데미지 +총 각성수 X 페퍼 X 0.25%"
       }
     ],
     "randomValue": 0
@@ -25801,9 +25801,9 @@
       {
         "type_code": 648,
         "type_name": "애라 참전시 모든 마법 용병의 데미지 +총 각성수 X%",
-        "value": 0.0012,
-        "value_display": "0.12",
-        "description": "애라 참전시 모든 마법 용병의 데미지 +총 각성수 X 0.12%"
+        "value": 0.0004,
+        "value_display": "0.04",
+        "description": "애라 참전시 모든 마법 용병의 데미지 +총 각성수 X 0.04%"
       }
     ],
     "randomValue": 0
@@ -25962,16 +25962,16 @@
       {
         "type_code": 651,
         "type_name": "지역이 지옥인 용병의 데미지 +총 각성수 X 지옥 X%",
-        "value": 0.0006,
-        "value_display": "0.06",
-        "description": "지역이 지옥인 용병의 데미지 +총 각성수 X 지옥 X 0.06%"
+        "value": 0.0002,
+        "value_display": "0.02",
+        "description": "지역이 지옥인 용병의 데미지 +총 각성수 X 지옥 X 0.02%"
       },
       {
         "type_code": 652,
         "type_name": "지역이 지옥인 용병의 클릭 데미지 +총 각성수 X 지옥 X%",
-        "value": 0.0004,
-        "value_display": "0.04",
-        "description": "지역이 지옥인 용병의 클릭 데미지 +총 각성수 X 지옥 X 0.04%"
+        "value": 0.0002,
+        "value_display": "0.02",
+        "description": "지역이 지옥인 용병의 클릭 데미지 +총 각성수 X 지옥 X 0.02%"
       }
     ],
     "randomValue": 0
@@ -26081,16 +26081,16 @@
       {
         "type_code": 119,
         "type_name": "데미지 +총 각성수 X%",
-        "value": 0.009,
-        "value_display": "0.9",
-        "description": "데미지 +총 각성수 X 0.9%"
+        "value": 0.006,
+        "value_display": "0.6",
+        "description": "데미지 +총 각성수 X 0.6%"
       },
       {
         "type_code": 149,
         "type_name": "클릭 데미지 +총 각성수 X%",
-        "value": 0.006,
-        "value_display": "0.6",
-        "description": "클릭 데미지 +총 각성수 X 0.6%"
+        "value": 0.003,
+        "value_display": "0.3",
+        "description": "클릭 데미지 +총 각성수 X 0.3%"
       },
       {
         "type_code": 1171,
@@ -26130,16 +26130,16 @@
       {
         "type_code": 130,
         "type_name": "추가 데미지 +총 각성수 X",
-        "value": 48.0,
-        "value_display": "48",
-        "description": "추가 데미지 +총 각성수 X 48"
+        "value": 24.0,
+        "value_display": "24",
+        "description": "추가 데미지 +총 각성수 X 24"
       },
       {
         "type_code": 251,
         "type_name": "모든 용병의 클릭 데미지 +총 각성수 X%",
-        "value": 0.0006,
-        "value_display": "0.06",
-        "description": "모든 용병의 클릭 데미지 +총 각성수 X 0.06%"
+        "value": 0.0003,
+        "value_display": "0.03",
+        "description": "모든 용병의 클릭 데미지 +총 각성수 X 0.03%"
       }
     ],
     "randomValue": 0
@@ -26277,9 +26277,9 @@
       {
         "type_code": 1060,
         "type_name": "모든 용병의 추가 데미지 +총 각성수 X",
-        "value": 10.0,
-        "value_display": "1000%",
-        "description": "모든 용병의 추가 데미지 +총 각성수 X 1000%"
+        "value": 5.0,
+        "value_display": "500%",
+        "description": "모든 용병의 추가 데미지 +총 각성수 X 500%"
       },
       {
         "type_code": 654,
@@ -26403,9 +26403,9 @@
       {
         "type_code": 119,
         "type_name": "데미지 +총 각성수 X%",
-        "value": 0.0075,
-        "value_display": "0.75",
-        "description": "데미지 +총 각성수 X 0.75%"
+        "value": 0.005,
+        "value_display": "0.5",
+        "description": "데미지 +총 각성수 X 0.5%"
       }
     ],
     "randomValue": 0
@@ -26487,9 +26487,9 @@
       {
         "type_code": 1044,
         "type_name": "모든 혼합 용병의 데미지 +총 각성수 X%",
-        "value": 0.0012,
-        "value_display": "0.12",
-        "description": "모든 혼합 용병의 데미지 +총 각성수 X 0.12%"
+        "value": 0.0004,
+        "value_display": "0.04",
+        "description": "모든 혼합 용병의 데미지 +총 각성수 X 0.04%"
       }
     ],
     "randomValue": 0
@@ -26697,9 +26697,9 @@
       {
         "type_code": 662,
         "type_name": "(아이템 칼라마르의 다리 장착시) 모든 용병의 추가 데미지 +총 각성수 X",
-        "value": 16.0,
-        "value_display": "16",
-        "description": "(아이템 칼라마르의 다리 장착시) 모든 용병의 추가 데미지 +총 각성수 X 16"
+        "value": 8.0,
+        "value_display": "8",
+        "description": "(아이템 칼라마르의 다리 장착시) 모든 용병의 추가 데미지 +총 각성수 X 8"
       }
     ],
     "randomValue": 0
@@ -26963,9 +26963,9 @@
       {
         "type_code": 130,
         "type_name": "추가 데미지 +총 각성수 X",
-        "value": 100.0,
-        "value_display": "100",
-        "description": "추가 데미지 +총 각성수 X 100"
+        "value": 50.0,
+        "value_display": "50",
+        "description": "추가 데미지 +총 각성수 X 50"
       }
     ],
     "randomValue": 0
@@ -27089,9 +27089,9 @@
       {
         "type_code": 119,
         "type_name": "데미지 +총 각성수 X%",
-        "value": 0.006,
-        "value_display": "0.6",
-        "description": "데미지 +총 각성수 X 0.6%"
+        "value": 0.004,
+        "value_display": "0.4",
+        "description": "데미지 +총 각성수 X 0.4%"
       }
     ],
     "randomValue": 0
@@ -27754,9 +27754,9 @@
       {
         "type_code": 119,
         "type_name": "데미지 +총 각성수 X%",
-        "value": 0.006,
-        "value_display": "0.6",
-        "description": "데미지 +총 각성수 X 0.6%"
+        "value": 0.004,
+        "value_display": "0.4",
+        "description": "데미지 +총 각성수 X 0.4%"
       },
       {
         "type_code": 663,
@@ -27845,9 +27845,9 @@
       {
         "type_code": 1042,
         "type_name": "모든 물리 용병의 데미지 +총 각성수 X%",
-        "value": 0.0012,
-        "value_display": "0.12",
-        "description": "모든 물리 용병의 데미지 +총 각성수 X 0.12%"
+        "value": 0.0004,
+        "value_display": "0.04",
+        "description": "모든 물리 용병의 데미지 +총 각성수 X 0.04%"
       }
     ],
     "randomValue": 0
@@ -27922,9 +27922,9 @@
       {
         "type_code": 1045,
         "type_name": "모든 카오스 용병의 데미지 +총 각성수 X%",
-        "value": 0.0012,
-        "value_display": "0.12",
-        "description": "모든 카오스 용병의 데미지 +총 각성수 X 0.12%"
+        "value": 0.0004,
+        "value_display": "0.04",
+        "description": "모든 카오스 용병의 데미지 +총 각성수 X 0.04%"
       }
     ],
     "randomValue": 0
@@ -28517,9 +28517,9 @@
       {
         "type_code": 130,
         "type_name": "추가 데미지 +총 각성수 X",
-        "value": 180.0,
-        "value_display": "180",
-        "description": "추가 데미지 +총 각성수 X 180"
+        "value": 90.0,
+        "value_display": "90",
+        "description": "추가 데미지 +총 각성수 X 90"
       },
       {
         "type_code": 107,
@@ -28783,9 +28783,9 @@
       {
         "type_code": 119,
         "type_name": "데미지 +총 각성수 X%",
-        "value": 0.006,
-        "value_display": "0.6",
-        "description": "데미지 +총 각성수 X 0.6%"
+        "value": 0.004,
+        "value_display": "0.4",
+        "description": "데미지 +총 각성수 X 0.4%"
       }
     ],
     "randomValue": 0
@@ -28951,9 +28951,9 @@
       {
         "type_code": 119,
         "type_name": "데미지 +총 각성수 X%",
-        "value": 0.0075,
-        "value_display": "0.75",
-        "description": "데미지 +총 각성수 X 0.75%"
+        "value": 0.005,
+        "value_display": "0.5",
+        "description": "데미지 +총 각성수 X 0.5%"
       }
     ],
     "randomValue": 0
@@ -29602,9 +29602,9 @@
       {
         "type_code": 690,
         "type_name": "츠요나시의 데미지 +총 각성수 X%",
-        "value": 0.009,
-        "value_display": "0.9",
-        "description": "츠요나시의 데미지 +총 각성수 X 0.9%"
+        "value": 0.006,
+        "value_display": "0.6",
+        "description": "츠요나시의 데미지 +총 각성수 X 0.6%"
       },
       {
         "type_code": 689,
@@ -30372,16 +30372,16 @@
       {
         "type_code": 149,
         "type_name": "클릭 데미지 +총 각성수 X%",
-        "value": 0.0072,
-        "value_display": "0.72",
-        "description": "클릭 데미지 +총 각성수 X 0.72%"
+        "value": 0.0036,
+        "value_display": "0.36",
+        "description": "클릭 데미지 +총 각성수 X 0.36%"
       },
       {
         "type_code": 396,
         "type_name": "모든 용병의 클릭 데미지 +자신의 각성수 X%",
-        "value": 0.0048,
-        "value_display": "0.48",
-        "description": "모든 용병의 클릭 데미지 +자신의 각성수 X 0.48%"
+        "value": 0.0024,
+        "value_display": "0.24",
+        "description": "모든 용병의 클릭 데미지 +자신의 각성수 X 0.24%"
       }
     ],
     "randomValue": 0
@@ -30414,16 +30414,16 @@
       {
         "type_code": 119,
         "type_name": "데미지 +총 각성수 X%",
-        "value": 0.009,
-        "value_display": "0.9",
-        "description": "데미지 +총 각성수 X 0.9%"
+        "value": 0.006,
+        "value_display": "0.6",
+        "description": "데미지 +총 각성수 X 0.6%"
       },
       {
         "type_code": 149,
         "type_name": "클릭 데미지 +총 각성수 X%",
-        "value": 0.008,
-        "value_display": "0.8",
-        "description": "클릭 데미지 +총 각성수 X 0.8%"
+        "value": 0.004,
+        "value_display": "0.4",
+        "description": "클릭 데미지 +총 각성수 X 0.4%"
       }
     ],
     "randomValue": 0
@@ -30673,9 +30673,9 @@
       {
         "type_code": 717,
         "type_name": "혼합 용병만 공격 할 때 모든 용병의 데미지 +총 각성수 X%",
-        "value": 0.0027,
-        "value_display": "0.27",
-        "description": "혼합 용병만 공격 할 때 모든 용병의 데미지 +총 각성수 X 0.27%"
+        "value": 0.0009,
+        "value_display": "0.09",
+        "description": "혼합 용병만 공격 할 때 모든 용병의 데미지 +총 각성수 X 0.09%"
       }
     ],
     "randomValue": 0
@@ -30876,9 +30876,9 @@
       {
         "type_code": 119,
         "type_name": "데미지 +총 각성수 X%",
-        "value": 0.009,
-        "value_display": "0.9",
-        "description": "데미지 +총 각성수 X 0.9%"
+        "value": 0.006,
+        "value_display": "0.6",
+        "description": "데미지 +총 각성수 X 0.6%"
       },
       {
         "type_code": 723,
@@ -31135,9 +31135,9 @@
       {
         "type_code": 1165,
         "type_name": "신성 데미지 +총 각성수 X",
-        "value": 37.5,
-        "value_display": "38",
-        "description": "신성 데미지 +총 각성수 X 38"
+        "value": 25.0,
+        "value_display": "25",
+        "description": "신성 데미지 +총 각성수 X 25"
       }
     ],
     "randomValue": 0
@@ -31548,16 +31548,16 @@
       {
         "type_code": 119,
         "type_name": "데미지 +총 각성수 X%",
-        "value": 0.006,
-        "value_display": "0.6",
-        "description": "데미지 +총 각성수 X 0.6%"
+        "value": 0.004,
+        "value_display": "0.4",
+        "description": "데미지 +총 각성수 X 0.4%"
       },
       {
         "type_code": 170,
         "type_name": "모든 용병의 데미지 +자신의 각성수 X%",
-        "value": 0.009,
-        "value_display": "0.9",
-        "description": "모든 용병의 데미지 +자신의 각성수 X 0.9%"
+        "value": 0.003,
+        "value_display": "0.3",
+        "description": "모든 용병의 데미지 +자신의 각성수 X 0.3%"
       }
     ],
     "randomValue": 0
@@ -31751,16 +31751,16 @@
       {
         "type_code": 119,
         "type_name": "데미지 +총 각성수 X%",
-        "value": 0.009,
-        "value_display": "0.9",
-        "description": "데미지 +총 각성수 X 0.9%"
+        "value": 0.006,
+        "value_display": "0.6",
+        "description": "데미지 +총 각성수 X 0.6%"
       },
       {
         "type_code": 170,
         "type_name": "모든 용병의 데미지 +자신의 각성수 X%",
-        "value": 0.0072,
-        "value_display": "0.72",
-        "description": "모든 용병의 데미지 +자신의 각성수 X 0.72%"
+        "value": 0.0024,
+        "value_display": "0.24",
+        "description": "모든 용병의 데미지 +자신의 각성수 X 0.24%"
       },
       {
         "type_code": 1013,
@@ -32178,9 +32178,9 @@
       {
         "type_code": 119,
         "type_name": "데미지 +총 각성수 X%",
-        "value": 0.0075,
-        "value_display": "0.75",
-        "description": "데미지 +총 각성수 X 0.75%"
+        "value": 0.005,
+        "value_display": "0.5",
+        "description": "데미지 +총 각성수 X 0.5%"
       },
       {
         "type_code": 751,
@@ -32227,9 +32227,9 @@
       {
         "type_code": 170,
         "type_name": "모든 용병의 데미지 +자신의 각성수 X%",
-        "value": 0.0081,
-        "value_display": "0.81",
-        "description": "모든 용병의 데미지 +자신의 각성수 X 0.81%"
+        "value": 0.0027,
+        "value_display": "0.27",
+        "description": "모든 용병의 데미지 +자신의 각성수 X 0.27%"
       }
     ],
     "randomValue": 0
@@ -32304,16 +32304,16 @@
       {
         "type_code": 170,
         "type_name": "모든 용병의 데미지 +자신의 각성수 X%",
-        "value": 0.009,
-        "value_display": "0.9",
-        "description": "모든 용병의 데미지 +자신의 각성수 X 0.9%"
+        "value": 0.003,
+        "value_display": "0.3",
+        "description": "모든 용병의 데미지 +자신의 각성수 X 0.3%"
       },
       {
         "type_code": 396,
         "type_name": "모든 용병의 클릭 데미지 +자신의 각성수 X%",
-        "value": 0.0048,
-        "value_display": "0.48",
-        "description": "모든 용병의 클릭 데미지 +자신의 각성수 X 0.48%"
+        "value": 0.0024,
+        "value_display": "0.24",
+        "description": "모든 용병의 클릭 데미지 +자신의 각성수 X 0.24%"
       }
     ],
     "randomValue": 0
@@ -32346,16 +32346,16 @@
       {
         "type_code": 119,
         "type_name": "데미지 +총 각성수 X%",
-        "value": 0.009,
-        "value_display": "0.9",
-        "description": "데미지 +총 각성수 X 0.9%"
+        "value": 0.006,
+        "value_display": "0.6",
+        "description": "데미지 +총 각성수 X 0.6%"
       },
       {
         "type_code": 149,
         "type_name": "클릭 데미지 +총 각성수 X%",
-        "value": 0.008,
-        "value_display": "0.8",
-        "description": "클릭 데미지 +총 각성수 X 0.8%"
+        "value": 0.004,
+        "value_display": "0.4",
+        "description": "클릭 데미지 +총 각성수 X 0.4%"
       }
     ],
     "randomValue": 0
@@ -32507,9 +32507,9 @@
       {
         "type_code": 130,
         "type_name": "추가 데미지 +총 각성수 X",
-        "value": 88.0,
-        "value_display": "88",
-        "description": "추가 데미지 +총 각성수 X 88"
+        "value": 44.0,
+        "value_display": "44",
+        "description": "추가 데미지 +총 각성수 X 44"
       },
       {
         "type_code": 759,
@@ -32542,9 +32542,9 @@
       {
         "type_code": 130,
         "type_name": "추가 데미지 +총 각성수 X",
-        "value": 180.0,
-        "value_display": "180",
-        "description": "추가 데미지 +총 각성수 X 180"
+        "value": 90.0,
+        "value_display": "90",
+        "description": "추가 데미지 +총 각성수 X 90"
       },
       {
         "type_code": 112,
@@ -32591,9 +32591,9 @@
       {
         "type_code": 1060,
         "type_name": "모든 용병의 추가 데미지 +총 각성수 X",
-        "value": 16.0,
-        "value_display": "1600%",
-        "description": "모든 용병의 추가 데미지 +총 각성수 X 1600%"
+        "value": 8.0,
+        "value_display": "800%",
+        "description": "모든 용병의 추가 데미지 +총 각성수 X 800%"
       },
       {
         "type_code": 761,
@@ -32675,9 +32675,9 @@
       {
         "type_code": 130,
         "type_name": "추가 데미지 +총 각성수 X",
-        "value": 180.0,
-        "value_display": "180",
-        "description": "추가 데미지 +총 각성수 X 180"
+        "value": 90.0,
+        "value_display": "90",
+        "description": "추가 데미지 +총 각성수 X 90"
       },
       {
         "type_code": 764,
@@ -32717,9 +32717,9 @@
       {
         "type_code": 130,
         "type_name": "추가 데미지 +총 각성수 X",
-        "value": 180.0,
-        "value_display": "180",
-        "description": "추가 데미지 +총 각성수 X 180"
+        "value": 90.0,
+        "value_display": "90",
+        "description": "추가 데미지 +총 각성수 X 90"
       },
       {
         "type_code": 765,
@@ -32759,9 +32759,9 @@
       {
         "type_code": 130,
         "type_name": "추가 데미지 +총 각성수 X",
-        "value": 180.0,
-        "value_display": "180",
-        "description": "추가 데미지 +총 각성수 X 180"
+        "value": 90.0,
+        "value_display": "90",
+        "description": "추가 데미지 +총 각성수 X 90"
       },
       {
         "type_code": 766,
@@ -32843,9 +32843,9 @@
       {
         "type_code": 130,
         "type_name": "추가 데미지 +총 각성수 X",
-        "value": 240.0,
-        "value_display": "240",
-        "description": "추가 데미지 +총 각성수 X 240"
+        "value": 120.0,
+        "value_display": "120",
+        "description": "추가 데미지 +총 각성수 X 120"
       },
       {
         "type_code": 768,
@@ -33165,9 +33165,9 @@
       {
         "type_code": 149,
         "type_name": "클릭 데미지 +총 각성수 X%",
-        "value": 0.008,
-        "value_display": "0.8",
-        "description": "클릭 데미지 +총 각성수 X 0.8%"
+        "value": 0.004,
+        "value_display": "0.4",
+        "description": "클릭 데미지 +총 각성수 X 0.4%"
       }
     ],
     "randomValue": 0
@@ -33207,9 +33207,9 @@
       {
         "type_code": 251,
         "type_name": "모든 용병의 클릭 데미지 +총 각성수 X%",
-        "value": 0.0012,
-        "value_display": "0.12",
-        "description": "모든 용병의 클릭 데미지 +총 각성수 X 0.12%"
+        "value": 0.0006,
+        "value_display": "0.06",
+        "description": "모든 용병의 클릭 데미지 +총 각성수 X 0.06%"
       }
     ],
     "randomValue": 0
@@ -33235,9 +33235,9 @@
       {
         "type_code": 251,
         "type_name": "모든 용병의 클릭 데미지 +총 각성수 X%",
-        "value": 0.0006,
-        "value_display": "0.06",
-        "description": "모든 용병의 클릭 데미지 +총 각성수 X 0.06%"
+        "value": 0.0003,
+        "value_display": "0.03",
+        "description": "모든 용병의 클릭 데미지 +총 각성수 X 0.03%"
       },
       {
         "type_code": 778,
@@ -33396,9 +33396,9 @@
       {
         "type_code": 119,
         "type_name": "데미지 +총 각성수 X%",
-        "value": 0.006,
-        "value_display": "0.6",
-        "description": "데미지 +총 각성수 X 0.6%"
+        "value": 0.004,
+        "value_display": "0.4",
+        "description": "데미지 +총 각성수 X 0.4%"
       },
       {
         "type_code": 782,

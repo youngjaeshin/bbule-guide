@@ -625,13 +625,15 @@ SKILL_EFFECT_DISPLAY_MULTIPLIERS = {
 }
 
 
-def scale_skill_effect_display_value(type_code: int, value: float) -> float:
+def scale_skill_effect_display_value(type_code: int, value: float, template: str = '') -> float:
     """Apply skill-only display/calculation multipliers.
 
     These are itemBase mercenary skill sec codes. They intentionally do not
     touch equipment mainType ratios, which are handled by MAINTYPE_TO_EFFECT.
     Manually verified static/value descriptions bypass this helper.
     """
+    if '각성수' in template:
+        return round(value, 6)
     multiplier = SKILL_EFFECT_DISPLAY_MULTIPLIERS.get(type_code, 1.0)
     return round(value * multiplier, 6)
 
@@ -786,7 +788,7 @@ def resolve_skill_effects(types: list, effects: list, key_to_id: dict, ko_map: d
         sec_key = f'sec{t}'
         template = (loc_text(key_to_id, ko_map, sec_key) or SEC_KOREAN_MAP.get(sec_key) or f'효과{t}').replace('\n', ' ').replace('\r', '')
         efmt = SKILL_EFFECT_FORMAT_OVERRIDES.get(t) or infer_skill_effect_format(template, e)
-        display_value = scale_skill_effect_display_value(t, e)
+        display_value = scale_skill_effect_display_value(t, e, template)
         val_str = format_skill_template_value(template, display_value, efmt)
         # Handle {0}/{1} template placeholders
         if '{0}' in template:
