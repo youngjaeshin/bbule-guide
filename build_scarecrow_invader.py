@@ -6,11 +6,14 @@ Output: web/data_scarecrow_invader.json
 
 import json
 import os
+import re
+from pathlib import Path
 import openpyxl
 
 XLSX_PATH = "/Users/shin542/Desktop/Code/bbule/뿔레 전쟁 클리커 공략 모음 최종 수정일 26-2-22.xlsx"
 OUTPUT_PATH = "/Users/shin542/Desktop/Code/bbule/web/data_scarecrow_invader.json"
 SHEET_NAME = "허수아비침략자"
+ROOT = Path(__file__).resolve().parent
 
 DRAGON_INVADER_NOTE = "드래곤 침략자: 클릭 불가 · 모든 피해를 0.1%만 받음 · 재화 보상 정보 미확인"
 
@@ -85,6 +88,28 @@ def apply_manual_invader_overrides(invaders: dict) -> None:
             reward["드래곤"] = "\n/".join(parts)
         else:
             reward.pop("드래곤", None)
+
+    kahina = json.loads((ROOT / "kahina_invader_rewards.json").read_text(encoding="utf-8"))
+    if not any(t["name"] == kahina["name"] for t in invaders["types"]):
+        invaders["types"].append({"name": kahina["name"], "unlockStage": None})
+    invaders["notes"].append("카히나 침략자: 제공된 게임 화면의 획득 버프·효과만 수록 · 정수·조각 등 재화 보상 미확인")
+    invaders["kahinaRewards"] = {
+        "source_type": kahina["source_type"],
+        "sources": kahina["sources"],
+        "buffs": kahina["buffs"],
+        "effects": kahina["effects"],
+    }
+    for reward in invaders["rewards"]:
+        level = str(reward["level"])
+        parts = []
+        if level in kahina["buffs"]:
+            parts.append("버프: " + kahina["buffs"][level])
+        if level in kahina["effects"]:
+            parts.append("획득 효과: " + kahina["effects"][level])
+        if parts:
+            reward["카히나"] = "\n/".join(parts)
+        else:
+            reward.pop("카히나", None)
 
 
 def main():
@@ -175,6 +200,14 @@ def main():
     os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
+
+    index_path = ROOT / "web/index.html"
+    html = index_path.read_text(encoding="utf-8")
+    value = json.dumps(output, ensure_ascii=False, separators=(",", ":"))
+    updated, count = re.subn(r"const\s+SI_DATA\s*=\s*\{.*?\};", lambda _: "const SI_DATA=" + value + ";", html, count=1, flags=re.S)
+    if count != 1:
+        raise RuntimeError("Expected exactly one SI_DATA inline constant")
+    index_path.write_text(updated, encoding="utf-8")
 
     print(f"Saved: {OUTPUT_PATH}")
     print(f"  invader rewards: {len(rewards)} levels")

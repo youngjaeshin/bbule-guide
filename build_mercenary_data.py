@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Build web/data_mercenaries.json from extracted creature data.
 
-APK output is the source of truth for skill effects because same-name skills can
+Reviewed live-capture overrides take precedence over APK output. Otherwise APK
+output is the source of truth for skill effects because same-name skills can
 change values or effect types between game versions. Existing web data is used
 only for manual passive, portrait, and exclusive-item fields, plus skill text
 when APK output has no effect candidate.
@@ -10,6 +11,8 @@ when APK output has no effect candidate.
 import json
 import re
 from pathlib import Path
+
+from mercenary_capture_overrides import apply_mercenary_metadata, new_mercenaries, verified_skill, with_hire_passives
 
 BASE = Path(__file__).parent
 CREATURES_JSON = BASE / "output" / "creatures.json"
@@ -212,9 +215,17 @@ def normalize_skill_entry(skill: dict) -> dict:
 
 
 def _normalize_source(path: Path, skill: dict) -> dict:
+    resolved = []
+    for original in skill.get("effects_resolved", []):
+        effect = dict(original)
+        # APK's -5 sentinel is a disabled attack mode, not a -500% rate.
+        # Verified against every red "연타 불가" mercenary capture.
+        if effect.get("type_code") == 32 and effect.get("value", 0) <= -1:
+            effect.update(type_name="연타 불가", value_display="", description="연타 불가", operation="disable")
+        resolved.append(effect)
     effects = [
         normalize_effect_text(e.get("description", ""))
-        for e in skill.get("effects_resolved", [])
+        for e in resolved
         if e.get("description")
     ]
     return {
@@ -222,7 +233,7 @@ def _normalize_source(path: Path, skill: dict) -> dict:
         "name": skill.get("name", ""),
         "desc": skill.get("description", ""),
         "effects": effects,
-        "effects_resolved": skill.get("effects_resolved", []),
+        "effects_resolved": resolved,
         "types": skill.get("types", []),
         "raw_effects": skill.get("effects", []),
         "source": path.name,
@@ -303,13 +314,16 @@ def _apply_source_override(source: dict, override: dict) -> dict:
     return patched
 
 
-def select_skill_source(
+def _select_skill_source(
     skill_id: int,
     sources: dict[int, list[dict]],
     *,
     hero_id: int | None = None,
     slot: int | None = None,
 ) -> dict:
+    captured = verified_skill(hero_id, slot)
+    if captured:
+        return captured
     candidates = sources.get(skill_id, [])
     if not candidates:
         return {}
@@ -330,24 +344,40 @@ def select_skill_source(
     )
 
 
+def select_skill_source(skill_id, sources, *, hero_id=None, slot=None):
+    source = _select_skill_source(skill_id, sources, hero_id=hero_id, slot=slot)
+    return with_hire_passives(source, hero_id, slot)
+
+
 def convert_skill(raw_skill: dict, old_skill: dict | None, source: dict) -> dict:
     effects = source.get("effects", [])
+    if source.get("capture_passives_only") and old_skill:
+        old_active = [part for part in old_skill.get("효과", "").split(" / ")
+                      if "영구적으로" not in part]
+        effects = old_active + effects
     effect_text = normalize_effect_text(" / ".join(effects))
-    name = raw_skill.get("name", "") or source.get("name", "") or "없음"
-    desc = raw_skill.get("description", "") or source.get("desc", "")
+    name = (source.get("name") if source.get("verified_capture") else raw_skill.get("name", "")) or source.get("name", "") or "없음"
+    desc = (source.get("desc", "") if source.get("verified_capture") else raw_skill.get("description", "")) or source.get("desc", "")
     if old_skill and not effect_text:
         return normalize_skill_entry({
             **old_skill,
             "이름": name or old_skill.get("이름", ""),
             "설명": desc or old_skill.get("설명", ""),
         })
-    return normalize_skill_entry({
+    result = normalize_skill_entry({
         "slot": raw_skill["slot"],
         "이름": name,
         "설명": desc,
         "효과": effect_text,
         "표시": f"{name} / {effect_text}" if effect_text else name,
+        "effectsResolved": [
+            {"scope": "skill", "source_slot": raw_skill["slot"], **effect}
+            for effect in source.get("effects_resolved", [])
+        ],
     })
+    if source.get('verified_capture'):
+        result['captureEvidence'] = source['capture_evidence']
+    return result
 
 
 def convert_creature(creature: dict, old_entry: dict | None, sources: dict[int, list[dict]]) -> dict:
@@ -373,7 +403,7 @@ def convert_creature(creature: dict, old_entry: dict | None, sources: dict[int, 
     if isinstance(passive, str):
         passive = normalize_effect_text(passive)
 
-    return {
+    result = {
         "id": hero_id,
         "name": creature.get("name", ""),
         "grade": creature.get("grade", ""),
@@ -412,6 +442,7 @@ def convert_creature(creature: dict, old_entry: dict | None, sources: dict[int, 
         "exclusiveItems": (old_entry or {}).get("exclusiveItems", []),
         "passive": passive,
     }
+    return apply_mercenary_metadata(result)
 
 
 def replace_inline_merc_data(mercs: list[dict]) -> None:
@@ -442,6 +473,9 @@ def main() -> None:
     for raw in creatures:
         if raw["hero_id"] not in seen:
             result.append(convert_creature(raw, None, sources))
+
+    existing_keys = {(m['grade'], m['name']) for m in result}
+    result.extend(m for m in new_mercenaries() if (m['grade'], m['name']) not in existing_keys)
 
     MERC_WEB_JSON.write_text(
         json.dumps(result, ensure_ascii=False, indent=1),

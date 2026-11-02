@@ -90,7 +90,7 @@ def unresolved_codes(rows, effect_paths):
 
 
 def portrait_warnings(rows):
-    missing = [row for row in rows if not row.get("portrait")]
+    missing = [row for row in rows if not (row.get("portrait") or row.get("image"))]
     counts = Counter(row.get("grade", "") for row in missing)
     return {grade: counts[grade] for grade in GRADE_ORDER if counts[grade]}, len(missing)
 

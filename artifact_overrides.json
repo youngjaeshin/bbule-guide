@@ -9,6 +9,12 @@
         "value": 1.8,
         "format": "pct"
       }
+    },
+    "capture_evidence": {
+      "source_type": "game_screenshot",
+      "card_image": "output/artifact_codex_capture/20261102_full/cards/E/E_연습용_검_97584faed7.png",
+      "sha256": "1059a11c32abb12ad4e580f7eb1440a4a2539008b117831c688a7253c3f5778f",
+      "boost_factor": 1
     }
   },
   "538": {
@@ -19,6 +25,12 @@
         "type_name": "모든 용병의 치명타 확률",
         "format": "pct"
       }
+    },
+    "capture_evidence": {
+      "source_type": "game_screenshot",
+      "card_image": "output/artifact_codex_capture/20261102_full/cards/Q/Q_북_오브_리셋_b624b5eb67.png",
+      "sha256": "c29a9d3f60ff236fc21b6c7ff3acf974997f42b88c3dc820fdafa1e873ff8077",
+      "boost_factor": 1
     }
   },
   "519": {
@@ -35,18 +47,345 @@
     "name": "코린토스 헬름",
     "effects": {
       "2": {
-        "value": 2.1,
-        "format": "pct"
+        "value": 21.0,
+        "format": "pct",
+        "type_name": "(용병 ★판티테스 X 장착시) 데미지"
       }
+    },
+    "capture_evidence": {
+      "source_type": "game_screenshot",
+      "card_image": "output/artifact_codex_capture/20261102_full/cards/A/A_코린토스_헬름_1af06716f6.png",
+      "sha256": "36c9086236ed27f355448cc0838f5df36886114fede7022136b8cdb3dd3e3ecd",
+      "boost_factor": 1
     }
   },
   "416": {
     "name": "도트 헬름",
     "effects": {
       "2": {
-        "value": 0.004,
+        "value": 0.008,
+        "format": "pct",
+        "type_name": "(도트 세트 완성시) 소울 클릭 확률"
+      }
+    },
+    "capture_evidence": {
+      "source_type": "game_screenshot",
+      "card_image": "output/artifact_codex_capture/20261102_full/cards/A/A_도트_헬름_0ca1ac5a18.png",
+      "sha256": "76925680cfe7a6c0d1fe94cc298db85920497ab724e10cd6e87af3f8d4c1fac7",
+      "boost_factor": 1
+    }
+  },
+  "51": {
+    "name": "카부토",
+    "effects": {
+      "2": {
+        "value": 1.8,
+        "type_name": "(용병 ★켄신 장착시) 연타 데미지",
         "format": "pct"
       }
+    },
+    "capture_evidence": {
+      "source_type": "game_screenshot",
+      "card_image": "output/artifact_codex_capture/20261102_full/cards/S/S_카부토_b0ac4f36ae.png",
+      "sha256": "3222fcef6d922ba784bfbac7ed6db5648522ecbd83a34681ca8375cbd1286f80",
+      "boost_factor": 1
+    }
+  },
+  "194": {
+    "name": "머더러 건틀릿",
+    "effects": {
+      "2": {
+        "type_name": "추가 클릭 불가",
+        "operation": "disable",
+        "description": "추가 클릭 불가",
+        "value_display": ""
+      }
+    },
+    "capture_evidence": {
+      "source_type": "game_screenshot",
+      "card_image": "output/artifact_codex_capture/20261102_full/cards/G/G_머더러_건틀릿_bca78679a5.png",
+      "sha256": "39aef230fb02e7df7786ab9adcc26fb959e6e92cd432b9eef664624549032598",
+      "boost_factor": 1
+    }
+  },
+  "191": {
+    "name": "머더러 스틸 클럽",
+    "effects": {
+      "2": {
+        "type_name": "연타 불가",
+        "operation": "disable",
+        "description": "연타 불가",
+        "value_display": ""
+      }
+    },
+    "capture_evidence": {
+      "source_type": "game_screenshot",
+      "card_image": "output/artifact_codex_capture/20261102_full/cards/G/G_머더러_스틸_클럽_775f1a0a22.png",
+      "sha256": "6e98d4b97917af637a70273d623c62b399e6fa0fe9f33850985f8d376de58dfe",
+      "boost_factor": 1
+    }
+  },
+  "495": {
+    "name": "New산지기 옷",
+    "effects": {
+      "2": {
+        "value": 0.0055000000000000005,
+        "type_name": "모든 용병의 강타 배수 증폭",
+        "format": "pct"
+      }
+    },
+    "capture_evidence": {
+      "source_type": "game_screenshot",
+      "card_image": "output/artifact_codex_capture/20261102_full/cards/X/X_New산지기_옷_23e7cb2254.png",
+      "sha256": "aa5acd78b9c0ebff0f8bf2aaad28a2417933799042122b865c213bd8707b67be",
+      "boost_factor": 1
+    }
+  },
+  "497": {
+    "name": "New미개한 발골칼",
+    "effects": {
+      "0": {
+        "value": 0.016,
+        "type_name": "모든 용병의 연타 데미지",
+        "format": "pct"
+      }
+    },
+    "capture_evidence": {
+      "source_type": "game_screenshot",
+      "card_image": "output/artifact_codex_capture/20261102_full/cards/H/H_New미개한_발골칼_449d43c066.png",
+      "sha256": "c0898f8bb67daeed8526e54354f01eff1ef722648b4e978162be814cfa7d3dc3",
+      "boost_factor": 1
+    }
+  },
+  "500": {
+    "name": "New미개한 뼈몽둥이",
+    "effects": {
+      "0": {
+        "value": 0.016,
+        "type_name": "모든 용병의 연타 데미지",
+        "format": "pct"
+      }
+    },
+    "capture_evidence": {
+      "source_type": "game_screenshot",
+      "card_image": "output/artifact_codex_capture/20261102_full/cards/H/H_New미개한_뼈몽둥이_e56096b61b.png",
+      "sha256": "7874ce60cffc9e24a447ec03bcbb16e13ebe2ea59bacbff6df7a59edef7a8eb5",
+      "boost_factor": 1
+    }
+  },
+  "499": {
+    "name": "New미개한 엑스반도",
+    "effects": {
+      "2": {
+        "type_code": 54,
+        "value": 0.1,
+        "type_name": "모든 용병의 최종 데미지",
+        "format": "pct"
+      }
+    },
+    "capture_evidence": {
+      "source_type": "game_screenshot",
+      "card_image": "output/artifact_codex_capture/20261102_full/cards/H/H_New미개한_엑스반도_e1530d6837.png",
+      "sha256": "c783e691fa62f3dd7eeb378b4dfcd5ec8b992a919b81bb047307b0302c53c8d2",
+      "boost_factor": 1
+    }
+  },
+  "498": {
+    "name": "New미개한 해골가면",
+    "effects": {
+      "2": {
+        "value": 0.016,
+        "type_name": "모든 용병의 연타 데미지",
+        "format": "pct"
+      }
+    },
+    "capture_evidence": {
+      "source_type": "game_screenshot",
+      "card_image": "output/artifact_codex_capture/20261102_full/cards/H/H_New미개한_해골가면_1c41361803.png",
+      "sha256": "1983f12fc1ca1c9a0dba2a879402ff0c71526fc87aa7b57694b68cf19ef0d323",
+      "boost_factor": 1
+    }
+  },
+  "308": {
+    "name": "랜트브룩 프로텍터 스피어",
+    "effects": {
+      "1": {
+        "value": 0.02,
+        "type_name": "행운 확률",
+        "format": "pct"
+      }
+    },
+    "additional_effects": [
+      {
+        "type_code": 51,
+        "value": 0.5,
+        "source_slot": 2,
+        "source_component": 2,
+        "observed_display": "0.5",
+        "reason": "verified_capture_extraction_gap"
+      }
+    ],
+    "capture_evidence": {
+      "source_type": "game_screenshot",
+      "card_image": "output/artifact_codex_capture/20261102_full/cards/H/H_랜트브룩_프로텍터_스피어_09d81ea128.png",
+      "sha256": "8a9e22a56d3b77c066f37129b80ee068e162e65017395dc336abf9da7961001c",
+      "boost_factor": 1
+    }
+  },
+  "303": {
+    "name": "랜트브룩 프로텍터 아머",
+    "effects": {},
+    "additional_effects": [
+      {
+        "type_code": 53,
+        "value": 0.06,
+        "source_slot": 2,
+        "source_component": 2,
+        "observed_display": "0.06",
+        "reason": "verified_capture_extraction_gap"
+      }
+    ],
+    "capture_evidence": {
+      "source_type": "game_screenshot",
+      "card_image": "output/artifact_codex_capture/20261102_full/cards/H/H_랜트브룩_프로텍터_아머_69b18cf4bc.png",
+      "sha256": "ca1267ba9e1f370ff9c780aaed704b89ec070d106ecff5e89e5e36be9bd52891",
+      "boost_factor": 1
+    }
+  },
+  "259": {
+    "name": "레기온 스워드",
+    "effects": {
+      "3": {
+        "value": 0.18,
+        "type_name": "(레기온 세트 완성시) 치명타 확률",
+        "format": "pct"
+      }
+    },
+    "capture_evidence": {
+      "source_type": "game_screenshot",
+      "card_image": "output/artifact_codex_capture/20261102_full/cards/H/H_레기온_스워드_581d236677.png",
+      "sha256": "597b0483e4a00e46c54701d77a0523f7c0f301ffe1f7f369a0182d65579a65bd",
+      "boost_factor": 1
+    }
+  },
+  "364": {
+    "name": "비트레이어 플레이트",
+    "effects": {
+      "0": {
+        "value": 0.008,
+        "type_name": "모든 용병의 치명타 확률",
+        "format": "pct"
+      }
+    },
+    "capture_evidence": {
+      "source_type": "game_screenshot",
+      "card_image": "output/artifact_codex_capture/20261102_full/cards/O/O_비트레이어_플레이트_0913c67014.png",
+      "sha256": "8587ad9207d07524bdbc69e9069c3493eaaa8e0f5621c99de53e175ef2a9fc12",
+      "boost_factor": 1
+    }
+  },
+  "399": {
+    "name": "인퍼널 본 플레이트",
+    "effects": {},
+    "additional_effects": [
+      {
+        "type_code": 89,
+        "value": 0.18,
+        "source_slot": 1,
+        "source_component": 2,
+        "observed_display": "0.18",
+        "reason": "verified_capture_extraction_gap"
+      }
+    ],
+    "capture_evidence": {
+      "source_type": "game_screenshot",
+      "card_image": "output/artifact_codex_capture/20261102_full/cards/O/O_인퍼널_본_플레이트_b50db8f2f1.png",
+      "sha256": "7b5d9590e41259e1df528b8e25df6309d3698989a97c899f50f4bd606cdc2e3b",
+      "boost_factor": 1
+    }
+  },
+  "440": {
+    "name": "블러디 하운드 바이저",
+    "effects": {},
+    "additional_effects": [
+      {
+        "type_code": 89,
+        "value": 0.24,
+        "source_slot": 1,
+        "source_component": 2,
+        "observed_display": "0.24",
+        "reason": "verified_capture_extraction_gap"
+      }
+    ],
+    "capture_evidence": {
+      "source_type": "game_screenshot",
+      "card_image": "output/artifact_codex_capture/20261102_full/cards/P/P_블러디_하운드_바이저_24020c31d3.png",
+      "sha256": "74bb220317ddab0dc3bc0ae2d0f131c45a5c76d56ae3d858e499ee041cf2a060",
+      "boost_factor": 1
+    }
+  },
+  "426": {
+    "name": "쥬라식 스톤",
+    "effects": {
+      "1": {
+        "formula": {
+          "expression_raw": "기본 공격 쿨다운 X 20%",
+          "variable": "base_attack_cooldown",
+          "operator": "multiply",
+          "coefficient": "20",
+          "coefficient_unit": "%",
+          "coefficient_basis": "guide_reference_value_requested_by_user",
+          "guide_reference_note": "가이드에는 계수 20만 사용한다. 드롭별 계수 변화 및 범위는 수집·표시하지 않는다."
+        },
+        "type_name": "공격 속도 +기본 공격 쿨다운 X",
+        "format": "pct"
+      }
+    },
+    "capture_evidence": {
+      "source_type": "game_screenshot",
+      "card_image": "output/artifact_codex_capture/20261102_full/cards/P/P_쥬라식_스톤_81c677e2b2.png",
+      "sha256": "f1d593b1d1b92b9422f24d6b29cab222e8511928bdefe69427ffbb860d1d794c",
+      "boost_factor": 1
+    }
+  },
+  "425": {
+    "name": "쥬라식 아머",
+    "effects": {},
+    "additional_effects": [
+      {
+        "type_code": 90,
+        "value": 0.01,
+        "source_slot": 1,
+        "source_component": 2,
+        "observed_display": "1%",
+        "reason": "verified_capture_extraction_gap"
+      }
+    ],
+    "capture_evidence": {
+      "source_type": "game_screenshot",
+      "card_image": "output/artifact_codex_capture/20261102_full/cards/P/P_쥬라식_아머_a88f938042.png",
+      "sha256": "d5e29e8cc34a10c465142383ea4fe42a95210fc2a06db397aff3d9c8ce8ca964",
+      "boost_factor": 1
+    }
+  },
+  "531": {
+    "name": "세라핌 숄더 패드",
+    "effects": {
+      "2": {
+        "value": 0.048
+      },
+      "3": {
+        "value": 0.06
+      }
+    },
+    "capture_evidence": {
+      "source_type": "community_screenshot",
+      "source_scope": "community_codex_maximum",
+      "card_image": "output/artifact_option_inference/20261102/source/1280＿Screenshot＿20260329＿194626.jpg",
+      "sha256": "44eca9dd8abc23fd29d7e06b23e157556085d674be520e92cf0177bd03c5321e",
+      "effects_verified": true,
+      "method": "community_codex_maximum",
+      "received_at": "2026-11-02"
     }
   }
 }

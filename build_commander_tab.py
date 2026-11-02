@@ -1,7 +1,28 @@
 #!/usr/bin/env python3
 """Build the redesigned 지휘관 tab with mercenary info + level-up XP table."""
 
+import copy
 import json, re
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent
+
+
+def apply_commander_portraits(rows):
+    """Attach captured portraits without changing existing commander facts."""
+    path = ROOT / "commander_portraits.json"
+    if not path.exists():
+        return rows
+    registry = json.loads(path.read_text(encoding="utf-8"))
+    result = copy.deepcopy(rows)
+    names = {row["name"] for row in result}
+    result.extend(copy.deepcopy(row) for row in registry.get("new_commanders", []) if row["name"] not in names)
+    for row in result:
+        source = registry.get("portraits", {}).get(row["name"])
+        if source:
+            row["portrait"] = source["image"]
+            row["portraitSource"] = copy.deepcopy(source)
+    return result
 
 # ── MERCENARY DATA ──
 MERC_DATA = [
@@ -166,6 +187,7 @@ def build_css():
 .merc-card:hover{transform:translateY(-2px);box-shadow:0 4px 12px rgba(0,0,0,.15)}
 
 .merc-hdr{display:flex;align-items:center;gap:8px;margin-bottom:8px}
+.cmd-portrait{width:64px;height:64px;object-fit:cover;border-radius:6px;flex-shrink:0}
 .merc-name{font-weight:700;font-size:.88rem;color:var(--text)}
 .merc-badge{font-size:.65rem;padding:2px 8px;border-radius:10px;color:#fff;font-weight:600}
 .merc-badge.평범함{background:#71717a}
@@ -206,6 +228,7 @@ def build_css():
 
 # ── BUILD JS ──
 def build_js(merc_json, levelup_json):
+    merc_json = json.dumps(apply_commander_portraits(json.loads(merc_json)), ensure_ascii=False)
     return f'''
 // ════════════════════════════════════════
 // ── COMMANDER TAB (redesigned) ──
@@ -263,15 +286,16 @@ function renderMercTab(){{
 
     return `<div class="merc-card">
       <div class="merc-hdr">
+        ${{m.portrait?`<img class="cmd-portrait" src="${{esc(m.portrait)}}" alt="${{esc(m.name)}}" loading="lazy">`:''}}
         <span class="merc-name">${{esc(m.name)}}</span>
         <span class="merc-badge ${{m.grade}}">${{m.grade}}</span>
         <span class="merc-gender">${{genderIcon}} ${{m.gender}}</span>
       </div>
       <div class="merc-stats">
-        <div class="merc-stat"><div class="merc-stat-val">${{m.str}}</div><div class="merc-stat-label">힘</div></div>
-        <div class="merc-stat"><div class="merc-stat-val">${{m.int}}</div><div class="merc-stat-label">지능</div></div>
-        <div class="merc-stat"><div class="merc-stat-val">${{m.luck}}</div><div class="merc-stat-label">운</div></div>
-        <div class="merc-stat"><div class="merc-stat-val">${{m.charm}}</div><div class="merc-stat-label">매력</div></div>
+        <div class="merc-stat"><div class="merc-stat-val">${{m.str??'미확인'}}</div><div class="merc-stat-label">힘</div></div>
+        <div class="merc-stat"><div class="merc-stat-val">${{m.int??'미확인'}}</div><div class="merc-stat-label">지능</div></div>
+        <div class="merc-stat"><div class="merc-stat-val">${{m.luck??'미확인'}}</div><div class="merc-stat-label">운</div></div>
+        <div class="merc-stat"><div class="merc-stat-val">${{m.charm??'미확인'}}</div><div class="merc-stat-label">매력</div></div>
       </div>
       <table class="merc-dmg">
         <tr><th></th><th>1Lv</th><th>100Lv</th></tr>

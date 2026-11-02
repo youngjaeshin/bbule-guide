@@ -15,6 +15,7 @@ import os
 import re
 
 from build_mercenary_data import build_skill_sources, select_skill_source
+from mercenary_capture_overrides import new_simulator_entries, portrait_for, verified_entry, verified_skill
 
 GRADE_ORDER = ['P', 'O', 'H', 'X', 'G', 'S', 'A', 'B', 'C', 'D', 'E']
 
@@ -37,12 +38,18 @@ def simplify_effects(effects_resolved: list) -> list:
     """effects_resolved → simulator용 간소화 포맷."""
     result = []
     for e in effects_resolved:
-        result.append({
+        if e.get('scope') in ('permanent_hire', 'permanent_collection') or e.get('type_code') is None:
+            continue
+        item = {
             'type_code': e['type_code'],
             'type_name': e['type_name'],
             'value': e['value'],
             'display': e['value_display'],
-        })
+        }
+        for key in ('parameters', 'operation', 'condition', 'effect_key', 'scope'):
+            if key in e:
+                item[key] = e[key]
+        result.append(item)
     return result
 
 
@@ -53,6 +60,7 @@ def build_creature_entry(creature: dict, skill_sources: dict) -> dict:
 
     # 스킬 처리 (슬롯 5 = 패시브)
     skills_out = []
+    unmapped_effects = []
     passive_name = ''
     passive_effects = []
 
@@ -72,19 +80,23 @@ def build_creature_entry(creature: dict, skill_sources: dict) -> dict:
 
         if skill_data:
             effects = simplify_effects(skill_data.get('effects_resolved', []))
+            unmapped_effects.extend({'slot':slot, **e} for e in skill_data.get('effects_resolved', [])
+                                   if e.get('type_code') is None and e.get('scope') not in ('permanent_hire','permanent_collection'))
         else:
             effects = []
 
         skill_entry = {
             'slot': slot,
             'id': sid,
-            'name': skill['name'],
+            'name': skill_data.get('name', skill['name']) if skill_data.get('verified_capture') else skill['name'],
             'effects': effects,
         }
+        if skill_data.get('verified_capture'):
+            skill_entry['captureEvidence'] = skill_data['capture_evidence']
 
         if slot == 5:
             # 패시브
-            passive_name = skill['name']
+            passive_name = skill_entry['name']
             passive_effects = effects
         else:
             skills_out.append(skill_entry)
@@ -106,7 +118,7 @@ def build_creature_entry(creature: dict, skill_sources: dict) -> dict:
     grade = creature.get('grade', '')
     name = creature.get('name', '')
 
-    return {
+    result = {
         'id': creature.get('hero_id', 0),
         'name': name,
         'grade': grade,
@@ -129,10 +141,26 @@ def build_creature_entry(creature: dict, skill_sources: dict) -> dict:
         'skills': skills_out,
         'passive': passive_name,
         'passiveEffects': passive_effects,
+        # Keep legacy aliases above for consumers; these are the fifth skill,
+        # not permanent bonuses granted merely by hiring the mercenary.
+        'fifthSkill': passive_name,
+        'fifthSkillEffects': passive_effects,
         'types': types_out,
         'exclusiveEquip': exclusive_equip,
-        'portrait': f'{grade}_{name}.png',
+        'portrait': portrait_for(grade, name, f'{grade}_{name}.png'),
     }
+    verified = verified_entry(creature.get('hero_id'))
+    if 'permanent_effects' in verified:
+        result['permanentEffects'] = verified['permanent_effects']
+        result['passives'] = verified['permanent_effects']
+    if verified:
+        result['captureEvidence'] = verified['evidence']
+    if verified.get('base_capture_evidence'):
+        result['baseCaptureEvidence'] = verified['base_capture_evidence']
+    if unmapped_effects:
+        result['unmappedEffects'] = unmapped_effects
+        result['mappingStatus'] = 'partial'
+    return result
 
 
 def replace_inline_sim_data(entries: list) -> None:
@@ -174,9 +202,12 @@ def main():
     for creature in creatures:
         for skill in creature.get('skills', []):
             sid = skill['id']
-            if sid not in skill_sources:
+            if sid not in skill_sources and not verified_skill(creature.get('hero_id'), skill['slot']):
                 missing_skill_ids.add(sid)
         entries.append(build_creature_entry(creature, skill_sources))
+
+    existing_keys = {(m['grade'], m['name']) for m in entries}
+    entries.extend(m for m in new_simulator_entries() if (m['grade'], m['name']) not in existing_keys)
 
     # grade 우선순위 정렬
     grade_rank = {g: i for i, g in enumerate(GRADE_ORDER)}

@@ -19,9 +19,11 @@ sys.path.insert(0, str(ROOT))
 from build_mercenary_data import (  # noqa: E402
     SKILL_SOURCE_OVERRIDES,
     build_skill_sources,
+    convert_skill,
     normalize_effect_text,
     select_skill_source,
 )
+from mercenary_capture_overrides import verified_skill  # noqa: E402
 
 
 MALFORMED_EFFECT_PATTERNS = (
@@ -102,14 +104,15 @@ def main() -> int:
                     (
                         (creature["hero_id"], raw_skill["slot"], raw_skill["id"]) in SKILL_SOURCE_OVERRIDES
                         or (None, None, raw_skill["id"]) in SKILL_SOURCE_OVERRIDES
+                        or bool(verified_skill(creature["hero_id"], raw_skill["slot"]))
                     ),
                 ))
-            effects = [normalize_effect_text(e) for e in source.get("effects", []) if e]
+            effects = [e for e in source.get("effects", []) if e]
             if not effects:
                 missing_candidate.append((creature, raw_skill, old_skill))
                 continue
-            candidate = normalize_effect_text(" / ".join(effects))
-            current = normalize_effect_text(old_skill.get("효과", ""))
+            candidate = convert_skill(raw_skill, old_skill, source)["효과"]
+            current = old_skill.get("효과", "")
             if UNRESOLVED_EFFECT_RE.search(candidate):
                 unresolved.append((creature, raw_skill, candidate))
             hits = [

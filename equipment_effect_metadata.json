@@ -1,0 +1,4533 @@
+{
+  "13": {
+    "namespace": "equipment_mainType",
+    "type_name": "골드 저장량",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "E/가죽 주머니",
+        "type_name": "골드 저장량",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/E/E_가죽_주머니_5f0f628984.png",
+        "sha256": "c2139beb7561ecb654399aeefbaf62219ede4b308c05b6530c27c8b3c6dedf9f"
+      },
+      {
+        "key": "D/동전 항아리",
+        "type_name": "골드 저장량",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/D/D_동전_항아리_2d6257da80.png",
+        "sha256": "82f771c21d3ea3c86410f3fe67329bef26e113478dc1559db64904e31a652872"
+      },
+      {
+        "key": "C/귀족의 주머니",
+        "type_name": "골드 저장량",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/C/C_귀족의_주머니_2ad0a313b6.png",
+        "sha256": "d78d1c796b17e8c030159e5a74b1b826aaf5de9b1efc6cde56c4df495649762f"
+      },
+      {
+        "key": "B/휴대용 금화 가방",
+        "type_name": "골드 저장량",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/B/B_휴대용_금화_가방_56af742073.png",
+        "sha256": "58f3959002da187bef6ff9c2567a19c68ab3f5fdec319e995c13014998bbbaaf"
+      },
+      {
+        "key": "A/대부호의 상자",
+        "type_name": "골드 저장량",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_대부호의_상자_ac3515e769.png",
+        "sha256": "193a5fa858a2726e10dd1ed864d07df8b52f6632e418c7bf7639a0fbf6becd24"
+      },
+      {
+        "key": "S/미니 미믹",
+        "type_name": "골드 저장량",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_미니_미믹_d04c06900d.png",
+        "sha256": "eadc6f6fd1cdc4f39e6ff3a2b1d35829b92e916a0e08ad9414394c86f1a5d507"
+      },
+      {
+        "key": "S/유다의 헌금 상자",
+        "type_name": "골드 저장량",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_유다의_헌금_상자_e89ef70a9a.png",
+        "sha256": "2da881226217f5e2ea5dd205225120d4365f1833d763ad4b33f011f499c986b4"
+      },
+      {
+        "key": "H/퍼루나해 진주 조개",
+        "type_name": "골드 저장량",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/H/H_퍼루나해_진주_조개_2e838166be.png",
+        "sha256": "d5f9c8138224fcc4417815a5dc041d4eaa1afda1b16976162ffcb37ebf412914"
+      }
+    ]
+  },
+  "0": {
+    "namespace": "equipment_mainType",
+    "type_name": "데미지",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "E/강철 검",
+        "type_name": "데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/E/E_강철_검_919a789375.png",
+        "sha256": "6791c8cbf8073c15c00f72261d6aef1324421044e474a59c946e5154baef867c"
+      },
+      {
+        "key": "E/낡은 단창",
+        "type_name": "데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/E/E_낡은_단창_ad4065d301.png",
+        "sha256": "e787857bb42512e7ecb6657d3385133810c7d98706eb59ed6df9efc65cbf6ce3"
+      },
+      {
+        "key": "E/돌도끼",
+        "type_name": "데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/E/E_돌도끼_b2b52da281.png",
+        "sha256": "b0e24f81cfc3df775079601f7418c012861ee15d85ecbeb1663fff1a27f882e1"
+      },
+      {
+        "key": "E/롱 소드",
+        "type_name": "데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/E/E_롱_소드_f5d2bf7687.png",
+        "sha256": "6d86777ed1c7284b72c64dbe88d23e933cc81e534f5f17c406b80dd8a2912c28"
+      },
+      {
+        "key": "E/부러진 검",
+        "type_name": "데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/E/E_부러진_검_0cdc749aef.png",
+        "sha256": "6ff6f64150049f3ae40a00fe53559bea74797e285ea63f6a4c1e2e32b460719f"
+      },
+      {
+        "key": "E/쇠 망치",
+        "type_name": "데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/E/E_쇠_망치_31c2cee494.png",
+        "sha256": "a0aa18b4e778102d8a41d4787efa3c3fcfda4992680751d04ca03adab9e722a6"
+      },
+      {
+        "key": "E/숏 소드",
+        "type_name": "데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/E/E_숏_소드_3759238561.png",
+        "sha256": "f44652afa3e32cca9b3be8ec6d4c33c2aca76bfc10bf3307ff54b3ecf004d701"
+      },
+      {
+        "key": "E/초보자의 검",
+        "type_name": "데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/E/E_초보자의_검_d50853dc62.png",
+        "sha256": "6c5f999496706365f25dda99467e62fe2b003c2cce62cbeeafe172bc9da8b414"
+      },
+      {
+        "key": "D/검투사의 구리검",
+        "type_name": "데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/D/D_검투사의_구리검_7229d012e0.png",
+        "sha256": "772866ab2c9c6072359fa9bf28b033da82aa64ac08804dd96a49244526079c2e"
+      },
+      {
+        "key": "D/괴수의 갈비뼈",
+        "type_name": "데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/D/D_괴수의_갈비뼈_e5a92192c9.png",
+        "sha256": "549066b050342d291dfb89a6905b2b05adad94bf984b251313a0702c2303fb6d"
+      },
+      {
+        "key": "D/단검 [꼬인 위치]",
+        "type_name": "데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/D/D_단검__꼬인_위치__d42652c401.png",
+        "sha256": "b9709c86492251bcc45935d3f583cd822341ccd9500ceea9b193a4c4243f4f48"
+      },
+      {
+        "key": "D/산성 혈액 결정",
+        "type_name": "데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/D/D_산성_혈액_결정_9afdfe4390.png",
+        "sha256": "385fadc1a7d8ca46d7f14b712b7761765be9ea04f8847c5494caea0259e688dd"
+      },
+      {
+        "key": "D/정규군의 단검",
+        "type_name": "데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/D/D_정규군의_단검_3c4fd958a8.png",
+        "sha256": "193bebc03a380ecdecf07ca34a3126497c88bd475f30ffe7600b8056a25feb1f"
+      },
+      {
+        "key": "D/칼라무쉬 치즈",
+        "type_name": "데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/D/D_칼라무쉬_치즈_c0d6dc0c5d.png",
+        "sha256": "ca572c36707b7d85c85c952215a990895f2e408a536bf3909d36be10c94e1f7e"
+      },
+      {
+        "key": "C/닌자 단검",
+        "type_name": "데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/C/C_닌자_단검_830a836991.png",
+        "sha256": "3365dbeda6268064f70b889af8f68e8a4e86fb0afef198fa443427860d5f6c46"
+      },
+      {
+        "key": "C/드로우 엘프 숏 소드",
+        "type_name": "데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/C/C_드로우_엘프_숏_소드_ad926244e0.png",
+        "sha256": "36f2a60437394c1be6342a2d72cf232aed50674bc42ef996b758bbbb359d7d99"
+      },
+      {
+        "key": "C/딕 소드",
+        "type_name": "데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/C/C_딕_소드_92735892e1.png",
+        "sha256": "eb468f73ad0d6d71cdd58ecb4e04f6d199c2c3deac5c9527c71b53fe96cf49ad"
+      },
+      {
+        "key": "C/블랙 스틸 모닝 스타",
+        "type_name": "데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/C/C_블랙_스틸_모닝_스타_fbfbc433a2.png",
+        "sha256": "9c4ac562b7d7027c5517321d3592e38d40f5c2127322d9453d8fcce535ef2dc4"
+      },
+      {
+        "key": "C/장검 [베놈 디펜더]",
+        "type_name": "데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/C/C_장검__베놈_디펜더__86d9984e02.png",
+        "sha256": "2fa2c226e28c1cec3661858f026795323e8f81d96a0237f0cd2f7aff87e42f8c"
+      },
+      {
+        "key": "C/전설의 뿅망치",
+        "type_name": "데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/C/C_전설의_뿅망치_b94c617ca6.png",
+        "sha256": "b6473320f55ed24dede2027652f15c25093a875880fbdbc261abcc9523fb9b9f"
+      },
+      {
+        "key": "B/강철 망치 [마운틴]",
+        "type_name": "데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/B/B_강철_망치__마운틴__ec71fc8ecc.png",
+        "sha256": "53f5c9e1d6b51a157f34caf7bfe40706ec8a271eb10fd326d77f231fce5ebd41"
+      },
+      {
+        "key": "B/아라크네의 새끼거미",
+        "type_name": "데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/B/B_아라크네의_새끼거미_0a9ebf9eff.png",
+        "sha256": "fe4273f2e99551973f052d71d2cf5bd0d0cc77fa86ae227a19daa2ba6ffe01fb"
+      },
+      {
+        "key": "B/악마의 손톱",
+        "type_name": "데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/B/B_악마의_손톱_c56de7faa5.png",
+        "sha256": "b3d8f3ae58e976a25bd11ed8f1fd05bab4af77a78b5d710b14bfb21a367f8c74"
+      },
+      {
+        "key": "B/우프레틴의 전투 도끼",
+        "type_name": "데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/B/B_우프레틴의_전투_도끼_2d8d1acd95.png",
+        "sha256": "6f4c2f9b11eff3649ae06a6351ca4b7a3774a417f6779b2f52772defa09f4240"
+      },
+      {
+        "key": "B/전투 도끼 [본 커터]",
+        "type_name": "데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/B/B_전투_도끼__본_커터__97277b2f94.png",
+        "sha256": "1d965b149ebafbc89ab468df17986c5c20d1bee5d16901886122b5ab4d54cddd"
+      },
+      {
+        "key": "B/철칠여골타",
+        "type_name": "데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/B/B_철칠여골타_f7ebe643f6.png",
+        "sha256": "58d08c980462eebb7cca40a628d2f6dccf81bbab36138576faf91bc694b8f836"
+      },
+      {
+        "key": "A/데메테르의 팔찌",
+        "type_name": "데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_데메테르의_팔찌_a77e574d75.png",
+        "sha256": "78ebe66b50fd4fdffd323ddbfa5f239d38b4006a66f4a58ec9606a5102230526"
+      },
+      {
+        "key": "A/룬 배틀 엑스",
+        "type_name": "데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_룬_배틀_엑스_d592ac658d.png",
+        "sha256": "ba407636b5d724a53d395130b76e7bea3e5f9df1fd480c9df6d18c4ea2ad40c8"
+      },
+      {
+        "key": "A/명검 [하트시커]",
+        "type_name": "데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_명검__하트시커__b50eb5e74e.png",
+        "sha256": "93bd261db7c0f460c282829d40b13b9d54b6b270664d08cd2fa81eb318798f28"
+      },
+      {
+        "key": "A/명견 또치의 목걸이",
+        "type_name": "데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_명견_또치의_목걸이_eec6fdbae2.png",
+        "sha256": "9a2f057075d31a9004a59fe719f717665b5071eac2575d1f8b44bdf97289930d"
+      },
+      {
+        "key": "A/자이다의 헬버드",
+        "type_name": "데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_자이다의_헬버드_069d557eef.png",
+        "sha256": "0438f93f794c5715324944cd8c7db941efc2456ed2525c812d970362c8730417"
+      },
+      {
+        "key": "A/제이나의 하사품 [그레이스 포일]",
+        "type_name": "데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_제이나의_하사품__그레이스_포일__8ae08f3b7c.png",
+        "sha256": "52c5dec32cdefa28b8b7946ceb0c75e4567cf50edc33b5f0407b037e7bf04dbe"
+      },
+      {
+        "key": "A/콰소스 더스트",
+        "type_name": "데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_콰소스_더스트_b519bd903d.png",
+        "sha256": "afc2e23b1d7de5cae765ace92481cb6efcb1e6b111ec1d121f29a3f9d568cee6"
+      },
+      {
+        "key": "A/토르의 망치",
+        "type_name": "데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_토르의_망치_6b0be8c3a0.png",
+        "sha256": "53b746174bc86831a3099783015f89f422048b7a64891c677fabfdae365ee68c"
+      },
+      {
+        "key": "A/흔한 권총",
+        "type_name": "데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_흔한_권총_15e987e1d9.png",
+        "sha256": "d444c8306e5081847070b4d892f9538fc8860377f6e5a85967015cd4d1c7042c"
+      },
+      {
+        "key": "S/객갱박사의 발명품 [HGP-7]",
+        "type_name": "데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_객갱박사의_발명품__HGP-7__507745241c.png",
+        "sha256": "f0d1105ce4673668e23b09991d166acdb07a087631841ddcd380cb7dd8f9cf49"
+      },
+      {
+        "key": "S/레이븐의 발톱",
+        "type_name": "데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_레이븐의_발톱_aa874185f3.png",
+        "sha256": "7de1d51943ede89724a8bd7450176c0fbca4b94cd04e3e61316b89deef116b3e"
+      },
+      {
+        "key": "S/볼트 오브 객갱",
+        "type_name": "데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_볼트_오브_객갱_e5163f5a49.png",
+        "sha256": "5df5eda8f94602ef54d0955d5e0df92439307035110dae030d156a7be77a9d62"
+      },
+      {
+        "key": "S/붉은 검 [드레이크 팽]",
+        "type_name": "데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_붉은_검__드레이크_팽__ecaf7e4dcc.png",
+        "sha256": "6e173461a6b27cfb872374b9c1f5a3c8c09024465eae16ad93c36c82e544b819"
+      },
+      {
+        "key": "S/뿔레의 검",
+        "type_name": "데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_뿔레의_검_df81dbde80.png",
+        "sha256": "c88bb8f8e406c513db419a198836a3d815199b987cc2bab4068f7421f74acec5"
+      },
+      {
+        "key": "S/이그레의 마도서 [리브로]",
+        "type_name": "데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_이그레의_마도서__리브로__607c07f301.png",
+        "sha256": "fe1245f7b40c7a71e78d18358c48e5aa27b233c42e412427f65cab9346af9d6e"
+      },
+      {
+        "key": "S/크사르팍스의 위대함",
+        "type_name": "데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_크사르팍스의_위대함_bfc465def7.png",
+        "sha256": "9d901b91537c745a69fe7fa296205006689833e28ac9d54a0200e610da5674e5"
+      },
+      {
+        "key": "G/발할라의 도끼",
+        "type_name": "데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_발할라의_도끼_da9b011db8.png",
+        "sha256": "59dd97112a7af8f74bf529f401bb2e65b75115914d4ddf23893911f4ea500cf4"
+      },
+      {
+        "key": "G/창조의 망치",
+        "type_name": "데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_창조의_망치_1bc2d26580.png",
+        "sha256": "97bd2a298d1097499898ec5e8a4b3351f7dc4dbb720f07c19aaf9f3ad92c5112"
+      },
+      {
+        "key": "G/창조의 반지",
+        "type_name": "데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_창조의_반지_59ad5f1bb9.png",
+        "sha256": "978fed25a0cf1e61a4eb47847cf9290ca4304d423a631e930a054cd4535d2252"
+      },
+      {
+        "key": "G/총사령관의 신발",
+        "type_name": "데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_총사령관의_신발_18f176a918.png",
+        "sha256": "1ea1528c6fbcd9fde5ce346ea9c5043fb2214cb4e568f4acf12f11032798153c"
+      },
+      {
+        "key": "G/트루 딕 소드",
+        "type_name": "데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_트루_딕_소드_0ac1369ba1.png",
+        "sha256": "6a1c86ded97a408485c8224552ee36fcf685fc2d94fc63f99ac090ad8a3277e6"
+      },
+      {
+        "key": "X/창조의 검",
+        "type_name": "데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_창조의_검_da88f84083.png",
+        "sha256": "44deecfb608b90f3ea11b9d7c7247a974c6aed2dbecc96e7fb813e4c63f27b1d"
+      },
+      {
+        "key": "H/고대의 둠 소드",
+        "type_name": "데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/H/H_고대의_둠_소드_cbf6576b76.png",
+        "sha256": "9991e0688c9a251832979497edbde93c848dafa68ab3cd76e67f551211061bcb"
+      }
+    ]
+  },
+  "5": {
+    "namespace": "equipment_mainType",
+    "type_name": "모든 용병의 클릭 데미지",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "E/개뼉다귀",
+        "type_name": "모든 용병의 클릭 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/E/E_개뼉다귀_e7ff021cd9.png",
+        "sha256": "899ed4f4c846816e0e4ca434073ad0c666118f974d2ca369c4472f886326be7b"
+      },
+      {
+        "key": "E/낡은 옷",
+        "type_name": "모든 용병의 클릭 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/E/E_낡은_옷_e3a9c616c7.png",
+        "sha256": "bee26e285f9e51595ff0eb28a32787c8992f23f98361d58d97a0318ffe353616"
+      },
+      {
+        "key": "E/애완 버섯",
+        "type_name": "모든 용병의 클릭 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/E/E_애완_버섯_ed868584ef.png",
+        "sha256": "d4395f27c0488f5bdaac8749ba960f550b558a1414e5cb64af3264f2260e657e"
+      },
+      {
+        "key": "E/초보자의 방패",
+        "type_name": "모든 용병의 클릭 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/E/E_초보자의_방패_d98cea9f54.png",
+        "sha256": "ee6036542174312648d2ce9a23c0da4a3143c330c8d43d073534376235b9e340"
+      },
+      {
+        "key": "D/검투사의 신발",
+        "type_name": "모든 용병의 클릭 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/D/D_검투사의_신발_18b99f7655.png",
+        "sha256": "fedf6d5217365c15171a132dde392ef32c88e7406873c8aeab5ce7514f947580"
+      },
+      {
+        "key": "D/인형의 실",
+        "type_name": "모든 용병의 클릭 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/D/D_인형의_실_4427144326.png",
+        "sha256": "4fa686d1084e03029aa9e57662b91e2862ab8b7edab3c8dd7949d20270c75e38"
+      },
+      {
+        "key": "C/검투사의 갑옷",
+        "type_name": "모든 용병의 클릭 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/C/C_검투사의_갑옷_6f5c5751cc.png",
+        "sha256": "3598b4becd66d08012653f353526d843330eab67018f7ea8c6c31cf1a0ba0c4c"
+      },
+      {
+        "key": "C/귀족의 옷",
+        "type_name": "모든 용병의 클릭 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/C/C_귀족의_옷_7904711a3e.png",
+        "sha256": "e7614fdfdaccf55adfd99f0add3f92767f4aadf84bf08db72c05d9e81edcec6b"
+      },
+      {
+        "key": "C/성실한 부하의 샌달",
+        "type_name": "모든 용병의 클릭 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/C/C_성실한_부하의_샌달_90339c2e7d.png",
+        "sha256": "e9900a0be6e57b04ee052daf879d536e5b5ace89f7b279d767aea2cea22882bb"
+      },
+      {
+        "key": "B/숙련된 병사의 흉갑",
+        "type_name": "모든 용병의 클릭 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/B/B_숙련된_병사의_흉갑_3e4a784036.png",
+        "sha256": "919d2550d500a4c02b03b58ac8433cbd3b5e8017905c6bcfe0b21ae10a1a6458"
+      },
+      {
+        "key": "A/황족의 흉갑",
+        "type_name": "모든 용병의 클릭 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_황족의_흉갑_9312fc006f.png",
+        "sha256": "5b939d266744c506e63529e0aee2d8df21489e688f27eab6cf72c22ce37c6673"
+      },
+      {
+        "key": "S/딕슨의 흉갑",
+        "type_name": "모든 용병의 클릭 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_딕슨의_흉갑_d352cc175b.png",
+        "sha256": "63392adb087d7fe75686ca0e49546b3cfab7a306dab921fa4e86c4500bc26058"
+      },
+      {
+        "key": "G/브랜누스의 건틀렛",
+        "type_name": "모든 용병의 클릭 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_브랜누스의_건틀렛_ad61e3da4e.png",
+        "sha256": "8786cc3be66047d19f3c12a1efa76eab8f654dd058ec75e9c472641e4935153b"
+      },
+      {
+        "key": "G/쉴드 오브 조디악",
+        "type_name": "모든 용병의 클릭 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_쉴드_오브_조디악_9f1882a1a7.png",
+        "sha256": "c55ad739290dde3978cabcbb8ab5f1168bfc0e5dad2e691fcaa0735bbf832bfd"
+      },
+      {
+        "key": "G/이글하트 흉갑",
+        "type_name": "모든 용병의 클릭 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_이글하트_흉갑_bb8632f156.png",
+        "sha256": "69e883d9a9c24d21431666dc860b9decf57676e8c396a74fbba8e09168095dbe"
+      },
+      {
+        "key": "X/지배자의 망또",
+        "type_name": "모든 용병의 클릭 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_지배자의_망또_a94ec28c2f.png",
+        "sha256": "92f623b9384e2f90bd0987c5b163c7424987bfd718f678a56d37b9febb4a1573"
+      }
+    ]
+  },
+  "1": {
+    "namespace": "equipment_mainType",
+    "type_name": "추가 데미지",
+    "format": "raw",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "E/녹슨 스틸레또",
+        "type_name": "추가 데미지",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/E/E_녹슨_스틸레또_c0d25ce46c.png",
+        "sha256": "ee787b3050281f865c0429cb8e0a6c8d2fbc6decac83a222250b5d7a2b76a780"
+      },
+      {
+        "key": "E/미렌의 어금니",
+        "type_name": "추가 데미지",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/E/E_미렌의_어금니_37606b2640.png",
+        "sha256": "3c8ce8145c09d367e6d34cfc312bbbae050526fbcd011ecde385c00778f00131"
+      },
+      {
+        "key": "E/페로키의 용수철",
+        "type_name": "추가 데미지",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/E/E_페로키의_용수철_4f92bc6a78.png",
+        "sha256": "c4eadde8853a76eceae72dd9f86f9f5687d618d2b438baa62540b3660ccaa462"
+      },
+      {
+        "key": "D/저주받은 단검",
+        "type_name": "추가 데미지",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/D/D_저주받은_단검_17bf1ad860.png",
+        "sha256": "3cd40b6a827dc2f82db3cd6c3ce934be43668bf9ab7084bda540bb10388dcac6"
+      },
+      {
+        "key": "C/강력한 저주받은 단검",
+        "type_name": "추가 데미지",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/C/C_강력한_저주받은_단검_0da4d9229d.png",
+        "sha256": "5fbefd77ff61cfd2446c55882d2e8eef8dc23a7a23d601d50dc021f5992d4183"
+      },
+      {
+        "key": "C/크리드의 칼날",
+        "type_name": "추가 데미지",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/C/C_크리드의_칼날_810bc84c32.png",
+        "sha256": "17ac16f804427d96704527268f4278d9457eb9d4df96c274261d3a3da69b4734"
+      },
+      {
+        "key": "B/저주 두번받은 단검",
+        "type_name": "추가 데미지",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/B/B_저주_두번받은_단검_9054fa1796.png",
+        "sha256": "3c7e066c1d64c8ce7d8eec0d327aba188615970a0e7c65a3cd3eede8b32e9a85"
+      },
+      {
+        "key": "B/칼라마르의 다리",
+        "type_name": "추가 데미지",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/B/B_칼라마르의_다리_ce4ba64137.png",
+        "sha256": "a0f61517b0bd0ef1fc1ac7e10a93b622af54f02cb6c44c3f1e981027a20944aa"
+      },
+      {
+        "key": "A/갈까마귀의 낫",
+        "type_name": "추가 데미지",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_갈까마귀의_낫_0b0ab7528d.png",
+        "sha256": "3ee30c2ef30491d2fcaaf1f6a2a3348d9bdaca0c34198b477a767f672911be3d"
+      },
+      {
+        "key": "A/세하의 순결 반지",
+        "type_name": "추가 데미지",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_세하의_순결_반지_4a759f3c7d.png",
+        "sha256": "7fd7d9e493cecff2bfc27923524b57f9d9b638aeeae840472a3bca1a25c2d0a4"
+      },
+      {
+        "key": "S/베멜로스의 낫",
+        "type_name": "추가 데미지",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_베멜로스의_낫_6adee68267.png",
+        "sha256": "8f4defb2a08f2ce6309d679b24d6c4584e27a7ed3a68926cc4820e34713c5fdd"
+      },
+      {
+        "key": "G/고대인의 유물",
+        "type_name": "추가 데미지",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_고대인의_유물_d467c9a4db.png",
+        "sha256": "95ec4a38d64e7acbc45d5a9f5995b5f998cea31d439e438061a9fb5f23ad4d37"
+      },
+      {
+        "key": "G/브랜누스의 검",
+        "type_name": "추가 데미지",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_브랜누스의_검_f2daba76d9.png",
+        "sha256": "0c3ab50666796a4575e6d310daee5c81150354a18532dc1b9b43b683e17d1d6b"
+      },
+      {
+        "key": "X/베멜루스의 검",
+        "type_name": "추가 데미지",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_베멜루스의_검_406c6b2029.png",
+        "sha256": "32df3284e365cfb9f517c630736939cb12c6de3c9b53a26063665c25229fb950"
+      },
+      {
+        "key": "H/폭탄[대소동]",
+        "type_name": "추가 데미지",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/H/H_폭탄_대소동__c2c99790dd.png",
+        "sha256": "aa3fad46c0efaa8df4eb53c71d528593acc4b5862d0b78d0846520257044f8dc"
+      }
+    ]
+  },
+  "26": {
+    "namespace": "equipment_mainType",
+    "type_name": "베이스 데미지",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "E/니모의 반지",
+        "type_name": "베이스 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/E/E_니모의_반지_4fd2e5cdc2.png",
+        "sha256": "38f9d4496639b4495c97cabfe375adaaa30087d2bbb052c9dc55b02615a1a6a9"
+      },
+      {
+        "key": "D/배셔의 몽둥이",
+        "type_name": "베이스 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/D/D_배셔의_몽둥이_fc4b0d61af.png",
+        "sha256": "34c3cee2641e4eb4c5e43529afd0e8b755e34eef5c3ddb923c25bd92bf62c5af"
+      },
+      {
+        "key": "D/컴카이의 치킨",
+        "type_name": "베이스 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/D/D_컴카이의_치킨_632aa4afdb.png",
+        "sha256": "8d9eaf5d6e74d3cf2c0e5d7a3e6ffa0dd6ece07770a22ff9352f7da4b38b288f"
+      },
+      {
+        "key": "C/두 번째 돌심장",
+        "type_name": "베이스 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/C/C_두_번째_돌심장_d645b62cf8.png",
+        "sha256": "7c5f861ece1ec0427ff57595121d1e4ff0a7188536f12c957b3d2d940968f17b"
+      },
+      {
+        "key": "B/라라엘의 기억",
+        "type_name": "베이스 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/B/B_라라엘의_기억_7df0e7f275.png",
+        "sha256": "d20210e4cc833d4ad7ffd8364a031e11a1a74c973d9777520cdf0c345d48a7fb"
+      },
+      {
+        "key": "A/가이아 스피릿",
+        "type_name": "베이스 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_가이아_스피릿_898a0c9670.png",
+        "sha256": "f348e89445d72524ac684d5366d16479ad3695880c36c5c9d7ab852a0c045746"
+      },
+      {
+        "key": "A/미들랜드 법전",
+        "type_name": "베이스 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_미들랜드_법전_3890ca8145.png",
+        "sha256": "a3406941662262b4616a6d73356a6bb6fa1b303c17060e5f19d7f9cca9268402"
+      },
+      {
+        "key": "A/산타 모자",
+        "type_name": "베이스 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_산타_모자_9e3851c202.png",
+        "sha256": "655170834ab3d0f555f1ebe17df1d450db7b8c1e86e5158dc3c086bbc4b5aecb"
+      },
+      {
+        "key": "S/뿔레의 납골단지",
+        "type_name": "베이스 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_뿔레의_납골단지_e15cd9c6b9.png",
+        "sha256": "c2b16db6e9cc50a16c3e72890e47285ef91f93ef07c32fe78ed7490ef94def6b"
+      },
+      {
+        "key": "G/바라봄의 지팡이",
+        "type_name": "베이스 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_바라봄의_지팡이_b924a1e078.png",
+        "sha256": "3f0cb44a08754043db671ed2751f363085cae6dd397bedc3640470c87b405024"
+      },
+      {
+        "key": "X/크사르팍스의 탐욕",
+        "type_name": "베이스 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_크사르팍스의_탐욕_2f52f0f89b.png",
+        "sha256": "d6a4799f0e21dc3edcee08ea7b81d6b124837789fad2b9acbafb2e782a21bc31"
+      }
+    ]
+  },
+  "14": {
+    "namespace": "equipment_mainType",
+    "type_name": "클릭 크리티컬 확률",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "E/둥근 나무 방패",
+        "type_name": "클릭 크리티컬 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/E/E_둥근_나무_방패_406749e76e.png",
+        "sha256": "7a96cb32c5118dbbaf963142f4e6170409a6351b81eefa471d8e98d4840c59fa"
+      },
+      {
+        "key": "D/맛있는 생선",
+        "type_name": "클릭 크리티컬 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/D/D_맛있는_생선_1a307204fa.png",
+        "sha256": "a1a8fa2754cdd36cdec2fa73d5175b26378b2ab3891f90bb7cb5edacc63c9e5a"
+      },
+      {
+        "key": "C/참전 용사의 방패",
+        "type_name": "클릭 크리티컬 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/C/C_참전_용사의_방패_81f7b911eb.png",
+        "sha256": "db7e4ce0d382c8d023ce113dc4bc4a347516fbd3dc81bda28e7f0b0bb9dcd7bf"
+      },
+      {
+        "key": "B/강철 방패 [디펜더]",
+        "type_name": "클릭 크리티컬 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/B/B_강철_방패__디펜더__eaed99addb.png",
+        "sha256": "92b416a9acc0e0f3c6fc44d0bb0e769b11bfb6367c8a617a285a0a8158fb0c3c"
+      },
+      {
+        "key": "A/빅터의 방패",
+        "type_name": "클릭 크리티컬 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_빅터의_방패_b2c90792a7.png",
+        "sha256": "c32465a915b0acdc6c68d30a20012b9300ae33e2185fb3951cbb53a59f619415"
+      },
+      {
+        "key": "S/황족의 방패",
+        "type_name": "클릭 크리티컬 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_황족의_방패_7bae42ee9e.png",
+        "sha256": "130f0dd789f4aaf747730bd6e3172e073d0a9ed29692eb5848022771827636c1"
+      },
+      {
+        "key": "G/뿔레의 방패",
+        "type_name": "클릭 크리티컬 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_뿔레의_방패_e1f473a2c8.png",
+        "sha256": "817f2a66093d7c12098f54bf2602db910af700458c9a180000809f89dcdb06da"
+      },
+      {
+        "key": "X/떡흐의 방패",
+        "type_name": "클릭 크리티컬 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_떡흐의_방패_6512005b86.png",
+        "sha256": "0754a1c4dc8ddc93fc81efe2618aba33b2f9d34261e6fc31fa38bdc4ff3e3172"
+      }
+    ]
+  },
+  "16": {
+    "namespace": "equipment_mainType",
+    "type_name": "강타 확률",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "E/듄의 오염 물질",
+        "type_name": "강타 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/E/E_듄의_오염_물질_f9d2dead9c.png",
+        "sha256": "b1d2bdd597a7605d744138737b46b65d5fef1953ac247caf815dd39fb7bffca0"
+      },
+      {
+        "key": "E/뮤턴트의 뇌 일부",
+        "type_name": "강타 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/E/E_뮤턴트의_뇌_일부_5f9d7d5960.png",
+        "sha256": "b81a86e4c60634cab07a3a64c0afae245049b0981e03c7313d3e166366db5a8d"
+      },
+      {
+        "key": "E/병사의 허리띠",
+        "type_name": "강타 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/E/E_병사의_허리띠_2ba3d3bdfd.png",
+        "sha256": "3e85213c0f5041191acf5008a95946ba54f267e61d78c0365a00dc848ce16ae5"
+      },
+      {
+        "key": "D/오키의 잔상",
+        "type_name": "강타 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/D/D_오키의_잔상_9ddf34cf9c.png",
+        "sha256": "8fa7bf60a2ea4979f56585b19a4848d1e6fdd69ca4ec864c94d08eb8f592fc94"
+      },
+      {
+        "key": "D/치명상의 단검",
+        "type_name": "강타 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/D/D_치명상의_단검_ab7d9832c9.png",
+        "sha256": "d9bbfabe352aeb91e82b4c56092dc265f5aeebecd60045dc4f94f5def02c2638"
+      },
+      {
+        "key": "C/르네의 믿음의 반지",
+        "type_name": "강타 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/C/C_르네의_믿음의_반지_5cb6394e94.png",
+        "sha256": "1e17dc1bed46396c86c6f6de7a98618e8b5d05d1221665ffd609d5f591ed55ae"
+      },
+      {
+        "key": "C/미쓰릴 보우",
+        "type_name": "강타 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/C/C_미쓰릴_보우_4e40f7e9b0.png",
+        "sha256": "d03122229ad06547d4193feceafe578963486af8220e1f3c673149d90e345dfe"
+      },
+      {
+        "key": "C/쉐도우 스톤",
+        "type_name": "강타 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/C/C_쉐도우_스톤_05cfb23cb4.png",
+        "sha256": "48151c5fe6a2e5be181546aeca63171df3bcee2486978e18d45183ae91f00a7a"
+      },
+      {
+        "key": "B/미스릴 해머",
+        "type_name": "강타 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/B/B_미스릴_해머_669fc24d7c.png",
+        "sha256": "7b1d6686a380aaee1f9b3bd41f640793721f5793e9ff8c0d237909653c0affa7"
+      },
+      {
+        "key": "B/심볼 오브 툼마",
+        "type_name": "강타 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/B/B_심볼_오브_툼마_5252c7d6c4.png",
+        "sha256": "6004bb34f6f2c47a2230c6fa61e4df8c4c5a567d3026a4604fe26ac18e8e2b7b"
+      },
+      {
+        "key": "A/바라봄의 반지",
+        "type_name": "강타 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_바라봄의_반지_a9b4193975.png",
+        "sha256": "cb290ec73e427562c6081296b7eed6d942b6ce43a043b229dddf209efde55f55"
+      },
+      {
+        "key": "A/혼돈의 연꽃",
+        "type_name": "강타 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_혼돈의_연꽃_c1a02ec2ed.png",
+        "sha256": "97f9af6cfade9530a6afbc0fd8e2e0e140ce2c6dca5d3b09750a9d2b22c1713f"
+      },
+      {
+        "key": "S/메테오릭 소드 [자드]",
+        "type_name": "강타 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_메테오릭_소드__자드__8beb56fb2f.png",
+        "sha256": "8ae5a6d1a4b6cf590871527fef5c917c986ba4a5d978da2a72f4fefe0bb37076"
+      },
+      {
+        "key": "S/켄신의 브레이서",
+        "type_name": "강타 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_켄신의_브레이서_f0b67d6846.png",
+        "sha256": "1839c4579556ea398d503c8086a043dadcacc1e7dfa1d4b7fc5550e16bdcf737"
+      },
+      {
+        "key": "S/툴팁미씽",
+        "type_name": "강타 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_툴팁미씽_b2f3c59b86.png",
+        "sha256": "c1b47b8901632a5fccf41f95d9c830b3e0f6b539c4d8fa9ff901f29a88b286a0"
+      },
+      {
+        "key": "G/자이언트 나가 스톤",
+        "type_name": "강타 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_자이언트_나가_스톤_e71dd4c4da.png",
+        "sha256": "ab1a085a78a2765b9d41d42c631d8de7febdf812b859acf704017847cc8d764c"
+      },
+      {
+        "key": "X/아리만의 검",
+        "type_name": "강타 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_아리만의_검_b1b44b98a4.png",
+        "sha256": "ff9648e3cb95db475c3dc00b8560df317fc25b4d0e78752e279a4c441a8b7dd4"
+      },
+      {
+        "key": "H/신의 가시검",
+        "type_name": "강타 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/H/H_신의_가시검_213e8f8de8.png",
+        "sha256": "c6565d258bdd2b398c9967925df9fbc4bf5257c84625765f9e86b4a8b87c036d"
+      }
+    ]
+  },
+  "17": {
+    "namespace": "equipment_mainType",
+    "type_name": "강타 배수",
+    "format": "raw",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "E/레슈카의 터번",
+        "type_name": "강타 배수",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/E/E_레슈카의_터번_e94a34fc83.png",
+        "sha256": "f06858397022a16eebedb84606afef9d05a0e937ffe47cac43a2e660425f4323"
+      },
+      {
+        "key": "D/툴팁미씽의 브레이서",
+        "type_name": "강타 배수",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/D/D_툴팁미씽의_브레이서_ff44a993db.png",
+        "sha256": "1520ea4959fc20131cbbc5c58a714b077332e87541c7d69e399a56903c92168a"
+      },
+      {
+        "key": "C/미스릴 아뮬렛",
+        "type_name": "강타 배수",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/C/C_미스릴_아뮬렛_08677605ac.png",
+        "sha256": "7dac4a12d2522ef6ed5b0814c3780f747d4c77620c459bad098e3fbf27fc13c7"
+      },
+      {
+        "key": "C/여분의 동물 뼈",
+        "type_name": "강타 배수",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/C/C_여분의_동물_뼈_2188af8887.png",
+        "sha256": "d862e35516db3c66b353ddd40dd4a34d9d294e2f508532afa798aa45d6b7df6e"
+      },
+      {
+        "key": "B/드래곤볼",
+        "type_name": "강타 배수",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/B/B_드래곤볼_b2444fc4c4.png",
+        "sha256": "0d309fa299e1b58b96a8989675af464c0091a7a2550a5a73dcb229a50e6719f4"
+      },
+      {
+        "key": "B/응원봉 [짜냥]",
+        "type_name": "강타 배수",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/B/B_응원봉__짜냥__ea8ce4fe0d.png",
+        "sha256": "5e47730be149c66c77c153917a3c9aa35f604e92f75069a8c23aa06b0c76321d"
+      },
+      {
+        "key": "B/출혈의 단검",
+        "type_name": "강타 배수",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/B/B_출혈의_단검_22ee01f9ec.png",
+        "sha256": "540e6768e16e203a0feed0832db0197fbd333611894e966c770d748bc86827b5"
+      },
+      {
+        "key": "A/고대인의 펜던트",
+        "type_name": "강타 배수",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_고대인의_펜던트_406f86d022.png",
+        "sha256": "db17301d0509abbafe604517337a21e3d2986886c7d67eb7dc76d8134bbb295c"
+      },
+      {
+        "key": "A/시노자키 묘약",
+        "type_name": "강타 배수",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_시노자키_묘약_caf717b27e.png",
+        "sha256": "6b8fe8a0df87513141005bb035479d59eaa0a00a954848086e4f6fd6dde2d7f8"
+      },
+      {
+        "key": "A/흔한 라이터",
+        "type_name": "강타 배수",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_흔한_라이터_f6e239e576.png",
+        "sha256": "99b21418d5e509b7486cf4800bacfb69556d5e5d748caa297fe6c2a8d805aaa9"
+      },
+      {
+        "key": "S/복제된 세이두의 반지",
+        "type_name": "강타 배수",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_복제된_세이두의_반지_e29f2be146.png",
+        "sha256": "f8b6771bd490286ac68170d7cc21ec6c9731b526580cb45b7043670591396dc9"
+      },
+      {
+        "key": "G/크로스 보 [엔젤 킬러]",
+        "type_name": "강타 배수",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_크로스_보__엔젤_킬러__cb12604d22.png",
+        "sha256": "61087c9f543e242fb9a5c50b7db9041219452ed45c60abab07c88fd5ba958f73"
+      },
+      {
+        "key": "X/뿔레의 집행검",
+        "type_name": "강타 배수",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_뿔레의_집행검_674e09d7cb.png",
+        "sha256": "339708e2ead3fc2ad473bcf714c649b189f0362964d91f8b9a8413203b07902f"
+      },
+      {
+        "key": "H/바라봄의 검",
+        "type_name": "강타 배수",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/H/H_바라봄의_검_ad02f9c5ab.png",
+        "sha256": "2dda41a6d433734b26c5e55443d482e9428cba627ef6d93aa41adfa7aa57df9d"
+      }
+    ]
+  },
+  "27": {
+    "namespace": "equipment_mainType",
+    "type_name": "추가 클릭 확률",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "E/리나의 쇼울더 아머",
+        "type_name": "추가 클릭 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/E/E_리나의_쇼울더_아머_661bac586e.png",
+        "sha256": "a29b7fec7fb91adca8e47bf0be42685050a75051b3d75401e8ae69426e1c92d4"
+      },
+      {
+        "key": "E/파란 장갑",
+        "type_name": "추가 클릭 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/E/E_파란_장갑_d76baf97e9.png",
+        "sha256": "1da323e73b9e2dff418e0d43ab470cc2e4c57a1fff010d7b8f967c6e03739636"
+      },
+      {
+        "key": "D/주교의 신발",
+        "type_name": "추가 클릭 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/D/D_주교의_신발_3162a1088d.png",
+        "sha256": "91be21ca016feefe54af6e1bb685bbc0d7b585725a6fc18827fc92118b4665d3"
+      },
+      {
+        "key": "D/크리스마스 지팡이",
+        "type_name": "추가 클릭 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/D/D_크리스마스_지팡이_137d60cb7f.png",
+        "sha256": "8dd3ae04ccb1e619956bbf327a75d35f078dcbaa465ce4f450712063e5d83e23"
+      },
+      {
+        "key": "C/반송된 연애 편지",
+        "type_name": "추가 클릭 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/C/C_반송된_연애_편지_364399d585.png",
+        "sha256": "7968320bcff08ac3811db788011f0b41c169be067124fe2b745feab9fe964f8b"
+      },
+      {
+        "key": "C/부관의 갑옷",
+        "type_name": "추가 클릭 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/C/C_부관의_갑옷_2ee2886c1b.png",
+        "sha256": "b6df84f5f9a5ae8a4c47de9d94fbe06f62b24960453560a0a5ad6609722f683b"
+      },
+      {
+        "key": "B/도적의 바지",
+        "type_name": "추가 클릭 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/B/B_도적의_바지_9ef6b0e658.png",
+        "sha256": "4f76c7bf87cfdb4fcbebad3003e0dd7e56058a2432c05c6217c341277b0fdcaa"
+      },
+      {
+        "key": "B/딜비도의 생선뼈",
+        "type_name": "추가 클릭 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/B/B_딜비도의_생선뼈_dd16f063af.png",
+        "sha256": "9da519d6f92eaa979d618c913db10334cea43821794e7bbf68612f7ab1486d81"
+      },
+      {
+        "key": "B/몬찌",
+        "type_name": "추가 클릭 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/B/B_몬찌_ef0238a5ff.png",
+        "sha256": "ea20394ddcb7908217bb37c649eaca0333911f10dbe4067b1cba7ce49c287d65"
+      },
+      {
+        "key": "A/루시디아 코어",
+        "type_name": "추가 클릭 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_루시디아_코어_dca6d4bde2.png",
+        "sha256": "7c1110b4c556b459804f0c3b226dec85b50ed389f350ff269ee13944c6abfde9"
+      },
+      {
+        "key": "A/자유인의 검 [체인 커터]",
+        "type_name": "추가 클릭 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_자유인의_검__체인_커터__f74ba470d5.png",
+        "sha256": "a7038fc2a279df0acb0560749ee1c778bae50ea146909b54f80d4cd217d75448"
+      },
+      {
+        "key": "A/제이나의 두번째 스태프",
+        "type_name": "추가 클릭 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_제이나의_두번째_스태프_43de290381.png",
+        "sha256": "74699e2d10bcdcc3510cc77710b22a48162f0e717cc96b00b7bb66f84d6193ee"
+      },
+      {
+        "key": "S/다람쥐 글러브 69",
+        "type_name": "추가 클릭 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_다람쥐_글러브_69_6157ba8a8d.png",
+        "sha256": "803bf14ddc6fa4470bfd1605cd430759f8bbc2a81445dec3922e0d3864feea5e"
+      },
+      {
+        "key": "S/아누비스 링",
+        "type_name": "추가 클릭 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_아누비스_링_44f8c301f2.png",
+        "sha256": "dd1842ebf1619df9bcbe7533e3efdb1d26f5fcac5e51fab63665ad61fc891666"
+      },
+      {
+        "key": "G/야뷰키의 브레이서",
+        "type_name": "추가 클릭 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_야뷰키의_브레이서_c8699710d6.png",
+        "sha256": "85730359ee91578db348294e2121a0b9e110166a200ddfb8ec7d107bed5a8b31"
+      },
+      {
+        "key": "X/콰소스의 깨달음",
+        "type_name": "추가 클릭 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_콰소스의_깨달음_bf3a82ed89.png",
+        "sha256": "51a87cc14d1c456d888a474c9b4c228ece6ba39791c3134f2ca26bea911a6710"
+      },
+      {
+        "key": "H/애덤 스미스의 손",
+        "type_name": "추가 클릭 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/H/H_애덤_스미스의_손_0413339a8b.png",
+        "sha256": "9359802dde433eb5fa9b4c7ccb1cd49e3e75f5eddad92639489663d67b7202b5"
+      }
+    ]
+  },
+  "18": {
+    "namespace": "equipment_mainType",
+    "type_name": "연타 확률",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "E/마발이의 틀니",
+        "type_name": "연타 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/E/E_마발이의_틀니_05b7ed06cc.png",
+        "sha256": "555fd77581f691b1551e87dfd4eae9b6f0c7887fe310226dab28115fec7e0592"
+      },
+      {
+        "key": "E/털실 뭉치",
+        "type_name": "연타 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/E/E_털실_뭉치_a749491526.png",
+        "sha256": "e51c3b75da19153f5b957110af8e8ec8360457e5fd604cdd054c6f805bba8ea5"
+      },
+      {
+        "key": "D/기사의 투구",
+        "type_name": "연타 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/D/D_기사의_투구_0ebb79f507.png",
+        "sha256": "bac7b4d0644011ed5af2888589746c9a7b2f91e8541dbeda9877b41fb5ce769a"
+      },
+      {
+        "key": "C/초월의 돌",
+        "type_name": "연타 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/C/C_초월의_돌_45b225dd72.png",
+        "sha256": "9676a8e49648a4a1cba2e974e0e92ac8200c775a44d0572c6c67f5a389db9311"
+      },
+      {
+        "key": "B/아이도피아의 장미",
+        "type_name": "연타 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/B/B_아이도피아의_장미_b09a941d2f.png",
+        "sha256": "0b2d759f451f9894bcd123fa5a805b520eac46917d1a8e3255f026af43de5107"
+      },
+      {
+        "key": "A/사우스 헤이븐 방패",
+        "type_name": "연타 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_사우스_헤이븐_방패_e0191f649a.png",
+        "sha256": "e54e53ca90444e9b7b291b28373943ae62e588fdea203051fb0a33845b0bd3f1"
+      },
+      {
+        "key": "S/켄신의 장갑",
+        "type_name": "연타 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_켄신의_장갑_09df0783e8.png",
+        "sha256": "53bdd03e1e71d815c0bc6d6a8954ffca947b72c3a5c540e3d3c3979ef6ebeccc"
+      },
+      {
+        "key": "G/집착의 날개",
+        "type_name": "연타 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_집착의_날개_ac773edb14.png",
+        "sha256": "9aa76f9c07288cc8da8aa39915663567bdc3aa3384dcaf0da947e2c131cb89ae"
+      },
+      {
+        "key": "X/마사무네",
+        "type_name": "연타 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_마사무네_9027e61512.png",
+        "sha256": "ef485f6ca621c20dafba3887554871dd892a18fa362fa1cea5402fd3c5b65aa7"
+      },
+      {
+        "key": "H/머신 보우",
+        "type_name": "연타 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/H/H_머신_보우_353a0e139a.png",
+        "sha256": "4832f52ff68e078283280e73a26a5e72f59975ded139e87af803b5843b5ee2d0"
+      }
+    ]
+  },
+  "3": {
+    "namespace": "equipment_mainType",
+    "type_name": "클릭 데미지",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "E/부서진 너클",
+        "type_name": "클릭 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/E/E_부서진_너클_b5b0e54c1f.png",
+        "sha256": "59e091302081606323507b34f0a2db7ea131da8886e4315f6351f984ae946cc2"
+      },
+      {
+        "key": "E/초보자의 투구",
+        "type_name": "클릭 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/E/E_초보자의_투구_6d13607963.png",
+        "sha256": "75a3c31cf7d0f38ff3688fd5c2b8b8596a12b352c969f4205ae20dffeebe4511"
+      },
+      {
+        "key": "D/검투사 노예의 너클",
+        "type_name": "클릭 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/D/D_검투사_노예의_너클_67ff269584.png",
+        "sha256": "c94a3aa8df0b87a23d4266018d14181e169982e8d9ab4ab7dadf7dc67244bd97"
+      },
+      {
+        "key": "D/붉은 악마의 발톱",
+        "type_name": "클릭 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/D/D_붉은_악마의_발톱_9a79af6307.png",
+        "sha256": "d5fe8c408244add762b3ea79ce80f74b1b8e759a6dba60f938d82c5ca726c3ed"
+      },
+      {
+        "key": "D/숙련된 병사의 투구",
+        "type_name": "클릭 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/D/D_숙련된_병사의_투구_edad706cf3.png",
+        "sha256": "0c3f8b7562f34425c51911c1e90fecb2793e859cec1e3a25b029fefe4d449d02"
+      },
+      {
+        "key": "C/자유인의 너클",
+        "type_name": "클릭 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/C/C_자유인의_너클_13b8528ad2.png",
+        "sha256": "4720268bb8733abfef9d5888b71db756233aa504efc6e95c32209b58fde3ecbf"
+      },
+      {
+        "key": "C/조별과제 조장의 머리띠",
+        "type_name": "클릭 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/C/C_조별과제_조장의_머리띠_d392600867.png",
+        "sha256": "3748200062e1db2e7d86e12cdb389d36c18a5d6e913893bbbb248cfa3facbf47"
+      },
+      {
+        "key": "B/검투사의 투구",
+        "type_name": "클릭 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/B/B_검투사의_투구_46e75cf8d6.png",
+        "sha256": "c6c588e0c599ae00e42e307c98e1e698fc39a852b7ded79fdf2fef94d906019e"
+      },
+      {
+        "key": "B/챔피언의 너클",
+        "type_name": "클릭 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/B/B_챔피언의_너클_93f4eaff58.png",
+        "sha256": "5f06fac2a97ab88d5bab647148a8650e5a5d0aeec53f1591f4c4e612e7b50463"
+      },
+      {
+        "key": "A/쇠좆매",
+        "type_name": "클릭 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_쇠좆매_c3dd511e63.png",
+        "sha256": "59193c8fc79b15cfe58bc8a83322c6626d8696b3d9d8d07120f214d407bd6191"
+      },
+      {
+        "key": "A/수웨이자 [스팅]",
+        "type_name": "클릭 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_수웨이자__스팅__51e5cec8f0.png",
+        "sha256": "2f89e900fc9b698cb45d3354e9b11b498771e10f21a6e68196f0b971094d121f"
+      },
+      {
+        "key": "S/디멘션 커터",
+        "type_name": "클릭 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_디멘션_커터_1377eeca44.png",
+        "sha256": "ea24e67ecba2d76d3d737f02b0b0d2428508f01447d625360c4f067180573e41"
+      },
+      {
+        "key": "G/뿔레의 장갑",
+        "type_name": "클릭 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_뿔레의_장갑_c6ef193c9f.png",
+        "sha256": "39b9eba8a96094fa9bc54b05848498593a668cd5e2f6c505a883eb31281eb5ef"
+      },
+      {
+        "key": "G/제이나의 신발",
+        "type_name": "클릭 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_제이나의_신발_b1d3e523c1.png",
+        "sha256": "a404ef38bf532d885b9b0948c1b8ffbca5719a95ab7a9561860ad83c6ccc92dd"
+      },
+      {
+        "key": "X/야뷰키의 가면",
+        "type_name": "클릭 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_야뷰키의_가면_5d23b53b3b.png",
+        "sha256": "a30198193b5b1cbfc308d4485cb351b354dbe5273fab8e156a6f577268c1f443"
+      },
+      {
+        "key": "H/블링크",
+        "type_name": "클릭 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/H/H_블링크_3b39668002.png",
+        "sha256": "e6660683276c5d190ec92353ff3f3d246784315889100ad05c55f1211d895963"
+      }
+    ]
+  },
+  "6": {
+    "namespace": "equipment_mainType",
+    "type_name": "공격 속도",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "E/소형 투포환",
+        "type_name": "공격 속도",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/E/E_소형_투포환_1a4ae3ecad.png",
+        "sha256": "2e6d5e6f97191e1f6e23d297da28d12904e638c06a7d1cd4d72ef92c754d7ceb"
+      },
+      {
+        "key": "E/수리검",
+        "type_name": "공격 속도",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/E/E_수리검_ffff2b0c6a.png",
+        "sha256": "6c2bdddcc5758c904cdc205836e007163c6d36e68bd0a50db4ba628bca9206bc"
+      },
+      {
+        "key": "D/거대 발톱 화석",
+        "type_name": "공격 속도",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/D/D_거대_발톱_화석_8d0b39e9b1.png",
+        "sha256": "9f09b8e857fc6f59d9756573e74666ddfeb3bbcf89be8a6bd7c512a67867bdbb"
+      },
+      {
+        "key": "D/프리랜서의 브레이서",
+        "type_name": "공격 속도",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/D/D_프리랜서의_브레이서_74c86e57cc.png",
+        "sha256": "d89ca3af227665980a1fb6a8099edbc028b91a198fbd9b8e73a22912626e1735"
+      },
+      {
+        "key": "C/라스 포레스트 씨앗",
+        "type_name": "공격 속도",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/C/C_라스_포레스트_씨앗_d58a534bad.png",
+        "sha256": "b38595cce975694f73e40e84eeb1a2bc35bb98894df3928c072b3c7cf69a8a0a"
+      },
+      {
+        "key": "C/카오스 쉴드",
+        "type_name": "공격 속도",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/C/C_카오스_쉴드_54a95f7393.png",
+        "sha256": "68beb87d3871c6f78505fdee8b762d8673c36e3fd7c00772d4acd39272448a62"
+      },
+      {
+        "key": "C/하토리의 표창",
+        "type_name": "공격 속도",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/C/C_하토리의_표창_1bb43d9fe2.png",
+        "sha256": "aa97a53a1cd585a4be31572ac4304a15c7c105d42a7895ad5b544ed2c50b5613"
+      },
+      {
+        "key": "C/해링턴의 탄환",
+        "type_name": "공격 속도",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/C/C_해링턴의_탄환_630b3b5ee4.png",
+        "sha256": "cc216198d51463119f4f8c65d732bd79951c6fde11adfe2c0424dbb9fd131414"
+      },
+      {
+        "key": "B/몬어빵",
+        "type_name": "공격 속도",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/B/B_몬어빵_65be9a37ce.png",
+        "sha256": "683d11aaf8267d2b7e22d85345e96a2364cd1ea654477994e85fd322369072e1"
+      },
+      {
+        "key": "B/베멜루스의 투구",
+        "type_name": "공격 속도",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/B/B_베멜루스의_투구_5728a81a5a.png",
+        "sha256": "258fa628f53bfe960355f5c7d331cfd4c7ebb2fb6901f7f2f7dfff91af5ebef9"
+      },
+      {
+        "key": "B/오컴의 면도날",
+        "type_name": "공격 속도",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/B/B_오컴의_면도날_98a82a2468.png",
+        "sha256": "e4431a11435906897b0e6cd88660802b465d0b93100c37d3f0a52cb76b7ca855"
+      },
+      {
+        "key": "A/버서킹 해머",
+        "type_name": "공격 속도",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_버서킹_해머_cca92c6d8e.png",
+        "sha256": "afaa5e6478e9b8385825e97737dab9637fba0022476d0b882b42a3de34985002"
+      },
+      {
+        "key": "A/악의 꽃",
+        "type_name": "공격 속도",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_악의_꽃_39e8e52f99.png",
+        "sha256": "79b267ebdbbb2945155c2c47f1cf6edc08250548f3822d2e5ea2b72df910127c"
+      },
+      {
+        "key": "A/차크람",
+        "type_name": "공격 속도",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_차크람_75ac4b035e.png",
+        "sha256": "67e0b22b5855537ab46c8028c37506cd5395c48b215a9ca1d0fb81bd25908853"
+      },
+      {
+        "key": "S/볼보레타의 날개",
+        "type_name": "공격 속도",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_볼보레타의_날개_117f003172.png",
+        "sha256": "80bbf9bd4f3e12867ab6300256ea245ad269d154f3758b08866f258ae53515ce"
+      },
+      {
+        "key": "S/사티로스의 클로우",
+        "type_name": "공격 속도",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_사티로스의_클로우_34d9d47e05.png",
+        "sha256": "9a35d135c6fd0bdb3486eaee79b483a32dfd3b229700980daeaffedc7277e2cc"
+      },
+      {
+        "key": "G/봉인석",
+        "type_name": "공격 속도",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_봉인석_7d44066d03.png",
+        "sha256": "480923b02ed009e2007ff56ee2d27c8cac22ad05689d887396ce195854a6c50b"
+      },
+      {
+        "key": "X/볼보레타의 두번째 날개",
+        "type_name": "공격 속도",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_볼보레타의_두번째_날개_d9328d9d7f.png",
+        "sha256": "3aca16555273a7fe346f2055f1e3728fa389b3ee4d7f2925e2663723db8db262"
+      }
+    ]
+  },
+  "35": {
+    "namespace": "equipment_mainType",
+    "type_name": "모든 용병의 추가 데미지",
+    "format": "raw",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "E/식용 감자",
+        "type_name": "모든 용병의 추가 데미지",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/E/E_식용_감자_c831a1c4cc.png",
+        "sha256": "9dafc7fd620a4e34186759dd381b8a80627cdf5c1cc46a6ab675305a9712cc32"
+      },
+      {
+        "key": "D/대나무 피리",
+        "type_name": "모든 용병의 추가 데미지",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/D/D_대나무_피리_20002782e5.png",
+        "sha256": "5a82b90324d9afcabed140a249b05a8eb87b1c4ae03cf998cea23f59a8195117"
+      },
+      {
+        "key": "C/탈피의 흔적",
+        "type_name": "모든 용병의 추가 데미지",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/C/C_탈피의_흔적_60ec21bb63.png",
+        "sha256": "18de2783731118fabcb93261562555b0bc3015ac99754089911e5d179e085c97"
+      },
+      {
+        "key": "B/행운의 토끼 발",
+        "type_name": "모든 용병의 추가 데미지",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/B/B_행운의_토끼_발_dd05600d1b.png",
+        "sha256": "73cc140b11b7a7f43c6e24a2edd2d7c8741bb78a3fb199764da13f643d0c6ff6"
+      },
+      {
+        "key": "A/용기의 풀",
+        "type_name": "모든 용병의 추가 데미지",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_용기의_풀_8756d67969.png",
+        "sha256": "511f11e9c4b8d7b172181813308487eb761aed4021974ace8457c6811f842b77"
+      },
+      {
+        "key": "S/바드의 유산",
+        "type_name": "모든 용병의 추가 데미지",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_바드의_유산_c00d64d477.png",
+        "sha256": "0bd738f5829bbd9d09b53fd151eb85fbd9a31657c1f37c6924746c7f37f74e89"
+      },
+      {
+        "key": "G/부두 마스크",
+        "type_name": "모든 용병의 추가 데미지",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_부두_마스크_066b91e97f.png",
+        "sha256": "86d5e182ecb9987d66fd7a9645ad920330f39a889e1b9c611e1e0a83f2c2f5b7"
+      },
+      {
+        "key": "X/왕가의 방패",
+        "type_name": "모든 용병의 추가 데미지",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_왕가의_방패_96a81e3ec1.png",
+        "sha256": "505a6a9c8a498686d324e6b288feaa8b5dc782e1bb2259361924af6d90a684e1"
+      }
+    ]
+  },
+  "87": {
+    "namespace": "equipment_mainType",
+    "type_name": "치명타 확률",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "E/에스파다 그랑데",
+        "type_name": "치명타 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/E/E_에스파다_그랑데_9ccd4d2362.png",
+        "sha256": "14826ab975f749196124e2062b984e471045f4a2f3025747d6d645fa4cf1a1d2"
+      },
+      {
+        "key": "D/검은 마음",
+        "type_name": "치명타 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/D/D_검은_마음_d2c39b38c6.png",
+        "sha256": "49c5dfd57b14a52c5794af9c6dba130c52d81a2e60c805d7282cc0efff13384a"
+      },
+      {
+        "key": "C/복제된 목걸이",
+        "type_name": "치명타 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/C/C_복제된_목걸이_671dd909f8.png",
+        "sha256": "7f8144737f61a4979505d2b7695f866dac8ac42310b8c84146fcd53ee6296e7a"
+      },
+      {
+        "key": "B/도그 건틀렛",
+        "type_name": "치명타 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/B/B_도그_건틀렛_e233d70aff.png",
+        "sha256": "cabc72f9e4261837acbb5602162db00a8eed8f2f27994b16ff1329ba54a63670"
+      },
+      {
+        "key": "A/야뷰키 레드 스톤",
+        "type_name": "치명타 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_야뷰키_레드_스톤_a4416ed163.png",
+        "sha256": "c23c1a561cbc6d609374a93eb053a7bf79b02a22db3338adf5bada6ce59d1496"
+      },
+      {
+        "key": "A/펜던트 오브 아하스",
+        "type_name": "치명타 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_펜던트_오브_아하스_e724202b10.png",
+        "sha256": "e1c8be37baf3d7a04ba89b05ec32c429358d552faf7e936e7cafaca56d58a9a4"
+      },
+      {
+        "key": "A/핑크 클럽",
+        "type_name": "치명타 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_핑크_클럽_60b9886f23.png",
+        "sha256": "b7cf9da4106f0159281702375abc2a22b5ffe565f5ec479db25e1289b3b074fd"
+      },
+      {
+        "key": "S/고대인의 도끼",
+        "type_name": "치명타 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_고대인의_도끼_84521651f7.png",
+        "sha256": "13584b4bd7ac3af1c73990670e22b4c1b8e9952e6af81fd1b5dd618860f87f28"
+      },
+      {
+        "key": "S/기계 심장",
+        "type_name": "치명타 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_기계_심장_44b04aea32.png",
+        "sha256": "f40444449709b1fc9940e4b2dce46cc392a3a4db1d6b75b22f9301ed541854ff"
+      },
+      {
+        "key": "G/블러드 스톤",
+        "type_name": "치명타 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_블러드_스톤_8c860feeab.png",
+        "sha256": "294f2ca4000f85763e259a785dea66c251fdf4eecab6e9c36a996b42e1202f1f"
+      },
+      {
+        "key": "G/크리스탈 대거",
+        "type_name": "치명타 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_크리스탈_대거_b73ad3a45b.png",
+        "sha256": "3e8cca7cf0db2244934b2f6636da7e735cad9fd26930baf7a64d4bb9a469fad7"
+      },
+      {
+        "key": "X/선혈 반지",
+        "type_name": "치명타 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_선혈_반지_5a756f1525.png",
+        "sha256": "4e0a65b87ca93ca5480b5be01e64f9236a79c76b65ff2055328290dad3aa7eed"
+      },
+      {
+        "key": "H/선혈 망치",
+        "type_name": "치명타 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/H/H_선혈_망치_5a4ee35cc0.png",
+        "sha256": "6ce92f7d6d31e835908452c197a6730eb7c1a1429c9fd294cc40db6ab38a107f"
+      }
+    ]
+  },
+  "8": {
+    "namespace": "equipment_mainType",
+    "type_name": "골드 획득량",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "E/오렌지 반쪽",
+        "type_name": "골드 획득량",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/E/E_오렌지_반쪽_9aef2fa45d.png",
+        "sha256": "c7c08c56737e42c717c4228a05b099e4458594c6c0c40df8d71a2b54b885a1c7"
+      },
+      {
+        "key": "D/멧돼지 뱃지",
+        "type_name": "골드 획득량",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/D/D_멧돼지_뱃지_570f46e5f1.png",
+        "sha256": "e514b590d4012cd0f0ba0835ce4bb8fee8b3e7569b3029efe7988373953f9206"
+      },
+      {
+        "key": "D/채광용 곡괭이",
+        "type_name": "골드 획득량",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/D/D_채광용_곡괭이_d5f80e52b0.png",
+        "sha256": "6a0328adccb1ba3c79867af7a3c3512b6b312b360d5f711b0636f469d8db032b"
+      },
+      {
+        "key": "C/곰발바닥 뱃지",
+        "type_name": "골드 획득량",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/C/C_곰발바닥_뱃지_4b8d9a920e.png",
+        "sha256": "80d82ac9d2f11e7cbf8d86ec3ff7ca0471e82a177c604fd491f66ddf00dafabc"
+      },
+      {
+        "key": "C/프리즘 스톤",
+        "type_name": "골드 획득량",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/C/C_프리즘_스톤_ef65b31a01.png",
+        "sha256": "9d3bf75660f49a6d026c99d14ee7c8248a7ef82f470510c3644534d35348c80b"
+      },
+      {
+        "key": "B/대부호의 장갑",
+        "type_name": "골드 획득량",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/B/B_대부호의_장갑_5d027a3872.png",
+        "sha256": "1f4ea508b2bb555753c0fc850029495d2957fd4e163d091c4cd240a9a6b7dd3d"
+      },
+      {
+        "key": "B/대부호의 장화",
+        "type_name": "골드 획득량",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/B/B_대부호의_장화_a36795ce9a.png",
+        "sha256": "8ff3551f32a113c928760cf797e2104243011ee42399eacc1f0fd8f541d4ea5e"
+      },
+      {
+        "key": "A/마법의 진저 브레드",
+        "type_name": "골드 획득량",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_마법의_진저_브레드_dea7333609.png",
+        "sha256": "408485152de04c57f84cb4c324869ca715fe260175db8b761eb22127973042f0"
+      },
+      {
+        "key": "A/풍요의 뿔피리",
+        "type_name": "골드 획득량",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_풍요의_뿔피리_e1a12e06c4.png",
+        "sha256": "bfaaa92767fe6dc14373d1eeb8fe25b5edf1dc0fcb76ef3af6fbc6c7263d82e8"
+      },
+      {
+        "key": "S/뿔돼지 저금통",
+        "type_name": "골드 획득량",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_뿔돼지_저금통_1f0244d787.png",
+        "sha256": "56096cdea18d074f6168f161b44378c41f25e2217561abfa31ac381f122ccc33"
+      },
+      {
+        "key": "S/축복받은 할로윈 호박",
+        "type_name": "골드 획득량",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_축복받은_할로윈_호박_3a9fdcf020.png",
+        "sha256": "de5d125b877a6eccb114b26c2b0773c0b2bb7de4ec3493913821d9ebc731ed70"
+      },
+      {
+        "key": "G/붉은 보석 [카이저소제]",
+        "type_name": "골드 획득량",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_붉은_보석__카이저소제__d6129c10d3.png",
+        "sha256": "caa9a142e1e7cb70fe97dc0f62f33ffa5892e27fbc927e069a4683b0dc6f7cd4"
+      },
+      {
+        "key": "X/더 시크릿",
+        "type_name": "골드 획득량",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_더_시크릿_d154e46e72.png",
+        "sha256": "1361487edbc9c2b03e394200e9f3a11863290649f16b95af42fcd57cdf5a8174"
+      },
+      {
+        "key": "H/미들랜드 채권",
+        "type_name": "골드 획득량",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/H/H_미들랜드_채권_49062f895a.png",
+        "sha256": "4d8f405d4ef780bbaf740f00c59119eab6c818bfc3178d7132242212210d9f15"
+      }
+    ]
+  },
+  "2": {
+    "namespace": "equipment_mainType",
+    "type_name": "모든 용병의 데미지",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "E/초보자의 갑옷",
+        "type_name": "모든 용병의 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/E/E_초보자의_갑옷_e6c4f3ec6e.png",
+        "sha256": "cfae6338a9fdfac8ec25ebbca73a91cbcf833ddcb1b8e8041b994d08ffd710e8"
+      },
+      {
+        "key": "D/페가수스의 징표",
+        "type_name": "모든 용병의 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/D/D_페가수스의_징표_be6b1c20ec.png",
+        "sha256": "c0c2b9132348145fa12669da4e5aa3ecf993fa067f5f959b4401babb185d4ddb"
+      },
+      {
+        "key": "C/객갱박사의 화학약품",
+        "type_name": "모든 용병의 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/C/C_객갱박사의_화학약품_d93e74f29c.png",
+        "sha256": "19151a9dbf6c06a3d7bad2631336086f20e18f881a4d5063512c84741604326d"
+      },
+      {
+        "key": "C/낡은 군단기",
+        "type_name": "모든 용병의 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/C/C_낡은_군단기_b53795e30b.png",
+        "sha256": "1198df4e9edfebde3d32557288d67d1a8ec40f3cba8a4fe06aecf6794dc1662d"
+      },
+      {
+        "key": "B/러버 덕",
+        "type_name": "모든 용병의 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/B/B_러버_덕_f1062eb4f0.png",
+        "sha256": "098b5674d939e0bb6e6e8ec940a33fcb4705b8b3edc8b387795d6a0d7d01ecbe"
+      },
+      {
+        "key": "B/퍼루나해 산호 반지",
+        "type_name": "모든 용병의 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/B/B_퍼루나해_산호_반지_8f058c8f5d.png",
+        "sha256": "db449cbf7df183557ae93f5ca006a830f75293c7517c06f56e2c5150adf69f5f"
+      },
+      {
+        "key": "A/기상나팔",
+        "type_name": "모든 용병의 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_기상나팔_fbb0bd39bf.png",
+        "sha256": "ae3b741e1aea5e379b84b29cb0346438fab2df1e366ac170cd8c152259e7937d"
+      },
+      {
+        "key": "S/레이븐의 징표",
+        "type_name": "모든 용병의 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_레이븐의_징표_26edab3071.png",
+        "sha256": "8f4c2918bcf8c26afe243abc2a76661858f930cf14742674b5375e918abc0399"
+      },
+      {
+        "key": "S/바트라의 징표",
+        "type_name": "모든 용병의 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_바트라의_징표_3b77c6d569.png",
+        "sha256": "83b5e76342efd9c6660d39025576d262325da943e137abdb80d2b2a8042c5771"
+      },
+      {
+        "key": "G/발키리의 불꽃",
+        "type_name": "모든 용병의 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_발키리의_불꽃_9de207926d.png",
+        "sha256": "d5059c246213f77d934b76892b31db0a553d130acb005bfcaabaaff1a4c881b6"
+      },
+      {
+        "key": "G/크리센트 문",
+        "type_name": "모든 용병의 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_크리센트_문_367dd45d9b.png",
+        "sha256": "254cfa2c112219dce96500ad9881c04e45ccda2df7804e81c726664cf46fe6a1"
+      },
+      {
+        "key": "X/소형 버프 스톤",
+        "type_name": "모든 용병의 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_소형_버프_스톤_769c3dc6a6.png",
+        "sha256": "18363ef53de9c26f9b28ad092d0639f23f8952575c2e2b16728362751115310a"
+      }
+    ]
+  },
+  "25": {
+    "namespace": "equipment_mainType",
+    "type_name": "클릭 크리티컬 배수",
+    "format": "raw",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "E/티라노의 발톱",
+        "type_name": "클릭 크리티컬 배수",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/E/E_티라노의_발톱_016c43ee5a.png",
+        "sha256": "7a8219db535c403c1a23f1df8dd29d437a82e0ae62102e24eef569d519779d25"
+      },
+      {
+        "key": "D/미디엄 쉴드",
+        "type_name": "클릭 크리티컬 배수",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/D/D_미디엄_쉴드_c5e91022db.png",
+        "sha256": "ce8eb9f4d830eb3b8a976757e7f75d54ade76912a7993a8a6b4348ca9d797460"
+      },
+      {
+        "key": "C/드워프 방패",
+        "type_name": "클릭 크리티컬 배수",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/C/C_드워프_방패_d081d67238.png",
+        "sha256": "7bbb5751cd70ee06e064e794359cff48f2923ec3dd47346e8cd452f54bd494aa"
+      },
+      {
+        "key": "B/갈라티스의 가시",
+        "type_name": "클릭 크리티컬 배수",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/B/B_갈라티스의_가시_f1efe46ff1.png",
+        "sha256": "28aed48aed75c5e34068770a32a40ade2c9871446549895396a8783fdf09f07f"
+      },
+      {
+        "key": "A/베어 슬래셔",
+        "type_name": "클릭 크리티컬 배수",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_베어_슬래셔_9dcc29a1df.png",
+        "sha256": "7864b1ff4ddce6013cc98c813523509deac9c1b99c765eb72e086ae6b84bc70b"
+      },
+      {
+        "key": "S/야뷰키의 장갑",
+        "type_name": "클릭 크리티컬 배수",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_야뷰키의_장갑_1838cfa570.png",
+        "sha256": "9604fc728e51efd7d1454c40fc527e83956dd9c2e8d1a3e402df33542887c093"
+      },
+      {
+        "key": "G/뿔레의 투구",
+        "type_name": "클릭 크리티컬 배수",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_뿔레의_투구_f688c09ef4.png",
+        "sha256": "b5ca503f95642c76e9ef8492a03b223ff7f7734cbb5303dd1936c4d325fd53a0"
+      },
+      {
+        "key": "X/버몬트 투구",
+        "type_name": "클릭 크리티컬 배수",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_버몬트_투구_a3310622c0.png",
+        "sha256": "6f67736e4a8b298cfcec717548067cf74381d742923dfe0005af5a3622c83aee"
+      }
+    ]
+  },
+  "88": {
+    "namespace": "equipment_mainType",
+    "type_name": "치명타 배수",
+    "format": "raw",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "C/도키의 잔상",
+        "type_name": "치명타 배수",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/C/C_도키의_잔상_acc6d340f5.png",
+        "sha256": "34b208dbe949e4ec380017d93e1dacde0c97b57428c2e64114a875d134569836"
+      },
+      {
+        "key": "B/미렌의 도끼",
+        "type_name": "치명타 배수",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/B/B_미렌의_도끼_3a38d0e97f.png",
+        "sha256": "bcec7bdec2fc879de4604410e5bda430aaa7e5110ce732c8247717bde70042fb"
+      },
+      {
+        "key": "A/포비든 노트",
+        "type_name": "치명타 배수",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_포비든_노트_b55e41c316.png",
+        "sha256": "0456eb165698f86fa264679fbd36e0bac32e88c0c2db02b7c3df8819fbdc0c4d"
+      },
+      {
+        "key": "S/데들리 아뮬렛",
+        "type_name": "치명타 배수",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_데들리_아뮬렛_77a02bcfcc.png",
+        "sha256": "91ab6885f49dabc933460e38203e97f46419a4606807bfc8d6abe25c7855c79f"
+      },
+      {
+        "key": "G/골든 루비 해머",
+        "type_name": "치명타 배수",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_골든_루비_해머_cde502f732.png",
+        "sha256": "6a5cd51ed103dd81c74113d08fc91af3513acaefe41282494a434e77c5f642cb"
+      },
+      {
+        "key": "G/파괴의 반지",
+        "type_name": "치명타 배수",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_파괴의_반지_585af21874.png",
+        "sha256": "ece5500ee553ea10011937a403289424a3bbd4952d296b706ad5e41d55ac2fba"
+      },
+      {
+        "key": "X/드래곤 애쉬 스태프",
+        "type_name": "치명타 배수",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_드래곤_애쉬_스태프_28970bb1c8.png",
+        "sha256": "fe6a16315acc0da6718b264a22f1c815b1f4a5d88e422c4665e7f84bcc683410"
+      },
+      {
+        "key": "X/디스트럭션 스태프",
+        "type_name": "치명타 배수",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_디스트럭션_스태프_01a38d85d5.png",
+        "sha256": "1bbda928a39c86ff0d279f97558b6a7181bb28607044a46e926953c87ef6a010"
+      },
+      {
+        "key": "H/제수가이트 대거",
+        "type_name": "치명타 배수",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/H/H_제수가이트_대거_08c96033cf.png",
+        "sha256": "d98e2b49817c7d8bd5e7c8e0546cd0aacc02dbaded12bf1e088150c205ab8c97"
+      },
+      {
+        "key": "H/파괴의 눈",
+        "type_name": "치명타 배수",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/H/H_파괴의_눈_587be0b825.png",
+        "sha256": "47b0ebd6ca83935827f0a2ca490b76ff736ae40b9b23adf06791790a5903a019"
+      }
+    ]
+  },
+  "28": {
+    "namespace": "equipment_mainType",
+    "type_name": "공격 무효화 관통",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "C/루비 귀걸이",
+        "type_name": "공격 무효화 관통",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/C/C_루비_귀걸이_bc9e1223c9.png",
+        "sha256": "010bedbbe4819f73b88ac7f491e3da7998c0f5e6d14cf7ea8d1c1786ed979b8b"
+      },
+      {
+        "key": "B/피의 룬",
+        "type_name": "공격 무효화 관통",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/B/B_피의_룬_185d361335.png",
+        "sha256": "39370f03975d9e3a1cf7ae7a6621c09cc3b0e310662c5974bc073397fe302fc9"
+      },
+      {
+        "key": "A/빨간 장화",
+        "type_name": "공격 무효화 관통",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_빨간_장화_165bac739f.png",
+        "sha256": "17f0df0d01fe5e6eceb05086c44f22943f9946bbd0454972eab0c7de5c6b5742"
+      },
+      {
+        "key": "S/피의 초대장",
+        "type_name": "공격 무효화 관통",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_피의_초대장_bab6244dec.png",
+        "sha256": "ba14e9c4aa4529a7c61c25c87238774ec17f462d3952abba11e91b6b91e56cfa"
+      },
+      {
+        "key": "G/관통의 깃털",
+        "type_name": "공격 무효화 관통",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_관통의_깃털_433b7f8a0e.png",
+        "sha256": "c9edc45858d9b8c76ad7c6c0e259dd6dcc50a8d48a326757e019f6a4d8ef2858"
+      },
+      {
+        "key": "G/바니걸 헤어 밴드",
+        "type_name": "공격 무효화 관통",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_바니걸_헤어_밴드_4d2346b1b8.png",
+        "sha256": "19c3aafbd4ec8bc2b173af44e3bd2cd63d484ba427999e930f2c3d5a094ed636"
+      },
+      {
+        "key": "X/관통의 건틀렛",
+        "type_name": "공격 무효화 관통",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_관통의_건틀렛_3956a775a4.png",
+        "sha256": "036219d27c02c135c8c6e2724f5ebcb389af808811e5856a6914355778b4934d"
+      },
+      {
+        "key": "X/티어도르의 구슬",
+        "type_name": "공격 무효화 관통",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_티어도르의_구슬_1c4346eec7.png",
+        "sha256": "37a80efb9dceddfb6b6d790181d7f25676e298329832b09003a48693f6f09d08"
+      },
+      {
+        "key": "H/선혈 날개",
+        "type_name": "공격 무효화 관통",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/H/H_선혈_날개_62b2df9fb6.png",
+        "sha256": "734b7a25bfd2c845e8d055f3ebb1be64856fab70cde8dd88fc8bffd8b78b7e07"
+      }
+    ]
+  },
+  "10": {
+    "namespace": "equipment_mainType",
+    "type_name": "적들의 마법 저항력 감소",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "C/방해의 반지",
+        "type_name": "적들의 마법 저항력 감소",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/C/C_방해의_반지_d8d7ebdaf9.png",
+        "sha256": "7a7da6adeac52ebb01f4556a4b4fdd06d70ac0e76f8559fab113289ab2f14f41"
+      },
+      {
+        "key": "B/항마력의 반지",
+        "type_name": "적들의 마법 저항력 감소",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/B/B_항마력의_반지_92755d9422.png",
+        "sha256": "43288bc5cd651be836ffbe6809a6bddf6ad84bca5eaf3c244afb62444790d813"
+      },
+      {
+        "key": "A/마법의 반지 [위스퍼]",
+        "type_name": "적들의 마법 저항력 감소",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_마법의_반지__위스퍼__739099030f.png",
+        "sha256": "1eb2c4cd8373b2d5423af7e2a1c0a7658c767dac616df4d7e8d41e77520b5559"
+      },
+      {
+        "key": "S/달신의 반지",
+        "type_name": "적들의 마법 저항력 감소",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_달신의_반지_b48f616455.png",
+        "sha256": "c31708fcfb9ae10b52da793dc09e950c9f776671afe10d4810077fffe7aa8beb"
+      },
+      {
+        "key": "G/광신자의 지팡이",
+        "type_name": "적들의 마법 저항력 감소",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_광신자의_지팡이_73f5642d67.png",
+        "sha256": "e58061bde217d03922d8e0f076f920dd378792954450fd01c89ac751b9ad523b"
+      },
+      {
+        "key": "X/창조의 모자",
+        "type_name": "적들의 마법 저항력 감소",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_창조의_모자_e0bcf9f3c1.png",
+        "sha256": "d2fd94525554e8d2e7cff08a04623d510748cecf7b578211851d150ae0058402"
+      }
+    ]
+  },
+  "9": {
+    "namespace": "equipment_mainType",
+    "type_name": "적들의 물리 저항력 감소",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "C/블랙 스틸 브레이서",
+        "type_name": "적들의 물리 저항력 감소",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/C/C_블랙_스틸_브레이서_8cc280ab03.png",
+        "sha256": "f6d2bf83fa22f373deba6ed13ba99a8d8ffa473d4faf6a34ee1f9e44c0b4a5d8"
+      },
+      {
+        "key": "B/강철 팔찌 [더 와일드]",
+        "type_name": "적들의 물리 저항력 감소",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/B/B_강철_팔찌__더_와일드__4e09d57b82.png",
+        "sha256": "f4c0bae4120a995051ac086ba95583dc87ebcb0e516b6ea4cb4323d8eebbe239"
+      },
+      {
+        "key": "A/귀족의 수호 팔찌",
+        "type_name": "적들의 물리 저항력 감소",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_귀족의_수호_팔찌_dcff9a8a76.png",
+        "sha256": "20b5958dba7715f12ef9007752e151da1d8eb6084154ec31ffff08f0b093eaaa"
+      },
+      {
+        "key": "S/흑기사 사라스의 브레이서",
+        "type_name": "적들의 물리 저항력 감소",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_흑기사_사라스의_브레이서_d7fcc9e32e.png",
+        "sha256": "3d7e24f8fc1efa49346446269fe0e6b46bc693ae2fa7cf6f54f842e6270871ee"
+      },
+      {
+        "key": "G/베멜루스의 흉갑",
+        "type_name": "적들의 물리 저항력 감소",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_베멜루스의_흉갑_e03f951967.png",
+        "sha256": "be827c4673751d8e847c5c772b32a6ca871484a3669d75272f38f05785f14345"
+      },
+      {
+        "key": "X/파괴의 망치",
+        "type_name": "적들의 물리 저항력 감소",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_파괴의_망치_ac2d5e5883.png",
+        "sha256": "2dc945c89e5f212c5e2c17c8d7f3981cfeb102b8270abb290a4cb4c2aed0172a"
+      }
+    ]
+  },
+  "264": {
+    "namespace": "equipment_mainType",
+    "type_name": "최종 데미지",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "C/저 질 식사",
+        "type_name": "최종 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/C/C_저_질_식사_8ad9ea2bab.png",
+        "sha256": "4148a5bc55359606cabaf1e7fc6f18a693962c22f42eeb9a59203ca99feda990"
+      },
+      {
+        "key": "B/뱀파이어 블러드",
+        "type_name": "최종 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/B/B_뱀파이어_블러드_2a416d4b52.png",
+        "sha256": "79f97e471d3b9f3c8adb13a30da866991cc3d8ccc3e6b843f05b889def4f6359"
+      },
+      {
+        "key": "A/벌집으로 만든 피자",
+        "type_name": "최종 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_벌집으로_만든_피자_b1c6c3ca62.png",
+        "sha256": "b2f1deca2c01648adc55948acd7c791ad32ac23d8e2f1cbc3d29bc3431bb1739"
+      },
+      {
+        "key": "S/마법의 조랑말",
+        "type_name": "최종 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_마법의_조랑말_d74770acc8.png",
+        "sha256": "224f2b2352e9eb5a48fcadc22bb0281dccd7cc7ae9b764267b0fb25edeceee58"
+      },
+      {
+        "key": "G/무신의 검",
+        "type_name": "최종 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_무신의_검_6aa32b5749.png",
+        "sha256": "0ccd7304304e73710b76e600248cfabcc9ba3de6f77ca78c565fde5deb7d6c51"
+      },
+      {
+        "key": "X/이카루스의 날개",
+        "type_name": "최종 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_이카루스의_날개_3a87fdee5c.png",
+        "sha256": "a5781d5218c495a7552933f83ec8e721932206ddce4b64115a6ddac13cc39931"
+      },
+      {
+        "key": "H/폴스타",
+        "type_name": "최종 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/H/H_폴스타_7579253091.png",
+        "sha256": "7c823296b99319d959090814cd1fb6d21f76d2b179951ba82f6e50e318c08af5"
+      }
+    ]
+  },
+  "31": {
+    "namespace": "equipment_mainType",
+    "type_name": "적들의 카오스 취약성",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "C/젤다의 혼돈의 반지",
+        "type_name": "적들의 카오스 취약성",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/C/C_젤다의_혼돈의_반지_23c95a71c6.png",
+        "sha256": "7ae14332f4ff2d85338e88347d01a618b8457a399004d59fef4b33a23e3eba9b"
+      },
+      {
+        "key": "B/카오스 스톤 링",
+        "type_name": "적들의 카오스 취약성",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/B/B_카오스_스톤_링_cc1200b2d4.png",
+        "sha256": "5409aaf9b23e162c554fd8c07b983aa647f6be18f8bd3bf44418a1aafc7d3c64"
+      },
+      {
+        "key": "A/에퀴나스의 반지",
+        "type_name": "적들의 카오스 취약성",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_에퀴나스의_반지_412e67fadc.png",
+        "sha256": "30a2c3dcd5fe8efcb823f76f8409fa816a25b804ad656a8932efe7f2fa228b02"
+      },
+      {
+        "key": "S/젤다의 혼돈의 두건",
+        "type_name": "적들의 카오스 취약성",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_젤다의_혼돈의_두건_712cae5680.png",
+        "sha256": "0fe06e1f3f7bb0e7cde68eb275ccd77eb1d4b6cc822eb889ceea779d7e365d4f"
+      },
+      {
+        "key": "G/크사르팍스의 하사품",
+        "type_name": "적들의 카오스 취약성",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_크사르팍스의_하사품_c046fcb9db.png",
+        "sha256": "9c85e2a7bfb1a458f3a9ae11fee0439f7c3c7a432c21544c42136372343ab388"
+      },
+      {
+        "key": "X/아리만의 면갑",
+        "type_name": "적들의 카오스 취약성",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_아리만의_면갑_d570e8d687.png",
+        "sha256": "d9e90ffe3a733c2090bbfd687733f351dbdcc4d36275a88a7f13d57373c0ebf8"
+      }
+    ]
+  },
+  "39": {
+    "namespace": "equipment_mainType",
+    "type_name": "신성 데미지",
+    "format": "raw",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "C/쿠르샤의 28번째 검",
+        "type_name": "신성 데미지",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/C/C_쿠르샤의_28번째_검_be2140e354.png",
+        "sha256": "56a3cfdcb6181db7387a29d1535db1a4d1551517ff73be3e1cfc1e8714cda0d2"
+      },
+      {
+        "key": "B/전시안 드링크",
+        "type_name": "신성 데미지",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/B/B_전시안_드링크_b16fd19eae.png",
+        "sha256": "301a9aab0a425557020b254bb40d4aab6d6e7e93f7d221fe10536e93ff3a8045"
+      },
+      {
+        "key": "A/유다의 성수",
+        "type_name": "신성 데미지",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_유다의_성수_7056294878.png",
+        "sha256": "82f14a765e792d8cec0f2c0cb2ba3e39e1d1be146a5c9df514d348d5d672c9c8"
+      },
+      {
+        "key": "S/스태프 [문 샤인]",
+        "type_name": "신성 데미지",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_스태프__문_샤인__2843f3ad62.png",
+        "sha256": "f8afb76c93ec1013cfa5fd6222f189e55ca1c58131a35a6dcd06fa6f7c83505c"
+      },
+      {
+        "key": "G/로카히의 지팡이",
+        "type_name": "신성 데미지",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_로카히의_지팡이_7a3ef8bb0a.png",
+        "sha256": "d84113ee647a397ed6c9d6740b7c7fb49f7dc16fd5a7cdffb482b0d269bef68e"
+      },
+      {
+        "key": "X/고대신의 지팡이",
+        "type_name": "신성 데미지",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_고대신의_지팡이_7409d0e4a3.png",
+        "sha256": "4ae103f2c4b4f99d564167ab85e248d63f892a0ca4e506dddd570568dfb80414"
+      },
+      {
+        "key": "H/핑크블랙",
+        "type_name": "신성 데미지",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/H/H_핑크블랙_33d3a3acdc.png",
+        "sha256": "25cc28cbbfe375573122533dc69c0ab8235683324f97f115fb0bc25bb3a954fc"
+      }
+    ]
+  },
+  "7": {
+    "namespace": "equipment_mainType",
+    "type_name": "모든 용병의 공격 속도",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "C/피의 바람",
+        "type_name": "모든 용병의 공격 속도",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/C/C_피의_바람_313a86d4c6.png",
+        "sha256": "d59cf8b3deb59481db885009d40ece7cddbe00efa78e71e9817428ab3583af4a"
+      },
+      {
+        "key": "B/모험가의 망토",
+        "type_name": "모든 용병의 공격 속도",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/B/B_모험가의_망토_f6864522d0.png",
+        "sha256": "3e98d6abc3e5dd40c0631db2b97cb5039d1bf5e48ae3fab6877b6c4a4ad5932b"
+      },
+      {
+        "key": "A/활력의 풀",
+        "type_name": "모든 용병의 공격 속도",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_활력의_풀_3420ee84de.png",
+        "sha256": "9bc18d6de7c2c09cae2634401d26bfc1d827dd223b861dd93d8f9012b4369807"
+      },
+      {
+        "key": "S/애라의 망또",
+        "type_name": "모든 용병의 공격 속도",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_애라의_망또_713f82aa1d.png",
+        "sha256": "62017f3e2c08f7748bca00fc4cdffbdddd469d293fc17a407b5c9deadefd2b22"
+      },
+      {
+        "key": "X/아카식 레코드",
+        "type_name": "모든 용병의 공격 속도",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_아카식_레코드_959df6a46a.png",
+        "sha256": "fd2a654b4bafe7da86589e43ef69110d1d706681d77f66467cb1433b2ee94b21"
+      }
+    ]
+  },
+  "77": {
+    "namespace": "equipment_mainType",
+    "type_name": "더블 어택 확률",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "B/곤충 날개",
+        "type_name": "더블 어택 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/B/B_곤충_날개_b028a7e79d.png",
+        "sha256": "7af004c7860a5a423d91046f7f4b94b8827c37e12de711cde04cb1264d1ad1d1"
+      },
+      {
+        "key": "A/뼈 단검",
+        "type_name": "더블 어택 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_뼈_단검_5b314737fd.png",
+        "sha256": "bf77acb7621ee00a403525b8a1d9edc5115564f90343ebf13580a8dca5ae4283"
+      },
+      {
+        "key": "S/신속의 망토",
+        "type_name": "더블 어택 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_신속의_망토_44da33e30a.png",
+        "sha256": "4973318a2c9e1040e8c0f879da73bcfd4f12ba770884273a148f31f3120c3291"
+      },
+      {
+        "key": "S/악동의 마음",
+        "type_name": "더블 어택 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_악동의_마음_6e58e341a0.png",
+        "sha256": "848ebcb2fbb9eb265d5c6a61facaed7622a9729043f8e8afd9b3a0ec9004e576"
+      },
+      {
+        "key": "G/강박증의 돌",
+        "type_name": "더블 어택 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_강박증의_돌_419a692dd5.png",
+        "sha256": "aa73fea83bf1fec6cf2aacc81928ac1a41da95ca207fb3894324a288977de130"
+      },
+      {
+        "key": "X/후회의 검",
+        "type_name": "더블 어택 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_후회의_검_a3f694494c.png",
+        "sha256": "9f77b08ebabd2e8e063656e88673723e8bdd7acd0b1858b18403abc6432e2f86"
+      },
+      {
+        "key": "H/더블 건틀렛",
+        "type_name": "더블 어택 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/H/H_더블_건틀렛_e82f1fbfff.png",
+        "sha256": "10fa01a238a3e523270048d54ae920b0667a2d5bf73dbc5efc6a1e75d11384d9"
+      }
+    ]
+  },
+  "48": {
+    "namespace": "equipment_mainType",
+    "type_name": "순수 데미지",
+    "format": "raw",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "B/구만둘기의 라면",
+        "type_name": "순수 데미지",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/B/B_구만둘기의_라면_4ae3101ab3.png",
+        "sha256": "1f9da133c2f7f3eabf25da56ca390f837937bdc88dd1a729bf7fa5a83f3b0ba2"
+      },
+      {
+        "key": "A/공식카페 80000회원 달성 기념!",
+        "type_name": "순수 데미지",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_공식카페_80000회원_달성_기념__40538fa5e5.png",
+        "sha256": "010a58516946e521be0cad4dc83fb2acd3eaafca6ce8326fee25b74379174916"
+      }
+    ]
+  },
+  "64": {
+    "namespace": "equipment_mainType",
+    "type_name": "모든 용병의 연타 데미지",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "B/눈먼 개구리",
+        "type_name": "모든 용병의 연타 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/B/B_눈먼_개구리_3e23f5d2e4.png",
+        "sha256": "eadfcb299beb8564eb2c1d85f4f6f16279421b0a3bd51acd3faddf0c468a405b"
+      },
+      {
+        "key": "A/레드 북",
+        "type_name": "모든 용병의 연타 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_레드_북_e36a2ceed8.png",
+        "sha256": "f59f3c0b109a977f95418c63926057ae4ad3ab020613bf7697b48b0430a59e21"
+      },
+      {
+        "key": "S/연속된 욕심",
+        "type_name": "모든 용병의 연타 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_연속된_욕심_7bd4e2f80a.png",
+        "sha256": "fe1907ecf042f5492c5909efe98e333710ab9a438ac6325ca1465df8887fd08d"
+      },
+      {
+        "key": "G/해바라기 반지",
+        "type_name": "모든 용병의 연타 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_해바라기_반지_567e4679e4.png",
+        "sha256": "eebc4a698dba19a1aeb59937f233f73ebede597cf3e96d7783271cd049cee238"
+      },
+      {
+        "key": "X/쉐도우 나이프",
+        "type_name": "모든 용병의 연타 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_쉐도우_나이프_b5526f9be5.png",
+        "sha256": "965460f4974c4b2ce5e13c127824774f25b6265f16660117d34c7cf2f0388bf3"
+      },
+      {
+        "key": "H/아프로시디악",
+        "type_name": "모든 용병의 연타 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/H/H_아프로시디악_5f50dab82b.png",
+        "sha256": "fc2c17cffe37b7cec59aa8c755c401377f4bb8c285ec5d30171a5b9e91d6c81c"
+      }
+    ]
+  },
+  "76": {
+    "namespace": "equipment_mainType",
+    "type_name": "아티팩트 획득 확률",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "B/럭키 스톤",
+        "type_name": "아티팩트 획득 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/B/B_럭키_스톤_21043d56b2.png",
+        "sha256": "08beca7fcccae9659852c4b043fd7d45858aeb3e91b15c43ac1f9487d71c972f"
+      },
+      {
+        "key": "A/블랙 미러",
+        "type_name": "아티팩트 획득 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_블랙_미러_580011f295.png",
+        "sha256": "3a0073515e12fc05ac670a268af57100169d506f8504c38474316558b140ce97"
+      },
+      {
+        "key": "A/출시 8주년 기념!",
+        "type_name": "아티팩트 획득 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_출시_8주년_기념__43af255586.png",
+        "sha256": "5e86b4929c4979ace67ef61a90e9a08a28e3c7aaf4791d39e5e00648e367ad57"
+      },
+      {
+        "key": "S/아티팩트 글러브",
+        "type_name": "아티팩트 획득 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_아티팩트_글러브_962f4e2e2a.png",
+        "sha256": "ebeec81ddbcd9ee0fac310171eafa38a37ae39f119fa81108bcf20c563aaa18c"
+      },
+      {
+        "key": "G/크리스탈 스컬",
+        "type_name": "아티팩트 획득 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_크리스탈_스컬_a296ca6f03.png",
+        "sha256": "44f9f883a72126aa218eeda39cf473984dc8bedcbca25c989d050251e1e4f7d3"
+      },
+      {
+        "key": "X/안티키테라 메커니즘",
+        "type_name": "아티팩트 획득 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_안티키테라_메커니즘_027c872b0f.png",
+        "sha256": "84fed02712aabe1a0ace6e8e60c318ed5db7238a8862e67fa240b3b173e11266"
+      },
+      {
+        "key": "H/행운의 고양이 발",
+        "type_name": "아티팩트 획득 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/H/H_행운의_고양이_발_fe1894bcaa.png",
+        "sha256": "3c23931c953ca4f9552698120f28b399d7d3c4d8e1536a63956f513364c52d1b"
+      }
+    ]
+  },
+  "375": {
+    "namespace": "equipment_mainType",
+    "type_name": "자동 클릭 데미지",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "B/매크로의 발",
+        "type_name": "자동 클릭 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/B/B_매크로의_발_8e5c4eb85a.png",
+        "sha256": "3ab0894d0cc3e1d88377d14124d718058beae1ab683cba02b21e8d9cb2c8ba3e"
+      },
+      {
+        "key": "A/매크로의 하체",
+        "type_name": "자동 클릭 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_매크로의_하체_ad0ffd99ae.png",
+        "sha256": "f821bca9e5aa3f6752cdfcc8e6a6d6bfad545b5cc89cf51f61bc1665be711ffa"
+      },
+      {
+        "key": "S/매크로의 몸통",
+        "type_name": "자동 클릭 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_매크로의_몸통_2b8a732459.png",
+        "sha256": "3dca4d335c8bc1c30da364665089704ef92a55f8a6f8fb6eb9be868b582bfaaa"
+      },
+      {
+        "key": "G/매크로의 손",
+        "type_name": "자동 클릭 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_매크로의_손_7a2a58871c.png",
+        "sha256": "4c64d2109bdd7686baaf1e4fb488de24f358628e6d1cf1296bf105982165d4b2"
+      },
+      {
+        "key": "X/매크로의머리",
+        "type_name": "자동 클릭 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_매크로의머리_2d849e728a.png",
+        "sha256": "7148c3a16a2d1d6a8beb6c2c78290b56475804f9ba0a5099549b095a3c47ed00"
+      },
+      {
+        "key": "H/매크로의 향상된 손",
+        "type_name": "자동 클릭 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/H/H_매크로의_향상된_손_cfad99664e.png",
+        "sha256": "8cb7b22867c043811155267631f006e5c4878ed742899f305aaedf2649482984"
+      }
+    ]
+  },
+  "22": {
+    "namespace": "equipment_mainType",
+    "type_name": "자동 클릭 확률",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "B/순례자의 신발",
+        "type_name": "자동 클릭 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/B/B_순례자의_신발_5836a994bf.png",
+        "sha256": "84b8cc0ec85b12a297a0d2fce785fcb657d77265edcd55ea470ab21986b8346f"
+      },
+      {
+        "key": "A/핑크 부츠 [이게]",
+        "type_name": "자동 클릭 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_핑크_부츠__이게__3443fdb1d2.png",
+        "sha256": "37f4463f3eac63f33b710df5904a9014b0e7553b3aa9da183a6ea5e801de14ad"
+      },
+      {
+        "key": "S/고행의 신발",
+        "type_name": "자동 클릭 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_고행의_신발_1f37a3253e.png",
+        "sha256": "69be766277b22b3a4af07a8eb280a899e42fef3d54c327f78423a3c090a96658"
+      },
+      {
+        "key": "H/운명의 보석 조각",
+        "type_name": "자동 클릭 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/H/H_운명의_보석_조각_a84bef76e7.png",
+        "sha256": "5fc96a5554558dd06bf7a08117b11a236c7e0def1c58958e755aadd6bab3c23a"
+      }
+    ]
+  },
+  "12": {
+    "namespace": "equipment_mainType",
+    "type_name": "적들의 클릭 저항력 감소",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "B/인내의 장화",
+        "type_name": "적들의 클릭 저항력 감소",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/B/B_인내의_장화_0d9ac2da18.png",
+        "sha256": "84becbde89c4e371dbee15f535827f78f1b6f96e5975c78599755a152583bb42"
+      },
+      {
+        "key": "A/수호 경갑",
+        "type_name": "적들의 클릭 저항력 감소",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_수호_경갑_5b2dc04e91.png",
+        "sha256": "c6f5397ba0ce2e231e40a9ae68351dc11c9b8d07b2576e4d1a8ff930c7f1ec4b"
+      },
+      {
+        "key": "S/집행 장갑",
+        "type_name": "적들의 클릭 저항력 감소",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_집행_장갑_15e8179569.png",
+        "sha256": "d39d968db91008c200dcd8dd1e4264e3de23a4976c0239239b1aba3853b8856d"
+      },
+      {
+        "key": "G/광신자의 허리띠",
+        "type_name": "적들의 클릭 저항력 감소",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_광신자의_허리띠_65c0d93119.png",
+        "sha256": "94c9b3e50ad38759a5238d735404d26731c09dfb6e09fa1262babee4ad25bac8"
+      },
+      {
+        "key": "X/피빛 망또 [콰소스의 복수]",
+        "type_name": "적들의 클릭 저항력 감소",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_피빛_망또__콰소스의_복수__a9cf8f421a.png",
+        "sha256": "92d07c2ee21b104240ebec4980526d74fccc60035b5ff22381e7ca0187e5ceb8"
+      }
+    ]
+  },
+  "11": {
+    "namespace": "equipment_mainType",
+    "type_name": "적들의 최대 체력 감소",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "B/짓타의 왕관",
+        "type_name": "적들의 최대 체력 감소",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/B/B_짓타의_왕관_e33f976768.png",
+        "sha256": "d82b4add3984d17277546fa0b4d7f6e275355f3cc9ac3bff3b888d908d527292"
+      },
+      {
+        "key": "A/위압의 왕관",
+        "type_name": "적들의 최대 체력 감소",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_위압의_왕관_e434888887.png",
+        "sha256": "ce9a61400d69b83a5c2243e87ff31f736dbba0f558d7a2dd2776c55408aa9731"
+      },
+      {
+        "key": "S/저주받은 왕관 [그리프]",
+        "type_name": "적들의 최대 체력 감소",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_저주받은_왕관__그리프__fedfba1678.png",
+        "sha256": "9615cf111201526105505986009f5cf4890959b0e1214789a30f568851e00848"
+      },
+      {
+        "key": "G/티어도르의 완드",
+        "type_name": "적들의 최대 체력 감소",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_티어도르의_완드_01182c8e69.png",
+        "sha256": "b7778caa55b23323a74245ef12c5c092176632665ae5c8430aa68adfd1155bef"
+      },
+      {
+        "key": "X/크사르팍스의 심판",
+        "type_name": "적들의 최대 체력 감소",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_크사르팍스의_심판_70179dc557.png",
+        "sha256": "47e0f8f150a234c2faa63f9e095eaf71bbcb154b3a05944d9052c3407f2f9302"
+      }
+    ]
+  },
+  "368": {
+    "namespace": "equipment_mainType",
+    "type_name": "모든 용병의 추가 클릭 데미지",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "B/카우걸 밀크",
+        "type_name": "모든 용병의 추가 클릭 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/B/B_카우걸_밀크_17f57ab82c.png",
+        "sha256": "3613f9bf6f43a8c8750cc46cf43f04e94809387088c6e8d5bc5879574cba4fab"
+      },
+      {
+        "key": "A/란도셀",
+        "type_name": "모든 용병의 추가 클릭 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_란도셀_e5d8641e23.png",
+        "sha256": "a056f98a484dde1f699f93d5e66015558d36609dfb52af83ee1e9cf6e46442d9"
+      },
+      {
+        "key": "S/다크 란도셀",
+        "type_name": "모든 용병의 추가 클릭 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_다크_란도셀_91ac2e4b58.png",
+        "sha256": "50756278e15ce15d5e23db0ecad8640462e0a606c060f2b5479c3f6568f8ad68"
+      },
+      {
+        "key": "G/베어 부츠",
+        "type_name": "모든 용병의 추가 클릭 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_베어_부츠_a1d91bdd2d.png",
+        "sha256": "9d4b24aba88ec8ed94990d1bbf2e3f14bde4357ca26afef3dc5ef424545d37e8"
+      },
+      {
+        "key": "X/플랫 어스 스톤",
+        "type_name": "모든 용병의 추가 클릭 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_플랫_어스_스톤_f18895840e.png",
+        "sha256": "fc7d8d6f85711e1c50a97586bf02c45859f99cf219c0c9712b2515d5e20445b3"
+      },
+      {
+        "key": "H/윈터 스태프",
+        "type_name": "모든 용병의 추가 클릭 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/H/H_윈터_스태프_107afc4430.png",
+        "sha256": "602c17e783dbb6186955f9b4120335b759480a03ef2f2442ad5ac700515321c7"
+      }
+    ]
+  },
+  "15": {
+    "namespace": "equipment_mainType",
+    "type_name": "아이템 획득 확률",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "B/행운의 팔찌",
+        "type_name": "아이템 획득 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/B/B_행운의_팔찌_72f25d27d3.png",
+        "sha256": "c748a7aa17cb99fbc5861c8acbe5df22f56d15e2e1cf31492ea5c51d51276901"
+      },
+      {
+        "key": "A/도둑의 장갑 [더 스내쳐]",
+        "type_name": "아이템 획득 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_도둑의_장갑__더_스내쳐__c4e6f6c057.png",
+        "sha256": "5c9c218eedea1329841919607bd09cf31d5425e19f1e0fa30e275a157b0244d1"
+      },
+      {
+        "key": "A/출시 3주년 기념!",
+        "type_name": "아이템 획득 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_출시_3주년_기념__6f6d960c81.png",
+        "sha256": "ee9b83657434016ab7d31dd9c1f16efc54c44b169a0a81b706a1fee7266214f3"
+      },
+      {
+        "key": "S/아틸라의 투구",
+        "type_name": "아이템 획득 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_아틸라의_투구_c012647f8b.png",
+        "sha256": "763fd4f1d680ec4bd314bc051b3cf565dfca711f4907131a17e13ed46c203b64"
+      },
+      {
+        "key": "G/푸른 진주 [그리드이즈굳]",
+        "type_name": "아이템 획득 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_푸른_진주__그리드이즈굳__d8dc97a9a5.png",
+        "sha256": "0dd17d7e9c42b0c5c66d8cac2eb8b7e357fc10706e676068aa4a48588b6cde8f"
+      },
+      {
+        "key": "X/궁극의 탐지 구슬",
+        "type_name": "아이템 획득 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_궁극의_탐지_구슬_5f2b6e0af1.png",
+        "sha256": "be0256948239d9e9fffcf0584a0b398354ae2ea1fe4d84b2a6a5e722ce26abd8"
+      }
+    ]
+  },
+  "21": {
+    "namespace": "equipment_mainType",
+    "type_name": "모든 용병의 강타 배수",
+    "format": "raw",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "A/낙인 반지",
+        "type_name": "모든 용병의 강타 배수",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_낙인_반지_2a5c54351b.png",
+        "sha256": "e46164c8c4140aa177063481108f49d644895e6065d5e95f4f7e7ef54f5c583c"
+      },
+      {
+        "key": "S/이모텝의 목걸이",
+        "type_name": "모든 용병의 강타 배수",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_이모텝의_목걸이_ba32877286.png",
+        "sha256": "d3a4c7e2e748a7cf6273ce56d86a203b85e7dc91cb4473bb06c5e447f7c00089"
+      },
+      {
+        "key": "G/뿔레의 반지",
+        "type_name": "모든 용병의 강타 배수",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_뿔레의_반지_ac73569022.png",
+        "sha256": "7f4eb590851f3f048cda3cb721a4940cd92932469a467621806ea17997a42acf"
+      },
+      {
+        "key": "X/뿔레의 청혼 반지",
+        "type_name": "모든 용병의 강타 배수",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_뿔레의_청혼_반지_793a823af6.png",
+        "sha256": "0347794c9c1b34ce45c0b3f7346062336467917f0884c06c8d9382fe2b780940"
+      },
+      {
+        "key": "H/광기의 가면",
+        "type_name": "모든 용병의 강타 배수",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/H/H_광기의_가면_63d521f15d.png",
+        "sha256": "c133da3e938ea1a2c5c7ab846f2e37f4f369703540b5f915eca257f29e918848"
+      }
+    ]
+  },
+  "20": {
+    "namespace": "equipment_mainType",
+    "type_name": "모든 용병의 강타 확률",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "A/날개달린 신발 [마제스티]",
+        "type_name": "모든 용병의 강타 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_날개달린_신발__마제스티__daacc416fc.png",
+        "sha256": "3c7470d6e7e9d6bff0f7b8ee237c7441e46a8c4fb48e525310a5cfe176d33379"
+      },
+      {
+        "key": "S/바라봄의 거울",
+        "type_name": "모든 용병의 강타 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_바라봄의_거울_c6adce712f.png",
+        "sha256": "074b51a72ba64426289792202d345dba018d9bc3d59f0b52612d832b0dcbebdc"
+      },
+      {
+        "key": "G/브랜누스의 흉갑",
+        "type_name": "모든 용병의 강타 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_브랜누스의_흉갑_02d1e900f0.png",
+        "sha256": "392f2316e30a784b0c0e857c68ad3d0292608404f9fa4711c47eea42b9955456"
+      },
+      {
+        "key": "X/아리만의 숨결",
+        "type_name": "모든 용병의 강타 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_아리만의_숨결_ae6013adbb.png",
+        "sha256": "17f7884b6bd6feb8399cb9e7112bf478b1a7ed112f229866cf6102ea08a8bd30"
+      }
+    ]
+  },
+  "53": {
+    "namespace": "equipment_mainType",
+    "type_name": "모든 용병의 행운 배수",
+    "format": "raw",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "A/드림캐쳐",
+        "type_name": "모든 용병의 행운 배수",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_드림캐쳐_7fcf9a73fc.png",
+        "sha256": "12ca2a61d3d0607314a04c3f47e4a170b44e1c4642df75e7a173a3c679482944"
+      },
+      {
+        "key": "S/행운의 네잎클로버",
+        "type_name": "모든 용병의 행운 배수",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_행운의_네잎클로버_9a177e0448.png",
+        "sha256": "6aad37016a9c619f920a272b7dd80d076f4b33293b3093cc7a54763786824946"
+      },
+      {
+        "key": "G/행운의 바람개비",
+        "type_name": "모든 용병의 행운 배수",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_행운의_바람개비_0bcc1d9985.png",
+        "sha256": "efc09768447c4634f1c3bee4b3e27b041dfe26cde05e4e015a03f99b4416c0ac"
+      },
+      {
+        "key": "X/로카히의 반지",
+        "type_name": "모든 용병의 행운 배수",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_로카히의_반지_3640057fe2.png",
+        "sha256": "cbf516e3aa9dca6e185b03006b42543beb7eb67b6a37fe0d55c624153c5e19b1"
+      }
+    ]
+  },
+  "55": {
+    "namespace": "equipment_mainType",
+    "type_name": "모든 용병의 성장 데미지",
+    "format": "raw",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "A/또치의 간식",
+        "type_name": "모든 용병의 성장 데미지",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_또치의_간식_cd7f736faa.png",
+        "sha256": "6ec1cb596281acce6a803c57e209b3a9c341d22f95e73976878faac4416969d1"
+      },
+      {
+        "key": "S/파괴의 방패",
+        "type_name": "모든 용병의 성장 데미지",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_파괴의_방패_6cc732ac25.png",
+        "sha256": "ff946463e8f3bf9c79ef1937d7e3d6c63003a3648618a7932f425241a6e920c2"
+      },
+      {
+        "key": "G/파괴의 갑옷",
+        "type_name": "모든 용병의 성장 데미지",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_파괴의_갑옷_c4852cdb5f.png",
+        "sha256": "aaf6f225e68e25bfb2b3d5bd558bbdbbd9294134e8f0def4f6665d1a09d25463"
+      },
+      {
+        "key": "X/파괴의 투구",
+        "type_name": "모든 용병의 성장 데미지",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_파괴의_투구_b54691f9d1.png",
+        "sha256": "a58babe5f44f1c82ab533da6d441a833f328017b6f17d66bafafea38bf349754"
+      },
+      {
+        "key": "H/흑기사 사라스의 단검",
+        "type_name": "모든 용병의 성장 데미지",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/H/H_흑기사_사라스의_단검_aa0da0ff61.png",
+        "sha256": "38100e7b013ce583c081d6a91d764791548290e07207f453f3897906971a334c"
+      }
+    ]
+  },
+  "52": {
+    "namespace": "equipment_mainType",
+    "type_name": "모든 용병의 행운 확률",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "A/럭키 비틀",
+        "type_name": "모든 용병의 행운 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_럭키_비틀_113c8915ce.png",
+        "sha256": "ed447ab3617a0fb0185f99491e71286248ef5639b2d83868fad3367c19b2b27a"
+      },
+      {
+        "key": "S/행운의 나침반",
+        "type_name": "모든 용병의 행운 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_행운의_나침반_abe339bbb8.png",
+        "sha256": "711dc7beee324c777076ddb1774a48866591807083e7129589a70da64a8affed"
+      },
+      {
+        "key": "G/행운의 단도",
+        "type_name": "모든 용병의 행운 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_행운의_단도_4f572b464f.png",
+        "sha256": "145d2fd1cc257a7916568a5a43c249cc72d93cd68d64de89c1147ba1ae74fd17"
+      },
+      {
+        "key": "X/대우주의 망토",
+        "type_name": "모든 용병의 행운 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_대우주의_망토_7f20536ac9.png",
+        "sha256": "e448aa1824f69cf9e6a3ee926dfb9f7b63f292f78fcaf892539ec59feaf847e5"
+      }
+    ]
+  },
+  "19": {
+    "namespace": "equipment_mainType",
+    "type_name": "모든 용병의 연타 확률",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "A/명사수의 화살",
+        "type_name": "모든 용병의 연타 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_명사수의_화살_46770363ea.png",
+        "sha256": "9ae28a06db070ec58b171cfc9ce2b4506a60218dcc641870627082f5fe217931"
+      },
+      {
+        "key": "S/새라의 화살",
+        "type_name": "모든 용병의 연타 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_새라의_화살_b9780f7304.png",
+        "sha256": "30daf4720bfc2574c326cc17a30e3c6fcb39f5163e8ceedea4ecc071d47a8050"
+      },
+      {
+        "key": "G/브랜누스의 면갑",
+        "type_name": "모든 용병의 연타 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_브랜누스의_면갑_0f156a99fd.png",
+        "sha256": "c4931387fe17d1a0e6be0102ebc4a37b3a80cfc3502aa911c1234e0880abf136"
+      },
+      {
+        "key": "X/니헤르의 투구",
+        "type_name": "모든 용병의 연타 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_니헤르의_투구_f7a902310d.png",
+        "sha256": "3d10b4b725b76ed91483e119d206080ebeceb8722c4ded8e80dd285c3e44030d"
+      }
+    ]
+  },
+  "49": {
+    "namespace": "equipment_mainType",
+    "type_name": "침략자에게 추가 데미지",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "A/바이러스 디스크",
+        "type_name": "침략자에게 추가 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_바이러스_디스크_b410fcee17.png",
+        "sha256": "57272aa7324b4d0b5411da441d070ac2c32f37df105b016d0fcee211a3897242"
+      },
+      {
+        "key": "S/튜링 테스터",
+        "type_name": "침략자에게 추가 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_튜링_테스터_be0d68849b.png",
+        "sha256": "6f9eeb47584bc594107f4cf6f44f39e5a614c07c27316e9adb9e23208f8e3d12"
+      },
+      {
+        "key": "G/퀀텀 더스트",
+        "type_name": "침략자에게 추가 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_퀀텀_더스트_f8ad950f58.png",
+        "sha256": "ca240029bb2b25b522dd840d37c43c6874c277451fd6e3fbe195f8f924af5d5d"
+      },
+      {
+        "key": "X/갤럭시 패드",
+        "type_name": "침략자에게 추가 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_갤럭시_패드_2c6d5a5b0a.png",
+        "sha256": "38e22601e900669cbcc9e7b5461bda70dc50dee39c454310dcfb220d68688344"
+      }
+    ]
+  },
+  "1173": {
+    "namespace": "equipment_mainType",
+    "type_name": "즉시 공격 속도",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "A/붉은 레버",
+        "type_name": "즉시 공격 속도",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_붉은_레버_88b72eb859.png",
+        "sha256": "95bcce5766294c12ad4115c769bc4f1f0ac4ffd3ec5ff96ed34153f2f189d910"
+      },
+      {
+        "key": "S/링 오브 스피드",
+        "type_name": "즉시 공격 속도",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_링_오브_스피드_7b83b0570e.png",
+        "sha256": "6701fca4fec532c4cefe0b59e69568bc369bd25d8f4b94990475560684689371"
+      },
+      {
+        "key": "G/스피닝 블레이드",
+        "type_name": "즉시 공격 속도",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_스피닝_블레이드_aee66112b3.png",
+        "sha256": "82d0a81f376ecdb5b792b0214c95c53aae81c3645c9a670e5748ee2f0c141751"
+      },
+      {
+        "key": "X/맨즈 드림 워치",
+        "type_name": "즉시 공격 속도",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_맨즈_드림_워치_a5a52a757f.png",
+        "sha256": "5effbe5ea9187ee03852a84f644686efdbf7b7e878dbf58ee17f543668919b31"
+      },
+      {
+        "key": "H/룬 오브 포레스트",
+        "type_name": "즉시 공격 속도",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/H/H_룬_오브_포레스트_bbf6e389c6.png",
+        "sha256": "3cabf011b52d22f1880232135e7de0a902aa860d86abe62db44b091d737217e1"
+      }
+    ]
+  },
+  "47": {
+    "namespace": "equipment_mainType",
+    "type_name": "적들의 회피 확률 감소",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "A/빨간 눈가리개",
+        "type_name": "적들의 회피 확률 감소",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_빨간_눈가리개_f004a9c6b9.png",
+        "sha256": "183843379dfe72df43758babd97b97ca71af0e888e6c45e4517a1a1333fcd305"
+      },
+      {
+        "key": "S/마비산",
+        "type_name": "적들의 회피 확률 감소",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_마비산_cfa6e4bd95.png",
+        "sha256": "944d1998a04a1de681a6ab630f3c5f376084238be29dd161c28b34bfa9fcdcbc"
+      },
+      {
+        "key": "G/인탱글 스태프",
+        "type_name": "적들의 회피 확률 감소",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_인탱글_스태프_0451950762.png",
+        "sha256": "c5d2321de5fed99f736acb9b103ad3bad7d61187247315d51c0d1626c5478ad3"
+      },
+      {
+        "key": "X/섀도우 애로우",
+        "type_name": "적들의 회피 확률 감소",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_섀도우_애로우_a622c2b228.png",
+        "sha256": "77421d56e8a61b5b24de2fd53a094ae81c6d128b294420cffe0d02e4561fa857"
+      },
+      {
+        "key": "H/웨딩 로프",
+        "type_name": "적들의 회피 확률 감소",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/H/H_웨딩_로프_4042d74621.png",
+        "sha256": "a6f8298ccfd7ab9d7042dce3ac2c4d17ded76e2b4cb64ead052093d4e8df672d"
+      }
+    ]
+  },
+  "89": {
+    "namespace": "equipment_mainType",
+    "type_name": "모든 용병의 치명타 배수",
+    "format": "raw",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "A/스컬 키",
+        "type_name": "모든 용병의 치명타 배수",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_스컬_키_e99f8d35e1.png",
+        "sha256": "91cea8c83159fce13cfcc79bfe6a38e8c5117ef2ab91ed66dcbda3e94b0dab09"
+      },
+      {
+        "key": "S/일그러진 철 얼굴",
+        "type_name": "모든 용병의 치명타 배수",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_일그러진_철_얼굴_b4dc1c45a9.png",
+        "sha256": "f6b5803d7786289386c67b14fcf47eea5fd00eacc790da3c29cde7b6596046d1"
+      },
+      {
+        "key": "G/바라봄의 서",
+        "type_name": "모든 용병의 치명타 배수",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_바라봄의_서_279575c427.png",
+        "sha256": "412121e4de88534a76f9cbd4e648a58946463ba762976e38cc4a341747e02dcd"
+      },
+      {
+        "key": "X/파괴의 석판",
+        "type_name": "모든 용병의 치명타 배수",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_파괴의_석판_1c37e9086f.png",
+        "sha256": "9e3ebbd3c4c871b18022ad90e1b04342838855ac608679824273182ce266e498"
+      },
+      {
+        "key": "H/데들리 스피릿",
+        "type_name": "모든 용병의 치명타 배수",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/H/H_데들리_스피릿_5514541a05.png",
+        "sha256": "6f92073195ee1f18650269fa5cea0d4440dd0bfe37af6718f2edb56bf73a3ba1"
+      }
+    ]
+  },
+  "59": {
+    "namespace": "equipment_mainType",
+    "type_name": "모든 용병의 클릭 성장 데미지",
+    "format": "raw",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "A/여왕의 차",
+        "type_name": "모든 용병의 클릭 성장 데미지",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_여왕의_차_d48c0d5053.png",
+        "sha256": "7597beced6526241a20108230969b23170f2e215288445abe1f1370bbd42686a"
+      },
+      {
+        "key": "S/멋쟁이 카로난의 신발",
+        "type_name": "모든 용병의 클릭 성장 데미지",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_멋쟁이_카로난의_신발_5b5093156f.png",
+        "sha256": "b78cc28043452bb4fa0a7689444b13d93b1a6a32fbb479660124d1cbf620f175"
+      },
+      {
+        "key": "G/멋쟁이 카로난의 옷",
+        "type_name": "모든 용병의 클릭 성장 데미지",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_멋쟁이_카로난의_옷_54124c222c.png",
+        "sha256": "046cdaab596dfef67d77b622dc4aa50ad9df862406f98d2997b53654e00490d5"
+      },
+      {
+        "key": "X/멋쟁이 카로난의 모자",
+        "type_name": "모든 용병의 클릭 성장 데미지",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_멋쟁이_카로난의_모자_7eb8905c89.png",
+        "sha256": "2e72f4e6cee859c9ce9715b365034a6006ec69c7c6a2a2fa422dc1c7f2630c95"
+      },
+      {
+        "key": "H/멋쟁이 카로난의 지팡이",
+        "type_name": "모든 용병의 클릭 성장 데미지",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/H/H_멋쟁이_카로난의_지팡이_8f8699b358.png",
+        "sha256": "6a3ed8d9bee3981ad44cb584991c0d7680620a92d6783de9133c92693a6d042e"
+      }
+    ]
+  },
+  "24": {
+    "namespace": "equipment_mainType",
+    "type_name": "소울 클릭 확률",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "A/제사장의 단검 [세크리파이스]",
+        "type_name": "소울 클릭 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_제사장의_단검__세크리파이스__4f895a8c37.png",
+        "sha256": "89d7864512aa0a823666b4810b76198bbf2dd3ffe8c7ef63abfdb74d6000c61f"
+      },
+      {
+        "key": "S/영혼을 찢는 검 [라스가르]",
+        "type_name": "소울 클릭 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_영혼을_찢는_검__라스가르__75ce8ef1e4.png",
+        "sha256": "cdd000b495100c845aa29a8d33f58e8a8680a7bc0187fe77d3794ff1479fd574"
+      },
+      {
+        "key": "G/콰소스의 심판",
+        "type_name": "소울 클릭 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_콰소스의_심판_8fec3d58c3.png",
+        "sha256": "4f8d6327574e273b9362d65196a1451d10ac7cb89180c7e5ce5a63521f79ba89"
+      },
+      {
+        "key": "X/영혼의 망또",
+        "type_name": "소울 클릭 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_영혼의_망또_2e2624567e.png",
+        "sha256": "baae3be986c1a77bf0c39124ad0dad535e33bde092a8673aa311bbd7d7bcb161"
+      }
+    ]
+  },
+  "43": {
+    "namespace": "equipment_mainType",
+    "type_name": "소울 클릭 배수",
+    "format": "raw",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "A/제사장의 도끼",
+        "type_name": "소울 클릭 배수",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_제사장의_도끼_9fc89dff7d.png",
+        "sha256": "3c4fd5846f4edc7da15fe06fbdb83cd3faeab3046afa1fc6927251f38be34e51"
+      },
+      {
+        "key": "S/영혼의 등불",
+        "type_name": "소울 클릭 배수",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_영혼의_등불_b65e5e3238.png",
+        "sha256": "151e27ece287949e3786228e172510ca7cd66a10f539b82a93bc2c4e115c349c"
+      },
+      {
+        "key": "G/영혼의 약속",
+        "type_name": "소울 클릭 배수",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_영혼의_약속_7801bd4e24.png",
+        "sha256": "895067ffd9e9c6218e9dfd4dcc033a7baf1e1e43bda7019e363ee096a3a33c09"
+      },
+      {
+        "key": "X/피의 도끼 [소울 버쳐]",
+        "type_name": "소울 클릭 배수",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_피의_도끼__소울_버쳐__7ae8fb9204.png",
+        "sha256": "e729175483f8d7d7a25c79767e462eab7ca6e33e9d6334ee9b35db58c0358f29"
+      }
+    ]
+  },
+  "1171": {
+    "namespace": "equipment_mainType",
+    "type_name": "즉시 공격 확률",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "A/집게발",
+        "type_name": "즉시 공격 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_집게발_b68d65a772.png",
+        "sha256": "7f92f43396046b6680d14e47be09d96debf4f2b66f422a06f60044d6b5276297"
+      },
+      {
+        "key": "S/집 지키는 물고기",
+        "type_name": "즉시 공격 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_집_지키는_물고기_2df9f28cc3.png",
+        "sha256": "cb80225972337d6f3d5c2776f07537b565ada705856e933e2696142997cc9ccc"
+      },
+      {
+        "key": "G/포터블 가고일",
+        "type_name": "즉시 공격 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_포터블_가고일_a98a3e08c4.png",
+        "sha256": "1bea747d8b9403f216ba814fc878873994b0166b1b8b257d7139af08b3498854"
+      },
+      {
+        "key": "X/수다쟁이 지피티",
+        "type_name": "즉시 공격 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_수다쟁이_지피티_74a7a9cca1.png",
+        "sha256": "753c6a45dec9d4b5f2ba4d77d76d764121641e37e61a9c72e8591725b3077cef"
+      },
+      {
+        "key": "H/룬 오브 퀸",
+        "type_name": "즉시 공격 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/H/H_룬_오브_퀸_e5489d0e5a.png",
+        "sha256": "93742da1419854add9037866ebe91346c7677b23afdc98b4d291e8c0bb76e3ea"
+      }
+    ]
+  },
+  "1172": {
+    "namespace": "equipment_mainType",
+    "type_name": "즉시 공격 데미지",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "A/퀸 오브 스페이드",
+        "type_name": "즉시 공격 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_퀸_오브_스페이드_f1a34e238c.png",
+        "sha256": "e417a1699d0e397b18c6d0f785f6b82421e86f28088675ab7770831bd0f3b996"
+      },
+      {
+        "key": "S/거대 벼룩",
+        "type_name": "즉시 공격 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_거대_벼룩_d1ce961e20.png",
+        "sha256": "919845259b5e415a3ba8109c48d0873cb8b6dcd8960c029939c42bd254c414ea"
+      },
+      {
+        "key": "G/오토 캐논",
+        "type_name": "즉시 공격 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_오토_캐논_2c823e0b77.png",
+        "sha256": "2d716d68da226d059f50c1d82dcbdd07b3c3e35e14a87ff2a5b9a4c5103e4acf"
+      },
+      {
+        "key": "X/타임 트레블러 워치",
+        "type_name": "즉시 공격 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_타임_트레블러_워치_f3a78340c2.png",
+        "sha256": "e93b93eb515caea1f5e84078505500f2a1a0e082818e5f1f5453cfaa091b5b08"
+      },
+      {
+        "key": "H/룬 오브 선",
+        "type_name": "즉시 공격 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/H/H_룬_오브_선_a08f16a737.png",
+        "sha256": "25acd361936a4aa9e3e87aa48a000ab43e7f8b7900683a0b233ca809baac7169"
+      }
+    ]
+  },
+  "45": {
+    "namespace": "equipment_mainType",
+    "type_name": "모든 용병의 피격 지속시간 감소",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "A/토미에의 얼굴",
+        "type_name": "모든 용병의 피격 지속시간 감소",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_토미에의_얼굴_066c6bb691.png",
+        "sha256": "156a1ca2aed12839b93793b635e44e568818413955e4228f57d89b4108da4d54"
+      },
+      {
+        "key": "S/여전사의 흉갑",
+        "type_name": "모든 용병의 피격 지속시간 감소",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_여전사의_흉갑_55a3f9b557.png",
+        "sha256": "9fa16f6138ae4e441bcc935dc98d5eb60f5a9dfba8e92df29c5f0929fea08378"
+      },
+      {
+        "key": "G/수호자의 흉갑",
+        "type_name": "모든 용병의 피격 지속시간 감소",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_수호자의_흉갑_8fd8a31956.png",
+        "sha256": "d970352fc835eb69c593cbf15341f90ebd090e77059f161e302d52b47b9e0677"
+      },
+      {
+        "key": "X/태양의 방패",
+        "type_name": "모든 용병의 피격 지속시간 감소",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_태양의_방패_6416afddab.png",
+        "sha256": "cabbd9258be7907228c159f302e585c20b078d13d082602486ce17efdc3ef013"
+      }
+    ]
+  },
+  "23": {
+    "namespace": "equipment_mainType",
+    "type_name": "자동 클릭 속도",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "A/포레스트 에머랄드 링",
+        "type_name": "자동 클릭 속도",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_포레스트_에머랄드_링_e1ff51fe28.png",
+        "sha256": "1bd67bc13ec69056c5949bdc6addeb9b33c01c6b408b886a9e461931e011d591"
+      },
+      {
+        "key": "S/절대 반지",
+        "type_name": "자동 클릭 속도",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_절대_반지_1cfb397457.png",
+        "sha256": "c007d422a281fad4772e105461023f4e67b651b99588beb5fc4b05dc036993e4"
+      },
+      {
+        "key": "G/콰소스의 복수",
+        "type_name": "자동 클릭 속도",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_콰소스의_복수_46c5d8c9a4.png",
+        "sha256": "ec71f3ba619fff0477aaadb03748819930c4ec2fe5530223ed0ba3f3da542ad6"
+      },
+      {
+        "key": "X/델로어 스태프",
+        "type_name": "자동 클릭 속도",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_델로어_스태프_fcdf14c9b9.png",
+        "sha256": "4b8882edcef726af8fbad8a3c7266e22f3ab76b87622b7c6ea82d77acbee09e3"
+      },
+      {
+        "key": "H/크레이지 건틀렛",
+        "type_name": "자동 클릭 속도",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/H/H_크레이지_건틀렛_7fcb4da885.png",
+        "sha256": "36b5141f5811b104df6e8296e2f277f5194b4d66b28834a95a0cc7b7d9eba821"
+      }
+    ]
+  },
+  "30": {
+    "namespace": "equipment_mainType",
+    "type_name": "최대 레벨",
+    "format": "raw",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "A/혈석 목걸이",
+        "type_name": "최대 레벨",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/A/A_혈석_목걸이_c2bebeb5ac.png",
+        "sha256": "48bbba641f2412ac7e6f8805c98f9ea9776639b3220947dd4c42b3eb19f70244"
+      },
+      {
+        "key": "S/영원의 목걸이",
+        "type_name": "최대 레벨",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_영원의_목걸이_1c89d62344.png",
+        "sha256": "b67d6af0c33e96913a926c0bbcf43a9d86d9b8e2a9083bce98e49a188b6d98cf"
+      },
+      {
+        "key": "G/브랜누스의 목걸이",
+        "type_name": "최대 레벨",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_브랜누스의_목걸이_51cf901c2f.png",
+        "sha256": "7fc28a993afb9dd2db339d11eda348dffb1b73f0d4d7985b11a0968aa1c35761"
+      },
+      {
+        "key": "X/아리만의 목걸이",
+        "type_name": "최대 레벨",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_아리만의_목걸이_a24d7f0b91.png",
+        "sha256": "3dabb1088108d9bef8d9e675213a8fe1af6b3202e47ad979e0405d9f9e3f2e66"
+      }
+    ]
+  },
+  "69": {
+    "namespace": "equipment_mainType",
+    "type_name": "뿔레 토큰 획득 확률",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "S/보이드 블랙",
+        "type_name": "뿔레 토큰 획득 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_보이드_블랙_a5cf09cf92.png",
+        "sha256": "b6a806f398949e6ff9ace657263053944f752d49647f0e0bc6769189ef681c95"
+      },
+      {
+        "key": "G/테서렉트",
+        "type_name": "뿔레 토큰 획득 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_테서렉트_137c74bcd0.png",
+        "sha256": "c411bd19d46b4663508c2f5db87d499ce55fd6bb475dee68850287fc8953254b"
+      },
+      {
+        "key": "X/공허의 감시자",
+        "type_name": "뿔레 토큰 획득 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_공허의_감시자_8d3f69e22e.png",
+        "sha256": "4784417649075c5f98d6890af234ea6c18d321d1b5a8878c643e415475a82e5f"
+      },
+      {
+        "key": "H/진정한 뿔레토큰",
+        "type_name": "뿔레 토큰 획득 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/H/H_진정한_뿔레토큰_98542557d1.png",
+        "sha256": "b856af97fce86fb34629284385fcc888feec889b5a60210a584df17a3680d7a0"
+      }
+    ]
+  },
+  "71": {
+    "namespace": "equipment_mainType",
+    "type_name": "루비 획득 확률",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "S/블러드 루비",
+        "type_name": "루비 획득 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_블러드_루비_bf653a985d.png",
+        "sha256": "aa178037e112a12f1be0c349cb76db55c5dea3f8bcb06127b223ea16433ad696"
+      }
+    ]
+  },
+  "75": {
+    "namespace": "equipment_mainType",
+    "type_name": "자수정 획득 확률",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "S/새벽녘 자수정",
+        "type_name": "자수정 획득 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_새벽녘_자수정_48163911d1.png",
+        "sha256": "987405d5e281b49f4d2f3e27d6b7a42de6e5fd0e0f30246861bf0752fda413a9"
+      }
+    ]
+  },
+  "72": {
+    "namespace": "equipment_mainType",
+    "type_name": "토파즈 획득 확률",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "S/썬 토파즈",
+        "type_name": "토파즈 획득 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_썬_토파즈_e4f651c93d.png",
+        "sha256": "2001965b78b2d5afd284873677ec2df85945f82ce88bfce4ef93da89b82f25cf"
+      }
+    ]
+  },
+  "74": {
+    "namespace": "equipment_mainType",
+    "type_name": "에머랄드 획득 확률",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "S/에버그린 에머랄드",
+        "type_name": "에머랄드 획득 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_에버그린_에머랄드_948240e37c.png",
+        "sha256": "102aab0d7595602c26841b12ae670c5e8f686ae56615ed94e6d351789fba926a"
+      }
+    ]
+  },
+  "29": {
+    "namespace": "equipment_mainType",
+    "type_name": "모든 용병의 최대 레벨",
+    "format": "raw",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "S/영원의 방패",
+        "type_name": "모든 용병의 최대 레벨",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_영원의_방패_90e6386fff.png",
+        "sha256": "03097dd75b1bdf3bfc8985c1693127217324956b4a18893e8fa61882c4a464eb"
+      },
+      {
+        "key": "G/브랜누스의 수호방패",
+        "type_name": "모든 용병의 최대 레벨",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_브랜누스의_수호방패_1f494a3e8b.png",
+        "sha256": "8e90b474fdeaec51827ea9b5ae3510d78c653887d923fffc0e68628ae6638912"
+      },
+      {
+        "key": "X/아리만의 방패",
+        "type_name": "모든 용병의 최대 레벨",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_아리만의_방패_2a99016574.png",
+        "sha256": "eddb5d4646b615c42070976b8f07435cb1252d386f613aa69894396f4532abd7"
+      },
+      {
+        "key": "H/뿔레별",
+        "type_name": "모든 용병의 최대 레벨",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/H/H_뿔레별_93075d6df4.png",
+        "sha256": "05462e83c4ea9be87fecdd43dd162f9bd89af477d729c8120656535f0b88c95e"
+      }
+    ]
+  },
+  "73": {
+    "namespace": "equipment_mainType",
+    "type_name": "사파이어 획득 확률",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "S/오션 사파이어",
+        "type_name": "사파이어 획득 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_오션_사파이어_e73c76f877.png",
+        "sha256": "63350b00eece3c96d3763ddf3ee2e96e76d4e53feed9746be55ed291bd90a210"
+      }
+    ]
+  },
+  "431": {
+    "namespace": "equipment_mainType",
+    "type_name": "모든 용병의 추가 클릭 확률",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "S/촉수 지팡이",
+        "type_name": "모든 용병의 추가 클릭 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_촉수_지팡이_d0bd16f60d.png",
+        "sha256": "9e0a1a7b3746eb412de3a412b8e0afda7b264e7ff938231a718dfde420e15b36"
+      },
+      {
+        "key": "G/클릭 스타 쥬얼",
+        "type_name": "모든 용병의 추가 클릭 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_클릭_스타_쥬얼_fe6ac47e38.png",
+        "sha256": "66a577a83a3154bb3008c24f2a61ed30dc3b68e74b076ccecf95f575b6f4a6de"
+      },
+      {
+        "key": "X/오리즈루",
+        "type_name": "모든 용병의 추가 클릭 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_오리즈루_e120ed3243.png",
+        "sha256": "6001d908990bacabd9fd3a87de7e32a7598f2d340daf5510edbdad4b47fe207b"
+      },
+      {
+        "key": "H/보우 오브 사쿠라",
+        "type_name": "모든 용병의 추가 클릭 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/H/H_보우_오브_사쿠라_ea0e503b86.png",
+        "sha256": "ad301b2aaf74d88177bd9093384692c272853a6d1560c45a2145236c0919f8f6"
+      }
+    ]
+  },
+  "60": {
+    "namespace": "equipment_mainType",
+    "type_name": "모든 용병의 시작 레벨",
+    "format": "raw",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "S/최소한의 속옷",
+        "type_name": "모든 용병의 시작 레벨",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_최소한의_속옷_e3a4385f11.png",
+        "sha256": "f1d4d78f03ff87cf46672dbcf51aa7aee275c594db2b2e77b170f574c78f0029"
+      },
+      {
+        "key": "G/기억의 조각",
+        "type_name": "모든 용병의 시작 레벨",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_기억의_조각_5c32d0e4c1.png",
+        "sha256": "ec524ac61304a3522f319c783580df6e65499300eb1828506f94853ae1540b8f"
+      },
+      {
+        "key": "X/환생의 큐브",
+        "type_name": "모든 용병의 시작 레벨",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_환생의_큐브_f1984155c5.png",
+        "sha256": "0315139543252e59c0fe8c94bed32e919f169c25cf184596544e964e7f570803"
+      }
+    ]
+  },
+  "66": {
+    "namespace": "equipment_mainType",
+    "type_name": "아군 피격 보호 확률",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "S/크라켄 쉴드",
+        "type_name": "아군 피격 보호 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_크라켄_쉴드_dbd9cf0205.png",
+        "sha256": "fd07d12bbd1a7661b34ed9f5c9eaeb823a2e4ad9a35c4340907798d7d0799a8e"
+      },
+      {
+        "key": "G/희생의 방패",
+        "type_name": "아군 피격 보호 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_희생의_방패_713cedc600.png",
+        "sha256": "ed0bf6701cb276fecf8844732a2846d6a8a44e9b4339b8fec5c0678c0ca24a59"
+      },
+      {
+        "key": "X/음양의 방패",
+        "type_name": "아군 피격 보호 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_음양의_방패_8825935e72.png",
+        "sha256": "54767d12649f0ff112f63090a0fcdfbf4c61489e74009176ec271871a7261566"
+      },
+      {
+        "key": "H/음양의 부적",
+        "type_name": "아군 피격 보호 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/H/H_음양의_부적_24fbc3736e.png",
+        "sha256": "a124157e7b85d66666c06a189099ddd0163d3aa913acbedca89f6c591121a525"
+      }
+    ]
+  },
+  "65": {
+    "namespace": "equipment_mainType",
+    "type_name": "뿔레 오브 획득 확률",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "S/타인의 욕망",
+        "type_name": "뿔레 오브 획득 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_타인의_욕망_c0ec36b013.png",
+        "sha256": "682f17de5d633900d9826224b4ad83c1f1d2ae01a0bac3428d27138226010917"
+      },
+      {
+        "key": "G/뿔레뿔레뿔레 레이더",
+        "type_name": "뿔레 오브 획득 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_뿔레뿔레뿔레_레이더_2d6a5e8d60.png",
+        "sha256": "e9f445848d7e8e9d8f12334a4e34c51eb46378180b962e487d64c1c102d82931"
+      },
+      {
+        "key": "X/뿔레의 바지",
+        "type_name": "뿔레 오브 획득 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_뿔레의_바지_911a1032fb.png",
+        "sha256": "59bfc7fd647ffb9f437f590a56a59614188f0676e409a2cf83ff5389678edd6d"
+      },
+      {
+        "key": "H/진정한 뿔레 오브",
+        "type_name": "뿔레 오브 획득 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/H/H_진정한_뿔레_오브_3be18d9df0.png",
+        "sha256": "ad6e8b88a4b7cb771e41a6aaf66934bf84842010d0828a5529fcb9f81cd73056"
+      },
+      {
+        "key": "H/출시 9주년 기념!",
+        "type_name": "뿔레 오브 획득 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/H/H_출시_9주년_기념__3032794e28.png",
+        "sha256": "34b8ce209c06bde80ab76de73518fc248c249dbb8658efc64cbb564cfd980ca9"
+      }
+    ]
+  },
+  "1168": {
+    "namespace": "equipment_mainType",
+    "type_name": "모든 용병의 연타 간격 감소",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "S/하늘 나무의 뿌리",
+        "type_name": "모든 용병의 연타 간격 감소",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/S/S_하늘_나무의_뿌리_a621173b10.png",
+        "sha256": "ba8e1119c16ce739681dd9f17031cab6277a927f7c2ccc171e37b51b2399aaad"
+      },
+      {
+        "key": "G/타이탄의 피 결정",
+        "type_name": "모든 용병의 연타 간격 감소",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_타이탄의_피_결정_e94e7da5c5.png",
+        "sha256": "41d0522ac0fa64781f763f210b77bcad5bd2e44705cc33ad7806e4f7b0cafd26"
+      },
+      {
+        "key": "X/미래의 깃털",
+        "type_name": "모든 용병의 연타 간격 감소",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_미래의_깃털_871189e69e.png",
+        "sha256": "900d1bfa98489d776052b75379a05cdf4cb3619013907004222a456dc9c2324e"
+      },
+      {
+        "key": "H/궁창의 구슬",
+        "type_name": "모든 용병의 연타 간격 감소",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/H/H_궁창의_구슬_dc7d34e2db.png",
+        "sha256": "d5828e1cffb9a2c4df57430338ca695c555f81d16ed72b131f71819830371867"
+      }
+    ]
+  },
+  "62": {
+    "namespace": "equipment_mainType",
+    "type_name": "적들의 흡수 확률 감소",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "G/가시 박힌 마음",
+        "type_name": "적들의 흡수 확률 감소",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_가시_박힌_마음_7670a204ba.png",
+        "sha256": "09a25c0fc6357aec32a4e623cf2bb3aa14e3bdd8e14e1da65f8d1170fa0aa7fc"
+      },
+      {
+        "key": "X/레이피어 [마담 레이지]",
+        "type_name": "적들의 흡수 확률 감소",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_레이피어__마담_레이지__5a9d35ffb8.png",
+        "sha256": "565a9d541ed3e6e620e042f26568eef0ecfc7c63f15ce5e763ca301deec11111"
+      },
+      {
+        "key": "H/동정 증명서",
+        "type_name": "적들의 흡수 확률 감소",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/H/H_동정_증명서_e53493c7c6.png",
+        "sha256": "259854ba1a2e0c03de16c6b85a5dadfe3b9c886bc5a96f1aedb47333440201ab"
+      }
+    ]
+  },
+  "40": {
+    "namespace": "equipment_mainType",
+    "type_name": "모든 물리 용병의 최종 데미지",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "G/강철의 정복자 갑옷",
+        "type_name": "모든 물리 용병의 최종 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_강철의_정복자_갑옷_212bdd8087.png",
+        "sha256": "f89520ce9c0aa0f6b83db3b567b71887f2e0053b5cda117243ae9f5c78362f17"
+      },
+      {
+        "key": "X/강철의 정복자 투구",
+        "type_name": "모든 물리 용병의 최종 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_강철의_정복자_투구_e16fb07838.png",
+        "sha256": "6e525c25a6c218d880d44459484eb83392c139a98734e178b325f9530895431c"
+      },
+      {
+        "key": "H/강철의 정복자 건틀렛",
+        "type_name": "모든 물리 용병의 최종 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/H/H_강철의_정복자_건틀렛_b8d5ce0e8c.png",
+        "sha256": "233e6a3756524deacc6b1c1b0ec2176600877da0b227c753ac94ef29d03dd70c"
+      }
+    ]
+  },
+  "538": {
+    "namespace": "equipment_mainType",
+    "type_name": "적들의 피해 면제 효과 감소",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "G/그녀의 이벤트 복장",
+        "type_name": "적들의 피해 면제 효과 감소",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_그녀의_이벤트_복장_ab9d39cf79.png",
+        "sha256": "017981e103711e0485320d6b646469140aa7499e9007b511d39c67c6aa977d54"
+      },
+      {
+        "key": "X/프린세스 브로치",
+        "type_name": "적들의 피해 면제 효과 감소",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_프린세스_브로치_97e5020010.png",
+        "sha256": "8d80b50e8867af901ead1c920424d53a8f2f1dad64c0226f8bb660d3bc320493"
+      },
+      {
+        "key": "H/아드레노크롬",
+        "type_name": "적들의 피해 면제 효과 감소",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/H/H_아드레노크롬_95268bf207.png",
+        "sha256": "35588abddfdbe7629eb3210681e6355358f8748081e9f08b290460194bf33f07"
+      }
+    ]
+  },
+  "314": {
+    "namespace": "equipment_mainType",
+    "type_name": "적들의 방어막 효과 감소",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "G/금태양의 안대",
+        "type_name": "적들의 방어막 효과 감소",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_금태양의_안대_b898dfb586.png",
+        "sha256": "b8b43fee14adc3031c6fa11c3e7a92115e58047127bb66e4a7bff07bdd87b1eb"
+      },
+      {
+        "key": "X/배리어 브레이커",
+        "type_name": "적들의 방어막 효과 감소",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_배리어_브레이커_37b97bc91d.png",
+        "sha256": "3c2230e4deb5aebaaf31870105be0bdc267a66e78ea6a6121b38bd4bd637844d"
+      },
+      {
+        "key": "H/인터스텔라 스워드",
+        "type_name": "적들의 방어막 효과 감소",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/H/H_인터스텔라_스워드_0721f70a9d.png",
+        "sha256": "8d8baa48ec6ce2cdf28c5ae6c4c830869add547097bd11b08febd6fd3147514e"
+      }
+    ]
+  },
+  "32": {
+    "namespace": "equipment_mainType",
+    "type_name": "모든 용병의 레벨업 및 스킬 학습 비용 감소",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "G/깨달음의 책",
+        "type_name": "모든 용병의 레벨업 및 스킬 학습 비용 감소",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_깨달음의_책_b0b8b34a89.png",
+        "sha256": "dcddb9f545cc26d6bc38683c71b2a33d2aabde9dbe430b0b7fefb4db27ace9db"
+      },
+      {
+        "key": "X/망각의 책",
+        "type_name": "모든 용병의 레벨업 및 스킬 학습 비용 감소",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_망각의_책_8f0bb52c41.png",
+        "sha256": "59b3522bb68734656004e7182fcf40c385531ae6b2ae722bbe4bcc3b872f1da7"
+      }
+    ]
+  },
+  "315": {
+    "namespace": "equipment_mainType",
+    "type_name": "적들의 부활 확률 감소",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "G/네이쳐 프로텍터",
+        "type_name": "적들의 부활 확률 감소",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_네이쳐_프로텍터_0aed41d031.png",
+        "sha256": "f0e6c4b87ff400d3fbcd8cf15d16f3d7041a4ca308d57e50ef7cc9d0c062ff36"
+      },
+      {
+        "key": "X/로카히의 눈",
+        "type_name": "적들의 부활 확률 감소",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_로카히의_눈_45ae3cc6d9.png",
+        "sha256": "d57530aa0f68af0eaa42ab5f93dca113b79db2a90ef760c714c9b8aba54d1efc"
+      },
+      {
+        "key": "H/레인카네이션 펜던트",
+        "type_name": "적들의 부활 확률 감소",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/H/H_레인카네이션_펜던트_cd01eb30c8.png",
+        "sha256": "a9365987cd66d013e0e79d97ae5eae7cc0f8fdee94c6d8327526666f99c7cc45"
+      }
+    ]
+  },
+  "57": {
+    "namespace": "equipment_mainType",
+    "type_name": "모든 용병의 공포 극복 확률",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "G/로카히의 부채",
+        "type_name": "모든 용병의 공포 극복 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_로카히의_부채_d55d9e397f.png",
+        "sha256": "8c707b199182ce4e76d330d565975549ac6315881e6db3ef1d1d7c5341d45ca9"
+      },
+      {
+        "key": "X/진정한 뿔레코인",
+        "type_name": "모든 용병의 공포 극복 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_진정한_뿔레코인_323703d3d4.png",
+        "sha256": "92864f988deb3b40fb7c45928035d5afe4d15b6b53de48bd70bbeed7b43057eb"
+      },
+      {
+        "key": "H/용기의 날개",
+        "type_name": "모든 용병의 공포 극복 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/H/H_용기의_날개_6dcb6a4600.png",
+        "sha256": "4ae5004103210884b645ee2ec36e77b8eb984865ec10a9111d5183963ac8087c"
+      }
+    ]
+  },
+  "33": {
+    "namespace": "equipment_mainType",
+    "type_name": "모든 용병의 베이스 데미지",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "G/로카히의 지혜",
+        "type_name": "모든 용병의 베이스 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_로카히의_지혜_deb57270a9.png",
+        "sha256": "cecc2bacb44110a58cd9285dc1be2a46ae3978ee981cc4d7cca2c353e58a1943"
+      },
+      {
+        "key": "X/로카히의 용기",
+        "type_name": "모든 용병의 베이스 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_로카히의_용기_3dc358284d.png",
+        "sha256": "b54d29690b2734fbc40931942977a4168b7a1f8994ff258b3a5219653d92dfb4"
+      },
+      {
+        "key": "H/로카히의 시간",
+        "type_name": "모든 용병의 베이스 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/H/H_로카히의_시간_b923bb40f5.png",
+        "sha256": "1809b5960bc0f0eb41a3d4d97b3a3d4fdd3356fde2561e4fa266323f46783509"
+      }
+    ]
+  },
+  "41": {
+    "namespace": "equipment_mainType",
+    "type_name": "모든 마법 용병의 최종 데미지",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "G/마법의 지배자 갑옷",
+        "type_name": "모든 마법 용병의 최종 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_마법의_지배자_갑옷_c6c0fda536.png",
+        "sha256": "c1eb6cb81015c3957666fea37038b4fd4e4866cc382e7c4584ea00ab12b06d5e"
+      },
+      {
+        "key": "X/마법의 지배자 투구",
+        "type_name": "모든 마법 용병의 최종 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_마법의_지배자_투구_0532016e86.png",
+        "sha256": "1e7a9684e95b07d3c897d7b104bbe0437d71981b27979451eff446d154c021d3"
+      },
+      {
+        "key": "H/마법의 지배자 건틀렛",
+        "type_name": "모든 마법 용병의 최종 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/H/H_마법의_지배자_건틀렛_d4d52642bd.png",
+        "sha256": "97d85462cc9f5c4f71c85cb6c6907c2e32abc274d8cdb098af49b24fccb48a02"
+      }
+    ]
+  },
+  "70": {
+    "namespace": "equipment_mainType",
+    "type_name": "모든 종류의 쥬얼 획득 확률",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "G/만다라 쥬얼",
+        "type_name": "모든 종류의 쥬얼 획득 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_만다라_쥬얼_f2b7206edb.png",
+        "sha256": "e77c5812a8c4755f6dc8c0d0eafa7c3280554ab70675d56d39f4564c595f0179"
+      },
+      {
+        "key": "X/블랙 포텐셜",
+        "type_name": "모든 종류의 쥬얼 획득 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_블랙_포텐셜_5f6349eb5a.png",
+        "sha256": "a2c068c5a55a5ed64680965df66a7859d755963510885332a311262c3337a551"
+      },
+      {
+        "key": "H/[핑크-보] 쥐얼",
+        "type_name": "모든 종류의 쥬얼 획득 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/H/H__핑크-보__쥐얼_69e0ce4f1f.png",
+        "sha256": "cc40dc4d7dac071b107659c0a5b35e788a96a9fb2f869b23ff56d60726f19db4"
+      }
+    ]
+  },
+  "1169": {
+    "namespace": "equipment_mainType",
+    "type_name": "모든 용병의 연타 데미지 증폭",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "G/바람의 말발굽",
+        "type_name": "모든 용병의 연타 데미지 증폭",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_바람의_말발굽_94aa25c9d4.png",
+        "sha256": "0556c8f9e0a03c57cafe664204be5a503717be8ecfe14bc1d2f2152adb557689"
+      },
+      {
+        "key": "X/저승의 말발굽",
+        "type_name": "모든 용병의 연타 데미지 증폭",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_저승의_말발굽_bf677180b2.png",
+        "sha256": "481641e882e912ad13a36a7e2a5c63817e4a0d594c0470bb4adf1957340b34a8"
+      },
+      {
+        "key": "H/천상의 말발굽",
+        "type_name": "모든 용병의 연타 데미지 증폭",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/H/H_천상의_말발굽_9f35d09178.png",
+        "sha256": "3ae79ec65dbd07e350e086ecaf0afe83dd573e6bc681780bae87a6b1ddbae52c"
+      }
+    ]
+  },
+  "36": {
+    "namespace": "equipment_mainType",
+    "type_name": "소울 번",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "G/소울 스틸러",
+        "type_name": "소울 번",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_소울_스틸러_663c60631d.png",
+        "sha256": "f888d5a1e31797f2869a9e8b2512423be6deec140fd542dc06533f913359d849"
+      },
+      {
+        "key": "X/버닝 소울",
+        "type_name": "소울 번",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_버닝_소울_3faf8af52a.png",
+        "sha256": "863d35eed7aadc21133e7e2da547ef93e763664b502d1022ca4880d9a90368ac"
+      }
+    ]
+  },
+  "67": {
+    "namespace": "equipment_mainType",
+    "type_name": "적들의 약화 효과 감소",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "G/수상한 버섯",
+        "type_name": "적들의 약화 효과 감소",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_수상한_버섯_ca559d01b4.png",
+        "sha256": "4db895d3d15186bb485edf6280dac2a3c5a6003d69b0014bb9abdc178b9caaaa"
+      },
+      {
+        "key": "X/블랙 마카",
+        "type_name": "적들의 약화 효과 감소",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_블랙_마카_c2d40f153c.png",
+        "sha256": "5923be6c4def33b7fce915bc8ca39e24de9eef8409f49b8267bab3e30b1b4ba0"
+      },
+      {
+        "key": "H/공허의 파편",
+        "type_name": "적들의 약화 효과 감소",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/H/H_공허의_파편_a235ed0aab.png",
+        "sha256": "b7522903d0a3f82767b043d33262c41568b64b574dacbdefa2a0203b216647c0"
+      }
+    ]
+  },
+  "54": {
+    "namespace": "equipment_mainType",
+    "type_name": "모든 용병의 최종 데미지",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "G/아리만의 서약",
+        "type_name": "모든 용병의 최종 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_아리만의_서약_09d35d5e00.png",
+        "sha256": "6f748b5af9da72487b1bac27f1ecd80331e63981f5cff0851f9e6ddd1ad9845d"
+      },
+      {
+        "key": "X/아리만의 망또",
+        "type_name": "모든 용병의 최종 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_아리만의_망또_7593f63dcc.png",
+        "sha256": "b9112cdef0b25908814fd4e5de508594cffcb9f0b53e47fa111a6df3481fdab4"
+      }
+    ]
+  },
+  "539": {
+    "namespace": "equipment_mainType",
+    "type_name": "적들의 반사 확률 감소",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "G/여관 주인의 기모노",
+        "type_name": "적들의 반사 확률 감소",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_여관_주인의_기모노_13994679d6.png",
+        "sha256": "0b35b640206ea16d2a6028a3a5f0099f4558e64dd592d7aaf9283379e940c6a7"
+      },
+      {
+        "key": "X/아카식 오브",
+        "type_name": "적들의 반사 확률 감소",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_아카식_오브_352d15458e.png",
+        "sha256": "91ce03f0d684796711959d18cb8cf3fe0bfd3bc9f7cc432367bf9a59c6f69ad6"
+      },
+      {
+        "key": "H/레인보우 스케일 쉴드",
+        "type_name": "적들의 반사 확률 감소",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/H/H_레인보우_스케일_쉴드_6d8a562810.png",
+        "sha256": "12f6060a486b206e915f044337d5a590514926eab22dccb55bc424eb59c35d59"
+      }
+    ]
+  },
+  "68": {
+    "namespace": "equipment_mainType",
+    "type_name": "적들의 둔화 효과 감소",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "G/타꼬야끼",
+        "type_name": "적들의 둔화 효과 감소",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_타꼬야끼_5fc04c5e36.png",
+        "sha256": "ed067a81e9424b61417654e67aed75c355e950dc4f5acfb4078cd6cd7d093fcf"
+      },
+      {
+        "key": "X/아르기닌",
+        "type_name": "적들의 둔화 효과 감소",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_아르기닌_96fa0200a3.png",
+        "sha256": "359d8f353254a9c695fbbd5217345d3c03ba25c5bf84d2358608ece1ee6f4cf2"
+      },
+      {
+        "key": "H/불의 은총",
+        "type_name": "적들의 둔화 효과 감소",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/H/H_불의_은총_0671448216.png",
+        "sha256": "854ed2291c099327300dc273a96f7f73715837488475fdaf4a0f1161ac127862"
+      }
+    ]
+  },
+  "46": {
+    "namespace": "equipment_mainType",
+    "type_name": "뿔레정수 획득 확률",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "G/태양의 목걸이",
+        "type_name": "뿔레정수 획득 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_태양의_목걸이_11e2d133bf.png",
+        "sha256": "a8b874481abedc1f7bac1ca9fd8bf4dde3b2d0e05bf36c7f0334ea11078a2fb7"
+      },
+      {
+        "key": "X/레나스카의 눈",
+        "type_name": "뿔레정수 획득 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_레나스카의_눈_ec036e471d.png",
+        "sha256": "7b13a56f7e0c249e39c7579d77de924b877f5e9d49ab604c5c30a542cdeaa7a8"
+      }
+    ]
+  },
+  "56": {
+    "namespace": "equipment_mainType",
+    "type_name": "뿔레조각 획득 확률",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "G/토끼 조각",
+        "type_name": "뿔레조각 획득 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_토끼_조각_da7f91bb3e.png",
+        "sha256": "1d3a4d38627545ea8585d832ca51a3b387e98de79d86a88464faa354c022a6f9"
+      },
+      {
+        "key": "X/태양의 투구",
+        "type_name": "뿔레조각 획득 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_태양의_투구_8d41e34382.png",
+        "sha256": "48b1847395fff54c5e4e605d66b2e05b5dd09ca9f8d58676b26de710b261606b"
+      }
+    ]
+  },
+  "34": {
+    "namespace": "equipment_mainType",
+    "type_name": "모든 혼합 용병의 공격 속도",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "G/페가수스의 날개",
+        "type_name": "모든 혼합 용병의 공격 속도",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_페가수스의_날개_ac8320cd3c.png",
+        "sha256": "b32292ae55c0a95ba004d66705e9db56e1de90137f33de57feed119ed4057b0e"
+      }
+    ]
+  },
+  "42": {
+    "namespace": "equipment_mainType",
+    "type_name": "모든 카오스 용병의 최종 데미지",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "G/혼돈의 파멸자 갑옷",
+        "type_name": "모든 카오스 용병의 최종 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/G/G_혼돈의_파멸자_갑옷_6e5308cbe7.png",
+        "sha256": "9ce38c9471cfa1bdddcefd35bd43c2eb09a929d5819e03f21ae79a48f5723d7c"
+      },
+      {
+        "key": "X/혼돈의 파멸자 투구",
+        "type_name": "모든 카오스 용병의 최종 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_혼돈의_파멸자_투구_f38a5523f9.png",
+        "sha256": "d10f61986365efc6814852a0d2054c46a0a2fe975358283617920ad31bb190a3"
+      },
+      {
+        "key": "H/혼돈의 파멸자 건틀렛",
+        "type_name": "모든 카오스 용병의 최종 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/H/H_혼돈의_파멸자_건틀렛_4cd741c847.png",
+        "sha256": "1d6e185409cf8490d2a9ec2beaf583f9719b045a8fb1bfab2e8733e69ab6b944"
+      }
+    ]
+  },
+  "90": {
+    "namespace": "equipment_mainType",
+    "type_name": "모든 용병의 치명타 확률",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "X/데들리 본 커터",
+        "type_name": "모든 용병의 치명타 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_데들리_본_커터_9e9658297a.png",
+        "sha256": "351415310292d9a462d8fa96aee2bb5d50fe20b1abbbc987396c416b2607b061"
+      },
+      {
+        "key": "H/데들리 스틸 크라운",
+        "type_name": "모든 용병의 치명타 확률",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/H/H_데들리_스틸_크라운_20fed88c34.png",
+        "sha256": "9b4fd5c9dbceaf4e80396646966f2822e160fc2627d9a1001072a1e80a1ab883"
+      }
+    ]
+  },
+  "197": {
+    "namespace": "equipment_mainType",
+    "type_name": "모든 트리니티 용병의 강타 배수",
+    "format": "raw",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "X/트리니티 쥬얼",
+        "type_name": "모든 트리니티 용병의 강타 배수",
+        "unit": "",
+        "card_image": "output/item_codex_capture/20261102/cards/X/X_트리니티_쥬얼_8905b2b832.png",
+        "sha256": "0e71b3b7405ad12500ba0c4fca13deccfbeb009c1cd52054ccd2f06d1cd05688"
+      }
+    ]
+  },
+  "1014": {
+    "namespace": "equipment_mainType",
+    "type_name": "모든 마법 용병의 성장 데미지",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "H/마법의 전투 지팡이",
+        "type_name": "모든 마법 용병의 성장 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/H/H_마법의_전투_지팡이_166a71569b.png",
+        "sha256": "8f83d18a69d82add42003aa1447c2c8a67f2325af1b63682e3c750a12bc0d2e4"
+      }
+    ]
+  },
+  "1013": {
+    "namespace": "equipment_mainType",
+    "type_name": "모든 물리 용병의 성장 데미지",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "H/물리적 영혼의 검",
+        "type_name": "모든 물리 용병의 성장 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/H/H_물리적_영혼의_검_a1f901d47c.png",
+        "sha256": "1a099abec8715ae289d28e667a5d53a51c03971f992bf28099fc17d9656c5450"
+      }
+    ]
+  },
+  "1020": {
+    "namespace": "equipment_mainType",
+    "type_name": "모든 마법 용병의 강타 배수 증폭",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "H/이계의 증폭 구슬",
+        "type_name": "모든 마법 용병의 강타 배수 증폭",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/H/H_이계의_증폭_구슬_15b59dbe4b.png",
+        "sha256": "9a60046646ec3562848ab2cf9c69fd04d0b6e6eeb510ad5b0668ac97128370bb"
+      }
+    ]
+  },
+  "1019": {
+    "namespace": "equipment_mainType",
+    "type_name": "모든 물리 용병의 강타 배수 증폭",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "H/증폭의 보석",
+        "type_name": "모든 물리 용병의 강타 배수 증폭",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/H/H_증폭의_보석_eee05ddbba.png",
+        "sha256": "8f32fa9833c26401e592515f7233efb8b13fbe0f03834969086df40e4f9c8461"
+      }
+    ]
+  },
+  "1021": {
+    "namespace": "equipment_mainType",
+    "type_name": "모든 혼합 용병의 강타 배수 증폭",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "H/토끼 인형",
+        "type_name": "모든 혼합 용병의 강타 배수 증폭",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/H/H_토끼_인형_7193c7bac0.png",
+        "sha256": "ceb0ff67b68399ca631b153148e8b5001bcb36cd0a5f12f8c4e57390d2b4ff85"
+      }
+    ]
+  },
+  "1015": {
+    "namespace": "equipment_mainType",
+    "type_name": "모든 혼합 용병의 성장 데미지",
+    "format": "pct",
+    "verified": true,
+    "evidence": [
+      {
+        "key": "H/혼탁한 힘의 활",
+        "type_name": "모든 혼합 용병의 성장 데미지",
+        "unit": "%",
+        "card_image": "output/item_codex_capture/20261102/cards/H/H_혼탁한_힘의_활_881df929ce.png",
+        "sha256": "ff32020b7cc67a7672ee07668d5a9ec94e79ff8f91ff2b9074d0416b5c1b9af2"
+      }
+    ]
+  }
+}

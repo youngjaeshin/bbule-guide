@@ -247,6 +247,10 @@ def _load_artifact_overrides() -> dict:
 
 ART_OVERRIDES = _load_artifact_overrides()
 
+_artifact_metadata_path = Path(__file__).parent / 'artifact_effect_metadata.json'
+ART_EFFECT_METADATA = (json.loads(_artifact_metadata_path.read_text(encoding='utf-8'))
+                       if _artifact_metadata_path.exists() else {})
+
 # ---------------------------------------------------------------------------
 # sec code → Korean effect template mapping (894 codes from BansheeGz DB)
 # Used as fallback when ART_TYPE_TO_EFFECT doesn't have a code.
@@ -810,55 +814,47 @@ def resolve_skill_effects(types: list, effects: list, key_to_id: dict, ko_map: d
 
 
 def resolve_artifact_effects(types: list, effects: list) -> list:
-    """Resolve artifact effect type codes + values.
-
-    Name priority:  MAINTYPE_TO_EFFECT (verified) > ART_TYPE_TO_EFFECT (partial) > '코드 N'
-    Known divergent artifact codes in ART_TYPE_NAME_OVERRIDES use artifact names first.
-    Format priority: MAINTYPE_TO_EFFECT > NAME_TO_FORMAT > keyword heuristic
-    Artifacts do NOT use display_ratio; raw DB values are formatted directly.
-    """
+    """Resolve the artifact aType namespace, without equipment/skill ratios."""
     result = []
-    for t, e in zip(types, effects):
+    for slot, (t, e) in enumerate(zip(types, effects), 1):
         if t == 0 and e == 0.0:
             continue
-        # (code 90 scaling removed — 90 is 모든 용병의 치명타 확률, not 데미지)
-        # 1) Name: MAINTYPE_TO_EFFECT (verified) takes priority over ART_TYPE_TO_EFFECT,
-        # except for artifact codes known to diverge from equipment meanings.
-        main_mapping = None if t in ART_TYPE_NAME_OVERRIDES else MAINTYPE_TO_EFFECT.get(t)
-        if main_mapping:
-            template = main_mapping[0]
-            efmt = main_mapping[1]
-        else:
-            ename = ART_TYPE_TO_EFFECT.get(t)
-            template = ename if ename else f'코드 {t}'
-            # 2) Format: NAME_TO_FORMAT > stripped NAME_TO_FORMAT > keyword heuristic
-            # Strip prefix like "[세트] ", "(아티 장착시) " for lookup
-            import re as _re
-            stripped = _re.sub(r'^[\[\(][^\]\)]*[\]\)]\s*', '', template)
-            if template in NAME_TO_FORMAT:
-                efmt = NAME_TO_FORMAT[template]
-            elif stripped in NAME_TO_FORMAT:
-                efmt = NAME_TO_FORMAT[stripped]
-            elif '배수' in template and '증폭' not in template:
-                efmt = 'raw'
-            elif '성장' in template:
-                efmt = 'raw'
-            elif '레벨' in template:
-                efmt = 'int'
-            elif any(kw in template for kw in ('확률', '속도', '데미지', '감소', '증폭', '획득', '저장', '증가', '추클뎀', '중첩', '관통', '체감')):
-                efmt = 'pct'
-            else:
-                efmt = 'raw'
+        result.append(make_artifact_effect(t, e, slot))
+    return result
 
-        val_str = format_effect_value(e, efmt)
-        desc = f"{template} {val_str}".strip() if val_str else template
-        result.append({
-            'type_code': t,
-            'type_name': template,
-            'value': round(e, 6),
-            'value_display': val_str,
-            'description': desc,
-        })
+
+def make_artifact_effect(type_code, value, source_slot, template=None, fmt=None):
+    """Verified artifact names/formats take precedence within this namespace."""
+    import copy
+    import re as _re
+    meta = ART_EFFECT_METADATA.get(str(type_code), {})
+    template = template or meta.get('type_name') or ART_TYPE_TO_EFFECT.get(type_code, f'코드 {type_code}')
+    if fmt is None:
+        fmt = meta.get('format')
+    if fmt is None:
+        stripped = _re.sub(r'^[\[(][^\])]*[\])]\s*', '', template)
+        if stripped in NAME_TO_FORMAT:
+            fmt = NAME_TO_FORMAT[stripped]
+        elif ('배수' in stripped and '증폭' not in stripped) or '성장' in stripped:
+            fmt = 'raw'
+        elif '레벨' in stripped:
+            fmt = 'int'
+        else:
+            fmt = 'pct'
+    precision = meta.get('display_precision', 3)
+    shown = value*100 if fmt == 'pct' else value
+    text = f'{shown:.{precision}f}'.rstrip('0').rstrip('.')
+    if not text or text == '-0':
+        text = '0'
+    if fmt == 'pct':
+        text += '%'
+    separator = '' if template.endswith('X') else (' ' if text.startswith('-') else ' +')
+    result = {'type_code': type_code, 'namespace': 'artifact_aType',
+              'type_name': template, 'value': round(value, 8),
+              'value_display': text, 'description': template+separator+text,
+              'source_slot': source_slot}
+    if meta.get('condition'):
+        result['condition'] = copy.deepcopy(meta['condition'])
     return result
 
 
@@ -869,26 +865,29 @@ def apply_artifact_overrides(index: int, effects: list) -> list:
         return effects
     for slot_str, patch in overrides.get('effects', {}).items():
         slot = int(slot_str)
-        if slot >= len(effects):
-            effects.append({
-                'type_code': patch.get('type_code', 0),
-                'type_name': patch.get('type_name', ''),
-                'value': patch.get('value', 0),
-                'value_display': '',
-                'description': '',
-            })
-        eff = effects[slot]
-        if 'type_code' in patch:
-            eff['type_code'] = patch['type_code']
-        if 'type_name' in patch:
-            eff['type_name'] = patch['type_name']
-        if 'value' in patch:
-            eff['value'] = patch['value']
-        fmt = patch.get('format')
-        if fmt:
-            eff['value_display'] = format_effect_value(eff['value'], fmt)
-        eff['description'] = f"{eff['type_name']} {eff['value_display']}"
-    return effects
+        current = next((e for e in effects if e.get('source_slot') == slot+1), {})
+        code = patch.get('type_code', current.get('type_code', 0))
+        eff = make_artifact_effect(code, patch.get('value', current.get('value', 0)), slot+1,
+                                   patch.get('type_name'), patch.get('format'))
+        for field in ('operation', 'formula', 'parameters'):
+            if field in patch:
+                eff[field] = patch[field]
+        if patch.get('operation') == 'disable':
+            eff['value_display'] = ''
+            eff['description'] = patch.get('description', eff['type_name'])
+            eff['effect_kind'] = 'restriction'
+        if overrides.get('capture_evidence'):
+            eff['captureEvidence'] = overrides['capture_evidence']
+        if current:
+            effects[effects.index(current)] = eff
+        else:
+            effects.append(eff)
+    for gap in overrides.get('additional_effects', []):
+        eff = make_artifact_effect(gap['type_code'], gap['value'], gap['source_slot'])
+        eff['source_component'] = gap['source_component']
+        eff['captureEvidence'] = overrides.get('capture_evidence')
+        effects.append(eff)
+    return sorted(effects, key=lambda e: (e.get('source_slot', 0), e.get('source_component', 1)))
 
 
 # ===========================================================================
@@ -1484,6 +1483,8 @@ def extract_equipment(data: bytes, name_map: list, strings: dict,
             'isAvailableG':    bool(_g(availg, i, False)),
             'cantPowerUp':     is_cant_pu,
         })
+    from equipment_capture_overrides import apply_capture_overrides
+    equipment = apply_capture_overrides(equipment)
     print(f"  [equipment] {len(equipment)} rows extracted.")
     return equipment
 
@@ -1619,6 +1620,8 @@ def extract_artifacts(data: bytes, name_map: list, strings: dict,
             'aEffect':   aeffects,
             'effects_resolved': effects_resolved,
         })
+    from artifact_capture_metadata import apply_capture_metadata
+    artifacts = apply_capture_metadata(artifacts)
     print(f"  [artifact] {len(artifacts)} rows extracted.")
     return artifacts
 

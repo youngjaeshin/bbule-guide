@@ -36,6 +36,12 @@ PY_COMPILE_TARGETS = [
     "build_mercenary_data.py",
     "build_subslot_data.py",
     "build_simulator_data.py",
+    "build_scarecrow_invader.py",
+    "build_commander_tab.py",
+    "mercenary_capture_overrides.py",
+    "artifact_capture_metadata.py",
+    "random_skill_capture_overrides.py",
+    "equipment_capture_overrides.py",
     "regenerate_rmskills.py",
     "verify_web_data_sync.py",
     "bgdb_utils.py",
@@ -50,11 +56,19 @@ COMMIT_PATHS = [
     "CLAUDE.md",
     "README.md",
     "docs/apk-update-playbook.md",
+    "docs/mercenary-capture-refresh.md",
+    "docs/artifact-capture-refresh.md",
+    "docs/random-skill-capture-refresh.md",
+    "docs/equipment-capture-refresh.md",
+    "docs/commander-portraits.md",
     "scripts/audit_mercenary_skill_refresh.py",
     "scripts/update_game_data.py",
     "additional_strings.json",
     "artifact_code_mapping.json",
     "artifact_overrides.json",
+    "artifact_effect_metadata.json",
+    "artifact_capture_manifest.json",
+    "artifact_capture_metadata.py",
     "artifacts.json",
     "bgdb_utils.py",
     "build_artifact_data.py",
@@ -62,7 +76,19 @@ COMMIT_PATHS = [
     "build_mercenary_data.py",
     "build_subslot_data.py",
     "build_simulator_data.py",
+    "mercenary_capture_overrides.py",
+    "mercenary_capture_overrides.json",
+    "mercenary_capture_portraits.json",
     "enhancement_multipliers.py",
+    "equipment_capture_overrides.py",
+    "equipment_capture_overrides.json",
+    "equipment_effect_metadata.json",
+    "kahina_invader_rewards.json",
+    "build_scarecrow_invader.py",
+    "build_commander_tab.py",
+    "commander_portraits.json",
+    "scripts/rebuild_commander_portraits.py",
+    "web/images/commander",
     "extract_all.py",
     "output/artifacts.json",
     "output/bosses.json",
@@ -76,12 +102,17 @@ COMMIT_PATHS = [
     "premium_effects.json",
     "premium_effects.py",
     "random_merc_type_mapping.json",
+    "regenerate_rmskills.py",
+    "random_skill_capture_overrides.py",
+    "random_skill_capture_overrides.json",
     "sec_korean_mapping.json",
     "verify_web_data_sync.py",
     "web/data_artifacts.json",
     "web/data_equipment.json",
+    "web/data_scarecrow_invader.json",
     "web/data_mercenaries.json",
     "web/data_random_merc.json",
+    "web/images/random_skill",
     "web/data_subslot.json",
     "web/data_simulator.json",
     "web/index.html",
@@ -176,7 +207,22 @@ def git_commit(game_version: str | None, guide_version: str | None) -> None:
             for name in sorted(portraits)
             if (ROOT / "web" / "images" / "mercenary" / name).exists()
         )
-    run(["git", "add", "--", *existing])
+    equipment_data = ROOT / "web" / "data_equipment.json"
+    if equipment_data.exists():
+        for row in json.loads(equipment_data.read_text(encoding="utf-8")):
+            image = row.get("image")
+            if image and image.startswith("images/"):
+                path = (ROOT / "web" / image).resolve()
+                if path.is_relative_to(ROOT / "web" / "images") and path.is_file():
+                    existing.append(str(path.relative_to(ROOT)))
+    artifact_data = ROOT / "web" / "data_artifacts.json"
+    if artifact_data.exists():
+        for row in json.loads(artifact_data.read_text(encoding="utf-8")):
+            if row.get("portrait"):
+                path = (ROOT / "web/images/artifact" / row["portrait"]).resolve()
+                if path.is_relative_to(ROOT / "web/images/artifact") and path.is_file():
+                    existing.append(str(path.relative_to(ROOT)))
+    run(["git", "add", "--", *dict.fromkeys(existing)])
     version = game_version or "latest game data"
     guide = guide_version or "current guide"
     title = f"feat: {version} 데이터를 {guide} 가이드에 반영"

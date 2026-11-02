@@ -6,6 +6,7 @@ Source: output/equipment.json (NOT xlsx)
 import json
 import os
 import re
+from equipment_capture_overrides import apply_capture_overrides
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 EQUIP_JSON = os.path.join(BASE_DIR, "output", "equipment.json")
@@ -18,6 +19,7 @@ def main():
     # Load source data
     with open(EQUIP_JSON, encoding="utf-8") as f:
         equip_data = json.load(f)
+    equip_data = apply_capture_overrides(equip_data)
 
     with open(CREATURES_JSON, encoding="utf-8") as f:
         creatures_data = json.load(f)
@@ -55,13 +57,16 @@ def main():
         bonus_raw = specialized_effect * 100
         bonus = int(bonus_raw) if bonus_raw == int(bonus_raw) else round(bonus_raw, 1)
 
-        specialized_heroes = [{"name": n, "bonus": bonus} for n in unique_names]
+        specialized_heroes = (item['specializedHeroes'] if 'specializedHeroes' in item
+                              else [{"name": n, "bonus": bonus} for n in unique_names])
 
         # Portrait matching: try {GRADE}_{name}.png
         # Store only filename; JS prepends IMG_BASE.equip
         portrait_filename = f"{grade}_{name}.png"
         if portrait_filename in img_files:
             portrait = portrait_filename
+        elif item.get('image', '').startswith('images/equip/'):
+            portrait = item['image'].split('/')[-1]
         else:
             portrait = ""
 
@@ -73,18 +78,29 @@ def main():
         icon = item.get("icon", -1)
 
         entry = {
+            "index": item['index'],
             "name": name,
             "icon": icon,
             "grade": grade,
+            "mainType": item.get('mainType'),
             "effect_type": effect_type,
             "mainEffect": main_effect,
+            "mainEffect_display": item.get('mainEffect_display'),
             "mainEffect_desc": desc,
             "effect_0": effect_0,
             "effect_20": effect_20,
             "specializedHeroes": specialized_heroes,
+            "specializedEffect": specialized_effect,
+            "specializedHero": [hero_id for hero_id in specialized_hero_ids if hero_id >= 0],
             "is_upgradeable": is_available_g,
             "portrait": portrait,
         }
+        for field in ('gameIndex', 'indexSource', 'effect_0_value', 'effect_20_value',
+                      'coefficient_0', 'coefficient_20', 'effect_unit', 'effect_20_source',
+                      'can_enhance', 'enhancement', 'effectCode', 'image', 'captureEvidence',
+                      'legacySpecializedTargets', 'gUpgradeSource'):
+            if field in item:
+                entry[field] = item[field]
         if is_available_g and (effect_0_g or effect_20_g):
             entry["effect_0_g"] = effect_0_g
             entry["effect_20_g"] = effect_20_g
@@ -98,7 +114,7 @@ def main():
     equip_json_compact = json.dumps(result, ensure_ascii=False, separators=(",", ":"))
     with open(INDEX_HTML, encoding="utf-8") as f:
         html = f.read()
-    pattern = r"const EQUIP_DATA = \[.*?\];"
+    pattern = r"const\s+EQUIP_DATA\s*=\s*\[.*?\];"
     new_decl = f"const EQUIP_DATA = {equip_json_compact};"
     new_html, count = re.subn(pattern, new_decl, html, flags=re.DOTALL)
     if count == 0:
@@ -108,7 +124,7 @@ def main():
     print(f"Updated EQUIP_DATA in {INDEX_HTML} ({count} occurrence)")
 
     # Stats
-    no_portrait = sum(1 for x in result if not x["portrait"])
+    no_portrait = sum(1 for x in result if not (x["portrait"] or x.get('image')))
     no_effect = sum(1 for x in result if not x["effect_type"])
     print(f"  - Items without portrait: {no_portrait}")
     print(f"  - Items without effect_type: {no_effect}")

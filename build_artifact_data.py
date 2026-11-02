@@ -22,6 +22,8 @@ INDEX_HTML = BASE_DIR / 'web' / 'index.html'
 KEEP_FIELDS = [
     'index', 'name', 'set_id', 'set_name', 'icon', 'rank', 'grade',
     'dropTable', 'part', 'part_name', 'effects_resolved',
+    'gameIndex', 'indexSource', 'aliases', 'captureEvidence', 'captureStatus', 'sourceRecords', 'imageEvidence',
+    'optionEvidence', 'sourceConflicts', 'optionExceptions',
 ]
 
 # --- Explicit image aliases for name mismatches ---
@@ -65,7 +67,10 @@ for entry in raw_data:
 
     # Match portrait: exact → space-normalized → explicit alias
     img_filename = f"{entry['name']}.png"
-    if img_filename in base_images:
+    if entry.get('portrait') and (ARTIFACT_IMG_DIR/entry['portrait']).is_file():
+        out['portrait'] = entry['portrait']
+        matched += 1
+    elif img_filename in base_images:
         out['portrait'] = img_filename
         matched += 1
     elif img_filename in norm_to_img:
@@ -73,6 +78,9 @@ for entry in raw_data:
         matched += 1
     elif entry['name'] in IMAGE_ALIASES:
         out['portrait'] = IMAGE_ALIASES[entry['name']]
+        matched += 1
+    elif entry.get('icon') is not None and f"{entry['icon']}.png" in all_images:
+        out['portrait'] = f"{entry['icon']}.png"
         matched += 1
     else:
         out['portrait'] = ''

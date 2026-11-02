@@ -1,0 +1,552 @@
+{
+  "portraits": {
+    "폴드런": {
+      "image": "images/commander/codex_704d61a50bc0.png",
+      "screenshot_name": "폴드런",
+      "source_image": "output/commander_portraits/20261102/source/Screenshot 2026-11-02 at 2.58.17 PM.png",
+      "source_sha256": "3d890773fcb9761d543c73fea409c66116630608fc68aff511d192c0a91959f0",
+      "crop_bounds": [
+        47,
+        39,
+        147,
+        139
+      ],
+      "sha256": "92af2f3ee28586df1f9d91a7049a7ef0742cb975b70932ce0396816b41129d3b",
+      "source_type": "user_provided_game_screenshot",
+      "received_at": "2026-11-02"
+    },
+    "풀레": {
+      "image": "images/commander/codex_378591ba7c65.png",
+      "screenshot_name": "풀레",
+      "source_image": "output/commander_portraits/20261102/source/Screenshot 2026-11-02 at 2.58.17 PM.png",
+      "source_sha256": "3d890773fcb9761d543c73fea409c66116630608fc68aff511d192c0a91959f0",
+      "crop_bounds": [
+        200,
+        39,
+        300,
+        139
+      ],
+      "sha256": "57952ec9d971cec6698c8b7d66bfecc73a14a7b283c33747ed60703b5425847a",
+      "source_type": "user_provided_game_screenshot",
+      "received_at": "2026-11-02"
+    },
+    "언서튼": {
+      "image": "images/commander/codex_95fdb6cba896.png",
+      "screenshot_name": "언서튼",
+      "source_image": "output/commander_portraits/20261102/source/Screenshot 2026-11-02 at 2.58.17 PM.png",
+      "source_sha256": "3d890773fcb9761d543c73fea409c66116630608fc68aff511d192c0a91959f0",
+      "crop_bounds": [
+        354,
+        39,
+        454,
+        139
+      ],
+      "sha256": "f49739545dab65e1b44eeee3204491845288e87b2cb3acc135967a3ab2e5940c",
+      "source_type": "user_provided_game_screenshot",
+      "received_at": "2026-11-02"
+    },
+    "브라이언 킴": {
+      "image": "images/commander/codex_1c70ff797bb5.png",
+      "screenshot_name": "브라이언 킴",
+      "source_image": "output/commander_portraits/20261102/source/Screenshot 2026-11-02 at 2.58.17 PM.png",
+      "source_sha256": "3d890773fcb9761d543c73fea409c66116630608fc68aff511d192c0a91959f0",
+      "crop_bounds": [
+        507,
+        39,
+        607,
+        139
+      ],
+      "sha256": "60c4f69d543242dff9b739247f1d023803b0154738f65e169d5873b7b0a2d1da",
+      "source_type": "user_provided_game_screenshot",
+      "received_at": "2026-11-02"
+    },
+    "아유해피": {
+      "image": "images/commander/codex_3ea5c55c5722.png",
+      "screenshot_name": "아유해피",
+      "source_image": "output/commander_portraits/20261102/source/Screenshot 2026-11-02 at 2.58.17 PM.png",
+      "source_sha256": "3d890773fcb9761d543c73fea409c66116630608fc68aff511d192c0a91959f0",
+      "crop_bounds": [
+        661,
+        39,
+        761,
+        139
+      ],
+      "sha256": "a5b356f2c5a008c5cf8b962fe06cf74d69a4d5e95ab98ccfa41ec5ed645ec673",
+      "source_type": "user_provided_game_screenshot",
+      "received_at": "2026-11-02"
+    },
+    "발리언트": {
+      "image": "images/commander/codex_b7c33a3e1598.png",
+      "screenshot_name": "발리언트",
+      "source_image": "output/commander_portraits/20261102/source/Screenshot 2026-11-02 at 2.58.17 PM.png",
+      "source_sha256": "3d890773fcb9761d543c73fea409c66116630608fc68aff511d192c0a91959f0",
+      "crop_bounds": [
+        47,
+        239,
+        147,
+        339
+      ],
+      "sha256": "8d0954735c07847c422dc5100836062964ac6e20612fdb1f5fb9cb65fa01f529",
+      "source_type": "user_provided_game_screenshot",
+      "received_at": "2026-11-02"
+    },
+    "에바": {
+      "image": "images/commander/codex_16843b4efbad.png",
+      "screenshot_name": "에바",
+      "source_image": "output/commander_portraits/20261102/source/Screenshot 2026-11-02 at 2.58.17 PM.png",
+      "source_sha256": "3d890773fcb9761d543c73fea409c66116630608fc68aff511d192c0a91959f0",
+      "crop_bounds": [
+        200,
+        239,
+        300,
+        339
+      ],
+      "sha256": "cc1512a517fa7b8f1590a9fea23fbc12f296e5480f950f6574991ebd44c2fcff",
+      "source_type": "user_provided_game_screenshot",
+      "received_at": "2026-11-02"
+    },
+    "쿠미스": {
+      "image": "images/commander/codex_2311b706df1b.png",
+      "screenshot_name": "쿠미스",
+      "source_image": "output/commander_portraits/20261102/source/Screenshot 2026-11-02 at 2.58.17 PM.png",
+      "source_sha256": "3d890773fcb9761d543c73fea409c66116630608fc68aff511d192c0a91959f0",
+      "crop_bounds": [
+        354,
+        239,
+        454,
+        339
+      ],
+      "sha256": "317924032a85bc1828f2a0ac20817c554a938da4cfd4dccf2c5d85de86c6e564",
+      "source_type": "user_provided_game_screenshot",
+      "received_at": "2026-11-02"
+    },
+    "히데요시": {
+      "image": "images/commander/codex_8e87c0365a55.png",
+      "screenshot_name": "히데요시",
+      "source_image": "output/commander_portraits/20261102/source/Screenshot 2026-11-02 at 2.58.17 PM.png",
+      "source_sha256": "3d890773fcb9761d543c73fea409c66116630608fc68aff511d192c0a91959f0",
+      "crop_bounds": [
+        507,
+        239,
+        607,
+        339
+      ],
+      "sha256": "9e64952a0da4e26e3754464a5fe25cee00e4bec85278fe8df3594988452db03c",
+      "source_type": "user_provided_game_screenshot",
+      "received_at": "2026-11-02"
+    },
+    "아반도나": {
+      "image": "images/commander/codex_4e2f687c7e19.png",
+      "screenshot_name": "아반도나",
+      "source_image": "output/commander_portraits/20261102/source/Screenshot 2026-11-02 at 2.58.17 PM.png",
+      "source_sha256": "3d890773fcb9761d543c73fea409c66116630608fc68aff511d192c0a91959f0",
+      "crop_bounds": [
+        661,
+        239,
+        761,
+        339
+      ],
+      "sha256": "7247f9b5896e22c79563fb8786dae6a4d94dc49c9f28c1fc4ef50f46c4c7b990",
+      "source_type": "user_provided_game_screenshot",
+      "received_at": "2026-11-02"
+    },
+    "언더더씨": {
+      "image": "images/commander/codex_1fe91b5183dd.png",
+      "screenshot_name": "언더씨",
+      "source_image": "output/commander_portraits/20261102/source/Screenshot 2026-11-02 at 2.58.17 PM.png",
+      "source_sha256": "3d890773fcb9761d543c73fea409c66116630608fc68aff511d192c0a91959f0",
+      "crop_bounds": [
+        47,
+        440,
+        147,
+        540
+      ],
+      "sha256": "61caeaa986c30a24d1c9155bcfb9a57007ecd7a8b9d2708957c6748765b2f20d",
+      "source_type": "user_provided_game_screenshot",
+      "received_at": "2026-11-02"
+    },
+    "사오 일나런 홀트": {
+      "image": "images/commander/codex_492a751120bd.png",
+      "screenshot_name": "웩스 홀트",
+      "source_image": "output/commander_portraits/20261102/source/Screenshot 2026-11-02 at 2.58.17 PM.png",
+      "source_sha256": "3d890773fcb9761d543c73fea409c66116630608fc68aff511d192c0a91959f0",
+      "crop_bounds": [
+        200,
+        440,
+        300,
+        540
+      ],
+      "sha256": "693b2e5b0423846f70d22bb1c33bddaa4f977ab1fc8b97a4593e12629d63dfcc",
+      "source_type": "user_provided_game_screenshot",
+      "received_at": "2026-11-02"
+    },
+    "디나 다이크너": {
+      "image": "images/commander/codex_ba0620309353.png",
+      "screenshot_name": "디나 다이크너",
+      "source_image": "output/commander_portraits/20261102/source/Screenshot 2026-11-02 at 2.58.17 PM.png",
+      "source_sha256": "3d890773fcb9761d543c73fea409c66116630608fc68aff511d192c0a91959f0",
+      "crop_bounds": [
+        354,
+        440,
+        454,
+        540
+      ],
+      "sha256": "f8ec1e7b3cac974df46b9e31012f2c9af8172ca0dee50e2262808b325226943e",
+      "source_type": "user_provided_game_screenshot",
+      "received_at": "2026-11-02"
+    },
+    "프록스먼": {
+      "image": "images/commander/codex_4e59ae2eb953.png",
+      "screenshot_name": "프록스먼",
+      "source_image": "output/commander_portraits/20261102/source/Screenshot 2026-11-02 at 2.58.17 PM.png",
+      "source_sha256": "3d890773fcb9761d543c73fea409c66116630608fc68aff511d192c0a91959f0",
+      "crop_bounds": [
+        507,
+        440,
+        607,
+        540
+      ],
+      "sha256": "8ededf08ebc1cdd2280a1b63986244a2215c0299a68497ca9032e176f1e99bc0",
+      "source_type": "user_provided_game_screenshot",
+      "received_at": "2026-11-02"
+    },
+    "아델레이드": {
+      "image": "images/commander/codex_915ed6954dc4.png",
+      "screenshot_name": "아델레이드",
+      "source_image": "output/commander_portraits/20261102/source/Screenshot 2026-11-02 at 2.58.17 PM.png",
+      "source_sha256": "3d890773fcb9761d543c73fea409c66116630608fc68aff511d192c0a91959f0",
+      "crop_bounds": [
+        661,
+        440,
+        761,
+        540
+      ],
+      "sha256": "e6376d26e39e64a886caa1be90d5d10c8ce23f7bf45c51cc53f8de7447cb15b0",
+      "source_type": "user_provided_game_screenshot",
+      "received_at": "2026-11-02"
+    },
+    "그루터기": {
+      "image": "images/commander/codex_e5cbbb2e016a.png",
+      "screenshot_name": "그루터기",
+      "source_image": "output/commander_portraits/20261102/source/Screenshot 2026-11-02 at 2.58.28 PM.png",
+      "source_sha256": "8fbaee2f3672a6b57655c07131454d7da84ea9a27854bbe01ba6b3fa066016c3",
+      "crop_bounds": [
+        29,
+        38,
+        129,
+        138
+      ],
+      "sha256": "39fe04fce85569d90205c5920350388378ddbda9af7edf28bf43f6a3dc8469c9",
+      "source_type": "user_provided_game_screenshot",
+      "received_at": "2026-11-02"
+    },
+    "치즈코이": {
+      "image": "images/commander/codex_40f4de828c8c.png",
+      "screenshot_name": "치즈코이",
+      "source_image": "output/commander_portraits/20261102/source/Screenshot 2026-11-02 at 2.58.28 PM.png",
+      "source_sha256": "8fbaee2f3672a6b57655c07131454d7da84ea9a27854bbe01ba6b3fa066016c3",
+      "crop_bounds": [
+        183,
+        38,
+        283,
+        138
+      ],
+      "sha256": "0502674efa046618004613f7dcb612cf081d713ecd0e3789740f10f578f5d21f",
+      "source_type": "user_provided_game_screenshot",
+      "received_at": "2026-11-02"
+    },
+    "예거": {
+      "image": "images/commander/codex_6fc516582ccf.png",
+      "screenshot_name": "예거",
+      "source_image": "output/commander_portraits/20261102/source/Screenshot 2026-11-02 at 2.58.28 PM.png",
+      "source_sha256": "8fbaee2f3672a6b57655c07131454d7da84ea9a27854bbe01ba6b3fa066016c3",
+      "crop_bounds": [
+        337,
+        38,
+        437,
+        138
+      ],
+      "sha256": "5ef4bce00b8da4fa3a1c8e3b129a4ab989dddedaf32d5b3b75360f9de37337ea",
+      "source_type": "user_provided_game_screenshot",
+      "received_at": "2026-11-02"
+    },
+    "알버트": {
+      "image": "images/commander/codex_6e3752935e66.png",
+      "screenshot_name": "알버트",
+      "source_image": "output/commander_portraits/20261102/source/Screenshot 2026-11-02 at 2.58.28 PM.png",
+      "source_sha256": "8fbaee2f3672a6b57655c07131454d7da84ea9a27854bbe01ba6b3fa066016c3",
+      "crop_bounds": [
+        491,
+        38,
+        591,
+        138
+      ],
+      "sha256": "3ac52556cd3a70e8efa98b7db86c4b98cfe07ee1a7f7a6fb5433e6ee478118c6",
+      "source_type": "user_provided_game_screenshot",
+      "received_at": "2026-11-02"
+    },
+    "우바루": {
+      "image": "images/commander/codex_a3b21e2513e8.png",
+      "screenshot_name": "우바루",
+      "source_image": "output/commander_portraits/20261102/source/Screenshot 2026-11-02 at 2.58.28 PM.png",
+      "source_sha256": "8fbaee2f3672a6b57655c07131454d7da84ea9a27854bbe01ba6b3fa066016c3",
+      "crop_bounds": [
+        644,
+        38,
+        744,
+        138
+      ],
+      "sha256": "0a6575015d557d4e44cfe473be85ee496e95ff134a46f9cdf53b544b5c0642b4",
+      "source_type": "user_provided_game_screenshot",
+      "received_at": "2026-11-02"
+    },
+    "마그나": {
+      "image": "images/commander/codex_7b4683e27ea1.png",
+      "screenshot_name": "마그나",
+      "source_image": "output/commander_portraits/20261102/source/Screenshot 2026-11-02 at 2.58.28 PM.png",
+      "source_sha256": "8fbaee2f3672a6b57655c07131454d7da84ea9a27854bbe01ba6b3fa066016c3",
+      "crop_bounds": [
+        29,
+        239,
+        129,
+        339
+      ],
+      "sha256": "e1aa75140adf00120ba1fa28b48506d53af146f62324ffcdffd28ac436911a5e",
+      "source_type": "user_provided_game_screenshot",
+      "received_at": "2026-11-02"
+    },
+    "미케니코스": {
+      "image": "images/commander/codex_b9bd967befad.png",
+      "screenshot_name": "미케니코스",
+      "source_image": "output/commander_portraits/20261102/source/Screenshot 2026-11-02 at 2.58.28 PM.png",
+      "source_sha256": "8fbaee2f3672a6b57655c07131454d7da84ea9a27854bbe01ba6b3fa066016c3",
+      "crop_bounds": [
+        183,
+        239,
+        283,
+        339
+      ],
+      "sha256": "5b5bb523322355d35ba610d2ccc4a47549ccd643a392889bcd43afa570b004e0",
+      "source_type": "user_provided_game_screenshot",
+      "received_at": "2026-11-02"
+    },
+    "파우다": {
+      "image": "images/commander/codex_b5a1c654d856.png",
+      "screenshot_name": "파우다",
+      "source_image": "output/commander_portraits/20261102/source/Screenshot 2026-11-02 at 2.58.28 PM.png",
+      "source_sha256": "8fbaee2f3672a6b57655c07131454d7da84ea9a27854bbe01ba6b3fa066016c3",
+      "crop_bounds": [
+        337,
+        239,
+        437,
+        339
+      ],
+      "sha256": "6dd5ab7e10a8455d21acbc6212db6bb1c0dec10e692d82eacb6670176b36a77e",
+      "source_type": "user_provided_game_screenshot",
+      "received_at": "2026-11-02"
+    },
+    "벨라": {
+      "image": "images/commander/codex_c9cf2707ae5d.png",
+      "screenshot_name": "벨라",
+      "source_image": "output/commander_portraits/20261102/source/Screenshot 2026-11-02 at 2.58.28 PM.png",
+      "source_sha256": "8fbaee2f3672a6b57655c07131454d7da84ea9a27854bbe01ba6b3fa066016c3",
+      "crop_bounds": [
+        491,
+        239,
+        591,
+        339
+      ],
+      "sha256": "f40694d40aa1ea49e2d10dfd4d37b9e8c677eaf0dbd6b3224b2ced7f08e0be01",
+      "source_type": "user_provided_game_screenshot",
+      "received_at": "2026-11-02"
+    },
+    "베드로": {
+      "image": "images/commander/codex_0ad2f80dcd46.png",
+      "screenshot_name": "베드로",
+      "source_image": "output/commander_portraits/20261102/source/Screenshot 2026-11-02 at 2.58.28 PM.png",
+      "source_sha256": "8fbaee2f3672a6b57655c07131454d7da84ea9a27854bbe01ba6b3fa066016c3",
+      "crop_bounds": [
+        644,
+        239,
+        744,
+        339
+      ],
+      "sha256": "97685914658b564814ed966b20ebdebc2b757b4b67c65c95a526ffe9f51bece9",
+      "source_type": "user_provided_game_screenshot",
+      "received_at": "2026-11-02"
+    },
+    "릴리안": {
+      "image": "images/commander/codex_6ca7029332a9.png",
+      "screenshot_name": "릴리안",
+      "source_image": "output/commander_portraits/20261102/source/Screenshot 2026-11-02 at 2.58.28 PM.png",
+      "source_sha256": "8fbaee2f3672a6b57655c07131454d7da84ea9a27854bbe01ba6b3fa066016c3",
+      "crop_bounds": [
+        29,
+        441,
+        129,
+        541
+      ],
+      "sha256": "af5418f15fb6b0a1f302f37028ff330d24e6f723c8c6d4f53c52581b524d0693",
+      "source_type": "user_provided_game_screenshot",
+      "received_at": "2026-11-02"
+    },
+    "제노시스": {
+      "image": "images/commander/codex_19da5f7792e9.png",
+      "screenshot_name": "제노시스",
+      "source_image": "output/commander_portraits/20261102/source/Screenshot 2026-11-02 at 2.58.28 PM.png",
+      "source_sha256": "8fbaee2f3672a6b57655c07131454d7da84ea9a27854bbe01ba6b3fa066016c3",
+      "crop_bounds": [
+        183,
+        441,
+        283,
+        541
+      ],
+      "sha256": "35620f3e54d4711f99187d3b8ff086b650d4aa7403ecac89736746dd8715988c",
+      "source_type": "user_provided_game_screenshot",
+      "received_at": "2026-11-02"
+    },
+    "패니키": {
+      "image": "images/commander/codex_e19081a918b2.png",
+      "screenshot_name": "패니키",
+      "source_image": "output/commander_portraits/20261102/source/Screenshot 2026-11-02 at 2.58.28 PM.png",
+      "source_sha256": "8fbaee2f3672a6b57655c07131454d7da84ea9a27854bbe01ba6b3fa066016c3",
+      "crop_bounds": [
+        337,
+        441,
+        437,
+        541
+      ],
+      "sha256": "37c06288702e39f8290baea5b9d0891adeec8d939ba86de664e46d54fa28ea4a",
+      "source_type": "user_provided_game_screenshot",
+      "received_at": "2026-11-02"
+    },
+    "실러캔스": {
+      "image": "images/commander/codex_e18d75bb2804.png",
+      "screenshot_name": "실러캔스",
+      "source_image": "output/commander_portraits/20261102/source/Screenshot 2026-11-02 at 2.58.28 PM.png",
+      "source_sha256": "8fbaee2f3672a6b57655c07131454d7da84ea9a27854bbe01ba6b3fa066016c3",
+      "crop_bounds": [
+        491,
+        441,
+        591,
+        541
+      ],
+      "sha256": "cb9e01e6d748b18111a552ce030b4f57d4d9788c81dcf87069e6d2cde5ddc277",
+      "source_type": "user_provided_game_screenshot",
+      "received_at": "2026-11-02"
+    },
+    "다케다": {
+      "image": "images/commander/codex_e6d9b5cdc2b4.png",
+      "screenshot_name": "다케다",
+      "source_image": "output/commander_portraits/20261102/source/Screenshot 2026-11-02 at 2.58.28 PM.png",
+      "source_sha256": "8fbaee2f3672a6b57655c07131454d7da84ea9a27854bbe01ba6b3fa066016c3",
+      "crop_bounds": [
+        644,
+        441,
+        744,
+        541
+      ],
+      "sha256": "209df2e9254b0afa335d45fe5ba59994609f874cd2c68aa0d697dc999e10ba15",
+      "source_type": "user_provided_game_screenshot",
+      "received_at": "2026-11-02"
+    },
+    "도므릭스": {
+      "image": "images/commander/codex_3738152569e9.png",
+      "screenshot_name": "도므릭스",
+      "source_image": "output/commander_portraits/20261102/source/Screenshot 2026-11-02 at 2.58.34 PM.png",
+      "source_sha256": "2353bc97ae8e4c2d7a901713098b5c135be9a17df8cc6dbc890f2fdfd0973103",
+      "crop_bounds": [
+        34,
+        40,
+        134,
+        140
+      ],
+      "sha256": "6168cb5f8e430e132bf344d9ff1bafa59936da88ba4272b5fded7f21ee53f651",
+      "source_type": "user_provided_game_screenshot",
+      "received_at": "2026-11-02"
+    },
+    "바이티": {
+      "image": "images/commander/codex_cd0c6936d7f5.png",
+      "screenshot_name": "바이티",
+      "source_image": "output/commander_portraits/20261102/source/Screenshot 2026-11-02 at 2.58.34 PM.png",
+      "source_sha256": "2353bc97ae8e4c2d7a901713098b5c135be9a17df8cc6dbc890f2fdfd0973103",
+      "crop_bounds": [
+        187,
+        40,
+        287,
+        140
+      ],
+      "sha256": "3e2b7fa91b10bf9409d8397b6e151f35021a64d0b5d9c0dfe80592b93a724618",
+      "source_type": "user_provided_game_screenshot",
+      "received_at": "2026-11-02"
+    },
+    "말론": {
+      "image": "images/commander/codex_db63068c58bd.png",
+      "screenshot_name": "말론",
+      "source_image": "output/commander_portraits/20261102/source/Screenshot 2026-11-02 at 2.58.34 PM.png",
+      "source_sha256": "2353bc97ae8e4c2d7a901713098b5c135be9a17df8cc6dbc890f2fdfd0973103",
+      "crop_bounds": [
+        340,
+        40,
+        440,
+        140
+      ],
+      "sha256": "bba35bf783c5fa29800acbc43a2240960e55a159b9466206ccfc5f9f9ef82b3b",
+      "source_type": "user_provided_game_screenshot",
+      "received_at": "2026-11-02"
+    },
+    "알리제": {
+      "image": "images/commander/codex_9de22b05f956.png",
+      "screenshot_name": "알리제",
+      "source_image": "output/commander_portraits/20261102/source/Screenshot 2026-11-02 at 2.58.34 PM.png",
+      "source_sha256": "2353bc97ae8e4c2d7a901713098b5c135be9a17df8cc6dbc890f2fdfd0973103",
+      "crop_bounds": [
+        493,
+        40,
+        593,
+        140
+      ],
+      "sha256": "e0e0e2475c07366d4406ebfba7ec47147e77c3d9065e90f51aff69c3a417181b",
+      "source_type": "user_provided_game_screenshot",
+      "received_at": "2026-11-02"
+    },
+    "골드루그": {
+      "image": "images/commander/codex_16803d650418.png",
+      "screenshot_name": "골그루트",
+      "source_image": "output/commander_portraits/20261102/source/Screenshot 2026-11-02 at 2.58.34 PM.png",
+      "source_sha256": "2353bc97ae8e4c2d7a901713098b5c135be9a17df8cc6dbc890f2fdfd0973103",
+      "crop_bounds": [
+        647,
+        40,
+        747,
+        140
+      ],
+      "sha256": "d881002fd8b54ebbf08d39db37eb9c7ecd61764ee120bf6d3b375baea521c979",
+      "source_type": "user_provided_game_screenshot",
+      "received_at": "2026-11-02"
+    }
+  },
+  "new_commanders": [
+    {
+      "name": "실러캔스",
+      "grade": "영웅",
+      "str": null,
+      "int": null,
+      "luck": null,
+      "charm": null,
+      "gender": "미확인",
+      "phys": null,
+      "magic": null,
+      "chaos": null,
+      "click": null,
+      "skill": "미확인 (이름·이미지만 확보)",
+      "dataStatus": "identity_and_portrait_only"
+    }
+  ],
+  "identity_notes": {
+    "aliases": "Existing guide names are retained; shortened or differing screenshot labels are recorded separately.",
+    "unlisted": [
+      "실러캔스"
+    ]
+  }
+}

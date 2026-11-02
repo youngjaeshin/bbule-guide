@@ -1,587 +1,2974 @@
 {
   "meta": {
-    "description": "Random mercenary skill type code -> effect name mapping (CORRECTED)",
-    "source": "User-confirmed in-game values cross-referenced with APK data",
-    "total_type_codes": 95,
-    "scaling_formula": {
-      "pct": "display_pct = apk_val * base_multiplier * (1.3 if has_random_bonus)",
-      "raw": "display_val = apk_val * base_multiplier * (1.3 if has_random_bonus)",
-      "raw_int": "display_int = round(apk_val * base_multiplier * (1.3 if has_random_bonus))",
-      "special_count_pct": "[종족] 용병 수 × (apk_val * base_multiplier * 1.3)%",
-      "special_count_raw": "[종족] 용병 수 × (apk_val * base_multiplier * 1.3)",
-      "note": "30% random mercenary slot bonus (×1.3) applied to all positive effects"
-    }
+    "description": "Screenshot-verified random mercenary skill sec codes",
+    "namespace": "mercenary_sec",
+    "source": "right_hand_random_skill_catalogue",
+    "total_type_codes": 94,
+    "value_policy": "Captured catalogue coefficients; no1.3 multiplier or inversion is applied."
   },
   "type_mapping": {
     "1": {
       "effect_name": "데미지",
       "format": "pct",
-      "base_multiplier": 150.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 81,
+          "source_id": "g01_p001_r1_c2",
+          "source_sha256": "283f7b6b7c9b3720324de6750fc3840ea526a3394115e0451303037f605ef654"
+        },
+        {
+          "skill_index": 82,
+          "source_id": "g01_p001_r2_c1",
+          "source_sha256": "3ed21feeede759c946a03b5bdb28896936791616359971c0cc28f60d937ce534"
+        },
+        {
+          "skill_index": 100,
+          "source_id": "g01_p001_r3_c1",
+          "source_sha256": "d94caa61d82aed39d378c164108249af4b291f042474662e4522546b829e6b6b"
+        },
+        {
+          "skill_index": 105,
+          "source_id": "g01_p001_r3_c2",
+          "source_sha256": "648e52d9435b19b3fdfde949a3d8d30aeab2d153a041f10a25e84f83bed805aa"
+        },
+        {
+          "skill_index": 108,
+          "source_id": "g01_p001_r4_c1",
+          "source_sha256": "1eafc79492bbb2ed7532b511b00d77934bc3b8d5487fdeca27492f3040146dda"
+        },
+        {
+          "skill_index": 111,
+          "source_id": "g01_p001_r4_c2",
+          "source_sha256": "6b3225905603ec57dbd004f8638e0633740746bc6e0f45f4c2b72cd686586c6c"
+        },
+        {
+          "skill_index": 113,
+          "source_id": "g01_p001_r5_c1",
+          "source_sha256": "017afa136917e92dfdc7943af2c00d3f1f10c944d5318053261051e573b2ad2a"
+        },
+        {
+          "skill_index": 119,
+          "source_id": "g01_p001_r5_c2",
+          "source_sha256": "5a046cbb4df80eac1ff276a4cc2cd54c0031de1524d1288089cc6bbd9a4d0e91"
+        },
+        {
+          "skill_index": 120,
+          "source_id": "g01_p002_r1_c1",
+          "source_sha256": "64c23609888f8e324513f4db4b3bccbc007b33a41ee6a10141babd65758e4e42"
+        },
+        {
+          "skill_index": 121,
+          "source_id": "g01_p002_r1_c2",
+          "source_sha256": "d9941bf0cc001deeb8a251a3780902f48c8cf583eb796983421c37ebe10d9cab"
+        },
+        {
+          "skill_index": 126,
+          "source_id": "g01_p002_r2_c1",
+          "source_sha256": "89fa383b681b13aa666b67fca96944da10939b5601c7b7c4af07f0b9393e7ae6"
+        },
+        {
+          "skill_index": 129,
+          "source_id": "g01_p002_r2_c2",
+          "source_sha256": "962f4c93fc88edff5c7801d8187e418e6ceeeb245d4ec43b4fea9b9d109a63e1"
+        },
+        {
+          "skill_index": 83,
+          "source_id": "g02_p001_r2_c2",
+          "source_sha256": "901cd994962282ee1cbc4705627454656aeb8c112684e6c102ee49739b8fa9de"
+        },
+        {
+          "skill_index": 103,
+          "source_id": "g02_p001_r4_c2",
+          "source_sha256": "61c8ea9d2e28f652cc360e9a1ad0a81f4598c0a1ec9f69da34340efb4e460248"
+        },
+        {
+          "skill_index": 106,
+          "source_id": "g02_p001_r5_c1",
+          "source_sha256": "952d8faee7eab2e75eadcc8590e8305b57ff1c1e9192fcb459f3acc16f48a6c6"
+        },
+        {
+          "skill_index": 125,
+          "source_id": "g02_p002_r1_c1",
+          "source_sha256": "9b8e94624518d00e20b49e9910a3c9135e2df7257fe24839ab838301510b39d6"
+        },
+        {
+          "skill_index": 128,
+          "source_id": "g02_p002_r1_c2",
+          "source_sha256": "8db74906f02351c5769a8a43799ad502b7eb09ba3b235bbfc9272b30f136dec9"
+        },
+        {
+          "skill_index": 570,
+          "source_id": "g02_p002_r3_c2",
+          "source_sha256": "aaa920fa65b5074b5d5a456df1f2c28924aecf251f4cf906cd72274e37ab2b58"
+        },
+        {
+          "skill_index": 109,
+          "source_id": "g03_p001_r3_c2",
+          "source_sha256": "c1dc1395f610f3d46e2787638deba3f0f8c708600fbfe0e8f9176e7b3c5d624a"
+        },
+        {
+          "skill_index": 328,
+          "source_id": "g03_p002_r3_c2",
+          "source_sha256": "1275023db10532e0a8e2bb09ec6f4dd7c4981b4f406dfe609842fbc56f6735ed"
+        },
+        {
+          "skill_index": 575,
+          "source_id": "g03_p002_r5_c2",
+          "source_sha256": "db1529cf9456338f3ae247215b8dd6cd53949e13745fe82f9de3348324a37dd8"
+        },
+        {
+          "skill_index": 112,
+          "source_id": "g04_p001_r4_c2",
+          "source_sha256": "5dddb537adcfbb8225839944a69ebdde4a52f446beb8d9e055f4dafa2a9262ab"
+        },
+        {
+          "skill_index": 229,
+          "source_id": "g04_p002_r5_c1",
+          "source_sha256": "245dbd89d6f32265d12469756e11719e4454f9d11a873b87f17cd3250123ea0d"
+        },
+        {
+          "skill_index": 271,
+          "source_id": "g04_p003_r3_c1",
+          "source_sha256": "62f3a076cdc861a5ae7bc6a5cec53b9b9cdd17dcd90a83666360f5170ad89e0e"
+        },
+        {
+          "skill_index": 273,
+          "source_id": "g04_p003_r3_c2",
+          "source_sha256": "1499d7f9ebb1569426e3d288d9502c936ec82c96005028cab6ef7c503496e483"
+        },
+        {
+          "skill_index": 319,
+          "source_id": "g04_p003_r4_c1",
+          "source_sha256": "6b99285cf0d0e70f5a8c240285a022348c9a90d43fb3de228212b8ccd22d233e"
+        },
+        {
+          "skill_index": 339,
+          "source_id": "g04_p004_r1_c1",
+          "source_sha256": "cbe3a41def03d32ddf7b603f62141305c50c253038da3d6cb2ae804f5f99e98d"
+        },
+        {
+          "skill_index": 377,
+          "source_id": "g04_p004_r2_c1",
+          "source_sha256": "fcee4a94748bd261f8f4006ea7a29842f4aef595db3f43fcb141ac70f3a97f14"
+        },
+        {
+          "skill_index": 465,
+          "source_id": "g04_p004_r3_c2",
+          "source_sha256": "87b6fa3800199738fe5c5a60ad2fb20c3b78289b5f7840a08bca53208f7a6f44"
+        },
+        {
+          "skill_index": 1336,
+          "source_id": "g04_p006_r2_c2",
+          "source_sha256": "c8c5429831626683a88b96652ffc8df02e7a92b93390cf5dafbb947db3afe32c"
+        },
+        {
+          "skill_index": 218,
+          "source_id": "g05_p002_r2_c1",
+          "source_sha256": "e5598eae9e7a56ee2d02abc6045bb74a94074221e8b71d7da0d1b2a1e7bb0632"
+        },
+        {
+          "skill_index": 401,
+          "source_id": "g06_p002_r3_c2",
+          "source_sha256": "6c883f2dd94ae1d18940d02e0f097d65919f29e83a46b7932d7c8ea1bd674794"
+        },
+        {
+          "skill_index": 431,
+          "source_id": "g06_p002_r4_c1",
+          "source_sha256": "6f3fcaa6e68e05c916b6429f9c4e215f377550de44282438fccf305caa28aeb0"
+        },
+        {
+          "skill_index": 437,
+          "source_id": "g06_p002_r5_c1",
+          "source_sha256": "9af1057c6d177ada9639c1f416fce44bd3cc681bad82063e924db01ae3977165"
+        },
+        {
+          "skill_index": 104,
+          "source_id": "g07_p001_r1_c1",
+          "source_sha256": "d67e6b22891cb9f8f145ad91c591db5d266d5e45993bd6b6eaf32d201cbb35cf"
+        },
+        {
+          "skill_index": 183,
+          "source_id": "g07_p001_r1_c2",
+          "source_sha256": "a1105d1d6633e38db773818e66bdc0d52b000c427118cc4b8bcf1e095c55f2a5"
+        },
+        {
+          "skill_index": 237,
+          "source_id": "g07_p001_r2_c2",
+          "source_sha256": "e85164d1199c33311c0e0ec8612b1cd66948ea5709d29031b0f3890c094c5dd4"
+        },
+        {
+          "skill_index": 705,
+          "source_id": "g07_p003_r3_c2",
+          "source_sha256": "9e39c55cd29242b54db52d95f27afe6d22a8c43345b8d4e1208a2cee03dec42e"
+        }
+      ]
     },
     "2": {
-      "effect_name": "모든 용병 데미지",
+      "effect_name": "모든 용병의 데미지",
       "format": "pct",
-      "base_multiplier": 300.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 94,
+          "source_id": "g02_p001_r3_c2",
+          "source_sha256": "0aa3ffe4137923c9b38ab03808df95a4c8bc4a5a2e3d2466f53a50ddb2ab2cd1"
+        },
+        {
+          "skill_index": 95,
+          "source_id": "g03_p001_r2_c1",
+          "source_sha256": "8cd728bf1afebc265c5c8bb2613520a53c7e1927c580b95407ce69702e87e4f1"
+        },
+        {
+          "skill_index": 122,
+          "source_id": "g03_p001_r4_c1",
+          "source_sha256": "e7ee07dc3d1be32e4e7340eab9dd913b171f21a3903ff08c7efe97af9f2ba7e5"
+        },
+        {
+          "skill_index": 96,
+          "source_id": "g04_p001_r3_c1",
+          "source_sha256": "4bb6bf2c8ab09f01baed1190c577ceac5fa91e91eb788933e57e04f3df4979fd"
+        },
+        {
+          "skill_index": 338,
+          "source_id": "g04_p003_r5_c2",
+          "source_sha256": "9f1c1c7bef961cf6932ff837694d15bdded7d9f8d2c772837ec710dc7dd88afa"
+        },
+        {
+          "skill_index": 465,
+          "source_id": "g04_p004_r3_c2",
+          "source_sha256": "87b6fa3800199738fe5c5a60ad2fb20c3b78289b5f7840a08bca53208f7a6f44"
+        },
+        {
+          "skill_index": 42,
+          "source_id": "g05_p001_r1_c1",
+          "source_sha256": "fbdf4277a2b76c60f49ef46f4de33dfb4da5b8d8645387ba2dd74d6a09db1754"
+        },
+        {
+          "skill_index": 4,
+          "source_id": "g06_p001_r1_c1",
+          "source_sha256": "5fbc70721165d49d3e8c03793f3d0d8afa5dc5ff571a1cfda62e27dacd3eb644"
+        },
+        {
+          "skill_index": 60,
+          "source_id": "g06_p001_r1_c2",
+          "source_sha256": "fd779c7859371d3778d7851c7aafc50c88a63ec889af018045a1845241809c00"
+        },
+        {
+          "skill_index": 485,
+          "source_id": "g06_p003_r1_c2",
+          "source_sha256": "e2609934d699115aef8cab32e6c38ac338191195a8765df0ff0b0b75280ba504"
+        },
+        {
+          "skill_index": 548,
+          "source_id": "g06_p003_r5_c2",
+          "source_sha256": "922d29ac799bcb432b732fdc6d03ef7aae9379db7be9001d5f1f1101ab13faf5"
+        },
+        {
+          "skill_index": 580,
+          "source_id": "g06_p004_r2_c2",
+          "source_sha256": "101a009cd664893b685c59ac6780bce43f0f7ece1d3df228a729d2eb84d748c6"
+        },
+        {
+          "skill_index": 418,
+          "source_id": "g07_p002_r2_c2",
+          "source_sha256": "f898cfaf7b2ffb286e4b94658b01ec38a8af5fe8c4d4fac92a97a0c3e55b5b9a"
+        },
+        {
+          "skill_index": 421,
+          "source_id": "g07_p002_r3_c1",
+          "source_sha256": "ea91947a3abb40a7c5830c8136b82fa34973633eb906ed3631573ed2d9cd590f"
+        },
+        {
+          "skill_index": 656,
+          "source_id": "g08_p002_r3_c1",
+          "source_sha256": "019e6fa28ececb76fe15672356d2c1726735e4651b66f1befca1419e9e9a74f2"
+        },
+        {
+          "skill_index": 663,
+          "source_id": "g09_p002_r3_c2",
+          "source_sha256": "25207c225b9beefc923fdc21616615cf9d15df064d9f18ce4c4254b8a3630f89"
+        }
+      ]
     },
     "3": {
-      "effect_name": "클릭 데미지",
+      "effect_name": "모든 물리 용병의 데미지",
       "format": "pct",
-      "base_multiplier": 200.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 324,
+          "source_id": "g05_p002_r5_c2",
+          "source_sha256": "2b95e676e4fe6f04c20285798047c629bcf6aec801c55c688ac39e44c058d440"
+        }
+      ]
     },
     "4": {
-      "effect_name": "마법 용병 데미지",
+      "effect_name": "모든 마법 용병의 데미지",
       "format": "pct",
-      "base_multiplier": 300.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 322,
+          "source_id": "g05_p002_r5_c1",
+          "source_sha256": "57f199a5b1d71cf48e1845115274c986535094cb95c9b2c54dd7e047805ebdc6"
+        },
+        {
+          "skill_index": 445,
+          "source_id": "g07_p002_r3_c2",
+          "source_sha256": "fa9268f7fbd245fd866437a3ec2d062638595a259a415c22b93ae921ef43e4c0"
+        }
+      ]
     },
     "6": {
-      "effect_name": "공격 속도",
+      "effect_name": "모든 카오스 용병의 데미지",
       "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 210,
+          "source_id": "g04_p002_r4_c2",
+          "source_sha256": "f5724d1ddf377212f5b7d104ea99100d95f599cc3991745f1cd1f237c1cd6875"
+        },
+        {
+          "skill_index": 211,
+          "source_id": "g05_p002_r1_c2",
+          "source_sha256": "53f138732d4d8bbea23b672c4ad13ad6e91e2f30852c262cd281f8f50eecb5c5"
+        },
+        {
+          "skill_index": 333,
+          "source_id": "g05_p003_r1_c1",
+          "source_sha256": "0a6737212f859fef5bc4b7fa303a03fcf79179d5e0afc044f7c15d9256ed2ad8"
+        },
+        {
+          "skill_index": 212,
+          "source_id": "g06_p001_r2_c2",
+          "source_sha256": "934487c1ca1cda95df9159432d1295bcabde320e2514ab0e2358aef4758f0267"
+        }
+      ]
     },
     "7": {
       "effect_name": "추가 데미지",
-      "format": "raw_int",
-      "base_multiplier": 2.0,
-      "has_random_bonus": true
+      "format": "raw",
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 239,
+          "source_id": "g02_p002_r3_c1",
+          "source_sha256": "878f6110dff0f6ec3f30fe99cdba890142ac72ed807c303c9b545901124f6726"
+        },
+        {
+          "skill_index": 571,
+          "source_id": "g02_p002_r4_c1",
+          "source_sha256": "20e7ba68433d080d616357156203c277521dd1fa09a0a4aea67f8ca1cb1aec3c"
+        },
+        {
+          "skill_index": 102,
+          "source_id": "g03_p001_r2_c2",
+          "source_sha256": "2ec72914087911518238eb7a9c522d4fb14bf24feaea6d2b29ffc3fc79aaf032"
+        },
+        {
+          "skill_index": 98,
+          "source_id": "g04_p001_r4_c1",
+          "source_sha256": "c6b782b73f67d4b44d8272982b3486af6c80c4cb7c4a5b1931384c7d2646d0fd"
+        },
+        {
+          "skill_index": 240,
+          "source_id": "g04_p002_r5_c2",
+          "source_sha256": "f03779a7b4ffe5e2015c199e27304da6e1a84484279d7517ffafee76c9e96788"
+        },
+        {
+          "skill_index": 576,
+          "source_id": "g04_p005_r2_c2",
+          "source_sha256": "118f9f6369261f4417443dac9efd529a907fae7bbf61c800d3d07f224559ea4d"
+        },
+        {
+          "skill_index": 64,
+          "source_id": "g05_p001_r1_c2",
+          "source_sha256": "14dc29176f21a42525f7ad65d4abe45b22566c9a1d9e89196204c3b18ef18042"
+        },
+        {
+          "skill_index": 264,
+          "source_id": "g05_p002_r3_c2",
+          "source_sha256": "2b0ca65de520f03f7379b88f42ecef644b088d53b483f2df7dffcb7dfdfd98d4"
+        },
+        {
+          "skill_index": 687,
+          "source_id": "g08_p002_r3_c2",
+          "source_sha256": "d9c643d6d6f2bbdd91376e3c0ba043a6ee81064ea64241b8bc7712c52e0dbcfd"
+        }
+      ]
     },
     "8": {
-      "effect_name": "골드 획득량",
-      "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "effect_name": "모든 용병의 추가 데미지",
+      "format": "raw",
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 362,
+          "source_id": "g05_p003_r1_c2",
+          "source_sha256": "a4f7c6253e1101902eec8e1645879ab9f47b2da74577718a6d3471c1c6927f6e"
+        }
+      ]
     },
     "9": {
       "effect_name": "공격 속도",
       "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 78,
+          "source_id": "g02_p001_r1_c2",
+          "source_sha256": "3f154455de38b47461026bd61491ab3c7c92e2e23d98eba69d48422c66a00a86"
+        },
+        {
+          "skill_index": 79,
+          "source_id": "g02_p001_r2_c1",
+          "source_sha256": "6423820624503d41b6c5360b7b65c68024066e6d497b9cda470ff33c2277e8ac"
+        },
+        {
+          "skill_index": 99,
+          "source_id": "g02_p001_r4_c1",
+          "source_sha256": "cf3cf87afddeefa38510be1659e9856431be49687e4d50b44deebb0de1bb4cd7"
+        },
+        {
+          "skill_index": 328,
+          "source_id": "g03_p002_r3_c2",
+          "source_sha256": "1275023db10532e0a8e2bb09ec6f4dd7c4981b4f406dfe609842fbc56f6735ed"
+        },
+        {
+          "skill_index": 80,
+          "source_id": "g04_p001_r1_c2",
+          "source_sha256": "a812f206c62121ba56394fa535068c185b401b41f20bcba0b2d343e78e997c9b"
+        },
+        {
+          "skill_index": 114,
+          "source_id": "g04_p001_r5_c1",
+          "source_sha256": "ea378ae88e59747796c4597042c25c35160ec99b64f9b22018976e0821b5ec42"
+        },
+        {
+          "skill_index": 466,
+          "source_id": "g04_p004_r4_c1",
+          "source_sha256": "a7ffe4319d65dfd2c141adfbde3af0f0e47f88810a7fbff6c31b1de109ac6dbb"
+        },
+        {
+          "skill_index": 576,
+          "source_id": "g04_p005_r2_c2",
+          "source_sha256": "118f9f6369261f4417443dac9efd529a907fae7bbf61c800d3d07f224559ea4d"
+        },
+        {
+          "skill_index": 64,
+          "source_id": "g05_p001_r1_c2",
+          "source_sha256": "14dc29176f21a42525f7ad65d4abe45b22566c9a1d9e89196204c3b18ef18042"
+        },
+        {
+          "skill_index": 264,
+          "source_id": "g05_p002_r3_c2",
+          "source_sha256": "2b0ca65de520f03f7379b88f42ecef644b088d53b483f2df7dffcb7dfdfd98d4"
+        },
+        {
+          "skill_index": 416,
+          "source_id": "g05_p003_r3_c1",
+          "source_sha256": "e06a489dce3f28452581abc49507cbf570f84546061df679a2cb0fdd1d73e83b"
+        },
+        {
+          "skill_index": 417,
+          "source_id": "g05_p003_r3_c2",
+          "source_sha256": "4734d4baff67a7b2735f45a645e244a6c66ecf4e995fcfdc29353f12285ed129"
+        },
+        {
+          "skill_index": 449,
+          "source_id": "g05_p003_r4_c1",
+          "source_sha256": "1e454c7a7146e1d7b5833d2b3d5b93f8b4e6f10530d7a8e00ddf96481cf04766"
+        },
+        {
+          "skill_index": 450,
+          "source_id": "g05_p003_r4_c2",
+          "source_sha256": "62546607d9711bf1d5401def693e54ea3f3c7366929851d28f57e26592bfdcc8"
+        },
+        {
+          "skill_index": 311,
+          "source_id": "g06_p001_r5_c2",
+          "source_sha256": "cbda31cf6c01b177189200cbd456c43338647a6af3ec3fd53c2827a5880346e1"
+        },
+        {
+          "skill_index": 320,
+          "source_id": "g06_p002_r1_c2",
+          "source_sha256": "3a15546bfc48e96ff14ee1d37051d19d87eb35b4a1b5a8012c0df698292fb06f"
+        },
+        {
+          "skill_index": 401,
+          "source_id": "g06_p002_r3_c2",
+          "source_sha256": "6c883f2dd94ae1d18940d02e0f097d65919f29e83a46b7932d7c8ea1bd674794"
+        },
+        {
+          "skill_index": 457,
+          "source_id": "g06_p002_r5_c2",
+          "source_sha256": "0deefe457149d642d99fa351c0f8bba9a529e1fc44c020818ea90a46564423b5"
+        },
+        {
+          "skill_index": 183,
+          "source_id": "g07_p001_r1_c2",
+          "source_sha256": "a1105d1d6633e38db773818e66bdc0d52b000c427118cc4b8bcf1e095c55f2a5"
+        },
+        {
+          "skill_index": 242,
+          "source_id": "g07_p001_r3_c1",
+          "source_sha256": "e26488913d5a519a0fe470439f2c506b7b387fd1310f4efd02f4a354ac27e03e"
+        },
+        {
+          "skill_index": 359,
+          "source_id": "g07_p002_r1_c1",
+          "source_sha256": "cf60a4565e04e5f2f86ebe54087a81b23635d5325f7eb184a857906aede7cdd8"
+        },
+        {
+          "skill_index": 687,
+          "source_id": "g08_p002_r3_c2",
+          "source_sha256": "d9c643d6d6f2bbdd91376e3c0ba043a6ee81064ea64241b8bc7712c52e0dbcfd"
+        }
+      ]
     },
     "10": {
-      "effect_name": "모든 용병 공격 속도",
+      "effect_name": "모든 용병의 공격 속도",
       "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": false
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 317,
+          "source_id": "g03_p002_r3_c1",
+          "source_sha256": "bb4da9b7351d7f9b61450b8e73ec849146b1e6725f5354e252bd724d4a76f164"
+        },
+        {
+          "skill_index": 85,
+          "source_id": "g04_p001_r2_c1",
+          "source_sha256": "8fb1fba6a1cd8e94d6e139c831fe0f3bbbb9f24f9ae23085e438100c27a91a42"
+        },
+        {
+          "skill_index": 466,
+          "source_id": "g04_p004_r4_c1",
+          "source_sha256": "a7ffe4319d65dfd2c141adfbde3af0f0e47f88810a7fbff6c31b1de109ac6dbb"
+        },
+        {
+          "skill_index": 86,
+          "source_id": "g05_p001_r2_c1",
+          "source_sha256": "7e4851c7d8f2c3432a3bce76b5ffff6ae620b15003f39a6a1534ce19d9bfe8b8"
+        },
+        {
+          "skill_index": 582,
+          "source_id": "g05_p004_r4_c1",
+          "source_sha256": "2b9d50967ffa39985602ab92da6bd3cadffd096495ec430cd7acd74f44d08da7"
+        },
+        {
+          "skill_index": 583,
+          "source_id": "g06_p004_r3_c1",
+          "source_sha256": "bf16606a1aff178ad39e5a274965f02480d09015865f8cf79e1b765ae1258f37"
+        },
+        {
+          "skill_index": 421,
+          "source_id": "g07_p002_r3_c1",
+          "source_sha256": "ea91947a3abb40a7c5830c8136b82fa34973633eb906ed3631573ed2d9cd590f"
+        },
+        {
+          "skill_index": 526,
+          "source_id": "g07_p002_r4_c2",
+          "source_sha256": "f8adde6d22f0a333d093291fecb734f97acf2a2fc543450be1e2234b60e6b134"
+        },
+        {
+          "skill_index": 514,
+          "source_id": "g08_p001_r4_c1",
+          "source_sha256": "fc6629c84cf536a2110e239b5d5118f1d9da5ce6662641c32aebcf86a9b60935"
+        },
+        {
+          "skill_index": 569,
+          "source_id": "g08_p001_r4_c2",
+          "source_sha256": "63ae38de0af27e0497d16bf89e5a82f3b194602f0529291ddc723f12b33dd021"
+        },
+        {
+          "skill_index": 33,
+          "source_id": "g09_p001_r1_c1",
+          "source_sha256": "ac93020793acd2ff84a8e409f8e3fadcbaf17a22db05b25195acade34bf42eb9"
+        },
+        {
+          "skill_index": 59,
+          "source_id": "g09_p001_r1_c2",
+          "source_sha256": "76dbe9bb407ddd65b28b47ef332f133eced3e5d4d98c1b2c22a9084a7f535708"
+        }
+      ]
     },
     "11": {
-      "effect_name": "물리 용병 공격 속도",
+      "effect_name": "모든 물리 용병의 공격 속도",
       "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 586,
+          "source_id": "g08_p001_r5_c2",
+          "source_sha256": "87477ed1ff69423e450e951e97e80a271a12b0b00577d3432888c5724b2dce43"
+        },
+        {
+          "skill_index": 777,
+          "source_id": "g08_p002_r5_c2",
+          "source_sha256": "4ccf8801e84394c0d6bde103eae85e1c9cd09e2c083db2212b2d418500108d4c"
+        }
+      ]
     },
     "12": {
-      "effect_name": "클릭 저항력 감소",
+      "effect_name": "모든 마법 용병의 공격 속도",
       "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 472,
+          "source_id": "g08_p001_r3_c1",
+          "source_sha256": "dea0626f4363a1beb90e02559dc4202f6619d230026d442198a0648afacd448d"
+        }
+      ]
     },
     "14": {
-      "effect_name": "클릭 크리티컬 확률",
+      "effect_name": "모든 카오스 용병의 공격 속도",
       "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 408,
+          "source_id": "g07_p002_r2_c1",
+          "source_sha256": "b4bedb9cfff1044535d2ad24c16f996382217faee9d260ad97a750b7af61c0fe"
+        }
+      ]
     },
     "15": {
       "effect_name": "클릭 데미지",
       "format": "pct",
-      "base_multiplier": 200.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 109,
+          "source_id": "g03_p001_r3_c2",
+          "source_sha256": "c1dc1395f610f3d46e2787638deba3f0f8c708600fbfe0e8f9176e7b3c5d624a"
+        },
+        {
+          "skill_index": 377,
+          "source_id": "g04_p004_r2_c1",
+          "source_sha256": "fcee4a94748bd261f8f4006ea7a29842f4aef595db3f43fcb141ac70f3a97f14"
+        },
+        {
+          "skill_index": 416,
+          "source_id": "g05_p003_r3_c1",
+          "source_sha256": "e06a489dce3f28452581abc49507cbf570f84546061df679a2cb0fdd1d73e83b"
+        },
+        {
+          "skill_index": 417,
+          "source_id": "g05_p003_r3_c2",
+          "source_sha256": "4734d4baff67a7b2735f45a645e244a6c66ecf4e995fcfdc29353f12285ed129"
+        },
+        {
+          "skill_index": 573,
+          "source_id": "g06_p004_r1_c2",
+          "source_sha256": "f74a90e1652d1583d384785dab2e6826bb99cb9b017e72047d69e56f58c0e7c4"
+        }
+      ]
     },
     "16": {
-      "effect_name": "모든 용병 클릭 데미지",
+      "effect_name": "모든 용병의 클릭 데미지",
       "format": "pct",
-      "base_multiplier": 200.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 87,
+          "source_id": "g01_p001_r2_c2",
+          "source_sha256": "1751172df62e94b8a0b928aee55b0adf8884fcd91efac55ad2ce119495d3cf6c"
+        },
+        {
+          "skill_index": 88,
+          "source_id": "g02_p001_r3_c1",
+          "source_sha256": "f6acaa3075c19c5aa82d4af68b06fb6beb30b6f9d954e0ab1024c0f20c2c0370"
+        },
+        {
+          "skill_index": 115,
+          "source_id": "g02_p001_r5_c2",
+          "source_sha256": "8025ccd3c98f799a34f39e65e3faa58d3529e8ce7f6fe98c0675dae54aebc2d7"
+        },
+        {
+          "skill_index": 89,
+          "source_id": "g03_p001_r1_c2",
+          "source_sha256": "89a5cf6e64a86700aeebd9d08a2e762f425a01525b47385f1f9a70372c403d8d"
+        },
+        {
+          "skill_index": 122,
+          "source_id": "g03_p001_r4_c1",
+          "source_sha256": "e7ee07dc3d1be32e4e7340eab9dd913b171f21a3903ff08c7efe97af9f2ba7e5"
+        },
+        {
+          "skill_index": 326,
+          "source_id": "g04_p003_r4_c2",
+          "source_sha256": "eb432f25b710c54cfe4c7e4fbf949135f8c0f612249541feeb30e9dc7d9f9c08"
+        },
+        {
+          "skill_index": 504,
+          "source_id": "g04_p005_r1_c1",
+          "source_sha256": "7cdc67f2610babdf17a2e826fae49c5fa9084b9a0cf41cc7aeefe0d5bb2e61be"
+        },
+        {
+          "skill_index": 191,
+          "source_id": "g05_p001_r5_c1",
+          "source_sha256": "3b90bde82d63bf7386e63b3ef25e05f307fb2cb6e1c84e89723c08eb254174c2"
+        },
+        {
+          "skill_index": 572,
+          "source_id": "g05_p004_r3_c1",
+          "source_sha256": "411cead653e30bed9251919ffbb7b9e4118c85525df904f764877671df5b57d7"
+        },
+        {
+          "skill_index": 548,
+          "source_id": "g06_p003_r5_c2",
+          "source_sha256": "922d29ac799bcb432b732fdc6d03ef7aae9379db7be9001d5f1f1101ab13faf5"
+        },
+        {
+          "skill_index": 574,
+          "source_id": "g06_p004_r2_c1",
+          "source_sha256": "ad24f419b3cbbb49c4c7570f01834ac21d73cf97baf51ee8c5f7c5d01a48bbf0"
+        },
+        {
+          "skill_index": 577,
+          "source_id": "g07_p003_r1_c1",
+          "source_sha256": "99be6b8987542fb2ed8d91731dd8f846bde2728b91e0d15d3cc1a1966d3d11de"
+        },
+        {
+          "skill_index": 988,
+          "source_id": "g09_p002_r5_c2",
+          "source_sha256": "a5cce93833808fee694a9630e19d105ce03aee917b575ca7ffb8ebafc79e38a5"
+        }
+      ]
     },
     "17": {
-      "effect_name": "모든 용병 베이스 데미지",
+      "effect_name": "모든 용병의 베이스 데미지",
       "format": "pct",
-      "base_multiplier": 300.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 191,
+          "source_id": "g05_p001_r5_c1",
+          "source_sha256": "3b90bde82d63bf7386e63b3ef25e05f307fb2cb6e1c84e89723c08eb254174c2"
+        },
+        {
+          "skill_index": 537,
+          "source_id": "g05_p004_r2_c2",
+          "source_sha256": "4522a258839516e6e9088add519b09cbda9460707632b6e839dbe7132fb0ed7b"
+        },
+        {
+          "skill_index": 572,
+          "source_id": "g05_p004_r3_c1",
+          "source_sha256": "411cead653e30bed9251919ffbb7b9e4118c85525df904f764877671df5b57d7"
+        },
+        {
+          "skill_index": 574,
+          "source_id": "g06_p004_r2_c1",
+          "source_sha256": "ad24f419b3cbbb49c4c7570f01834ac21d73cf97baf51ee8c5f7c5d01a48bbf0"
+        },
+        {
+          "skill_index": 577,
+          "source_id": "g07_p003_r1_c1",
+          "source_sha256": "99be6b8987542fb2ed8d91731dd8f846bde2728b91e0d15d3cc1a1966d3d11de"
+        },
+        {
+          "skill_index": 578,
+          "source_id": "g07_p003_r1_c2",
+          "source_sha256": "310e3821701999321561b10630e74a31e65a155207ccf8ed673dc902aafd917f"
+        }
+      ]
     },
     "18": {
       "effect_name": "최대 레벨",
       "format": "raw",
-      "base_multiplier": 1.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 531,
+          "source_id": "g04_p005_r2_c1",
+          "source_sha256": "62f0389eeb63b1cdcf95790a11bf5de514dac4bae8e11aa40688081c28ea6cd0"
+        },
+        {
+          "skill_index": 449,
+          "source_id": "g05_p003_r4_c1",
+          "source_sha256": "1e454c7a7146e1d7b5833d2b3d5b93f8b4e6f10530d7a8e00ddf96481cf04766"
+        },
+        {
+          "skill_index": 450,
+          "source_id": "g05_p003_r4_c2",
+          "source_sha256": "62546607d9711bf1d5401def693e54ea3f3c7366929851d28f57e26592bfdcc8"
+        },
+        {
+          "skill_index": 458,
+          "source_id": "g05_p003_r5_c1",
+          "source_sha256": "fef9764817a8a6c0c5e9d92659799b2c9825ced0e3545be9a9e6170b91596c03"
+        },
+        {
+          "skill_index": 492,
+          "source_id": "g06_p003_r2_c2",
+          "source_sha256": "5b98b285f4d26692c047cd2da1fcafb98a39e6b44075b29795a60a6666a8a610"
+        }
+      ]
     },
     "19": {
-      "effect_name": "모든 용병 최대 레벨",
+      "effect_name": "모든 용병의 최대 레벨",
       "format": "raw",
-      "base_multiplier": 1.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 355,
+          "source_id": "g04_p004_r1_c2",
+          "source_sha256": "7a594cce9734229ee4b9b63f0fed42640cda8b4e80d4cee5ec4f8424d48d2d97"
+        },
+        {
+          "skill_index": 459,
+          "source_id": "g05_p003_r5_c2",
+          "source_sha256": "170aa0aec5d3533dcd6cebb7a2869f9cb08ad42941fb2fcb21e10637eeaaff0a"
+        },
+        {
+          "skill_index": 581,
+          "source_id": "g05_p004_r3_c2",
+          "source_sha256": "c656f9a3d8366ff60d4d164fb6d1af2d445de3bc740ecc15c396a04e836d5b04"
+        },
+        {
+          "skill_index": 4,
+          "source_id": "g06_p001_r1_c1",
+          "source_sha256": "5fbc70721165d49d3e8c03793f3d0d8afa5dc5ff571a1cfda62e27dacd3eb644"
+        },
+        {
+          "skill_index": 460,
+          "source_id": "g06_p003_r1_c1",
+          "source_sha256": "2a196c374f27de27faa24614c7a14ebd60dc0192c4b96bbe55b5b3fe671549ae"
+        },
+        {
+          "skill_index": 359,
+          "source_id": "g07_p002_r1_c1",
+          "source_sha256": "cf60a4565e04e5f2f86ebe54087a81b23635d5325f7eb184a857906aede7cdd8"
+        },
+        {
+          "skill_index": 578,
+          "source_id": "g07_p003_r1_c2",
+          "source_sha256": "310e3821701999321561b10630e74a31e65a155207ccf8ed673dc902aafd917f"
+        },
+        {
+          "skill_index": 652,
+          "source_id": "g07_p003_r3_c1",
+          "source_sha256": "cf880558a8a2478eac34943a803ed0013c91563d9729c4a5190a3ccb71e69686"
+        },
+        {
+          "skill_index": 653,
+          "source_id": "g08_p002_r2_c2",
+          "source_sha256": "403d1f9129fd84c5f5ee0a9720fba8b09e65c0b1d31b98636e560760c0297bec"
+        }
+      ]
     },
     "20": {
       "effect_name": "강타 확률",
       "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 467,
+          "source_id": "g04_p004_r4_c2",
+          "source_sha256": "2307f18a1b80507ae33353338ef2f69dd1bbc8aa37dcd71c8b07318bd7313814"
+        },
+        {
+          "skill_index": 226,
+          "source_id": "g05_p002_r2_c2",
+          "source_sha256": "c992e45fbd340d5dcd93e8ece61f148ee658e26dae309b3b7b5bb9147c7ccde0"
+        },
+        {
+          "skill_index": 274,
+          "source_id": "g05_p002_r4_c1",
+          "source_sha256": "6ae8a56937482faf2cdb46d61f02d42c49f7ff7c471eab788292b7f67548746b"
+        },
+        {
+          "skill_index": 389,
+          "source_id": "g05_p003_r2_c1",
+          "source_sha256": "08e90a878da952843b29cbf850c020384ba66db1b3fed65048c3d5060e49656e"
+        },
+        {
+          "skill_index": 314,
+          "source_id": "g06_p002_r1_c1",
+          "source_sha256": "f6fea39861bbf4c316158ece38e79bfb2aabcffe5b20bb1dff65589bc911b20f"
+        },
+        {
+          "skill_index": 365,
+          "source_id": "g06_p002_r3_c1",
+          "source_sha256": "58d673d6938a8d3bb4d63e1de938314fc0c1ca960bb6af92fb6304ea1c9e6794"
+        },
+        {
+          "skill_index": 436,
+          "source_id": "g06_p002_r4_c2",
+          "source_sha256": "1d67cce947b404d949ffdd74d5712927e1e1f2c132d1a75402a71624c7af1ce1"
+        },
+        {
+          "skill_index": 104,
+          "source_id": "g07_p001_r1_c1",
+          "source_sha256": "d67e6b22891cb9f8f145ad91c591db5d266d5e45993bd6b6eaf32d201cbb35cf"
+        },
+        {
+          "skill_index": 269,
+          "source_id": "g07_p001_r4_c1",
+          "source_sha256": "8fb534ee9d05b7f3152ccdb978eed73ac4515024652d7abb1079ec5cd9508a28"
+        },
+        {
+          "skill_index": 292,
+          "source_id": "g07_p001_r5_c1",
+          "source_sha256": "6abde0d6d41be8daffec187a3f2c191a74b046033e40a13e5ad56fafeaeee53b"
+        },
+        {
+          "skill_index": 519,
+          "source_id": "g07_p002_r4_c1",
+          "source_sha256": "3eb50dad9edbede3118e9d3ab4b01d53b5198b000dc401496add01aef258af29"
+        },
+        {
+          "skill_index": 579,
+          "source_id": "g08_p001_r5_c1",
+          "source_sha256": "b12c824fa07deeaa958ba2e937c3c9cbe61f8ff67a0c113c33f3a0bd30b018eb"
+        },
+        {
+          "skill_index": 241,
+          "source_id": "g09_p001_r4_c1",
+          "source_sha256": "58dd33f75766f59f028744f465be09b92b52926f6caba3227b81a2b0553884b6"
+        },
+        {
+          "skill_index": 251,
+          "source_id": "g09_p001_r4_c2",
+          "source_sha256": "b8bbdc46e5be46d6b6137481968930fc65c4a82b006e98e502fd24fc1d517797"
+        },
+        {
+          "skill_index": 289,
+          "source_id": "g09_p001_r5_c1",
+          "source_sha256": "9de1fd20f94d1c1967960539f680f1c79822ca5c3f5d13c4a1673807295d69b5"
+        }
+      ]
     },
     "21": {
-      "effect_name": "모든 용병 강타 확률",
+      "effect_name": "모든 용병의 강타 확률",
       "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 467,
+          "source_id": "g04_p004_r4_c2",
+          "source_sha256": "2307f18a1b80507ae33353338ef2f69dd1bbc8aa37dcd71c8b07318bd7313814"
+        },
+        {
+          "skill_index": 314,
+          "source_id": "g06_p002_r1_c1",
+          "source_sha256": "f6fea39861bbf4c316158ece38e79bfb2aabcffe5b20bb1dff65589bc911b20f"
+        },
+        {
+          "skill_index": 253,
+          "source_id": "g07_p001_r3_c2",
+          "source_sha256": "49f0e62a3999a76f8bce60ba131779566dcecac0eac3264d807b2f73300fd3e9"
+        },
+        {
+          "skill_index": 71,
+          "source_id": "g09_p001_r2_c1",
+          "source_sha256": "4260c9aa29357abd0d499b4be3be3433b65e461c51a210e0570b2b6e7775edd9"
+        },
+        {
+          "skill_index": 251,
+          "source_id": "g09_p001_r4_c2",
+          "source_sha256": "b8bbdc46e5be46d6b6137481968930fc65c4a82b006e98e502fd24fc1d517797"
+        },
+        {
+          "skill_index": 468,
+          "source_id": "g09_p002_r1_c1",
+          "source_sha256": "d258836afe1007da70ddb76f69a7b0f9be0214a6b8854d986e1e1c6dc2a2d621"
+        },
+        {
+          "skill_index": 828,
+          "source_id": "g09_p002_r5_c1",
+          "source_sha256": "67ce99c9a25a1ea80234667edc4d31c440a07f48561ef9192dab374db59a0cee"
+        }
+      ]
     },
     "22": {
-      "effect_name": "물리 용병 강타 확률",
+      "effect_name": "모든 물리 용병의 강타 확률",
       "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 586,
+          "source_id": "g08_p001_r5_c2",
+          "source_sha256": "87477ed1ff69423e450e951e97e80a271a12b0b00577d3432888c5724b2dce43"
+        },
+        {
+          "skill_index": 777,
+          "source_id": "g08_p002_r5_c2",
+          "source_sha256": "4ccf8801e84394c0d6bde103eae85e1c9cd09e2c083db2212b2d418500108d4c"
+        }
+      ]
     },
     "23": {
-      "effect_name": "자동 클릭 속도",
+      "effect_name": "모든 마법 용병의 강타 확률",
       "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 71,
+          "source_id": "g09_p001_r2_c1",
+          "source_sha256": "4260c9aa29357abd0d499b4be3be3433b65e461c51a210e0570b2b6e7775edd9"
+        }
+      ]
     },
     "26": {
       "effect_name": "강타 배수",
       "format": "raw",
-      "base_multiplier": 1.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 257,
+          "source_id": "g04_p003_r1_c1",
+          "source_sha256": "ecc37d94222ea68a636c374cccb61b08b98fdef048dc963e9b816d9304c56ea0"
+        },
+        {
+          "skill_index": 337,
+          "source_id": "g04_p003_r5_c1",
+          "source_sha256": "00fca71f7f2b1bc7cf991e00f05c47c97a5e67423fc77513e8c4b424ced47c07"
+        },
+        {
+          "skill_index": 267,
+          "source_id": "g06_p001_r4_c2",
+          "source_sha256": "8e7ba4d89bc47a6e186a84a82bd4a1c222941d3104e9cc77cfa8721b16ba305e"
+        },
+        {
+          "skill_index": 314,
+          "source_id": "g06_p002_r1_c1",
+          "source_sha256": "f6fea39861bbf4c316158ece38e79bfb2aabcffe5b20bb1dff65589bc911b20f"
+        },
+        {
+          "skill_index": 436,
+          "source_id": "g06_p002_r4_c2",
+          "source_sha256": "1d67cce947b404d949ffdd74d5712927e1e1f2c132d1a75402a71624c7af1ce1"
+        },
+        {
+          "skill_index": 457,
+          "source_id": "g06_p002_r5_c2",
+          "source_sha256": "0deefe457149d642d99fa351c0f8bba9a529e1fc44c020818ea90a46564423b5"
+        },
+        {
+          "skill_index": 502,
+          "source_id": "g06_p003_r4_c1",
+          "source_sha256": "a07e9609f3aff2867ec62da92ffd5d5ba4abeb89ff00cae8cdcc628fb8fc2b21"
+        },
+        {
+          "skill_index": 549,
+          "source_id": "g06_p004_r1_c1",
+          "source_sha256": "232b925a5000d45cc97aa10473dc0323affaf506eedca88b8d1515fe0520f995"
+        },
+        {
+          "skill_index": 230,
+          "source_id": "g07_p001_r2_c1",
+          "source_sha256": "6ed21da4729686dc1834cd9dd4cbffe79d4ec2bf7c42b5d0996ef1643b7bcffd"
+        },
+        {
+          "skill_index": 364,
+          "source_id": "g07_p002_r1_c2",
+          "source_sha256": "1152eaea9ad2ca62596dee7d6df7af78b706e04db3756d351311371633fcf60a"
+        },
+        {
+          "skill_index": 579,
+          "source_id": "g08_p001_r5_c1",
+          "source_sha256": "b12c824fa07deeaa958ba2e937c3c9cbe61f8ff67a0c113c33f3a0bd30b018eb"
+        },
+        {
+          "skill_index": 241,
+          "source_id": "g09_p001_r4_c1",
+          "source_sha256": "58dd33f75766f59f028744f465be09b92b52926f6caba3227b81a2b0553884b6"
+        },
+        {
+          "skill_index": 363,
+          "source_id": "g09_p001_r5_c2",
+          "source_sha256": "bd392955f89441bcb63d191a9c1530f895ce3b6e425aa23c09033f015decd984"
+        }
+      ]
     },
     "27": {
-      "effect_name": "추가 클릭 확률",
-      "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "effect_name": "모든 용병의 강타 배수",
+      "format": "raw",
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 582,
+          "source_id": "g05_p004_r4_c1",
+          "source_sha256": "2b9d50967ffa39985602ab92da6bd3cadffd096495ec430cd7acd74f44d08da7"
+        },
+        {
+          "skill_index": 4,
+          "source_id": "g06_p001_r1_c1",
+          "source_sha256": "5fbc70721165d49d3e8c03793f3d0d8afa5dc5ff571a1cfda62e27dacd3eb644"
+        },
+        {
+          "skill_index": 580,
+          "source_id": "g06_p004_r2_c2",
+          "source_sha256": "101a009cd664893b685c59ac6780bce43f0f7ece1d3df228a729d2eb84d748c6"
+        },
+        {
+          "skill_index": 583,
+          "source_id": "g06_p004_r3_c1",
+          "source_sha256": "bf16606a1aff178ad39e5a274965f02480d09015865f8cf79e1b765ae1258f37"
+        },
+        {
+          "skill_index": 997,
+          "source_id": "g06_p005_r1_c2",
+          "source_sha256": "947f36cc4d5dbdb40f5537f18ddd2508cdc896c7fe2c8f89a399635fb69d1f1f"
+        },
+        {
+          "skill_index": 283,
+          "source_id": "g07_p001_r4_c2",
+          "source_sha256": "25d02dbd397d3f52253a1f562ed4917dd1fb8b337e1cf7c6e0df4505cbf13b1b"
+        },
+        {
+          "skill_index": 526,
+          "source_id": "g07_p002_r4_c2",
+          "source_sha256": "f8adde6d22f0a333d093291fecb734f97acf2a2fc543450be1e2234b60e6b134"
+        },
+        {
+          "skill_index": 998,
+          "source_id": "g07_p003_r5_c2",
+          "source_sha256": "92b5ba8167ee0dfaf7cab1bd9c47106874553d50df171975d738d05213cace3a"
+        },
+        {
+          "skill_index": 514,
+          "source_id": "g08_p001_r4_c1",
+          "source_sha256": "fc6629c84cf536a2110e239b5d5118f1d9da5ce6662641c32aebcf86a9b60935"
+        },
+        {
+          "skill_index": 999,
+          "source_id": "g08_p003_r1_c1",
+          "source_sha256": "9adbaec8453ad302b4ff836913e49d84aa3a3daa49eafa479ea5d349af3b31ec"
+        },
+        {
+          "skill_index": 71,
+          "source_id": "g09_p001_r2_c1",
+          "source_sha256": "4260c9aa29357abd0d499b4be3be3433b65e461c51a210e0570b2b6e7775edd9"
+        },
+        {
+          "skill_index": 251,
+          "source_id": "g09_p001_r4_c2",
+          "source_sha256": "b8bbdc46e5be46d6b6137481968930fc65c4a82b006e98e502fd24fc1d517797"
+        },
+        {
+          "skill_index": 828,
+          "source_id": "g09_p002_r5_c1",
+          "source_sha256": "67ce99c9a25a1ea80234667edc4d31c440a07f48561ef9192dab374db59a0cee"
+        }
+      ]
     },
     "28": {
-      "effect_name": "공격 무효화 관통",
-      "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "effect_name": "모든 물리 용병의 강타 배수",
+      "format": "raw",
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 871,
+          "source_id": "g07_p003_r5_c1",
+          "source_sha256": "e6b025d7ffaf5422af3f4725f590d9e5f0787d0d6bc9c78b2519bee83118c241"
+        }
+      ]
     },
     "29": {
-      "effect_name": "마법 용병 강타 배수",
+      "effect_name": "모든 마법 용병의 강타 배수",
       "format": "raw",
-      "base_multiplier": 1.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 229,
+          "source_id": "g04_p002_r5_c1",
+          "source_sha256": "245dbd89d6f32265d12469756e11719e4454f9d11a873b87f17cd3250123ea0d"
+        },
+        {
+          "skill_index": 283,
+          "source_id": "g07_p001_r4_c2",
+          "source_sha256": "25d02dbd397d3f52253a1f562ed4917dd1fb8b337e1cf7c6e0df4505cbf13b1b"
+        },
+        {
+          "skill_index": 445,
+          "source_id": "g07_p002_r3_c2",
+          "source_sha256": "fa9268f7fbd245fd866437a3ec2d062638595a259a415c22b93ae921ef43e4c0"
+        }
+      ]
     },
     "30": {
-      "effect_name": "최대 레벨",
+      "effect_name": "모든 혼합 용병의 강타 배수",
       "format": "raw",
-      "base_multiplier": 1.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 656,
+          "source_id": "g08_p002_r3_c1",
+          "source_sha256": "019e6fa28ececb76fe15672356d2c1726735e4651b66f1befca1419e9e9a74f2"
+        }
+      ]
     },
     "32": {
       "effect_name": "연타 확률",
       "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 531,
+          "source_id": "g04_p005_r2_c1",
+          "source_sha256": "62f0389eeb63b1cdcf95790a11bf5de514dac4bae8e11aa40688081c28ea6cd0"
+        },
+        {
+          "skill_index": 234,
+          "source_id": "g05_p002_r3_c1",
+          "source_sha256": "18bb14723714e45360dad343700a64a019d1d615831073dadee9ba61b0cee3f1"
+        },
+        {
+          "skill_index": 280,
+          "source_id": "g06_p001_r5_c1",
+          "source_sha256": "391e4a19e528b5eecb99c964e35e2ff369ad1298ff6ec1bd3c68ae6466a1757e"
+        },
+        {
+          "skill_index": 549,
+          "source_id": "g06_p004_r1_c1",
+          "source_sha256": "232b925a5000d45cc97aa10473dc0323affaf506eedca88b8d1515fe0520f995"
+        },
+        {
+          "skill_index": 237,
+          "source_id": "g07_p001_r2_c2",
+          "source_sha256": "e85164d1199c33311c0e0ec8612b1cd66948ea5709d29031b0f3890c094c5dd4"
+        },
+        {
+          "skill_index": 276,
+          "source_id": "g08_p001_r2_c2",
+          "source_sha256": "9b545579b3abc2d033f732ed6b86f388d3e70e5f876a2b24fc6a5e24f20f32c8"
+        }
+      ]
     },
     "38": {
       "effect_name": "클릭 크리티컬 확률",
       "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 93,
+          "source_id": "g04_p001_r2_c2",
+          "source_sha256": "c46ef7e916619fbdbff5f551c610878cc84462ae12ee652b5c5b5721ce5721d9"
+        },
+        {
+          "skill_index": 97,
+          "source_id": "g04_p001_r3_c2",
+          "source_sha256": "8ca25a343b4bb428858a3a95e5ec0b852e957a62600db348654924a47b77f9c9"
+        },
+        {
+          "skill_index": 117,
+          "source_id": "g04_p001_r5_c2",
+          "source_sha256": "970fa12538686cb4b18aad9809ec3957afc2febd31366e32ed7ca9ac8d77870c"
+        },
+        {
+          "skill_index": 326,
+          "source_id": "g04_p003_r4_c2",
+          "source_sha256": "eb432f25b710c54cfe4c7e4fbf949135f8c0f612249541feeb30e9dc7d9f9c08"
+        },
+        {
+          "skill_index": 321,
+          "source_id": "g06_p002_r2_c1",
+          "source_sha256": "3e85a248a53cb100114ab83d1da88f9fdc30a5644f181b88bbc65152ea8f5a6f"
+        },
+        {
+          "skill_index": 890,
+          "source_id": "g06_p005_r1_c1",
+          "source_sha256": "0d8da6a3733f968223e24195cdb60bf435c3c4d52365172e9cb8d828d6edeffc"
+        },
+        {
+          "skill_index": 595,
+          "source_id": "g07_p003_r2_c1",
+          "source_sha256": "1f2cb87273aa0ff514ed0574623e06d2c6e3e4d2811b34f9cff298d1a1ac9668"
+        },
+        {
+          "skill_index": 140,
+          "source_id": "g08_p001_r1_c2",
+          "source_sha256": "8db56cb6917c179de2b1f4adeeeb4e0c38ca8f4457ac80b72ae036a222c1ba8e"
+        },
+        {
+          "skill_index": 177,
+          "source_id": "g08_p001_r2_c1",
+          "source_sha256": "f06fae290dbc6e457cecdca8204ce63bed2ad252786d33302239cf3ef67b26ae"
+        },
+        {
+          "skill_index": 176,
+          "source_id": "g09_p001_r3_c1",
+          "source_sha256": "45eb3c8a81b73f7053ea78fae0dd65c172b8788da388a77f6400d7fd88f85a99"
+        }
+      ]
     },
     "39": {
       "effect_name": "클릭 크리티컬 배수",
       "format": "raw",
-      "base_multiplier": 1.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 98,
+          "source_id": "g04_p001_r4_c1",
+          "source_sha256": "c6b782b73f67d4b44d8272982b3486af6c80c4cb7c4a5b1931384c7d2646d0fd"
+        },
+        {
+          "skill_index": 123,
+          "source_id": "g04_p002_r1_c1",
+          "source_sha256": "0dce33713a389475ddc56356f18a0f40a70de2c2b777a435c61de00a142a23db"
+        },
+        {
+          "skill_index": 163,
+          "source_id": "g04_p002_r3_c1",
+          "source_sha256": "15abdb5b5b7cf538f1032de8157d795a023e638b0b5357e9a4ea694a59ef2ec0"
+        },
+        {
+          "skill_index": 260,
+          "source_id": "g04_p003_r2_c1",
+          "source_sha256": "b79ed9c06b34262641d6cec3b36b1d45bc0090f459f6c01e3d18b27180a53e12"
+        },
+        {
+          "skill_index": 476,
+          "source_id": "g08_p001_r3_c2",
+          "source_sha256": "56043bda2ef1f1784bd2e71e451eb7cf128ab1f055d96c5135255a4d71039ed1"
+        },
+        {
+          "skill_index": 143,
+          "source_id": "g09_p001_r2_c2",
+          "source_sha256": "a0ab773253e0c7ff782c75c73d69679d099cfc79fad993dd5ef1b26cca2f55ac"
+        },
+        {
+          "skill_index": 203,
+          "source_id": "g09_p001_r3_c2",
+          "source_sha256": "3d83d436c5bc5e203e49e877550aefbebee31bc98296890f316871c36c9f15ad"
+        }
+      ]
     },
     "40": {
       "effect_name": "소울 클릭 확률",
       "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 263,
+          "source_id": "g06_p001_r4_c1",
+          "source_sha256": "038e73f20dde84d083dd3054c9e3a7eec60e5b56d5c5bc7d83a98c6082b79a41"
+        },
+        {
+          "skill_index": 59,
+          "source_id": "g09_p001_r1_c2",
+          "source_sha256": "76dbe9bb407ddd65b28b47ef332f133eced3e5d4d98c1b2c22a9084a7f535708"
+        },
+        {
+          "skill_index": 493,
+          "source_id": "g09_p002_r1_c2",
+          "source_sha256": "9b4c2fe67e7112b917a8ca6ab516936e22151277b85bf9f4ddcb5589f64844b2"
+        }
+      ]
     },
     "41": {
       "effect_name": "자동 클릭 확률",
       "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 258,
+          "source_id": "g04_p003_r1_c2",
+          "source_sha256": "02f774b46ed8acc72bbdb5e76613afc50758da767775c7e5d8363e97bc1094cc"
+        },
+        {
+          "skill_index": 599,
+          "source_id": "g05_p004_r4_c2",
+          "source_sha256": "ecd2b923e0cebdbdac419d71ab6b1314096be88b8d36e8b900ce349f157128b8"
+        },
+        {
+          "skill_index": 491,
+          "source_id": "g06_p003_r2_c1",
+          "source_sha256": "24d8307f4a4f08430420db3b9d303817fe839f15b125f27e16b0f09893ab54c1"
+        },
+        {
+          "skill_index": 605,
+          "source_id": "g08_p002_r1_c1",
+          "source_sha256": "c79bedd6b52ef90e378c1b1853bf91e7d626bd71987b6cc1e20da02aa4c5a356"
+        }
+      ]
     },
     "42": {
       "effect_name": "자동 클릭 속도",
       "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 261,
+          "source_id": "g04_p003_r2_c2",
+          "source_sha256": "954dc9201906515103fca6bd2fc94aa1671b10aa6419722a8c152e36a953a69f"
+        },
+        {
+          "skill_index": 599,
+          "source_id": "g05_p004_r4_c2",
+          "source_sha256": "ecd2b923e0cebdbdac419d71ab6b1314096be88b8d36e8b900ce349f157128b8"
+        },
+        {
+          "skill_index": 262,
+          "source_id": "g06_p001_r3_c2",
+          "source_sha256": "907f72c67167d09c284c6ed6c5a7a9517e0b67cf7949fb8cd749d255bb1be03e"
+        },
+        {
+          "skill_index": 344,
+          "source_id": "g06_p002_r2_c2",
+          "source_sha256": "a6b1fffec4452516fd408ff9adac8041024ab2fd4707969212341c8989a65f55"
+        },
+        {
+          "skill_index": 491,
+          "source_id": "g06_p003_r2_c1",
+          "source_sha256": "24d8307f4a4f08430420db3b9d303817fe839f15b125f27e16b0f09893ab54c1"
+        },
+        {
+          "skill_index": 605,
+          "source_id": "g08_p002_r1_c1",
+          "source_sha256": "c79bedd6b52ef90e378c1b1853bf91e7d626bd71987b6cc1e20da02aa4c5a356"
+        }
+      ]
     },
     "43": {
       "effect_name": "추가 클릭 확률",
       "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 339,
+          "source_id": "g04_p004_r1_c1",
+          "source_sha256": "cbe3a41def03d32ddf7b603f62141305c50c253038da3d6cb2ae804f5f99e98d"
+        },
+        {
+          "skill_index": 344,
+          "source_id": "g06_p002_r2_c2",
+          "source_sha256": "a6b1fffec4452516fd408ff9adac8041024ab2fd4707969212341c8989a65f55"
+        },
+        {
+          "skill_index": 573,
+          "source_id": "g06_p004_r1_c2",
+          "source_sha256": "f74a90e1652d1583d384785dab2e6826bb99cb9b017e72047d69e56f58c0e7c4"
+        },
+        {
+          "skill_index": 609,
+          "source_id": "g06_p004_r3_c2",
+          "source_sha256": "1271ffdaf7114731098f955eaa8039e2ee314321d04db0db31d3b5432b9f1402"
+        },
+        {
+          "skill_index": 104,
+          "source_id": "g07_p001_r1_c1",
+          "source_sha256": "d67e6b22891cb9f8f145ad91c591db5d266d5e45993bd6b6eaf32d201cbb35cf"
+        },
+        {
+          "skill_index": 340,
+          "source_id": "g07_p001_r5_c2",
+          "source_sha256": "ded267578f0670e0e768a26678154729fe04a248528fd32aed88fa3fe20771ff"
+        },
+        {
+          "skill_index": 595,
+          "source_id": "g07_p003_r2_c1",
+          "source_sha256": "1f2cb87273aa0ff514ed0574623e06d2c6e3e4d2811b34f9cff298d1a1ac9668"
+        },
+        {
+          "skill_index": 639,
+          "source_id": "g08_p002_r1_c2",
+          "source_sha256": "6e5cf0c8425fce7e7402ad4e01e5365729ca70262932f1f2f9015a5eba5ca1d7"
+        }
+      ]
     },
     "46": {
       "effect_name": "골드 획득량",
       "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 75,
+          "source_id": "g01_p001_r1_c1",
+          "source_sha256": "3c45a5d6d1a0f86be2cd32652fa43957fbdcae92200a9b60301fe55437530210"
+        },
+        {
+          "skill_index": 76,
+          "source_id": "g02_p001_r1_c1",
+          "source_sha256": "2de6cb98d4c0d99d096df48f0ebd9c19f892b3f4dd8d6c7b2e8f3c4f5375066d"
+        },
+        {
+          "skill_index": 77,
+          "source_id": "g03_p001_r1_c1",
+          "source_sha256": "99adedeb3f3e22582087603dd51a9e1c92921210934b747c07062fc0d9d79cd6"
+        },
+        {
+          "skill_index": 107,
+          "source_id": "g03_p001_r3_c1",
+          "source_sha256": "315c568a713a4f219d8566d3153b8f6dc7b5752926ba3e9d9da9bfa46b8b4aac"
+        },
+        {
+          "skill_index": 124,
+          "source_id": "g04_p002_r1_c2",
+          "source_sha256": "5066e51337191b3d6afe70acd0a134cf81ae1a447d4cda2644a8d501dbe5221f"
+        },
+        {
+          "skill_index": 694,
+          "source_id": "g04_p005_r3_c2",
+          "source_sha256": "25cbcea54878ac42d0276819b677ed7550e6caa76a2c59d0b065f8770ee3a977"
+        },
+        {
+          "skill_index": 146,
+          "source_id": "g05_p001_r3_c1",
+          "source_sha256": "83fb280d8660d21aa9523fc0d22891568fa199ad50d1d08b595edebabc124025"
+        },
+        {
+          "skill_index": 655,
+          "source_id": "g06_p004_r4_c2",
+          "source_sha256": "3fad8d673babc72ae7159be8411908d5496854cee5e3cd967deff739f628c2b8"
+        }
+      ]
     },
     "47": {
-      "effect_name": "회피 확률 감소",
+      "effect_name": "골드 저장량",
       "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 584,
+          "source_id": "g02_p002_r4_c2",
+          "source_sha256": "b8a0c92383cd61a52dd17a9f66a23e3f180fa329532484e55e5518243acda29d"
+        },
+        {
+          "skill_index": 181,
+          "source_id": "g03_p002_r1_c1",
+          "source_sha256": "e99ded6f449708f46e0c61870a5c2d6a429c04731362ac6590eea8cb58da6ad7"
+        },
+        {
+          "skill_index": 575,
+          "source_id": "g03_p002_r5_c2",
+          "source_sha256": "db1529cf9456338f3ae247215b8dd6cd53949e13745fe82f9de3348324a37dd8"
+        },
+        {
+          "skill_index": 47,
+          "source_id": "g04_p001_r1_c1",
+          "source_sha256": "475a35a11360b429995f73ab0f4ddc92f520500fb1ac50720070bcb200007961"
+        },
+        {
+          "skill_index": 585,
+          "source_id": "g04_p005_r3_c1",
+          "source_sha256": "44f2a6390d80701252dae24b1ddcf49cc96b9442707171607f9bf80c816e6288"
+        },
+        {
+          "skill_index": 694,
+          "source_id": "g04_p005_r3_c2",
+          "source_sha256": "25cbcea54878ac42d0276819b677ed7550e6caa76a2c59d0b065f8770ee3a977"
+        },
+        {
+          "skill_index": 285,
+          "source_id": "g05_p002_r4_c2",
+          "source_sha256": "ff6f163c68282a5a5780a44ebe5c20cbfc6179fad6013e14a845073ab054ad47"
+        }
+      ]
     },
     "48": {
       "effect_name": "아이템 획득 확률",
       "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 168,
+          "source_id": "g01_p002_r3_c1",
+          "source_sha256": "18d0810f55e615cc23619fd6538323a5253ff9dafb8fa507d4086ca809a23296"
+        },
+        {
+          "skill_index": 169,
+          "source_id": "g02_p002_r2_c1",
+          "source_sha256": "31e4f9819f4bab8e1a428858200d32bcd93333995c4319b7f0e1acaa14204464"
+        },
+        {
+          "skill_index": 170,
+          "source_id": "g03_p001_r5_c2",
+          "source_sha256": "da3706fb5a0833891bb5a7f597454eec21dd34a1fae56624be54f0a2f8179917"
+        },
+        {
+          "skill_index": 165,
+          "source_id": "g04_p002_r3_c2",
+          "source_sha256": "f401945b3e6c741ed9517785c3dd46faee7c5fa73d357b0b53f3491a4ea5d4b2"
+        },
+        {
+          "skill_index": 166,
+          "source_id": "g05_p001_r4_c2",
+          "source_sha256": "c77af213e21765e271e77e4c8bde66bf10d5b6c1bc2d0ab863f363be842bac2d"
+        },
+        {
+          "skill_index": 537,
+          "source_id": "g05_p004_r2_c2",
+          "source_sha256": "4522a258839516e6e9088add519b09cbda9460707632b6e839dbe7132fb0ed7b"
+        },
+        {
+          "skill_index": 167,
+          "source_id": "g06_p001_r2_c1",
+          "source_sha256": "d986cee3bec2ecaf75423ee65ee6505e3ceb09b50b25fdf55a2cad0cf7a9cb47"
+        }
+      ]
     },
     "49": {
       "effect_name": "명성",
       "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 185,
+          "source_id": "g01_p002_r3_c2",
+          "source_sha256": "aa32fb1712268e9f26809f2199add3e4c7b9c2f04a3623fdab0348302da6ad2b"
+        },
+        {
+          "skill_index": 186,
+          "source_id": "g02_p002_r2_c2",
+          "source_sha256": "699fbd22163f6b4e00407e021d02e3ced23389203611a494d57557a45465c207"
+        },
+        {
+          "skill_index": 187,
+          "source_id": "g03_p002_r1_c2",
+          "source_sha256": "ef99787f655ab46cd7be31e6f01bdce3858f7c2127e20fd1b0960163c2ff08a7"
+        },
+        {
+          "skill_index": 581,
+          "source_id": "g05_p004_r3_c2",
+          "source_sha256": "c656f9a3d8366ff60d4d164fb6d1af2d445de3bc740ecc15c396a04e836d5b04"
+        }
+      ]
     },
     "51": {
-      "effect_name": "물리 저항력 감소",
+      "effect_name": "적들의 물리 저항력 감소",
       "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 150,
+          "source_id": "g03_p001_r4_c2",
+          "source_sha256": "a159b69242b16c19b4f037d90e058bfd7ecf32923b00e9c402bf0f142d76ed81"
+        },
+        {
+          "skill_index": 151,
+          "source_id": "g04_p002_r2_c1",
+          "source_sha256": "8b712a249b77b90f88c52098c71172305035eaf8dd67c21ddaddfe713acec61f"
+        },
+        {
+          "skill_index": 141,
+          "source_id": "g05_p001_r2_c2",
+          "source_sha256": "1f95613c736339b0ef35a64e5a381416348b25a05f0a587bc1a649954ae7067a"
+        },
+        {
+          "skill_index": 152,
+          "source_id": "g05_p001_r3_c2",
+          "source_sha256": "fff5dd281fac157475a8ac187c4dc77671b2df50f42bcca5d4e35c84d37ae25e"
+        },
+        {
+          "skill_index": 243,
+          "source_id": "g06_p001_r3_c1",
+          "source_sha256": "f3fe2aa608a75ec58d394a84bb83425f6208f477dbe3ce12b5aee903895d4e95"
+        },
+        {
+          "skill_index": 871,
+          "source_id": "g07_p003_r5_c1",
+          "source_sha256": "e6b025d7ffaf5422af3f4725f590d9e5f0787d0d6bc9c78b2519bee83118c241"
+        }
+      ]
     },
     "52": {
-      "effect_name": "마법 저항력 감소",
+      "effect_name": "적들의 마법 저항력 감소",
       "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 153,
+          "source_id": "g03_p001_r5_c1",
+          "source_sha256": "4ac979e85cfbbdc552c5a0740aa1216c1b9f0d199bab1f0f504f8ec4fddb434f"
+        },
+        {
+          "skill_index": 154,
+          "source_id": "g04_p002_r2_c2",
+          "source_sha256": "613e8ebbff2cf2bc2fe25b0b95a207942e195f40decd339f2decac74d9eb39f7"
+        },
+        {
+          "skill_index": 155,
+          "source_id": "g05_p001_r4_c1",
+          "source_sha256": "f628515a30e96d3167e710081257d53b609b6db1dc0bba18cd2f084a4d4a0620"
+        },
+        {
+          "skill_index": 548,
+          "source_id": "g06_p003_r5_c2",
+          "source_sha256": "922d29ac799bcb432b732fdc6d03ef7aae9379db7be9001d5f1f1101ab13faf5"
+        },
+        {
+          "skill_index": 472,
+          "source_id": "g08_p001_r3_c1",
+          "source_sha256": "dea0626f4363a1beb90e02559dc4202f6619d230026d442198a0648afacd448d"
+        }
+      ]
     },
     "53": {
-      "effect_name": "카오스 취약성",
+      "effect_name": "적들의 카오스 취약성",
       "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 403,
+          "source_id": "g03_p002_r4_c2",
+          "source_sha256": "eaefd288ed1ee53fd3f76acd2ed3889e26b82f36e9cf64a3a81709f37685cd2c"
+        },
+        {
+          "skill_index": 404,
+          "source_id": "g04_p004_r2_c2",
+          "source_sha256": "2dc5ccb74ba874367eff9f7b792398cd0f068f5f56ff5c44d38e67ab5e53d45b"
+        },
+        {
+          "skill_index": 389,
+          "source_id": "g05_p003_r2_c1",
+          "source_sha256": "08e90a878da952843b29cbf850c020384ba66db1b3fed65048c3d5060e49656e"
+        },
+        {
+          "skill_index": 405,
+          "source_id": "g05_p003_r2_c2",
+          "source_sha256": "36f424ff04106e32b1917e376aefd3cb3cc3d3178f44f793ce3cfb897895676a"
+        }
+      ]
     },
     "54": {
-      "effect_name": "모든 용병 최종 데미지",
+      "effect_name": "적들의 클릭 저항력 감소",
       "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 196,
+          "source_id": "g03_p002_r2_c1",
+          "source_sha256": "89a7589ebb8f6fc6dace56de5c6d750b334b13630776e51b7690cfd64574e11b"
+        },
+        {
+          "skill_index": 197,
+          "source_id": "g04_p002_r4_c1",
+          "source_sha256": "cf388c2db0c10a8b7219f07428e23561d7ad4c283a50427ac89bba95113dddd3"
+        },
+        {
+          "skill_index": 198,
+          "source_id": "g05_p002_r1_c1",
+          "source_sha256": "e56a03805c2b8ddfb0e7b2160fcaa5dd7815b2504e99f02783cbbf237e998a10"
+        },
+        {
+          "skill_index": 492,
+          "source_id": "g06_p003_r2_c2",
+          "source_sha256": "5b98b285f4d26692c047cd2da1fcafb98a39e6b44075b29795a60a6666a8a610"
+        },
+        {
+          "skill_index": 500,
+          "source_id": "g06_p003_r3_c2",
+          "source_sha256": "75bf75899d54263afbb1d3ff9b93fd2f39c30e8fcc29ef3d5e39221678b3bc98"
+        },
+        {
+          "skill_index": 527,
+          "source_id": "g07_p002_r5_c1",
+          "source_sha256": "d6f54d47fa483695bd880f6b2be60570f00011b1a1c0ecad834499a845882e49"
+        },
+        {
+          "skill_index": 552,
+          "source_id": "g07_p002_r5_c2",
+          "source_sha256": "b374e184a450aa10ae1b31be5f3847e74f649b51d3f8111bfe751838737d0246"
+        },
+        {
+          "skill_index": 41,
+          "source_id": "g08_p001_r1_c1",
+          "source_sha256": "a6ce76499e96f36cee1ce5d81d7fdcaad61fc1f17fc9a1dc5590036e0872f886"
+        }
+      ]
     },
     "55": {
-      "effect_name": "모든 용병 성장 데미지",
+      "effect_name": "적들의 최대 체력 감소",
       "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 536,
+          "source_id": "g09_p002_r2_c1",
+          "source_sha256": "61b57f0e514b73abd95ce6c45dce27f00e9a64656836ab5981cbe5b6823e849b"
+        }
+      ]
     },
     "56": {
       "effect_name": "공격 무효화 관통",
       "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 353,
+          "source_id": "g03_p002_r4_c1",
+          "source_sha256": "362ff1a385d99fa87693a6ebaab7a85057fa68d88176683fb04bfaff591cd058"
+        },
+        {
+          "skill_index": 461,
+          "source_id": "g04_p004_r3_c1",
+          "source_sha256": "18d8c61e5183c68310c05efe73a772d36af1253df9623f3e617689fc1ef1b1a0"
+        },
+        {
+          "skill_index": 504,
+          "source_id": "g04_p005_r1_c1",
+          "source_sha256": "7cdc67f2610babdf17a2e826fae49c5fa9084b9a0cf41cc7aeefe0d5bb2e61be"
+        },
+        {
+          "skill_index": 267,
+          "source_id": "g06_p001_r4_c2",
+          "source_sha256": "8e7ba4d89bc47a6e186a84a82bd4a1c222941d3104e9cc77cfa8721b16ba305e"
+        },
+        {
+          "skill_index": 431,
+          "source_id": "g06_p002_r4_c1",
+          "source_sha256": "6f3fcaa6e68e05c916b6429f9c4e215f377550de44282438fccf305caa28aeb0"
+        },
+        {
+          "skill_index": 437,
+          "source_id": "g06_p002_r5_c1",
+          "source_sha256": "9af1057c6d177ada9639c1f416fce44bd3cc681bad82063e924db01ae3977165"
+        },
+        {
+          "skill_index": 485,
+          "source_id": "g06_p003_r1_c2",
+          "source_sha256": "e2609934d699115aef8cab32e6c38ac338191195a8765df0ff0b0b75280ba504"
+        },
+        {
+          "skill_index": 500,
+          "source_id": "g06_p003_r3_c2",
+          "source_sha256": "75bf75899d54263afbb1d3ff9b93fd2f39c30e8fcc29ef3d5e39221678b3bc98"
+        },
+        {
+          "skill_index": 890,
+          "source_id": "g06_p005_r1_c1",
+          "source_sha256": "0d8da6a3733f968223e24195cdb60bf435c3c4d52365172e9cb8d828d6edeffc"
+        },
+        {
+          "skill_index": 418,
+          "source_id": "g07_p002_r2_c2",
+          "source_sha256": "f898cfaf7b2ffb286e4b94658b01ec38a8af5fe8c4d4fac92a97a0c3e55b5b9a"
+        },
+        {
+          "skill_index": 519,
+          "source_id": "g07_p002_r4_c1",
+          "source_sha256": "3eb50dad9edbede3118e9d3ab4b01d53b5198b000dc401496add01aef258af29"
+        },
+        {
+          "skill_index": 552,
+          "source_id": "g07_p002_r5_c2",
+          "source_sha256": "b374e184a450aa10ae1b31be5f3847e74f649b51d3f8111bfe751838737d0246"
+        },
+        {
+          "skill_index": 177,
+          "source_id": "g08_p001_r2_c1",
+          "source_sha256": "f06fae290dbc6e457cecdca8204ce63bed2ad252786d33302239cf3ef67b26ae"
+        },
+        {
+          "skill_index": 476,
+          "source_id": "g08_p001_r3_c2",
+          "source_sha256": "56043bda2ef1f1784bd2e71e451eb7cf128ab1f055d96c5135255a4d71039ed1"
+        },
+        {
+          "skill_index": 289,
+          "source_id": "g09_p001_r5_c1",
+          "source_sha256": "9de1fd20f94d1c1967960539f680f1c79822ca5c3f5d13c4a1673807295d69b5"
+        },
+        {
+          "skill_index": 536,
+          "source_id": "g09_p002_r2_c1",
+          "source_sha256": "61b57f0e514b73abd95ce6c45dce27f00e9a64656836ab5981cbe5b6823e849b"
+        },
+        {
+          "skill_index": 632,
+          "source_id": "g09_p002_r3_c1",
+          "source_sha256": "e6fcd12a3754a6ef9b52379f8481145317b1858414be34cff1c8a4480cde62f5"
+        }
+      ]
     },
     "78": {
-      "effect_name": "[칼라무쉬] 용병 베이스 데미지",
+      "effect_name": "종족이 칼라무쉬인 용병의 베이스 데미지",
       "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 587,
+          "source_id": "g03_p003_r1_c1",
+          "source_sha256": "d253d0b96b7a7c3a083b186d59c071e8f7a2b10fd342fd765041ff1e2ae2f9a3"
+        }
+      ]
     },
     "84": {
       "effect_name": "베이스 데미지",
       "format": "pct",
-      "base_multiplier": 300.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 377,
+          "source_id": "g04_p004_r2_c1",
+          "source_sha256": "fcee4a94748bd261f8f4006ea7a29842f4aef595db3f43fcb141ac70f3a97f14"
+        },
+        {
+          "skill_index": 458,
+          "source_id": "g05_p003_r5_c1",
+          "source_sha256": "fef9764817a8a6c0c5e9d92659799b2c9825ced0e3545be9a9e6170b91596c03"
+        }
+      ]
     },
     "95": {
       "effect_name": "신성 데미지",
-      "format": "raw_int",
-      "base_multiplier": 1.0,
-      "has_random_bonus": true
+      "format": "raw",
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 481,
+          "source_id": "g03_p002_r5_c1",
+          "source_sha256": "e57263b2c8ce894896af2454d9fcd13aa559abc406e664d4ba5413bc0646f8ac"
+        },
+        {
+          "skill_index": 478,
+          "source_id": "g04_p004_r5_c1",
+          "source_sha256": "333b67bcaa0c650c6d95d757486ab192664da229c1b8e772c6fac2d283a35215"
+        },
+        {
+          "skill_index": 482,
+          "source_id": "g05_p004_r1_c1",
+          "source_sha256": "c4d309c4e64f0ef91be0b4bc18d9f462bbbfd050818b5abd0823fcea73d75f81"
+        }
+      ]
     },
     "102": {
       "effect_name": "소울 클릭 배수",
       "format": "raw",
-      "base_multiplier": 1.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 493,
+          "source_id": "g09_p002_r1_c2",
+          "source_sha256": "9b4c2fe67e7112b917a8ca6ab516936e22151277b85bf9f4ddcb5589f64844b2"
+        }
+      ]
     },
     "107": {
       "effect_name": "피격 지속시간 감소",
       "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 112,
+          "source_id": "g04_p001_r4_c2",
+          "source_sha256": "5dddb537adcfbb8225839944a69ebdde4a52f446beb8d9e055f4dafa2a9262ab"
+        },
+        {
+          "skill_index": 549,
+          "source_id": "g06_p004_r1_c1",
+          "source_sha256": "232b925a5000d45cc97aa10473dc0323affaf506eedca88b8d1515fe0520f995"
+        },
+        {
+          "skill_index": 242,
+          "source_id": "g07_p001_r3_c1",
+          "source_sha256": "e26488913d5a519a0fe470439f2c506b7b387fd1310f4efd02f4a354ac27e03e"
+        },
+        {
+          "skill_index": 269,
+          "source_id": "g07_p001_r4_c1",
+          "source_sha256": "8fb534ee9d05b7f3152ccdb978eed73ac4515024652d7abb1079ec5cd9508a28"
+        },
+        {
+          "skill_index": 276,
+          "source_id": "g08_p001_r2_c2",
+          "source_sha256": "9b545579b3abc2d033f732ed6b86f388d3e70e5f876a2b24fc6a5e24f20f32c8"
+        },
+        {
+          "skill_index": 241,
+          "source_id": "g09_p001_r4_c1",
+          "source_sha256": "58dd33f75766f59f028744f465be09b92b52926f6caba3227b81a2b0553884b6"
+        },
+        {
+          "skill_index": 363,
+          "source_id": "g09_p001_r5_c2",
+          "source_sha256": "bd392955f89441bcb63d191a9c1530f895ce3b6e425aa23c09033f015decd984"
+        }
+      ]
     },
     "108": {
-      "effect_name": "모든 용병 피격 지속시간 감소",
+      "effect_name": "모든 용병의 피격 지속시간 감소",
       "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 495,
+          "source_id": "g04_p004_r5_c2",
+          "source_sha256": "8d7061f924273ff704727ebd9433187f9702524ba5dbe7bfcd5a2b47d0e3b952"
+        },
+        {
+          "skill_index": 496,
+          "source_id": "g05_p004_r1_c2",
+          "source_sha256": "28c482d2367e917f8cd64de20597ae7bdd9d9d8496ee032b2164df4cb5842b55"
+        },
+        {
+          "skill_index": 497,
+          "source_id": "g06_p003_r3_c1",
+          "source_sha256": "e1b63ac3b0f4e78ccec8e4418bb0b7b25ad9809bdca20e03d92377d4c521afe9"
+        },
+        {
+          "skill_index": 359,
+          "source_id": "g07_p002_r1_c1",
+          "source_sha256": "cf60a4565e04e5f2f86ebe54087a81b23635d5325f7eb184a857906aede7cdd8"
+        }
+      ]
     },
     "109": {
       "effect_name": "뿔레정수 획득 확률",
       "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 505,
+          "source_id": "g06_p003_r4_c2",
+          "source_sha256": "92bc2610f7bf8299492600aab2ebc632ec8299ed08d4ec53e0acc8d336a85536"
+        }
+      ]
     },
     "112": {
-      "effect_name": "회피 확률 감소",
+      "effect_name": "적들의 회피 확률 감소",
       "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 510,
+          "source_id": "g04_p005_r1_c2",
+          "source_sha256": "dd1c8832b725fb6b668bb3135a87eef11eec9d3dfcbcf96ccc937620300f8eb7"
+        },
+        {
+          "skill_index": 511,
+          "source_id": "g05_p004_r2_c1",
+          "source_sha256": "b4a4ef0463b071438862151d5b45e66480fc5232b5be291746e2e5273b20980d"
+        },
+        {
+          "skill_index": 365,
+          "source_id": "g06_p002_r3_c1",
+          "source_sha256": "58d673d6938a8d3bb4d63e1de938314fc0c1ca960bb6af92fb6304ea1c9e6794"
+        },
+        {
+          "skill_index": 512,
+          "source_id": "g06_p003_r5_c1",
+          "source_sha256": "753dab8cfc5b773063679f2349b062b56a5796fa4b92e74827d8ed456d398e3b"
+        },
+        {
+          "skill_index": 292,
+          "source_id": "g07_p001_r5_c1",
+          "source_sha256": "6abde0d6d41be8daffec187a3f2c191a74b046033e40a13e5ad56fafeaeee53b"
+        },
+        {
+          "skill_index": 527,
+          "source_id": "g07_p002_r5_c1",
+          "source_sha256": "d6f54d47fa483695bd880f6b2be60570f00011b1a1c0ecad834499a845882e49"
+        },
+        {
+          "skill_index": 41,
+          "source_id": "g08_p001_r1_c1",
+          "source_sha256": "a6ce76499e96f36cee1ce5d81d7fdcaad61fc1f17fc9a1dc5590036e0872f886"
+        },
+        {
+          "skill_index": 639,
+          "source_id": "g08_p002_r1_c2",
+          "source_sha256": "6e5cf0c8425fce7e7402ad4e01e5365729ca70262932f1f2f9015a5eba5ca1d7"
+        }
+      ]
     },
     "114": {
       "effect_name": "순수 데미지",
-      "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "format": "raw",
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 218,
+          "source_id": "g05_p002_r2_c1",
+          "source_sha256": "e5598eae9e7a56ee2d02abc6045bb74a94074221e8b71d7da0d1b2a1e7bb0632"
+        }
+      ]
     },
     "122": {
       "effect_name": "추가 클릭 데미지",
       "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 262,
+          "source_id": "g06_p001_r3_c2",
+          "source_sha256": "907f72c67167d09c284c6ed6c5a7a9517e0b67cf7949fb8cd749d255bb1be03e"
+        },
+        {
+          "skill_index": 311,
+          "source_id": "g06_p001_r5_c2",
+          "source_sha256": "cbda31cf6c01b177189200cbd456c43338647a6af3ec3fd53c2827a5880346e1"
+        },
+        {
+          "skill_index": 609,
+          "source_id": "g06_p004_r3_c2",
+          "source_sha256": "1271ffdaf7114731098f955eaa8039e2ee314321d04db0db31d3b5432b9f1402"
+        },
+        {
+          "skill_index": 340,
+          "source_id": "g07_p001_r5_c2",
+          "source_sha256": "ded267578f0670e0e768a26678154729fe04a248528fd32aed88fa3fe20771ff"
+        }
+      ]
     },
     "124": {
       "effect_name": "데미지 편차",
       "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 570,
+          "source_id": "g02_p002_r3_c2",
+          "source_sha256": "aaa920fa65b5074b5d5a456df1f2c28924aecf251f4cf906cd72274e37ab2b58"
+        },
+        {
+          "skill_index": 319,
+          "source_id": "g04_p003_r4_c1",
+          "source_sha256": "6b99285cf0d0e70f5a8c240285a022348c9a90d43fb3de228212b8ccd22d233e"
+        },
+        {
+          "skill_index": 654,
+          "source_id": "g05_p004_r5_c1",
+          "source_sha256": "f817b626464ffd0ca063444cca4920beeb03a4011f8019f5b768dcd8b0a8b6bb"
+        },
+        {
+          "skill_index": 320,
+          "source_id": "g06_p002_r1_c2",
+          "source_sha256": "3a15546bfc48e96ff14ee1d37051d19d87eb35b4a1b5a8012c0df698292fb06f"
+        }
+      ]
     },
     "137": {
       "effect_name": "행운 확률",
       "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 654,
+          "source_id": "g05_p004_r5_c1",
+          "source_sha256": "f817b626464ffd0ca063444cca4920beeb03a4011f8019f5b768dcd8b0a8b6bb"
+        },
+        {
+          "skill_index": 655,
+          "source_id": "g06_p004_r4_c2",
+          "source_sha256": "3fad8d673babc72ae7159be8411908d5496854cee5e3cd967deff739f628c2b8"
+        },
+        {
+          "skill_index": 643,
+          "source_id": "g07_p003_r2_c2",
+          "source_sha256": "c1ea4bfa55766c4694a670f6a3dcbb5f38c98476e7bc807a559d87ec4cff416b"
+        },
+        {
+          "skill_index": 652,
+          "source_id": "g07_p003_r3_c1",
+          "source_sha256": "cf880558a8a2478eac34943a803ed0013c91563d9729c4a5190a3ccb71e69686"
+        },
+        {
+          "skill_index": 653,
+          "source_id": "g08_p002_r2_c2",
+          "source_sha256": "403d1f9129fd84c5f5ee0a9720fba8b09e65c0b1d31b98636e560760c0297bec"
+        }
+      ]
     },
     "138": {
-      "effect_name": "모든 용병 행운 확률",
+      "effect_name": "모든 용병의 행운 확률",
       "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 1340,
+          "source_id": "g04_p006_r3_c1",
+          "source_sha256": "7a3a3ae801af30b1a224e571e06294dee399581d44137664874ec9a91b420546"
+        },
+        {
+          "skill_index": 1339,
+          "source_id": "g05_p005_r2_c1",
+          "source_sha256": "442a80f275e23838dbc5293ca982791b639d45407f1c3f7eb228f9c78d076f24"
+        },
+        {
+          "skill_index": 645,
+          "source_id": "g06_p004_r4_c1",
+          "source_sha256": "577ae66ef5e5455537925424c2a787265140e826117702e8278f7f430233f249"
+        },
+        {
+          "skill_index": 643,
+          "source_id": "g07_p003_r2_c2",
+          "source_sha256": "c1ea4bfa55766c4694a670f6a3dcbb5f38c98476e7bc807a559d87ec4cff416b"
+        },
+        {
+          "skill_index": 644,
+          "source_id": "g08_p002_r2_c1",
+          "source_sha256": "fd977a805bbdded37e2f5e7c7398f34fe043322957dcf392162539c5d256cbb4"
+        },
+        {
+          "skill_index": 558,
+          "source_id": "g09_p002_r2_c2",
+          "source_sha256": "4035e7d272a669cce7d3d10c7a1cdd5b47bb7da0fe6d96be3362c64a1072a934"
+        }
+      ]
     },
     "140": {
-      "effect_name": "모든 용병 행운 배수",
+      "effect_name": "모든 용병의 행운 배수",
       "format": "raw",
-      "base_multiplier": 1.0,
-      "has_random_bonus": true
-    },
-    "151": {
-      "effect_name": "보이 참전시 골드 저장량",
-      "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 1340,
+          "source_id": "g04_p006_r3_c1",
+          "source_sha256": "7a3a3ae801af30b1a224e571e06294dee399581d44137664874ec9a91b420546"
+        },
+        {
+          "skill_index": 1339,
+          "source_id": "g05_p005_r2_c1",
+          "source_sha256": "442a80f275e23838dbc5293ca982791b639d45407f1c3f7eb228f9c78d076f24"
+        },
+        {
+          "skill_index": 558,
+          "source_id": "g09_p002_r2_c2",
+          "source_sha256": "4035e7d272a669cce7d3d10c7a1cdd5b47bb7da0fe6d96be3362c64a1072a934"
+        }
+      ]
     },
     "169": {
-      "effect_name": "모든 용병 신성 데미지",
+      "effect_name": "모든 용병의 신성 데미지",
       "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 193,
+          "source_id": "g05_p001_r5_c2",
+          "source_sha256": "88aa02d06da32bf990920ac9a9d56ebd5c23b82abc1329ee5f0961c1a6b8cf4b"
+        },
+        {
+          "skill_index": 482,
+          "source_id": "g05_p004_r1_c1",
+          "source_sha256": "c4d309c4e64f0ef91be0b4bc18d9f462bbbfd050818b5abd0823fcea73d75f81"
+        }
+      ]
     },
     "175": {
       "effect_name": "공포 극복 확률",
       "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 237,
+          "source_id": "g07_p001_r2_c2",
+          "source_sha256": "e85164d1199c33311c0e0ec8612b1cd66948ea5709d29031b0f3890c094c5dd4"
+        },
+        {
+          "skill_index": 705,
+          "source_id": "g07_p003_r3_c2",
+          "source_sha256": "9e39c55cd29242b54db52d95f27afe6d22a8c43345b8d4e1208a2cee03dec42e"
+        },
+        {
+          "skill_index": 632,
+          "source_id": "g09_p002_r3_c1",
+          "source_sha256": "e6fcd12a3754a6ef9b52379f8481145317b1858414be34cff1c8a4480cde62f5"
+        }
+      ]
     },
     "176": {
       "effect_name": "피격 회피 확률",
       "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 364,
+          "source_id": "g07_p002_r1_c2",
+          "source_sha256": "1152eaea9ad2ca62596dee7d6df7af78b706e04db3756d351311371633fcf60a"
+        }
+      ]
     },
     "177": {
-      "effect_name": "모든 용병 공격 속도",
+      "effect_name": "모든 용병의 공포 극복 확률",
       "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 812,
+          "source_id": "g05_p005_r1_c2",
+          "source_sha256": "908d16a2b6f75ff447be4c26225a0986dd46ab2e2c1faae0968ceb6a8ade819e"
+        },
+        {
+          "skill_index": 813,
+          "source_id": "g06_p004_r5_c2",
+          "source_sha256": "dc608f2377bd603fe3e598f53eb7dbcf0cb53a72407116d8d94718d82b94fb6b"
+        },
+        {
+          "skill_index": 418,
+          "source_id": "g07_p002_r2_c2",
+          "source_sha256": "f898cfaf7b2ffb286e4b94658b01ec38a8af5fe8c4d4fac92a97a0c3e55b5b9a"
+        },
+        {
+          "skill_index": 814,
+          "source_id": "g07_p003_r4_c2",
+          "source_sha256": "3d800a1da0ca16ba366dd982afa0d76f3cbae14c1ca100595f5336913999361a"
+        }
+      ]
     },
     "196": {
-      "effect_name": "[트리니티] 용병 강타 확률",
+      "effect_name": "모든 트리니티 용병의 강타 확률",
       "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 663,
+          "source_id": "g09_p002_r3_c2",
+          "source_sha256": "25207c225b9beefc923fdc21616615cf9d15df064d9f18ce4c4254b8a3630f89"
+        }
+      ]
     },
     "197": {
-      "effect_name": "[트리니티] 용병 강타 배수",
+      "effect_name": "모든 트리니티 용병의 강타 배수",
       "format": "raw",
-      "base_multiplier": 1.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 685,
+          "source_id": "g09_p002_r4_c1",
+          "source_sha256": "5150e3e673cf787f412250af5be5d0a6023c1d4ef4e8534bd9ab97758b58802e"
+        }
+      ]
     },
     "218": {
-      "effect_name": "[칼라무쉬] 용병 데미지",
+      "effect_name": "종족이 칼라무쉬인 용병 의 데미지",
       "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 587,
+          "source_id": "g03_p003_r1_c1",
+          "source_sha256": "d253d0b96b7a7c3a083b186d59c071e8f7a2b10fd342fd765041ff1e2ae2f9a3"
+        }
+      ]
     },
     "219": {
-      "effect_name": "[동물뼈 언데드] 용병 수 × 추가 데미지",
-      "format": "special_count",
-      "base_multiplier": 2.0,
-      "has_random_bonus": true
+      "effect_name": "개성이 동물뼈 언데드인 용병의 추가 데미지 +[동물뼈 언데드] 용병 수 X",
+      "format": "raw",
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 288,
+          "source_id": "g03_p002_r2_c2",
+          "source_sha256": "0fbad6a89e2a9e9eaa00d26ca6014d2556b0468597458ac71de11af564b1529d"
+        }
+      ]
     },
     "250": {
       "effect_name": "더블 어택 확률",
       "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 706,
+          "source_id": "g06_p004_r5_c1",
+          "source_sha256": "c4d453674da10e9d2209b33a9fbbc54adb0b4bb01ae1abac372307196d7d12ae"
+        }
+      ]
     },
     "253": {
-      "effect_name": "흡수 확률 감소",
+      "effect_name": "적들의 흡수 확률 감소",
       "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 793,
+          "source_id": "g04_p006_r2_c1",
+          "source_sha256": "c1036b11145020c053fe246cf16f56ea3ad5647fa979562d72bd8ee2b2de7c67"
+        },
+        {
+          "skill_index": 794,
+          "source_id": "g05_p005_r1_c1",
+          "source_sha256": "5ec53459bdb2d316369b7c163f89b3e9bf12e9173d1a41ccc82931ec5bec8d13"
+        }
+      ]
     },
     "255": {
       "effect_name": "연타 데미지",
       "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 280,
+          "source_id": "g06_p001_r5_c1",
+          "source_sha256": "391e4a19e528b5eecb99c964e35e2ff369ad1298ff6ec1bd3c68ae6466a1757e"
+        }
+      ]
     },
     "257": {
-      "effect_name": "뿔레 오브 드랍 확률",
+      "effect_name": "뿔레 오브 획득 확률",
       "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 719,
+          "source_id": "g08_p002_r4_c2",
+          "source_sha256": "8f9be6403412f683feb2a402832a1cc9a6e75c27e4b14bdac3df3733d951e7bd"
+        },
+        {
+          "skill_index": 720,
+          "source_id": "g09_p002_r4_c2",
+          "source_sha256": "01d46098a5b1de397ad8103811bb836b02672054b1eaa9e1f19656b18f3b8cdd"
+        }
+      ]
     },
     "258": {
       "effect_name": "아군 피격 보호 확률",
       "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 716,
+          "source_id": "g07_p003_r4_c1",
+          "source_sha256": "90f5e5b6594fab298901378a5b5397690af388f4abe05814cc24752480953f7c"
+        },
+        {
+          "skill_index": 717,
+          "source_id": "g08_p002_r4_c1",
+          "source_sha256": "766de57f4094ab9ee500f6a500315dd826fdcc48868cbe3ca4d4517de7ddecac"
+        }
+      ]
     },
     "295": {
-      "effect_name": "루비 드랍 확률",
+      "effect_name": "루비 획득 확률",
       "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 756,
+          "source_id": "g04_p005_r4_c1",
+          "source_sha256": "38069ccef3795cbc08ac88a58e109ae189d96ae60032eb83c6b07c1eeea8486b"
+        }
+      ]
     },
     "296": {
-      "effect_name": "토파즈 드랍 확률",
+      "effect_name": "토파즈 획득 확률",
       "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 757,
+          "source_id": "g04_p005_r4_c2",
+          "source_sha256": "93d4c8b19ce14e12a667390600d1c2508a4d7225e83ea4bb465f0739f5dee454"
+        }
+      ]
     },
     "297": {
-      "effect_name": "사파이어 드랍 확률",
+      "effect_name": "사파이어 획득 확률",
       "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 758,
+          "source_id": "g04_p005_r5_c1",
+          "source_sha256": "9aba490106472d41fd8aa0517c0fc59a4bd216d0df5f90b629efa65bfba148cb"
+        }
+      ]
     },
     "298": {
-      "effect_name": "에머랄드 드랍 확률",
+      "effect_name": "에머랄드 획득 확률",
       "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 759,
+          "source_id": "g04_p005_r5_c2",
+          "source_sha256": "9865cae3403f1d9d6d10f7fea440fb40ad54298707f73b8d951f5e21c55c625b"
+        }
+      ]
     },
     "299": {
-      "effect_name": "자수정 드랍 확률",
+      "effect_name": "자수정 획득 확률",
       "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 760,
+          "source_id": "g04_p006_r1_c1",
+          "source_sha256": "47c8124bca1f02987878fae4969ed9fc60b763c2afff2fb58e62c48d4ea98005"
+        }
+      ]
     },
     "300": {
-      "effect_name": "아티팩트 드랍 확률",
+      "effect_name": "아티팩트 획득 확률",
       "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 165,
+          "source_id": "g04_p002_r3_c2",
+          "source_sha256": "f401945b3e6c741ed9517785c3dd46faee7c5fa73d357b0b53f3491a4ea5d4b2"
+        },
+        {
+          "skill_index": 761,
+          "source_id": "g04_p006_r1_c2",
+          "source_sha256": "6c516fb670da74f9d79108e462420f2e91a19b697a5824cc2f9cfd53cbbc2221"
+        },
+        {
+          "skill_index": 146,
+          "source_id": "g05_p001_r3_c1",
+          "source_sha256": "83fb280d8660d21aa9523fc0d22891568fa199ad50d1d08b595edebabc124025"
+        },
+        {
+          "skill_index": 166,
+          "source_id": "g05_p001_r4_c2",
+          "source_sha256": "c77af213e21765e271e77e4c8bde66bf10d5b6c1bc2d0ab863f363be842bac2d"
+        },
+        {
+          "skill_index": 762,
+          "source_id": "g05_p004_r5_c2",
+          "source_sha256": "a8e195f3e62541e5dc2e3ab18a3ba706475b84039461c49e4d582ff90447de86"
+        },
+        {
+          "skill_index": 167,
+          "source_id": "g06_p001_r2_c1",
+          "source_sha256": "d986cee3bec2ecaf75423ee65ee6505e3ceb09b50b25fdf55a2cad0cf7a9cb47"
+        }
+      ]
     },
     "309": {
-      "effect_name": "모든 용병 치명타 배수",
+      "effect_name": "모든 용병의 치명타 배수",
       "format": "raw",
-      "base_multiplier": 1.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 764,
+          "source_id": "g08_p002_r5_c1",
+          "source_sha256": "200612bf927f2adb5020d4fcc6299a8e4f81709fc20846f20fe5aed1d61eb786"
+        }
+      ]
     },
     "368": {
-      "effect_name": "모든 용병 추가 클릭 데미지",
+      "effect_name": "모든 용병의 추가 클릭 데미지",
       "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 685,
+          "source_id": "g09_p002_r4_c1",
+          "source_sha256": "5150e3e673cf787f412250af5be5d0a6023c1d4ef4e8534bd9ab97758b58802e"
+        }
+      ]
     },
     "375": {
       "effect_name": "자동 클릭 데미지",
       "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 599,
+          "source_id": "g05_p004_r4_c2",
+          "source_sha256": "ecd2b923e0cebdbdac419d71ab6b1314096be88b8d36e8b900ce349f157128b8"
+        },
+        {
+          "skill_index": 262,
+          "source_id": "g06_p001_r3_c2",
+          "source_sha256": "907f72c67167d09c284c6ed6c5a7a9517e0b67cf7949fb8cd749d255bb1be03e"
+        }
+      ]
     },
     "421": {
-      "effect_name": "[식물] 용병 수 × 데미지",
-      "format": "special_count_pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "effect_name": "종족이 식물인 용병의 데미지 +[식물] 용병 수 X",
+      "format": "pct",
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 102,
+          "source_id": "g03_p001_r2_c2",
+          "source_sha256": "2ec72914087911518238eb7a9c522d4fb14bf24feaea6d2b29ffc3fc79aaf032"
+        }
+      ]
     },
     "422": {
-      "effect_name": "[식물] 용병 수 × 클릭 데미지",
-      "format": "special_count_pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "effect_name": "종족이 식물인 용병의 클릭 데미지 +[식물] 용병 수 X",
+      "format": "pct",
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 102,
+          "source_id": "g03_p001_r2_c2",
+          "source_sha256": "2ec72914087911518238eb7a9c522d4fb14bf24feaea6d2b29ffc3fc79aaf032"
+        }
+      ]
     },
     "431": {
-      "effect_name": "모든 용병 추가 클릭 확률",
+      "effect_name": "모든 용병의 추가 클릭 확률",
       "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 122,
+          "source_id": "g03_p001_r4_c1",
+          "source_sha256": "e7ee07dc3d1be32e4e7340eab9dd913b171f21a3903ff08c7efe97af9f2ba7e5"
+        },
+        {
+          "skill_index": 812,
+          "source_id": "g05_p005_r1_c2",
+          "source_sha256": "908d16a2b6f75ff447be4c26225a0986dd46ab2e2c1faae0968ceb6a8ade819e"
+        },
+        {
+          "skill_index": 813,
+          "source_id": "g06_p004_r5_c2",
+          "source_sha256": "dc608f2377bd603fe3e598f53eb7dbcf0cb53a72407116d8d94718d82b94fb6b"
+        },
+        {
+          "skill_index": 997,
+          "source_id": "g06_p005_r1_c2",
+          "source_sha256": "947f36cc4d5dbdb40f5537f18ddd2508cdc896c7fe2c8f89a399635fb69d1f1f"
+        },
+        {
+          "skill_index": 253,
+          "source_id": "g07_p001_r3_c2",
+          "source_sha256": "49f0e62a3999a76f8bce60ba131779566dcecac0eac3264d807b2f73300fd3e9"
+        },
+        {
+          "skill_index": 814,
+          "source_id": "g07_p003_r4_c2",
+          "source_sha256": "3d800a1da0ca16ba366dd982afa0d76f3cbae14c1ca100595f5336913999361a"
+        },
+        {
+          "skill_index": 998,
+          "source_id": "g07_p003_r5_c2",
+          "source_sha256": "92b5ba8167ee0dfaf7cab1bd9c47106874553d50df171975d738d05213cace3a"
+        },
+        {
+          "skill_index": 605,
+          "source_id": "g08_p002_r1_c1",
+          "source_sha256": "c79bedd6b52ef90e378c1b1853bf91e7d626bd71987b6cc1e20da02aa4c5a356"
+        },
+        {
+          "skill_index": 999,
+          "source_id": "g08_p003_r1_c1",
+          "source_sha256": "9adbaec8453ad302b4ff836913e49d84aa3a3daa49eafa479ea5d349af3b31ec"
+        },
+        {
+          "skill_index": 33,
+          "source_id": "g09_p001_r1_c1",
+          "source_sha256": "ac93020793acd2ff84a8e409f8e3fadcbaf17a22db05b25195acade34bf42eb9"
+        },
+        {
+          "skill_index": 176,
+          "source_id": "g09_p001_r3_c1",
+          "source_sha256": "45eb3c8a81b73f7053ea78fae0dd65c172b8788da388a77f6400d7fd88f85a99"
+        },
+        {
+          "skill_index": 468,
+          "source_id": "g09_p002_r1_c1",
+          "source_sha256": "d258836afe1007da70ddb76f69a7b0f9be0214a6b8854d986e1e1c6dc2a2d621"
+        },
+        {
+          "skill_index": 828,
+          "source_id": "g09_p002_r5_c1",
+          "source_sha256": "67ce99c9a25a1ea80234667edc4d31c440a07f48561ef9192dab374db59a0cee"
+        },
+        {
+          "skill_index": 988,
+          "source_id": "g09_p002_r5_c2",
+          "source_sha256": "a5cce93833808fee694a9630e19d105ce03aee917b575ca7ffb8ebafc79e38a5"
+        }
+      ]
     },
     "475": {
-      "effect_name": "[동물뼈 언데드] 용병 수 × 베이스 데미지",
-      "format": "special_count_pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "effect_name": "개성이 동물뼈 언데드인 용병의 베이스 데미지 +[동물뼈 언데드] 용병 수 X",
+      "format": "pct",
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 288,
+          "source_id": "g03_p002_r2_c2",
+          "source_sha256": "0fbad6a89e2a9e9eaa00d26ca6014d2556b0468597458ac71de11af564b1529d"
+        }
+      ]
     },
     "495": {
-      "effect_name": "[퍼루나] 용병 수 × 데미지",
-      "format": "special_count_pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "effect_name": "지역이 퍼루나인 용병의 데미지 +[퍼루나] 용병 수 X",
+      "format": "pct",
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 108,
+          "source_id": "g01_p001_r4_c1",
+          "source_sha256": "1eafc79492bbb2ed7532b511b00d77934bc3b8d5487fdeca27492f3040146dda"
+        },
+        {
+          "skill_index": 537,
+          "source_id": "g05_p004_r2_c2",
+          "source_sha256": "4522a258839516e6e9088add519b09cbda9460707632b6e839dbe7132fb0ed7b"
+        },
+        {
+          "skill_index": 401,
+          "source_id": "g06_p002_r3_c2",
+          "source_sha256": "6c883f2dd94ae1d18940d02e0f097d65919f29e83a46b7932d7c8ea1bd674794"
+        }
+      ]
     },
     "591": {
       "effect_name": "회피시 데미지 증가",
       "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 364,
+          "source_id": "g07_p002_r1_c2",
+          "source_sha256": "1152eaea9ad2ca62596dee7d6df7af78b706e04db3756d351311371633fcf60a"
+        }
+      ]
     },
     "635": {
-      "effect_name": "[언데드] 용병 수 × 강타 배수",
-      "format": "special_count_raw",
-      "base_multiplier": 1.0,
-      "has_random_bonus": true
+      "effect_name": "종족이 언데드인 용병의 강타 배수 +[언데드] 용병 수 X",
+      "format": "raw",
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 97,
+          "source_id": "g04_p001_r3_c2",
+          "source_sha256": "8ca25a343b4bb428858a3a95e5ec0b852e957a62600db348654924a47b77f9c9"
+        }
+      ]
     },
     "1000": {
       "effect_name": "추가 데미지 증폭",
       "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 289,
+          "source_id": "g09_p001_r5_c1",
+          "source_sha256": "9de1fd20f94d1c1967960539f680f1c79822ca5c3f5d13c4a1673807295d69b5"
+        }
+      ]
     },
     "1013": {
-      "effect_name": "물리 용병 성장 데미지",
+      "effect_name": "모든 물리 용병의 성장 데미지",
       "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 324,
+          "source_id": "g05_p002_r5_c2",
+          "source_sha256": "2b95e676e4fe6f04c20285798047c629bcf6aec801c55c688ac39e44c058d440"
+        }
+      ]
     },
     "1014": {
-      "effect_name": "마법 용병 성장 데미지",
+      "effect_name": "모든 마법 용병의 성장 데미지",
       "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 322,
+          "source_id": "g05_p002_r5_c1",
+          "source_sha256": "57f199a5b1d71cf48e1845115274c986535094cb95c9b2c54dd7e047805ebdc6"
+        }
+      ]
     },
     "1016": {
-      "effect_name": "카오스 용병 성장 데미지",
+      "effect_name": "모든 카오스 용병의 성장 데미지",
       "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 210,
+          "source_id": "g04_p002_r4_c2",
+          "source_sha256": "f5724d1ddf377212f5b7d104ea99100d95f599cc3991745f1cd1f237c1cd6875"
+        },
+        {
+          "skill_index": 211,
+          "source_id": "g05_p002_r1_c2",
+          "source_sha256": "53f138732d4d8bbea23b672c4ad13ad6e91e2f30852c262cd281f8f50eecb5c5"
+        },
+        {
+          "skill_index": 212,
+          "source_id": "g06_p001_r2_c2",
+          "source_sha256": "934487c1ca1cda95df9159432d1295bcabde320e2514ab0e2358aef4758f0267"
+        }
+      ]
     },
     "1022": {
-      "effect_name": "카오스 용병 강타 배수 증폭",
+      "effect_name": "모든 카오스 용병의 강타 배수 증폭",
       "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 333,
+          "source_id": "g05_p003_r1_c1",
+          "source_sha256": "0a6737212f859fef5bc4b7fa303a03fcf79179d5e0afc044f7c15d9256ed2ad8"
+        }
+      ]
     },
     "1171": {
       "effect_name": "즉시 공격 확률",
       "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 125,
+          "source_id": "g02_p002_r1_c1",
+          "source_sha256": "9b8e94624518d00e20b49e9910a3c9135e2df7257fe24839ab838301510b39d6"
+        },
+        {
+          "skill_index": 109,
+          "source_id": "g03_p001_r3_c2",
+          "source_sha256": "c1dc1395f610f3d46e2787638deba3f0f8c708600fbfe0e8f9176e7b3c5d624a"
+        },
+        {
+          "skill_index": 355,
+          "source_id": "g04_p004_r1_c2",
+          "source_sha256": "7a594cce9734229ee4b9b63f0fed42640cda8b4e80d4cee5ec4f8424d48d2d97"
+        },
+        {
+          "skill_index": 1336,
+          "source_id": "g04_p006_r2_c2",
+          "source_sha256": "c8c5429831626683a88b96652ffc8df02e7a92b93390cf5dafbb947db3afe32c"
+        },
+        {
+          "skill_index": 42,
+          "source_id": "g05_p001_r1_c1",
+          "source_sha256": "fbdf4277a2b76c60f49ef46f4de33dfb4da5b8d8645387ba2dd74d6a09db1754"
+        },
+        {
+          "skill_index": 459,
+          "source_id": "g05_p003_r5_c2",
+          "source_sha256": "170aa0aec5d3533dcd6cebb7a2869f9cb08ad42941fb2fcb21e10637eeaaff0a"
+        },
+        {
+          "skill_index": 60,
+          "source_id": "g06_p001_r1_c2",
+          "source_sha256": "fd779c7859371d3778d7851c7aafc50c88a63ec889af018045a1845241809c00"
+        },
+        {
+          "skill_index": 460,
+          "source_id": "g06_p003_r1_c1",
+          "source_sha256": "2a196c374f27de27faa24614c7a14ebd60dc0192c4b96bbe55b5b3fe671549ae"
+        },
+        {
+          "skill_index": 705,
+          "source_id": "g07_p003_r3_c2",
+          "source_sha256": "9e39c55cd29242b54db52d95f27afe6d22a8c43345b8d4e1208a2cee03dec42e"
+        },
+        {
+          "skill_index": 1298,
+          "source_id": "g08_p003_r1_c2",
+          "source_sha256": "fc978d5342bab22f6d3722a5f164d371e94c3b59f81c868103ff0dba70c767db"
+        }
+      ]
     },
     "1172": {
       "effect_name": "즉시 공격 데미지",
       "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 257,
+          "source_id": "g04_p003_r1_c1",
+          "source_sha256": "ecc37d94222ea68a636c374cccb61b08b98fdef048dc963e9b816d9304c56ea0"
+        },
+        {
+          "skill_index": 273,
+          "source_id": "g04_p003_r3_c2",
+          "source_sha256": "1499d7f9ebb1569426e3d288d9502c936ec82c96005028cab6ef7c503496e483"
+        },
+        {
+          "skill_index": 1336,
+          "source_id": "g04_p006_r2_c2",
+          "source_sha256": "c8c5429831626683a88b96652ffc8df02e7a92b93390cf5dafbb947db3afe32c"
+        },
+        {
+          "skill_index": 191,
+          "source_id": "g05_p001_r5_c1",
+          "source_sha256": "3b90bde82d63bf7386e63b3ef25e05f307fb2cb6e1c84e89723c08eb254174c2"
+        },
+        {
+          "skill_index": 997,
+          "source_id": "g06_p005_r1_c2",
+          "source_sha256": "947f36cc4d5dbdb40f5537f18ddd2508cdc896c7fe2c8f89a399635fb69d1f1f"
+        },
+        {
+          "skill_index": 292,
+          "source_id": "g07_p001_r5_c1",
+          "source_sha256": "6abde0d6d41be8daffec187a3f2c191a74b046033e40a13e5ad56fafeaeee53b"
+        },
+        {
+          "skill_index": 998,
+          "source_id": "g07_p003_r5_c2",
+          "source_sha256": "92b5ba8167ee0dfaf7cab1bd9c47106874553d50df171975d738d05213cace3a"
+        },
+        {
+          "skill_index": 999,
+          "source_id": "g08_p003_r1_c1",
+          "source_sha256": "9adbaec8453ad302b4ff836913e49d84aa3a3daa49eafa479ea5d349af3b31ec"
+        },
+        {
+          "skill_index": 1298,
+          "source_id": "g08_p003_r1_c2",
+          "source_sha256": "fc978d5342bab22f6d3722a5f164d371e94c3b59f81c868103ff0dba70c767db"
+        }
+      ]
     },
     "1173": {
       "effect_name": "즉시 공격 속도",
       "format": "pct",
-      "base_multiplier": 100.0,
-      "has_random_bonus": true
+      "verified": true,
+      "evidence": [
+        {
+          "skill_index": 185,
+          "source_id": "g01_p002_r3_c2",
+          "source_sha256": "aa32fb1712268e9f26809f2199add3e4c7b9c2f04a3623fdab0348302da6ad2b"
+        },
+        {
+          "skill_index": 186,
+          "source_id": "g02_p002_r2_c2",
+          "source_sha256": "699fbd22163f6b4e00407e021d02e3ced23389203611a494d57557a45465c207"
+        },
+        {
+          "skill_index": 187,
+          "source_id": "g03_p002_r1_c2",
+          "source_sha256": "ef99787f655ab46cd7be31e6f01bdce3858f7c2127e20fd1b0960163c2ff08a7"
+        },
+        {
+          "skill_index": 271,
+          "source_id": "g04_p003_r3_c1",
+          "source_sha256": "62f3a076cdc861a5ae7bc6a5cec53b9b9cdd17dcd90a83666360f5170ad89e0e"
+        },
+        {
+          "skill_index": 338,
+          "source_id": "g04_p003_r5_c2",
+          "source_sha256": "9f1c1c7bef961cf6932ff837694d15bdded7d9f8d2c772837ec710dc7dd88afa"
+        },
+        {
+          "skill_index": 362,
+          "source_id": "g05_p003_r1_c2",
+          "source_sha256": "a4f7c6253e1101902eec8e1645879ab9f47b2da74577718a6d3471c1c6927f6e"
+        },
+        {
+          "skill_index": 581,
+          "source_id": "g05_p004_r3_c2",
+          "source_sha256": "c656f9a3d8366ff60d4d164fb6d1af2d445de3bc740ecc15c396a04e836d5b04"
+        },
+        {
+          "skill_index": 812,
+          "source_id": "g05_p005_r1_c2",
+          "source_sha256": "908d16a2b6f75ff447be4c26225a0986dd46ab2e2c1faae0968ceb6a8ade819e"
+        },
+        {
+          "skill_index": 485,
+          "source_id": "g06_p003_r1_c2",
+          "source_sha256": "e2609934d699115aef8cab32e6c38ac338191195a8765df0ff0b0b75280ba504"
+        },
+        {
+          "skill_index": 813,
+          "source_id": "g06_p004_r5_c2",
+          "source_sha256": "dc608f2377bd603fe3e598f53eb7dbcf0cb53a72407116d8d94718d82b94fb6b"
+        },
+        {
+          "skill_index": 814,
+          "source_id": "g07_p003_r4_c2",
+          "source_sha256": "3d800a1da0ca16ba366dd982afa0d76f3cbae14c1ca100595f5336913999361a"
+        },
+        {
+          "skill_index": 1298,
+          "source_id": "g08_p003_r1_c2",
+          "source_sha256": "fc978d5342bab22f6d3722a5f164d371e94c3b59f81c868103ff0dba70c767db"
+        }
+      ]
     }
   }
 }
