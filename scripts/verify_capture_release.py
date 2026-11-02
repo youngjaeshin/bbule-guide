@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Check the published capture refresh without requiring private screenshots."""
 import json
+import hashlib
 import re
 from collections import Counter
 from pathlib import Path
@@ -43,8 +44,19 @@ def main():
         assert path.read_bytes()[:8] == b'\x89PNG\r\n\x1a\n', relative
         images.add(relative)
 
+    portrait_registry = read(read('mercenary_capture_overrides.json')['portrait_manifest'])
+    portrait_by_key = {row['key']: row for row in portrait_registry}
+    assert len(portrait_by_key) == len(mercs)
     for row in mercs:
         image('images/mercenary/' + row['portrait'])
+        portrait = portrait_by_key[row['grade'] + '/' + row['name']]
+        assert row['portrait'] == portrait['portrait']
+        assert portrait.get('format') == 'full_codex_card'
+        if portrait.get('format') == 'full_codex_card':
+            raw = (ROOT / 'web/images/mercenary' / row['portrait']).read_bytes()
+            assert int.from_bytes(raw[16:20], 'big') == 160
+            assert int.from_bytes(raw[20:24], 'big') == 222
+            assert hashlib.sha256(raw).hexdigest() == portrait['sha256']
     for row in artifacts:
         assert row['effects_resolved']
         image('images/artifact/' + row['portrait'])

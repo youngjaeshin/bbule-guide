@@ -2,7 +2,7 @@
   "schema_version": 1,
   "source_capture_date": "2026-11-01",
   "value_semantics": "base_display_coefficient_before_skill_boost_not_raw_apk",
-  "portrait_manifest": "mercenary_capture_portraits.json",
+  "portrait_manifest": "mercenary_card_portraits.json",
   "mercenaries": {
     "423": {
       "key": "O/마발",

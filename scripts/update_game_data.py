@@ -79,6 +79,7 @@ COMMIT_PATHS = [
     "mercenary_capture_overrides.py",
     "mercenary_capture_overrides.json",
     "mercenary_capture_portraits.json",
+    "mercenary_card_portraits.json",
     "enhancement_multipliers.py",
     "equipment_capture_overrides.py",
     "equipment_capture_overrides.json",
