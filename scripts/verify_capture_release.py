@@ -51,6 +51,9 @@ def main():
     for row in equipment:
         image(row['image'])
         assert 'effect_0_value' in row and 'effect_20_value' in row
+        if not row.get('gUpgradeVerified'):
+            assert not row.get('effect_0_g') and not row.get('effect_20_g')
+            assert not row.get('is_upgradeable')
     for row in skills:
         image('images/random_skill/' + row['portrait'])
     for row in inline('MERC_INFO'):

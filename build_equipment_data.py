@@ -41,6 +41,9 @@ def main():
         desc = item.get("mainEffect_desc", "")
         specialized_effect = item.get("specializedEffect", 0.0)
         is_available_g = item.get("isAvailableG", False)
+        g_evidence = item.get("gUpgradeEvidence", {})
+        verified_g = (g_evidence.get("effects_verified") is True
+                      and g_evidence.get("source_type") in {"game_screenshot", "community_screenshot"})
 
         # Resolve specialized heroes from specializedHero IDs
         specialized_hero_ids = item.get("specializedHero", [])
@@ -92,7 +95,7 @@ def main():
             "specializedHeroes": specialized_heroes,
             "specializedEffect": specialized_effect,
             "specializedHero": [hero_id for hero_id in specialized_hero_ids if hero_id >= 0],
-            "is_upgradeable": is_available_g,
+            "is_upgradeable": is_available_g if verified_g or not is_available_g else None,
             "portrait": portrait,
         }
         for field in ('gameIndex', 'indexSource', 'effect_0_value', 'effect_20_value',
@@ -101,7 +104,9 @@ def main():
                       'legacySpecializedTargets', 'gUpgradeSource'):
             if field in item:
                 entry[field] = item[field]
-        if is_available_g and (effect_0_g or effect_20_g):
+        if is_available_g:
+            entry["gUpgradeVerified"] = verified_g
+        if is_available_g and verified_g and (effect_0_g or effect_20_g):
             entry["effect_0_g"] = effect_0_g
             entry["effect_20_g"] = effect_20_g
         result.append(entry)
