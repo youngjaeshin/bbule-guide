@@ -4,7 +4,7 @@
 > APK 바이너리에서 추출한 데이터를 구조화하여 빠른 검색과 필터링이 가능합니다.
 
 **배포 URL**: https://bbule-guide.vercel.app
-**게임 버전**: v.1863 TEST_8
+**게임 버전**: v.1886a
 **가이드 버전**: v0.3
 
 ---
@@ -398,5 +398,5 @@ python3 -m http.server 8000 --directory web
 ---
 
 **Last Updated**: 2026-05-27
-**Game Version**: v.1863 TEST_8
+**Game Version**: v.1886a
 **Guide Version**: v0.3

@@ -7,7 +7,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 모바일 게임 "대용병시대 뿔레전쟁" APK에서 추출한 게임 데이터를 싱글페이지 웹 가이드로 제공하는 프로젝트.
 - 레포: `youngjaeshin/bbule-guide`
 - 배포: https://bbule-guide.vercel.app (GitHub 연동 자동 배포)
-- 게임 버전: v.1863 TEST_8
+- 게임 버전: v.1886a
 
 ## Data Pipeline
 
