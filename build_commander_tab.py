@@ -9,7 +9,7 @@ ROOT = Path(__file__).resolve().parent
 
 
 def apply_commander_portraits(rows):
-    """Attach captured portraits without changing existing commander facts."""
+    """Attach reviewed portraits and verified grades, preserving other facts."""
     path = ROOT / "commander_portraits.json"
     if not path.exists():
         return rows
@@ -20,6 +20,8 @@ def apply_commander_portraits(rows):
     for row in result:
         source = registry.get("portraits", {}).get(row["name"])
         if source:
+            if source.get("grade_verified") is True:
+                row["grade"] = source["grade"]
             row["portrait"] = source["image"]
             row["portraitSource"] = copy.deepcopy(source)
     return result

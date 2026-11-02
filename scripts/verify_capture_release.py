@@ -32,6 +32,8 @@ def main():
     assert len(artifacts) == 561 and len(equipment) == 544 and len(skills) == 267
     assert read('artifacts.json') == read('output/artifacts.json')
     assert len(inline('MERC_INFO')) == 35
+    assert Counter(row['grade'] for row in inline('MERC_INFO')) == {'평범함': 13, '훌륭함': 12, '영웅': 10}
+    assert next(row for row in inline('MERC_INFO') if row['name'] == '실러캔스')['grade'] == '훌륭함'
     images = set()
 
     def image(relative):
