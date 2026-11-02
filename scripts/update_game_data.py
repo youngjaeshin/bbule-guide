@@ -152,10 +152,10 @@ def update_versions(game_version: str | None, guide_version: str | None, apk_nam
 
     if game_version or guide_version:
         text = index.read_text(encoding="utf-8")
-        current_game = game_version or re.search(r"Game ([^<|]+)", text).group(1).strip()
+        current_game = game_version or re.search(r'Game ([^<|"\n]+)', text).group(1).strip()
         current_guide = guide_version or re.search(r"Guide (v[\d.]+)", text).group(1)
         label = f"Guide {current_guide} · Game {current_game}"
-        text = re.sub(r"Guide v[\d.]+ · Game [^<|]+", label, text)
+        text = re.sub(r'Guide v[\d.]+ · Game [^<|"\n]+', label, text)
         index.write_text(text, encoding="utf-8")
 
 
