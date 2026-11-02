@@ -5,7 +5,7 @@
 
 **배포 URL**: https://bbule-guide.vercel.app
 **게임 버전**: v.1886a
-**가이드 버전**: v0.3
+**가이드 버전**: v1.0
 
 ---
 
@@ -399,4 +399,4 @@ python3 -m http.server 8000 --directory web
 
 **Last Updated**: 2026-05-27
 **Game Version**: v.1886a
-**Guide Version**: v0.3
+**Guide Version**: v1.0
