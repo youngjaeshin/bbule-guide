@@ -136,6 +136,8 @@
       floor: null,
       highlights: false,
       page: 1,
+      boss: false,
+      bossAttackSetting: "rules",
     };
     const byKey = new Map(DATA.monsters.map((x) => [x.key, x]));
     const $ = (id) => document.getElementById("monster-" + id);
@@ -216,7 +218,7 @@
         "</div>"
       );
     }
-    function statusGrid(stats, config, idPrefix = "") {
+    function statusGrid(stats, config, idPrefix = "", bossBonus = {}) {
       const inactive = [];
       const cells = [];
       for (const key of Object.keys(LABELS)) {
@@ -228,12 +230,15 @@
           inactive.push(LABELS[key]);
           continue;
         }
-        const sub =
+        let sub =
           raw < 0
             ? "원본 " + pct(raw) + "에 가산 후 효과 계산"
             : cap > 0
               ? "랜덤 +" + step + "%p·최대 " + cap + "회"
               : "추가 후보 0회";
+        if (bossBonus[key] > 0) {
+          sub = "보스 보정 +" + n(bossBonus[key]) + "%p · " + sub;
+        }
         cells.push(
           cell(
             LABELS[key],
@@ -296,6 +301,14 @@
     function renderRegions() {
       const t = tier(),
         max = t.statuses.null.base + 115 + 30;
+      const hasBossVariants = Object.keys(LABELS).some(
+        (key) => t.boss_zero[key] !== t.boss_fixed[key],
+      );
+      const bossBonus = state.boss
+        ? state.bossAttackSetting === "fixed"
+          ? t.boss_fixed
+          : t.boss_zero
+        : {};
       const priority = [
         "보스:31",
         "일반:299",
@@ -304,12 +317,26 @@
         "보스:104",
       ];
       $("regions-view").innerHTML =
-        '<div class="panel"><h2>구간 공통 기본값</h2>' +
+        '<div class="panel"><div class="section-top"><h2>구간 공통 기본값</h2><label class="toggle"><input id="monster-boss-mode" type="checkbox" ' +
+        (state.boss ? "checked" : "") +
+        ">보스 보정 적용</label></div>" +
+        (state.boss && hasBossVariants
+          ? '<div class="field" style="margin-bottom:14px"><label for="monster-boss-attack-setting">보스 공격 설정</label><select id="monster-boss-attack-setting"><option value="rules" ' +
+            (state.bossAttackSetting === "rules" ? "selected" : "") +
+            '>구간 규칙 — 원본 공격 간격 미지정</option><option value="fixed" ' +
+            (state.bossAttackSetting === "fixed" ? "selected" : "") +
+            ">공격 간격 지정 — 공격 설정에 숫자가 있는 보스</option></select></div>"
+          : "") +
         statusGrid(
           Object.fromEntries(
-            Object.entries(t.statuses).map(([k, v]) => [k, v.base]),
+            Object.entries(t.statuses).map(([k, v]) => [
+              k,
+              v.base + (bossBonus[k] || 0),
+            ]),
           ),
           t,
+          "",
+          bossBonus,
         ) +
         '<div class="facts"><span>전체 추가 옵션 <strong>' +
         t.draws +
@@ -317,7 +344,7 @@
         pct(t.recovery_rate * 100) +
         " 적용</strong></span></div><h3>몬스터 고유 저항에 더하는 보정</h3>" +
         resistanceGrid(t.resistance) +
-        '<p class="scope">보스 보정과 몬스터 고유값은 개체 상세에서 자동 합산합니다.</p></div>' +
+        '<p class="scope">몬스터 고유값과 랜덤 가산 전 기준입니다. 공격 무효화에는 몬스터 고유 공무를 더하며, 개체 상세에서 자동 계산합니다.</p></div>' +
         '<p class="maximum-summary">' +
         esc(t.name) +
         '에서 나올 수 있는 최대 공무 <span id="monster-region-maximum">' +
@@ -694,6 +721,18 @@
       state.highlights = $("only-highlights").checked;
       state.page = 1;
       renderMonsters();
+    });
+    root.addEventListener("change", (event) => {
+      if (event.target.id === "monster-boss-mode") {
+        state.boss = event.target.checked;
+        renderRegions();
+        $("boss-mode").focus({ preventScroll: true });
+      }
+      if (event.target.id === "monster-boss-attack-setting") {
+        state.bossAttackSetting = event.target.value;
+        renderRegions();
+        $("boss-attack-setting").focus({ preventScroll: true });
+      }
     });
     $("reset-filters").addEventListener("click", clearFilters);
     root.addEventListener("click", (event) => {
