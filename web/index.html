@@ -1285,17 +1285,18 @@ function equipEffectText(e){return (e.effect_type||'')+' '+(e.opt2?e.opt2.text:'
 (function buildSetBtns(){
   const wrap=document.getElementById('equip-set-filters');
   if(!wrap||!EQUIP_SET_INFO)return;
-  const btns=[['세트 전체',''],['세트 아이템만','*']].concat(EQUIP_SET_INFO.sets.map(x=>[x.name+' 세트',x.name]));
+  const btns=[['세트 아이템만','*']].concat(EQUIP_SET_INFO.sets.map(x=>[x.name+' 세트',x.name]));
   btns.forEach(([label,key])=>{
     const btn=document.createElement('button');
-    btn.className='filter-btn'+(key===''?' active':'');
+    btn.className='filter-btn';
     btn.textContent=label;
     btn.style.fontSize='0.75rem';
     btn.style.padding='3px 8px';
     btn.addEventListener('click',()=>{
+      const on=btn.classList.contains('active');
       wrap.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));
-      btn.classList.add('active');
-      equipSetFilter=key;
+      if(!on)btn.classList.add('active');
+      equipSetFilter=on?'':key;   // 다시 누르면 세트 거르기 끔
       renderEquip();
     });
     wrap.appendChild(btn);
