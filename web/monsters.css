@@ -169,8 +169,12 @@
 .monster-guide .error:empty {
   display: none;
 }
-.monster-guide .maximum-summary {
-  margin: 0 0 16px;
+.monster-guide .maximum-summary h2 {
+  margin-bottom: 6px;
+  font-size: 16px;
+}
+.monster-guide .maximum-summary p {
+  margin: 0;
   font-size: 14px;
   color: var(--text-dim);
 }

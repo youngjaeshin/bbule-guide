@@ -345,13 +345,13 @@
         " 적용</strong></span></div><h3>몬스터 고유 저항에 더하는 보정</h3>" +
         resistanceGrid(t.resistance) +
         '<p class="scope">몬스터 고유값과 랜덤 가산 전 기준입니다. 공격 무효화에는 몬스터 고유 공무를 더하며, 개체 상세에서 자동 계산합니다.</p></div>' +
-        '<p class="maximum-summary">' +
+        '<div class="panel maximum-summary"><h2>' +
         esc(t.name) +
-        '에서 나올 수 있는 최대 공무 <span id="monster-region-maximum">' +
+        ' 구간 전체 최대 공무 <span id="monster-region-maximum">' +
         pct(max) +
-        "</span> (공통 " +
+        "</span></h2><p>공통 " +
         t.statuses.null.base +
-        " + 피의 돌격병 고유 115 + 랜덤 가산 30)</p>" +
+        " + 피의 돌격병(일반) 고유 115 + 랜덤 가산 30</p></div>" +
         '<div class="panel"><div class="section-top"><h2>특징 있는 몬스터</h2><button data-action="all-highlights">25개 모두 보기</button></div><div class="feature-list">' +
         priority
           .map((key) => {
