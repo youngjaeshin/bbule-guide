@@ -48457,27 +48457,27 @@
       }
     ],
     "damage_raw": {
-      "damage": 120,
-      "damageUp": 20,
+      "damage": 132,
+      "damageUp": 22,
       "damageClick": 40,
       "damageClickUp": 19
     },
     "damageG_raw": {
-      "damageG": 120,
-      "damageUpG": 20,
+      "damageG": 132,
+      "damageUpG": 22,
       "damageClickG": 40,
       "damageClickUpG": 19
     },
     "attackCooldown": 1.6,
     "attackCooldownG": 1.6,
     "sheet_stats": {
-      "base_dps": 300.0,
+      "base_dps": 330.0,
       "attack_cooldown": 1.6,
-      "growth_dps": 50.0,
+      "growth_dps": 55.0,
       "base_click_damage": 28.0,
-      "base_damage": 480.0,
+      "base_damage": 528.0,
       "growth_click_damage": 13.3,
-      "growth_damage": 80.0
+      "growth_damage": 88.0
     },
     "exclusiveIDs": [
       155,
