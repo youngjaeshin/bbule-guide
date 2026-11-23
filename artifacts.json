@@ -46834,5 +46834,3806 @@
         "status": "color_model_inference_not_applied"
       }
     ]
+  },
+  {
+    "index": 561,
+    "name": "New머더러 스틸 클럽",
+    "set_id": 5,
+    "set_name": "머더러",
+    "icon": 191,
+    "rank": 12,
+    "grade": "R",
+    "dropTable": 12,
+    "part": 0,
+    "part_name": "무기",
+    "aType": [
+      16,
+      18,
+      55,
+      452
+    ],
+    "aEffect": [
+      0.18,
+      -9.0,
+      16.0,
+      0.18
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 16,
+        "namespace": "artifact_aType",
+        "type_name": "강타 확률",
+        "value": 0.18,
+        "value_display": "18%",
+        "description": "강타 확률 +18%",
+        "source_slot": 1
+      },
+      {
+        "type_code": 18,
+        "namespace": "artifact_aType",
+        "type_name": "연타 불가",
+        "value": -9.0,
+        "value_display": "",
+        "description": "연타 불가",
+        "source_slot": 2,
+        "effect_kind": "restriction"
+      },
+      {
+        "type_code": 55,
+        "namespace": "artifact_aType",
+        "type_name": "모든 용병의 성장 데미지",
+        "value": 16.0,
+        "value_display": "16",
+        "description": "모든 용병의 성장 데미지 +16",
+        "source_slot": 3
+      },
+      {
+        "type_code": 452,
+        "namespace": "artifact_aType",
+        "type_name": "(머더러 세트 완성시) 치명타 확률",
+        "value": 0.18,
+        "value_display": "18%",
+        "description": "(머더러 세트 완성시) 치명타 확률 +18%",
+        "source_slot": 4,
+        "condition": {
+          "kind": "set_completed",
+          "value": "머더러",
+          "raw_text": "(머더러 세트 완성시)",
+          "operator": "complete_set",
+          "negated": false
+        }
+      }
+    ],
+    "captureStatus": "test_build_data",
+    "testOnly": "1890 TEST_6",
+    "sourceRecords": [
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build 1890 TEST_6"
+      }
+    ]
+  },
+  {
+    "index": 562,
+    "name": "New머더러 그레이트 헬름",
+    "set_id": 5,
+    "set_name": "머더러",
+    "icon": 192,
+    "rank": 12,
+    "grade": "R",
+    "dropTable": 12,
+    "part": 1,
+    "part_name": "투구",
+    "aType": [
+      17,
+      18,
+      28,
+      3071
+    ],
+    "aEffect": [
+      2.4,
+      -9.0,
+      0.021,
+      0.021
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 17,
+        "namespace": "artifact_aType",
+        "type_name": "강타 배수",
+        "value": 2.4,
+        "value_display": "2.4",
+        "description": "강타 배수 +2.4",
+        "source_slot": 1
+      },
+      {
+        "type_code": 18,
+        "namespace": "artifact_aType",
+        "type_name": "연타 불가",
+        "value": -9.0,
+        "value_display": "",
+        "description": "연타 불가",
+        "source_slot": 2,
+        "effect_kind": "restriction"
+      },
+      {
+        "type_code": 28,
+        "namespace": "artifact_aType",
+        "type_name": "공격 무효화 관통",
+        "value": 0.021,
+        "value_display": "2.1%",
+        "description": "공격 무효화 관통 +2.1%",
+        "source_slot": 3
+      },
+      {
+        "type_code": 3071,
+        "namespace": "artifact_aType",
+        "type_name": "(아티팩트 New머더러 스틸 클럽 장착시) 모든 용병의 강타 확률",
+        "value": 0.021,
+        "value_display": "2.1%",
+        "description": "(아티팩트 New머더러 스틸 클럽 장착시) 모든 용병의 강타 확률 +2.1%",
+        "source_slot": 4,
+        "condition": {
+          "kind": "artifact_equipped",
+          "value": "New머더러 스틸 클럽",
+          "raw_text": "(아티팩트 New머더러 스틸 클럽 장착시)",
+          "operator": "requires",
+          "negated": false
+        }
+      }
+    ],
+    "captureStatus": "test_build_data",
+    "testOnly": "1890 TEST_6",
+    "sourceRecords": [
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build 1890 TEST_6"
+      }
+    ]
+  },
+  {
+    "index": 563,
+    "name": "New머더러 헤비 플레이트",
+    "set_id": 5,
+    "set_name": "머더러",
+    "icon": 193,
+    "rank": 12,
+    "grade": "R",
+    "dropTable": 12,
+    "part": 2,
+    "part_name": "갑옷",
+    "aType": [
+      77,
+      18,
+      62,
+      3072
+    ],
+    "aEffect": [
+      0.19,
+      -9.0,
+      0.014,
+      0.09
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 77,
+        "namespace": "artifact_aType",
+        "type_name": "더블 어택 확률",
+        "value": 0.19,
+        "value_display": "19%",
+        "description": "더블 어택 확률 +19%",
+        "source_slot": 1
+      },
+      {
+        "type_code": 18,
+        "namespace": "artifact_aType",
+        "type_name": "연타 불가",
+        "value": -9.0,
+        "value_display": "",
+        "description": "연타 불가",
+        "source_slot": 2,
+        "effect_kind": "restriction"
+      },
+      {
+        "type_code": 62,
+        "namespace": "artifact_aType",
+        "type_name": "적들의 흡수 확률 감소",
+        "value": 0.014,
+        "value_display": "1.4%",
+        "description": "적들의 흡수 확률 감소 +1.4%",
+        "source_slot": 3
+      },
+      {
+        "type_code": 3072,
+        "namespace": "artifact_aType",
+        "type_name": "(아티팩트 New머더러 그레이트 헬름 장착시) 봉인 무효화 확률",
+        "value": 0.09,
+        "value_display": "9%",
+        "description": "(아티팩트 New머더러 그레이트 헬름 장착시) 봉인 무효화 확률 +9%",
+        "source_slot": 4,
+        "condition": {
+          "kind": "artifact_equipped",
+          "value": "New머더러 그레이트 헬름",
+          "raw_text": "(아티팩트 New머더러 그레이트 헬름 장착시)",
+          "operator": "requires",
+          "negated": false
+        }
+      }
+    ],
+    "captureStatus": "test_build_data",
+    "testOnly": "1890 TEST_6",
+    "sourceRecords": [
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build 1890 TEST_6"
+      }
+    ]
+  },
+  {
+    "index": 564,
+    "name": "New머더러 건틀릿",
+    "set_id": 5,
+    "set_name": "머더러",
+    "icon": 194,
+    "rank": 12,
+    "grade": "R",
+    "dropTable": 12,
+    "part": 3,
+    "part_name": "보조",
+    "aType": [
+      16,
+      18,
+      47,
+      3073
+    ],
+    "aEffect": [
+      0.18,
+      -9.0,
+      0.02,
+      0.016
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 16,
+        "namespace": "artifact_aType",
+        "type_name": "강타 확률",
+        "value": 0.18,
+        "value_display": "18%",
+        "description": "강타 확률 +18%",
+        "source_slot": 1
+      },
+      {
+        "type_code": 18,
+        "namespace": "artifact_aType",
+        "type_name": "연타 불가",
+        "value": -9.0,
+        "value_display": "",
+        "description": "연타 불가",
+        "source_slot": 2,
+        "effect_kind": "restriction"
+      },
+      {
+        "type_code": 47,
+        "namespace": "artifact_aType",
+        "type_name": "적들의 회피 확률 감소",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "적들의 회피 확률 감소 +2%",
+        "source_slot": 3
+      },
+      {
+        "type_code": 3073,
+        "namespace": "artifact_aType",
+        "type_name": "(아티팩트 New머더러 헤비 플레이트 장착시) 모든 용병의 치명타 확률",
+        "value": 0.016,
+        "value_display": "1.6%",
+        "description": "(아티팩트 New머더러 헤비 플레이트 장착시) 모든 용병의 치명타 확률 +1.6%",
+        "source_slot": 4,
+        "condition": {
+          "kind": "artifact_equipped",
+          "value": "New머더러 헤비 플레이트",
+          "raw_text": "(아티팩트 New머더러 헤비 플레이트 장착시)",
+          "operator": "requires",
+          "negated": false
+        }
+      }
+    ],
+    "captureStatus": "test_build_data",
+    "testOnly": "1890 TEST_6",
+    "sourceRecords": [
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build 1890 TEST_6"
+      }
+    ]
+  },
+  {
+    "index": 565,
+    "name": "New에버그린 헌터 보우",
+    "set_id": 23,
+    "set_name": "에버그린",
+    "icon": 195,
+    "rank": 12,
+    "grade": "R",
+    "dropTable": 12,
+    "part": 0,
+    "part_name": "무기",
+    "aType": [
+      27,
+      91,
+      25,
+      459
+    ],
+    "aEffect": [
+      0.72,
+      0.1,
+      0.6,
+      0.08
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 27,
+        "namespace": "artifact_aType",
+        "type_name": "추가 클릭 확률",
+        "value": 0.72,
+        "value_display": "72%",
+        "description": "추가 클릭 확률 +72%",
+        "source_slot": 1
+      },
+      {
+        "type_code": 91,
+        "namespace": "artifact_aType",
+        "type_name": "추가 클릭 데미지",
+        "value": 0.1,
+        "value_display": "10%",
+        "description": "추가 클릭 데미지 +10%",
+        "source_slot": 2
+      },
+      {
+        "type_code": 25,
+        "namespace": "artifact_aType",
+        "type_name": "클릭 크리티컬 배수",
+        "value": 0.6,
+        "value_display": "0.6",
+        "description": "클릭 크리티컬 배수 +0.6",
+        "source_slot": 3
+      },
+      {
+        "type_code": 459,
+        "namespace": "artifact_aType",
+        "type_name": "(에버그린 세트 완성시) 선제 공격 확률",
+        "value": 0.08,
+        "value_display": "8%",
+        "description": "(에버그린 세트 완성시) 선제 공격 확률 +8%",
+        "source_slot": 4,
+        "condition": {
+          "kind": "set_completed",
+          "value": "에버그린",
+          "raw_text": "(에버그린 세트 완성시)",
+          "operator": "complete_set",
+          "negated": false
+        }
+      }
+    ],
+    "captureStatus": "test_build_data",
+    "testOnly": "1890 TEST_6",
+    "sourceRecords": [
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build 1890 TEST_6"
+      }
+    ]
+  },
+  {
+    "index": 566,
+    "name": "New에버그린 서클릿",
+    "set_id": 23,
+    "set_name": "에버그린",
+    "icon": 196,
+    "rank": 12,
+    "grade": "R",
+    "dropTable": 12,
+    "part": 1,
+    "part_name": "투구",
+    "aType": [
+      91,
+      1034,
+      68,
+      3074
+    ],
+    "aEffect": [
+      0.22,
+      0.08,
+      0.016,
+      0.22
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 91,
+        "namespace": "artifact_aType",
+        "type_name": "추가 클릭 데미지",
+        "value": 0.22,
+        "value_display": "22%",
+        "description": "추가 클릭 데미지 +22%",
+        "source_slot": 1
+      },
+      {
+        "type_code": 1034,
+        "namespace": "artifact_aType",
+        "type_name": "봉인될 확률 감소",
+        "value": 0.08,
+        "value_display": "8%",
+        "description": "봉인될 확률 감소 +8%",
+        "source_slot": 2
+      },
+      {
+        "type_code": 68,
+        "namespace": "artifact_aType",
+        "type_name": "적들의 둔화 효과 감소",
+        "value": 0.016,
+        "value_display": "1.6%",
+        "description": "적들의 둔화 효과 감소 +1.6%",
+        "source_slot": 3
+      },
+      {
+        "type_code": 3074,
+        "namespace": "artifact_aType",
+        "type_name": "(아티팩트 New에버그린 헌터 보우 장착시) 소울 클릭 배수",
+        "value": 0.22,
+        "value_display": "0.22",
+        "description": "(아티팩트 New에버그린 헌터 보우 장착시) 소울 클릭 배수 +0.22",
+        "source_slot": 4,
+        "condition": {
+          "kind": "artifact_equipped",
+          "value": "New에버그린 헌터 보우",
+          "raw_text": "(아티팩트 New에버그린 헌터 보우 장착시)",
+          "operator": "requires",
+          "negated": false
+        }
+      }
+    ],
+    "captureStatus": "test_build_data",
+    "testOnly": "1890 TEST_6",
+    "sourceRecords": [
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build 1890 TEST_6"
+      }
+    ]
+  },
+  {
+    "index": 567,
+    "name": "New에버그린 코트",
+    "set_id": 23,
+    "set_name": "에버그린",
+    "icon": 197,
+    "rank": 12,
+    "grade": "R",
+    "dropTable": 12,
+    "part": 2,
+    "part_name": "갑옷",
+    "aType": [
+      27,
+      6,
+      67,
+      3075
+    ],
+    "aEffect": [
+      0.9,
+      0.45,
+      0.016,
+      0.04
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 27,
+        "namespace": "artifact_aType",
+        "type_name": "추가 클릭 확률",
+        "value": 0.9,
+        "value_display": "90%",
+        "description": "추가 클릭 확률 +90%",
+        "source_slot": 1
+      },
+      {
+        "type_code": 6,
+        "namespace": "artifact_aType",
+        "type_name": "공격 속도",
+        "value": 0.45,
+        "value_display": "45%",
+        "description": "공격 속도 +45%",
+        "source_slot": 2
+      },
+      {
+        "type_code": 67,
+        "namespace": "artifact_aType",
+        "type_name": "적들의 약화 효과 감소",
+        "value": 0.016,
+        "value_display": "1.6%",
+        "description": "적들의 약화 효과 감소 +1.6%",
+        "source_slot": 3
+      },
+      {
+        "type_code": 3075,
+        "namespace": "artifact_aType",
+        "type_name": "(아티팩트 New에버그린 서클릿 장착시) 추가 클릭 데미지 증폭",
+        "value": 0.04,
+        "value_display": "4%",
+        "description": "(아티팩트 New에버그린 서클릿 장착시) 추가 클릭 데미지 증폭 +4%",
+        "source_slot": 4,
+        "condition": {
+          "kind": "artifact_equipped",
+          "value": "New에버그린 서클릿",
+          "raw_text": "(아티팩트 New에버그린 서클릿 장착시)",
+          "operator": "requires",
+          "negated": false
+        }
+      }
+    ],
+    "captureStatus": "test_build_data",
+    "testOnly": "1890 TEST_6",
+    "sourceRecords": [
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build 1890 TEST_6"
+      }
+    ]
+  },
+  {
+    "index": 568,
+    "name": "New에버그린 스커트",
+    "set_id": 23,
+    "set_name": "에버그린",
+    "icon": 198,
+    "rank": 12,
+    "grade": "R",
+    "dropTable": 12,
+    "part": 3,
+    "part_name": "보조",
+    "aType": [
+      91,
+      82,
+      57,
+      3076
+    ],
+    "aEffect": [
+      0.22,
+      0.11,
+      0.016,
+      0.02
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 91,
+        "namespace": "artifact_aType",
+        "type_name": "추가 클릭 데미지",
+        "value": 0.22,
+        "value_display": "22%",
+        "description": "추가 클릭 데미지 +22%",
+        "source_slot": 1
+      },
+      {
+        "type_code": 82,
+        "namespace": "artifact_aType",
+        "type_name": "공포 극복 확률",
+        "value": 0.11,
+        "value_display": "11%",
+        "description": "공포 극복 확률 +11%",
+        "source_slot": 2
+      },
+      {
+        "type_code": 57,
+        "namespace": "artifact_aType",
+        "type_name": "모든 용병의 공포 극복 확률",
+        "value": 0.016,
+        "value_display": "1.6%",
+        "description": "모든 용병의 공포 극복 확률 +1.6%",
+        "source_slot": 3
+      },
+      {
+        "type_code": 3076,
+        "namespace": "artifact_aType",
+        "type_name": "(아티팩트 New에버그린 코트 장착시) 모든 용병의 추가 클릭 데미지",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "(아티팩트 New에버그린 코트 장착시) 모든 용병의 추가 클릭 데미지 +2%",
+        "source_slot": 4,
+        "condition": {
+          "kind": "artifact_equipped",
+          "value": "New에버그린 코트",
+          "raw_text": "(아티팩트 New에버그린 코트 장착시)",
+          "operator": "requires",
+          "negated": false
+        }
+      }
+    ],
+    "captureStatus": "test_build_data",
+    "testOnly": "1890 TEST_6",
+    "sourceRecords": [
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build 1890 TEST_6"
+      }
+    ]
+  },
+  {
+    "index": 569,
+    "name": "New이럽션 포지드 스워드",
+    "set_id": 24,
+    "set_name": "이럽션",
+    "icon": 206,
+    "rank": 12,
+    "grade": "R",
+    "dropTable": 12,
+    "part": 0,
+    "part_name": "무기",
+    "aType": [
+      1004,
+      1061,
+      96,
+      3079
+    ],
+    "aEffect": [
+      0.11,
+      0.015,
+      0.01,
+      0.012
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1004,
+        "namespace": "artifact_aType",
+        "type_name": "행운 배수 증폭",
+        "value": 0.11,
+        "value_display": "11%",
+        "description": "행운 배수 증폭 +11%",
+        "source_slot": 1
+      },
+      {
+        "type_code": 1061,
+        "namespace": "artifact_aType",
+        "type_name": "모든 용병의 치명타 배수 증폭",
+        "value": 0.015,
+        "value_display": "1.5%",
+        "description": "모든 용병의 치명타 배수 증폭 +1.5%",
+        "source_slot": 2
+      },
+      {
+        "type_code": 96,
+        "namespace": "artifact_aType",
+        "type_name": "적들의 피해 면제 효과 감소",
+        "value": 0.01,
+        "value_display": "1%",
+        "description": "적들의 피해 면제 효과 감소 +1%",
+        "source_slot": 3
+      },
+      {
+        "type_code": 3079,
+        "namespace": "artifact_aType",
+        "type_name": "(아티팩트 New이럽션 워쉽 헬름 장착시) 모든 용병의 행운 배수 증폭",
+        "value": 0.012,
+        "value_display": "1.2%",
+        "description": "(아티팩트 New이럽션 워쉽 헬름 장착시) 모든 용병의 행운 배수 증폭 +1.2%",
+        "source_slot": 4,
+        "condition": {
+          "kind": "artifact_equipped",
+          "value": "New이럽션 워쉽 헬름",
+          "raw_text": "(아티팩트 New이럽션 워쉽 헬름 장착시)",
+          "operator": "requires",
+          "negated": false
+        }
+      }
+    ],
+    "captureStatus": "test_build_data",
+    "testOnly": "1890 TEST_6",
+    "sourceRecords": [
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build 1890 TEST_6"
+      }
+    ]
+  },
+  {
+    "index": 570,
+    "name": "New이럽션 워쉽 헬름",
+    "set_id": 24,
+    "set_name": "이럽션",
+    "icon": 207,
+    "rank": 12,
+    "grade": "R",
+    "dropTable": 12,
+    "part": 1,
+    "part_name": "투구",
+    "aType": [
+      1004,
+      1083,
+      97,
+      3080
+    ],
+    "aEffect": [
+      0.11,
+      0.012,
+      0.01,
+      0.012
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1004,
+        "namespace": "artifact_aType",
+        "type_name": "행운 배수 증폭",
+        "value": 0.11,
+        "value_display": "11%",
+        "description": "행운 배수 증폭 +11%",
+        "source_slot": 1
+      },
+      {
+        "type_code": 1083,
+        "namespace": "artifact_aType",
+        "type_name": "모든 용병의 추가 클릭 데미지 증폭",
+        "value": 0.012,
+        "value_display": "1.2%",
+        "description": "모든 용병의 추가 클릭 데미지 증폭 +1.2%",
+        "source_slot": 2
+      },
+      {
+        "type_code": 97,
+        "namespace": "artifact_aType",
+        "type_name": "적들의 반사 확률 감소",
+        "value": 0.01,
+        "value_display": "1%",
+        "description": "적들의 반사 확률 감소 +1%",
+        "source_slot": 3
+      },
+      {
+        "type_code": 3080,
+        "namespace": "artifact_aType",
+        "type_name": "(아티팩트 New이럽션 레드 코트 장착시) 모든 용병의 행운 배수 증폭",
+        "value": 0.012,
+        "value_display": "1.2%",
+        "description": "(아티팩트 New이럽션 레드 코트 장착시) 모든 용병의 행운 배수 증폭 +1.2%",
+        "source_slot": 4,
+        "condition": {
+          "kind": "artifact_equipped",
+          "value": "New이럽션 레드 코트",
+          "raw_text": "(아티팩트 New이럽션 레드 코트 장착시)",
+          "operator": "requires",
+          "negated": false
+        }
+      }
+    ],
+    "captureStatus": "test_build_data",
+    "testOnly": "1890 TEST_6",
+    "sourceRecords": [
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build 1890 TEST_6"
+      }
+    ]
+  },
+  {
+    "index": 571,
+    "name": "New이럽션 레드 코트",
+    "set_id": 24,
+    "set_name": "이럽션",
+    "icon": 208,
+    "rank": 12,
+    "grade": "R",
+    "dropTable": 12,
+    "part": 2,
+    "part_name": "갑옷",
+    "aType": [
+      1004,
+      1029,
+      1175,
+      3081
+    ],
+    "aEffect": [
+      0.11,
+      0.015,
+      0.009,
+      0.12
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1004,
+        "namespace": "artifact_aType",
+        "type_name": "행운 배수 증폭",
+        "value": 0.11,
+        "value_display": "11%",
+        "description": "행운 배수 증폭 +11%",
+        "source_slot": 1
+      },
+      {
+        "type_code": 1029,
+        "namespace": "artifact_aType",
+        "type_name": "모든 용병의 행운 배수 증폭",
+        "value": 0.015,
+        "value_display": "1.5%",
+        "description": "모든 용병의 행운 배수 증폭 +1.5%",
+        "source_slot": 2
+      },
+      {
+        "type_code": 1175,
+        "namespace": "artifact_aType",
+        "type_name": "적들의 무력화 효과 감소",
+        "value": 0.009,
+        "value_display": "0.9%",
+        "description": "적들의 무력화 효과 감소 +0.9%",
+        "source_slot": 3
+      },
+      {
+        "type_code": 3081,
+        "namespace": "artifact_aType",
+        "type_name": "(아티팩트 New이럽션 디바인 셉터 장착시) 모든 용병의 행운 배수",
+        "value": 0.12,
+        "value_display": "0.12",
+        "description": "(아티팩트 New이럽션 디바인 셉터 장착시) 모든 용병의 행운 배수 +0.12",
+        "source_slot": 4,
+        "condition": {
+          "kind": "artifact_equipped",
+          "value": "New이럽션 디바인 셉터",
+          "raw_text": "(아티팩트 New이럽션 디바인 셉터 장착시)",
+          "operator": "requires",
+          "negated": false
+        }
+      }
+    ],
+    "captureStatus": "test_build_data",
+    "testOnly": "1890 TEST_6",
+    "sourceRecords": [
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build 1890 TEST_6"
+      }
+    ]
+  },
+  {
+    "index": 572,
+    "name": "New이럽션 디바인 셉터",
+    "set_id": 24,
+    "set_name": "이럽션",
+    "icon": 209,
+    "rank": 12,
+    "grade": "R",
+    "dropTable": 12,
+    "part": 3,
+    "part_name": "보조",
+    "aType": [
+      1004,
+      1029,
+      1035,
+      3082
+    ],
+    "aEffect": [
+      0.11,
+      0.015,
+      0.009,
+      0.024
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1004,
+        "namespace": "artifact_aType",
+        "type_name": "행운 배수 증폭",
+        "value": 0.11,
+        "value_display": "11%",
+        "description": "행운 배수 증폭 +11%",
+        "source_slot": 1
+      },
+      {
+        "type_code": 1029,
+        "namespace": "artifact_aType",
+        "type_name": "모든 용병의 행운 배수 증폭",
+        "value": 0.015,
+        "value_display": "1.5%",
+        "description": "모든 용병의 행운 배수 증폭 +1.5%",
+        "source_slot": 2
+      },
+      {
+        "type_code": 1035,
+        "namespace": "artifact_aType",
+        "type_name": "모든 용병의 봉인 무효화 확률",
+        "value": 0.009,
+        "value_display": "0.9%",
+        "description": "모든 용병의 봉인 무효화 확률 +0.9%",
+        "source_slot": 3
+      },
+      {
+        "type_code": 3082,
+        "namespace": "artifact_aType",
+        "type_name": "(이럽션 세트 완성시) 모든 용병의 행운 배수 증폭",
+        "value": 0.024,
+        "value_display": "2.4%",
+        "description": "(이럽션 세트 완성시) 모든 용병의 행운 배수 증폭 +2.4%",
+        "source_slot": 4,
+        "condition": {
+          "kind": "set_completed",
+          "value": "이럽션",
+          "raw_text": "(이럽션 세트 완성시)",
+          "operator": "complete_set",
+          "negated": false
+        }
+      }
+    ],
+    "captureStatus": "test_build_data",
+    "testOnly": "1890 TEST_6",
+    "sourceRecords": [
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build 1890 TEST_6"
+      }
+    ]
+  },
+  {
+    "index": 573,
+    "name": "New머더러 쇼울더 아머",
+    "set_id": 5,
+    "set_name": "머더러",
+    "icon": 525,
+    "rank": 12,
+    "grade": "R",
+    "dropTable": 12,
+    "part": 3,
+    "part_name": "보조",
+    "aType": [
+      87,
+      18,
+      1009,
+      3077
+    ],
+    "aEffect": [
+      0.15,
+      -9.0,
+      0.013,
+      0.08
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 87,
+        "namespace": "artifact_aType",
+        "type_name": "치명타 확률",
+        "value": 0.15,
+        "value_display": "15%",
+        "description": "치명타 확률 +15%",
+        "source_slot": 1
+      },
+      {
+        "type_code": 18,
+        "namespace": "artifact_aType",
+        "type_name": "연타 불가",
+        "value": -9.0,
+        "value_display": "",
+        "description": "연타 불가",
+        "source_slot": 2,
+        "effect_kind": "restriction"
+      },
+      {
+        "type_code": 1009,
+        "namespace": "artifact_aType",
+        "type_name": "적들의 부활 확률 감소",
+        "value": 0.013,
+        "value_display": "1.3%",
+        "description": "적들의 부활 확률 감소 +1.3%",
+        "source_slot": 3
+      },
+      {
+        "type_code": 3077,
+        "namespace": "artifact_aType",
+        "type_name": "(아티팩트 New머더러 건틀릿 장착시) 치명타 배수 증폭",
+        "value": 0.08,
+        "value_display": "8%",
+        "description": "(아티팩트 New머더러 건틀릿 장착시) 치명타 배수 증폭 +8%",
+        "source_slot": 4,
+        "condition": {
+          "kind": "artifact_equipped",
+          "value": "New머더러 건틀릿",
+          "raw_text": "(아티팩트 New머더러 건틀릿 장착시)",
+          "operator": "requires",
+          "negated": false
+        }
+      }
+    ],
+    "captureStatus": "test_build_data",
+    "testOnly": "1890 TEST_6",
+    "sourceRecords": [
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build 1890 TEST_6"
+      }
+    ]
+  },
+  {
+    "index": 574,
+    "name": "New에버그린 핸드 엑스",
+    "set_id": 23,
+    "set_name": "에버그린",
+    "icon": 526,
+    "rank": 12,
+    "grade": "R",
+    "dropTable": 12,
+    "part": 0,
+    "part_name": "무기",
+    "aType": [
+      1005,
+      87,
+      1008,
+      3078
+    ],
+    "aEffect": [
+      0.1,
+      -9.0,
+      0.014,
+      0.08
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1005,
+        "namespace": "artifact_aType",
+        "type_name": "추가 클릭 데미지 증폭",
+        "value": 0.1,
+        "value_display": "10%",
+        "description": "추가 클릭 데미지 증폭 +10%",
+        "source_slot": 1
+      },
+      {
+        "type_code": 87,
+        "namespace": "artifact_aType",
+        "type_name": "치명타 불가",
+        "value": -9.0,
+        "value_display": "",
+        "description": "치명타 불가",
+        "source_slot": 2,
+        "effect_kind": "restriction"
+      },
+      {
+        "type_code": 1008,
+        "namespace": "artifact_aType",
+        "type_name": "적들의 방어막 효과 감소",
+        "value": 0.014,
+        "value_display": "1.4%",
+        "description": "적들의 방어막 효과 감소 +1.4%",
+        "source_slot": 3
+      },
+      {
+        "type_code": 3078,
+        "namespace": "artifact_aType",
+        "type_name": "(아티팩트 New에버그린 스커트 장착시) 행운 배수 증폭",
+        "value": 0.08,
+        "value_display": "8%",
+        "description": "(아티팩트 New에버그린 스커트 장착시) 행운 배수 증폭 +8%",
+        "source_slot": 4,
+        "condition": {
+          "kind": "artifact_equipped",
+          "value": "New에버그린 스커트",
+          "raw_text": "(아티팩트 New에버그린 스커트 장착시)",
+          "operator": "requires",
+          "negated": false
+        }
+      }
+    ],
+    "captureStatus": "test_build_data",
+    "testOnly": "1890 TEST_6",
+    "sourceRecords": [
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build 1890 TEST_6"
+      }
+    ]
+  },
+  {
+    "index": 575,
+    "name": "New이럽션 레드 팬츠",
+    "set_id": 24,
+    "set_name": "이럽션",
+    "icon": 527,
+    "rank": 12,
+    "grade": "R",
+    "dropTable": 12,
+    "part": 2,
+    "part_name": "갑옷",
+    "aType": [
+      1004,
+      1029,
+      57,
+      3083
+    ],
+    "aEffect": [
+      0.11,
+      0.015,
+      0.01,
+      0.24
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1004,
+        "namespace": "artifact_aType",
+        "type_name": "행운 배수 증폭",
+        "value": 0.11,
+        "value_display": "11%",
+        "description": "행운 배수 증폭 +11%",
+        "source_slot": 1
+      },
+      {
+        "type_code": 1029,
+        "namespace": "artifact_aType",
+        "type_name": "모든 용병의 행운 배수 증폭",
+        "value": 0.015,
+        "value_display": "1.5%",
+        "description": "모든 용병의 행운 배수 증폭 +1.5%",
+        "source_slot": 2
+      },
+      {
+        "type_code": 57,
+        "namespace": "artifact_aType",
+        "type_name": "모든 용병의 공포 극복 확률",
+        "value": 0.01,
+        "value_display": "1%",
+        "description": "모든 용병의 공포 극복 확률 +1%",
+        "source_slot": 3
+      },
+      {
+        "type_code": 3083,
+        "namespace": "artifact_aType",
+        "type_name": "(이럽션 세트 완성시) 모든 용병의 행운 배수",
+        "value": 0.24,
+        "value_display": "0.24",
+        "description": "(이럽션 세트 완성시) 모든 용병의 행운 배수 +0.24",
+        "source_slot": 4,
+        "condition": {
+          "kind": "set_completed",
+          "value": "이럽션",
+          "raw_text": "(이럽션 세트 완성시)",
+          "operator": "complete_set",
+          "negated": false
+        }
+      }
+    ],
+    "captureStatus": "test_build_data",
+    "testOnly": "1890 TEST_6",
+    "sourceRecords": [
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build 1890 TEST_6"
+      }
+    ]
+  },
+  {
+    "index": 576,
+    "name": "New툼마스톤 스워드",
+    "set_id": 1003,
+    "set_name": "툼마스톤",
+    "icon": 528,
+    "rank": 12,
+    "grade": "R",
+    "dropTable": 12,
+    "part": 0,
+    "part_name": "무기",
+    "aType": [
+      51,
+      1034,
+      28,
+      3084
+    ],
+    "aEffect": [
+      1.3,
+      0.05,
+      0.021,
+      0.008
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 51,
+        "namespace": "artifact_aType",
+        "type_name": "행운 배수",
+        "value": 1.3,
+        "value_display": "1.3",
+        "description": "행운 배수 +1.3",
+        "source_slot": 1
+      },
+      {
+        "type_code": 1034,
+        "namespace": "artifact_aType",
+        "type_name": "봉인될 확률 감소",
+        "value": 0.05,
+        "value_display": "5%",
+        "description": "봉인될 확률 감소 +5%",
+        "source_slot": 2
+      },
+      {
+        "type_code": 28,
+        "namespace": "artifact_aType",
+        "type_name": "공격 무효화 관통",
+        "value": 0.021,
+        "value_display": "2.1%",
+        "description": "공격 무효화 관통 +2.1%",
+        "source_slot": 3
+      },
+      {
+        "type_code": 3084,
+        "namespace": "artifact_aType",
+        "type_name": "(아티팩트 New툼마스톤 바이저 장착시) 모든 용병의 봉인 무효화 확률",
+        "value": 0.008,
+        "value_display": "0.8%",
+        "description": "(아티팩트 New툼마스톤 바이저 장착시) 모든 용병의 봉인 무효화 확률 +0.8%",
+        "source_slot": 4,
+        "condition": {
+          "kind": "artifact_equipped",
+          "value": "New툼마스톤 바이저",
+          "raw_text": "(아티팩트 New툼마스톤 바이저 장착시)",
+          "operator": "requires",
+          "negated": false
+        }
+      }
+    ],
+    "captureStatus": "test_build_data",
+    "testOnly": "1890 TEST_6",
+    "sourceRecords": [
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build 1890 TEST_6"
+      }
+    ]
+  },
+  {
+    "index": 577,
+    "name": "New툼마스톤 바이저",
+    "set_id": 1003,
+    "set_name": "툼마스톤",
+    "icon": 529,
+    "rank": 12,
+    "grade": "R",
+    "dropTable": 12,
+    "part": 1,
+    "part_name": "투구",
+    "aType": [
+      51,
+      1026,
+      67,
+      3085
+    ],
+    "aEffect": [
+      1.3,
+      0.06,
+      0.016,
+      0.024
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 51,
+        "namespace": "artifact_aType",
+        "type_name": "행운 배수",
+        "value": 1.3,
+        "value_display": "1.3",
+        "description": "행운 배수 +1.3",
+        "source_slot": 1
+      },
+      {
+        "type_code": 1026,
+        "namespace": "artifact_aType",
+        "type_name": "절대명중 확률",
+        "value": 0.06,
+        "value_display": "6%",
+        "description": "절대명중 확률 +6%",
+        "source_slot": 2
+      },
+      {
+        "type_code": 67,
+        "namespace": "artifact_aType",
+        "type_name": "적들의 약화 효과 감소",
+        "value": 0.016,
+        "value_display": "1.6%",
+        "description": "적들의 약화 효과 감소 +1.6%",
+        "source_slot": 3
+      },
+      {
+        "type_code": 3085,
+        "namespace": "artifact_aType",
+        "type_name": "(툼마스톤 세트 완성시) 모든 용병의 행운 배수 증폭",
+        "value": 0.024,
+        "value_display": "2.4%",
+        "description": "(툼마스톤 세트 완성시) 모든 용병의 행운 배수 증폭 +2.4%",
+        "source_slot": 4,
+        "condition": {
+          "kind": "set_completed",
+          "value": "툼마스톤",
+          "raw_text": "(툼마스톤 세트 완성시)",
+          "operator": "complete_set",
+          "negated": false
+        }
+      }
+    ],
+    "captureStatus": "test_build_data",
+    "testOnly": "1890 TEST_6",
+    "sourceRecords": [
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build 1890 TEST_6"
+      }
+    ]
+  },
+  {
+    "index": 578,
+    "name": "New툼마스톤 플레이트",
+    "set_id": 1003,
+    "set_name": "툼마스톤",
+    "icon": 212,
+    "rank": 12,
+    "grade": "R",
+    "dropTable": 12,
+    "part": 2,
+    "part_name": "갑옷",
+    "aType": [
+      87,
+      83,
+      1009,
+      3086
+    ],
+    "aEffect": [
+      0.11,
+      0.07,
+      0.013,
+      0.09
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 87,
+        "namespace": "artifact_aType",
+        "type_name": "치명타 확률",
+        "value": 0.11,
+        "value_display": "11%",
+        "description": "치명타 확률 +11%",
+        "source_slot": 1
+      },
+      {
+        "type_code": 83,
+        "namespace": "artifact_aType",
+        "type_name": "피격 회피 확률",
+        "value": 0.07,
+        "value_display": "7%",
+        "description": "피격 회피 확률 +7%",
+        "source_slot": 2
+      },
+      {
+        "type_code": 1009,
+        "namespace": "artifact_aType",
+        "type_name": "적들의 부활 확률 감소",
+        "value": 0.013,
+        "value_display": "1.3%",
+        "description": "적들의 부활 확률 감소 +1.3%",
+        "source_slot": 3
+      },
+      {
+        "type_code": 3086,
+        "namespace": "artifact_aType",
+        "type_name": "(아티팩트 New툼마스톤 건틀릿 장착시) 치명타 딜레이 감소",
+        "value": 0.09,
+        "value_display": "9%",
+        "description": "(아티팩트 New툼마스톤 건틀릿 장착시) 치명타 딜레이 감소 +9%",
+        "source_slot": 4,
+        "condition": {
+          "kind": "artifact_equipped",
+          "value": "New툼마스톤 건틀릿",
+          "raw_text": "(아티팩트 New툼마스톤 건틀릿 장착시)",
+          "operator": "requires",
+          "negated": false
+        }
+      }
+    ],
+    "captureStatus": "test_build_data",
+    "testOnly": "1890 TEST_6",
+    "sourceRecords": [
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build 1890 TEST_6"
+      }
+    ]
+  },
+  {
+    "index": 579,
+    "name": "New툼마스톤 건틀릿",
+    "set_id": 1003,
+    "set_name": "툼마스톤",
+    "icon": 213,
+    "rank": 12,
+    "grade": "R",
+    "dropTable": 12,
+    "part": 3,
+    "part_name": "보조",
+    "aType": [
+      1004,
+      82,
+      1008,
+      3087
+    ],
+    "aEffect": [
+      0.09,
+      0.06,
+      0.014,
+      0.012
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1004,
+        "namespace": "artifact_aType",
+        "type_name": "행운 배수 증폭",
+        "value": 0.09,
+        "value_display": "9%",
+        "description": "행운 배수 증폭 +9%",
+        "source_slot": 1
+      },
+      {
+        "type_code": 82,
+        "namespace": "artifact_aType",
+        "type_name": "공포 극복 확률",
+        "value": 0.06,
+        "value_display": "6%",
+        "description": "공포 극복 확률 +6%",
+        "source_slot": 2
+      },
+      {
+        "type_code": 1008,
+        "namespace": "artifact_aType",
+        "type_name": "적들의 방어막 효과 감소",
+        "value": 0.014,
+        "value_display": "1.4%",
+        "description": "적들의 방어막 효과 감소 +1.4%",
+        "source_slot": 3
+      },
+      {
+        "type_code": 3087,
+        "namespace": "artifact_aType",
+        "type_name": "(아티팩트 New툼마스톤 대거 장착시) 적들의 무력화 효과 감소",
+        "value": 0.012,
+        "value_display": "1.2%",
+        "description": "(아티팩트 New툼마스톤 대거 장착시) 적들의 무력화 효과 감소 +1.2%",
+        "source_slot": 4,
+        "condition": {
+          "kind": "artifact_equipped",
+          "value": "New툼마스톤 대거",
+          "raw_text": "(아티팩트 New툼마스톤 대거 장착시)",
+          "operator": "requires",
+          "negated": false
+        }
+      }
+    ],
+    "captureStatus": "test_build_data",
+    "testOnly": "1890 TEST_6",
+    "sourceRecords": [
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build 1890 TEST_6"
+      }
+    ]
+  },
+  {
+    "index": 580,
+    "name": "New툼마스톤 대거",
+    "set_id": 1003,
+    "set_name": "툼마스톤",
+    "icon": 530,
+    "rank": 12,
+    "grade": "R",
+    "dropTable": 12,
+    "part": 0,
+    "part_name": "무기",
+    "aType": [
+      51,
+      81,
+      47,
+      3088
+    ],
+    "aEffect": [
+      1.3,
+      0.03,
+      0.02,
+      0.28
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 51,
+        "namespace": "artifact_aType",
+        "type_name": "행운 배수",
+        "value": 1.3,
+        "value_display": "1.3",
+        "description": "행운 배수 +1.3",
+        "source_slot": 1
+      },
+      {
+        "type_code": 81,
+        "namespace": "artifact_aType",
+        "type_name": "선제 공격 확률",
+        "value": 0.03,
+        "value_display": "3%",
+        "description": "선제 공격 확률 +3%",
+        "source_slot": 2
+      },
+      {
+        "type_code": 47,
+        "namespace": "artifact_aType",
+        "type_name": "적들의 회피 확률 감소",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "적들의 회피 확률 감소 +2%",
+        "source_slot": 3
+      },
+      {
+        "type_code": 3088,
+        "namespace": "artifact_aType",
+        "type_name": "(툼마스톤 세트 완성시) 행운 배수 증폭",
+        "value": 0.28,
+        "value_display": "28%",
+        "description": "(툼마스톤 세트 완성시) 행운 배수 증폭 +28%",
+        "source_slot": 4,
+        "condition": {
+          "kind": "set_completed",
+          "value": "툼마스톤",
+          "raw_text": "(툼마스톤 세트 완성시)",
+          "operator": "complete_set",
+          "negated": false
+        }
+      }
+    ],
+    "captureStatus": "test_build_data",
+    "testOnly": "1890 TEST_6",
+    "sourceRecords": [
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build 1890 TEST_6"
+      }
+    ]
+  },
+  {
+    "index": 581,
+    "name": "New툼마스톤 로브",
+    "set_id": 1003,
+    "set_name": "툼마스톤",
+    "icon": 531,
+    "rank": 12,
+    "grade": "R",
+    "dropTable": 12,
+    "part": 2,
+    "part_name": "갑옷",
+    "aType": [
+      91,
+      83,
+      68,
+      3089
+    ],
+    "aEffect": [
+      0.22,
+      0.07,
+      0.016,
+      0.14
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 91,
+        "namespace": "artifact_aType",
+        "type_name": "추가 클릭 데미지",
+        "value": 0.22,
+        "value_display": "22%",
+        "description": "추가 클릭 데미지 +22%",
+        "source_slot": 1
+      },
+      {
+        "type_code": 83,
+        "namespace": "artifact_aType",
+        "type_name": "피격 회피 확률",
+        "value": 0.07,
+        "value_display": "7%",
+        "description": "피격 회피 확률 +7%",
+        "source_slot": 2
+      },
+      {
+        "type_code": 68,
+        "namespace": "artifact_aType",
+        "type_name": "적들의 둔화 효과 감소",
+        "value": 0.016,
+        "value_display": "1.6%",
+        "description": "적들의 둔화 효과 감소 +1.6%",
+        "source_slot": 3
+      },
+      {
+        "type_code": 3089,
+        "namespace": "artifact_aType",
+        "type_name": "(아티팩트 New툼마스톤 건틀릿 장착시) 추가 클릭 데미지 증폭",
+        "value": 0.14,
+        "value_display": "14%",
+        "description": "(아티팩트 New툼마스톤 건틀릿 장착시) 추가 클릭 데미지 증폭 +14%",
+        "source_slot": 4,
+        "condition": {
+          "kind": "artifact_equipped",
+          "value": "New툼마스톤 건틀릿",
+          "raw_text": "(아티팩트 New툼마스톤 건틀릿 장착시)",
+          "operator": "requires",
+          "negated": false
+        }
+      }
+    ],
+    "captureStatus": "test_build_data",
+    "testOnly": "1890 TEST_6",
+    "sourceRecords": [
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build 1890 TEST_6"
+      }
+    ]
+  },
+  {
+    "index": 582,
+    "name": "라이온 킹 바이저",
+    "set_id": 0,
+    "set_name": "",
+    "icon": 532,
+    "rank": 12,
+    "grade": "R",
+    "dropTable": 12,
+    "part": 1,
+    "part_name": "투구",
+    "aType": [
+      77,
+      1034,
+      58,
+      62
+    ],
+    "aEffect": [
+      0.17,
+      0.06,
+      0.009,
+      0.009
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 77,
+        "namespace": "artifact_aType",
+        "type_name": "더블 어택 확률",
+        "value": 0.17,
+        "value_display": "17%",
+        "description": "더블 어택 확률 +17%",
+        "source_slot": 1
+      },
+      {
+        "type_code": 1034,
+        "namespace": "artifact_aType",
+        "type_name": "봉인될 확률 감소",
+        "value": 0.06,
+        "value_display": "6%",
+        "description": "봉인될 확률 감소 +6%",
+        "source_slot": 2
+      },
+      {
+        "type_code": 58,
+        "namespace": "artifact_aType",
+        "type_name": "모든 용병의 피격 회피 확률",
+        "value": 0.009,
+        "value_display": "0.9%",
+        "description": "모든 용병의 피격 회피 확률 +0.9%",
+        "source_slot": 3
+      },
+      {
+        "type_code": 62,
+        "namespace": "artifact_aType",
+        "type_name": "적들의 흡수 확률 감소",
+        "value": 0.009,
+        "value_display": "0.9%",
+        "description": "적들의 흡수 확률 감소 +0.9%",
+        "source_slot": 4
+      }
+    ],
+    "captureStatus": "test_build_data",
+    "testOnly": "1890 TEST_6",
+    "sourceRecords": [
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build 1890 TEST_6"
+      }
+    ]
+  },
+  {
+    "index": 583,
+    "name": "New캡틴 플린트락",
+    "set_id": 1026,
+    "set_name": "캡틴",
+    "icon": 535,
+    "rank": 11,
+    "grade": "Q",
+    "dropTable": 11,
+    "part": 0,
+    "part_name": "무기",
+    "aType": [
+      1004,
+      1173,
+      1172,
+      3090
+    ],
+    "aEffect": [
+      0.1,
+      0.11,
+      0.11,
+      0.11
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1004,
+        "namespace": "artifact_aType",
+        "type_name": "행운 배수 증폭",
+        "value": 0.1,
+        "value_display": "10%",
+        "description": "행운 배수 증폭 +10%",
+        "source_slot": 1
+      },
+      {
+        "type_code": 1173,
+        "namespace": "artifact_aType",
+        "type_name": "즉시 공격 속도",
+        "value": 0.11,
+        "value_display": "11%",
+        "description": "즉시 공격 속도 +11%",
+        "source_slot": 2
+      },
+      {
+        "type_code": 1172,
+        "namespace": "artifact_aType",
+        "type_name": "즉시 공격 데미지",
+        "value": 0.11,
+        "value_display": "11%",
+        "description": "즉시 공격 데미지 +11%",
+        "source_slot": 3
+      },
+      {
+        "type_code": 3090,
+        "namespace": "artifact_aType",
+        "type_name": "(아티팩트 New캡틴 Q 장착시) 즉시 공격 데미지",
+        "value": 0.11,
+        "value_display": "11%",
+        "description": "(아티팩트 New캡틴 Q 장착시) 즉시 공격 데미지 +11%",
+        "source_slot": 4,
+        "condition": {
+          "kind": "artifact_equipped",
+          "value": "New캡틴 Q",
+          "raw_text": "(아티팩트 New캡틴 Q 장착시)",
+          "operator": "requires",
+          "negated": false
+        }
+      }
+    ],
+    "captureStatus": "test_build_data",
+    "testOnly": "1890 TEST_6",
+    "sourceRecords": [
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build 1890 TEST_6"
+      }
+    ]
+  },
+  {
+    "index": 584,
+    "name": "New캡틴 리더쉽 햇",
+    "set_id": 1026,
+    "set_name": "캡틴",
+    "icon": 228,
+    "rank": 11,
+    "grade": "Q",
+    "dropTable": 11,
+    "part": 1,
+    "part_name": "투구",
+    "aType": [
+      79,
+      80,
+      1175,
+      3091
+    ],
+    "aEffect": [
+      66.0,
+      4.4,
+      0.01,
+      0.05
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 79,
+        "namespace": "artifact_aType",
+        "type_name": "성장 데미지",
+        "value": 66.0,
+        "value_display": "66",
+        "description": "성장 데미지 +66",
+        "source_slot": 1
+      },
+      {
+        "type_code": 80,
+        "namespace": "artifact_aType",
+        "type_name": "클릭 성장 데미지",
+        "value": 4.4,
+        "value_display": "4.4",
+        "description": "클릭 성장 데미지 +4.4",
+        "source_slot": 2
+      },
+      {
+        "type_code": 1175,
+        "namespace": "artifact_aType",
+        "type_name": "적들의 무력화 효과 감소",
+        "value": 0.01,
+        "value_display": "1%",
+        "description": "적들의 무력화 효과 감소 +1%",
+        "source_slot": 3
+      },
+      {
+        "type_code": 3091,
+        "namespace": "artifact_aType",
+        "type_name": "(캡틴 세트 완성시) 모든 용병의 행운 배수 증폭",
+        "value": 0.05,
+        "value_display": "5%",
+        "description": "(캡틴 세트 완성시) 모든 용병의 행운 배수 증폭 +5%",
+        "source_slot": 4,
+        "condition": {
+          "kind": "set_completed",
+          "value": "캡틴",
+          "raw_text": "(캡틴 세트 완성시)",
+          "operator": "complete_set",
+          "negated": false
+        }
+      }
+    ],
+    "captureStatus": "test_build_data",
+    "testOnly": "1890 TEST_6",
+    "sourceRecords": [
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build 1890 TEST_6"
+      }
+    ]
+  },
+  {
+    "index": 585,
+    "name": "New캡틴 레더 코트",
+    "set_id": 1026,
+    "set_name": "캡틴",
+    "icon": 534,
+    "rank": 11,
+    "grade": "Q",
+    "dropTable": 11,
+    "part": 2,
+    "part_name": "갑옷",
+    "aType": [
+      51,
+      23,
+      375,
+      3092
+    ],
+    "aEffect": [
+      1.2,
+      0.11,
+      0.11,
+      0.11
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 51,
+        "namespace": "artifact_aType",
+        "type_name": "행운 배수",
+        "value": 1.2,
+        "value_display": "1.2",
+        "description": "행운 배수 +1.2",
+        "source_slot": 1
+      },
+      {
+        "type_code": 23,
+        "namespace": "artifact_aType",
+        "type_name": "자동 클릭 속도",
+        "value": 0.11,
+        "value_display": "11%",
+        "description": "자동 클릭 속도 +11%",
+        "source_slot": 2
+      },
+      {
+        "type_code": 375,
+        "namespace": "artifact_aType",
+        "type_name": "자동 클릭 데미지",
+        "value": 0.11,
+        "value_display": "11%",
+        "description": "자동 클릭 데미지 +11%",
+        "source_slot": 3
+      },
+      {
+        "type_code": 3092,
+        "namespace": "artifact_aType",
+        "type_name": "(아티팩트 New캡틴 Q 장착시) 자동 클릭 데미지",
+        "value": 0.11,
+        "value_display": "11%",
+        "description": "(아티팩트 New캡틴 Q 장착시) 자동 클릭 데미지 +11%",
+        "source_slot": 4,
+        "condition": {
+          "kind": "artifact_equipped",
+          "value": "New캡틴 Q",
+          "raw_text": "(아티팩트 New캡틴 Q 장착시)",
+          "operator": "requires",
+          "negated": false
+        }
+      }
+    ],
+    "captureStatus": "test_build_data",
+    "testOnly": "1890 TEST_6",
+    "sourceRecords": [
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build 1890 TEST_6"
+      }
+    ]
+  },
+  {
+    "index": 586,
+    "name": "New캡틴 Q",
+    "set_id": 1026,
+    "set_name": "캡틴",
+    "icon": 533,
+    "rank": 11,
+    "grade": "Q",
+    "dropTable": 11,
+    "part": 3,
+    "part_name": "보조",
+    "aType": [
+      1005,
+      1001,
+      55,
+      59
+    ],
+    "aEffect": [
+      0.088,
+      0.14,
+      14.6,
+      0.37
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1005,
+        "namespace": "artifact_aType",
+        "type_name": "추가 클릭 데미지 증폭",
+        "value": 0.088,
+        "value_display": "8.8%",
+        "description": "추가 클릭 데미지 증폭 +8.8%",
+        "source_slot": 1
+      },
+      {
+        "type_code": 1001,
+        "namespace": "artifact_aType",
+        "type_name": "강타 배수 증폭",
+        "value": 0.14,
+        "value_display": "14%",
+        "description": "강타 배수 증폭 +14%",
+        "source_slot": 2
+      },
+      {
+        "type_code": 55,
+        "namespace": "artifact_aType",
+        "type_name": "모든 용병의 성장 데미지",
+        "value": 14.6,
+        "value_display": "14.6",
+        "description": "모든 용병의 성장 데미지 +14.6",
+        "source_slot": 3
+      },
+      {
+        "type_code": 59,
+        "namespace": "artifact_aType",
+        "type_name": "모든 용병의 클릭 성장 데미지",
+        "value": 0.37,
+        "value_display": "0.37",
+        "description": "모든 용병의 클릭 성장 데미지 +0.37",
+        "source_slot": 4
+      }
+    ],
+    "captureStatus": "test_build_data",
+    "testOnly": "1890 TEST_6",
+    "sourceRecords": [
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build 1890 TEST_6"
+      }
+    ]
+  },
+  {
+    "index": 587,
+    "name": "케일라 프라이팬",
+    "set_id": 53,
+    "set_name": "케일라",
+    "icon": 536,
+    "rank": 12,
+    "grade": "R",
+    "dropTable": 12,
+    "part": 0,
+    "part_name": "무기",
+    "aType": [
+      77,
+      90,
+      28,
+      3093
+    ],
+    "aEffect": [
+      0.18,
+      0.012,
+      0.012,
+      0.02
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 77,
+        "namespace": "artifact_aType",
+        "type_name": "더블 어택 확률",
+        "value": 0.18,
+        "value_display": "18%",
+        "description": "더블 어택 확률 +18%",
+        "source_slot": 1
+      },
+      {
+        "type_code": 90,
+        "namespace": "artifact_aType",
+        "type_name": "모든 용병의 치명타 확률",
+        "value": 0.012,
+        "value_display": "1.2%",
+        "description": "모든 용병의 치명타 확률 +1.2%",
+        "source_slot": 2
+      },
+      {
+        "type_code": 28,
+        "namespace": "artifact_aType",
+        "type_name": "공격 무효화 관통",
+        "value": 0.012,
+        "value_display": "1.2%",
+        "description": "공격 무효화 관통 +1.2%",
+        "source_slot": 3
+      },
+      {
+        "type_code": 3093,
+        "namespace": "artifact_aType",
+        "type_name": "(케일라 세트 완성시) 모든 용병의 치명타 배수 증폭",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "(케일라 세트 완성시) 모든 용병의 치명타 배수 증폭 +2%",
+        "source_slot": 4,
+        "condition": {
+          "kind": "set_completed",
+          "value": "케일라",
+          "raw_text": "(케일라 세트 완성시)",
+          "operator": "complete_set",
+          "negated": false
+        }
+      }
+    ],
+    "captureStatus": "test_build_data",
+    "testOnly": "1890 TEST_6",
+    "sourceRecords": [
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build 1890 TEST_6"
+      }
+    ]
+  },
+  {
+    "index": 588,
+    "name": "케일라 화이트 햇",
+    "set_id": 53,
+    "set_name": "케일라",
+    "icon": 537,
+    "rank": 12,
+    "grade": "R",
+    "dropTable": 12,
+    "part": 1,
+    "part_name": "투구",
+    "aType": [
+      6,
+      1029,
+      57,
+      3095
+    ],
+    "aEffect": [
+      1.33,
+      0.012,
+      0.008,
+      0.0003
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 6,
+        "namespace": "artifact_aType",
+        "type_name": "공격 속도",
+        "value": 1.33,
+        "value_display": "133%",
+        "description": "공격 속도 +133%",
+        "source_slot": 1
+      },
+      {
+        "type_code": 1029,
+        "namespace": "artifact_aType",
+        "type_name": "모든 용병의 행운 배수 증폭",
+        "value": 0.012,
+        "value_display": "1.2%",
+        "description": "모든 용병의 행운 배수 증폭 +1.2%",
+        "source_slot": 2
+      },
+      {
+        "type_code": 57,
+        "namespace": "artifact_aType",
+        "type_name": "모든 용병의 공포 극복 확률",
+        "value": 0.008,
+        "value_display": "0.8%",
+        "description": "모든 용병의 공포 극복 확률 +0.8%",
+        "source_slot": 3
+      },
+      {
+        "type_code": 3095,
+        "namespace": "artifact_aType",
+        "type_name": "(아티팩트 케일라 에이프릴 장착시) 모든 용병의 데미지 +총 각성수 X",
+        "value": 0.0003,
+        "value_display": "0.03%",
+        "description": "(아티팩트 케일라 에이프릴 장착시) 모든 용병의 데미지 +총 각성수 X0.03%",
+        "source_slot": 4,
+        "condition": {
+          "kind": "artifact_equipped",
+          "value": "케일라 에이프릴",
+          "raw_text": "(아티팩트 케일라 에이프릴 장착시)",
+          "operator": "requires",
+          "negated": false
+        }
+      }
+    ],
+    "captureStatus": "test_build_data",
+    "testOnly": "1890 TEST_6",
+    "sourceRecords": [
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build 1890 TEST_6"
+      }
+    ]
+  },
+  {
+    "index": 589,
+    "name": "케일라 에이프릴",
+    "set_id": 53,
+    "set_name": "케일라",
+    "icon": 538,
+    "rank": 12,
+    "grade": "R",
+    "dropTable": 12,
+    "part": 2,
+    "part_name": "갑옷",
+    "aType": [
+      6,
+      1029,
+      47,
+      3096
+    ],
+    "aEffect": [
+      1.33,
+      0.012,
+      0.009,
+      0.0002
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 6,
+        "namespace": "artifact_aType",
+        "type_name": "공격 속도",
+        "value": 1.33,
+        "value_display": "133%",
+        "description": "공격 속도 +133%",
+        "source_slot": 1
+      },
+      {
+        "type_code": 1029,
+        "namespace": "artifact_aType",
+        "type_name": "모든 용병의 행운 배수 증폭",
+        "value": 0.012,
+        "value_display": "1.2%",
+        "description": "모든 용병의 행운 배수 증폭 +1.2%",
+        "source_slot": 2
+      },
+      {
+        "type_code": 47,
+        "namespace": "artifact_aType",
+        "type_name": "적들의 회피 확률 감소",
+        "value": 0.009,
+        "value_display": "0.9%",
+        "description": "적들의 회피 확률 감소 +0.9%",
+        "source_slot": 3
+      },
+      {
+        "type_code": 3096,
+        "namespace": "artifact_aType",
+        "type_name": "(아티팩트 케일라 화이트 햇 장착시) 모든 용병의 클릭 데미지 +총 각성수 X",
+        "value": 0.0002,
+        "value_display": "0.02%",
+        "description": "(아티팩트 케일라 화이트 햇 장착시) 모든 용병의 클릭 데미지 +총 각성수 X0.02%",
+        "source_slot": 4,
+        "condition": {
+          "kind": "artifact_equipped",
+          "value": "케일라 화이트 햇",
+          "raw_text": "(아티팩트 케일라 화이트 햇 장착시)",
+          "operator": "requires",
+          "negated": false
+        }
+      }
+    ],
+    "captureStatus": "test_build_data",
+    "testOnly": "1890 TEST_6",
+    "sourceRecords": [
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build 1890 TEST_6"
+      }
+    ]
+  },
+  {
+    "index": 590,
+    "name": "케일라 롱 부츠",
+    "set_id": 53,
+    "set_name": "케일라",
+    "icon": 539,
+    "rank": 12,
+    "grade": "R",
+    "dropTable": 12,
+    "part": 3,
+    "part_name": "보조",
+    "aType": [
+      87,
+      1034,
+      99,
+      3093
+    ],
+    "aEffect": [
+      0.11,
+      0.06,
+      0.0003,
+      0.02
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 87,
+        "namespace": "artifact_aType",
+        "type_name": "치명타 확률",
+        "value": 0.11,
+        "value_display": "11%",
+        "description": "치명타 확률 +11%",
+        "source_slot": 1
+      },
+      {
+        "type_code": 1034,
+        "namespace": "artifact_aType",
+        "type_name": "봉인될 확률 감소",
+        "value": 0.06,
+        "value_display": "6%",
+        "description": "봉인될 확률 감소 +6%",
+        "source_slot": 2
+      },
+      {
+        "type_code": 99,
+        "namespace": "artifact_aType",
+        "type_name": "모든 용병의 데미지 + 총 각성수 X",
+        "value": 0.0003,
+        "value_display": "0.03%",
+        "description": "모든 용병의 데미지 + 총 각성수 X0.03%",
+        "source_slot": 3
+      },
+      {
+        "type_code": 3093,
+        "namespace": "artifact_aType",
+        "type_name": "(케일라 세트 완성시) 모든 용병의 치명타 배수 증폭",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "(케일라 세트 완성시) 모든 용병의 치명타 배수 증폭 +2%",
+        "source_slot": 4,
+        "condition": {
+          "kind": "set_completed",
+          "value": "케일라",
+          "raw_text": "(케일라 세트 완성시)",
+          "operator": "complete_set",
+          "negated": false
+        }
+      }
+    ],
+    "captureStatus": "test_build_data",
+    "testOnly": "1890 TEST_6",
+    "sourceRecords": [
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build 1890 TEST_6"
+      }
+    ]
+  },
+  {
+    "index": 591,
+    "name": "케일라 위험한 요리",
+    "set_id": 53,
+    "set_name": "케일라",
+    "icon": 540,
+    "rank": 12,
+    "grade": "R",
+    "dropTable": 12,
+    "part": 0,
+    "part_name": "무기",
+    "aType": [
+      77,
+      1083,
+      28,
+      3094
+    ],
+    "aEffect": [
+      0.18,
+      0.012,
+      0.012,
+      0.01
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 77,
+        "namespace": "artifact_aType",
+        "type_name": "더블 어택 확률",
+        "value": 0.18,
+        "value_display": "18%",
+        "description": "더블 어택 확률 +18%",
+        "source_slot": 1
+      },
+      {
+        "type_code": 1083,
+        "namespace": "artifact_aType",
+        "type_name": "모든 용병의 추가 클릭 데미지 증폭",
+        "value": 0.012,
+        "value_display": "1.2%",
+        "description": "모든 용병의 추가 클릭 데미지 증폭 +1.2%",
+        "source_slot": 2
+      },
+      {
+        "type_code": 28,
+        "namespace": "artifact_aType",
+        "type_name": "공격 무효화 관통",
+        "value": 0.012,
+        "value_display": "1.2%",
+        "description": "공격 무효화 관통 +1.2%",
+        "source_slot": 3
+      },
+      {
+        "type_code": 3094,
+        "namespace": "artifact_aType",
+        "type_name": "(케일라 세트 완성시) 소울 클릭 배수 증폭",
+        "value": 0.01,
+        "value_display": "1%",
+        "description": "(케일라 세트 완성시) 소울 클릭 배수 증폭 +1%",
+        "source_slot": 4,
+        "condition": {
+          "kind": "set_completed",
+          "value": "케일라",
+          "raw_text": "(케일라 세트 완성시)",
+          "operator": "complete_set",
+          "negated": false
+        }
+      }
+    ],
+    "captureStatus": "test_build_data",
+    "testOnly": "1890 TEST_6",
+    "sourceRecords": [
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build 1890 TEST_6"
+      }
+    ]
+  },
+  {
+    "index": 592,
+    "name": "케일라 재입대 통지서",
+    "set_id": 53,
+    "set_name": "케일라",
+    "icon": 541,
+    "rank": 12,
+    "grade": "R",
+    "dropTable": 12,
+    "part": 3,
+    "part_name": "보조",
+    "aType": [
+      91,
+      1034,
+      100,
+      3094
+    ],
+    "aEffect": [
+      0.22,
+      0.06,
+      0.0002,
+      0.01
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 91,
+        "namespace": "artifact_aType",
+        "type_name": "추가 클릭 데미지",
+        "value": 0.22,
+        "value_display": "22%",
+        "description": "추가 클릭 데미지 +22%",
+        "source_slot": 1
+      },
+      {
+        "type_code": 1034,
+        "namespace": "artifact_aType",
+        "type_name": "봉인될 확률 감소",
+        "value": 0.06,
+        "value_display": "6%",
+        "description": "봉인될 확률 감소 +6%",
+        "source_slot": 2
+      },
+      {
+        "type_code": 100,
+        "namespace": "artifact_aType",
+        "type_name": "모든 용병의 클릭 데미지 + 총 각성수 X",
+        "value": 0.0002,
+        "value_display": "0.02%",
+        "description": "모든 용병의 클릭 데미지 + 총 각성수 X0.02%",
+        "source_slot": 3
+      },
+      {
+        "type_code": 3094,
+        "namespace": "artifact_aType",
+        "type_name": "(케일라 세트 완성시) 소울 클릭 배수 증폭",
+        "value": 0.01,
+        "value_display": "1%",
+        "description": "(케일라 세트 완성시) 소울 클릭 배수 증폭 +1%",
+        "source_slot": 4,
+        "condition": {
+          "kind": "set_completed",
+          "value": "케일라",
+          "raw_text": "(케일라 세트 완성시)",
+          "operator": "complete_set",
+          "negated": false
+        }
+      }
+    ],
+    "captureStatus": "test_build_data",
+    "testOnly": "1890 TEST_6",
+    "sourceRecords": [
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build 1890 TEST_6"
+      }
+    ]
+  },
+  {
+    "index": 593,
+    "name": "다크 챔피언 헬멧",
+    "set_id": 0,
+    "set_name": "",
+    "icon": 543,
+    "rank": 12,
+    "grade": "R",
+    "dropTable": 12,
+    "part": 1,
+    "part_name": "투구",
+    "aType": [
+      79,
+      80,
+      99,
+      100
+    ],
+    "aEffect": [
+      72.0,
+      4.8,
+      0.0003,
+      0.0002
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 79,
+        "namespace": "artifact_aType",
+        "type_name": "성장 데미지",
+        "value": 72.0,
+        "value_display": "72",
+        "description": "성장 데미지 +72",
+        "source_slot": 1
+      },
+      {
+        "type_code": 80,
+        "namespace": "artifact_aType",
+        "type_name": "클릭 성장 데미지",
+        "value": 4.8,
+        "value_display": "4.8",
+        "description": "클릭 성장 데미지 +4.8",
+        "source_slot": 2
+      },
+      {
+        "type_code": 99,
+        "namespace": "artifact_aType",
+        "type_name": "모든 용병의 데미지 + 총 각성수 X",
+        "value": 0.0003,
+        "value_display": "0.03%",
+        "description": "모든 용병의 데미지 + 총 각성수 X0.03%",
+        "source_slot": 3
+      },
+      {
+        "type_code": 100,
+        "namespace": "artifact_aType",
+        "type_name": "모든 용병의 클릭 데미지 + 총 각성수 X",
+        "value": 0.0002,
+        "value_display": "0.02%",
+        "description": "모든 용병의 클릭 데미지 + 총 각성수 X0.02%",
+        "source_slot": 4
+      }
+    ],
+    "captureStatus": "test_build_data",
+    "testOnly": "1890 TEST_6",
+    "sourceRecords": [
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build 1890 TEST_6"
+      }
+    ]
+  },
+  {
+    "index": 594,
+    "name": "언럭키 플레이트",
+    "set_id": 0,
+    "set_name": "",
+    "icon": 542,
+    "rank": 12,
+    "grade": "R",
+    "dropTable": 12,
+    "part": 2,
+    "part_name": "갑옷",
+    "aType": [
+      50,
+      82,
+      1034,
+      1008
+    ],
+    "aEffect": [
+      -0.16,
+      0.12,
+      0.1,
+      0.014
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 50,
+        "namespace": "artifact_aType",
+        "type_name": "행운 확률",
+        "value": -0.16,
+        "value_display": "-16%",
+        "description": "행운 확률 -16%",
+        "source_slot": 1
+      },
+      {
+        "type_code": 82,
+        "namespace": "artifact_aType",
+        "type_name": "공포 극복 확률",
+        "value": 0.12,
+        "value_display": "12%",
+        "description": "공포 극복 확률 +12%",
+        "source_slot": 2
+      },
+      {
+        "type_code": 1034,
+        "namespace": "artifact_aType",
+        "type_name": "봉인될 확률 감소",
+        "value": 0.1,
+        "value_display": "10%",
+        "description": "봉인될 확률 감소 +10%",
+        "source_slot": 3
+      },
+      {
+        "type_code": 1008,
+        "namespace": "artifact_aType",
+        "type_name": "적들의 방어막 효과 감소",
+        "value": 0.014,
+        "value_display": "1.4%",
+        "description": "적들의 방어막 효과 감소 +1.4%",
+        "source_slot": 4
+      }
+    ],
+    "captureStatus": "test_build_data",
+    "testOnly": "1890 TEST_6",
+    "sourceRecords": [
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build 1890 TEST_6"
+      }
+    ]
+  },
+  {
+    "index": 595,
+    "name": "할리퀸 크레이지 햇",
+    "set_id": 0,
+    "set_name": "",
+    "icon": 544,
+    "rank": 12,
+    "grade": "R",
+    "dropTable": 12,
+    "part": 1,
+    "part_name": "투구",
+    "aType": [
+      18,
+      28,
+      47,
+      97
+    ],
+    "aEffect": [
+      0.13,
+      -0.007,
+      -0.007,
+      0.02
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 18,
+        "namespace": "artifact_aType",
+        "type_name": "연타 확률",
+        "value": 0.13,
+        "value_display": "13%",
+        "description": "연타 확률 +13%",
+        "source_slot": 1
+      },
+      {
+        "type_code": 28,
+        "namespace": "artifact_aType",
+        "type_name": "공격 무효화 관통",
+        "value": -0.007,
+        "value_display": "-0.7%",
+        "description": "공격 무효화 관통 -0.7%",
+        "source_slot": 2
+      },
+      {
+        "type_code": 47,
+        "namespace": "artifact_aType",
+        "type_name": "적들의 회피 확률 감소",
+        "value": -0.007,
+        "value_display": "-0.7%",
+        "description": "적들의 회피 확률 감소 -0.7%",
+        "source_slot": 3
+      },
+      {
+        "type_code": 97,
+        "namespace": "artifact_aType",
+        "type_name": "적들의 반사 확률 감소",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "적들의 반사 확률 감소 +2%",
+        "source_slot": 4
+      }
+    ],
+    "captureStatus": "test_build_data",
+    "testOnly": "1890 TEST_6",
+    "sourceRecords": [
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build 1890 TEST_6"
+      }
+    ]
+  },
+  {
+    "index": 596,
+    "name": "키 투 석세스",
+    "set_id": 54,
+    "set_name": "키 투 썸씽",
+    "icon": 545,
+    "rank": 12,
+    "grade": "R",
+    "dropTable": 12,
+    "part": 3,
+    "part_name": "보조",
+    "aType": [
+      6,
+      99,
+      100,
+      69
+    ],
+    "aEffect": [
+      1.3,
+      0.00015,
+      0.0001,
+      0.012
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 6,
+        "namespace": "artifact_aType",
+        "type_name": "공격 속도",
+        "value": 1.3,
+        "value_display": "130%",
+        "description": "공격 속도 +130%",
+        "source_slot": 1
+      },
+      {
+        "type_code": 99,
+        "namespace": "artifact_aType",
+        "type_name": "모든 용병의 데미지 + 총 각성수 X",
+        "value": 0.00015,
+        "value_display": "0.015%",
+        "description": "모든 용병의 데미지 + 총 각성수 X0.015%",
+        "source_slot": 2
+      },
+      {
+        "type_code": 100,
+        "namespace": "artifact_aType",
+        "type_name": "모든 용병의 클릭 데미지 + 총 각성수 X",
+        "value": 0.0001,
+        "value_display": "0.01%",
+        "description": "모든 용병의 클릭 데미지 + 총 각성수 X0.01%",
+        "source_slot": 3
+      },
+      {
+        "type_code": 69,
+        "namespace": "artifact_aType",
+        "type_name": "뿔레 토큰 획득 확률",
+        "value": 0.012,
+        "value_display": "1.2%",
+        "description": "뿔레 토큰 획득 확률 +1.2%",
+        "source_slot": 4
+      }
+    ],
+    "captureStatus": "test_build_data",
+    "testOnly": "1890 TEST_6",
+    "sourceRecords": [
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build 1890 TEST_6"
+      }
+    ]
+  },
+  {
+    "index": 597,
+    "name": "키 투 마인드",
+    "set_id": 54,
+    "set_name": "키 투 썸씽",
+    "icon": 546,
+    "rank": 12,
+    "grade": "R",
+    "dropTable": 12,
+    "part": 1,
+    "part_name": "투구",
+    "aType": [
+      51,
+      81,
+      126,
+      3097
+    ],
+    "aEffect": [
+      1.3,
+      0.03,
+      0.007,
+      0.03
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 51,
+        "namespace": "artifact_aType",
+        "type_name": "행운 배수",
+        "value": 1.3,
+        "value_display": "1.3",
+        "description": "행운 배수 +1.3",
+        "source_slot": 1
+      },
+      {
+        "type_code": 81,
+        "namespace": "artifact_aType",
+        "type_name": "선제 공격 확률",
+        "value": 0.03,
+        "value_display": "3%",
+        "description": "선제 공격 확률 +3%",
+        "source_slot": 2
+      },
+      {
+        "type_code": 126,
+        "namespace": "artifact_aType",
+        "type_name": "모든 용병의 선제 공격 확률",
+        "value": 0.007,
+        "value_display": "0.7%",
+        "description": "모든 용병의 선제 공격 확률 +0.7%",
+        "source_slot": 3
+      },
+      {
+        "type_code": 3097,
+        "namespace": "artifact_aType",
+        "type_name": "(키 투 썸씽 세트 완성시) 뿔레 입자 획득 확률",
+        "value": 0.03,
+        "value_display": "3%",
+        "description": "(키 투 썸씽 세트 완성시) 뿔레 입자 획득 확률 +3%",
+        "source_slot": 4,
+        "condition": {
+          "kind": "set_completed",
+          "value": "키 투 썸씽",
+          "raw_text": "(키 투 썸씽 세트 완성시)",
+          "operator": "complete_set",
+          "negated": false
+        }
+      }
+    ],
+    "captureStatus": "test_build_data",
+    "testOnly": "1890 TEST_6",
+    "sourceRecords": [
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build 1890 TEST_6"
+      }
+    ]
+  },
+  {
+    "index": 598,
+    "name": "키 투 디스트럭션",
+    "set_id": 54,
+    "set_name": "키 투 썸씽",
+    "icon": 547,
+    "rank": 12,
+    "grade": "R",
+    "dropTable": 12,
+    "part": 0,
+    "part_name": "무기",
+    "aType": [
+      1003,
+      1005,
+      1027,
+      3098
+    ],
+    "aEffect": [
+      0.12,
+      0.1,
+      0.011,
+      0.36
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1003,
+        "namespace": "artifact_aType",
+        "type_name": "치명타 배수 증폭",
+        "value": 0.12,
+        "value_display": "12%",
+        "description": "치명타 배수 증폭 +12%",
+        "source_slot": 1
+      },
+      {
+        "type_code": 1005,
+        "namespace": "artifact_aType",
+        "type_name": "추가 클릭 데미지 증폭",
+        "value": 0.1,
+        "value_display": "10%",
+        "description": "추가 클릭 데미지 증폭 +10%",
+        "source_slot": 2
+      },
+      {
+        "type_code": 1027,
+        "namespace": "artifact_aType",
+        "type_name": "모든 용병의 절대명중 확률",
+        "value": 0.011,
+        "value_display": "1.1%",
+        "description": "모든 용병의 절대명중 확률 +1.1%",
+        "source_slot": 3
+      },
+      {
+        "type_code": 3098,
+        "namespace": "artifact_aType",
+        "type_name": "(키 투 썸씽 세트 완성시) 행운 배수 증폭",
+        "value": 0.36,
+        "value_display": "36%",
+        "description": "(키 투 썸씽 세트 완성시) 행운 배수 증폭 +36%",
+        "source_slot": 4,
+        "condition": {
+          "kind": "set_completed",
+          "value": "키 투 썸씽",
+          "raw_text": "(키 투 썸씽 세트 완성시)",
+          "operator": "complete_set",
+          "negated": false
+        }
+      }
+    ],
+    "captureStatus": "test_build_data",
+    "testOnly": "1890 TEST_6",
+    "sourceRecords": [
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build 1890 TEST_6"
+      }
+    ]
+  },
+  {
+    "index": 599,
+    "name": "키 투 데쓰",
+    "set_id": 54,
+    "set_name": "키 투 썸씽",
+    "icon": 548,
+    "rank": 12,
+    "grade": "R",
+    "dropTable": 12,
+    "part": 3,
+    "part_name": "보조",
+    "aType": [
+      18,
+      87,
+      1035,
+      69
+    ],
+    "aEffect": [
+      0.13,
+      -9.0,
+      0.009,
+      0.012
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 18,
+        "namespace": "artifact_aType",
+        "type_name": "연타 확률",
+        "value": 0.13,
+        "value_display": "13%",
+        "description": "연타 확률 +13%",
+        "source_slot": 1
+      },
+      {
+        "type_code": 87,
+        "namespace": "artifact_aType",
+        "type_name": "치명타 불가",
+        "value": -9.0,
+        "value_display": "",
+        "description": "치명타 불가",
+        "source_slot": 2,
+        "effect_kind": "restriction"
+      },
+      {
+        "type_code": 1035,
+        "namespace": "artifact_aType",
+        "type_name": "모든 용병의 봉인 무효화 확률",
+        "value": 0.009,
+        "value_display": "0.9%",
+        "description": "모든 용병의 봉인 무효화 확률 +0.9%",
+        "source_slot": 3
+      },
+      {
+        "type_code": 69,
+        "namespace": "artifact_aType",
+        "type_name": "뿔레 토큰 획득 확률",
+        "value": 0.012,
+        "value_display": "1.2%",
+        "description": "뿔레 토큰 획득 확률 +1.2%",
+        "source_slot": 4
+      }
+    ],
+    "captureStatus": "test_build_data",
+    "testOnly": "1890 TEST_6",
+    "sourceRecords": [
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build 1890 TEST_6"
+      }
+    ]
+  },
+  {
+    "index": 600,
+    "name": "립케이지",
+    "set_id": 0,
+    "set_name": "",
+    "icon": 549,
+    "rank": 12,
+    "grade": "R",
+    "dropTable": 12,
+    "part": 2,
+    "part_name": "갑옷",
+    "aType": [
+      85,
+      6,
+      83,
+      96
+    ],
+    "aEffect": [
+      0.02,
+      0.6,
+      0.06,
+      0.012
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 85,
+        "namespace": "artifact_aType",
+        "type_name": "저주 공격 확률",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "저주 공격 확률 +2%",
+        "source_slot": 1
+      },
+      {
+        "type_code": 6,
+        "namespace": "artifact_aType",
+        "type_name": "공격 속도",
+        "value": 0.6,
+        "value_display": "60%",
+        "description": "공격 속도 +60%",
+        "source_slot": 2
+      },
+      {
+        "type_code": 83,
+        "namespace": "artifact_aType",
+        "type_name": "피격 회피 확률",
+        "value": 0.06,
+        "value_display": "6%",
+        "description": "피격 회피 확률 +6%",
+        "source_slot": 3
+      },
+      {
+        "type_code": 96,
+        "namespace": "artifact_aType",
+        "type_name": "적들의 피해 면제 효과 감소",
+        "value": 0.012,
+        "value_display": "1.2%",
+        "description": "적들의 피해 면제 효과 감소 +1.2%",
+        "source_slot": 4
+      }
+    ],
+    "captureStatus": "test_build_data",
+    "testOnly": "1890 TEST_6",
+    "sourceRecords": [
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build 1890 TEST_6"
+      }
+    ]
+  },
+  {
+    "index": 601,
+    "name": "인페르노 데들리 해머",
+    "set_id": 55,
+    "set_name": "인페르노",
+    "icon": 550,
+    "rank": 12,
+    "grade": "R",
+    "dropTable": 12,
+    "part": 0,
+    "part_name": "무기",
+    "aType": [
+      1005,
+      43,
+      375,
+      3099
+    ],
+    "aEffect": [
+      0.1,
+      0.2,
+      0.12,
+      0.4
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1005,
+        "namespace": "artifact_aType",
+        "type_name": "추가 클릭 데미지 증폭",
+        "value": 0.1,
+        "value_display": "10%",
+        "description": "추가 클릭 데미지 증폭 +10%",
+        "source_slot": 1
+      },
+      {
+        "type_code": 43,
+        "namespace": "artifact_aType",
+        "type_name": "소울 클릭 배수",
+        "value": 0.2,
+        "value_display": "0.2",
+        "description": "소울 클릭 배수 +0.2",
+        "source_slot": 2
+      },
+      {
+        "type_code": 375,
+        "namespace": "artifact_aType",
+        "type_name": "자동 클릭 데미지",
+        "value": 0.12,
+        "value_display": "12%",
+        "description": "자동 클릭 데미지 +12%",
+        "source_slot": 3
+      },
+      {
+        "type_code": 3099,
+        "namespace": "artifact_aType",
+        "type_name": "(인페르노 세트 완성시) 소울 클릭 배수",
+        "value": 0.4,
+        "value_display": "0.4",
+        "description": "(인페르노 세트 완성시) 소울 클릭 배수 +0.4",
+        "source_slot": 4,
+        "condition": {
+          "kind": "set_completed",
+          "value": "인페르노",
+          "raw_text": "(인페르노 세트 완성시)",
+          "operator": "complete_set",
+          "negated": false
+        }
+      }
+    ],
+    "captureStatus": "test_build_data",
+    "testOnly": "1890 TEST_6",
+    "sourceRecords": [
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build 1890 TEST_6"
+      }
+    ]
+  },
+  {
+    "index": 602,
+    "name": "인페르노 다크 바이저",
+    "set_id": 55,
+    "set_name": "인페르노",
+    "icon": 551,
+    "rank": 12,
+    "grade": "R",
+    "dropTable": 12,
+    "part": 1,
+    "part_name": "투구",
+    "aType": [
+      1005,
+      83,
+      23,
+      3100
+    ],
+    "aEffect": [
+      0.08,
+      0.05,
+      0.24,
+      0.12
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1005,
+        "namespace": "artifact_aType",
+        "type_name": "추가 클릭 데미지 증폭",
+        "value": 0.08,
+        "value_display": "8%",
+        "description": "추가 클릭 데미지 증폭 +8%",
+        "source_slot": 1
+      },
+      {
+        "type_code": 83,
+        "namespace": "artifact_aType",
+        "type_name": "피격 회피 확률",
+        "value": 0.05,
+        "value_display": "5%",
+        "description": "피격 회피 확률 +5%",
+        "source_slot": 2
+      },
+      {
+        "type_code": 23,
+        "namespace": "artifact_aType",
+        "type_name": "자동 클릭 속도",
+        "value": 0.24,
+        "value_display": "24%",
+        "description": "자동 클릭 속도 +24%",
+        "source_slot": 3
+      },
+      {
+        "type_code": 3100,
+        "namespace": "artifact_aType",
+        "type_name": "(인페르노 세트 완성시) 기적 확률",
+        "value": 0.12,
+        "value_display": "12%",
+        "description": "(인페르노 세트 완성시) 기적 확률 +12%",
+        "source_slot": 4,
+        "condition": {
+          "kind": "set_completed",
+          "value": "인페르노",
+          "raw_text": "(인페르노 세트 완성시)",
+          "operator": "complete_set",
+          "negated": false
+        }
+      }
+    ],
+    "captureStatus": "test_build_data",
+    "testOnly": "1890 TEST_6",
+    "sourceRecords": [
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build 1890 TEST_6"
+      }
+    ]
+  },
+  {
+    "index": 603,
+    "name": "인페르노 풀 플레이트",
+    "set_id": 55,
+    "set_name": "인페르노",
+    "icon": 552,
+    "rank": 12,
+    "grade": "R",
+    "dropTable": 12,
+    "part": 2,
+    "part_name": "갑옷",
+    "aType": [
+      1005,
+      1034,
+      1083,
+      3101
+    ],
+    "aEffect": [
+      0.08,
+      0.05,
+      0.016,
+      0.06
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1005,
+        "namespace": "artifact_aType",
+        "type_name": "추가 클릭 데미지 증폭",
+        "value": 0.08,
+        "value_display": "8%",
+        "description": "추가 클릭 데미지 증폭 +8%",
+        "source_slot": 1
+      },
+      {
+        "type_code": 1034,
+        "namespace": "artifact_aType",
+        "type_name": "봉인될 확률 감소",
+        "value": 0.05,
+        "value_display": "5%",
+        "description": "봉인될 확률 감소 +5%",
+        "source_slot": 2
+      },
+      {
+        "type_code": 1083,
+        "namespace": "artifact_aType",
+        "type_name": "모든 용병의 추가 클릭 데미지 증폭",
+        "value": 0.016,
+        "value_display": "1.6%",
+        "description": "모든 용병의 추가 클릭 데미지 증폭 +1.6%",
+        "source_slot": 3
+      },
+      {
+        "type_code": 3101,
+        "namespace": "artifact_aType",
+        "type_name": "(아티팩트 인페르노 다크 바이저 장착시) 행운 배수 증폭",
+        "value": 0.06,
+        "value_display": "6%",
+        "description": "(아티팩트 인페르노 다크 바이저 장착시) 행운 배수 증폭 +6%",
+        "source_slot": 4,
+        "condition": {
+          "kind": "artifact_equipped",
+          "value": "인페르노 다크 바이저",
+          "raw_text": "(아티팩트 인페르노 다크 바이저 장착시)",
+          "operator": "requires",
+          "negated": false
+        }
+      }
+    ],
+    "captureStatus": "test_build_data",
+    "testOnly": "1890 TEST_6",
+    "sourceRecords": [
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build 1890 TEST_6"
+      }
+    ]
+  },
+  {
+    "index": 604,
+    "name": "인페르노 건틀렛",
+    "set_id": 55,
+    "set_name": "인페르노",
+    "icon": 553,
+    "rank": 12,
+    "grade": "R",
+    "dropTable": 12,
+    "part": 3,
+    "part_name": "보조",
+    "aType": [
+      1005,
+      81,
+      25,
+      3102
+    ],
+    "aEffect": [
+      0.08,
+      0.05,
+      0.62,
+      0.24
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1005,
+        "namespace": "artifact_aType",
+        "type_name": "추가 클릭 데미지 증폭",
+        "value": 0.08,
+        "value_display": "8%",
+        "description": "추가 클릭 데미지 증폭 +8%",
+        "source_slot": 1
+      },
+      {
+        "type_code": 81,
+        "namespace": "artifact_aType",
+        "type_name": "선제 공격 확률",
+        "value": 0.05,
+        "value_display": "5%",
+        "description": "선제 공격 확률 +5%",
+        "source_slot": 2
+      },
+      {
+        "type_code": 25,
+        "namespace": "artifact_aType",
+        "type_name": "클릭 크리티컬 배수",
+        "value": 0.62,
+        "value_display": "0.62",
+        "description": "클릭 크리티컬 배수 +0.62",
+        "source_slot": 3
+      },
+      {
+        "type_code": 3102,
+        "namespace": "artifact_aType",
+        "type_name": "(아티팩트 인페르노 풀 플레이트 장착시) 자동 클릭 데미지",
+        "value": 0.24,
+        "value_display": "24%",
+        "description": "(아티팩트 인페르노 풀 플레이트 장착시) 자동 클릭 데미지 +24%",
+        "source_slot": 4,
+        "condition": {
+          "kind": "artifact_equipped",
+          "value": "인페르노 풀 플레이트",
+          "raw_text": "(아티팩트 인페르노 풀 플레이트 장착시)",
+          "operator": "requires",
+          "negated": false
+        }
+      }
+    ],
+    "captureStatus": "test_build_data",
+    "testOnly": "1890 TEST_6",
+    "sourceRecords": [
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build 1890 TEST_6"
+      }
+    ]
+  },
+  {
+    "index": 605,
+    "name": "인페르노 데빌 플레일",
+    "set_id": 55,
+    "set_name": "인페르노",
+    "icon": 554,
+    "rank": 12,
+    "grade": "R",
+    "dropTable": 12,
+    "part": 0,
+    "part_name": "무기",
+    "aType": [
+      1005,
+      18,
+      19,
+      3103
+    ],
+    "aEffect": [
+      0.08,
+      0.06,
+      0.02,
+      0.26
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1005,
+        "namespace": "artifact_aType",
+        "type_name": "추가 클릭 데미지 증폭",
+        "value": 0.08,
+        "value_display": "8%",
+        "description": "추가 클릭 데미지 증폭 +8%",
+        "source_slot": 1
+      },
+      {
+        "type_code": 18,
+        "namespace": "artifact_aType",
+        "type_name": "연타 확률",
+        "value": 0.06,
+        "value_display": "6%",
+        "description": "연타 확률 +6%",
+        "source_slot": 2
+      },
+      {
+        "type_code": 19,
+        "namespace": "artifact_aType",
+        "type_name": "모든 용병의 연타 확률",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "모든 용병의 연타 확률 +2%",
+        "source_slot": 3
+      },
+      {
+        "type_code": 3103,
+        "namespace": "artifact_aType",
+        "type_name": "(인페르노 세트 완성시) 추가 클릭 데미지",
+        "value": 0.26,
+        "value_display": "26%",
+        "description": "(인페르노 세트 완성시) 추가 클릭 데미지 +26%",
+        "source_slot": 4,
+        "condition": {
+          "kind": "set_completed",
+          "value": "인페르노",
+          "raw_text": "(인페르노 세트 완성시)",
+          "operator": "complete_set",
+          "negated": false
+        }
+      }
+    ],
+    "captureStatus": "test_build_data",
+    "testOnly": "1890 TEST_6",
+    "sourceRecords": [
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build 1890 TEST_6"
+      }
+    ]
+  },
+  {
+    "index": 606,
+    "name": "타이탄 버쳐 클레버",
+    "set_id": 56,
+    "set_name": "타이탄 버쳐",
+    "icon": 555,
+    "rank": 12,
+    "grade": "R",
+    "dropTable": 12,
+    "part": 0,
+    "part_name": "무기",
+    "aType": [
+      87,
+      1006,
+      90,
+      3104
+    ],
+    "aEffect": [
+      0.11,
+      0.11,
+      0.015,
+      0.11
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 87,
+        "namespace": "artifact_aType",
+        "type_name": "치명타 확률",
+        "value": 0.11,
+        "value_display": "11%",
+        "description": "치명타 확률 +11%",
+        "source_slot": 1
+      },
+      {
+        "type_code": 1006,
+        "namespace": "artifact_aType",
+        "type_name": "치명타 딜레이 감소",
+        "value": 0.11,
+        "value_display": "11%",
+        "description": "치명타 딜레이 감소 +11%",
+        "source_slot": 2
+      },
+      {
+        "type_code": 90,
+        "namespace": "artifact_aType",
+        "type_name": "모든 용병의 치명타 확률",
+        "value": 0.015,
+        "value_display": "1.5%",
+        "description": "모든 용병의 치명타 확률 +1.5%",
+        "source_slot": 3
+      },
+      {
+        "type_code": 3104,
+        "namespace": "artifact_aType",
+        "type_name": "(타이탄 버쳐 세트 완성시) 치명타 확률",
+        "value": 0.11,
+        "value_display": "11%",
+        "description": "(타이탄 버쳐 세트 완성시) 치명타 확률 +11%",
+        "source_slot": 4,
+        "condition": {
+          "kind": "set_completed",
+          "value": "타이탄 버쳐",
+          "raw_text": "(타이탄 버쳐 세트 완성시)",
+          "operator": "complete_set",
+          "negated": false
+        }
+      }
+    ],
+    "captureStatus": "test_build_data",
+    "testOnly": "1890 TEST_6",
+    "sourceRecords": [
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build 1890 TEST_6"
+      }
+    ]
+  },
+  {
+    "index": 607,
+    "name": "타이탄 버쳐 페이스",
+    "set_id": 56,
+    "set_name": "타이탄 버쳐",
+    "icon": 556,
+    "rank": 12,
+    "grade": "R",
+    "dropTable": 12,
+    "part": 1,
+    "part_name": "투구",
+    "aType": [
+      1001,
+      83,
+      1018,
+      3105
+    ],
+    "aEffect": [
+      0.16,
+      0.05,
+      0.02,
+      0.12
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1001,
+        "namespace": "artifact_aType",
+        "type_name": "강타 배수 증폭",
+        "value": 0.16,
+        "value_display": "16%",
+        "description": "강타 배수 증폭 +16%",
+        "source_slot": 1
+      },
+      {
+        "type_code": 83,
+        "namespace": "artifact_aType",
+        "type_name": "피격 회피 확률",
+        "value": 0.05,
+        "value_display": "5%",
+        "description": "피격 회피 확률 +5%",
+        "source_slot": 2
+      },
+      {
+        "type_code": 1018,
+        "namespace": "artifact_aType",
+        "type_name": "모든 용병의 강타 배수 증폭",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "모든 용병의 강타 배수 증폭 +2%",
+        "source_slot": 3
+      },
+      {
+        "type_code": 3105,
+        "namespace": "artifact_aType",
+        "type_name": "(타이탄 버쳐 세트 완성시) 기적 확률",
+        "value": 0.12,
+        "value_display": "12%",
+        "description": "(타이탄 버쳐 세트 완성시) 기적 확률 +12%",
+        "source_slot": 4,
+        "condition": {
+          "kind": "set_completed",
+          "value": "타이탄 버쳐",
+          "raw_text": "(타이탄 버쳐 세트 완성시)",
+          "operator": "complete_set",
+          "negated": false
+        }
+      }
+    ],
+    "captureStatus": "test_build_data",
+    "testOnly": "1890 TEST_6",
+    "sourceRecords": [
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build 1890 TEST_6"
+      }
+    ]
+  },
+  {
+    "index": 608,
+    "name": "타이탄 버쳐 스킨",
+    "set_id": 56,
+    "set_name": "타이탄 버쳐",
+    "icon": 557,
+    "rank": 12,
+    "grade": "R",
+    "dropTable": 12,
+    "part": 2,
+    "part_name": "갑옷",
+    "aType": [
+      1001,
+      82,
+      1173,
+      3106
+    ],
+    "aEffect": [
+      0.16,
+      0.05,
+      0.24,
+      0.06
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1001,
+        "namespace": "artifact_aType",
+        "type_name": "강타 배수 증폭",
+        "value": 0.16,
+        "value_display": "16%",
+        "description": "강타 배수 증폭 +16%",
+        "source_slot": 1
+      },
+      {
+        "type_code": 82,
+        "namespace": "artifact_aType",
+        "type_name": "공포 극복 확률",
+        "value": 0.05,
+        "value_display": "5%",
+        "description": "공포 극복 확률 +5%",
+        "source_slot": 2
+      },
+      {
+        "type_code": 1173,
+        "namespace": "artifact_aType",
+        "type_name": "즉시 공격 속도",
+        "value": 0.24,
+        "value_display": "24%",
+        "description": "즉시 공격 속도 +24%",
+        "source_slot": 3
+      },
+      {
+        "type_code": 3106,
+        "namespace": "artifact_aType",
+        "type_name": "(아티팩트 타이탄 버쳐 페이스 장착시) 행운 배수 증폭",
+        "value": 0.06,
+        "value_display": "6%",
+        "description": "(아티팩트 타이탄 버쳐 페이스 장착시) 행운 배수 증폭 +6%",
+        "source_slot": 4,
+        "condition": {
+          "kind": "artifact_equipped",
+          "value": "타이탄 버쳐 페이스",
+          "raw_text": "(아티팩트 타이탄 버쳐 페이스 장착시)",
+          "operator": "requires",
+          "negated": false
+        }
+      }
+    ],
+    "captureStatus": "test_build_data",
+    "testOnly": "1890 TEST_6",
+    "sourceRecords": [
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build 1890 TEST_6"
+      }
+    ]
+  },
+  {
+    "index": 609,
+    "name": "타이탄 버쳐 글러브",
+    "set_id": 56,
+    "set_name": "타이탄 버쳐",
+    "icon": 558,
+    "rank": 12,
+    "grade": "R",
+    "dropTable": 12,
+    "part": 3,
+    "part_name": "보조",
+    "aType": [
+      1001,
+      81,
+      1172,
+      3107
+    ],
+    "aEffect": [
+      0.16,
+      0.05,
+      0.24,
+      0.24
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 1001,
+        "namespace": "artifact_aType",
+        "type_name": "강타 배수 증폭",
+        "value": 0.16,
+        "value_display": "16%",
+        "description": "강타 배수 증폭 +16%",
+        "source_slot": 1
+      },
+      {
+        "type_code": 81,
+        "namespace": "artifact_aType",
+        "type_name": "선제 공격 확률",
+        "value": 0.05,
+        "value_display": "5%",
+        "description": "선제 공격 확률 +5%",
+        "source_slot": 2
+      },
+      {
+        "type_code": 1172,
+        "namespace": "artifact_aType",
+        "type_name": "즉시 공격 데미지",
+        "value": 0.24,
+        "value_display": "24%",
+        "description": "즉시 공격 데미지 +24%",
+        "source_slot": 3
+      },
+      {
+        "type_code": 3107,
+        "namespace": "artifact_aType",
+        "type_name": "(아티팩트 타이탄 버쳐 스킨 장착시) 즉시 공격 데미지",
+        "value": 0.24,
+        "value_display": "24%",
+        "description": "(아티팩트 타이탄 버쳐 스킨 장착시) 즉시 공격 데미지 +24%",
+        "source_slot": 4,
+        "condition": {
+          "kind": "artifact_equipped",
+          "value": "타이탄 버쳐 스킨",
+          "raw_text": "(아티팩트 타이탄 버쳐 스킨 장착시)",
+          "operator": "requires",
+          "negated": false
+        }
+      }
+    ],
+    "captureStatus": "test_build_data",
+    "testOnly": "1890 TEST_6",
+    "sourceRecords": [
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build 1890 TEST_6"
+      }
+    ]
+  },
+  {
+    "index": 610,
+    "name": "타이탄 버쳐 시클",
+    "set_id": 56,
+    "set_name": "타이탄 버쳐",
+    "icon": 559,
+    "rank": 12,
+    "grade": "R",
+    "dropTable": 12,
+    "part": 0,
+    "part_name": "무기",
+    "aType": [
+      18,
+      63,
+      19,
+      3108
+    ],
+    "aEffect": [
+      0.1,
+      0.2,
+      0.02,
+      0.3
+    ],
+    "effects_resolved": [
+      {
+        "type_code": 18,
+        "namespace": "artifact_aType",
+        "type_name": "연타 확률",
+        "value": 0.1,
+        "value_display": "10%",
+        "description": "연타 확률 +10%",
+        "source_slot": 1
+      },
+      {
+        "type_code": 63,
+        "namespace": "artifact_aType",
+        "type_name": "연타 데미지",
+        "value": 0.2,
+        "value_display": "20%",
+        "description": "연타 데미지 +20%",
+        "source_slot": 2
+      },
+      {
+        "type_code": 19,
+        "namespace": "artifact_aType",
+        "type_name": "모든 용병의 연타 확률",
+        "value": 0.02,
+        "value_display": "2%",
+        "description": "모든 용병의 연타 확률 +2%",
+        "source_slot": 3
+      },
+      {
+        "type_code": 3108,
+        "namespace": "artifact_aType",
+        "type_name": "(타이탄 버쳐 세트 완성시) 연타 데미지",
+        "value": 0.3,
+        "value_display": "30%",
+        "description": "(타이탄 버쳐 세트 완성시) 연타 데미지 +30%",
+        "source_slot": 4,
+        "condition": {
+          "kind": "set_completed",
+          "value": "타이탄 버쳐",
+          "raw_text": "(타이탄 버쳐 세트 완성시)",
+          "operator": "complete_set",
+          "negated": false
+        }
+      }
+    ],
+    "captureStatus": "test_build_data",
+    "testOnly": "1890 TEST_6",
+    "sourceRecords": [
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build 1890 TEST_6"
+      }
+    ]
   }
 ]

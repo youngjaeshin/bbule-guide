@@ -10,7 +10,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 INDEX_HTML = ROOT / "web" / "index.html"
 
-GRADE_ORDER = ["E", "D", "C", "B", "A", "S", "G", "X", "H", "O", "P", "Q", "유료"]
+GRADE_ORDER = ["E", "D", "C", "B", "A", "S", "G", "X", "H", "O", "P", "Q", "R", "유료"]
 
 DATASETS = [
     {
