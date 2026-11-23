@@ -66,6 +66,7 @@
       magical: "마법 저항",
       click: "클릭 저항",
     };
+    const baselineColumns = [...Object.entries(LABELS), ...Object.entries(RES)];
     const esc = (x) =>
       String(x).replace(
         /[&<>"']/g,
@@ -149,24 +150,6 @@
         v = range.values;
       $("invader-type").value = String(state.invader);
       $("invader-level").value = String(state.level);
-      const optionRanges = [];
-      for (const entry of inv.ranges) {
-        const draws = entry.values.additional_option_draws;
-        const previous = optionRanges.at(-1);
-        if (
-          previous &&
-          previous.draws === draws &&
-          previous.last_level + 1 === entry.first_level
-        ) {
-          previous.last_level = entry.last_level;
-        } else {
-          optionRanges.push({
-            first_level: entry.first_level,
-            last_level: entry.last_level,
-            draws,
-          });
-        }
-      }
       let html =
         "<h2>" +
         esc(inv.name) +
@@ -204,8 +187,12 @@
           .join("") +
         '</tbody></table></div><p class="hint">유효 일반 피해 보정 분기의 추가 계수는 ' +
         n(inv.damage_factor) +
-        '배입니다. 전체 피해식·클릭 가능 여부는 각자의 전투 경로로 확인할 항목입니다.</p></details></div><div class="panel"><h2>레벨별 추가 옵션 추첨 횟수</h2><div class="table-wrap"><table id="invader-debuff-ranges"><thead><tr><th>화면 레벨</th><th>추가 옵션 추첨 횟수</th></tr></thead><tbody>' +
-        optionRanges
+        '배입니다. 전체 피해식·클릭 가능 여부는 각자의 전투 경로로 확인할 항목입니다.</p></details></div><div class="panel"><h2>레벨별 기본값과 추가 옵션 추첨 횟수</h2><p class="hint">수치는 추가 옵션 추첨 전 기본값입니다. 표를 좌우로 움직여 디버프 12항목과 저항 3종을 확인할 수 있습니다.</p><div class="table-wrap"><table id="invader-debuff-ranges"><thead><tr><th scope="col">화면 레벨</th>' +
+        baselineColumns
+          .map(([, label]) => '<th scope="col">' + esc(label) + "</th>")
+          .join("") +
+        '<th scope="col">추가 옵션 추첨 횟수</th></tr></thead><tbody>' +
+        inv.ranges
           .map(
             (r) =>
               "<tr" +
@@ -216,12 +203,33 @@
               r.first_level +
               "~" +
               r.last_level +
-              "</td><td>" +
-              r.draws +
+              "</td>" +
+              baselineColumns
+                .map(([key]) => {
+                  const raw =
+                    r.values.base_stats[key] ??
+                    r.values.base_resistance_percent[key];
+                  const display = key === "disable" ? Math.max(0, raw) : raw;
+                  return (
+                    '<td class="num">' +
+                    pct(display) +
+                    (key === "disable" && raw < 0
+                      ? " (원본 " + pct(raw) + ")"
+                      : "") +
+                    "</td>"
+                  );
+                })
+                .join("") +
+              "<td>" +
+              r.values.additional_option_draws +
               "회</td></tr>",
           )
           .join("") +
-        "</tbody></table></div></div>";
+        "</tbody></table></div>" +
+        (inv.ranges.some((r) => r.values.base_stats.disable < 0)
+          ? '<p class="hint">무력화의 음수 원본값은 괄호 안에 표시했습니다. 원본값에 추가 옵션을 더한 뒤 감소 효과를 계산하며, 음수인 기본 감소 효과는 0으로 처리됩니다.</p>'
+          : "") +
+        "</div>";
       $("invader-results").innerHTML = html;
     }
     $("invader-type").innerHTML = DATA.invaders

@@ -294,6 +294,23 @@
   border: 1px solid var(--border);
   border-radius: 6px;
 }
+.monster-guide #invader-debuff-ranges th,
+.monster-guide #invader-debuff-ranges td {
+  white-space: nowrap;
+}
+.monster-guide #invader-debuff-ranges th:first-child,
+.monster-guide #invader-debuff-ranges td:first-child {
+  position: sticky;
+  left: 0;
+  z-index: 1;
+  border-right: 1px solid var(--border);
+}
+.monster-guide #invader-debuff-ranges td:first-child {
+  background: var(--bg-white);
+}
+.monster-guide #invader-debuff-ranges tr.current td:first-child {
+  background: var(--soft);
+}
 .monster-guide table {
   width: 100%;
   border-collapse: collapse;
