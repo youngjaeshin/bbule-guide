@@ -771,9 +771,8 @@ img.loaded{opacity:1}
       <option value="effect">효과</option>
     </select>
     <input type="text" class="search-input" id="equip-search" placeholder="장비 이름 또는 효과 검색... (예: 연타, 강타, 치명타)">
-    <div class="filter-group" id="equip-type-filters" style="flex-wrap:wrap;gap:4px;margin-bottom:6px"></div>
     <div class="filter-group" id="equip-grade-filters">
-      <button class="filter-btn active" data-grade="ALL">전체</button>
+      <button class="filter-btn active" data-grade="ALL">등급 전체</button>
       <button class="filter-btn grade-H" data-grade="H">H</button>
       <button class="filter-btn grade-X" data-grade="X">X</button>
       <button class="filter-btn grade-G" data-grade="G">G</button>
@@ -784,6 +783,7 @@ img.loaded{opacity:1}
       <button class="filter-btn grade-D" data-grade="D">D</button>
       <button class="filter-btn grade-E" data-grade="E">E</button>
     </div>
+    <div class="filter-group" id="equip-type-filters" style="flex-wrap:wrap;gap:4px;margin-top:6px"></div>
     <div class="filter-group" id="equip-set-filters" style="flex-wrap:wrap;gap:4px;margin-top:6px"></div>
     <span class="result-count" id="equip-count"></span>
   </div>
@@ -1306,7 +1306,7 @@ function equipEffectText(e){return (e.effect_type||'')+' '+(e.opt2?e.opt2.text:'
 })();
 
 const EQUIP_TYPE_CATS=[
-  ['전체',''],
+  ['효과 전체',''],
   ['데미지','데미지'],
   ['강타','강타'],
   ['치명타','치명타'],
