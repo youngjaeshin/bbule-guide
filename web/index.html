@@ -703,6 +703,7 @@ img.loaded{opacity:1}
   .sim-art-slots{grid-template-columns:repeat(3,1fr);}
 }
 </style>
+<link rel="stylesheet" href="monsters.css">
 </head>
 <body>
 
@@ -711,6 +712,7 @@ img.loaded{opacity:1}
     <div class="site-title">대용병시대 <span>뿔레전쟁</span> 가이드 <span style="font-size:.5em;opacity:.65;margin-left:8px">Guide v1.0 · Game v.1886a</span></div>
     <nav class="nav-tabs" role="tablist">
       <button class="nav-tab" data-tab="용어">용어</button>
+      <button class="nav-tab" data-tab="몬스터">몬스터</button>
       <button class="nav-tab active" data-tab="용병">용병</button>
       <button class="nav-tab" data-tab="장비">장비</button>
       <button class="nav-tab" data-tab="아티팩트">아티팩트</button>
@@ -818,6 +820,9 @@ img.loaded{opacity:1}
 
 
 <!-- ============ COMING SOON TABS ============ -->
+<div id="tab-몬스터" class="tab-content">
+  <div id="monster-guide" class="monster-guide"></div>
+</div>
 <div id="tab-용어" class="tab-content">
   <div class="gl-subtabs">
     <button class="gl-pill active" data-gl="abbr">약어 사전</button>
@@ -867,10 +872,12 @@ img.loaded{opacity:1}
 <div id="tab-허수" class="tab-content">
   <div class="si-subtabs">
     <button class="si-pill active" data-si="invader">침략자 보상</button>
+    <button class="si-pill" data-si="debuff">침략자 디버프</button>
     <button class="si-pill" data-si="bbule">뿔레 허수아비</button>
     <button class="si-pill" data-si="transform">변신수 허수아비</button>
   </div>
   <div id="si-content"></div>
+  <div id="invader-debuff-guide" class="monster-guide" hidden></div>
 </div>
 <div id="tab-지휘관" class="tab-content">
   <div class="cmd-pills">
@@ -994,8 +1001,11 @@ function openModal(headerHTML, bodyHTML){
   modalOverlay.querySelector('.modal-close')?.addEventListener('click',closeModal);
 }
 function closeModal(){
+  const wasOpen=modalOverlay.classList.contains('open');
   modalOverlay.classList.remove('open');
+  modalOverlay.removeAttribute('aria-labelledby');
   document.body.style.overflow='';
+  if(wasOpen) modalOverlay.dispatchEvent(new Event('guide-modal-close'));
 }
 modalOverlay.addEventListener('click',(e)=>{if(e.target===modalOverlay)closeModal();});
 document.addEventListener('keydown',(e)=>{if(e.key==='Escape')closeModal();});
@@ -1013,6 +1023,10 @@ document.querySelectorAll('.nav-tab:not(.disabled)').forEach(btn=>{
     document.querySelectorAll('.tab-content').forEach(c=>c.classList.remove('active'));
     document.getElementById('tab-'+tab)?.classList.add('active');
     activeTab=tab;
+    if(tab==='몬스터') window.MonsterGuide.show();
+    else if(['#monsters','#monster-search','#invader-debuffs','#monster-attacks'].includes(location.hash)) {
+      history.replaceState(null,'',location.pathname+location.search);
+    }
     if(tab==='장비'&&!equipRendered){renderEquip();equipRendered=true;}
     if(tab==='아티팩트'&&!artRendered){renderArt();artRendered=true;}
   });
@@ -2293,8 +2307,14 @@ function initSITab(){
       pills.forEach(x=>x.classList.remove('active'));
       p.classList.add('active');
       const sub=p.dataset.si;
-      if(sub==='invader') renderInvaderTab();
-      else renderScarecrowTab(sub);
+      document.getElementById('si-content').hidden=sub==='debuff';
+      document.getElementById('invader-debuff-guide').hidden=sub!=='debuff';
+      if(sub==='debuff') window.showInvaderDebuffs();
+      else {
+        if(location.hash==='#invader-debuffs') history.replaceState(null,'',location.pathname+location.search);
+        if(sub==='invader') renderInvaderTab();
+        else renderScarecrowTab(sub);
+      }
     });
   });
   renderInvaderTab();
@@ -2533,35 +2553,7 @@ function renderGLDebuff(filter){
 }
 
 function renderGLDifficulty(){
-  const ds=GL_DATA.difficulty_scaling;
-  let h=`<div class="si-info-box"><strong>난이도별 추가 능력치</strong><br>${esc(ds.base_note)}</div>`;
-  const tierColors=['#6b7280','#ef4444','#8b5cf6','#f59e0b','#6366f1','#14b8a6','#f97316','#dc2626'];
-  ds.tiers.forEach((t,i)=>{
-    h+=`<div class="gl-diff-tier"><div class="gl-diff-name" style="color:${tierColors[i]}">${esc(t.name)}</div>`;
-    h+=`<div class="gl-diff-stage">${esc(t.stage)}${t.note?' · '+esc(t.note):''}</div>`;
-    h+=`<div class="gl-diff-grid">`;
-    const stats=[['물/마 저항',t.phys_mag_resist],['클릭 저항',t.click_resist],['공격무효화',t.nullify],['회피',t.evasion],['공포',t.fear],['흡수',t.absorb],...([['둔화',t.slow],['약화',t.weaken],['보호막',t.shield],['부활',t.revive],['반사',t.reflect],['피해 면제',t.damage_exemption]].filter(([,v])=>v>0)),['랜덤 추가',t.random_count]];
-    stats.forEach(([l,v])=>{
-      const display=v==null?'?':l==='랜덤 추가'?(v+'개'):(v?'+'+v+'%':'—');
-      h+=`<div class="gl-diff-stat"><div class="gl-diff-val">${display}</div><div class="gl-diff-label">${esc(l)}</div></div>`;
-    });
-    h+=`</div>`;
-    if(t.clear_reference){
-      const labels={nullify:'무효화 관통',evasion:'회피 감소',fear:'공포 극복',absorb:'흡수 감소'};
-      h+=`<div class="gl-card-note">클리어 디버프 참고: ${Object.entries(t.clear_reference).map(([k,v])=>esc(labels[k])+': '+esc(v)).join(' / ')}</div>`;
-    }
-    h+=`</div>`;
-  });
-  h+=`<div class="si-info-box"><strong>클리어 디버프 참고치 안내</strong><br>${esc(ds.clear_reference_note)}</div>`;
-  h+=`<div class="gl-diff-pool"><h4>랜덤 추가 풀</h4><div class="gl-diff-pool-grid">`;
-  ds.random_pool.forEach(p=>{h+=`<span class="gl-diff-pool-item">${esc(p.name)}: ${typeof p.value==='number'?'+'+p.value+'%':esc(String(p.value))}${p.condition?' ('+esc(p.condition)+')':''}</span>`;});
-  h+=`</div></div>`;
-  h+=`<div class="si-info-box" style="margin-top:12px"><strong>보스 규칙</strong><br>`;
-  ds.boss_rules.forEach(r=>{h+=`· ${esc(r)}<br>`;});
-  h+=`</div>`;
-  h+=`<div class="si-info-box" style="margin-top:12px"><strong>기본 능력치 + 난이도 추가 예시</strong><br>${esc(ds.example)}</div>`;
-  h+=`<div class="gl-card-note">${esc(ds.source_note)}</div>`;
-  return h;
+  return `<div class="si-info-box"><strong>난이도별 몬스터 수치</strong><p>헬 501층부터 오블리언 2 5500층까지의 공통 디버프·저항 보정·최대 공격 무효화를 몬스터 메뉴에서 확인할 수 있습니다.</p><p>자료 기준 v.1890 TEST_6</p></div><button class="monster-entry" onclick="openMonsterGuide('regions')">구간별 디버프 보기</button>`;
 }
 
 function renderGLSystem(filter){
@@ -2602,7 +2594,7 @@ function renderGLTab(){
   switch(glActiveTab){
     case 'abbr':el.innerHTML=renderGLAbbr(f);break;
     case 'combat':el.innerHTML=renderGLCombat(f);break;
-    case 'debuff':el.innerHTML=renderGLDebuff(f);break;
+    case 'debuff':el.innerHTML='<button class="monster-entry" onclick="openMonsterGuide(\'monsters\')">몬스터별 수치·출현층 찾기</button>'+renderGLDebuff(f);break;
     case 'difficulty':el.innerHTML=renderGLDifficulty();break;
     case 'system':el.innerHTML=renderGLSystem(f);break;
   }
@@ -2635,6 +2627,7 @@ document.querySelectorAll('.nav-tab').forEach(tab=>{
     if(t==='용어'&&!glRendered){initGLTab();glRendered=true;}
     if(t==='보조슬롯'&&!ssRendered){initSSTab();ssRendered=true;}
     if(t==='허수'&&!siRendered){initSITab();siRendered=true;}
+    if(t==='허수'&&document.querySelector('.si-pill.active')?.dataset.si==='debuff') window.showInvaderDebuffs();
     if(t==='지휘관'&&!cmdRendered){initCMDTab();cmdRendered=true;}
     if(t==='시뮬레이터'&&!simRendered){initSimTab();simRendered=true;}
   });
@@ -3279,5 +3272,7 @@ function initSimTab(){
 })();
 
 </script>
+<script src="monsters.js"></script>
+<script src="invader_debuffs.js"></script>
 </body>
 </html>
