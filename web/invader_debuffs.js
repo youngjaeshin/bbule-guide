@@ -256,7 +256,7 @@
 
   window.showInvaderDebuffs = async () => {
     if (document.getElementById("tab-허수").classList.contains("active")) {
-      history.replaceState(null, "", "#invader-debuffs");
+      window.GuideNavigation.setHash("#invader-debuffs");
     }
     try {
       loading ||= load();
@@ -271,14 +271,4 @@
       console.error(error);
     }
   };
-
-  function followRoute() {
-    if (location.hash !== "#invader-debuffs") return;
-    const button = document.querySelector('.nav-tab[data-tab="허수"]');
-    button.click();
-    button.scrollIntoView({ block: "nearest", inline: "nearest" });
-    document.querySelector('.si-pill[data-si="debuff"]').click();
-  }
-  window.addEventListener("hashchange", followRoute);
-  followRoute();
 })();

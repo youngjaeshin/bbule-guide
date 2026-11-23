@@ -11,7 +11,7 @@
 
   function updateRoute(view) {
     if (document.getElementById("tab-몬스터").classList.contains("active")) {
-      history.replaceState(null, "", routes[view]);
+      window.GuideNavigation.setHash(routes[view]);
     }
   }
 
@@ -322,9 +322,9 @@
         esc(t.name) +
         '에서 나올 수 있는 최대 공무 <span id="monster-region-maximum">' +
         pct(max) +
-        '</span> (공통 ' +
+        "</span> (공통 " +
         t.statuses.null.base +
-        ' + 피의 돌격병 고유 115 + 랜덤 가산 30)</p>' +
+        " + 피의 돌격병 고유 115 + 랜덤 가산 30)</p>" +
         '<div class="panel"><div class="section-top"><h2>특징 있는 몬스터</h2><button data-action="all-highlights">25개 모두 보기</button></div><div class="feature-list">' +
         priority
           .map((key) => {
@@ -771,18 +771,6 @@
   };
 
   window.openMonsterGuide = (view = "regions") => {
-    const button = document.querySelector('.nav-tab[data-tab="몬스터"]');
-    button.click();
-    button.scrollIntoView({ block: "nearest", inline: "nearest" });
-    return window.MonsterGuide.show(view);
+    return window.GuideNavigation.navigate(routes[view]);
   };
-
-  function followRoute() {
-    const view = Object.keys(routes).find(
-      (key) => routes[key] === location.hash,
-    );
-    if (view) window.openMonsterGuide(view);
-  }
-  window.addEventListener("hashchange", followRoute);
-  followRoute();
 })();

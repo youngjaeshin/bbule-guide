@@ -1024,9 +1024,6 @@ document.querySelectorAll('.nav-tab:not(.disabled)').forEach(btn=>{
     document.getElementById('tab-'+tab)?.classList.add('active');
     activeTab=tab;
     if(tab==='몬스터') window.MonsterGuide.show();
-    else if(['#monsters','#monster-search','#invader-debuffs','#monster-attacks'].includes(location.hash)) {
-      history.replaceState(null,'',location.pathname+location.search);
-    }
     if(tab==='장비'&&!equipRendered){renderEquip();equipRendered=true;}
     if(tab==='아티팩트'&&!artRendered){renderArt();artRendered=true;}
   });
@@ -2311,7 +2308,6 @@ function initSITab(){
       document.getElementById('invader-debuff-guide').hidden=sub!=='debuff';
       if(sub==='debuff') window.showInvaderDebuffs();
       else {
-        if(location.hash==='#invader-debuffs') history.replaceState(null,'',location.pathname+location.search);
         if(sub==='invader') renderInvaderTab();
         else renderScarecrowTab(sub);
       }
@@ -3274,5 +3270,6 @@ function initSimTab(){
 </script>
 <script src="monsters.js"></script>
 <script src="invader_debuffs.js"></script>
+<script src="navigation.js"></script>
 </body>
 </html>
