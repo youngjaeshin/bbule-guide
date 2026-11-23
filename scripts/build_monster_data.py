@@ -75,6 +75,11 @@ def build_data(source_dir, output_path):
             if case["type_id"] == row["type_id"] and case["bonus"] == 0
         ),
     } for row in invaders["invaders"]]
+    for invader in invader_data:
+        for level_range in invader["ranges"]:
+            values = level_range["values"]
+            values["base_stats"]["disable"] = max(0, values["base_stats"]["disable"])
+            values["maximum_by_field"]["disable"] = max(0, values["maximum_by_field"]["disable"])
     source_info = {
         "game_version": "1890 TEST_6",
         "reviewed_on": "2026-11-23",

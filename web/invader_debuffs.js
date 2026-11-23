@@ -84,6 +84,8 @@
         maximumFractionDigits: 6,
       });
     const pct = (x) => n(x) + "%";
+    const displayStatusValue = (key, value) =>
+      key === "disable" ? Math.max(0, value) : value;
 
     function cell(label, value, sub = "") {
       return (
@@ -103,15 +105,12 @@
         const raw = stats[key];
         const cap = config.additional_caps[key];
         const step = config.increase_steps_percent_points[key];
-        const display = key === "disable" ? Math.max(0, raw) : raw;
+        const display = displayStatusValue(key, raw);
         if (display === 0 && cap === 0) {
           inactive.push(LABELS[key]);
           continue;
         }
-        const sub =
-          raw < 0
-            ? "원본 " + pct(raw) + "에 가산 후 효과 계산"
-            : "랜덤 +" + step + "%p·최대 " + cap + "회";
+        const sub = "랜덤 +" + step + "%p·최대 " + cap + "회";
         cells.push(cell(LABELS[key], display, sub));
       }
       return (
@@ -165,23 +164,18 @@
         '<p class="note">' +
         esc(v.attack_rule) +
         ' · 조사 범위는 화면 표시 1~150레벨입니다.</p><p class="hint">각 항목의 추가 상한은 전체 추첨 횟수 안에서 배분됩니다. 부활·방어막은 조사한 7종에서 기본값과 후보가 모두 0입니다.</p>' +
-        (v.base_stats.disable < 0
-          ? '<p class="hint">무력화 원본값은 ' +
-            pct(v.base_stats.disable) +
-            "입니다. 대응 감소가 0일 때의 감소 효과는 0이며, 원본값에 가산한 뒤 효과를 계산합니다.</p>"
-          : "") +
-        '<details><summary>항목별 최대값과 전투 특성</summary><div class="table-wrap"><table><thead><tr><th>항목</th><th>코드 기본값</th><th>최대 추가 횟수</th><th>개별 최대</th></tr></thead><tbody>' +
+        '<details><summary>항목별 최대값과 전투 특성</summary><div class="table-wrap"><table><thead><tr><th>항목</th><th>기본값</th><th>최대 추가 횟수</th><th>개별 최대</th></tr></thead><tbody>' +
         Object.keys(LABELS)
           .map(
             (k) =>
               "<tr><td>" +
               LABELS[k] +
               "</td><td>" +
-              pct(v.base_stats[k]) +
+              pct(displayStatusValue(k, v.base_stats[k])) +
               "</td><td>" +
               v.additional_caps[k] +
               "회</td><td>" +
-              pct(v.maximum_by_field[k]) +
+              pct(displayStatusValue(k, v.maximum_by_field[k])) +
               "</td></tr>",
           )
           .join("") +
@@ -209,13 +203,9 @@
                   const raw =
                     r.values.base_stats[key] ??
                     r.values.base_resistance_percent[key];
-                  const display = key === "disable" ? Math.max(0, raw) : raw;
                   return (
                     '<td class="num">' +
-                    pct(display) +
-                    (key === "disable" && raw < 0
-                      ? " (원본 " + pct(raw) + ")"
-                      : "") +
+                    pct(displayStatusValue(key, raw)) +
                     "</td>"
                   );
                 })
@@ -225,11 +215,7 @@
               "회</td></tr>",
           )
           .join("") +
-        "</tbody></table></div>" +
-        (inv.ranges.some((r) => r.values.base_stats.disable < 0)
-          ? '<p class="hint">무력화의 음수 원본값은 괄호 안에 표시했습니다. 원본값에 추가 옵션을 더한 뒤 감소 효과를 계산하며, 음수인 기본 감소 효과는 0으로 처리됩니다.</p>'
-          : "") +
-        "</div>";
+        "</tbody></table></div></div>";
       $("invader-results").innerHTML = html;
     }
     $("invader-type").innerHTML = DATA.invaders
