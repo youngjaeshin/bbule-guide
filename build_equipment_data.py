@@ -14,12 +14,52 @@ CREATURES_JSON = os.path.join(BASE_DIR, "output", "creatures.json")
 EQUIP_IMG_DIR = os.path.join(BASE_DIR, "web", "images", "equip")
 OUTPUT_JSON = os.path.join(BASE_DIR, "web", "data_equipment.json")
 INDEX_HTML = os.path.join(BASE_DIR, "web", "index.html")
+# Item sets + second options (optional). Generated from game data outside this repo;
+# see item_set_data.json "_source" for the game version.
+ITEM_SET_JSON = os.path.join(BASE_DIR, "item_set_data.json")
+
+
+def load_item_sets():
+    if not os.path.exists(ITEM_SET_JSON):
+        return None
+    with open(ITEM_SET_JSON, encoding="utf-8") as f:
+        return json.load(f)
+
+
+def build_item_set_const(item_sets, result):
+    """Inline ITEM_SET_DATA: sets with members (guide names) and set options."""
+    by_index = {str(x["index"]): x for x in result}
+    members = {}
+    for key, rec in item_sets["items"].items():
+        if not rec.get("set"):
+            continue
+        row = by_index.get(key)
+        members.setdefault(rec["set"], []).append({
+            "index": int(key),
+            "name": row["name"] if row else rec["name"],
+            "grade": row["grade"] if row else rec["grade"],
+            "inGuide": row is not None,
+        })
+    options = []
+    for opt in item_sets["setOptions"]:
+        opt = dict(opt)
+        row = by_index.get(str(opt.get("itemIndex")))
+        if row:
+            opt["item"] = row["name"]
+        options.append(opt)
+    return {
+        "gameVersion": item_sets.get("gameVersion", ""),
+        "sets": [{"name": s["name"], "members": members.get(s["name"], [])} for s in item_sets["sets"]],
+        "setOptions": options,
+    }
+
 
 def main():
     # Load source data
     with open(EQUIP_JSON, encoding="utf-8") as f:
         equip_data = json.load(f)
     equip_data = apply_capture_overrides(equip_data)
+    item_sets = load_item_sets()
 
     with open(CREATURES_JSON, encoding="utf-8") as f:
         creatures_data = json.load(f)
@@ -109,6 +149,13 @@ def main():
         if is_available_g and verified_g and (effect_0_g or effect_20_g):
             entry["effect_0_g"] = effect_0_g
             entry["effect_20_g"] = effect_20_g
+        if item_sets:
+            set_rec = item_sets["items"].get(str(item["index"]))
+            if set_rec:
+                if set_rec.get("set"):
+                    entry["set"] = set_rec["set"]
+                if set_rec.get("opt2"):
+                    entry["opt2"] = set_rec["opt2"]
         result.append(entry)
 
     with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
@@ -124,6 +171,14 @@ def main():
     new_html, count = re.subn(pattern, new_decl, html, flags=re.DOTALL)
     if count == 0:
         raise RuntimeError("Could not find EQUIP_DATA in index.html")
+    if item_sets:
+        set_const = json.dumps(build_item_set_const(item_sets, result), ensure_ascii=False, separators=(",", ":"))
+        set_decl = f"const ITEM_SET_DATA = {set_const};"
+        set_pattern = r"^const\s+ITEM_SET_DATA\s*=.*$"
+        new_html, set_count = re.subn(set_pattern, lambda m: set_decl, new_html, flags=re.MULTILINE)
+        if set_count == 0:
+            new_html = new_html.replace(new_decl, new_decl + "\n" + set_decl, 1)
+        print(f"Updated ITEM_SET_DATA ({len(item_sets['sets'])} sets, {len(item_sets['setOptions'])} set options)")
     with open(INDEX_HTML, "w", encoding="utf-8") as f:
         f.write(new_html)
     print(f"Updated EQUIP_DATA in {INDEX_HTML} ({count} occurrence)")
