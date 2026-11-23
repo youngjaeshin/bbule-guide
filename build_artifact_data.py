@@ -23,7 +23,7 @@ KEEP_FIELDS = [
     'index', 'name', 'set_id', 'set_name', 'icon', 'rank', 'grade',
     'dropTable', 'part', 'part_name', 'effects_resolved',
     'gameIndex', 'indexSource', 'aliases', 'captureEvidence', 'captureStatus', 'sourceRecords', 'imageEvidence',
-    'optionEvidence', 'sourceConflicts', 'optionExceptions', 'testOnly',
+    'optionEvidence', 'sourceConflicts', 'optionExceptions', 'testOnly', 'testValues',
 ]
 
 # --- Explicit image aliases for name mismatches ---

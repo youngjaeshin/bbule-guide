@@ -10,8 +10,12 @@
     "dropTable": 0,
     "part": 0,
     "part_name": "무기",
-    "aType": [],
-    "aEffect": [],
+    "aType": [
+      0
+    ],
+    "aEffect": [
+      1.8
+    ],
     "effects_resolved": [
       {
         "type_code": 0,
@@ -37,7 +41,7 @@
       "captured_at": "2026-11-02T07:53:45.556763+09:00",
       "effects_verified": true
     },
-    "captureStatus": "effects_verified",
+    "captureStatus": "test_build_data",
     "sourceRecords": [
       {
         "source_type": "game_screenshot",
@@ -46,8 +50,13 @@
         "sha256": "1059a11c32abb12ad4e580f7eb1440a4a2539008b117831c688a7253c3f5778f",
         "captured_at": "2026-11-02T07:53:45.556763+09:00",
         "effects_verified": true
+      },
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build values 1890 TEST_6"
       }
-    ]
+    ],
+    "testValues": "1890 TEST_6"
   },
   {
     "index": 1,
@@ -3576,7 +3585,7 @@
       7.2,
       0.24,
       0.24,
-      0.24
+      0.2
     ],
     "effects_resolved": [
       {
@@ -3624,9 +3633,9 @@
       {
         "type_code": -1,
         "type_name": "[아르케로",
-        "value": 0,
+        "value": 0.2,
         "value_display": "0.24",
-        "description": "[아르케로 위도우메이커] 모든 용병의 클릭 성장 데미지 0.24"
+        "description": "[아르케로 위도우메이커] 모든 용병의 클릭 성장 데미지 0.2"
       },
       {
         "type_code": -3,
@@ -3661,13 +3670,18 @@
         "is_sub": true
       }
     ],
-    "captureStatus": "no_direct_effect_capture",
+    "captureStatus": "test_build_data",
     "sourceRecords": [
       {
         "source_type": "legacy_guide",
         "source_scope": "effects_not_independently_rechecked"
+      },
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build values 1890 TEST_6"
       }
-    ]
+    ],
+    "testValues": "1890 TEST_6"
   },
   {
     "index": 59,
@@ -3690,7 +3704,7 @@
       49999.0,
       0.99,
       0.019,
-      5.0
+      12.0
     ],
     "effects_resolved": [
       {
@@ -3731,9 +3745,9 @@
       {
         "type_code": -1,
         "type_name": "[아르케로",
-        "value": 0,
+        "value": 12.0,
         "value_display": "5",
-        "description": "[아르케로 새비지 스컬] 모든 용병의 성장 데미지 5"
+        "description": "[아르케로 새비지 스컬] 모든 용병의 성장 데미지 12"
       },
       {
         "type_code": -3,
@@ -3768,13 +3782,18 @@
         "is_sub": true
       }
     ],
-    "captureStatus": "no_direct_effect_capture",
+    "captureStatus": "test_build_data",
     "sourceRecords": [
       {
         "source_type": "legacy_guide",
         "source_scope": "effects_not_independently_rechecked"
+      },
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build values 1890 TEST_6"
       }
-    ]
+    ],
+    "testValues": "1890 TEST_6"
   },
   {
     "index": 60,
@@ -15774,8 +15793,8 @@
     "aEffect": [
       0.06,
       0.1,
-      1.0,
-      2.0
+      2.6,
+      5.2
     ],
     "effects_resolved": [
       {
@@ -15800,9 +15819,9 @@
         "type_code": 247,
         "namespace": "artifact_aType",
         "type_name": "(개성 델로어 마법학교 장착시) 모든 용병 의 성장 데미지",
-        "value": 1.0,
-        "value_display": "1",
-        "description": "(개성 델로어 마법학교 장착시) 모든 용병 의 성장 데미지 +1",
+        "value": 2.6,
+        "value_display": "2.6",
+        "description": "(개성 델로어 마법학교 장착시) 모든 용병 의 성장 데미지 +2.6",
         "source_slot": 3,
         "condition": {
           "kind": "personality",
@@ -15816,9 +15835,9 @@
         "type_code": 472,
         "namespace": "artifact_aType",
         "type_name": "(델로어 세트 완성시) 모든 용병의 성장 데미지",
-        "value": 2.0,
-        "value_display": "2",
-        "description": "(델로어 세트 완성시) 모든 용병의 성장 데미지 +2",
+        "value": 5.2,
+        "value_display": "5.2",
+        "description": "(델로어 세트 완성시) 모든 용병의 성장 데미지 +5.2",
         "source_slot": 4,
         "condition": {
           "kind": "set_completed",
@@ -15837,7 +15856,7 @@
       "captured_at": "2026-11-02T08:06:03.965805+09:00",
       "effects_verified": true
     },
-    "captureStatus": "effects_verified",
+    "captureStatus": "test_build_data",
     "sourceRecords": [
       {
         "source_type": "game_screenshot",
@@ -15846,8 +15865,13 @@
         "sha256": "1db71da17bfe02dda2715b4ef9d765d7ecfb3d2ce1c9d73fe2a6bbd0a0b525e5",
         "captured_at": "2026-11-02T08:06:03.965805+09:00",
         "effects_verified": true
+      },
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build values 1890 TEST_6"
       }
-    ]
+    ],
+    "testValues": "1890 TEST_6"
   },
   {
     "index": 218,
@@ -17180,8 +17204,8 @@
       255
     ],
     "aEffect": [
-      2.0,
-      0.06,
+      4.9,
+      0.05,
       0.08,
       0.04
     ],
@@ -17190,18 +17214,18 @@
         "type_code": 55,
         "namespace": "artifact_aType",
         "type_name": "모든 용병의 성장 데미지",
-        "value": 2.0,
-        "value_display": "2",
-        "description": "모든 용병의 성장 데미지 +2",
+        "value": 4.9,
+        "value_display": "4.9",
+        "description": "모든 용병의 성장 데미지 +4.9",
         "source_slot": 1
       },
       {
         "type_code": 59,
         "namespace": "artifact_aType",
         "type_name": "모든 용병의 클릭 성장 데미지",
-        "value": 0.06,
-        "value_display": "0.06",
-        "description": "모든 용병의 클릭 성장 데미지 +0.06",
+        "value": 0.05,
+        "value_display": "0.05",
+        "description": "모든 용병의 클릭 성장 데미지 +0.05",
         "source_slot": 2
       },
       {
@@ -17238,7 +17262,7 @@
       "captured_at": "2026-11-02T08:04:17.524639+09:00",
       "effects_verified": true
     },
-    "captureStatus": "effects_verified",
+    "captureStatus": "test_build_data",
     "sourceRecords": [
       {
         "source_type": "game_screenshot",
@@ -17247,8 +17271,13 @@
         "sha256": "7d59b83983fbe4012473580cc972f78d0b4f766ac5c45e4af5b31db877864cb8",
         "captured_at": "2026-11-02T08:04:17.524639+09:00",
         "effects_verified": true
+      },
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build values 1890 TEST_6"
       }
-    ]
+    ],
+    "testValues": "1890 TEST_6"
   },
   {
     "index": 234,
@@ -19464,7 +19493,7 @@
       0.0075,
       0.4,
       0.05,
-      0.14
+      0.18
     ],
     "effects_resolved": [
       {
@@ -19525,7 +19554,7 @@
       "captured_at": "2026-11-02T08:07:13.546075+09:00",
       "effects_verified": true
     },
-    "captureStatus": "effects_verified",
+    "captureStatus": "test_build_data",
     "sourceRecords": [
       {
         "source_type": "game_screenshot",
@@ -19534,8 +19563,13 @@
         "sha256": "597b0483e4a00e46c54701d77a0523f7c0f301ffe1f7f369a0182d65579a65bd",
         "captured_at": "2026-11-02T08:07:13.546075+09:00",
         "effects_verified": true
+      },
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build values 1890 TEST_6"
       }
-    ]
+    ],
+    "testValues": "1890 TEST_6"
   },
   {
     "index": 260,
@@ -22164,8 +22198,8 @@
     ],
     "aEffect": [
       0.55,
-      1.0,
-      0.18,
+      5.2,
+      0.15,
       0.06
     ],
     "effects_resolved": [
@@ -22182,18 +22216,18 @@
         "type_code": 55,
         "namespace": "artifact_aType",
         "type_name": "모든 용병의 성장 데미지",
-        "value": 1.0,
-        "value_display": "1",
-        "description": "모든 용병의 성장 데미지 +1",
+        "value": 5.2,
+        "value_display": "5.2",
+        "description": "모든 용병의 성장 데미지 +5.2",
         "source_slot": 2
       },
       {
         "type_code": 59,
         "namespace": "artifact_aType",
         "type_name": "모든 용병의 클릭 성장 데미지",
-        "value": 0.18,
-        "value_display": "0.18",
-        "description": "모든 용병의 클릭 성장 데미지 +0.18",
+        "value": 0.15,
+        "value_display": "0.15",
+        "description": "모든 용병의 클릭 성장 데미지 +0.15",
         "source_slot": 3
       },
       {
@@ -22214,7 +22248,7 @@
       "captured_at": "2026-11-02T08:07:35.133257+09:00",
       "effects_verified": true
     },
-    "captureStatus": "effects_verified",
+    "captureStatus": "test_build_data",
     "sourceRecords": [
       {
         "source_type": "game_screenshot",
@@ -22223,8 +22257,13 @@
         "sha256": "077dd80210a6dcc2df109cc4e926e6ca53e65c14693e816ce9f5335f7719381d",
         "captured_at": "2026-11-02T08:07:35.133257+09:00",
         "effects_verified": true
+      },
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build values 1890 TEST_6"
       }
-    ]
+    ],
+    "testValues": "1890 TEST_6"
   },
   {
     "index": 298,
@@ -24528,7 +24567,7 @@
     "aEffect": [
       0.02,
       0.06,
-      0.8
+      3.0
     ],
     "effects_resolved": [
       {
@@ -24553,9 +24592,9 @@
         "type_code": 299,
         "namespace": "artifact_aType",
         "type_name": "(종교 콰소스 장착시) 모든 용병의 성장 데미지",
-        "value": 0.8,
-        "value_display": "0.8",
-        "description": "(종교 콰소스 장착시) 모든 용병의 성장 데미지 +0.8",
+        "value": 3.0,
+        "value_display": "3",
+        "description": "(종교 콰소스 장착시) 모든 용병의 성장 데미지 +3",
         "source_slot": 3,
         "condition": {
           "kind": "religion",
@@ -24574,7 +24613,7 @@
       "captured_at": "2026-11-02T08:01:00.619317+09:00",
       "effects_verified": true
     },
-    "captureStatus": "effects_verified",
+    "captureStatus": "test_build_data",
     "sourceRecords": [
       {
         "source_type": "game_screenshot",
@@ -24583,8 +24622,13 @@
         "sha256": "5e7564ea45ec0f46c7c70c7fb6475a7a0251a5ae3698c0dc485cb114bc5ddeb9",
         "captured_at": "2026-11-02T08:01:00.619317+09:00",
         "effects_verified": true
+      },
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build values 1890 TEST_6"
       }
-    ]
+    ],
+    "testValues": "1890 TEST_6"
   },
   {
     "index": 325,
@@ -28193,7 +28237,7 @@
       317
     ],
     "aEffect": [
-      0.0066,
+      0.008,
       1.3,
       0.006,
       1.2
@@ -28257,7 +28301,7 @@
       "captured_at": "2026-11-02T08:10:16.051894+09:00",
       "effects_verified": true
     },
-    "captureStatus": "effects_verified",
+    "captureStatus": "test_build_data",
     "sourceRecords": [
       {
         "source_type": "game_screenshot",
@@ -28266,8 +28310,13 @@
         "sha256": "8587ad9207d07524bdbc69e9069c3493eaaa8e0f5621c99de53e175ef2a9fc12",
         "captured_at": "2026-11-02T08:10:16.051894+09:00",
         "effects_verified": true
+      },
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build values 1890 TEST_6"
       }
-    ]
+    ],
+    "testValues": "1890 TEST_6"
   },
   {
     "index": 365,
@@ -28289,8 +28338,8 @@
     "aEffect": [
       0.666,
       0.01,
-      0.24,
-      1.2
+      0.2,
+      6.66
     ],
     "effects_resolved": [
       {
@@ -28315,18 +28364,18 @@
         "type_code": 59,
         "namespace": "artifact_aType",
         "type_name": "모든 용병의 클릭 성장 데미지",
-        "value": 0.24,
-        "value_display": "0.24",
-        "description": "모든 용병의 클릭 성장 데미지 +0.24",
+        "value": 0.2,
+        "value_display": "0.2",
+        "description": "모든 용병의 클릭 성장 데미지 +0.2",
         "source_slot": 3
       },
       {
         "type_code": 318,
         "namespace": "artifact_aType",
         "type_name": "(종족 악마 장착시) 모든 용병의 성장 데미 지",
-        "value": 1.2,
-        "value_display": "1.2",
-        "description": "(종족 악마 장착시) 모든 용병의 성장 데미 지 +1.2",
+        "value": 6.66,
+        "value_display": "6.66",
+        "description": "(종족 악마 장착시) 모든 용병의 성장 데미 지 +6.66",
         "source_slot": 4,
         "condition": {
           "kind": "race",
@@ -28345,7 +28394,7 @@
       "captured_at": "2026-11-02T08:10:16.051894+09:00",
       "effects_verified": true
     },
-    "captureStatus": "effects_verified",
+    "captureStatus": "test_build_data",
     "sourceRecords": [
       {
         "source_type": "game_screenshot",
@@ -28354,8 +28403,13 @@
         "sha256": "c1c4c631fa4cf5cf30cb4d2669b009fca382f1e15760efcb6366137a6e358e15",
         "captured_at": "2026-11-02T08:10:16.051894+09:00",
         "effects_verified": true
+      },
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build values 1890 TEST_6"
       }
-    ]
+    ],
+    "testValues": "1890 TEST_6"
   },
   {
     "index": 366,
@@ -28377,7 +28431,7 @@
     "aEffect": [
       0.4,
       1.4,
-      1.8,
+      6.0,
       0.04
     ],
     "effects_resolved": [
@@ -28403,9 +28457,9 @@
         "type_code": 55,
         "namespace": "artifact_aType",
         "type_name": "모든 용병의 성장 데미지",
-        "value": 1.8,
-        "value_display": "1.8",
-        "description": "모든 용병의 성장 데미지 +1.8",
+        "value": 6.0,
+        "value_display": "6",
+        "description": "모든 용병의 성장 데미지 +6",
         "source_slot": 3
       },
       {
@@ -28433,7 +28487,7 @@
       "captured_at": "2026-11-02T08:10:16.051894+09:00",
       "effects_verified": true
     },
-    "captureStatus": "effects_verified",
+    "captureStatus": "test_build_data",
     "sourceRecords": [
       {
         "source_type": "game_screenshot",
@@ -28442,8 +28496,13 @@
         "sha256": "130400f8acb16f9597e85a58a6e179f93d5080acebd08b3d97e0ce708aeb88ea",
         "captured_at": "2026-11-02T08:10:16.051894+09:00",
         "effects_verified": true
+      },
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build values 1890 TEST_6"
       }
-    ]
+    ],
+    "testValues": "1890 TEST_6"
   },
   {
     "index": 367,
@@ -29202,7 +29261,7 @@
     "aEffect": [
       4.0,
       0.005,
-      0.3
+      0.72
     ],
     "effects_resolved": [
       {
@@ -29227,9 +29286,9 @@
         "type_code": 545,
         "namespace": "artifact_aType",
         "type_name": "(아티팩트 헌터 햇 장착시) 모든 용병의 성 장 데미지",
-        "value": 0.3,
-        "value_display": "0.3",
-        "description": "(아티팩트 헌터 햇 장착시) 모든 용병의 성 장 데미지 +0.3",
+        "value": 0.72,
+        "value_display": "0.72",
+        "description": "(아티팩트 헌터 햇 장착시) 모든 용병의 성 장 데미지 +0.72",
         "source_slot": 3,
         "condition": {
           "kind": "artifact_equipped",
@@ -29248,7 +29307,7 @@
       "captured_at": "2026-11-02T08:01:06.406960+09:00",
       "effects_verified": true
     },
-    "captureStatus": "effects_verified",
+    "captureStatus": "test_build_data",
     "sourceRecords": [
       {
         "source_type": "game_screenshot",
@@ -29257,8 +29316,13 @@
         "sha256": "dec8d8a722dea3fd7234c1a67ae974d5b3c58f338e2e309c7acdf45fa1990835",
         "captured_at": "2026-11-02T08:01:06.406960+09:00",
         "effects_verified": true
+      },
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build values 1890 TEST_6"
       }
-    ]
+    ],
+    "testValues": "1890 TEST_6"
   },
   {
     "index": 379,
@@ -34790,9 +34854,9 @@
     ],
     "aEffect": [
       0.62,
-      0.4,
-      2.4,
-      3.6
+      0.33,
+      8.0,
+      10.0
     ],
     "effects_resolved": [
       {
@@ -34808,18 +34872,18 @@
         "type_code": 59,
         "namespace": "artifact_aType",
         "type_name": "모든 용병의 클릭 성장 데미지",
-        "value": 0.4,
-        "value_display": "0.4",
-        "description": "모든 용병의 클릭 성장 데미지 +0.4",
+        "value": 0.33,
+        "value_display": "0.33",
+        "description": "모든 용병의 클릭 성장 데미지 +0.33",
         "source_slot": 2
       },
       {
         "type_code": 360,
         "namespace": "artifact_aType",
         "type_name": "(성별 남성 장착시) 모든 용병의 성장 데미지",
-        "value": 2.4,
-        "value_display": "2.4",
-        "description": "(성별 남성 장착시) 모든 용병의 성장 데미지 +2.4",
+        "value": 8.0,
+        "value_display": "8",
+        "description": "(성별 남성 장착시) 모든 용병의 성장 데미지 +8",
         "source_slot": 3,
         "condition": {
           "kind": "gender",
@@ -34833,9 +34897,9 @@
         "type_code": 361,
         "namespace": "artifact_aType",
         "type_name": "(성별 여성 장착시) 모든 용병의 성장 데미지",
-        "value": 3.6,
-        "value_display": "3.6",
-        "description": "(성별 여성 장착시) 모든 용병의 성장 데미지 +3.6",
+        "value": 10.0,
+        "value_display": "10",
+        "description": "(성별 여성 장착시) 모든 용병의 성장 데미지 +10",
         "source_slot": 4,
         "condition": {
           "kind": "gender",
@@ -34854,7 +34918,7 @@
       "captured_at": "2026-11-02T08:12:48.566535+09:00",
       "effects_verified": true
     },
-    "captureStatus": "effects_verified",
+    "captureStatus": "test_build_data",
     "sourceRecords": [
       {
         "source_type": "game_screenshot",
@@ -34863,8 +34927,13 @@
         "sha256": "3cfa9a607dd428da64e1ecdaf6ff7fe950c28509a342d8077a7302fef860f33c",
         "captured_at": "2026-11-02T08:12:48.566535+09:00",
         "effects_verified": true
+      },
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build values 1890 TEST_6"
       }
-    ]
+    ],
+    "testValues": "1890 TEST_6"
   },
   {
     "index": 443,
@@ -39423,7 +39492,7 @@
     "aEffect": [
       0.033,
       0.66,
-      0.0066,
+      0.0055,
       0.066
     ],
     "effects_resolved": [
@@ -39485,7 +39554,7 @@
       "captured_at": "2026-11-02T08:05:56.581550+09:00",
       "effects_verified": true
     },
-    "captureStatus": "effects_verified",
+    "captureStatus": "test_build_data",
     "sourceRecords": [
       {
         "source_type": "game_screenshot",
@@ -39494,8 +39563,13 @@
         "sha256": "aa5acd78b9c0ebff0f8bf2aaad28a2417933799042122b865c213bd8707b67be",
         "captured_at": "2026-11-02T08:05:56.581550+09:00",
         "effects_verified": true
+      },
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build values 1890 TEST_6"
       }
-    ]
+    ],
+    "testValues": "1890 TEST_6"
   },
   {
     "index": 496,
@@ -39603,7 +39677,7 @@
       3000
     ],
     "aEffect": [
-      0.02,
+      0.016,
       0.05,
       0.1,
       0.06
@@ -39667,7 +39741,7 @@
       "captured_at": "2026-11-02T08:08:48.889250+09:00",
       "effects_verified": true
     },
-    "captureStatus": "effects_verified",
+    "captureStatus": "test_build_data",
     "sourceRecords": [
       {
         "source_type": "game_screenshot",
@@ -39676,8 +39750,13 @@
         "sha256": "c0898f8bb67daeed8526e54354f01eff1ef722648b4e978162be814cfa7d3dc3",
         "captured_at": "2026-11-02T08:08:48.889250+09:00",
         "effects_verified": true
+      },
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build values 1890 TEST_6"
       }
-    ]
+    ],
+    "testValues": "1890 TEST_6"
   },
   {
     "index": 498,
@@ -39699,7 +39778,7 @@
     "aEffect": [
       0.45,
       0.6,
-      0.02,
+      0.016,
       0.03
     ],
     "effects_resolved": [
@@ -39761,7 +39840,7 @@
       "captured_at": "2026-11-02T08:08:48.889250+09:00",
       "effects_verified": true
     },
-    "captureStatus": "effects_verified",
+    "captureStatus": "test_build_data",
     "sourceRecords": [
       {
         "source_type": "game_screenshot",
@@ -39770,8 +39849,13 @@
         "sha256": "1983f12fc1ca1c9a0dba2a879402ff0c71526fc87aa7b57694b68cf19ef0d323",
         "captured_at": "2026-11-02T08:08:48.889250+09:00",
         "effects_verified": true
+      },
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build values 1890 TEST_6"
       }
-    ]
+    ],
+    "testValues": "1890 TEST_6"
   },
   {
     "index": 499,
@@ -39787,13 +39871,13 @@
     "aType": [
       63,
       6,
-      19,
+      54,
       3002
     ],
     "aEffect": [
       0.12,
       0.75,
-      0.01,
+      0.1,
       0.08
     ],
     "effects_resolved": [
@@ -39855,7 +39939,7 @@
       "captured_at": "2026-11-02T08:08:56.508567+09:00",
       "effects_verified": true
     },
-    "captureStatus": "effects_verified",
+    "captureStatus": "test_build_data",
     "sourceRecords": [
       {
         "source_type": "game_screenshot",
@@ -39864,8 +39948,13 @@
         "sha256": "c783e691fa62f3dd7eeb378b4dfcd5ec8b992a919b81bb047307b0302c53c8d2",
         "captured_at": "2026-11-02T08:08:56.508567+09:00",
         "effects_verified": true
+      },
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build values 1890 TEST_6"
       }
-    ]
+    ],
+    "testValues": "1890 TEST_6"
   },
   {
     "index": 500,
@@ -39885,7 +39974,7 @@
       3003
     ],
     "aEffect": [
-      0.02,
+      0.016,
       0.06,
       0.8,
       0.02
@@ -39949,7 +40038,7 @@
       "captured_at": "2026-11-02T08:08:56.508567+09:00",
       "effects_verified": true
     },
-    "captureStatus": "effects_verified",
+    "captureStatus": "test_build_data",
     "sourceRecords": [
       {
         "source_type": "game_screenshot",
@@ -39958,8 +40047,13 @@
         "sha256": "7874ce60cffc9e24a447ec03bcbb16e13ebe2ea59bacbff6df7a59edef7a8eb5",
         "captured_at": "2026-11-02T08:08:56.508567+09:00",
         "effects_verified": true
+      },
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build values 1890 TEST_6"
       }
-    ]
+    ],
+    "testValues": "1890 TEST_6"
   },
   {
     "index": 501,
@@ -43049,8 +43143,8 @@
     "aEffect": [
       66.0,
       4.4,
-      6.0,
-      0.44
+      14.6,
+      0.37
     ],
     "effects_resolved": [
       {
@@ -43075,18 +43169,18 @@
         "type_code": 55,
         "namespace": "artifact_aType",
         "type_name": "모든 용병의 성장 데미지",
-        "value": 6.0,
-        "value_display": "6",
-        "description": "모든 용병의 성장 데미지 +6",
+        "value": 14.6,
+        "value_display": "14.6",
+        "description": "모든 용병의 성장 데미지 +14.6",
         "source_slot": 3
       },
       {
         "type_code": 59,
         "namespace": "artifact_aType",
         "type_name": "모든 용병의 클릭 성장 데미지",
-        "value": 0.44,
-        "value_display": "0.44",
-        "description": "모든 용병의 클릭 성장 데미지 +0.44",
+        "value": 0.37,
+        "value_display": "0.37",
+        "description": "모든 용병의 클릭 성장 데미지 +0.37",
         "source_slot": 4
       }
     ],
@@ -43099,7 +43193,7 @@
       "method": "color_normalized_maximum",
       "received_at": "2026-11-02"
     },
-    "captureStatus": "community_color_inferred",
+    "captureStatus": "test_build_data",
     "sourceRecords": [
       {
         "source_type": "game_screenshot",
@@ -43130,6 +43224,10 @@
         "effects_verified": false,
         "method": "color_normalized_maximum",
         "received_at": "2026-11-02"
+      },
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build values 1890 TEST_6"
       }
     ],
     "optionEvidence": [
@@ -43253,7 +43351,8 @@
         "source_sha256": "80171113655097b1eadcfe64f66c5ee23a2b1a1c003d77d3fbf666d3d9733bfa",
         "status": "color_model_inference"
       }
-    ]
+    ],
+    "testValues": "1890 TEST_6"
   },
   {
     "index": 535,
@@ -43909,13 +44008,13 @@
     "aType": [
       87,
       1006,
-      89,
+      90,
       127
     ],
     "aEffect": [
       0.12,
       0.08,
-      0.24,
+      0.01,
       0.012
     ],
     "effects_resolved": [
@@ -43938,12 +44037,12 @@
         "source_slot": 2
       },
       {
-        "type_code": 89,
+        "type_code": 90,
         "namespace": "artifact_aType",
-        "type_name": "모든 용병의 치명타 배수",
-        "value": 0.24,
-        "value_display": "0.24",
-        "description": "모든 용병의 치명타 배수 +0.24",
+        "type_name": "모든 용병의 치명타 확률",
+        "value": 0.01,
+        "value_display": "1%",
+        "description": "모든 용병의 치명타 확률 +1%",
         "source_slot": 3
       },
       {
@@ -43968,7 +44067,7 @@
       "method": "color_normalized_maximum",
       "received_at": "2026-11-02"
     },
-    "captureStatus": "community_color_inferred",
+    "captureStatus": "test_build_data",
     "sourceRecords": [
       {
         "source_type": "game_screenshot",
@@ -43990,6 +44089,10 @@
         "effects_verified": false,
         "method": "color_normalized_maximum",
         "received_at": "2026-11-02"
+      },
+      {
+        "source_type": "game_data",
+        "source_scope": "test_build values 1890 TEST_6"
       }
     ],
     "optionEvidence": [
@@ -44053,7 +44156,8 @@
         "source_sha256": "2aa0b19024caa8483429143ec85f4305a9bd0c0c67903637e304602b2782300f",
         "status": "color_model_inference"
       }
-    ]
+    ],
+    "testValues": "1890 TEST_6"
   },
   {
     "index": 541,
