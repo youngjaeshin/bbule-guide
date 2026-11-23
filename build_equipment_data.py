@@ -26,16 +26,32 @@ def load_item_sets():
         return json.load(f)
 
 
+def find_set_record(item_sets, item):
+    """Match by game index, or by (name, grade) for guide-only rows such as captured items with negative indexes."""
+    rec = item_sets["items"].get(str(item["index"]))
+    if rec:
+        return rec
+    for rec in item_sets["items"].values():
+        if rec["name"] == item["name"].strip() and rec["grade"] == item["grade"]:
+            return rec
+    return None
+
+
+def guide_row(by_index, by_key, key, rec):
+    return by_index.get(key) or by_key.get((rec["name"], rec["grade"]))
+
+
 def build_item_set_const(item_sets, result):
     """Inline ITEM_SET_DATA: sets with members (guide names) and set options."""
     by_index = {str(x["index"]): x for x in result}
+    by_key = {(x["name"].strip(), x["grade"]): x for x in result}
     members = {}
     for key, rec in item_sets["items"].items():
         if not rec.get("set"):
             continue
-        row = by_index.get(key)
+        row = guide_row(by_index, by_key, key, rec)
         members.setdefault(rec["set"], []).append({
-            "index": int(key),
+            "index": row["index"] if row else int(key),
             "name": row["name"] if row else rec["name"],
             "grade": row["grade"] if row else rec["grade"],
             "inGuide": row is not None,
@@ -43,9 +59,12 @@ def build_item_set_const(item_sets, result):
     options = []
     for opt in item_sets["setOptions"]:
         opt = dict(opt)
-        row = by_index.get(str(opt.get("itemIndex")))
+        key = str(opt.get("itemIndex"))
+        rec = item_sets["items"].get(key)
+        row = guide_row(by_index, by_key, key, rec) if rec else None
         if row:
             opt["item"] = row["name"]
+            opt["itemIndex"] = row["index"]
         options.append(opt)
     return {
         "gameVersion": item_sets.get("gameVersion", ""),
@@ -141,7 +160,7 @@ def main():
         for field in ('gameIndex', 'indexSource', 'effect_0_value', 'effect_20_value',
                       'coefficient_0', 'coefficient_20', 'effect_unit', 'effect_20_source',
                       'can_enhance', 'enhancement', 'effectCode', 'image', 'captureEvidence',
-                      'legacySpecializedTargets', 'gUpgradeSource'):
+                      'legacySpecializedTargets', 'gUpgradeSource', 'testOnly'):
             if field in item:
                 entry[field] = item[field]
         if is_available_g:
@@ -150,7 +169,7 @@ def main():
             entry["effect_0_g"] = effect_0_g
             entry["effect_20_g"] = effect_20_g
         if item_sets:
-            set_rec = item_sets["items"].get(str(item["index"]))
+            set_rec = find_set_record(item_sets, item)
             if set_rec:
                 if set_rec.get("set"):
                     entry["set"] = set_rec["set"]
