@@ -1,0 +1,8319 @@
+{
+  "review_date": "2026-11-27",
+  "method": "556명을 등급·ID 순서로 각각 읽고 1~5번 스킬 및 고용 패시브를 검토한 후 효과 위치를 직접 지정",
+  "source_sha256": "ac549ea3e8875b5c8e9c3cae30355422558fb7ede6409e4a37de589607a2eb03",
+  "reviewed_mercenaries": 556,
+  "reviewed_skills": 2780,
+  "reviewed_effects": 5722,
+  "reviewed_hire_passives": 233,
+  "profile_semantics": "해당 순수 편성에서 성립하는 피해 타입 제한·비교 조건을 가진 효과. 원문 조건과 추가 참전 조건을 함께 표시.",
+  "mercenaries": [
+    {
+      "id": 7,
+      "key": "E/파타타",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 12,
+      "key": "E/미렌",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 13,
+      "key": "E/뮤턴트",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 14,
+      "key": "E/니모",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 15,
+      "key": "E/객스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 17,
+      "key": "E/슬리키",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 27,
+      "key": "E/피블",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 34,
+      "key": "E/프로스트",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 42,
+      "key": "E/멜로디",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 45,
+      "key": "E/아이도피아",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "5번의 모든 혼합 용병 공격 속도는 적용 대상 버프. 편성 발동 제한은 없음.",
+      "effects": []
+    },
+    {
+      "id": 46,
+      "key": "E/애라",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 79,
+      "key": "E/빅터",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 82,
+      "key": "E/쿠카이",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 88,
+      "key": "E/니피",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 96,
+      "key": "E/제리",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 99,
+      "key": "E/모나크 2세",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 113,
+      "key": "E/이졸데",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 117,
+      "key": "E/포드릭",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 129,
+      "key": "E/에퀴나스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 138,
+      "key": "E/랜달",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 223,
+      "key": "E/헤라클레스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 226,
+      "key": "E/알더탈론",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 273,
+      "key": "E/드라코",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 292,
+      "key": "E/딜비도",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "5번 리더 조건을 확인. 피해 타입 편성 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 313,
+      "key": "E/꿈틀이",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 340,
+      "key": "E/이파",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 350,
+      "key": "E/1st박쥐",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 410,
+      "key": "E/라이티",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 417,
+      "key": "E/실비아",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "5번 이졸데 참전 및 정규군 수 조건 확인. 피해 타입 편성 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 427,
+      "key": "E/우쿰토",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1번 오크 수에 따른 개인·오크 대상 치명타 효과 확인. 피해 타입 편성 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 517,
+      "key": "E/푸시니아",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 518,
+      "key": "E/리스켈",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 2,
+      "key": "D/펑구스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 11,
+      "key": "D/루가로쓰",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 22,
+      "key": "D/데이스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 23,
+      "key": "D/우프레틴",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 25,
+      "key": "D/헬똥구리",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 31,
+      "key": "D/렉스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 35,
+      "key": "D/그린윙",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 37,
+      "key": "D/마발",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 41,
+      "key": "D/쥬쥬",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 43,
+      "key": "D/아라크네",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 47,
+      "key": "D/애스칼",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 48,
+      "key": "D/칼라마르",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 53,
+      "key": "D/보나파르트",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 55,
+      "key": "D/리커",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 92,
+      "key": "D/잭",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 102,
+      "key": "D/미스터 버블",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 111,
+      "key": "D/재거",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 120,
+      "key": "D/유다 3세",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 124,
+      "key": "D/짓타",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 132,
+      "key": "D/츠요나시",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "3번 카오스 대상 데미지·성장 데미지 버프 확인. 편성 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 143,
+      "key": "D/나르바비",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "5번 혼합 대상 공격 속도 버프 확인. 편성 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 159,
+      "key": "D/아이",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 189,
+      "key": "D/폭스트롯",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 197,
+      "key": "D/미티어",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 312,
+      "key": "D/로렐라이",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 320,
+      "key": "D/브와",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 337,
+      "key": "D/레이자",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 398,
+      "key": "D/스크롱",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 413,
+      "key": "D/벨",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 432,
+      "key": "D/이그루시카",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "3·5번 카오스 대상 버프, 1번 쟝 피엘 대상 효과 확인. 편성 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 522,
+      "key": "D/미오",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 1,
+      "key": "C/우르간",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 5,
+      "key": "C/겁쟁이 딕",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 6,
+      "key": "C/새라",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 8,
+      "key": "C/아스트랄",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 24,
+      "key": "C/블랙",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 26,
+      "key": "C/쟈무카",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 30,
+      "key": "C/레슈카",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 32,
+      "key": "C/케이나인",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 52,
+      "key": "C/베인",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 54,
+      "key": "C/부커",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 58,
+      "key": "C/프로스트",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 59,
+      "key": "C/애라",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 62,
+      "key": "C/피블",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 80,
+      "key": "C/빅터",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 83,
+      "key": "C/쿠카이",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 97,
+      "key": "C/제리",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 103,
+      "key": "C/미스터 버블",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 118,
+      "key": "C/포드릭",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 122,
+      "key": "C/오크둠",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 126,
+      "key": "C/라이샌더",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "4번 물리·마법 데미지가 모두 없을 때 즉시 공격 데미지 45%. 퓨어 카오스 발동 조건 확인.",
+      "effects": [
+        {
+          "slot": 4,
+          "index": 2,
+          "rule_id": "no_physical_magic",
+          "profiles": [
+            "pure_chaos"
+          ],
+          "condition": "물리와 마법 데미지가 모두 없을 때",
+          "expected_description": "물리와 마법 데미지가 모두 없을 때 즉시 공격 데미지 45%",
+          "type_code": 783
+        }
+      ]
+    },
+    {
+      "id": 135,
+      "key": "C/젤다",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 139,
+      "key": "C/랜달",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 157,
+      "key": "C/스탈링",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 165,
+      "key": "C/룩쏘",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 183,
+      "key": "C/리크",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 186,
+      "key": "C/크시론",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 193,
+      "key": "C/에반",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 202,
+      "key": "C/에지",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 204,
+      "key": "C/리나",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 214,
+      "key": "C/룸룸",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "2·5번 마법 용병 대상 버프 확인. 편성 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 227,
+      "key": "C/알더탈론",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 232,
+      "key": "C/사미개",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 315,
+      "key": "C/더스티",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 321,
+      "key": "C/다리안",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 341,
+      "key": "C/이파",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 362,
+      "key": "C/누네",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 369,
+      "key": "C/2nd박쥐",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 402,
+      "key": "C/노아",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 406,
+      "key": "C/콘치",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 411,
+      "key": "C/라이티",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 428,
+      "key": "C/우쿰토",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 433,
+      "key": "C/아줄",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 514,
+      "key": "C/푸시니아",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 519,
+      "key": "C/리스켈",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 0,
+      "key": "B/베멜로스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 20,
+      "key": "B/미렌",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 21,
+      "key": "B/이모텝",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 33,
+      "key": "B/로빈",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 39,
+      "key": "B/듄",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 49,
+      "key": "B/엑시스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 51,
+      "key": "B/라이언",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 56,
+      "key": "B/미스터 페퍼",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 57,
+      "key": "B/보이",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 64,
+      "key": "B/객스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 68,
+      "key": "B/펑구스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "5번 알더탈론 리더 조건 확인. 피해 타입 편성 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 69,
+      "key": "B/파타타",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "5번 알더탈론 리더 조건 확인. 피해 타입 편성 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 70,
+      "key": "B/니모",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 77,
+      "key": "B/슬리키",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 78,
+      "key": "B/뮤턴트",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 89,
+      "key": "B/니피",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 91,
+      "key": "B/우프레틴",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 100,
+      "key": "B/모나크 2세",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 104,
+      "key": "B/미스터 버블",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 112,
+      "key": "B/재거",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 114,
+      "key": "B/이졸데",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 130,
+      "key": "B/에퀴나스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 133,
+      "key": "B/츠요나시",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "3번 카오스 대상 데미지·성장 버프 확인. 편성 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 137,
+      "key": "B/가루가",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "4·5번 카오스 대상 버프 확인. 편성 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 184,
+      "key": "B/리커",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 191,
+      "key": "B/오라키리야",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 195,
+      "key": "B/리리아",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 198,
+      "key": "B/미티어",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 200,
+      "key": "B/파퓨리온",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 207,
+      "key": "B/라라엘",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 224,
+      "key": "B/헤라클레스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 269,
+      "key": "B/플러피",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "3번 참전 인원에 따른 감소 조건 확인. 피해 타입 편성 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 270,
+      "key": "B/걸",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 279,
+      "key": "B/무스콜리",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 293,
+      "key": "B/딜비도",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 295,
+      "key": "B/하인리히",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 305,
+      "key": "B/브라이언",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 306,
+      "key": "B/아이도리스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "5번 혼합 대상 공격 속도와 3번 아이도피아 참전 조건 확인. 피해 타입 편성 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 307,
+      "key": "B/붕붕이",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 314,
+      "key": "B/코코",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 319,
+      "key": "B/모쓰윌",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "4번 물리 용병 대상 데미지·성장 버프 확인. 피해 타입의 존재·부재 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 326,
+      "key": "B/아가요르",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 342,
+      "key": "B/이파",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 348,
+      "key": "B/에르다몬",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 357,
+      "key": "B/코쿠니아",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 364,
+      "key": "B/라꽈",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 386,
+      "key": "B/리크",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 394,
+      "key": "B/트리칼로",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 399,
+      "key": "B/스크롱",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 414,
+      "key": "B/벨",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 418,
+      "key": "B/실비아",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 434,
+      "key": "B/타타",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 4,
+      "key": "A/로버트",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 9,
+      "key": "A/달신",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "3번 마법 대상 강타 배수 확인. 피해 타입 편성 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 10,
+      "key": "A/글라낙스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 16,
+      "key": "A/자이다",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 19,
+      "key": "A/님부스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 28,
+      "key": "A/배셔",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 38,
+      "key": "A/아바돈",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 40,
+      "key": "A/소울테이커",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 44,
+      "key": "A/세레나",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 61,
+      "key": "A/아이도피아",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "5번 혼합 대상 공격 속도 버프 확인. 편성 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 63,
+      "key": "A/쥬쥬",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 65,
+      "key": "A/미렌",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 76,
+      "key": "A/라이언",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 86,
+      "key": "A/우르간",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 87,
+      "key": "A/사미에르",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 93,
+      "key": "A/잭",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 94,
+      "key": "A/마발",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 98,
+      "key": "A/제리",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 105,
+      "key": "A/미스터 버블",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 107,
+      "key": "A/새라",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 121,
+      "key": "A/유다 3세",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 125,
+      "key": "A/짓타",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 128,
+      "key": "A/용감한 딕",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 142,
+      "key": "A/엑시스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 144,
+      "key": "A/나르바비",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "5번 혼합 대상 공격 속도·강타 배수 확인. 편성 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 161,
+      "key": "A/보이",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 164,
+      "key": "A/베커파르트",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 170,
+      "key": "A/렉스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 171,
+      "key": "A/헬똥구리",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 173,
+      "key": "A/객스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 185,
+      "key": "A/재거",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 187,
+      "key": "A/크시론",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 215,
+      "key": "A/룸룸",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "2·5번 마법 대상 버프와 특정 용병 대상 행운 효과 확인. 편성 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 229,
+      "key": "A/블리야트",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 233,
+      "key": "A/사미개",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 235,
+      "key": "A/마줄리스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 236,
+      "key": "A/프로페타",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 266,
+      "key": "A/하울러",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 274,
+      "key": "A/드라코",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 287,
+      "key": "A/죽여줘..",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 316,
+      "key": "A/로보",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 322,
+      "key": "A/그웬윈",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 323,
+      "key": "A/스태버",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 327,
+      "key": "A/모텐",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 374,
+      "key": "A/몬몬",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1·5번 환생 횟수 조건과 골드 저장 고용 패시브 확인. 피해 타입 편성 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 375,
+      "key": "A/구구",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 377,
+      "key": "A/플루이드",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "3번 쿠미스 지휘, 4번 슬리키 참전 조건 확인. 피해 타입 편성 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 387,
+      "key": "A/리크",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 389,
+      "key": "A/뮤턴트",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 395,
+      "key": "A/트리칼로",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 424,
+      "key": "A/코아틀",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 435,
+      "key": "A/텔라로",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 450,
+      "key": "A/앙투안",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 458,
+      "key": "A/발티나",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 523,
+      "key": "A/미오",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 3,
+      "key": "S/아에노쓰",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "4번 물리 대상 강타 배수와 1번 고용 패시브 확인. 편성 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 18,
+      "key": "S/아카샤",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 29,
+      "key": "S/가이낙스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 36,
+      "key": "S/리스켈",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 50,
+      "key": "S/구르톡",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 60,
+      "key": "S/멜로디",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 66,
+      "key": "S/애라",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 67,
+      "key": "S/프로스트",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "4번 물리 데미지가 가장 높을 때 약화 효과 감소 3.6%. 퓨어 물리에서도 성립하는 비교 조건으로 기록.",
+      "effects": [
+        {
+          "slot": 4,
+          "index": 2,
+          "rule_id": "physical_highest",
+          "profiles": [
+            "pure_physical"
+          ],
+          "condition": "물리 데미지가 가장 높을 때",
+          "expected_description": "물리 데미지가 가장 높을 때 적들의 약화 효과 감소 3.6%",
+          "type_code": 699
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "key": "S/아라크네",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 72,
+      "key": "S/피블",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 73,
+      "key": "S/데이스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 74,
+      "key": "S/베멜로스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 75,
+      "key": "S/님부스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 81,
+      "key": "S/빅터",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 84,
+      "key": "S/쿠카이",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 85,
+      "key": "S/루가로쓰",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "2번 트리니티 대상 버프와 1번 고용 패시브 확인. 세 피해 타입 존재 발동 조건 없음.",
+      "effects": []
+    },
+    {
+      "id": 90,
+      "key": "S/니피",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 95,
+      "key": "S/아스트랄",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 101,
+      "key": "S/모나크 2세",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 106,
+      "key": "S/레슈카",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 108,
+      "key": "S/쉐도우윙",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1번 혼합 고용 버프와 2·3번 물리·마법 대상 버프 확인. 편성 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 109,
+      "key": "S/우르간",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 110,
+      "key": "S/달신",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 115,
+      "key": "S/이졸데",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 116,
+      "key": "S/세레나",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 119,
+      "key": "S/포드릭",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 123,
+      "key": "S/오크둠",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 127,
+      "key": "S/라이샌더",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "4번 물리·마법 데미지 모두 부재 시 즉시 공격 데미지 45% 확인.",
+      "effects": [
+        {
+          "slot": 4,
+          "index": 2,
+          "rule_id": "no_physical_magic",
+          "profiles": [
+            "pure_chaos"
+          ],
+          "condition": "물리와 마법 데미지가 모두 없을 때",
+          "expected_description": "물리와 마법 데미지가 모두 없을 때 즉시 공격 데미지 45%",
+          "type_code": 783
+        }
+      ]
+    },
+    {
+      "id": 131,
+      "key": "S/에퀴나스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 134,
+      "key": "S/츠요나시",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 136,
+      "key": "S/젤다",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 140,
+      "key": "S/랜달",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 141,
+      "key": "S/슬리키",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 145,
+      "key": "S/하게디스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 146,
+      "key": "S/세이두 레아",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 147,
+      "key": "S/이그레",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1·2·4번 마법 대상 버프와 고용 패시브 확인. 편성 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 148,
+      "key": "S/폰",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~3번 물리 대상 버프와 고용 패시브 확인. 편성 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 149,
+      "key": "S/복제된 세이두",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 150,
+      "key": "S/케이나인",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 151,
+      "key": "S/갈라티스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 152,
+      "key": "S/켄신",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 153,
+      "key": "S/아리안",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 154,
+      "key": "S/르네",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 155,
+      "key": "S/툴팁미씽",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 156,
+      "key": "S/노쓰페라투쓰",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 158,
+      "key": "S/스탈링",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 160,
+      "key": "S/아이",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 162,
+      "key": "S/사미에르",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 163,
+      "key": "S/하진",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 166,
+      "key": "S/룩쏘",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "4번 혼합 용병만 공격할 때 흡수 감소 3%. 포에베 참전 행운 효과는 별도 조건.",
+      "effects": [
+        {
+          "slot": 4,
+          "index": 2,
+          "rule_id": "only_mixed_attackers",
+          "profiles": [
+            "pure_mixed"
+          ],
+          "condition": "혼합 용병만 공격 할 때",
+          "expected_description": "혼합 용병만 공격 할 때 적들의 흡수 확률 감소 3%",
+          "type_code": 710
+        }
+      ]
+    },
+    {
+      "id": 167,
+      "key": "S/베멜리나",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 168,
+      "key": "S/컴미",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 169,
+      "key": "S/잭",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 172,
+      "key": "S/크세르크스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 174,
+      "key": "S/라이언",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "4번 물리 대상 공격 속도·강타 확률 버프 확인. 편성 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 175,
+      "key": "S/크라티아스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 176,
+      "key": "S/라비나",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 177,
+      "key": "S/가루가",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "2·4·5번 카오스 대상 버프 확인. 편성 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 178,
+      "key": "S/나르바비",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "5번 혼합 대상 공격 속도·강타 배수 확인. 편성 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 179,
+      "key": "S/베르디오스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 180,
+      "key": "S/세하",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 181,
+      "key": "S/루시디아",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 182,
+      "key": "S/짓타",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 188,
+      "key": "S/크시론",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 190,
+      "key": "S/폭스트롯",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 192,
+      "key": "S/오라키리야",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 194,
+      "key": "S/에반",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 196,
+      "key": "S/리리아",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 199,
+      "key": "S/미티어",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 201,
+      "key": "S/데메테르",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 203,
+      "key": "S/에지",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 205,
+      "key": "S/리나",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 206,
+      "key": "S/라자루스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "2번 카오스 대상 강타 배수·증폭 확인. 편성 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 208,
+      "key": "S/라라엘",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 209,
+      "key": "S/딜린져스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 210,
+      "key": "S/쟝 피엘",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "3·5번 카오스 대상 버프 및 개성·종교 수 계수 확인. 편성 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 211,
+      "key": "S/아니데우스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 212,
+      "key": "S/악티움",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 213,
+      "key": "S/크리스마스 리나",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 216,
+      "key": "S/포니아",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "4·5번 물리 대상 버프 확인. 편성 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 217,
+      "key": "S/아스카",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "3~5번 카오스 대상 버프 확인. 편성 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 218,
+      "key": "S/히토미",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 219,
+      "key": "S/하라",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 220,
+      "key": "S/크릭서스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 221,
+      "key": "S/글라낙스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 222,
+      "key": "S/사이프리드",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 225,
+      "key": "S/헤라클레스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 228,
+      "key": "S/알더탈론",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 230,
+      "key": "S/자이다",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 231,
+      "key": "S/페로키",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 234,
+      "key": "S/자디무스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 237,
+      "key": "S/사우쓰페라투쓰",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 238,
+      "key": "S/다닐로바",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 262,
+      "key": "S/우프레틴",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 263,
+      "key": "S/블피",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 264,
+      "key": "S/애스칼",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 268,
+      "key": "S/포크룸",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 271,
+      "key": "S/스폭스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "5번 카오스 대상 강타 배수와 강타 확률 불이익 확인. 편성 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 276,
+      "key": "S/미스 버블",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 283,
+      "key": "S/펑구스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 284,
+      "key": "S/파타타",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 290,
+      "key": "S/타케리리",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 291,
+      "key": "S/토드",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 294,
+      "key": "S/딜비도",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 303,
+      "key": "S/도키",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "3~5번 오키 참전·두 형제 동시 참전 조건 확인. 혼합 고용 버프는 적용 대상 효과. 피해 타입 편성 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 308,
+      "key": "S/소이치",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 309,
+      "key": "S/이루닐",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 328,
+      "key": "S/라티고",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 338,
+      "key": "S/레이자",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 343,
+      "key": "S/이파",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 363,
+      "key": "S/누네",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 371,
+      "key": "S/3rd박쥐",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 376,
+      "key": "S/뿔꾸",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 404,
+      "key": "S/마줄리스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 407,
+      "key": "S/콘치",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 416,
+      "key": "S/프로페타",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 419,
+      "key": "S/실비아",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 422,
+      "key": "S/마발",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "4·5번 객갱 참전 조건 확인. 피해 타입 편성 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 429,
+      "key": "S/우쿰토",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 436,
+      "key": "S/맥코이",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1·2번 츠요나시·쿠카이 관련 효과, 종족 계수 및 아이템 증폭 확인. 피해 타입 편성 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 469,
+      "key": "S/엔야",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 471,
+      "key": "S/니모",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 472,
+      "key": "S/아페가",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 485,
+      "key": "S/에밀리",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 495,
+      "key": "S/프리츠",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1번 카오스 성장 데미지 불이익, 4·5번 물리·혼합 대상 버프 확인. 편성 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 504,
+      "key": "S/메도우",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 511,
+      "key": "S/배셔",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 515,
+      "key": "S/푸시니아",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 524,
+      "key": "S/미오",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 543,
+      "key": "S/이모텝",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": -1003,
+      "key": "G/안텔로페",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "5번 물리·마법 데미지 모두 부재 시 모든 용병 행운 배수 증폭 4% 확인.",
+      "effects": [
+        {
+          "slot": 5,
+          "index": 2,
+          "rule_id": "no_physical_magic",
+          "profiles": [
+            "pure_chaos"
+          ],
+          "condition": "물리와 마법 데미지가 모두 없을 때",
+          "expected_description": "물리와 마법 데미지가 모두 없을 때 모든 용병의 행운 배수 증폭 +4%",
+          "type_code": null
+        }
+      ]
+    },
+    {
+      "id": -1002,
+      "key": "G/맥흐로",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 랜덤 횟수·로보 구매·종족 수 조건과 트리니티 고용 버프를 모두 확인. 피해 타입 편성 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": -1001,
+      "key": "G/닉스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 239,
+      "key": "G/베멜루스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 240,
+      "key": "G/베멜도그",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 241,
+      "key": "G/크사르팍스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 242,
+      "key": "G/지이크트",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 243,
+      "key": "G/제이나",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 244,
+      "key": "G/파퓨리온",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 245,
+      "key": "G/스칼렛",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1번 혼합 대상 전투·고용 버프 확인. 편성 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 246,
+      "key": "G/파이",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 247,
+      "key": "G/아쿠마",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 248,
+      "key": "G/조드",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 249,
+      "key": "G/마리세바",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 250,
+      "key": "G/세이버투쓰",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 251,
+      "key": "G/객갱",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 252,
+      "key": "G/라꽈",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 253,
+      "key": "G/샬린",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 254,
+      "key": "G/로코코",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 255,
+      "key": "G/케신저",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 256,
+      "key": "G/주니엘",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "혼합 대상 버프·혼합 용병 수 계수와 고용 패시브 확인. 피해 타입 존재·부재 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 257,
+      "key": "G/자룰",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 265,
+      "key": "G/세뇨르 페퍼",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 272,
+      "key": "G/파이썬",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 275,
+      "key": "G/드라코",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "5번 참전 카오스 용병 수·선각화 상태에 따른 계수 확인. 특정 타입만 편성하는 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 277,
+      "key": "G/미스 버블",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 280,
+      "key": "G/크스트레스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 285,
+      "key": "G/폴린",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 286,
+      "key": "G/아이바르",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 288,
+      "key": "G/블랙",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 296,
+      "key": "G/하인리히",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 298,
+      "key": "G/컴카이",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 299,
+      "key": "G/쟈무카",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 300,
+      "key": "G/드레그빈",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 302,
+      "key": "G/오키",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 311,
+      "key": "G/아오마루스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 317,
+      "key": "G/티어달리스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1번 마법 대상 전투·고용 최종 데미지와 연타 불가 확인. 편성 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 318,
+      "key": "G/이로우",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1번 물리 대상 최종 데미지, 4번 다음 물리 공격 강화 확인. 편성 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 331,
+      "key": "G/아바돈",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 360,
+      "key": "G/카메히메",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 396,
+      "key": "G/트리칼로",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 400,
+      "key": "G/스크롱",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 403,
+      "key": "G/노아",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 412,
+      "key": "G/라이티",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 425,
+      "key": "G/코아틀",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 430,
+      "key": "G/휘스커",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 437,
+      "key": "G/드로플렛",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 449,
+      "key": "G/베디",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 451,
+      "key": "G/앙투안",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 457,
+      "key": "G/딕슨",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 459,
+      "key": "G/발티나",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 464,
+      "key": "G/티타노보아",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 467,
+      "key": "G/로이스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 477,
+      "key": "G/우라칸",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1번 물리 대상 치명타, 3~5번 장비·세트 조건 확인. 피해 타입 편성 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 479,
+      "key": "G/하프단",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 486,
+      "key": "G/페가시",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 489,
+      "key": "G/일루",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 490,
+      "key": "G/트위기",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1번 트리니티 고용 버프, 5번 공격·보조 슬롯 배치 조건 확인. 피해 타입 편성 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 506,
+      "key": "G/미스터 페퍼",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 509,
+      "key": "G/아이도피아",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "혼합 성장 고용 버프 및 혼합 공격 속도 버프 확인. 피해 타입 편성 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 510,
+      "key": "G/렉스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 513,
+      "key": "G/칼라마르",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 526,
+      "key": "G/새라",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 527,
+      "key": "G/루돌프",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 529,
+      "key": "G/베인",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "4·5번 트리니티 대상 효과 확인. 세 피해 타입 존재 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 540,
+      "key": "G/소울테이커",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 541,
+      "key": "G/로빈",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 545,
+      "key": "G/보프니걸",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 258,
+      "key": "X/쯔바이",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 259,
+      "key": "X/헬싱",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 260,
+      "key": "X/아딜리야",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 261,
+      "key": "X/젤다",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "4번 물리 부재·마법 부재 효과를 각각 확인. 5번 물리·마법 동시 부재와 리스크 참전 조건 확인. 개별 효과 조건을 각각 보존.",
+      "effects": [
+        {
+          "slot": 4,
+          "index": 0,
+          "rule_id": "no_physical",
+          "profiles": [
+            "pure_chaos"
+          ],
+          "condition": "물리 데미지가 없을 때",
+          "expected_description": "물리 데미지가 없을 때 적들의 부활 확률 감소 3%",
+          "type_code": 685
+        },
+        {
+          "slot": 4,
+          "index": 1,
+          "rule_id": "no_magic",
+          "profiles": [
+            "pure_physical",
+            "pure_chaos"
+          ],
+          "condition": "마법 데미지가 없을 때",
+          "expected_description": "마법 데미지가 없을 때 적들의 반사 확률 감소 3%",
+          "type_code": 686
+        },
+        {
+          "slot": 5,
+          "index": 1,
+          "rule_id": "no_physical_magic_risk",
+          "profiles": [
+            "pure_chaos"
+          ],
+          "condition": "물리와 마법 데미지가 모두 없고 리스크 참전시",
+          "expected_description": "물리와 마법 데미지가 모두 없고 리스크 참전시 모든 용병의 치명타 확률 3%",
+          "type_code": 688
+        }
+      ]
+    },
+    {
+      "id": 267,
+      "key": "X/이졸데",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 278,
+      "key": "X/징크스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 281,
+      "key": "X/미미로즈",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "5번 혼합 용병만 공격할 때 부활 감소 2.5%. 물리·마법 최종 데미지 버프는 각 적용 대상 효과.",
+      "effects": [
+        {
+          "slot": 5,
+          "index": 2,
+          "rule_id": "only_mixed_attackers",
+          "profiles": [
+            "pure_mixed"
+          ],
+          "condition": "혼합 용병만 공격 할 때",
+          "expected_description": "혼합 용병만 공격 할 때 적들의 부활 확률 감소 2.5%",
+          "type_code": 723
+        }
+      ]
+    },
+    {
+      "id": 282,
+      "key": "X/케일라",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 289,
+      "key": "X/해링턴",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 297,
+      "key": "X/새라",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 301,
+      "key": "X/RBD-719",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 304,
+      "key": "X/가루가",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 310,
+      "key": "X/조디악",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 330,
+      "key": "X/딕",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 339,
+      "key": "X/또치",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 349,
+      "key": "X/크사르팍스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 353,
+      "key": "X/미건",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 355,
+      "key": "X/샐리",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 366,
+      "key": "X/아리만",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 368,
+      "key": "X/제이나",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 381,
+      "key": "X/드라콘",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 383,
+      "key": "X/포에베",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "5번 물리·마법·카오스 데미지가 모두 있을 때 부활 감소 3%. 다음 트리니티 공격 강화 효과는 별도 효과.",
+      "effects": [
+        {
+          "slot": 5,
+          "index": 2,
+          "rule_id": "all_three_present",
+          "profiles": [
+            "trinity"
+          ],
+          "condition": "물리, 마법, 카오스 데미지가 모두 있을 때",
+          "expected_description": "물리, 마법, 카오스 데미지가 모두 있을 때 적들의 부활 확률 감소 +3%",
+          "type_code": 702
+        }
+      ]
+    },
+    {
+      "id": 384,
+      "key": "X/알렉산드라",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 439,
+      "key": "X/드마이스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 440,
+      "key": "X/기포드",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 441,
+      "key": "X/크릴겐",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "2번 마법·카오스 부재 반사 감소와 3번 물리 데미지 최대 반사 감소를 각각 확인.",
+      "effects": [
+        {
+          "slot": 2,
+          "index": 1,
+          "rule_id": "no_magic_chaos",
+          "profiles": [
+            "pure_physical"
+          ],
+          "condition": "마법과 카오스 데미지가 모두 없을 때",
+          "expected_description": "마법과 카오스 데미지가 모두 없을 때 적들의 반사 확률 감소 4%",
+          "type_code": 693
+        },
+        {
+          "slot": 3,
+          "index": 2,
+          "rule_id": "physical_highest",
+          "profiles": [
+            "pure_physical"
+          ],
+          "condition": "물리 데미지가 가장 높을 때",
+          "expected_description": "물리 데미지가 가장 높을 때 적들의 반사 확률 감소 2.5%",
+          "type_code": 698
+        }
+      ]
+    },
+    {
+      "id": 443,
+      "key": "X/마르셀루스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 444,
+      "key": "X/쿠카이",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 448,
+      "key": "X/아오야마",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "4번 세 저항 관련 감소, 5번 트리니티 대상 버프 확인. 세 피해 타입 존재 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 462,
+      "key": "X/펠릭스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "3번 마법·카오스 부재 부활 감소, 4번 카오스 부재 더블 어택 및 마법·카오스 부재 축복 공격을 각각 확인.",
+      "effects": [
+        {
+          "slot": 3,
+          "index": 2,
+          "rule_id": "no_magic_chaos",
+          "profiles": [
+            "pure_physical"
+          ],
+          "condition": "마법과 카오스 데미지가 모두 없을 때",
+          "expected_description": "마법과 카오스 데미지가 모두 없을 때 적들의 부활 확률 감소 2.4%",
+          "type_code": 696
+        },
+        {
+          "slot": 4,
+          "index": 1,
+          "rule_id": "no_chaos",
+          "profiles": [
+            "pure_physical",
+            "pure_mixed"
+          ],
+          "condition": "카오스 데미지가 없을 때",
+          "expected_description": "카오스 데미지가 없을 때 모든 용병의 더블 어택 확률 2%",
+          "type_code": 694
+        },
+        {
+          "slot": 4,
+          "index": 2,
+          "rule_id": "no_magic_chaos",
+          "profiles": [
+            "pure_physical"
+          ],
+          "condition": "마법과 카오스 데미지가 모두 없을 때",
+          "expected_description": "마법과 카오스 데미지가 모두 없을 때 축복 공격 확률 4%",
+          "type_code": 695
+        }
+      ]
+    },
+    {
+      "id": 463,
+      "key": "X/엘리자베스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "4번 카오스 부재 약화 감소와 혼합만 공격할 때 전체 치명타를 각각 확인. 1번 둔화 고용 패시브는 별도 효과.",
+      "effects": [
+        {
+          "slot": 4,
+          "index": 1,
+          "rule_id": "no_chaos",
+          "profiles": [
+            "pure_physical",
+            "pure_mixed"
+          ],
+          "condition": "카오스 데미지가 없을 때",
+          "expected_description": "카오스 데미지가 없을 때 적들의 약화 효과 감소 3%",
+          "type_code": 714
+        },
+        {
+          "slot": 4,
+          "index": 2,
+          "rule_id": "only_mixed_attackers",
+          "profiles": [
+            "pure_mixed"
+          ],
+          "condition": "혼합 용병만 공격 할 때",
+          "expected_description": "혼합 용병만 공격 할 때 모든 용병의 치명타 확률 2.4%",
+          "type_code": 707
+        }
+      ]
+    },
+    {
+      "id": 466,
+      "key": "X/로즈",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 482,
+      "key": "X/바라봄",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 483,
+      "key": "X/야뷰키",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1번 혼합 용병만 공격할 때 선제 공격 8.8% 확인. 고용 효과도 확인.",
+      "effects": [
+        {
+          "slot": 1,
+          "index": 2,
+          "rule_id": "only_mixed_attackers",
+          "profiles": [
+            "pure_mixed"
+          ],
+          "condition": "혼합 용병만 공격 할 때",
+          "expected_description": "혼합 용병만 공격 할 때 선제 공격 확률 8.8%",
+          "type_code": 709
+        }
+      ]
+    },
+    {
+      "id": 484,
+      "key": "X/몬몬",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 488,
+      "key": "X/시애나",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 539,
+      "key": "X/자르",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 547,
+      "key": "X/아낙수나문",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 324,
+      "key": "H/진.쿠카이",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 325,
+      "key": "H/보이",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 329,
+      "key": "H/제리",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 332,
+      "key": "H/랜달",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 333,
+      "key": "H/유다 4세",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 334,
+      "key": "H/쿠르샤",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 335,
+      "key": "H/판티테스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 336,
+      "key": "H/시그미스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 344,
+      "key": "H/재거",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 345,
+      "key": "H/미렌",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 346,
+      "key": "H/새라",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 347,
+      "key": "H/피블",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 351,
+      "key": "H/토미에",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 352,
+      "key": "H/구르톡",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 354,
+      "key": "H/빅터",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 356,
+      "key": "H/객스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 358,
+      "key": "H/코쿠니아",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 359,
+      "key": "H/베멜로스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 361,
+      "key": "H/젠",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1·2번 트리니티 대상 전투·고용 버프 확인. 세 피해 타입 존재 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 365,
+      "key": "H/월-H",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 367,
+      "key": "H/맥가이어",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 370,
+      "key": "H/아카샤",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 385,
+      "key": "H/우르간",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "3번 마법·카오스 데미지 모두 부재 시 전체 봉인 무효화 5% 확인.",
+      "effects": [
+        {
+          "slot": 3,
+          "index": 2,
+          "rule_id": "no_magic_chaos",
+          "profiles": [
+            "pure_physical"
+          ],
+          "condition": "마법과 카오스 데미지가 모두 없을 때",
+          "expected_description": "마법과 카오스 데미지가 모두 없을 때 모든 용병의 봉인 무효화 확률 +5%",
+          "type_code": null
+        }
+      ]
+    },
+    {
+      "id": 390,
+      "key": "H/뮤턴트",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 408,
+      "key": "H/콘치",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "2번 혼합 용병만 공격할 때 반사 감소 3% 확인.",
+      "effects": [
+        {
+          "slot": 2,
+          "index": 2,
+          "rule_id": "only_mixed_attackers",
+          "profiles": [
+            "pure_mixed"
+          ],
+          "condition": "혼합 용병만 공격 할 때",
+          "expected_description": "혼합 용병만 공격 할 때 적들의 반사 확률 감소 3%",
+          "type_code": 718
+        }
+      ]
+    },
+    {
+      "id": 415,
+      "key": "H/벨",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 420,
+      "key": "H/실비아",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 421,
+      "key": "H/리커",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 431,
+      "key": "H/멜로디",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 442,
+      "key": "H/비아트리체",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "5번 카오스 데미지가 없을 때 부활 감소 3% 확인. 물리 편성에서도 성립하는 부재 조건.",
+      "effects": [
+        {
+          "slot": 5,
+          "index": 2,
+          "rule_id": "no_chaos",
+          "profiles": [
+            "pure_physical",
+            "pure_mixed"
+          ],
+          "condition": "카오스 데미지가 없을 때",
+          "expected_description": "카오스 데미지가 없을 때 적들의 부활 확률 감소 3%",
+          "type_code": 706
+        }
+      ]
+    },
+    {
+      "id": 445,
+      "key": "H/포드릭",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 446,
+      "key": "H/애라",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 447,
+      "key": "H/쥬쥬",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "3번 카오스 부재 반사 감소와 혼합만 공격할 때 더블 어택을 각각 확인.",
+      "effects": [
+        {
+          "slot": 3,
+          "index": 1,
+          "rule_id": "no_chaos",
+          "profiles": [
+            "pure_physical",
+            "pure_mixed"
+          ],
+          "condition": "카오스 데미지가 없을 때",
+          "expected_description": "카오스 데미지가 없을 때 적들의 반사 확률 감소 2%",
+          "type_code": 708
+        },
+        {
+          "slot": 3,
+          "index": 2,
+          "rule_id": "only_mixed_attackers",
+          "profiles": [
+            "pure_mixed"
+          ],
+          "condition": "혼합 용병만 공격 할 때",
+          "expected_description": "혼합 용병만 공격 할 때 모든 용병의 더블 어택 확률 3%",
+          "type_code": 713
+        }
+      ]
+    },
+    {
+      "id": 455,
+      "key": "H/레슈카",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 456,
+      "key": "H/스탈링",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 460,
+      "key": "H/발티나",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 468,
+      "key": "H/에퀴나스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "3번 물리·마법 동시 부재와 츠요나시 참전 시 전체 더블 어택 4% 확인.",
+      "effects": [
+        {
+          "slot": 3,
+          "index": 2,
+          "rule_id": "no_physical_magic_tsuyonashi",
+          "profiles": [
+            "pure_chaos"
+          ],
+          "condition": "물리와 마법 데미지가 모두 없고 츠요나시 참전시",
+          "expected_description": "물리와 마법 데미지가 모두 없고 츠요나시 참전시 모든 용병의 더블 어택 확률 4%",
+          "type_code": 689
+        }
+      ]
+    },
+    {
+      "id": 473,
+      "key": "H/칼리아",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 478,
+      "key": "H/우라칸",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 480,
+      "key": "H/하프단",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "4번 카오스 부재 회피 감소와 혼합만 공격할 때 전체 데미지 계수를 각각 확인.",
+      "effects": [
+        {
+          "slot": 4,
+          "index": 1,
+          "rule_id": "no_chaos",
+          "profiles": [
+            "pure_physical",
+            "pure_mixed"
+          ],
+          "condition": "카오스 데미지가 없을 때",
+          "expected_description": "카오스 데미지가 없을 때 적 회피 확률 감소 3%",
+          "type_code": 715
+        },
+        {
+          "slot": 4,
+          "index": 2,
+          "rule_id": "only_mixed_attackers",
+          "profiles": [
+            "pure_mixed"
+          ],
+          "condition": "혼합 용병만 공격 할 때",
+          "expected_description": "혼합 용병만 공격 할 때 모든 용병의 데미지 +총 각성수 X 0.09%",
+          "type_code": 717
+        }
+      ]
+    },
+    {
+      "id": 487,
+      "key": "H/페가시",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 491,
+      "key": "H/플레이드",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 516,
+      "key": "H/푸시니아",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 525,
+      "key": "H/미오",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 532,
+      "key": "H/룩쏘",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1번 혼합만 강타, 2번 카오스 부재 방어막 감소·혼합만 전체 치명타, 4번 혼합만 흡수 감소를 모두 확인.",
+      "effects": [
+        {
+          "slot": 1,
+          "index": 2,
+          "rule_id": "only_mixed_attackers",
+          "profiles": [
+            "pure_mixed"
+          ],
+          "condition": "혼합 용병만 공격 할 때",
+          "expected_description": "혼합 용병만 공격 할 때 강타 확률 12%",
+          "type_code": 711
+        },
+        {
+          "slot": 2,
+          "index": 1,
+          "rule_id": "no_chaos",
+          "profiles": [
+            "pure_physical",
+            "pure_mixed"
+          ],
+          "condition": "카오스 데미지가 없을 때",
+          "expected_description": "카오스 데미지가 없을 때 적들의 방어막 효과 감소 3%",
+          "type_code": 712
+        },
+        {
+          "slot": 2,
+          "index": 2,
+          "rule_id": "only_mixed_attackers",
+          "profiles": [
+            "pure_mixed"
+          ],
+          "condition": "혼합 용병만 공격 할 때",
+          "expected_description": "혼합 용병만 공격 할 때 모든 용병의 치명타 확률 3%",
+          "type_code": 707
+        },
+        {
+          "slot": 4,
+          "index": 2,
+          "rule_id": "only_mixed_attackers",
+          "profiles": [
+            "pure_mixed"
+          ],
+          "condition": "혼합 용병만 공격 할 때",
+          "expected_description": "혼합 용병만 공격 할 때 적들의 흡수 확률 감소 3%",
+          "type_code": 710
+        }
+      ]
+    },
+    {
+      "id": 533,
+      "key": "H/니모",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "4번 혼합 용병만 공격할 때 부활 감소 3% 확인.",
+      "effects": [
+        {
+          "slot": 4,
+          "index": 2,
+          "rule_id": "only_mixed_attackers",
+          "profiles": [
+            "pure_mixed"
+          ],
+          "condition": "혼합 용병만 공격 할 때",
+          "expected_description": "혼합 용병만 공격 할 때 적들의 부활 확률 감소 3%",
+          "type_code": 723
+        }
+      ]
+    },
+    {
+      "id": 536,
+      "key": "H/포니아",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 537,
+      "key": "H/에반",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 542,
+      "key": "H/로빈",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 548,
+      "key": "H/엑시스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 549,
+      "key": "H/라이샌더",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "4번 물리·마법 동시 부재 시 즉시 공격 데미지 45% 확인.",
+      "effects": [
+        {
+          "slot": 4,
+          "index": 2,
+          "rule_id": "no_physical_magic",
+          "profiles": [
+            "pure_chaos"
+          ],
+          "condition": "물리와 마법 데미지가 모두 없을 때",
+          "expected_description": "물리와 마법 데미지가 모두 없을 때 즉시 공격 데미지 45%",
+          "type_code": 783
+        }
+      ]
+    },
+    {
+      "id": 372,
+      "key": "O/터트로그",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 373,
+      "key": "O/한나",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 378,
+      "key": "O/님부스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 379,
+      "key": "O/티모클리에",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 380,
+      "key": "O/페이스리스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 382,
+      "key": "O/케퍼",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "5번 이파 리더 조건부 약화·둔화 감소 확인. 피해 타입 편성 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 388,
+      "key": "O/리크",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 391,
+      "key": "O/라이언",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 392,
+      "key": "O/짓타",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "4번 혼합만 공격 시 피해 면제 감소 3% 확인.",
+      "effects": [
+        {
+          "slot": 4,
+          "index": 2,
+          "rule_id": "only_mixed_attackers",
+          "profiles": [
+            "pure_mixed"
+          ],
+          "condition": "혼합 용병만 공격 할 때",
+          "expected_description": "혼합 용병만 공격 할 때 적들의 피해 면제 효과 감소 3%",
+          "type_code": 726
+        }
+      ]
+    },
+    {
+      "id": 393,
+      "key": "O/마그누스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 397,
+      "key": "O/트리칼로",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 401,
+      "key": "O/스크롱",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "2번 물리·마법·카오스 모두 존재 시 뿔레오브 3.6% 확인.",
+      "effects": [
+        {
+          "slot": 2,
+          "index": 2,
+          "rule_id": "all_three_present",
+          "profiles": [
+            "trinity"
+          ],
+          "condition": "물리, 마법, 카오스 데미지가 모두 있을 때",
+          "expected_description": "물리, 마법, 카오스 데미지가 모두 있을 때 뿔레오브 획득 확률 3.6%",
+          "type_code": 704
+        }
+      ]
+    },
+    {
+      "id": 405,
+      "key": "O/마줄리스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 409,
+      "key": "O/프로스트",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "2번 마법·카오스 부재와 4번 물리 데미지 최대 조건 각각 확인.",
+      "effects": [
+        {
+          "slot": 2,
+          "index": 2,
+          "rule_id": "no_magic_chaos",
+          "profiles": [
+            "pure_physical"
+          ],
+          "condition": "마법과 카오스 데미지가 모두 없을 때",
+          "expected_description": "마법과 카오스 데미지가 모두 없을 때 적들의 피해 면제 효과 감소 5%",
+          "type_code": 697
+        },
+        {
+          "slot": 4,
+          "index": 2,
+          "rule_id": "physical_highest",
+          "profiles": [
+            "pure_physical"
+          ],
+          "condition": "물리 데미지가 가장 높을 때",
+          "expected_description": "물리 데미지가 가장 높을 때 적들의 약화 효과 감소 3.6%",
+          "type_code": 699
+        }
+      ]
+    },
+    {
+      "id": 423,
+      "key": "O/마발",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 426,
+      "key": "O/코아틀",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "2·3번 물리·마법 부재 조건으로 반사 감소 및 전체 강타 확률 발동 확인.",
+      "effects": [
+        {
+          "slot": 2,
+          "index": 2,
+          "rule_id": "no_physical_magic",
+          "profiles": [
+            "pure_chaos"
+          ],
+          "condition": "물리와 마법 데미지가 모두 없을 때",
+          "expected_description": "물리와 마법 데미지가 모두 없을 때 적들의 반사 확률 감소 1.5%",
+          "type_code": 691
+        },
+        {
+          "slot": 3,
+          "index": 2,
+          "rule_id": "no_physical_magic",
+          "profiles": [
+            "pure_chaos"
+          ],
+          "condition": "물리와 마법 데미지가 모두 없을 때",
+          "expected_description": "물리와 마법 데미지가 모두 없을 때 모든 용병의 강타 확률 1.5%",
+          "type_code": 692
+        }
+      ]
+    },
+    {
+      "id": 438,
+      "key": "O/오크둠",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 452,
+      "key": "O/이름없는 자",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1·4번 트리니티 대상 전투·고용 버프 확인. 세 피해 타입 존재 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 453,
+      "key": "O/이카루스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 454,
+      "key": "O/케이나인",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "2번 혼합만 공격 시 전체 강타 배수 증폭 7.5% 확인.",
+      "effects": [
+        {
+          "slot": 2,
+          "index": 2,
+          "rule_id": "only_mixed_attackers",
+          "profiles": [
+            "pure_mixed"
+          ],
+          "condition": "혼합 용병만 공격 할 때",
+          "expected_description": "혼합 용병만 공격 할 때 모든 용병의 강타 배수 증폭 7.5%",
+          "type_code": 716
+        }
+      ]
+    },
+    {
+      "id": 461,
+      "key": "O/하인리히",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "2번 카오스 부재 흡수 감소 3% 확인. 물리 편성에서도 성립하는 조건.",
+      "effects": [
+        {
+          "slot": 2,
+          "index": 2,
+          "rule_id": "no_chaos",
+          "profiles": [
+            "pure_physical",
+            "pure_mixed"
+          ],
+          "condition": "카오스 데미지가 없을 때",
+          "expected_description": "카오스 데미지가 없을 때 적들의 흡수 확률 감소 3%",
+          "type_code": 700
+        }
+      ]
+    },
+    {
+      "id": 465,
+      "key": "O/떡흐",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 470,
+      "key": "O/아가요르",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 474,
+      "key": "O/레베카",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 475,
+      "key": "O/올리비아",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 476,
+      "key": "O/르네",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 481,
+      "key": "O/아스트랄",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 492,
+      "key": "O/글렌",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "3번 물리 저항 감소와 마법·카오스에 대한 불이익 확인. 타입 부재에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 493,
+      "key": "O/안드레",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "3번 마법 저항 감소와 물리·카오스에 대한 불이익 확인. 타입 부재에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 494,
+      "key": "O/툴팁미씽",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "3번 카오스 취약성과 물리·마법에 대한 불이익 확인. 타입 부재에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 512,
+      "key": "O/미미",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 530,
+      "key": "O/베인",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 534,
+      "key": "O/엑시",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 544,
+      "key": "O/이모텝",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 550,
+      "key": "O/쟝 피엘",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "4번 물리·마법 모두 부재 시 즉시 공격 속도 40% 확인.",
+      "effects": [
+        {
+          "slot": 4,
+          "index": 2,
+          "rule_id": "no_physical_magic",
+          "profiles": [
+            "pure_chaos"
+          ],
+          "condition": "물리와 마법 데미지가 모두 없을 때",
+          "expected_description": "물리와 마법 데미지가 모두 없을 때 즉시 공격 속도 40%",
+          "type_code": 786
+        }
+      ]
+    },
+    {
+      "id": -1005,
+      "key": "P/안텔로페",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "5번 물리·마법 모두 부재 시 전체 행운 배수 증폭 4% 확인. 3번은 리더 조건.",
+      "effects": [
+        {
+          "slot": 5,
+          "index": 2,
+          "rule_id": "no_physical_magic",
+          "profiles": [
+            "pure_chaos"
+          ],
+          "condition": "물리와 마법 데미지가 모두 없을 때",
+          "expected_description": "물리와 마법 데미지가 모두 없을 때 모든 용병의 행운 배수 증폭 +4%",
+          "type_code": null
+        }
+      ]
+    },
+    {
+      "id": -1004,
+      "key": "P/닉스",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "3번 물리·마법 모두 부재 시 전체 선제 공격 1.6% 확인. 안텔로페 참전 흡수 효과는 별도.",
+      "effects": [
+        {
+          "slot": 3,
+          "index": 1,
+          "rule_id": "no_physical_magic",
+          "profiles": [
+            "pure_chaos"
+          ],
+          "condition": "물리와 마법 데미지가 모두 없을 때",
+          "expected_description": "물리와 마법 데미지가 모두 없을 때 모든 용병의 선제 공격 확률 +1.6%",
+          "type_code": null
+        }
+      ]
+    },
+    {
+      "id": 496,
+      "key": "P/클로로티카",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 497,
+      "key": "P/프리츠",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "물리·혼합 대상 버프와 카오스 성장 불이익 확인. 타입 부재에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 498,
+      "key": "P/시로이누",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 499,
+      "key": "P/츠요나시",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "3번 물리·마법 모두 부재 시 전체 봉인 무효화 3% 확인.",
+      "effects": [
+        {
+          "slot": 3,
+          "index": 2,
+          "rule_id": "no_physical_magic",
+          "profiles": [
+            "pure_chaos"
+          ],
+          "condition": "물리와 마법 데미지가 모두 없을 때",
+          "expected_description": "물리와 마법 데미지가 모두 없을 때 모든 용병의 봉인 무효화 확률 3%",
+          "type_code": 784
+        }
+      ]
+    },
+    {
+      "id": 500,
+      "key": "P/레무",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 501,
+      "key": "P/데우스 마키나",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 502,
+      "key": "P/크사르파트라",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1·4번 트리니티 전투·고용 버프 확인. 세 피해 타입 존재 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 503,
+      "key": "P/스즈모리",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 505,
+      "key": "P/메도우",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 507,
+      "key": "P/미스터 페퍼",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 508,
+      "key": "P/무슈 페퍼",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 520,
+      "key": "P/오컴",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 521,
+      "key": "P/리스크",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 528,
+      "key": "P/루돌프",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 531,
+      "key": "P/리스켈",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 535,
+      "key": "P/헬가",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1번 물리 고용 강타 배수, 5번 물리 성장 버프 확인. 편성 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 538,
+      "key": "P/유나",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "2번 리더 조건, 5번 마법 대상 치명타 효과 확인. 피해 타입 편성 발동 제한 없음.",
+      "effects": []
+    },
+    {
+      "id": 546,
+      "key": "P/보프니걸",
+      "reviewed_slots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "individually_reviewed",
+      "note": "1~5번 효과와 고용 패시브 확인. 편성에 따른 발동 제한 없음.",
+      "effects": []
+    }
+  ]
+}
